@@ -2,6 +2,7 @@
 
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
+import { comicSans } from '../fonts';
 
 const TitleWord = ({ text, isMobile }: { text: string; isMobile: boolean }) => (
   <span className="inline-block">
@@ -36,7 +37,9 @@ export default function Header() {
     <header className="mb-8 bg-[#869bbf]">
       <div className="container mx-auto px-4">
         <Link href="/">
-          <h1 className="font-['Comic_Sans_MS'] font-bold text-white py-4 tracking-wide flex flex-wrap items-baseline gap-2">
+          <h1
+            className={`${comicSans.className} font-bold text-white py-4 tracking-wide flex flex-wrap items-baseline gap-2`}
+          >
             <TitleWord text="ADDICTING" isMobile={isMobile} />
             <TitleWord text="GAMES" isMobile={isMobile} />
             <span
