@@ -36,6 +36,7 @@ export default function SubmitGame() {
       setMessage('Game submitted successfully!');
       setFormData({ name: '', description: '', author: '', gameUrl: '' });
     } catch (error) {
+      console.error('Error submitting game:', error);
       setStatus('error');
       setMessage('Failed to submit game. Please try again.');
     }
