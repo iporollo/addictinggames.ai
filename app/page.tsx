@@ -52,6 +52,14 @@ export default function Home() {
                     View All Games
                   </Link>
                 </li>
+                <li>
+                  <Link
+                    href="/submit"
+                    className="text-blue-600 hover:underline"
+                  >
+                    Submit Game
+                  </Link>
+                </li>
               </ul>
             </div>
           </div>
