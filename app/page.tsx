@@ -57,7 +57,7 @@ export default function Home() {
                     href="/submit"
                     className="text-blue-600 hover:underline"
                   >
-                    Submit Game
+                    Submit A Game
                   </Link>
                 </li>
               </ul>
