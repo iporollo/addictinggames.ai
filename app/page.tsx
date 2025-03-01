@@ -37,7 +37,7 @@ export default function Home() {
           </div>
 
           {/* Sidebar */}
-          <div className="lg:w-80">
+          <div className="lg:w-80 pb-8">
             {/* Email Subscription */}
             <SubscriptionForm />
 
