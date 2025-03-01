@@ -4,7 +4,7 @@ import { useEffect, useRef, useState, use } from 'react';
 import Header from '../../components/Header';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import { featuredGames, Game } from '../../page';
+import { games } from '@/utils/games';
 
 interface GamePageProps {
   params: Promise<{
@@ -14,7 +14,7 @@ interface GamePageProps {
 
 export default function GamePage({ params }: GamePageProps) {
   const { slug } = use(params);
-  const game = featuredGames.find((g: Game) => g.slug === slug);
+  const game = games.find((g: Game) => g.slug === slug);
   const iframeRef = useRef<HTMLIFrameElement>(null);
   const [isLoading, setIsLoading] = useState(true);
 

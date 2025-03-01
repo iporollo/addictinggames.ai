@@ -1,101 +1,8 @@
+import Link from 'next/link';
 import GameCard from './components/GameCard';
 import Header from './components/Header';
 import SubscriptionForm from './components/SubscriptionForm';
-
-export interface Game {
-  id: string;
-  title: string;
-  description: string;
-  category: string;
-  slug: string;
-  imageUrl?: string;
-  emoji?: string;
-  author?: string;
-  gameUrl: string;
-}
-
-export const featuredGames: Game[] = [
-  {
-    id: '1',
-    title: 'fly.pieter.com',
-    description: 'Free to play MMO flight simulator',
-    category: 'Simulation',
-    slug: 'fly-pieter',
-    imageUrl: '/games/fly_pieter.webp',
-    author: 'levelsio',
-    gameUrl: 'https://fly.pieter.com',
-  },
-  {
-    id: '2',
-    title: 'Combat Mission',
-    description: 'Tactical combat simulation',
-    category: 'Action',
-    slug: 'combat-mission',
-    author: 'reaganmaconi',
-    imageUrl: '/games/combat_mission.jpeg',
-    gameUrl: 'https://combatmission.vercel.app/',
-  },
-  {
-    id: '3',
-    title: 'Platform Party',
-    description: 'Create, share, and play custom platformer levels!',
-    category: 'Multiplayer',
-    slug: 'platform-party',
-    imageUrl: '/games/platform_party.jpg',
-    author: 'javinladish',
-    gameUrl: 'https://platformparty.io/play/',
-  },
-  {
-    id: '4',
-    title: 'Cybertruck Rocket League',
-    description: 'Rocket-powered cybertruck soccer',
-    category: 'Sports',
-    slug: 'cybertruck-rocket',
-    imageUrl: '/games/cybertruck_rocket.webp',
-    author: 'rick_boers',
-    gameUrl: 'https://rickboers.com/game.html',
-  },
-  {
-    id: '5',
-    title: '3D Car Driving Simulator',
-    description: 'Realistic 3D driving experience',
-    category: 'Simulation',
-    slug: '3d-car-simulator',
-    imageUrl: '/games/car_simulator.jpeg',
-    author: 'ozgrozer',
-    gameUrl: 'https://3d-car-driving-simulation.vercel.app',
-  },
-  {
-    id: '6',
-    title: '2D GTA',
-    imageUrl: '/games/2d_gta.webp',
-    description: 'Top down GTA inspired game with procedurally generated maps',
-    category: 'Action',
-    slug: '2d-gta',
-    author: 'marckohlbrugge',
-    gameUrl: 'https://gta.marc.io',
-  },
-  {
-    id: '7',
-    title: 'Island Survivor',
-    imageUrl: '/games/island_survivor.jpg',
-    description: 'Survive a crash landing on a desert island',
-    category: 'Survival',
-    slug: 'island-survivor',
-    author: 'jasperdeboer',
-    gameUrl: 'https://ja.sperdeboer.nl/island/',
-  },
-  {
-    id: '8',
-    title: 'Blocky RTS',
-    imageUrl: '/games/aoe_rts.png',
-    description: 'Simple block styled real-time strategy game',
-    category: 'Strategy',
-    slug: 'aoe-rts',
-    author: 'HeyItzaMi',
-    gameUrl: 'https://aoe-rts.itzami.com/',
-  },
-];
+import { games } from '@/utils/games';
 
 export default function Home() {
   return (
@@ -114,7 +21,7 @@ export default function Home() {
                 </h2>
               </div>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                {featuredGames.map((game) => (
+                {games.map((game) => (
                   <GameCard
                     key={game.id}
                     title={game.title}
@@ -141,9 +48,9 @@ export default function Home() {
               </h3>
               <ul className="space-y-2">
                 <li>
-                  <a href="/games" className="text-blue-600 hover:underline">
+                  <Link href="/games" className="text-blue-600 hover:underline">
                     View All Games
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>

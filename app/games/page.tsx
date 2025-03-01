@@ -1,4 +1,4 @@
-import { featuredGames } from '../page';
+import { games } from '@/utils/games';
 import Header from '../components/Header';
 import Link from 'next/link';
 
@@ -34,7 +34,7 @@ export default function GamesPage() {
             All Games
           </h1>
           <ul className="space-y-2">
-            {featuredGames.map((game) => (
+            {games.map((game) => (
               <li key={game.id}>
                 <Link
                   href={`/games/${game.slug}`}
