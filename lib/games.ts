@@ -3,6 +3,7 @@ import { games, type Game } from './catalog';
 export type PlayableGame = Game & { shortDescription: string; embedUrl: string; sandbox?: string };
 
 export const newGameSlugs = [
+  'dili-cart', 'project-nova', 'trip-ibadan', 'snowboard-supreme', 'senor-inteligente',
   'sykes-picot', 'ripple-pool', 'church-life', 'time-echo', 'nushi-fishing',
   'ashen-vow', 'little-lake', 'dliclips-rush', 'dlicom-attack', 'ski-jumping',
   'skyrunner', 'stardust-isles', 'battle-peaks', 'lava-lasso', 'mutual-fun',
@@ -18,6 +19,11 @@ const newGameSandbox = 'allow-scripts allow-pointer-lock';
 
 // Only browser-verified games are shipped. Finalized in verification/GAME-REPORT.md.
 export const verifiedEmbeds: Record<string, string> = {
+  'senor-inteligente': 'https://inteligente.lol/',
+  'snowboard-supreme': 'https://snowboard-supreme.vercel.app/',
+  'trip-ibadan': 'https://trip-ibadan.vercel.app/',
+  'project-nova': 'https://project-nova-v0001.grok.me/',
+  'dili-cart': 'https://dili-cart.pages.dev/',
   'nushi-fishing': 'https://nushizuri02.netlify.app/',
   'time-echo': 'https://time-echo-play.vercel.app/',
   'church-life': 'https://churchlife.netlify.app/',
@@ -61,6 +67,11 @@ export const verifiedEmbeds: Record<string, string> = {
 };
 
 const descriptions: Record<string, string> = {
+  'senor-inteligente': 'Lasso the signs in a playful satire',
+  'snowboard-supreme': 'Carve a line down an endless mountain',
+  'trip-ibadan': 'Pick up passengers and drive the city route',
+  'project-nova': 'Dodge and fire across neon space lanes',
+  'dili-cart': 'Race the Dili Circuit as a guest',
   'nushi-fishing': 'Cast a line in the rain and reel in a catch',
   'time-echo': 'Find a memory inside a repeating 3D world',
   'church-life': 'Meet the neighbors on Grace Avenue',
