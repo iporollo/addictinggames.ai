@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img" aria-label="Dust and Lead illustration">
+  <rect width="400" height="260" fill="#20384a"/>
+  <path d="M0 165 72 140 145 168 221 128 292 160 360 133 400 152v108H0Z" fill="#b76749"/>
+  <path d="M0 190 84 177 150 197 235 165 322 189 400 170v90H0Z" fill="#df9560"/>
+  <path d="M0 220h400v40H0Z" fill="#5d392d"/>
+  <path d="M78 183h120v40H78z" fill="#583629"/><path d="M89 173h100l-16-14H104Z" fill="#875438"/>
+  <path d="M270 210v-54m-15 27h31m-19-19 3-12" fill="none" stroke="#345d43" stroke-width="11" stroke-linecap="round"/>
+  <path d="M209 208v-30m-16 2h32m-25-2 6-19h12l6 19" fill="none" stroke="#282527" stroke-width="9" stroke-linecap="round"/>
+  <path d="M190 161h36l-7-8h-22Z" fill="#31201e"/>
+  <rect x="14" y="14" width="372" height="232" rx="12" fill="none" stroke="#f4c180" stroke-width="2"/>
+  <text x="28" y="53" font-family="Georgia,serif" font-size="35" font-weight="700" fill="#fff1bf">DUST &amp; LEAD</text>
+  <text x="29" y="239" font-family="Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="3" fill="#ffdda6">PLAY IN BROWSER</text>
+</svg>
