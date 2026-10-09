@@ -1,6 +1,12 @@
 import { games, type Game } from './catalog';
 
-export type PlayableGame = Game & { shortDescription: string; embedUrl: string };
+export type PlayableGame = Game & { shortDescription: string; embedUrl: string; sandbox?: string };
+
+export const newGameSlugs = ['neon-nightfall', 'hungry-seal', 'flap-nyc', 'salmon-survival', 'soccar'];
+
+// New external games get scripts and pointer lock only. In particular, do not
+// grant allow-same-origin together with allow-scripts to untrusted game pages.
+const newGameSandbox = 'allow-scripts allow-pointer-lock';
 
 // Only browser-verified games are shipped. Finalized in verification/GAME-REPORT.md.
 export const verifiedEmbeds: Record<string, string> = {
@@ -9,6 +15,11 @@ export const verifiedEmbeds: Record<string, string> = {
   'island-survivor': 'https://ja.sperdeboer.nl/island/',
   'falling-bubbles': 'https://falling-bubbles.vercel.app/',
   'ww2-dogfight': 'https://fly.zullo.fun/',
+  'soccar': 'https://soccar-one.vercel.app/',
+  'salmon-survival': 'https://salmon-survival.vercel.app/',
+  'hungry-seal': 'https://hungry-seal.horly.dev/',
+  'neon-nightfall': 'https://mdhasibul35.github.io/neon-nightfall/',
+  'flap-nyc': 'https://flapnyc.kumodeck.app/',
 };
 
 const descriptions: Record<string, string> = {
@@ -23,11 +34,18 @@ const descriptions: Record<string, string> = {
   'falling-bubbles': 'Pop your way through falling bubbles',
   'vibesail': 'Catch the wind and set sail',
   'ww2-dogfight': 'Take on thrilling aerial battles',
+  'soccar': 'Drive, boost, score',
+  'salmon-survival': 'Swim against the current',
+  'hungry-seal': 'Swim, snack, and grow',
+  'neon-nightfall': 'Survive the glowing horde',
+  'flap-nyc': 'Cross a neon Manhattan',
 };
 
 export const playableGames: PlayableGame[] = games
   .filter(game => Boolean(verifiedEmbeds[game.slug]))
-  .map(game => ({ ...game, shortDescription: descriptions[game.slug], embedUrl: verifiedEmbeds[game.slug] }));
+  .map(game => ({ ...game, shortDescription: descriptions[game.slug], embedUrl: verifiedEmbeds[game.slug], sandbox: newGameSlugs.includes(game.slug) ? newGameSandbox : undefined }));
+
+export const legacyPlayableGames = playableGames.filter(game => !newGameSlugs.includes(game.slug));
 
 export const alphabeticalGames = [...playableGames].sort((a, b) =>
   a.title.localeCompare(b.title, 'en', { sensitivity: 'base' }),
@@ -45,10 +63,9 @@ export const featuredGames = orderedGames([
   '2d-gta', 'platform-party', 'aoe-rts', 'vibesail', 'combat-mission', 'falling-bubbles', 'ww2-dogfight',
 ]);
 
-// Reverse source order is stable; it implies no publication dates.
-export const newGames = [...playableGames].reverse();
-export const simulatorGames = playableGames.filter(game => game.category === 'Simulation');
-export const survivalGames = playableGames.filter(game => ['Survival', 'Strategy'].includes(game.category));
+export const newGames = orderedGames(newGameSlugs);
+export const simulatorGames = legacyPlayableGames.filter(game => game.category === 'Simulation');
+export const survivalGames = legacyPlayableGames.filter(game => ['Survival', 'Strategy'].includes(game.category));
 
 export function matchesGame(game: PlayableGame, query: string) {
   const text = `${game.title} ${game.description} ${game.category} ${game.author}`.toLocaleLowerCase('en');

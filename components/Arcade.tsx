@@ -3,17 +3,17 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { featuredGames, newGames, playableGames, simulatorGames, survivalGames, matchesGame, type PlayableGame } from '@/lib/games';
+import { featuredGames, newGames, playableGames, legacyPlayableGames, simulatorGames, survivalGames, matchesGame, type PlayableGame } from '@/lib/games';
 import { useRecentGames } from '@/lib/history';
 import { Icon, type IconName } from './Icon';
 import { Newsletter } from './Newsletter';
 import { QuickLinks } from './QuickLinks';
 
 const collections: { title: string; icon: IconName; games: PlayableGame[] }[] = [
-  { title: 'Action', icon: 'action', games: playableGames.filter(game => game.category === 'Action') },
+  { title: 'Action', icon: 'action', games: legacyPlayableGames.filter(game => game.category === 'Action') },
   { title: 'Simulators', icon: 'simulator', games: simulatorGames },
   { title: 'Survival and Strategy', icon: 'survival', games: survivalGames },
-  { title: 'Multiplayer and Puzzle', icon: 'multiplayer', games: playableGames.filter(game => ['Multiplayer', 'Puzzle'].includes(game.category)) },
+  { title: 'Multiplayer and Puzzle', icon: 'multiplayer', games: legacyPlayableGames.filter(game => ['Multiplayer', 'Puzzle'].includes(game.category)) },
 ];
 
 function ArcadeCard({ game, eager = false }: { game: PlayableGame; eager?: boolean }) {
