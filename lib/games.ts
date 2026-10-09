@@ -45,21 +45,12 @@ export const featuredGames = orderedGames([
   '2d-gta', 'platform-party', 'aoe-rts', 'vibesail', 'combat-mission', 'falling-bubbles', 'ww2-dogfight',
 ]);
 
-// Reverse source order is a stable showcase order; it implies no publication dates.
+// Reverse source order is stable; it implies no publication dates.
 export const newGames = [...playableGames].reverse();
-// A prototype shelf, never an analytics-derived ranking.
-export const mostPlayedGames = orderedGames([
-  '2d-gta', '3d-car-simulator', 'fly-pieter', 'cybertruck-rocket', 'aoe-rts',
-  'island-survivor', 'falling-bubbles', 'platform-party', 'vibesail', 'combat-mission', 'ww2-dogfight',
-]);
 export const simulatorGames = playableGames.filter(game => game.category === 'Simulation');
 export const survivalGames = playableGames.filter(game => ['Survival', 'Strategy'].includes(game.category));
 
-export const categories = ['Discover', 'Action', 'Simulators', 'Survival', 'Strategy', 'Multiplayer'] as const;
-export type Category = typeof categories[number];
-
-export function matchesGame(game: PlayableGame, query: string, category: Category) {
-  const categoryMatch = category === 'Discover' || game.category === (category === 'Simulators' ? 'Simulation' : category);
+export function matchesGame(game: PlayableGame, query: string) {
   const text = `${game.title} ${game.description} ${game.category} ${game.author}`.toLocaleLowerCase('en');
-  return categoryMatch && text.includes(query.trim().toLocaleLowerCase('en'));
+  return text.includes(query.trim().toLocaleLowerCase('en'));
 }

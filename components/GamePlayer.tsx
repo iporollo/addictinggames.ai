@@ -4,12 +4,10 @@ import Link from 'next/link';
 import { useEffect, useRef, useState } from 'react';
 import type { PlayableGame } from '@/lib/games';
 import { recordPlayed, forgetPlayed } from '@/lib/history';
-import { useShowcaseVersion } from '@/lib/showcase-version';
 import { BackToDiscover } from './BackToDiscover';
 import { Icon } from './Icon';
 
 export function GamePlayer({ game }: { game: PlayableGame }) {
-  const version = useShowcaseVersion();
   const [state, setState] = useState<'loading' | 'loaded' | 'failed'>('loading');
   const [attempt, setAttempt] = useState(0);
   const [fullscreenError, setFullscreenError] = useState('');
@@ -37,7 +35,7 @@ export function GamePlayer({ game }: { game: PlayableGame }) {
       <div className="game-viewport" ref={viewport} aria-busy={state === 'loading'}>
         <button type="button" className="exit-fullscreen button secondary" onClick={() => document.exitFullscreen().catch(() => setFullscreenError('Use your browser’s fullscreen control to return.'))}><Icon name="close" />Exit fullscreen</button>
         {state === 'loading' && <div className="player-state" role="status"><span className="spinner" /><h3>Getting your game ready</h3><p>Loading {game.title}…</p></div>}
-        {state === 'failed' ? <div className="player-state"><Icon name="gamepad" width={44} height={44} /><h3>This game is taking a break</h3><p>We couldn’t load the game right now. Give it another try in a moment.</p><button type="button" className="button primary" onClick={retry}>Try again</button><Link href={version === 'b' ? '/' : '/version-a'} className="text-link">Discover another game</Link></div> : <iframe key={attempt} title={`Play ${game.title}`} src={game.embedUrl} allow="autoplay; fullscreen; gamepad" allowFullScreen referrerPolicy="strict-origin-when-cross-origin" onLoad={() => {
+        {state === 'failed' ? <div className="player-state"><Icon name="gamepad" width={44} height={44} /><h3>This game is taking a break</h3><p>We couldn’t load the game right now. Give it another try in a moment.</p><button type="button" className="button primary" onClick={retry}>Try again</button><Link href="/" className="text-link">Discover another game</Link></div> : <iframe key={attempt} title={`Play ${game.title}`} src={game.embedUrl} allow="autoplay; fullscreen; gamepad" allowFullScreen referrerPolicy="strict-origin-when-cross-origin" onLoad={() => {
           loaded.current = true;
           setState('loaded');
           // Only games verified in a real browser can reach this route.

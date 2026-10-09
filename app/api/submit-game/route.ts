@@ -7,9 +7,12 @@ export async function POST(request: Request) {
   if (!body || typeof body !== 'object') return Response.json({ error: 'Invalid request' }, { status: 400 });
   const data = body as Record<string, unknown>;
   const value = (key: string) => typeof data[key] === 'string' ? data[key].trim() : '';
-  const name = value('name'), description = value('description'), author = value('author'), gameUrl = value('gameUrl'), github = value('github');
-  if (!name || name.length > 100 || !description || description.length > 2000 || !/^@?[A-Za-z0-9_]{1,15}$/.test(author) || !gameUrl || gameUrl.length > 2048 || github.length > 2048) {
+  const name = value('name'), description = value('description'), author = value('author'), gameUrl = value('gameUrl'), email = value('email'), github = value('github');
+  if (!name || name.length > 100 || !description || description.length > 2000 || (author && !/^@?[A-Za-z0-9_]{1,15}$/.test(author)) || !gameUrl || gameUrl.length > 2048 || github.length > 2048) {
     return Response.json({ error: 'Check your game details and try again' }, { status: 400 });
+  }
+  if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email) || email.length > 254) {
+    return Response.json({ error: 'A valid email address is required' }, { status: 400 });
   }
   try {
     if (!['https:', 'http:'].includes(new URL(gameUrl).protocol)) throw new Error('Invalid game URL');
@@ -24,9 +27,14 @@ export async function POST(request: Request) {
   try {
     const response = await fetch(`https://api.airtable.com/v0/${base}/${AIRTABLE_TABLE_ID}`, {
       method: 'POST', headers: { Authorization: `Bearer ${apiKey}`, 'Content-Type': 'application/json' },
-      // Keep the existing Airtable schema. The optional repository is included
-      // in Description instead of assuming an unverified new Airtable column.
-      body: JSON.stringify({ records: [{ fields: { Name: name, Description: github ? `${description}\n\nGitHub repository: ${github}` : description, Author: author, GameURL: gameUrl } }] }),
+      // Airtable holds review records, not the public catalog. Preserve contact
+      // details in the existing schema; remove review notes before publishing.
+      body: JSON.stringify({ records: [{ fields: {
+        Name: name,
+        Description: [description, github ? `GitHub repository: ${github}` : '', `Contact email (review only): ${email}`].filter(Boolean).join('\n\n'),
+        ...(author ? { Author: author } : {}),
+        GameURL: gameUrl,
+      } }] }),
       signal: AbortSignal.timeout(10000),
     });
     if (!response.ok) return Response.json({ error: 'Could not submit the game right now' }, { status: 502 });
