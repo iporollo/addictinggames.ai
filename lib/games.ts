@@ -3,6 +3,7 @@ import { games, type Game } from './catalog';
 export type PlayableGame = Game & { shortDescription: string; embedUrl: string; sandbox?: string };
 
 export const newGameSlugs = [
+  'turbo-kart-gp', 'gigacity', 'terra-incognita', 'rajyam', 'pulse',
   'k-dudu-ironfang', 'sadie-and-luna', 'ash-line', 'heroes-journey', 'plaid-circuit',
   'dili-cart', 'project-nova', 'trip-ibadan', 'snowboard-supreme', 'senor-inteligente',
   'sykes-picot', 'ripple-pool', 'church-life', 'time-echo', 'nushi-fishing',
@@ -20,6 +21,11 @@ const newGameSandbox = 'allow-scripts allow-pointer-lock';
 
 // Only browser-verified games are shipped. Finalized in verification/GAME-REPORT.md.
 export const verifiedEmbeds: Record<string, string> = {
+  'turbo-kart-gp': 'https://turbo-kart-gp-6e9.pages.dev/',
+  'gigacity': 'https://sael.net/gigacity',
+  'terra-incognita': 'https://mts.now/mathofthewild',
+  'rajyam': 'https://playrajyam.com/',
+  'pulse': 'https://orbix.grok.me/',
   'k-dudu-ironfang': 'https://oasis-winter-blade-thunder.grok.me/',
   'plaid-circuit': 'https://roadster.grok.me/',
   'heroes-journey': 'https://heroezjourney.com/',
@@ -73,6 +79,11 @@ export const verifiedEmbeds: Record<string, string> = {
 };
 
 const descriptions: Record<string, string> = {
+  'turbo-kart-gp': 'Race a four-track cup with seven rivals',
+  'gigacity': 'Fly through a generated vertical city',
+  'terra-incognita': 'Explore an island of math puzzles',
+  'rajyam': 'Aim and fire to defend your castle',
+  'pulse': 'Switch sides and keep the pulse alive',
   'k-dudu-ironfang': 'Fight through a pixel-art action stage',
   'plaid-circuit': 'Choose a car and race an arcade circuit',
   'heroes-journey': 'Battle knights on a colorful forest road',
