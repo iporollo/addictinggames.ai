@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img" aria-label="Faux Ami illustration">
+  <rect width="400" height="260" fill="#d9e4ff"/>
+  <circle cx="335" cy="65" r="53" fill="#f9d470" opacity=".65"/>
+  <rect x="55" y="82" width="126" height="75" rx="17" transform="rotate(-9 55 82)" fill="#fff" stroke="#252842" stroke-width="4"/>
+  <text x="75" y="126" font-family="Arial,sans-serif" font-size="22" font-weight="700" fill="#2c3daa">CHOCOLAT</text>
+  <path d="m192 124 26 11-24 15" fill="none" stroke="#ed696f" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="229" y="113" width="125" height="78" rx="19" transform="rotate(7 229 113)" fill="#fff" stroke="#252842" stroke-width="4"/>
+  <text x="245" y="160" font-family="Arial,sans-serif" font-size="21" font-weight="700" fill="#2c3daa">CHOCOLATE</text>
+  <path d="m58 191 19-8 14 13 18-17" fill="none" stroke="#ef8587" stroke-width="7" stroke-linecap="round"/>
+  <rect x="14" y="14" width="372" height="232" rx="12" fill="none" stroke="#293fa0" stroke-width="2"/>
+  <text x="29" y="54" font-family="Arial,sans-serif" font-size="38" font-weight="800" fill="#253692">FAUX AMI</text>
+  <text x="29" y="238" font-family="Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="3" fill="#273997">PLAY IN BROWSER</text>
+</svg>

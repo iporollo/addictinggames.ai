@@ -3,6 +3,7 @@ import { games, type Game } from './catalog';
 export type PlayableGame = Game & { shortDescription: string; embedUrl: string; sandbox?: string };
 
 export const newGameSlugs = [
+  'faux-ami', 'dust-and-lead', 'go-for-launch', 'mars-gt', 'pantry-dash',
   'kindlekeep-td', 'quiet-rooms', 'ink-dash', 'third-mainland-biker', 'dirtline',
   'orbit-forge', 'freesbee', 'moonlit-spellcaster', 'dracula-0', 'thermopylae',
   'neon-nightfall', 'hungry-seal', 'flap-nyc', 'salmon-survival', 'soccar',
@@ -34,6 +35,11 @@ export const verifiedEmbeds: Record<string, string> = {
   'ink-dash': 'https://rajpurohitkushal92.github.io/khnix-game-12/',
   'quiet-rooms': 'https://53616d616e746861.github.io/quiet-rooms/',
   'kindlekeep-td': 'https://kindlekeep.vercel.app/',
+  'pantry-dash': 'https://mdhasibul35.github.io/pantry-dash/',
+  'mars-gt': 'https://mars-gt.vercel.app/',
+  'go-for-launch': 'https://go4launch.grok.me/',
+  'dust-and-lead': 'https://inkstaid.github.io/dust-and-lead/',
+  'faux-ami': 'https://faux-ami-french-game.vercel.app/',
 };
 
 const descriptions: Record<string, string> = {
@@ -63,6 +69,11 @@ const descriptions: Record<string, string> = {
   'ink-dash': 'Dash through a neon rogue arena',
   'quiet-rooms': 'Wander through rooms beneath strange skies',
   'kindlekeep-td': 'Defend the vale from goblin waves',
+  'pantry-dash': 'Collect cheese and dodge kitchen cats',
+  'mars-gt': 'Drive a winding canyon on two worlds',
+  'go-for-launch': 'Steer and vent on a night run',
+  'dust-and-lead': 'Ride across the pixel Wild West',
+  'faux-ami': 'Spot the French false friends',
 };
 
 export const playableGames: PlayableGame[] = games
