@@ -20,7 +20,6 @@ const source: [string, string, string, string, string][] = [
   ['black-ops-2', 'Black Ops 2', 'Action', 'Open a browser action port', 'https://vibeslops.luckeysystems.com/'],
   ['modern-warfare-2', 'Modern Warfare 2', 'Action', 'Open a browser combat port', 'https://ovz-game-production.up.railway.app/'],
   ['skate-3', 'Skate 3', 'Sports', 'Skate in a browser world', 'https://skate.aaddpp.lol/'],
-  ['skate-rust', 'Skate Rust', 'Sports', 'Try a browser skating game', 'https://global-terror.net/'],
   ['cs-surf', 'CS Surf', 'Sports', 'Surf a map with desktop mouse controls', 'https://surfd.net/'],
   ['halo-ce', 'Halo CE', 'Action', 'Open a browser sci-fi shooter', 'https://mitchellhynes.com/halo'],
   ['halo-ce-mobile', 'Halo CE mobile', 'Action', 'Try a mobile browser version', 'https://hcemobile.com/'],
@@ -36,7 +35,6 @@ const source: [string, string, string, string, string][] = [
   ['half-life', 'Half Life', 'Action', 'Play a browser Half-Life port', 'https://pixelsuft.github.io/hl/'],
   ['half-life-cs-16', 'Half Life / CS 1.6', 'Action', 'Launch a WebXash shooter port', 'https://x8bitrain.github.io/webXash/'],
   ['diablo', 'Diablo', 'Adventure', 'Explore a browser dungeon port', 'https://johnimril.github.io/diablo_web/'],
-  ['hedgewars', 'Hedgewars', 'Strategy', 'Certificate error observed; check before opening', 'https://webwars.link/'],
 ];
 
 export const directGames: DirectGame[] = source.map(([slug, title, category, shortDescription, externalUrl]) => ({
