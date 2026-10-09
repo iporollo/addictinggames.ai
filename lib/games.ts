@@ -3,6 +3,7 @@ import { games, type Game } from './catalog';
 export type PlayableGame = Game & { shortDescription: string; embedUrl: string; sandbox?: string };
 
 export const newGameSlugs = [
+  'skyrunner', 'stardust-isles', 'battle-peaks', 'lava-lasso', 'mutual-fun',
   'faux-ami', 'dust-and-lead', 'go-for-launch', 'mars-gt', 'pantry-dash',
   'kindlekeep-td', 'quiet-rooms', 'ink-dash', 'third-mainland-biker', 'dirtline',
   'orbit-forge', 'freesbee', 'moonlit-spellcaster', 'dracula-0', 'thermopylae',
@@ -40,6 +41,11 @@ export const verifiedEmbeds: Record<string, string> = {
   'go-for-launch': 'https://go4launch.grok.me/',
   'dust-and-lead': 'https://inkstaid.github.io/dust-and-lead/',
   'faux-ami': 'https://faux-ami-french-game.vercel.app/',
+  'mutual-fun': 'https://mutual-self.vercel.app/',
+  'lava-lasso': 'https://sloptopia.gooooooooor.chatgpt.site/games/lava-lasso.html?from=sloptopia',
+  'battle-peaks': 'https://battle-peaks1.vercel.app/',
+  'stardust-isles': 'https://game.danzechen.world/',
+  'skyrunner': 'https://games.johnslagboom.com/skyrunner/',
 };
 
 const descriptions: Record<string, string> = {
@@ -74,6 +80,11 @@ const descriptions: Record<string, string> = {
   'go-for-launch': 'Steer and vent on a night run',
   'dust-and-lead': 'Ride across the pixel Wild West',
   'faux-ami': 'Spot the French false friends',
+  'mutual-fun': 'Sprint for a seat in the boardroom',
+  'lava-lasso': 'Swing above the rising lava',
+  'battle-peaks': 'Aim, launch, and outplay a friend',
+  'stardust-isles': 'Explore a bright island village',
+  'skyrunner': 'Boost through the neon canyon',
 };
 
 export const playableGames: PlayableGame[] = games
