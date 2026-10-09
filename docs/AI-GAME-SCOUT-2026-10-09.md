@@ -16,6 +16,6 @@ The live site build renders exactly these five in the New Games home section. Th
 
 - Scrapyard played on its own page, but its host sends `X-Frame-Options: DENY`; it cannot use this site's player.
 - The Last Fruit: Cupocalypse and TOUCH GRASS played in an iframe only when scripts and same-origin access were allowed together. They stay out of this batch because the five published games work under the stricter sandbox.
-- HEATSINK and Honeycomb Turn Battle have playable links in the discovery inbox but have not completed browser verification.
+- Later screening results and additional held finds are recorded in `docs/AI-GAME-SCOUT-BATCH2-2026-10-09.md`.
 
 Grok Bot supplied the X source links. X itself returned a 403 response to this session, so those post descriptions are attributed to Grok Bot and were not independently read here. The playable pages and three matched GitHub repositories were checked directly. External game hosts may change after publication; repeat the interaction check when monitoring reports a failure.

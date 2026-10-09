@@ -2,7 +2,10 @@ import { games, type Game } from './catalog';
 
 export type PlayableGame = Game & { shortDescription: string; embedUrl: string; sandbox?: string };
 
-export const newGameSlugs = ['neon-nightfall', 'hungry-seal', 'flap-nyc', 'salmon-survival', 'soccar'];
+export const newGameSlugs = [
+  'orbit-forge', 'freesbee', 'moonlit-spellcaster', 'dracula-0', 'thermopylae',
+  'neon-nightfall', 'hungry-seal', 'flap-nyc', 'salmon-survival', 'soccar',
+];
 
 // New external games get scripts and pointer lock only. In particular, do not
 // grant allow-same-origin together with allow-scripts to untrusted game pages.
@@ -20,6 +23,11 @@ export const verifiedEmbeds: Record<string, string> = {
   'hungry-seal': 'https://hungry-seal.horly.dev/',
   'neon-nightfall': 'https://mdhasibul35.github.io/neon-nightfall/',
   'flap-nyc': 'https://flapnyc.kumodeck.app/',
+  'thermopylae': 'https://thermopylae-v2.vercel.app/',
+  'dracula-0': 'https://dracula-0.vercel.app/',
+  'moonlit-spellcaster': 'https://clubhouse1661.github.io/moonlit-spellcaster/',
+  'freesbee': 'https://okidoki9903.github.io/Freesbee/',
+  'orbit-forge': 'https://vishalbhoir18.github.io/rocket_orbit_forge/',
 };
 
 const descriptions: Record<string, string> = {
@@ -39,6 +47,11 @@ const descriptions: Record<string, string> = {
   'hungry-seal': 'Swim, snack, and grow',
   'neon-nightfall': 'Survive the glowing horde',
   'flap-nyc': 'Cross a neon Manhattan',
+  'thermopylae': 'Enter a Spartan saga',
+  'dracula-0': 'Battle beneath a blood moon',
+  'moonlit-spellcaster': 'Charge and cast moonlit magic',
+  'freesbee': 'Chase the disc across a sunny field',
+  'orbit-forge': 'Build a rocket and reach for orbit',
 };
 
 export const playableGames: PlayableGame[] = games
