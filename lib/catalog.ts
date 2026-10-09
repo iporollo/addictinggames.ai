@@ -1,3 +1,16 @@
+// Canonical catalog copied from iporollo/addictinggames.ai at c2b7d91.
+// Keep original metadata intact; presentation and embed verification live separately.
+export interface Game {
+  id: string;
+  title: string;
+  description: string;
+  category: string;
+  slug: string;
+  imageUrl: string;
+  author: string;
+  gameUrl: string;
+}
+
 export const games: Game[] = [
   {
     id: '1',
