@@ -23,7 +23,7 @@ const secondaryTags: Record<string, string[]> = {
 // Dates are UTC ISO timestamps; evidence identifies the report or release checked.
 export const verifiedUpdates: Record<string, { updatedAt: string; evidence: string }> = {};
 
-export function gameTags(game: PlayableGame): string[] {
+export function gameTags(game: { category: string; slug: string }): string[] {
   return [...new Set([game.category === 'Simulation' ? 'Simulators' : game.category, ...(secondaryTags[game.slug] ?? [])])];
 }
 
@@ -38,7 +38,7 @@ export function browseGames(games: PlayableGame[], tab: BrowseTab, now = Date.no
   return games.filter(game => gameTags(game).includes(tab));
 }
 
-export function gameRows(games: PlayableGame[]) {
+export function gameRows<T>(games: T[]): T[][] {
   const size = Math.ceil(games.length / 3);
   return Array.from({ length: 3 }, (_, row) => games.slice(row * size, (row + 1) * size));
 }
