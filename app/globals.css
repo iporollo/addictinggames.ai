@@ -358,3 +358,24 @@ h2, h3 { color: var(--heading); }
   .arcade-section-heading { flex-wrap: wrap; }
   .arcade-section-heading .view-all { margin-top: -8px; font-size: 11px; }
 }
+
+/* Every New Game stays in one of three independently scrollable rows. */
+.new-games-rows { display: grid; grid-template-columns: minmax(0, 1fr); gap: 20px; }
+.new-games-row { min-width: 0; }
+.row-controls { display: flex; justify-content: space-between; align-items: center; gap: 12px; margin-bottom: 6px; font-size: 12px; }
+.row-controls > div { display: flex; gap: 8px; }
+.row-controls button { width: 44px; height: 44px; border: 1px solid var(--border); border-radius: 8px; background: white; color: var(--blue); font-size: 22px; }
+.row-controls button:hover:not(:disabled) { background: var(--background); border-color: var(--blue); }
+.row-controls button:disabled { color: var(--muted); background: var(--background); }
+.game-scroll-row { display: grid; grid-auto-flow: column; grid-auto-columns: clamp(154px, 21%, 210px); gap: 16px; overflow-x: auto; overscroll-behavior-x: contain; scroll-snap-type: x proximity; scroll-padding-inline: 5px; scrollbar-color: var(--blue) var(--background); list-style: none; margin: 0; padding: 6px 5px 16px; }
+.game-scroll-row > li { min-width: 0; scroll-snap-align: start; }
+.game-tags { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 8px; }
+.game-tags span { padding: 2px 6px; border-radius: 4px; background: var(--background); color: var(--body); font-size: 10px; line-height: 1.6; }
+.browse-tabs { display: flex; flex-wrap: wrap; gap: 8px; padding: 4px; margin: -4px -4px 16px; }
+.browse-tabs button { min-height: 44px; padding: 9px 14px; background: white; border: 1px solid var(--border); border-radius: 7px; font-size: 13px; font-weight: 600; }
+.browse-tabs button[aria-selected="true"] { background: var(--blue); border-color: var(--blue); color: white; }
+.browse-tabs button:hover:not([aria-selected="true"]) { background: var(--background); }
+.browse-count { font-size: 12px; color: var(--body); margin-bottom: 16px; }
+@media (max-width: 639px) {
+  .game-scroll-row { grid-auto-columns: min(68vw, 220px); gap: 14px; }
+}
