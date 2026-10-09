@@ -3,11 +3,17 @@ import type { PlayableGame } from './games';
 export const browseTabs = ['All', 'Action', 'Update', 'Simulators', 'Survival', 'Strategy', 'Multiplayer', 'Puzzle', 'Arcade', 'Adventure', 'Racing', 'Sports', 'Tower Defense'] as const;
 export type BrowseTab = typeof browseTabs[number];
 
+// Mode evidence is recorded in docs/MULTIPLAYER.md. Only verified playable
+// games are passed into browseGames; this metadata never publishes a candidate.
+export const multiplayerModes: Record<string, string> = {
+  'fly-pieter': 'Online multiplayer',
+  'ww2-dogfight': 'Online multiplayer',
+  'battle-peaks': 'Local 2-player',
+};
+
 // Secondary genres supported by catalog descriptions and the dated scout reports.
 // This is presentation metadata only: the verified playable list remains the gate.
 const secondaryTags: Record<string, string[]> = {
-  'fly-pieter': ['Multiplayer'],
-  'battle-peaks': ['Multiplayer'], // Batch 5: a local two-player match was played.
   'kindlekeep-td': ['Tower Defense'],
   'ash-line': ['Tower Defense'], // Batch 9: placed a tower and started a wave.
   'plaid-circuit': ['Racing', 'Arcade'],
@@ -24,7 +30,7 @@ const secondaryTags: Record<string, string[]> = {
 export const verifiedUpdates: Record<string, { updatedAt: string; evidence: string }> = {};
 
 export function gameTags(game: { category: string; slug: string }): string[] {
-  return [...new Set([game.category === 'Simulation' ? 'Simulators' : game.category, ...(secondaryTags[game.slug] ?? [])])];
+  return [...new Set([game.category === 'Simulation' ? 'Simulators' : game.category, ...(secondaryTags[game.slug] ?? []), ...(multiplayerModes[game.slug] ? ['Multiplayer', multiplayerModes[game.slug]] : [])])];
 }
 
 export function browseGames(games: PlayableGame[], tab: BrowseTab, now = Date.now()) {

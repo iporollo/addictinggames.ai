@@ -29,3 +29,7 @@ The RadiantOpti corrected reply adds 24 direct-play links to **New Games** and `
 The website source is in `app/`, `components/`, `lib/`, and `public/`. Optional upstream source references are in `game-repos/<slug>/MANIFEST.md`, one folder per game with a matched repository. They contain URLs, pinned commits, license evidence, and review notes only. No upstream source is copied or executed. The discovery inbox and X query history are kept outside the production checkout in `../game-discovery-bot/`.
 
 The first batch's source links, gameplay checks, and held candidates are recorded in `docs/AI-GAME-SCOUT-2026-10-09.md`.
+
+## Multiplayer discovery
+
+The homepage promotes Featured, New Games, and Multiplayer in its navigation. Multiplayer has its own section and remains a Browse Games tab. Both use the same verified playable collection and mode tags from `lib/browse.ts`: online multiplayer or local two-player. Recently Played remains below Multiplayer. Mode evidence and exclusions are recorded in `docs/MULTIPLAYER.md`.
