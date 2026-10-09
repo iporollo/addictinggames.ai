@@ -1,6 +1,8 @@
 import { games, type Game } from './catalog';
+import { directGames, type DirectGame } from './direct-games';
 
 export type PlayableGame = Game & { shortDescription: string; embedUrl: string; sandbox?: string };
+export type ListedGame = PlayableGame | DirectGame;
 
 export const newGameSlugs = [
   'color-war', 'night-shift', 'pit-tactics', 'comet-cup', 'pip-the-plant',
@@ -173,6 +175,9 @@ export const legacyPlayableGames = playableGames.filter(game => !newGameSlugs.in
 export const alphabeticalGames = [...playableGames].sort((a, b) =>
   a.title.localeCompare(b.title, 'en', { sensitivity: 'base' }),
 );
+export const allListedGames: ListedGame[] = [...playableGames, ...directGames].sort((a, b) =>
+  a.title.localeCompare(b.title, 'en', { sensitivity: 'base' }),
+);
 
 export function orderedGames(slugs: string[]) {
   return slugs.flatMap(slug => {
@@ -186,11 +191,11 @@ export const featuredGames = orderedGames([
   '2d-gta', 'platform-party', 'aoe-rts', 'vibesail', 'combat-mission', 'falling-bubbles', 'ww2-dogfight',
 ]);
 
-export const newGames = orderedGames(newGameSlugs);
+export const newGames: ListedGame[] = [...directGames, ...orderedGames(newGameSlugs)];
 export const simulatorGames = legacyPlayableGames.filter(game => game.category === 'Simulation');
 export const survivalGames = legacyPlayableGames.filter(game => ['Survival', 'Strategy'].includes(game.category));
 
-export function matchesGame(game: PlayableGame, query: string) {
-  const text = `${game.title} ${game.description} ${game.category} ${game.author}`.toLocaleLowerCase('en');
+export function matchesGame(game: ListedGame, query: string) {
+  const text = `${game.title} ${game.description} ${game.category} ${'author' in game ? game.author : ''}`.toLocaleLowerCase('en');
   return text.includes(query.trim().toLocaleLowerCase('en'));
 }

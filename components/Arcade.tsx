@@ -3,7 +3,7 @@
 import { useEffect, useRef, useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { newGames, playableGames, orderedGames, matchesGame, type PlayableGame } from '@/lib/games';
+import { allListedGames, newGames, playableGames, orderedGames, matchesGame, type ListedGame } from '@/lib/games';
 import { browseGames, browseTabs, gameRows, gameTags, type BrowseTab } from '@/lib/browse';
 import { useRecentGames } from '@/lib/history';
 import { Icon } from './Icon';
@@ -14,14 +14,17 @@ const featuredPicks = orderedGames([
   'turbo-kart-gp', 'thermopylae', 'soccar', 'heroes-journey', 'toybox-push',
 ]);
 
-function ArcadeCard({ game, eager = false }: { game: PlayableGame; eager?: boolean }) {
-  return <Link href={`/games/${game.slug}`} className="arcade-card" aria-label={`Play ${game.title}`}>
+function ArcadeCard({ game, eager = false }: { game: ListedGame; eager?: boolean }) {
+  const content = <>
     <div className="arcade-artwork"><Image src={game.imageUrl} alt={`${game.title} game artwork`} fill sizes="(max-width: 639px) 44vw, (max-width: 1023px) 22vw, 16vw" loading={eager ? 'eager' : 'lazy'} /><span className="arcade-play"><Icon name="play" width={15} height={15} /></span></div>
-    <div className="arcade-card-copy"><h3>{game.title}</h3><p>{game.shortDescription}</p><div className="game-tags">{gameTags(game).map(tag => <span key={tag}>{tag}</span>)}</div></div>
-  </Link>;
+    <div className="arcade-card-copy"><h3>{game.title}</h3><p>{game.shortDescription}</p><div className="game-tags">{gameTags(game).map(tag => <span key={tag}>{tag}</span>)}{'externalUrl' in game && <span>Opens game site</span>}</div></div>
+  </>;
+  return 'externalUrl' in game
+    ? <a href={game.externalUrl} className="arcade-card" aria-label={`Open ${game.title} on its game site (new tab)`} target="_blank" rel="noopener noreferrer">{content}</a>
+    : <Link href={`/games/${game.slug}`} className="arcade-card" aria-label={`Play ${game.title}`}>{content}</Link>;
 }
 
-function ScrollingRow({ games, index }: { games: PlayableGame[]; index: number }) {
+function ScrollingRow({ games, index }: { games: ListedGame[]; index: number }) {
   const list = useRef<HTMLUListElement>(null);
   const [edges, setEdges] = useState({ start: true, end: false });
   const id = `new-games-row-${index}`;
@@ -52,7 +55,7 @@ function ScrollingRow({ games, index }: { games: PlayableGame[]; index: number }
 }
 
 function ArcadeSection({ id, title, note, games, featured = false, recentEmpty = false, filtering = false, scrolling = false }: {
-  id: string; title: string; note: string; games: PlayableGame[]; featured?: boolean; recentEmpty?: boolean; filtering?: boolean; scrolling?: boolean;
+  id: string; title: string; note: string; games: ListedGame[]; featured?: boolean; recentEmpty?: boolean; filtering?: boolean; scrolling?: boolean;
 }) {
   return <section id={id} className="arcade-section" aria-labelledby={`${id}-heading`}>
     <div className="arcade-section-heading"><div><h2 id={`${id}-heading`}>{title}</h2><p>{note}</p></div>{featured && <Link href="/games" className="view-all">View All Games <Icon name="arrow" width={16} /></Link>}</div>
@@ -65,8 +68,8 @@ export function Arcade() {
   const [tab, setTab] = useState<BrowseTab>('All');
   const recent = useRecentGames();
   const filtering = Boolean(query.trim());
-  const filter = (games: PlayableGame[]) => games.filter(game => matchesGame(game, query) || gameTags(game).join(' ').toLocaleLowerCase('en').includes(query.trim().toLocaleLowerCase('en')));
-  const count = filter(playableGames).length;
+  function filter<T extends ListedGame>(games: T[]): T[] { return games.filter(game => matchesGame(game, query) || gameTags(game).join(' ').toLocaleLowerCase('en').includes(query.trim().toLocaleLowerCase('en'))); }
+  const count = filter(allListedGames).length;
   const browsed = filter(browseGames(playableGames, tab));
 
   return <>
@@ -78,7 +81,7 @@ export function Arcade() {
     <div className="arcade-layout">
       <div className="arcade-main">
         <ArcadeSection id="featured" title="Featured" note="Five handpicked games to play next." games={filter(featuredPicks)} featured filtering={filtering} />
-        <ArcadeSection key={query} id="new-games" title="New Games" note={`${newGames.length} verified games. Swipe, use the arrows, or tab through every card.`} games={filter(newGames)} filtering={filtering} scrolling />
+        <ArcadeSection key={query} id="new-games" title="New Games" note="Explore new games. Some open on their own sites and may take longer to load. Swipe, use the arrows, or tab through every card." games={filter(newGames)} filtering={filtering} scrolling />
         <ArcadeSection id="multiplayer" title="Multiplayer" note="Play with friends. Choose online multiplayer or a local two-player match." games={filter(browseGames(playableGames, 'Multiplayer'))} filtering={filtering} />
         <ArcadeSection id="recently-played" title="Recently Played" note="Pick up where you left off. Saved on this browser." games={filter(recent)} recentEmpty={!recent.length} filtering={filtering} />
         <section className="arcade-section browse-section" aria-labelledby="browse-heading">
