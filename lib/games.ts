@@ -3,6 +3,7 @@ import { games, type Game } from './catalog';
 export type PlayableGame = Game & { shortDescription: string; embedUrl: string; sandbox?: string };
 
 export const newGameSlugs = [
+  'k-dudu-ironfang', 'sadie-and-luna', 'ash-line', 'heroes-journey', 'plaid-circuit',
   'dili-cart', 'project-nova', 'trip-ibadan', 'snowboard-supreme', 'senor-inteligente',
   'sykes-picot', 'ripple-pool', 'church-life', 'time-echo', 'nushi-fishing',
   'ashen-vow', 'little-lake', 'dliclips-rush', 'dlicom-attack', 'ski-jumping',
@@ -19,6 +20,11 @@ const newGameSandbox = 'allow-scripts allow-pointer-lock';
 
 // Only browser-verified games are shipped. Finalized in verification/GAME-REPORT.md.
 export const verifiedEmbeds: Record<string, string> = {
+  'k-dudu-ironfang': 'https://oasis-winter-blade-thunder.grok.me/',
+  'plaid-circuit': 'https://roadster.grok.me/',
+  'heroes-journey': 'https://heroezjourney.com/',
+  'ash-line': 'https://cedar-crisp-sky-orbit.grok.me/ash-line.html',
+  'sadie-and-luna': 'https://sadieandluna-thegame.grok.me/',
   'senor-inteligente': 'https://inteligente.lol/',
   'snowboard-supreme': 'https://snowboard-supreme.vercel.app/',
   'trip-ibadan': 'https://trip-ibadan.vercel.app/',
@@ -67,6 +73,11 @@ export const verifiedEmbeds: Record<string, string> = {
 };
 
 const descriptions: Record<string, string> = {
+  'k-dudu-ironfang': 'Fight through a pixel-art action stage',
+  'plaid-circuit': 'Choose a car and race an arcade circuit',
+  'heroes-journey': 'Battle knights on a colorful forest road',
+  'ash-line': 'Defend a route from waves of zombies',
+  'sadie-and-luna': 'Guide two dogs through playful challenges',
   'senor-inteligente': 'Lasso the signs in a playful satire',
   'snowboard-supreme': 'Carve a line down an endless mountain',
   'trip-ibadan': 'Pick up passengers and drive the city route',
