@@ -3,6 +3,7 @@ import { games, type Game } from './catalog';
 export type PlayableGame = Game & { shortDescription: string; embedUrl: string; sandbox?: string };
 
 export const newGameSlugs = [
+  'toadstool-crossing', 'doge-rally', 'toybox-push', 'lantern-isle', 'foundry',
   'turbo-kart-gp', 'gigacity', 'terra-incognita', 'rajyam', 'pulse',
   'k-dudu-ironfang', 'sadie-and-luna', 'ash-line', 'heroes-journey', 'plaid-circuit',
   'dili-cart', 'project-nova', 'trip-ibadan', 'snowboard-supreme', 'senor-inteligente',
@@ -21,6 +22,11 @@ const newGameSandbox = 'allow-scripts allow-pointer-lock';
 
 // Only browser-verified games are shipped. Finalized in verification/GAME-REPORT.md.
 export const verifiedEmbeds: Record<string, string> = {
+  'toadstool-crossing': 'https://toadstoolcrossing.grok.me/',
+  'doge-rally': 'https://slate-juniper-arch-drum.grok.me/',
+  'toybox-push': 'https://games.jimmychandra.com/games/toybox_push/',
+  'lantern-isle': 'https://games.jimmychandra.com/games/lantern_isle/',
+  'foundry': 'https://games.jimmychandra.com/games/foundry/',
   'turbo-kart-gp': 'https://turbo-kart-gp-6e9.pages.dev/',
   'gigacity': 'https://sael.net/gigacity',
   'terra-incognita': 'https://mts.now/mathofthewild',
@@ -79,6 +85,11 @@ export const verifiedEmbeds: Record<string, string> = {
 };
 
 const descriptions: Record<string, string> = {
+  'toadstool-crossing': 'Hop across traffic and fill every lily home',
+  'doge-rally': 'Rally a coin against the computer',
+  'toybox-push': 'Push toy blocks onto gold stars',
+  'lantern-isle': 'Explore an island and restore its lighthouse',
+  'foundry': 'Push factory crates through puzzle shifts',
   'turbo-kart-gp': 'Race a four-track cup with seven rivals',
   'gigacity': 'Fly through a generated vertical city',
   'terra-incognita': 'Explore an island of math puzzles',
