@@ -672,4 +672,29 @@ export const games: Game[] = [
     author: 'jchandra',
     gameUrl: 'https://games.jimmychandra.com/games/foundry/',
   },
+  {
+    id: '67', title: 'Color War', description: 'Capture neighboring tiles against a computer rival.',
+    category: 'Strategy', slug: 'color-war', imageUrl: '/games/color-war.svg',
+    author: 'playcolorwar', gameUrl: 'https://solider10.github.io/colorwar/',
+  },
+  {
+    id: '68', title: 'Night Shift', description: 'Push factory crates into marked bays in a 3D puzzle.',
+    category: 'Puzzle', slug: 'night-shift', imageUrl: '/games/night-shift.svg',
+    author: 'jchandra', gameUrl: 'https://games.jimmychandra.com/games/night_shift/',
+  },
+  {
+    id: '69', title: 'Pit Tactics', description: 'Command soldiers through a turn-based mining-pit mission.',
+    category: 'Strategy', slug: 'pit-tactics', imageUrl: '/games/pit-tactics.svg',
+    author: 'rodrigon', gameUrl: 'https://www.scenario.com/explorations/pit-tactics/',
+  },
+  {
+    id: '70', title: 'Comet Cup', description: 'Race eight karts around a colorful circuit.',
+    category: 'Sports', slug: 'comet-cup', imageUrl: '/games/comet-cup.svg',
+    author: 'micoolcho', gameUrl: 'https://legendary-faloodeh-080537.netlify.app/games/comet-cup/index.html',
+  },
+  {
+    id: '71', title: 'Pip the Plant', description: 'Care for a tiny plant and raise its happiness.',
+    category: 'Simulation', slug: 'pip-the-plant', imageUrl: '/games/pip-the-plant.svg',
+    author: 'micoolcho', gameUrl: 'https://legendary-faloodeh-080537.netlify.app/games/pip-the-plant/index.html',
+  },
 ];
