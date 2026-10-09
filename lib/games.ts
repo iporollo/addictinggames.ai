@@ -3,6 +3,7 @@ import { games, type Game } from './catalog';
 export type PlayableGame = Game & { shortDescription: string; embedUrl: string; sandbox?: string };
 
 export const newGameSlugs = [
+  'ashen-vow', 'little-lake', 'dliclips-rush', 'dlicom-attack', 'ski-jumping',
   'skyrunner', 'stardust-isles', 'battle-peaks', 'lava-lasso', 'mutual-fun',
   'faux-ami', 'dust-and-lead', 'go-for-launch', 'mars-gt', 'pantry-dash',
   'kindlekeep-td', 'quiet-rooms', 'ink-dash', 'third-mainland-biker', 'dirtline',
@@ -16,6 +17,11 @@ const newGameSandbox = 'allow-scripts allow-pointer-lock';
 
 // Only browser-verified games are shipped. Finalized in verification/GAME-REPORT.md.
 export const verifiedEmbeds: Record<string, string> = {
+  'ski-jumping': 'https://skijumping.io/',
+  'dlicom-attack': 'https://dlicom-attack.vercel.app/',
+  'dliclips-rush': 'https://dliclips-rush.netlify.app/',
+  'little-lake': 'https://fishing-supdlicomcom.vercel.app/',
+  'ashen-vow': 'https://pearl-spark-hazel-bold.grok.me/',
   'fly-pieter': 'https://fly.pieter.com',
   '3d-car-simulator': 'https://3d-car-driving-simulation.vercel.app',
   'island-survivor': 'https://ja.sperdeboer.nl/island/',
@@ -49,6 +55,11 @@ export const verifiedEmbeds: Record<string, string> = {
 };
 
 const descriptions: Record<string, string> = {
+  'ski-jumping': 'Leap from the ski jump and gather speed',
+  'dlicom-attack': 'Battle bots across a digital network',
+  'dliclips-rush': 'Tap through a fast clip challenge',
+  'little-lake': 'Cast a line in a quiet fishing game',
+  'ashen-vow': 'Explore and fight through a dark fantasy world',
   'fly-pieter': 'Take to the skies together',
   'combat-mission': 'Plan your next tactical mission',
   'platform-party': 'Build, share, and play your levels',
