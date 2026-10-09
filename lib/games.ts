@@ -3,6 +3,7 @@ import { games, type Game } from './catalog';
 export type PlayableGame = Game & { shortDescription: string; embedUrl: string; sandbox?: string };
 
 export const newGameSlugs = [
+  'color-war', 'night-shift', 'pit-tactics', 'comet-cup', 'pip-the-plant',
   'toadstool-crossing', 'doge-rally', 'toybox-push', 'lantern-isle', 'foundry',
   'turbo-kart-gp', 'gigacity', 'terra-incognita', 'rajyam', 'pulse',
   'k-dudu-ironfang', 'sadie-and-luna', 'ash-line', 'heroes-journey', 'plaid-circuit',
@@ -22,6 +23,11 @@ const newGameSandbox = 'allow-scripts allow-pointer-lock';
 
 // Only browser-verified games are shipped. Finalized in verification/GAME-REPORT.md.
 export const verifiedEmbeds: Record<string, string> = {
+  'color-war': 'https://solider10.github.io/colorwar/',
+  'night-shift': 'https://games.jimmychandra.com/games/night_shift/',
+  'pit-tactics': 'https://www.scenario.com/explorations/pit-tactics/',
+  'comet-cup': 'https://legendary-faloodeh-080537.netlify.app/games/comet-cup/index.html',
+  'pip-the-plant': 'https://legendary-faloodeh-080537.netlify.app/games/pip-the-plant/index.html',
   'toadstool-crossing': 'https://toadstoolcrossing.grok.me/',
   'doge-rally': 'https://slate-juniper-arch-drum.grok.me/',
   'toybox-push': 'https://games.jimmychandra.com/games/toybox_push/',
@@ -85,6 +91,11 @@ export const verifiedEmbeds: Record<string, string> = {
 };
 
 const descriptions: Record<string, string> = {
+  'color-war': 'Capture the board one tile at a time',
+  'night-shift': 'Push crates through a 3D factory',
+  'pit-tactics': 'Lead a squad through a mining-pit battle',
+  'comet-cup': 'Race a colorful three-lap kart circuit',
+  'pip-the-plant': 'Water a tiny plant and help it grow',
   'toadstool-crossing': 'Hop across traffic and fill every lily home',
   'doge-rally': 'Rally a coin against the computer',
   'toybox-push': 'Push toy blocks onto gold stars',
