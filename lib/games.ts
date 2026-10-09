@@ -3,6 +3,7 @@ import { games, type Game } from './catalog';
 export type PlayableGame = Game & { shortDescription: string; embedUrl: string; sandbox?: string };
 
 export const newGameSlugs = [
+  'kindlekeep-td', 'quiet-rooms', 'ink-dash', 'third-mainland-biker', 'dirtline',
   'orbit-forge', 'freesbee', 'moonlit-spellcaster', 'dracula-0', 'thermopylae',
   'neon-nightfall', 'hungry-seal', 'flap-nyc', 'salmon-survival', 'soccar',
 ];
@@ -28,6 +29,11 @@ export const verifiedEmbeds: Record<string, string> = {
   'moonlit-spellcaster': 'https://clubhouse1661.github.io/moonlit-spellcaster/',
   'freesbee': 'https://okidoki9903.github.io/Freesbee/',
   'orbit-forge': 'https://vishalbhoir18.github.io/rocket_orbit_forge/',
+  'dirtline': 'https://dirtline.pages.dev/?v=2',
+  'third-mainland-biker': 'https://3rdmainland.start.ng/',
+  'ink-dash': 'https://rajpurohitkushal92.github.io/khnix-game-12/',
+  'quiet-rooms': 'https://53616d616e746861.github.io/quiet-rooms/',
+  'kindlekeep-td': 'https://kindlekeep.vercel.app/',
 };
 
 const descriptions: Record<string, string> = {
@@ -52,6 +58,11 @@ const descriptions: Record<string, string> = {
   'moonlit-spellcaster': 'Charge and cast moonlit magic',
   'freesbee': 'Chase the disc across a sunny field',
   'orbit-forge': 'Build a rocket and reach for orbit',
+  'dirtline': 'Ride a rugged trail at full speed',
+  'third-mainland-biker': 'Race across the Lagos bridge',
+  'ink-dash': 'Dash through a neon rogue arena',
+  'quiet-rooms': 'Wander through rooms beneath strange skies',
+  'kindlekeep-td': 'Defend the vale from goblin waves',
 };
 
 export const playableGames: PlayableGame[] = games
