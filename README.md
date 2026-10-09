@@ -20,6 +20,10 @@ Automated form tests stub the provider and do not write to Airtable. Do not send
 
 ## Games
 
-The included games are 3D Car Driving Simulator, Falling Bubbles, fly.pieter.com, Island Survivor, and WW2 Dog Fight Arena. Their original identity and artwork are retained. Combat Mission, Platform Party, Cybertruck Rocket League, 2D GTA, Blocky RTS, and VibeSail remain excluded because their destinations failed or their owners blocked embedding; no security controls are bypassed.
+The original included games are 3D Car Driving Simulator, Falling Bubbles, fly.pieter.com, Island Survivor, and WW2 Dog Fight Arena. Their original identity and artwork are retained. The first AI Game Scout batch adds Soccar, Salmon Survival, Flap NYC, Hungry Seal, and Neon Nightfall to **New Games**. These five were started and controlled in a browser and in the site's restricted iframe. They are not added to Featured or the home page category collections. Combat Mission, Platform Party, Cybertruck Rocket League, 2D GTA, Blocky RTS, and VibeSail remain excluded because their destinations failed or their owners blocked embedding; no security controls are bypassed.
 
-`/games` is a single alphabetical list. Players run under `/games/[slug]`; third-party game availability remains outside this site's control. Recently Played uses only game slugs and timestamps in browser-local storage.
+`/games` is a single alphabetical list. Players run under `/games/[slug]`; third-party game availability remains outside this site's control. New external games are sandboxed with scripts and pointer lock only, without same-origin access, forms, downloads, popups, or top-level navigation. The embed sends no referrer. Recently Played uses only game slugs and timestamps in browser-local storage.
+
+The website source is in `app/`, `components/`, `lib/`, and `public/`. Optional upstream source references are in `game-repos/<slug>/MANIFEST.md`, one folder per game with a matched repository. They contain URLs, pinned commits, license evidence, and review notes only. No upstream source is copied or executed. The discovery inbox and X query history are kept outside the production checkout in `../game-discovery-bot/`.
+
+The first batch's source links, gameplay checks, and held candidates are recorded in `docs/AI-GAME-SCOUT-2026-10-09.md`.
