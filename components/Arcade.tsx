@@ -3,12 +3,16 @@
 import { useEffect, useRef, useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { newGames, playableGames, matchesGame, type PlayableGame } from '@/lib/games';
+import { newGames, playableGames, orderedGames, matchesGame, type PlayableGame } from '@/lib/games';
 import { browseGames, browseTabs, gameRows, gameTags, type BrowseTab } from '@/lib/browse';
 import { useRecentGames } from '@/lib/history';
 import { Icon } from './Icon';
 import { Newsletter } from './Newsletter';
 import { QuickLinks } from './QuickLinks';
+
+const featuredPicks = orderedGames([
+  'turbo-kart-gp', 'thermopylae', 'soccar', 'heroes-journey', 'toybox-push',
+]);
 
 function ArcadeCard({ game, eager = false }: { game: PlayableGame; eager?: boolean }) {
   return <Link href={`/games/${game.slug}`} className="arcade-card" aria-label={`Play ${game.title}`}>
@@ -73,7 +77,7 @@ export function Arcade() {
     {filtering && <div className="arcade-search-status" role="status"><p>{count} {count === 1 ? 'game' : 'games'} found for “{query.trim()}”</p><button type="button" className="text-button" onClick={() => setQuery('')}>Clear search <Icon name="close" width={15} /></button></div>}
     <div className="arcade-layout">
       <div className="arcade-main">
-        <ArcadeSection id="featured" title="Featured" note="Five fresh picks from our latest verified games." games={filter(newGames.slice(0, 5))} featured filtering={filtering} />
+        <ArcadeSection id="featured" title="Featured" note="Five handpicked games to play next." games={filter(featuredPicks)} featured filtering={filtering} />
         <ArcadeSection key={query} id="new-games" title="New Games" note={`${newGames.length} verified games. Swipe, use the arrows, or tab through every card.`} games={filter(newGames)} filtering={filtering} scrolling />
         <ArcadeSection id="recently-played" title="Recently Played" note="Pick up where you left off. Saved on this browser." games={filter(recent)} recentEmpty={!recent.length} filtering={filtering} />
         <section className="arcade-section browse-section" aria-labelledby="browse-heading">
