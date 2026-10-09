@@ -1,6 +1,6 @@
 # AddictingGames.AI
 
-The official arcade portal at https://addictinggames.ai. Version B is the homepage. `/version-b` remains available, with Version A at `/version-a` for comparison. Both use one canonical catalog, the same verified players, and the same browser-local play history.
+The official arcade portal at https://addictinggames.ai. One design, one canonical catalog, verified players, and browser-local play history. The former comparison URLs `/version-a` and `/version-b` permanently redirect to the homepage; the comparison UI and alternate layout are removed.
 
 ## Development
 
@@ -12,7 +12,9 @@ This repository's existing Vercel Git integration deploys `main` to the original
 
 ## Existing form services
 
-Newsletter and game submissions use the original `/api/subscribe` and `/api/submit-game` endpoints and the existing Airtable configuration: `AIRTABLE_API_KEY` and `AIRTABLE_BASE`, stored only in Vercel. The existing Waitlist table and game table `tbl5AUoCl96h5WEMk` are preserved. Optional GitHub URLs are appended to the game Description so no schema migration is required. Missing configuration or provider failure produces an error, never simulated success.
+Newsletter and game submissions use the original `/api/subscribe` and `/api/submit-game` endpoints and the existing Airtable configuration: `AIRTABLE_API_KEY` and `AIRTABLE_BASE`, stored only in Vercel. Newsletter addresses go to the `Email` field in the existing `Waitlist` table. There is no newsletter delivery or email notification service in this repository; any external Airtable automations require separate verification. Missing configuration or provider failure produces an error, never simulated success.
+
+Game name, description, game URL, and contact email are required. GitHub repository and Twitter/X handle are optional. Game submissions go to the existing review table `tbl5AUoCl96h5WEMk`. To preserve that schema, the required contact email and optional GitHub URL are appended to `Description`; absent Twitter/X handles omit `Author`. Contact notes are for review only and must be removed before publishing a description. Review records are not automatically published: the public catalog is maintained separately in `lib/catalog.ts`. Submitting a game does not subscribe its contact email to the newsletter.
 
 Automated form tests stub the provider and do not write to Airtable. Do not send test subscriptions or submissions to the production database without explicit approval.
 

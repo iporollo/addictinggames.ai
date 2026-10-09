@@ -36,7 +36,7 @@ export function Arcade() {
   const [query, setQuery] = useState('');
   const recent = useRecentGames();
   const filtering = Boolean(query.trim());
-  const filter = (games: PlayableGame[]) => games.filter(game => matchesGame(game, query, 'Discover'));
+  const filter = (games: PlayableGame[]) => games.filter(game => matchesGame(game, query));
   const count = filter(playableGames).length;
 
   return <>
