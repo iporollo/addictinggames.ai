@@ -38,7 +38,6 @@ const source: [string, string, string, string, string, string?][] = [
 
   ['bo1-zombies', 'BO1 Zombies', 'Action', 'Survive a browser zombie map', 'https://vel.gg/bo1z'],
   ['moon-zombies', 'Moon', 'Action', 'Explore a lunar zombie map', 'https://moon-zombies.pages.dev/'],
-  ['kino-der-toten', 'Kino der Toten', 'Action', 'Play a classic zombie map', 'https://kino-der-toten.pages.dev/'],
   ['bo3-cheese-cube', 'BO3 Cheese Cube', 'Action', 'Fight through a cube-shaped zombie map', 'https://cheese-cube.pages.dev/'],
   ['black-ops-2', 'Black Ops 2', 'Action', 'Open a browser action port', 'https://vibeslops.luckeysystems.com/'],
   ['modern-warfare-2', 'Modern Warfare 2', 'Action', 'Open a browser combat port', 'https://ovz-game-production.up.railway.app/'],
@@ -54,7 +53,6 @@ const source: [string, string, string, string, string, string?][] = [
   ['quake-2', 'Quake 2', 'Action', 'Open a browser Quake II port', 'https://q2.pieter.com/'],
   ['quake-3', 'Quake 3', 'Action', 'Open a browser Quake III arena', 'https://q3.pieter.com/'],
   ['return-to-castle-wolfenstein', 'Return to Castle Wolfenstein', 'Action', 'Open a browser shooter port', 'https://rtcw.pieter.com/'],
-  ['unreal-tournament', 'Unreal Tournament', 'Action', 'Enter a browser arena shooter', 'https://ut.pieter.com/'],
   ['half-life', 'Half Life', 'Action', 'Play a browser Half-Life port', 'https://pixelsuft.github.io/hl/'],
   ['half-life-cs-16', 'Half Life / CS 1.6', 'Action', 'Launch a WebXash shooter port', 'https://x8bitrain.github.io/webXash/'],
   ['diablo', 'Diablo', 'Adventure', 'Explore a browser dungeon port', 'https://johnimril.github.io/diablo_web/'],
