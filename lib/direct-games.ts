@@ -37,7 +37,6 @@ const source: [string, string, string, string, string, string?][] = [
   ["ttak-stop", "Ttak! Stop", "Casual", "Stop the moving marker inside the target zone", "https://ttak-stop.web.app/", "/games/scout-ttak-stop.webp"],
 
   ['bo1-zombies', 'BO1 Zombies', 'Action', 'Survive a browser zombie map', 'https://vel.gg/bo1z'],
-  ['moon-zombies', 'Moon', 'Action', 'Explore a lunar zombie map', 'https://moon-zombies.pages.dev/'],
   ['bo3-cheese-cube', 'BO3 Cheese Cube', 'Action', 'Fight through a cube-shaped zombie map', 'https://cheese-cube.pages.dev/'],
   ['black-ops-2', 'Black Ops 2', 'Action', 'Open a browser action port', 'https://vibeslops.luckeysystems.com/'],
   ['modern-warfare-2', 'Modern Warfare 2', 'Action', 'Open a browser combat port', 'https://ovz-game-production.up.railway.app/'],
