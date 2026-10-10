@@ -1,0 +1,51 @@
+{
+  "candidate": "Void Explorer",
+  "catalog_title_observed": "VOID EXPLORER",
+  "playable_url": "https://void-explorer.openai.chatgpt.site/",
+  "x_source_url": "https://x.com/HyrumHurst/status/2107920428903911508",
+  "deduplication": {
+    "pilot_prior_urls": "not_duplicate",
+    "catalog_baseline_published_games": "not_duplicate",
+    "catalog_baseline_previously_seen_urls": "not_duplicate"
+  },
+  "overall_status": "pass_playable",
+  "gameplay_result": "direct WebGPU exploration game; flight controls changed velocity and destination range",
+  "audio": {
+    "observed_controls": "Pause menu controls list U for mute/restore; Settings displayed Music 85% and Sound effects 60%.",
+    "browser_level_mute_verified": true,
+    "browser_level_mute_evidence": "Parent verified macOS Output Mute Value=1 before this resumed test; no system or in-game audio settings changed by this worker."
+  },
+  "actions": [
+    {
+      "action": "Opened Settings, inspected sound levels, then canceled without changing them",
+      "result": "The WebGPU game showed Music 85%, Sound effects 60%; parent-verified global output mute kept the test silent."
+    },
+    {
+      "action": "Clicked Start Expedition and opened the flight Controls reference",
+      "result": "Game loaded a ship near ringed ocean planet Aurelia Veil. Controls documented Space for thrust, P for approach, H for hyperdrive, L to land, X to exit/board, and U to mute."
+    },
+    {
+      "action": "Resumed flight and held Space for 1.5 seconds",
+      "result": "Velocity changed from 0 to 117 km/s; Aurelia Veil range fell from 11,782 km to 11,668 km and arrival estimate changed from 1m39s to 1m37s. A later screenshot showed 11,101 km and 1m33s while the ship continued moving."
+    }
+  ],
+  "visuals": "Custom in-game 3D starfield, four-wing AURORA VX-9 ship, bright blue planet, wide magenta rings, and clean flight telemetry. Launch screen describes a procedural universe with 2,048 reachable systems and 60 LY chart radius. No separate cover file downloaded.",
+  "thumbnail_concepts": [
+    {
+      "label": "A",
+      "concept": "The AURORA VX-9 sweeps low across the face of the blue ringed planet, with cyan engine glow and hot magenta rings filling the foreground; preserve the game's existing neon space palette and flight HUD."
+    },
+    {
+      "label": "B",
+      "concept": "A tiny explorer ship crosses a starfield toward the bright ocean world Aurelia Veil, with the destination bracket and distance readout visible; use scale and the real ship silhouette to sell exploration rather than invented combat."
+    }
+  ],
+  "observed_at_utc": "2026-10-10T06:23:54Z",
+  "test_method": "New isolated Brave tab; direct UI-only flight test; no iframe tested",
+  "publication": "No production edits; parent handles one-batch publication after cutoff.",
+  "screenshots": {
+    "captured_inline_in_CUA": true,
+    "saved_to_workspace": false,
+    "reason": "Screenshot was captured and inspected inline through CUA; CUA provides no supported local-file export in this run."
+  }
+}

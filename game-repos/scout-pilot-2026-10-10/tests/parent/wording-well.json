@@ -1,0 +1,14 @@
+{
+  "title": "Wording Well",
+  "playable_url": "https://exedexes1.itch.io/wording-well",
+  "creator": "exedexes1",
+  "x_source_url": "https://x.com/exedexes1/status/2107730844681203805",
+  "status": "pass",
+  "prior_url_duplicate": false,
+  "slug": "wording-well",
+  "direct_play": "pass",
+  "iframe_play": "not_tested",
+  "gameplay_outcome": "Entered well in itch embedded game, Space repeatedly hard dropped tiles, A shifted position, B held stones. Score0 to12, fresh parcels8 to7, longest word NIL and HER collect/stake choice appeared. Hands-on puzzle verified.",
+  "audio": "macOS OutputMuteCheckbox verified1",
+  "test_method": "Parent CUA isolated IAB; closed after test"
+}

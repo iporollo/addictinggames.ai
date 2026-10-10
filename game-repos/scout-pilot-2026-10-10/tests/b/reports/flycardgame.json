@@ -1,0 +1,46 @@
+{
+  "slug": "flycardgame",
+  "title": "飞卡 FlyCard · v0.4 Demo",
+  "creator": "takeda_iori",
+  "x_source_url": "https://x.com/takeda_iori/status/2107876700944314407",
+  "playable_url": "https://takedaiori.github.io/flycardgame/",
+  "upstream_repo_url": "https://github.com/takedaiori/flycardgame",
+  "status": "pass",
+  "gameplay_started": true,
+  "direct_result": "The direct GitHub Pages game loaded into a card-table deployment phase. Initially Chinese; the in-game English button translated the live state to “Round 1 · Table” and “Your turn: hold the card, drag backwards, release to slide.”",
+  "actions": [
+    "Opened the exact playable URL in a new isolated Brave Work tab; waited for the game board to render.",
+    "Clicked the Ace of Hearts card once; the game responded “drag too short — hold the card and pull it back, then release.”",
+    "Dragged the Ace vertically; the card moved onto the table, and the next screenshot showed the AI King of Spades card entering the board.",
+    "Dragged the Ace horizontally backward to launch it toward the opponent; the cards moved across the tabletop and the AI card moved in response.",
+    "Waited for the next turn; the game displayed “Your turn: hold the card, drag backwards, release to slide.”",
+    "Clicked the English button; it reported “Switched to English” and displayed “Round 1 · Table.”"
+  ],
+  "gameplay_response": "Mouse drag inputs moved the Ace across the table; the game then introduced and moved the AI's King card. After the motion settled, the game returned to a visibly identified player turn. This is direct game-state response, not a menu-only check.",
+  "mechanics_evidence": "Observed two-player card-table duel using physics-like drag-and-release shots. The card is pulled backward and released to slide across the table; the AI card moves in response. Current visible turn/phase was Round 1 · Table.",
+  "art_evidence": "No separate cover image was found in the page's OG metadata or image elements. The direct game has custom minimalist art: a large green felt tabletop, cream playing cards with Ace/King suits, gold selection rings, and a compact Player/AI round HUD. This is game-specific playable art but not a separate promotional thumbnail.",
+  "thumbnail_concepts": [
+    {
+      "label": "A",
+      "concept": "Cinematic close-up of the Ace of Hearts whipping across a rich green felt table toward a looming King of Spades, motion trail and a tight gold target ring; preserve the clean card-table art and keep the player-versus-AI matchup readable at thumbnail size."
+    },
+    {
+      "label": "B",
+      "concept": "Top-down dramatic near-collision: Ace and King cards spinning toward one another across the felt, one bright gold impact point and subtle shadows; use the actual card faces and restrained cream/green/gold palette without adding unsupported score text."
+    }
+  ],
+  "hold_reason": null,
+  "audio_note": "The parent-verified system output mute covered this test; no game/browser/system audio setting was changed.",
+  "pilot_started_at": "2026-10-10T05:34:48Z",
+  "source": "existing AI Game Scout; candidate manifest in ../run.json",
+  "deduplication": {
+    "catalog_baseline": false,
+    "prior_urls": false
+  },
+  "test_mode": "direct candidate URL and canvas gameplay; no AddictingGames iframe test",
+  "browser_isolation": "new Brave Work tab created for this test; pre-existing user tabs were not touched",
+  "test_tab_id": "1466424604",
+  "screenshot_files": [],
+  "screenshot_note": "Inline CUA screenshots captured the initial card, AI King response, and moved card positions. This browser interface did not provide a file-persistence method for screenshot bytes.",
+  "evidence_recorded_at": "2026-10-10T06:16:30Z"
+}

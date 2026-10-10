@@ -1,0 +1,27 @@
+{
+  "title": "Cowduction",
+  "url": "https://cowduction.guibsonv.chatgpt.site/",
+  "x_source_url": "https://x.com/guibsonvg/status/2108622504839541228",
+  "status": "pass",
+  "duplicate": false,
+  "duplicate_check": "No matching host in prior-urls.json, catalog-baseline.json published_games, or previously_seen_urls; confirmed in the prior dedupe pass.",
+  "direct_play": "pass",
+  "iframe_play": "not applicable; standalone direct game",
+  "controls_actions": [
+    "Selected JOGAR SEM LOGIN (play without login), then INICIAR A AVENTURA for mission Nebulária 1-1; skipped the opening intro.",
+    "Used W and Space during the active level; the UFO moved from center-right to a higher position, and the HUD changed from CASCO 5/5 to CASCO 4/5 while the level remained active.",
+    "Watched the enemy line and asteroid field continue animating; HUD showed beam energy, force, META 0/8, and corridor progress."
+  ],
+  "gameplay_outcome": "Direct gameplay was verified through player movement and a responsive in-level HUD. The ship took one hit (hull 5/5 to 4/5); score and mission target progress remained 0 during the brief test, and the mission was not completed.",
+  "mechanics": "Side-view arcade space action. The menu advertises WASD or arrow movement and Space for the beam. Mission Nebulária 1-1 displays a UFO with a cow pilot, small green ground characters/enemies, a beam-energy meter, hull/armor, and target/corridor counters.",
+  "visual_art": "Original illustrated sci-fi scenes with a purple nebula and planet, futuristic city, UFO/cow pilot, and bright green alien-like figures; the active scene has a wide side-on battlefield and prominent HUD.",
+  "existing_custom_cover_evidence": "The title screen shows a bespoke COWDUCTION logo and game-specific painted space/UFO/cow artwork. No separate promotional cover asset was verified.",
+  "thumbnail_concepts": [
+    "Text-free close-up of the determined cow pilot under the UFO dome as a bright green beam lifts a surprised green alien from a purple nebula planet.",
+    "The cow's UFO streaking above a glowing alien battlefield, with a huge violet planet and multiple green figures creating a dramatic rescue-or-capture moment."
+  ],
+  "screenshot_path": null,
+  "screenshot_note": "Title and active gameplay screenshots were captured and shown inline in the CUA output; this subagent CUA surface exposes no supported local screenshot-file export.",
+  "audio": "Parent verified the macOS output-mute checkbox is enabled; no native audio settings were changed by this tester. This test tab was closed after the session.",
+  "tested_at_utc": "2026-10-10T06:14:56Z"
+}

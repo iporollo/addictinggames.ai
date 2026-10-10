@@ -1,0 +1,14 @@
+{
+  "title": "Footballmon",
+  "playable_url": "https://footballmon.satinyhero4.chatgpt.site/",
+  "creator": "MoneyPipez",
+  "x_source_url": "https://x.com/MoneyPipez/status/2108367968011002331",
+  "status": "pass",
+  "prior_url_duplicate": false,
+  "slug": "footballmon",
+  "direct_play": "pass",
+  "iframe_play": "not_tested",
+  "gameplay_outcome": "Selected Draft, filled22 positions through visible card choices then Play season. Received6-11 season record and player Boom/Bust reports. Roster and season simulation verified.",
+  "audio": "System output muted; user wants audio left off",
+  "test_method": "Parent isolated IAB UI; closed after test"
+}

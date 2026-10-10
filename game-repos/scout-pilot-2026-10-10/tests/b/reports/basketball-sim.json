@@ -1,0 +1,47 @@
+{
+  "slug": "basketball-sim",
+  "title": "Basketball sim (portal listing: Opus 5.5 NBA 2K)",
+  "creator": "FoundPlayio",
+  "x_source_url": "https://x.com/FoundPlayio/status/2107972698064527535",
+  "discovery_url": "https://foundplay.io/",
+  "playable_url": "https://genex.games/opus-2k",
+  "status": "pass",
+  "gameplay_started": true,
+  "direct_result": "The submitted URL resolves to FoundPlay's directory, not a unique game. Navigated its Browse catalog and found the basketball title Opus 5.5 NBA 2K, then opened its actual Genex game page. The Genex page's embedded game initially displayed black while WebGPU shaders compiled; after roughly 80 seconds the 3D arena and player appeared.",
+  "actions": [
+    "Opened the exact candidate URL in a new Brave Work tab; inspected FoundPlay's home/trending list and Browse catalog.",
+    "Opened the listed Opus 5.5 NBA 2K game through FoundPlay's Play link, resolving to https://genex.games/opus-2k.",
+    "Waited through the WebGPU loading sequence; initial 12% loading and black canvas changed to shader compilation and then a rendered arena.",
+    "Focused the embedded game frame and pressed Space; the game status announced EARLY JUMP SHOT.",
+    "Pressed Tab to reveal controls (Space shoot, Q layup, E dunk, Shift sprint, R reset ball, T free throw, Z/X/H/B/F/C/G actions, WASD move, Esc pause/settings). Then tested W, Shift+E, and Space.",
+    "Observed the shot clock progress from 24 to 22 while the rendered player, ball, and half-court remained active."
+  ],
+  "gameplay_response": "Hands-on keyboard input was accepted by the embedded basketball game: Space triggered the EARLY JUMP SHOT state, and the subsequent screenshot showed the live 3D arena/player/ball with the shot clock advanced from 24 to 22. This is gameplay response, not just a menu or HTTP result.",
+  "mechanics_evidence": "Observed solo basketball in a 3D indoor arena; visible one-key shoot/layup/dunk, sprint, movement, free-throw and ball-reset controls. The page's description says dribble, shoot, lay up and dunk.",
+  "art_evidence": "The live game has 3D arena art. Genex page metadata has a custom catalog cover at existing_cover_url, likely reusable if parent confirms image quality. Live scene: player in white uniform #0, ball, purple/blue arena seats, hardwood half-court, hoop and scoreboard.",
+  "thumbnail_concepts": [
+    {
+      "label": "A",
+      "concept": "Tight low-angle arena shot with the game's white-uniformed player rising for a dunk, rim and ball large in frame, glossy hardwood and dramatic arena lights; preserve the actual 3D game's muted dark-purple palette."
+    },
+    {
+      "label": "B",
+      "concept": "A dramatic free-throw/jump-shot moment: player and ball foreground, hoop and glowing 24-second shot clock behind, clear 3D hardwood and stands; keep the action readable at a small card size without adding fake score claims."
+    }
+  ],
+  "hold_reason": null,
+  "runtime_note": "The page logged Three.js WebGPU render-pipeline errors and a shader-precompile warning during startup, but the scene rendered after waiting and accepted keyboard input. Parent-verified system output mute covered this test; no browser/system audio setting was changed.",
+  "pilot_started_at": "2026-10-10T05:34:48Z",
+  "source": "existing AI Game Scout; candidate manifest in ../run.json",
+  "deduplication": {
+    "catalog_baseline": false,
+    "prior_urls": false
+  },
+  "test_mode": "FoundPlay directory discovery followed by direct Genex game page; gameplay tested in Genex's embedded iframe. No AddictingGames iframe test was performed.",
+  "browser_isolation": "new Brave Work tab created for this test; pre-existing user tabs were not touched",
+  "test_tab_id": "1466424598",
+  "screenshot_files": [],
+  "screenshot_note": "Inline CUA screenshots captured the initially black canvas and the later rendered half-court/player. This subagent's browser interface did not provide a file-persistence method for screenshot bytes.",
+  "evidence_recorded_at": "2026-10-10T06:14:40Z",
+  "existing_cover_url": "https://cdn.genex.technology/covers/cmud97cpn000w2plrq403p2te.webp?v=1790145487657"
+}

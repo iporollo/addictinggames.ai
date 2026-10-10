@@ -1,0 +1,14 @@
+{
+  "title": "Timing game",
+  "playable_url": "https://ttak-stop.web.app/",
+  "creator": "uksangbak",
+  "x_source_url": "https://x.com/uksangbak/status/2108112714317086785",
+  "status": "pass",
+  "prior_url_duplicate": false,
+  "slug": "ttak-stop",
+  "direct_play": "pass",
+  "iframe_play": "not_tested",
+  "gameplay_outcome": "Started canvas timing round then pressedSpace: score0 to152, target zone moved to next position. Timing input and successful score response verified.",
+  "audio": "System output muted; user wants audio left off",
+  "test_method": "Parent isolated IAB UI; closed after test"
+}

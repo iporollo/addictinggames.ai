@@ -1,0 +1,15 @@
+{
+  "title": "Planeteer",
+  "playable_url": "https://planeteer.vercel.app/",
+  "creator": "andreumassanet",
+  "x_source_url": "https://x.com/andreumassanet/status/2108683798665961887",
+  "status": "pass",
+  "prior_url_duplicate": false,
+  "slug": "planeteer",
+  "direct_play": "pass",
+  "iframe_play": "not_tested",
+  "gameplay_outcome": "Offline -> Start in Palma -> Start exploring. Held W2.4s: character and camera moved toward pine tree/lake, distance to Palma30km to31km and minimap scale/position changed. Pointer lock unavailable but drag-look supported. Sandbox exploration pass, no win condition claimed.",
+  "visual_art": "Cel-shaded dark-haired traveller red top purple trousers ochre backpack, pine trees, lake, distant coastal town.",
+  "audio": "macOS OutputMuteCheckbox verified1",
+  "test_method": "Parent CUA isolated IAB tab; closed after test"
+}

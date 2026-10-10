@@ -1,0 +1,56 @@
+{
+  "candidate": "Maze picture game",
+  "catalog_title_observed": "まよい小路",
+  "playable_url": "https://cloud-tulip-beam-fire.grok.me",
+  "x_source_url": "https://x.com/horisan_x/status/2107989106169086261",
+  "deduplication": {
+    "pilot_prior_urls": "not_duplicate",
+    "catalog_baseline_published_games": "not_duplicate",
+    "catalog_baseline_previously_seen_urls": "not_duplicate"
+  },
+  "overall_status": "pass_playable",
+  "gameplay_result": "playable_movement_observed",
+  "audio": {
+    "control": "in-game button 音を消す",
+    "observed_after_click": "button changed to 音を出す, aria-pressed=true, volume-x icon",
+    "browser_level_mute_verified": true,
+    "browser_level_mute_evidence": "Parent verified macOS Output Mute Value=1 before this resumed test; no system audio settings changed by this worker."
+  },
+  "actions": [
+    {
+      "action": "Opened title screen",
+      "result": "Instructions said arrow keys/WASD; complete the picture by traversing the maze within time; bells add 30 seconds; wall collision subtracts 5 seconds; four seasonal stages."
+    },
+    {
+      "action": "Clicked in-game mute control before Start",
+      "result": "Mute state visibly reflected by 音を出す / pressed=true."
+    },
+    {
+      "action": "Clicked Start",
+      "result": "Maze scene rendered; timer 3:00, Spring 1/100, bells 0/5."
+    },
+    {
+      "action": "Pressed ArrowRight",
+      "result": "Character moved one cell and revealed a pink cherry-blossom tile; counter advanced 1/100 to 2/100 and timer showed 2:55."
+    }
+  ],
+  "visuals": "Pixel-art adventurer over a very dark green maze; gold bell collectibles; visited tiles reveal pink cherry-blossom ground. Custom in-game visuals observed; no card-cover file downloaded.",
+  "thumbnail_concepts": [
+    {
+      "label": "A",
+      "concept": "Pixel-art hero dashing through a dark green hedge maze toward five bright gold bells; one revealed cherry-blossom tile creates a strong pink focal streak. Keep the retro pixel language and no text."
+    },
+    {
+      "label": "B",
+      "concept": "Four-season maze shown as a compact quadranted world around the same pixel hero, with spring blossoms as the foreground focal point and bells marking the route; no invented power-ups or mechanics."
+    }
+  ],
+  "observed_at_utc": "2026-10-10T06:16:31Z",
+  "test_method": "New isolated Brave tab; UI-only gameplay interactions; no iframe tested",
+  "publication": "No production edits; parent handles one-batch publication after cutoff.",
+  "screenshots": {
+    "captured_inline_in_CUA": true,
+    "saved_to_workspace": false,
+    "reason": "Screenshot was captured and inspected inline through CUA; CUA provides no supported local-file export in this run."
+  }
+}

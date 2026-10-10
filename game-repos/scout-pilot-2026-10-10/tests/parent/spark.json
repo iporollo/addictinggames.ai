@@ -1,0 +1,14 @@
+{
+  "title": "Spark",
+  "playable_url": "https://geoffstearns.com/spark/",
+  "creator": "tensafefrogs",
+  "x_source_url": "https://x.com/tensafefrogs/status/2108613663917560319",
+  "status": "pass",
+  "prior_url_duplicate": false,
+  "slug": "spark",
+  "direct_play": "pass",
+  "iframe_play": "not_tested",
+  "gameplay_outcome": "Start -> pressed train: Compute12 to11, progress0/15 to1/15, output text changed. Bought fictional GPU upgrade: funding2M to1.7M, compute+0.38/s, ownedGPU1. Idle game response verified.",
+  "audio": "System output muted; user wants audio left off",
+  "test_method": "Parent isolated IAB UI; closed after test"
+}

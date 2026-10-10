@@ -1,0 +1,43 @@
+{
+  "slug": "roll-for-agi",
+  "title": "Roll for AGI",
+  "playable_url": "https://rollforagi.com/",
+  "x_source_url": "https://x.com/rollforagi/status/2108049703145443801",
+  "creator": "rollforagi",
+  "status": "pass",
+  "gameplay_started": true,
+  "direct_result": "The game launched into an interactive hand-drawn dice/board scene. A roll moved to an Empty Lot and opened a build choice; selecting Text built a Text house. After dismissing the tutorial, the board showed 20/40 points, 10 Tokens × 2 Params = 20, and a further house/GPU choice.",
+  "actions": [
+    "Confirmed the Sound control was aria-pressed=false before play.",
+    "Clicked Start.",
+    "Clicked Roll; waited for the animation to settle.",
+    "Selected the Text house build option in the in-game tutorial.",
+    "Clicked Skip tutorial; the board then resolved the house trigger and showed the resulting score."
+  ],
+  "gameplay_response": "After Skip tutorial, the game showed a resolved Text house trigger, changed the score to 20/40, and exposed the This Text house action with Add GPU 4. This is direct control/response proof, not merely menu or HTTP success.",
+  "mechanics_evidence": "Observed: dice roll on a board, Token × Params scoring, property/house choice, cash, tutorial progression. Game UI named the first encounter Pop Quiz and its move Skim.",
+  "art_evidence": "The live page has custom game-specific hand-drawn dice, grid board, colored cards and score UI. Existing page art is already specific; preserve it if used as the card image unless a future review finds a placeholder catalog image.",
+  "thumbnail_concepts": [
+    {
+      "label": "A",
+      "concept": "Large hand-drawn die landing on a highlighted Text house, with the Token × Params score jumping toward 40/40; keep the notebook/grid style and clean, legible numbers."
+    },
+    {
+      "label": "B",
+      "concept": "A tilted game-board crop with the Pop Quiz boss card and its Skim move facing a bright die roll, score bar close to full; preserve the marker-and-pencil drawing language."
+    }
+  ],
+  "hold_reason": null,
+  "audio_note": "The game's Sound button was confirmed aria-pressed=false before Start. Parent later required all tabs closed because the user still heard audio; cause was not isolated, so parent owns audio remediation before any retest.",
+  "pilot_started_at": "2026-10-10T05:34:48Z",
+  "source": "existing AI Game Scout; candidate manifest in ../run.json",
+  "deduplication": {
+    "catalog_baseline": false,
+    "prior_urls": false
+  },
+  "test_mode": "direct candidate URL in isolated IAB tab; no addictinggames.ai iframe test",
+  "browser_isolation": "new IAB tab; hidden-mode request was unsupported in the subagent thread",
+  "screenshot_files": [],
+  "screenshot_note": "Screenshots were emitted inline during CUA inspection but were not persisted to files before the parent required immediate closure of all test tabs.",
+  "evidence_recorded_at": "2026-10-10T05:40:15Z"
+}
