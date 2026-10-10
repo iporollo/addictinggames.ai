@@ -1,0 +1,27 @@
+{
+  "title": "RoboBeats: Pumpkin Catch",
+  "url": "https://pumpkin-catch.netlify.app/",
+  "x_source_url": "https://x.com/nullinbetween/status/2108030563932348537",
+  "status": "pass",
+  "duplicate": false,
+  "duplicate_check": "No matching host in prior-urls.json, catalog-baseline.json published_games, or previously_seen_urls.",
+  "direct_play": "pass",
+  "iframe_play": "not applicable; standalone direct game",
+  "controls_actions": [
+    "Selected Level 1: London Night, the pumpkin catcher, and Slow speed.",
+    "Clicked Play to enter the live round.",
+    "Moved the pointer to the right side of the playfield; the pumpkin catcher shifted from center to the right and the caught-treat progress increased to two."
+  ],
+  "gameplay_outcome": "A falling-candy round visibly ran. Pointer input moved the catcher, and the progress row showed two caught treats. The site description says to move left/right to catch treats.",
+  "mechanics": "Catch falling Halloween treats by moving a selected catcher left and right. The setup offers three unlockable themed levels, four catcher characters, and slow/fast speed.",
+  "visual_art": "Original painterly Halloween London street at night, full moon and rooftops, jack-o-lantern catcher holding a basket, candy sprites, plus small robot characters in the setup art.",
+  "existing_custom_cover_evidence": "The title/setup screen uses bespoke Pumpkin Catch lettering and game-specific London, robot, and Halloween art; no separate cover asset was verified.",
+  "thumbnail_concepts": [
+    "Text-free close-up of the jack-o-lantern catcher as colorful candy rains over a moonlit London street.",
+    "The pumpkin catcher dashing toward a large cluster of falling sweets, with the London skyline and full moon framing the action."
+  ],
+  "screenshot_path": null,
+  "screenshot_note": "Gameplay screenshots were captured and shown inline in the CUA tool output; this subagent CUA surface exposes no supported local screenshot-file export, so no path was saved.",
+  "audio": "The page Sound toggle was clicked and its accessibility state changed to Sound off (Value 1) before starting. This is not proof of browser-level muting. All test tabs were closed immediately when parent reported the user still heard audio; no further testing.",
+  "tested_at_utc": "2026-10-10T05:40Z"
+}

@@ -1,0 +1,15 @@
+{
+  "title": "Let's Kart!",
+  "playable_url": "https://fish.ryantsai.com/kart/",
+  "creator": "ryantsai_16",
+  "x_source_url": "https://x.com/ryantsai_16/status/2108749254479233477",
+  "status": "pass",
+  "prior_url_duplicate": false,
+  "slug": "lets-kart",
+  "direct_play": "pass",
+  "iframe_play": "not_tested",
+  "gameplay_outcome": "Started Race Bots on Shiba Park. Held W2.2s: speed0 to94km/h, position4 to6, race clock advanced. Held W+D1.1s: speed80km/h, obtained chili item x3, position8. Live steering/racing scene observed; did not complete lap.",
+  "visual_art": "Cute cel-shaded pet racers in karts/bathtubs, green hills, pink blossom trees, red-white curbs.",
+  "audio": "macOS OutputMuteCheckbox verified1",
+  "test_method": "Parent CUA isolated IAB tab; closed after test"
+}

@@ -1,0 +1,28 @@
+{
+  "title": "Puni Jump",
+  "url": "https://puni-jump.web.app/",
+  "x_source_url": "https://x.com/insta_chord/status/2107459905527685594",
+  "status": "pass",
+  "duplicate": false,
+  "duplicate_check": "No matching host in prior-urls.json, catalog-baseline.json published_games, or previously_seen_urls.",
+  "direct_play": "pass",
+  "iframe_play": "not applicable; standalone direct game",
+  "controls_actions": [
+    "Read How to play: left/right to jump in that direction; holding makes the jump higher; stomp enemies from above; jump again immediately after a stomp for combos; wall-jump by sliding and tapping toward a wall.",
+    "Turned sound off before play; the control changed to “Turn sound on” (Value 0).",
+    "Tapped Let’s jump! and entered Stage 01 with 3 lives and a 30-second timer.",
+    "Clicked the right control, then pressed Left. The mushroom avatar moved across the playfield and the game displayed NICE SLIP!"
+  ],
+  "gameplay_outcome": "Actual directional movement and a near-miss event were observed. The test timer expired before scoring; HUD remained at 3 lives and score 000. Gameplay response is verified, but this was a short control sample rather than a completed stage.",
+  "mechanics": "Portrait arcade platformer: direct the mushroom to jump through a vertical field, stomp spiky enemies, chain jumps for score, and avoid losing lives.",
+  "visual_art": "Minimal pastel, hand-drawn style with an orange mushroom protagonist, simple clouds and rolling hills, and expressive spiky enemies.",
+  "existing_custom_cover_evidence": "The live title screen includes a custom PUNI JUMP wordmark and mushroom character; no separate promotional cover asset was verified.",
+  "thumbnail_concepts": [
+    "Text-free, low-angle action shot of the orange mushroom springing high above a spiky enemy, with a tall pastel sky to sell the vertical jump.",
+    "The mushroom narrowly dodging a cluster of spiky enemies mid-air, with the pastel hill and cloud backdrop and clear protagonist silhouette."
+  ],
+  "screenshot_path": null,
+  "screenshot_note": "Gameplay screenshots were captured and shown inline in the CUA tool output; this subagent CUA surface exposes no supported local screenshot-file export, so no path was saved.",
+  "audio": "The in-game control changed to “Turn sound on” (Value 0) before starting. This is not proof of browser-level muting. All test tabs were closed immediately when parent reported the user still heard audio; no further testing.",
+  "tested_at_utc": "2026-10-10T05:40Z"
+}

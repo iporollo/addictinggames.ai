@@ -1,0 +1,27 @@
+{
+  "title": "RX-78-2 Atmospheric Re-entry",
+  "url": "https://rx78-2-reentry.vercel.app/",
+  "x_source_url": "https://x.com/lancetw/status/2108460659772199154",
+  "status": "pass",
+  "duplicate": false,
+  "duplicate_check": "No matching host in prior-urls.json, catalog-baseline.json published_games, or previously_seen_urls; confirmed in the prior dedupe pass.",
+  "direct_play": "pass",
+  "iframe_play": "not applicable; standalone direct 3D simulator",
+  "controls_actions": [
+    "Read the mission brief: manual atmospheric entry, combat with Char's Zakus, shield/attitude and cooling controls, then brake to a safe sink rate for White Base recovery. Started Manual Entry.",
+    "Used A during active simulation and selected Shield to Flow; the simulation's elapsed time, speed/altitude, suit thermal readings, enemy ranges, and 3D camera scene updated while the run advanced.",
+    "Clicked the visible target lock frame as directed; HUD showed MASTER CAUTION and GUN LOCK. Pressed F; Beam Rifle Energy decreased from 15/15 to 14/15. The mission and kill counters remained incomplete."
+  ],
+  "gameplay_outcome": "A live, controllable 3D atmospheric-entry and combat simulation was verified. The target-lock input and firing input changed the HUD/weapon-energy state. I did not complete the combat or landing objectives and do not claim the Zaku was destroyed by my shot.",
+  "mechanics": "RX-78-2 piloting/combat and atmospheric-reentry simulation with manual and autopilot modes, attitude, translation and thrust controls, beam rifle and other suit actions, heat/cooling/ablative systems, speed/altitude/ground-track telemetry, and a recovery objective.",
+  "visual_art": "A detailed 3D RX-78-2 mobile suit with target brackets and scope, a changing space/atmosphere environment, map and telemetry panels, suit-part temperature display, timeline, and in-world communications log.",
+  "existing_custom_cover_evidence": "The mission-entry overlay contains the game-specific title, briefing, and live 3D suit scene; no separate promotional cover asset was verified.",
+  "thumbnail_concepts": [
+    "Text-free action composition of the RX-78-2 leading with its shield through a vivid orange atmospheric plasma layer, Earth curvature and heat trails filling the background.",
+    "Close low-angle 3D mobile-suit shot with a lock bracket on a distant Zaku and an illuminated atmospheric horizon, emphasizing the simultaneous combat and re-entry crisis."
+  ],
+  "screenshot_path": null,
+  "screenshot_note": "Manual-entry and active gameplay screenshots were captured and shown inline in the CUA output; this subagent CUA surface exposes no supported local screenshot-file export.",
+  "audio": "Parent verified the macOS output-mute checkbox is enabled; no native audio settings were changed by this tester. This test tab was closed after the session.",
+  "tested_at_utc": "2026-10-10T06:14:56Z"
+}

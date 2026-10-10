@@ -1,0 +1,12 @@
+{
+  "title": "Llama Roguelike",
+  "playable_url": "https://aovks23.itch.io/llama-roguelike-work-in-progress",
+  "creator": "AlexanderO73639",
+  "x_source_url": "https://x.com/AlexanderO73639/status/2108345937550544979",
+  "status": "pass",
+  "prior_url_duplicate": false,
+  "direct_play": "pass",
+  "iframe_play": "not_tested",
+  "gameplay_outcome": "Itch menu click did not advance; opened observed html-classic.itch.zone game URL directly. Jugar then Pelear then key1 attack: enemy16/16 to10/16, llama20/20 to16/20, actions5/5 to4/5. Attack and enemy response verified.",
+  "test_method": "Parent IAB direct hosted game; closed after test"
+}

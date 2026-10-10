@@ -1,0 +1,64 @@
+{
+  "candidate": "Void Clash TCG",
+  "catalog_title_observed": "Void Clash",
+  "playable_url": "https://void-clash-tcg.grok.me",
+  "x_source_url": "https://x.com/voidclashtcg/status/2107867388523765793",
+  "deduplication": {
+    "pilot_prior_urls": "not_duplicate",
+    "catalog_baseline_published_games": "not_duplicate",
+    "catalog_baseline_previously_seen_urls": "not_duplicate"
+  },
+  "overall_status": "pass_playable",
+  "gameplay_result": "single_player_match_started; movement, AI turn, defense, and card play observed",
+  "audio": {
+    "control": "home-screen button aria-label Mute",
+    "observed_after_click": "label remained Mute; no in-game mute confirmation was visible",
+    "browser_level_mute_verified": true,
+    "browser_level_mute_evidence": "Parent verified macOS Output Mute Value=1 before this resumed test; no system audio settings changed by this worker."
+  },
+  "actions": [
+    {
+      "action": "Opened title screen",
+      "result": "Visible controls: SIGN IN, Mute, START, PVP, BUILD DECK, HOW TO PLAY."
+    },
+    {
+      "action": "Clicked Mute on the menu",
+      "result": "Button remained labeled Mute; relied on parent-verified global output mute for safe testing."
+    },
+    {
+      "action": "Opened How to play, dismissed it, and pressed Start without signing in",
+      "result": "Rules described HP/RP, movement, attacks, equipment cards, and best-of-three fights; proceeded into fighter and deck selection."
+    },
+    {
+      "action": "Kept default Harry fighter/deck, chose Cyan Rift, and rolled initiative",
+      "result": "Single-player match against Rook loaded. Round 1 began after initial draw; UI showed turn, deck, and card hand."
+    },
+    {
+      "action": "Moved right once, ended turn, then defended against opponent attack",
+      "result": "Harry moved one tile and RP dropped 2→1. The AI moved and prompted Defend?; defense failed, Harry HP fell 5→3, then next round began."
+    },
+    {
+      "action": "Played Med Kit from hand",
+      "result": "UI showed CARD PLAYED / Cleansed and Harry HP increased 3→4. No account/sign-in was used."
+    }
+  ],
+  "visuals": "Game includes custom sci-fi character portraits (Harry, Huntress, Rook, Nyx), neon cyan-violet card frames, illustrated weapons/items, a split-color tactical board, and a cyberpunk-style menu. No separate cover file downloaded.",
+  "thumbnail_concepts": [
+    {
+      "label": "A",
+      "concept": "Harry and Rook face off across the cyan-versus-magenta arena, with their actual portrait art, health bars, and one oversized illustrated card in the foreground; use the game's neon card-frame language and no invented combat result."
+    },
+    {
+      "label": "B",
+      "concept": "A dramatic close crop of Harry's purple-clad portrait and Rook's armored portrait, flanked by the verified grid and glowing attack card; preserve the cyan/violet glow, no fabricated cards or victory claim."
+    }
+  ],
+  "observed_at_utc": "2026-10-10T06:16:31Z",
+  "test_method": "New isolated Brave tab; UI-only single-player gameplay; no iframe tested",
+  "publication": "No production edits; parent handles one-batch publication after cutoff.",
+  "screenshots": {
+    "captured_inline_in_CUA": true,
+    "saved_to_workspace": false,
+    "reason": "Screenshot was captured and inspected inline through CUA; CUA provides no supported local-file export in this run."
+  }
+}

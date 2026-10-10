@@ -1,0 +1,28 @@
+{
+  "title": "Cows With Buns",
+  "url": "https://cowswithbuns.stevenrouk.com/",
+  "x_source_url": "https://x.com/stevenrouk/status/2108582487257436208",
+  "status": "pass",
+  "duplicate": false,
+  "duplicate_check": "No matching host in prior-urls.json, catalog-baseline.json published_games, or previously_seen_urls.",
+  "direct_play": "pass",
+  "iframe_play": "not applicable; standalone direct game",
+  "controls_actions": [
+    "Opened Play, then Let’s moo-ve! to enter Level 1: Feedlot Fields.",
+    "Held Right for 1.5 seconds; Bessie moved across the level, the view scrolled, and the score rose from 0 to 10 after collecting a clover.",
+    "Held Right again; a pitchfork-carrying human enemy and a caged animal appeared ahead.",
+    "Read the game’s How to play panel: arrows/A-D move; Up/W jumps; J/X fires buns; Down/S drops through planks; P pauses; M mutes."
+  ],
+  "gameplay_outcome": "Actual in-level movement and a score change were observed. HUD showed 3 hearts, 0/4 cows freed, 0/3 clovers at entry; score became 10 after movement. No claim that the animal rescue objective was completed.",
+  "mechanics": "Cartoon platform action: move and jump across a farm level, collect clovers, free animals by touching or firing buns at a pen; friendly animals follow and fire buns too. The instructions state buns convert hostile workers into nonviolent, happier roles.",
+  "visual_art": "Original bright flat-cartoon farm art, rounded cow protagonist carrying a bun blaster, pink barn, fences, clovers, and human enemies.",
+  "existing_custom_cover_evidence": "The title screen has a bespoke COWS with BUNS graphic and illustrated farm backdrop; no separate cover asset was verified.",
+  "thumbnail_concepts": [
+    "Text-free close-up of Bessie aiming a sesame bun blaster as a surprised farmhand and bright pink barn fill the background.",
+    "A small herd bursting from a pen behind Bessie, bun projectiles and clover pickups sweeping diagonally across a sunny feedlot."
+  ],
+  "screenshot_path": null,
+  "screenshot_note": "Gameplay screenshot was captured and shown inline in the CUA tool output; this subagent CUA surface exposes no supported local screenshot-file export, so no path was saved.",
+  "audio": "The game was first entered before browser-level mute was available. Its in-game toggle was later set to Sound off, but that is not proof of browser-level muting. All test tabs were closed immediately when parent reported the user still heard audio; no further testing.",
+  "tested_at_utc": "2026-10-10T05:40Z"
+}

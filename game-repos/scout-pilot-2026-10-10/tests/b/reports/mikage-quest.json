@@ -1,0 +1,44 @@
+{
+  "slug": "mikage-quest",
+  "title": "Mikage Quest: Sailor Uniform and Steel Town (みかげクエスト ～セーラー服と鉄の町～)",
+  "creator": "nekomusica_kazu",
+  "x_source_url": "https://x.com/nekomusica_kazu/status/2107951648949846259",
+  "playable_url": "https://kazuyoshi1118.itch.io/mikage-quest",
+  "status": "pass",
+  "gameplay_started": true,
+  "direct_result": "The itch.io page provided a browser demo and explicit story/controls description. Started the HTML game in its embedded frame and moved past the title screen into Hikari's bedroom opening scene. The scene rendered pixel-art characters, room furnishings, character stats, and dialogue.",
+  "actions": [
+    "Opened the direct itch.io page in a new isolated Brave Work tab; waited for the page and HTML game to render.",
+    "Read the creator's English description and visible controls before starting. The page identifies this as a five-minute browser demo with arrow/WASD movement, Z confirm, X menu and a Japanese retro-JRPG story.",
+    "Clicked Run game and used keyboard input in the game frame to leave the title screen.",
+    "Pressed Z repeatedly; the opening alarm/sleep dialogue advanced through multiple distinct story lines and entered the bedroom scene.",
+    "Pressed ArrowDown and ArrowRight during room exploration; the player character visibly changed pose/position in the room. No combat was triggered during this short check."
+  ],
+  "gameplay_response": "The embedded game transitioned from its title menu to Hikari's bedroom, displayed Hikari Lv1 with HP 30 and MP 6, and advanced the dialogue through several different lines in response to Z input. A directional input then visibly changed the player sprite's pose/position. This confirms interactive game state beyond the title screen; no combat was independently verified.",
+  "mechanics_evidence": "Observed title menu, keyboard-driven dialogue progression, bedroom exploration, player stats. Creator description claims a Dragon-Quest-style command battle, a bamboo-sword-wielding kendo club protagonist, and a five-minute prologue-to-chapter-one demo; those combat mechanics were not personally reached.",
+  "art_evidence": "Custom pixel-art game art is already present: sunset over the mountain town and high school on the title screen; the game scene has a detailed wooden bedroom, two pixel characters, a bookshelf, windows, stairs, and retro JRPG dialogue boxes. Existing itch cover image (og:image): https://img.itch.zone/aW1nLzMwNjEyNjY2LnBuZw==/original/iqJE8j.png. Additional page images are hosted by itch.io and the live game itself supplies custom art.",
+  "thumbnail_concepts": [
+    {
+      "label": "A",
+      "concept": "Pixel-art Hikari in her sailor uniform gripping a bamboo shinai in the foreground, with the sunset mountain town and her school behind her; high-contrast warm sky against deep purple foothills, matching the game's existing pixel scale and palette."
+    },
+    {
+      "label": "B",
+      "concept": "A dramatic pixel-art school corridor with Hikari and her childhood friend facing a few delinquent silhouettes near the classroom entrance, a shinai held ready and school windows showing the mountain landscape; keep the characters and conflict readable at card size, with no unverified score or claim text."
+    }
+  ],
+  "hold_reason": null,
+  "audio_note": "The parent-verified system output mute covered this test; the M audio toggle was not pressed and no browser/system audio setting was changed.",
+  "pilot_started_at": "2026-10-10T05:34:48Z",
+  "source": "existing AI Game Scout; candidate manifest in ../run.json",
+  "deduplication": {
+    "catalog_baseline": false,
+    "prior_urls": false
+  },
+  "test_mode": "direct itch.io page and its embedded HTML game; no AddictingGames iframe test",
+  "browser_isolation": "new Brave Work tab created for this test; pre-existing user tabs were not touched",
+  "test_tab_id": "1466424613",
+  "screenshot_files": [],
+  "screenshot_note": "Inline CUA screenshots captured the title screen, bedroom dialogue, and responding pixel-art character. Screenshot bytes were not available through a filesystem writer in this browser-control session.",
+  "evidence_recorded_at": "2026-10-10T06:20:30Z"
+}

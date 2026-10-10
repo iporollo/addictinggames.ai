@@ -1,0 +1,52 @@
+{
+  "candidate": "ShareSpark",
+  "catalog_title_observed": "ShareSpark",
+  "playable_url": "https://share-spark.vercel.app",
+  "x_source_url": "https://x.com/SirMaximusIX/status/2107511702875205963",
+  "deduplication": {
+    "pilot_prior_urls": "not_duplicate",
+    "catalog_baseline_published_games": "not_duplicate",
+    "catalog_baseline_previously_seen_urls": "not_duplicate"
+  },
+  "overall_status": "pass_simulated_gameplay",
+  "gameplay_result": "fictional family session created; one simulated market day advanced; no shares bought or sold",
+  "audio": {
+    "visible_audio_or_video_elements_on_landing_and_setup": 0,
+    "visible_mute_control": "none",
+    "browser_level_mute_verified": true,
+    "browser_level_mute_evidence": "No audio control or media elements were exposed; parent verified macOS Output Mute Value=1 before this resumed test. No system audio settings changed by this worker."
+  },
+  "actions": [
+    {
+      "action": "Opened landing page and started setup",
+      "result": "Described itself as a family learning game: kids invent fictional companies, then charts and news drive play. Setup requires 2–4 players and at least one kid and one grown-up."
+    },
+    {
+      "action": "Entered fictional test players and company, then opened the market",
+      "result": "Created a test-only session with invented names and a fictional company (Glitter Garage / GLTR, sparkly art kits); no user personal data was entered."
+    },
+    {
+      "action": "Clicked Move the market! once",
+      "result": "Day advanced from 0 to 1 of 28; a visible results dialog showed the fictional company down 4%, from $10.00 to $9.60. No slices were bought or sold; no real financial action occurred."
+    }
+  ],
+  "visuals": "Soft pastel family-game UI, emoji avatars and fictional company icon; kid home shows piggy bank, virtual balances, company price and daily market movement. No separate cover file downloaded.",
+  "thumbnail_concepts": [
+    {
+      "label": "A",
+      "concept": "Friendly family avatars cheer as a fictional sparkle-company chart wiggles down then back up; include a playful piggy bank, colorful company icon and clearly game-like chart UI, not real investing imagery."
+    },
+    {
+      "label": "B",
+      "concept": "Bright split-screen: kid invents a goofy brand and a grown-up taps the oversized Move the Market button while the fictional chart dances; avoid real currency, brokerage screens or investment promises."
+    }
+  ],
+  "observed_at_utc": "2026-10-10T06:16:31Z",
+  "test_method": "New isolated Brave tab; UI-only fictional gameplay using invented test data; no iframe tested",
+  "publication": "No production edits; parent handles one-batch publication after cutoff.",
+  "screenshots": {
+    "captured_inline_in_CUA": true,
+    "saved_to_workspace": false,
+    "reason": "Screenshot was captured and inspected inline through CUA; CUA provides no supported local-file export in this run."
+  }
+}

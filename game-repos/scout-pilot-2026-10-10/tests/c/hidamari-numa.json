@@ -1,0 +1,65 @@
+{
+  "candidate": "Hidamari Numa",
+  "catalog_title_observed": "ひだまり沼 / Hidamari Pond",
+  "playable_url": "https://seicolor.github.io/hidamari-numa-site/series/",
+  "tested_game_url": "https://seicolor.github.io/hidamari-numa-site/play/?place=numa",
+  "x_source_url": "https://x.com/seicolor/status/2108402902666756345",
+  "deduplication": {
+    "pilot_prior_urls": "not_duplicate",
+    "catalog_baseline_published_games": "not_duplicate",
+    "catalog_baseline_previously_seen_urls": "not_duplicate"
+  },
+  "overall_status": "pass_playable_with_catch_unverified",
+  "gameplay_result": "playable_cast_and_reel_state_observed; no catch verified",
+  "audio": {
+    "control": "in-game button ♪",
+    "observed_after_click": "button label changed to Muted",
+    "browser_level_mute_verified": true,
+    "browser_level_mute_evidence": "Parent verified macOS Output Mute Value=1 before this resumed test; in-game control visibly changed to Muted; no system audio settings changed by this worker."
+  },
+  "actions": [
+    {
+      "action": "Opened supplied series URL and followed visible links to the Numa page/game",
+      "result": "Reached actual playable route /play/?place=numa after loading; collection page itself was not treated as gameplay."
+    },
+    {
+      "action": "Waited about 45 seconds for assets",
+      "result": "3D autumn pond appeared with fishing rod, reflections, red trees and a lakeside building."
+    },
+    {
+      "action": "Clicked Sound control",
+      "result": "UI changed from ♪ to Muted before gameplay interaction."
+    },
+    {
+      "action": "Waited for 3D pond assets to finish loading",
+      "result": "After approximately 105 seconds total, the actual autumn pond, fishing rod, reflections, red trees, building and fish-depth HUD were visible; the temporary “Loading… / Painting fish scales…” overlay cleared."
+    },
+    {
+      "action": "Held and released click over the water to cast",
+      "result": "Water depth changed from -- to 2.4 m; the bobber appeared and the game prompted “Click as soon as the bobber sinks!”"
+    },
+    {
+      "action": "Clicked the bobber after the bite prompt",
+      "result": "The game showed “The bobber sank! Now!” and “Reeling in…” then returned to cast-ready state. No fish was landed; task remained Catch 3 different species 0/3 and Creel 0."
+    }
+  ],
+  "visuals": "Playable scene itself supplies a custom 3D autumn fishing image: reflective pond, red foliage, cabin, fishing rod and depth/rod/bait HUD. No separate cover file downloaded.",
+  "thumbnail_concepts": [
+    {
+      "label": "A",
+      "concept": "Close, cinematic view of the fishing rod and glowing bobber against the reflective autumn pond; red trees and the cabin frame the shot, matching the game’s realistic 3D look."
+    },
+    {
+      "label": "B",
+      "concept": "Split composition of the calm pond surface and underwater bobber/depth gauge, with autumn reflections above and a fish approaching below; keep fishing mechanics grounded in observed UI and avoid promising a catch."
+    }
+  ],
+  "observed_at_utc": "2026-10-10T06:16:31Z",
+  "test_method": "New isolated Brave tab; UI-only gameplay interactions; no iframe tested",
+  "publication": "No production edits; parent handles one-batch publication after cutoff.",
+  "screenshots": {
+    "captured_inline_in_CUA": true,
+    "saved_to_workspace": false,
+    "reason": "Screenshot was captured and inspected inline through CUA; CUA provides no supported local-file export in this run."
+  }
+}
