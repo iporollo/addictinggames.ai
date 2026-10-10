@@ -10,6 +10,7 @@ export type DirectGame = {
   description: string;
   imageUrl: string;
   externalUrl: string;
+  conceptualArtwork?: boolean;
 };
 
 const source: [string, string, string, string, string, string?][] = [
@@ -64,11 +65,11 @@ const source: [string, string, string, string, string, string?][] = [
 
   ['bo1-zombies', 'BO1 Zombies', 'Action', 'Survive a browser zombie map', 'https://vel.gg/bo1z', '/games/custom-bo1-zombies.webp'],
   ['black-ops-2', 'Black Ops 2', 'Action', 'Open a browser action port', 'https://vibeslops.luckeysystems.com/', '/games/custom-black-ops-2.webp'],
-  ['ovz-global-flashpoint', 'OVZ: Global Flashpoint', 'Action', 'Open the OVZ browser game', 'https://ovz-game-production.up.railway.app/'],
+  ['ovz-global-flashpoint', 'OVZ: Global Flashpoint', 'Action', 'Open the OVZ browser game', 'https://ovz-game-production.up.railway.app/', '/games/concept-ovz-global-flashpoint.webp'],
   ['skate-3', 'Skate 3', 'Sports', 'Skate in a browser world', 'https://skate.aaddpp.lol/', '/games/custom-skate-3.webp'],
   ['cs-surf', 'CS Surf', 'Sports', 'Surf a map with desktop mouse controls', 'https://surfd.net/', '/games/custom-cs-surf.webp'],
-  ['halo-ce', 'Halo CE', 'Action', 'Open a browser sci-fi shooter', 'https://mitchellhynes.com/halo'],
-  ['halo-ce-mobile', 'Halo CE mobile', 'Action', 'Try a mobile browser version', 'https://hcemobile.com/'],
+  ['halo-ce', 'Halo CE', 'Action', 'Open a browser sci-fi shooter', 'https://mitchellhynes.com/halo', '/games/concept-halo-ce.webp'],
+  ['halo-ce-mobile', 'Halo CE mobile', 'Action', 'Try a mobile browser version', 'https://hcemobile.com/', '/games/concept-halo-ce-mobile.webp'],
   ['pes-6', 'PES 6', 'Sports', 'Play a browser football port', 'https://pes6.optijuegos.net/', '/games/custom-pes-6.webp'],
   ['gta-5', 'GTA 5', 'Simulation', 'Explore an archived browser port', 'https://web.archive.org/web/20261006055917/https://playgta5.com/', '/games/custom-gta-5.webp'],
   ['gta-vice-city', 'GTA Vice City', 'Simulation', 'Explore a WebAssembly city port', 'https://joncodeofficial.github.io/gta-vice-city-wasm', '/games/custom-gta-vice-city.webp'],
@@ -85,5 +86,6 @@ const source: [string, string, string, string, string, string?][] = [
 export const directGames: DirectGame[] = source.map(([slug, title, category, shortDescription, externalUrl, imageUrl]) => ({
   slug, title, category, shortDescription,
   description: `${shortDescription}. Opens on the game's own site and may need time to load.`,
+  conceptualArtwork: imageUrl?.startsWith('/games/concept-') || undefined,
   imageUrl: imageUrl ?? `/games/direct-${slug}.svg`, externalUrl,
 }));
