@@ -1,0 +1,479 @@
+{
+  "run_id": "2026-10-10T185643Z",
+  "window": 2,
+  "document_type": "direct_game_release_manifest",
+  "status": "prepared_for_parent_review",
+  "publication_status": "not_merged_or_deployed",
+  "release_scope": "Eleven parent-approved Window 2 entries. Games open at their exact external playable URLs; AddictingGames iframe integration was not tested.",
+  "eligible_count": 11,
+  "records": [
+    {
+      "candidate_id": 2,
+      "candidate_title": "Football Legacy Manager (Pocket Gridiron)",
+      "slug": "pocket-gridiron",
+      "title": "Pocket Gridiron",
+      "category": "Sports",
+      "externalUrl": "https://cellis212.github.io/pocket-gridiron/",
+      "xSource": "https://x.com/cellis212/status/2108663499396387085",
+      "disposition": "eligible",
+      "acceptance_basis": "agent_gameplay_verified",
+      "ai_authorship_evidence": {
+        "status": "verified",
+        "quote": "I had some extra Claude tokens before my reset tomorrow so I turned this into a playable version of Football Legacy Manager:",
+        "source_url": "https://x.com/cellis212/status/2108663499396387085",
+        "source_type": "Creator-authored public X post",
+        "context": "The same post links the exact playable URL."
+      },
+      "gameplay": {
+        "status": "direct_gameplay_verified",
+        "load_observation": "The exhibition dashboard presented Kanto All-Stars versus Paldea All-Stars with team/play-style controls, Kick Off, a field view and play-by-play.",
+        "inputs_and_visible_responses": [
+          {
+            "input": "Clicked KICK OFF on the Exhibition dashboard.",
+            "response": "The final score changed from Kanto 6–Paldea 29 to Kanto 20–Paldea 44; quarter totals, weather, ball position and play-by-play updated."
+          }
+        ],
+        "limits": "An exhibition simulation was observed; manual field movement and season mode were not tested."
+      },
+      "addictinggames_iframe_test": "not_tested",
+      "artwork": {
+        "imageUrl": "/games/campaign2-pocket-gridiron.webp",
+        "kind": "creator_post_gameplay_screenshot",
+        "source_url": "https://x.com/cellis212/status/2108663499396387085/photo/1",
+        "width": 1200,
+        "height": 845,
+        "bytes": 57972,
+        "sha256": "42ea9ff84d55b58befa33f6bafaf5986549fd9217a13dafdba288689d713a88c"
+      },
+      "rights_branding_note": "The game describes itself as an unofficial Pokémon fan project and attributes Pokémon data/artwork to PokeAPI and their owners. This note records observed content; it does not represent rights clearance."
+    },
+    {
+      "candidate_id": 3,
+      "candidate_title": "Ski Simulator 360 (Vail)",
+      "slug": "ski-simulator-360-vail",
+      "title": "Ski Simulator 360 (Vail)",
+      "category": "Sports",
+      "externalUrl": "https://ski-simulator-360.pages.dev/?world=vail",
+      "xSource": "https://x.com/FloAILab/status/2107322688763199603",
+      "disposition": "eligible",
+      "acceptance_basis": "agent_gameplay_verified",
+      "ai_authorship_evidence": {
+        "status": "verified_under_current_owner_policy",
+        "quote": "Independent • Experimental • AI-assisted. Terrain approximate.",
+        "source_url": "https://x.com/FloAILab/status/2107322688763199603",
+        "source_type": "Creator-authored public X post",
+        "context": "The same creator post describes the Vail skiing prototype and links this playable URL; its AI-assisted statement is explicit but does not specify which parts used AI."
+      },
+      "gameplay": {
+        "status": "direct_gameplay_verified",
+        "load_observation": "The page's terrain loader advanced from 92% to READY; starting the run then rendered the 3D Vail slope, skier and HUD.",
+        "inputs_and_visible_responses": [
+          {
+            "input": "Held Up for 1.5 seconds after starting the Vail run.",
+            "response": "The HUD changed from elevation 3,549 m / speed 0 km/h / score 0 to elevation 3,550 m / speed 25 km/h / score 0; the skier visibly descended."
+          }
+        ],
+        "limits": "A short steering check only; jump and paraglider controls were not tested. The creator notes that the terrain is approximate."
+      },
+      "addictinggames_iframe_test": "not_tested",
+      "artwork": {
+        "imageUrl": "/games/campaign2-ski-simulator-360-vail.webp",
+        "kind": "creator_post_video_poster",
+        "source_url": "https://x.com/FloAILab/status/2107322688763199603",
+        "source_media_url": "https://pbs.twimg.com/amplify_video_thumb/2107321626702274560/img/p_N7KcVrDjoOOTNj.jpg",
+        "width": 1200,
+        "height": 845,
+        "bytes": 79364,
+        "sha256": "beb23c7a8ea5230852a768c40ec870c74edc1c317ad215cc145ba2eb36dd0969",
+        "note": "Creator-post poster with Vail terrain/map labels; dense text is part of the source image."
+      }
+    },
+    {
+      "candidate_id": 4,
+      "candidate_title": "Tidebreak",
+      "slug": "tidebreak",
+      "title": "Tidebreak",
+      "category": "Strategy",
+      "externalUrl": "https://tidebreak.freesoul.games/",
+      "xSource": "https://x.com/Alex_Vainshtein/status/2108985929364869159",
+      "disposition": "eligible",
+      "acceptance_basis": "agent_gameplay_verified",
+      "ai_authorship_evidence": {
+        "status": "verified",
+        "quote": "I made a free 3D tactics game you play in the browser, built with Claude Opus 5.5. You see where every Viking longship will land before it does. Then you shape the shore and hold the village. Would you play this? What would you add?",
+        "source_url": "https://x.com/Alex_Vainshtein/status/2108985929364869159",
+        "source_type": "Creator-authored public X post"
+      },
+      "gameplay": {
+        "status": "direct_gameplay_verified",
+        "load_observation": "Starting a Daily Island opened the Prepare phase with squad placement instructions, 4/4 structures/slots and 32 raiders.",
+        "inputs_and_visible_responses": [
+          {
+            "input": "Selected Shield wall squad 1, then clicked a central island tile.",
+            "response": "A blue squad badge appeared on the tile and the squad status changed from not placed to ready. The raid did not start; the Start the raid control remained disabled."
+          }
+        ],
+        "limits": "Squad placement was verified; raid combat, score and victory were not tested."
+      },
+      "addictinggames_iframe_test": "not_tested",
+      "artwork": {
+        "imageUrl": "/games/campaign2-tidebreak.webp",
+        "kind": "creator_page_og_cover",
+        "source_url": "https://tidebreak.freesoul.games/og.jpg",
+        "width": 1200,
+        "height": 845,
+        "bytes": 64152,
+        "sha256": "eee88e15b2423a5578ba4df213fdc57fe1935e1aee949f486064c1bf31d283a3"
+      }
+    },
+    {
+      "candidate_id": 10,
+      "candidate_title": "A Claude flight combat game",
+      "slug": "halberd-flight-range",
+      "title": "HALBERD FLIGHT RANGE",
+      "category": "Simulation",
+      "externalUrl": "https://claude.ai/artifact/KsDAsLriC91Yc3SiSSNUU4",
+      "xSource": "https://x.com/BigIron_Enjoyer/status/2108757890563752112",
+      "disposition": "eligible",
+      "acceptance_basis": "agent_gameplay_verified",
+      "ai_authorship_evidence": {
+        "status": "verified_in_context",
+        "quote": "So I started fucking around in Claude",
+        "source_url": "https://x.com/BigIron_Enjoyer/status/2108757890563752112",
+        "source_type": "Creator-authored public X post",
+        "context": "In the same post the creator describes the desired browser-playable flight game and links the resulting artifact."
+      },
+      "gameplay": {
+        "status": "direct_gameplay_verified",
+        "load_observation": "The artifact's start screen named HALBERD FLIGHT RANGE and offered keyboard/gamepad flight controls.",
+        "inputs_and_visible_responses": [
+          {
+            "input": "Selected Fly with gamepad or keyboard only, then held W for 1 second.",
+            "response": "The HUD changed from zero height to 5 m, vertical speed +8.3 m/s and thrust/weight 0.49."
+          },
+          {
+            "input": "Held ArrowUp for 1 second.",
+            "response": "The HUD changed to speed 15 km/h, height 9 m, vertical speed −0.1 m/s and thrust/weight 1.22."
+          }
+        ],
+        "limits": "Basic flight response verified; weapons, targeting and combat were not tested."
+      },
+      "addictinggames_iframe_test": "not_tested",
+      "artwork": {
+        "imageUrl": "/games/campaign2-halberd-flight-range.webp",
+        "kind": "selected_generated_art",
+        "selected_variant": "A",
+        "selection_reason": "Front view reads more clearly at card size and has a simpler background.",
+        "width": 1200,
+        "height": 845,
+        "bytes": 151102,
+        "sha256": "7a97e196a56ba0e0640fab1332d0165cc3ec07e50be3a5077f97ac80e01b33cf"
+      }
+    },
+    {
+      "candidate_id": 11,
+      "candidate_title": "MUST KILL THE KING",
+      "slug": "must-kill-the-king",
+      "title": "MUST KILL THE KING",
+      "category": "Strategy",
+      "externalUrl": "https://forest-brook-zenith-iris.grok.me/",
+      "xSource": "https://x.com/foxmr507/status/2108836209908686877",
+      "disposition": "eligible",
+      "acceptance_basis": "agent_gameplay_verified",
+      "ai_authorship_evidence": {
+        "status": "verified",
+        "quote": "Created with Grok",
+        "source_url": "https://forest-brook-zenith-iris.grok.me/",
+        "source_type": "Visible game-page attribution"
+      },
+      "gameplay": {
+        "status": "direct_gameplay_verified",
+        "load_observation": "The direct page finished loading its film assets and opened a 5×5 board with move instructions.",
+        "inputs_and_visible_responses": [
+          {
+            "input": "Entered the arena, selected a pink pawn and clicked its cyan destination marker.",
+            "response": "The pawn moved one square and the status returned to YOUR TURN."
+          }
+        ],
+        "limits": "One legal move was verified; no complete match or king capture is claimed."
+      },
+      "addictinggames_iframe_test": "not_tested",
+      "artwork": {
+        "imageUrl": "/games/campaign2-must-kill-the-king.webp",
+        "kind": "creator_page_og_cover",
+        "source_url": "https://forest-brook-zenith-iris.grok.me/og.jpg",
+        "width": 1200,
+        "height": 845,
+        "bytes": 208312,
+        "sha256": "e4a0b258679877407ba03054a8be815077e39c17eab635fee611c08386dfbe01"
+      }
+    },
+    {
+      "candidate_id": 13,
+      "candidate_title": "VORTEX RASH",
+      "slug": "vortex-rash",
+      "title": "VORTEX RASH",
+      "category": "Racing",
+      "externalUrl": "https://amber-arch-blue-reef.grok.me/",
+      "xSource": "https://x.com/foxmr507/status/2107720035179389109",
+      "disposition": "eligible",
+      "acceptance_basis": "agent_gameplay_verified",
+      "ai_authorship_evidence": {
+        "status": "verified",
+        "quote": "Created with Grok — Remix this app",
+        "source_url": "https://amber-arch-blue-reef.grok.me/",
+        "source_type": "Visible game-page attribution"
+      },
+      "gameplay": {
+        "status": "direct_gameplay_verified",
+        "load_observation": "The Neon Spire Alley course entered a live timed race with a position HUD and 3 armor.",
+        "inputs_and_visible_responses": [
+          {
+            "input": "Held W for 1.5 seconds.",
+            "response": "Speed changed from 0 to 285 km/h and the race timer advanced."
+          },
+          {
+            "input": "Held W+A for 1.2 seconds.",
+            "response": "Speed showed 216 km/h as the road and obstacles advanced. The sampled timer ended at TIME'S UP with score 7,300."
+          }
+        ],
+        "limits": "One timed course was sampled; no full progression or win was tested."
+      },
+      "addictinggames_iframe_test": "not_tested",
+      "artwork": {
+        "imageUrl": "/games/campaign2-vortex-rash.webp",
+        "kind": "selected_generated_art",
+        "selected_variant": "A",
+        "selection_reason": "Larger focal subject and clearer action at the existing card size.",
+        "width": 1200,
+        "height": 845,
+        "bytes": 210492,
+        "sha256": "faeb6c6ab1cc1f232d6bce8b378d30dd8edda8eb5d542f4818468cb9a73f7b24"
+      }
+    },
+    {
+      "candidate_id": 16,
+      "candidate_title": "Tweet Tactics",
+      "slug": "timeline-tactics",
+      "title": "Timeline Tactics",
+      "category": "Strategy",
+      "externalUrl": "https://tactics.parasol.network/play?v=7",
+      "xSource": "https://x.com/sotoalt_/status/2107938456848535830",
+      "disposition": "eligible",
+      "acceptance_basis": "agent_gameplay_verified",
+      "ai_authorship_evidence": {
+        "status": "verified",
+        "quote": "fire emblem / ff tactics vibes, three.js board, built with claude code in a couple of days.",
+        "source_url": "https://x.com/sotoalt_/status/2107938458912137322",
+        "source_type": "Creator reply in the source-post thread"
+      },
+      "gameplay": {
+        "status": "direct_gameplay_verified",
+        "load_observation": "The supplied play URL redirected to a match page; Play the CPU now opened a 12-round board with Knight, Archer and Mage units.",
+        "inputs_and_visible_responses": [
+          {
+            "input": "Selected the blue Knight, then tapped a highlighted legal tile.",
+            "response": "The Knight moved to b1, the planner recorded “wait DONE,” and End Turn updated to “2 units will wait.”"
+          }
+        ],
+        "limits": "One player-phase movement was sampled; CPU response, combat and match completion were not tested."
+      },
+      "addictinggames_iframe_test": "not_tested",
+      "artwork": {
+        "imageUrl": "/games/campaign2-timeline-tactics.webp",
+        "kind": "selected_generated_art",
+        "selected_variant": "A",
+        "selection_reason": "Larger focal subject and clearer action at the existing card size.",
+        "width": 1200,
+        "height": 845,
+        "bytes": 208124,
+        "sha256": "d29044d8177ee2da4067e7c0c728bf6afdfef30b581b7252f60f604a973be27e"
+      }
+    },
+    {
+      "candidate_id": 17,
+      "candidate_title": "Claude vs Codex Troll Game",
+      "slug": "bad-idea",
+      "title": "Bad Idea",
+      "category": "Puzzle",
+      "externalUrl": "https://claude-codex.anshkapuriya.in/",
+      "xSource": "https://x.com/TechWhirlUlt/status/2107778454729245081",
+      "disposition": "eligible",
+      "acceptance_basis": "agent_gameplay_verified",
+      "ai_authorship_evidence": {
+        "status": "verified_on_game_routes",
+        "quote": "Claude and Codex each built a 10-level game that breaks every rule of UX — on purpose.",
+        "source_url": "https://claude-codex.anshkapuriya.in/",
+        "source_type": "Game landing-page copy",
+        "supporting_quotes": [
+          {
+            "quote": "Made by Codex. No downloads. No dignity guaranteed.",
+            "source_url": "https://claude-codex.anshkapuriya.in/codex/",
+            "source_type": "Playable branch footer"
+          },
+          {
+            "quote": "© 2026 Made by Claude · No users were harmed. Their patience, however…",
+            "source_url": "https://claude-codex.anshkapuriya.in/made-by-claude/",
+            "source_type": "Playable branch footer"
+          }
+        ]
+      },
+      "gameplay": {
+        "status": "direct_gameplay_verified",
+        "load_observation": "The landing page opened two 10-level branches; both Codex and Claude routes rendered playable levels.",
+        "inputs_and_visible_responses": [
+          {
+            "input": "In the Codex branch, chose “No, thank you” for the double-negative prompt.",
+            "response": "The game accepted it, displayed its response and advanced the level counter to 02/10."
+          },
+          {
+            "input": "Typed “please” into the reversed-input field, then replaced it with “esaelp” and validated.",
+            "response": "The game first reported the reversed received text and rejected the first input; the reversed entry was accepted and Continue appeared."
+          },
+          {
+            "input": "Clicked Continue on Claude branch Level 1.",
+            "response": "The page displayed “Level 1 cleared” and a timer reading 00:06."
+          }
+        ],
+        "limits": "Short interaction checks in both branches; neither 10-level branch was completed."
+      },
+      "addictinggames_iframe_test": "not_tested",
+      "artwork": {
+        "imageUrl": "/games/campaign2-bad-idea.webp",
+        "kind": "creator_cover",
+        "source_url": "https://claude-codex.anshkapuriya.in/shared/assets/ai-rivals.webp",
+        "width": 1200,
+        "height": 845,
+        "bytes": 40092,
+        "sha256": "e327dc1e9d4d65f15ee70842faa3f77c986372ce38c1359c8935dea62f9a7ad9"
+      }
+    },
+    {
+      "candidate_id": 19,
+      "candidate_title": "Cossack 3D scans",
+      "observed_game_title": "Wild Fields 1648",
+      "slug": "wild-fields-1648",
+      "title": "Wild Fields 1648",
+      "category": "Strategy",
+      "externalUrl": "https://claude.ai/artifact/WKFVS2VNcV8eKBd4kQs4mH",
+      "xSource": "https://x.com/0xInsiderf5/status/2108973493681267083",
+      "disposition": "eligible",
+      "acceptance_basis": "agent_gameplay_verified_on_retry",
+      "ai_authorship_evidence": {
+        "status": "verified_in_same_game_creator_thread_context",
+        "quote": "Opus 5.5 hit a wall ... pulled 25 free scans itself. ... Same Cossack game, one browser tab.",
+        "source_url": "https://x.com/0xInsiderf5/status/2108960285180723344",
+        "source_type": "Same-creator public X post",
+        "context": "The candidate post identifies the Cossack game and asks players to load its scans; the same-creator follow-up identifies it as the same game."
+      },
+      "gameplay": {
+        "status": "direct_gameplay_verified",
+        "load_observation": "The Claude artifact displayed Wild Fields 1648, then loaded 44 models before enabling Begin.",
+        "inputs_and_visible_responses": [
+          {
+            "input": "Clicked Begin after the 44-model load; selected an idle peasant; right-clicked a nearby tree.",
+            "response": "The selected unit changed to Marching and the idle count fell from 6 to 5; about ten seconds later it returned to Idle and the count returned to 6. Wood stayed 250, so resource collection was not confirmed."
+          }
+        ],
+        "limits": "Guest gameplay and one worker order were observed. Resource gathering, combat and full-match outcome were not verified. The game runs inside the Claude artifact frame; the AddictingGames iframe was not tested."
+      },
+      "addictinggames_iframe_test": "not_tested",
+      "artwork": {
+        "imageUrl": "/games/campaign2-wild-fields-1648.webp",
+        "kind": "selected_generated_art",
+        "selected_variant": "B",
+        "selection_reason": "Foreground worker better communicates the verified unit-order mechanic.",
+        "width": 1200,
+        "height": 845,
+        "bytes": 279212,
+        "sha256": "33beda85a2c8665a89357b6769856f34492f81a82ed4a1c3d77f635b66739adc"
+      }
+    },
+    {
+      "candidate_id": 21,
+      "candidate_title": "Dumbledore vs Dobby Fighting Game",
+      "observed_game_title": "Duel in the Great Hall",
+      "slug": "duel-in-the-great-hall",
+      "title": "Duel in the Great Hall",
+      "category": "Action",
+      "externalUrl": "https://claude.ai/artifact/PBxLGdivoetPfPiukZjJHu",
+      "xSource": "https://x.com/XT0F0R0S_v2/status/2108686675467554898",
+      "disposition": "eligible",
+      "acceptance_basis": "agent_gameplay_verified",
+      "ai_authorship_evidence": {
+        "status": "verified",
+        "quote": "I tried vibe coding with Claude (+Python) for the first time today and made a Dumbledore vs. Dobby fighting game!",
+        "source_url": "https://x.com/XT0F0R0S_v2/status/2108686675467554898",
+        "source_type": "Creator-authored public X post",
+        "context": "The creator names this specific game in the same statement."
+      },
+      "gameplay": {
+        "status": "direct_gameplay_verified",
+        "load_observation": "The title screen named Headmaster versus House Elf, showed a two-of-three-round match and listed keyboard controls.",
+        "inputs_and_visible_responses": [
+          {
+            "input": "Held A for about 700 ms during Round 1.",
+            "response": "The next observed state showed RING OUT and House Elf taking Round 1; the real-time outcome cannot be attributed solely to the short input. Pressing Return opened Round 2."
+          }
+        ],
+        "limits": "A short round-state check only; the complete match and win were not tested."
+      },
+      "addictinggames_iframe_test": "not_tested",
+      "artwork": {
+        "imageUrl": "/games/campaign2-duel-in-the-great-hall.webp",
+        "kind": "selected_generated_art",
+        "selected_variant": "A",
+        "selection_reason": "The face-off shows the duel premise more clearly than the posed alternate.",
+        "width": 1200,
+        "height": 845,
+        "bytes": 160590,
+        "sha256": "e2a596fd8bf7c823b224499b95d4d8c2985b74c166da4a74bf7fe257dbbbbd7c"
+      },
+      "content_note": "The named candidate uses Harry Potter characters. This factual note does not represent rights clearance."
+    },
+    {
+      "candidate_id": 22,
+      "candidate_title": "Song-to-game",
+      "observed_game_title": "Operation Nightwood",
+      "slug": "operation-nightwood",
+      "title": "Operation Nightwood",
+      "category": "Action",
+      "externalUrl": "https://claude.ai/artifact/CdXyZVrixg9iZDA1k5eH6G",
+      "xSource": "https://x.com/austinginder/status/2108726040025801096",
+      "disposition": "eligible",
+      "acceptance_basis": "agent_gameplay_verified",
+      "ai_authorship_evidence": {
+        "status": "verified",
+        "quote": "I wrote a short rift, told Claude to turn it into a song then turn it into a game.",
+        "source_url": "https://x.com/austinginder/status/2108726040025801096",
+        "source_type": "Creator-authored public X post"
+      },
+      "gameplay": {
+        "status": "direct_gameplay_verified",
+        "load_observation": "Starting the mission opened a pixel-art night-driving sequence with a 112-bar HUD.",
+        "inputs_and_visible_responses": [
+          {
+            "input": "Held Left for about 700 ms.",
+            "response": "The car shifted lanes, speed changed from 221 to 80 km/h, and the bar counter advanced from 4 to 11."
+          },
+          {
+            "input": "Held S for about 700 ms.",
+            "response": "Speed changed to 11 km/h, the bar counter advanced to 18, and the phase banner showed THE PINES / INTERCEPTORS INBOUND."
+          }
+        ],
+        "limits": "Short controls check; the mission was not completed."
+      },
+      "addictinggames_iframe_test": "not_tested",
+      "artwork": {
+        "imageUrl": "/games/campaign2-operation-nightwood.webp",
+        "kind": "selected_generated_art",
+        "selected_variant": "A",
+        "selection_reason": "The larger car and restrained crystal scale better convey night driving.",
+        "width": 1200,
+        "height": 845,
+        "bytes": 126634,
+        "sha256": "0fd949ada7a2c589650f65d0a30ac1211ae830e5320d442efb8ff1cc050a1462"
+      }
+    }
+  ]
+}

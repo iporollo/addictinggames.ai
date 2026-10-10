@@ -13,6 +13,18 @@ export type DirectGame = {
 };
 
 const source: [string, string, string, string, string, string?][] = [
+  ['pocket-gridiron', 'Pocket Gridiron', 'Sports', 'Set team lineups and simulate football exhibitions', 'https://cellis212.github.io/pocket-gridiron/', '/games/campaign2-pocket-gridiron.webp'],
+  ['ski-simulator-360-vail', 'Ski Simulator 360 (Vail)', 'Sports', 'Ski the Vail slope and track speed, elevation, and score', 'https://ski-simulator-360.pages.dev/?world=vail', '/games/campaign2-ski-simulator-360-vail.webp'],
+  ['tidebreak', 'Tidebreak', 'Strategy', 'Place defensive squads on an island before a Viking raid', 'https://tidebreak.freesoul.games/', '/games/campaign2-tidebreak.webp'],
+  ['halberd-flight-range', 'HALBERD FLIGHT RANGE', 'Simulation', 'Pilot an Apache-class helicopter in a flight-model prototype', 'https://claude.ai/artifact/KsDAsLriC91Yc3SiSSNUU4', '/games/campaign2-halberd-flight-range.webp'],
+  ['must-kill-the-king', 'MUST KILL THE KING', 'Strategy', 'Move fantasy pieces across a 5×5 board to take the king', 'https://forest-brook-zenith-iris.grok.me/', '/games/campaign2-must-kill-the-king.webp'],
+  ['vortex-rash', 'VORTEX RASH', 'Racing', 'Race a neon course with steering controls and a timed run', 'https://amber-arch-blue-reef.grok.me/', '/games/campaign2-vortex-rash.webp'],
+  ['timeline-tactics', 'Timeline Tactics', 'Strategy', 'Move a knight, archer, and mage across an isometric tactics board', 'https://tactics.parasol.network/play?v=7', '/games/campaign2-timeline-tactics.webp'],
+  ['bad-idea', 'Bad Idea', 'Puzzle', 'Solve deliberately misleading button, color-word, and text-input puzzles', 'https://claude-codex.anshkapuriya.in/', '/games/campaign2-bad-idea.webp'],
+  ['wild-fields-1648', 'Wild Fields 1648', 'Strategy', 'Issue worker and unit commands on a pike-and-shot battlefield', 'https://claude.ai/artifact/WKFVS2VNcV8eKBd4kQs4mH', '/games/campaign2-wild-fields-1648.webp'],
+  ['duel-in-the-great-hall', 'Duel in the Great Hall', 'Action', 'Fight a CPU opponent in a two-of-three-round fantasy arena', 'https://claude.ai/artifact/PBxLGdivoetPfPiukZjJHu', '/games/campaign2-duel-in-the-great-hall.webp'],
+  ['operation-nightwood', 'Operation Nightwood', 'Action', 'Steer and brake through a pixel-art night-driving mission', 'https://claude.ai/artifact/CdXyZVrixg9iZDA1k5eH6G', '/games/campaign2-operation-nightwood.webp'],
+
   ["the-street-game", "The Street Game", "Casual", "Shoot marbles against an AI opponent on a 3D street-game board", "https://street-game.centro-datos-crudo.workers.dev/", "/games/campaign1-the-street-game.webp"],
   ["pumpwise", "Pumpwise", "Simulation", "Set petrol prices and manage a working station simulation", "https://pumpwise-chi.vercel.app/", "/games/campaign1-pumpwise.webp"],
   ["till-dark", "Till Dark", "Adventure", "Escape a foggy forest before night falls", "https://till-dark.vercel.app/", "/games/campaign1-till-dark.webp"],
