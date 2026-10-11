@@ -26,6 +26,23 @@ const source: [string, string, string, string, string, string?][] = [
   ['word-ladder-duel', 'Word Ladder Duel', 'Puzzle', 'Change one letter at a time in a word-ladder duel', 'https://world-ladder-duel.grok.me/', '/games/concept-campaign3-word-ladder-duel.webp'],
   ['neon-palms-port-solana', 'Neon Palms — Port Solana', 'Simulation', 'Explore a 3D coastal city with movement and map controls', 'https://dubovskylabs.com/benchmarks/gta/apps/claude-opus-5-5/index.html', '/games/campaign3-neon-palms-port-solana.webp'],
 
+  // AI Game Scout campaign, Window 4. These open the original direct-play sites.
+  ['neon-stack', 'NEON STACK', 'Puzzle', 'Drop neon blocks to build and clear rows', 'https://neon-stack.grok.me/', '/games/campaign4-neon-stack.webp'],
+  ['lantern-walk', 'Lantern Walk', 'Casual', 'Walk through Halloween yards and tap decorations', 'https://sail-giant-wave-tiger.grok.me/', '/games/campaign4-lantern-walk.webp'],
+  ['kreuz-adler', 'Kreuz & Adler', 'Strategy', 'Lead a medieval faction through campaign battles', 'https://kreuzundadlerspiel.grok.me/en', '/games/campaign4-kreuz-adler.webp'],
+  ['tiger-rider-chess', 'Tiger Rider Chess: Der Kompass', 'Strategy', 'Play a character-themed chess match against a computer opponent', 'https://tigerriderchess.grok.me/', '/games/campaign4-tiger-rider-der-kompass.webp'],
+  ['super-detective', 'Super Detective', 'Puzzle', 'Place suspects on a floor plan using the case clues', 'https://superdetectivegame.com/', '/games/campaign4-super-detective.webp'],
+  ['warpstrike', 'Warpstrike', 'Action', 'Pilot a cel-shaded spacecraft through enemy waves', 'https://games.agora-agency.com/g/warpstrike-5c3b17', '/games/campaign4-warpstrike.webp'],
+  ['atomic-war-2d', 'Atomic War 2D', 'Strategy', 'Recruit heroes, manage coins, and fight auto-battler rounds', 'https://atomic.sonnylab.com/', '/games/campaign4-atomic-war-2d.webp'],
+  ['what-maya-knew', 'What Maya Knew', 'Adventure', 'Investigate a missing-person case through a laptop and clues', 'https://yenfus.itch.io/what-maya-knew', '/games/campaign4-what-maya-knew.webp'],
+  ['rally-director', 'Rally Director', 'Racing', 'Manage a rally team or race the rhythm-synced Challenge Road', 'https://j001net.itch.io/rally-director', '/games/campaign4-rally-director.webp'],
+  ['brian-boru-golf', 'Brian Boru Golf', 'Sports', 'Take an arcade golf shot on a 16-bit course', 'https://brian-boru-golf-2026.griffin147.chatgpt.site/golf-game?v=4', '/games/campaign4-brian-boru-golf.webp'],
+  ['starfall-the-last-beacon', 'STARFALL: The Last Beacon', 'Action', 'Fire through waves in a retro space-shooter mission', 'https://starfall-pocket-arcade.shang637.chatgpt.site/', '/games/concept-campaign4-starfall-the-last-beacon.webp'],
+  ['flagfield', 'Flagfield', 'Puzzle', 'Reveal cells and mark flags on a Minesweeper board', 'https://flag-field.grok.me/', '/games/campaign4-flagfield.webp'],
+  ['99-youth-echecs', '99% YOUTH Échecs', 'Strategy', 'Play a bot match in a chess variant with special piece rules', 'https://flora-acorn-cloud-rapid.grok.me/', '/games/campaign4-youth-echecs.webp'],
+  ['clunk-smash', 'Clunk Smash', 'Action', 'Leap and smash falling face-block buildings with a hammer', 'https://clunk.games/en/smash', '/games/campaign4-clunk-smash.webp'],
+  ['kettu-vellam', 'Kettu-Vellam', 'Racing', 'Race Chundan snake boats through Kerala backwaters', 'https://kettuvellam.com/', '/games/campaign4-kettu-vellam.webp'],
+
   ['pocket-gridiron', 'Pocket Gridiron', 'Sports', 'Set team lineups and simulate football exhibitions', 'https://cellis212.github.io/pocket-gridiron/', '/games/campaign2-pocket-gridiron.webp'],
   ['ski-simulator-360-vail', 'Ski Simulator 360 (Vail)', 'Sports', 'Ski the Vail slope and track speed, elevation, and score', 'https://ski-simulator-360.pages.dev/?world=vail', '/games/campaign2-ski-simulator-360-vail.webp'],
   ['tidebreak', 'Tidebreak', 'Strategy', 'Place defensive squads on an island before a Viking raid', 'https://tidebreak.freesoul.games/', '/games/campaign2-tidebreak.webp'],

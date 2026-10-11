@@ -1,0 +1,1342 @@
+{
+  "run_id": "2026-10-10T185643Z",
+  "window": 4,
+  "document_type": "direct_game_release_manifest_with_terminal_review",
+  "status": "preparation_record",
+  "publication_status": "not_claimed_by_this_manifest",
+  "release_scope": "The 25 Window 4 candidates have terminal dispositions. Fifteen are approved for direct-game release; all fifteen have selected 1200x845 artwork. Ten remain held and are not cataloged. The release uses direct external URLs only; AddictingGames iframe behavior is not verified.",
+  "source_baseline": {
+    "repository": "https://github.com/iporollo/addictinggames.ai.git",
+    "branch": "main",
+    "head_sha": "17e3051aeb66074b7ae2f335aa7ac976940eea5c",
+    "baseline_direct_game_count": 87,
+    "approved_candidate_urls_absent_from_current_main_catalog": true,
+    "approved_candidate_urls_absent_from_prior_window_1_3_snapshots": true,
+    "approved_candidate_titles_and_urls_absent_from_live_games_page": true,
+    "live_catalog_url": "https://addictinggames.ai/games",
+    "live_http_status": 200,
+    "dedup_details": {
+      "current_main_url_matches": {},
+      "prior_run_url_matches": {},
+      "live_title_or_url_matches": {},
+      "prior_windows_scanned": [
+        1,
+        2,
+        3
+      ],
+      "identity_review_note": "Window 3 candidate “Kreuz & Adler Codex” is an excluded flipbook/reference page at kreuzundadlerflipgame.grok.me/en. Window 4 “Kreuz & Adler” is the separate Cross & Eagle strategy game at kreuzundadlerspiel.grok.me/en. The Window 3 Scout transcript file also contains a later appended Window 4 result; it is not a Window 3 candidate record.",
+      "prior_review_sources": [
+        "game-repos/scout-campaign-2026-10-10-window-1/manifest.json",
+        "game-repos/scout-campaign-2026-10-10-window-2/manifest.json",
+        "game-repos/scout-campaign-2026-10-10-window-3/manifest.json",
+        "game-discovery-bot/runs/2026-10-10T185643Z/windows/2/candidates.json",
+        "game-discovery-bot/runs/2026-10-10T185643Z/windows/3/candidates.json"
+      ]
+    },
+    "checked_at_utc": "2026-10-11T03:52:41Z"
+  },
+  "terminal_counts": {
+    "eligible": 15,
+    "held": 10,
+    "excluded": 0,
+    "duplicate": 0,
+    "total": 25
+  },
+  "asset_policy": {
+    "card_dimensions": "1200×845 WebP; existing 1.42 card slot retained",
+    "retained_game_or_creator_art_count": 14,
+    "generated_concept_count": 1,
+    "generated_concept_selection": {
+      "candidate_id": 17,
+      "option": "B",
+      "selector": "parent",
+      "prompt_reference": "Local W4 run evidence only; not included in repository manifest."
+    },
+    "iframe_flags_added": false,
+    "layout_or_css_changes": false,
+    "source_code_executed": false
+  },
+  "local_evidence_policy": "Source and gameplay reports remain in the local campaign run workspace and are not included in this repository. This manifest carries exact public source URLs, selected metadata, brief gameplay observations and source quotes.",
+  "records": [
+    {
+      "candidate_id": 1,
+      "candidate_title": "NEON STACK",
+      "release_title": "NEON STACK",
+      "creator": "@bonesmegga",
+      "xSource": "https://x.com/bonesmegga/status/2109080065275572483",
+      "candidate_play_url": "https://neon-stack.grok.me/",
+      "disposition": "eligible",
+      "terminal_code": "direct_gameplay_verified",
+      "decision_reason": "Parent direct test observed an actual input response and the creator/game page has explicit game-specific AI attribution. This was a bounded check, not a full playthrough.",
+      "ai_authorship_evidence": {
+        "gate_status": "pass",
+        "evidence": [
+          {
+            "quote": "I like tetris too! So much, that I used grok build to make an Tetris game:",
+            "source_url": "https://x.com/bonesmegga/status/2109080065275572483",
+            "source_type": "Creator-authored X post text verified via public X oEmbed.",
+            "verification": "Public X oEmbed identifies @bonesmegga; exact post names Grok Build and its t.co link resolves to this playable URL."
+          }
+        ]
+      },
+      "gameplay": {
+        "status": "gameplay_verified",
+        "direct_game_url_tested": "https://neon-stack.grok.me/",
+        "observations": "NEONSTACK: Mute became Unmute; Tap to Start; Hard drop increased score0 to16.",
+        "iframe_test": "not_tested"
+      },
+      "release_record": {
+        "slug": "neon-stack",
+        "title": "NEON STACK",
+        "category": "Puzzle",
+        "shortDescription": "Drop neon blocks to build and clear rows",
+        "externalUrl": "https://neon-stack.grok.me/",
+        "image": {
+          "path": "/games/campaign4-neon-stack.webp",
+          "type": "game_page_open_graph",
+          "source_url": "https://neon-stack.grok.me/og.jpg",
+          "provenance": "Game-page Open Graph image; no separate standalone creator cover verified in report.",
+          "dimensions": {
+            "width": 1200,
+            "height": 845
+          },
+          "format": "WebP",
+          "bytes": 55170,
+          "sha256": "1b4a585a7d9ece3558f31cb19ea5242ed3ffb6c71cbdb8aae48f1bd3306c83cc",
+          "method": "centered cover crop to exact 1200x845",
+          "visual_description": "Dark navy field, cyan NEON STACK wordmark, and cyan/magenta/orange falling blocks over a luminous grid.",
+          "crop": "Centered cover crop; wordmark and block stack remain intact.",
+          "generated_concept_selection": null
+        }
+      },
+      "local_evidence": {
+        "run_id": "2026-10-10T185643Z",
+        "window": 4,
+        "source_report": "luna3.json",
+        "gameplay_report": "parent-gameplay.json",
+        "included_in_repository": false
+      },
+      "rights_and_identity_note": "Creator calls this a Tetris game; preserve the franchise-similarity concern for owner review without making a legal determination."
+    },
+    {
+      "candidate_id": 2,
+      "candidate_title": "Lantern Walk",
+      "release_title": "Lantern Walk",
+      "creator": "@Steven_J_Duncan",
+      "xSource": "https://x.com/Steven_J_Duncan/status/2109059532337082869",
+      "candidate_play_url": "https://sail-giant-wave-tiger.grok.me/",
+      "disposition": "eligible",
+      "terminal_code": "direct_gameplay_verified",
+      "decision_reason": "Parent direct test observed an actual input response and the creator/game page has explicit game-specific AI attribution. This was a bounded check, not a full playthrough.",
+      "ai_authorship_evidence": {
+        "gate_status": "pass",
+        "evidence": [
+          {
+            "quote": "I built this with Grok, a phone game for toddlers who like going on walks to see halloween decorations— try it out:",
+            "source_url": "https://x.com/Steven_J_Duncan/status/2109059532337082869",
+            "source_type": "Creator-authored X post text verified via public X oEmbed.",
+            "verification": "Public X oEmbed identifies @Steven_J_Duncan; exact post contains the quote and its t.co link resolves to this playable URL."
+          }
+        ]
+      },
+      "gameplay": {
+        "status": "gameplay_verified",
+        "direct_game_url_tested": "https://sail-giant-wave-tiger.grok.me/",
+        "observations": "LanternWalk: Turn sound off became Turn sound on. Go, Find Light, selected Light and received feedback; Walk advanced to next yard Find Hat, Previous yard appeared.",
+        "iframe_test": "not_tested"
+      },
+      "release_record": {
+        "slug": "lantern-walk",
+        "title": "Lantern Walk",
+        "category": "Casual",
+        "shortDescription": "Walk through Halloween yards and tap decorations",
+        "externalUrl": "https://sail-giant-wave-tiger.grok.me/",
+        "image": {
+          "path": "/games/campaign4-lantern-walk.webp",
+          "type": "game_page_open_graph",
+          "source_url": "https://sail-giant-wave-tiger.grok.me/og.jpg",
+          "provenance": "Game-page Open Graph image; no separate standalone creator cover verified in report.",
+          "dimensions": {
+            "width": 1200,
+            "height": 845
+          },
+          "format": "WebP",
+          "bytes": 176722,
+          "sha256": "e2985dd5a0d523eace1a72111c4cc2ea9c86284148d3ff4c61effe15be0ed0c7",
+          "method": "centered cover crop to exact 1200x845",
+          "visual_description": "Storybook Halloween village at purple twilight with cream/yellow title, glowing lanterns, pumpkins, white ghost, black cat, and bat.",
+          "crop": "Centered cover crop; title, ghost, cat, and village remain prominent; outer/lower pumpkin details are trimmed.",
+          "generated_concept_selection": null
+        }
+      },
+      "local_evidence": {
+        "run_id": "2026-10-10T185643Z",
+        "window": 4,
+        "source_report": "luna3.json",
+        "gameplay_report": "parent-gameplay.json",
+        "included_in_repository": false
+      }
+    },
+    {
+      "candidate_id": 3,
+      "candidate_title": "Kreuz & Adler",
+      "release_title": "Kreuz & Adler",
+      "creator": "@unrealhailstorm",
+      "xSource": "https://x.com/unrealhailstorm/status/2108970044830961950",
+      "candidate_play_url": "https://kreuzundadlerspiel.grok.me/en",
+      "disposition": "eligible",
+      "terminal_code": "direct_gameplay_verified",
+      "decision_reason": "Parent direct test observed an actual input response and the creator/game page has explicit game-specific AI attribution. This was a bounded check, not a full playthrough.",
+      "ai_authorship_evidence": {
+        "gate_status": "pass",
+        "evidence": [
+          {
+            "quote": "Made with Grok Build.",
+            "source_url": "https://x.com/unrealhailstorm/status/2108970044830961950",
+            "source_type": "Creator-authored X post text verified via public X oEmbed.",
+            "verification": "Public X oEmbed identifies Tatjana & Diego; exact post links to this /en page and states Made with Grok Build."
+          }
+        ]
+      },
+      "gameplay": {
+        "status": "gameplay_verified",
+        "direct_game_url_tested": "https://kreuzundadlerspiel.grok.me/en",
+        "observations": "Cross & Eagle: Silence became Sound. Began Papal States campaign, selected Papal States, Attack, Lombard League, Assault52spears. Garrison53 to1; campaign1 to0. Roll The Dice combat52vs40 to51vs39; target territory40 to39. Short battle test only.",
+        "iframe_test": "not_tested"
+      },
+      "release_record": {
+        "slug": "kreuz-adler",
+        "title": "Kreuz & Adler",
+        "category": "Strategy",
+        "shortDescription": "Lead a medieval faction through campaign battles",
+        "externalUrl": "https://kreuzundadlerspiel.grok.me/en",
+        "image": {
+          "path": "/games/campaign4-kreuz-adler.webp",
+          "type": "game_page_open_graph",
+          "source_url": "https://kreuzundadlerspiel.grok.me/og.jpg",
+          "provenance": "Game-page Open Graph image; no separate standalone creator cover verified in report.",
+          "dimensions": {
+            "width": 1200,
+            "height": 845
+          },
+          "format": "WebP",
+          "bytes": 121828,
+          "sha256": "93cfc4637162e90aa670a6c287f0160c24d16e78e31b975bfe99058c870dd2ef",
+          "method": "centered cover crop to exact 1200x845",
+          "visual_description": "Dark cinematic close portraits of two medieval crowned men facing one another, jeweled crowns, pale KREUZ & ADLER title.",
+          "crop": "Centered cover crop; both faces, crowns, and complete central wordmark remain visible.",
+          "generated_concept_selection": null
+        }
+      },
+      "local_evidence": {
+        "run_id": "2026-10-10T185643Z",
+        "window": 4,
+        "source_report": "luna3.json",
+        "gameplay_report": "parent-gameplay.json",
+        "included_in_repository": false
+      },
+      "identity_note": "Window 3 candidate “Kreuz & Adler Codex” was an excluded flipbook/reference page on a different URL. This exact URL is the separate Cross & Eagle strategy game verified by gameplay."
+    },
+    {
+      "candidate_id": 4,
+      "candidate_title": "Tiger Rider Chess",
+      "release_title": "Tiger Rider Chess: Der Kompass",
+      "creator": "@unrealhailstorm",
+      "xSource": "https://x.com/unrealhailstorm/status/2107637900250660890",
+      "candidate_play_url": "https://tigerriderchess.grok.me/",
+      "disposition": "eligible",
+      "terminal_code": "direct_gameplay_verified",
+      "decision_reason": "Parent direct test observed an actual input response and the creator/game page has explicit game-specific AI attribution. This was a bounded check, not a full playthrough.",
+      "ai_authorship_evidence": {
+        "gate_status": "pass",
+        "evidence": [
+          {
+            "quote": "Made with Grok Build",
+            "source_url": "https://x.com/unrealhailstorm/status/2107637900250660890",
+            "source_type": "Creator-authored X post text verified via public X oEmbed.",
+            "verification": "Public X oEmbed identifies Tatjana & Diego; exact post links through t.co to this playable URL and contains the Grok Build attribution."
+          }
+        ]
+      },
+      "gameplay": {
+        "status": "gameplay_verified",
+        "direct_game_url_tested": "https://tigerriderchess.grok.me/",
+        "observations": "Tiger Rider: switchedEN, Mute becameSound. Began defaultcomputer match. Pawn e2 selected and e4clicked; pawn moved to e4, computerknight b8 to c6,chronicle1.e4 Nc6. Short direct match test.",
+        "iframe_test": "not_tested"
+      },
+      "release_record": {
+        "slug": "tiger-rider-chess",
+        "title": "Tiger Rider Chess: Der Kompass",
+        "category": "Strategy",
+        "shortDescription": "Play a character-themed chess match against a computer opponent",
+        "externalUrl": "https://tigerriderchess.grok.me/",
+        "image": {
+          "path": "/games/campaign4-tiger-rider-der-kompass.webp",
+          "type": "game_page_open_graph",
+          "source_url": "https://tigerriderchess.grok.me/og.jpg",
+          "provenance": "Game-page Open Graph image; no separate standalone creator cover verified in report.",
+          "dimensions": {
+            "width": 1200,
+            "height": 845
+          },
+          "format": "WebP",
+          "bytes": 46048,
+          "sha256": "bd1a4950349d0a1c38134a58eb081cdccd4331017a82e48e15d6b301604bae65",
+          "method": "same-source blurred background; full cover centered on 1200x845, exact dimensions encoded via cwebp",
+          "visual_description": "Orange dusk over classical ruins, centered gold compass emblem, and gold DER KOMPASS title with German subtitle.",
+          "crop": "Full 1200x630 cover centered over a softened, darkened background derived from the same image; complete title/subtitle retained.",
+          "generated_concept_selection": null
+        }
+      },
+      "local_evidence": {
+        "run_id": "2026-10-10T185643Z",
+        "window": 4,
+        "source_report": "luna3.json",
+        "gameplay_report": "parent-gameplay.json",
+        "included_in_repository": false
+      },
+      "identity_note": "The linked game also uses “Der Kompass” branding; page metadata and the parent match confirm this is the Tiger Rider chess game."
+    },
+    {
+      "candidate_id": 5,
+      "candidate_title": "Super Detective",
+      "release_title": "Super Detective",
+      "creator": "@Pabloku85",
+      "xSource": "https://x.com/Pabloku85/status/2107219123889455157",
+      "candidate_play_url": "https://superdetectivegame.com/",
+      "disposition": "eligible",
+      "terminal_code": "direct_gameplay_verified",
+      "decision_reason": "Parent direct test observed an actual input response and the creator/game page has explicit game-specific AI attribution. This was a bounded check, not a full playthrough.",
+      "ai_authorship_evidence": {
+        "gate_status": "pass",
+        "evidence": [
+          {
+            "quote": "Hi! Just vibe coded a logic game with Claude Opus 5.5",
+            "source_url": "https://x.com/Pabloku85/status/2107219123889455157",
+            "source_type": "Creator-authored X post text verified via public X oEmbed.",
+            "verification": "Public X oEmbed identifies @Pabloku85; exact post names Claude Opus 5.5 while describing the logic game, and its t.co link resolves to this playable URL."
+          }
+        ]
+      },
+      "gameplay": {
+        "status": "gameplay_verified",
+        "direct_game_url_tested": "https://superdetectivegame.com/",
+        "observations": "SuperDetective: mutedmusic; freeLevel1LastReservation. PlacedDoloresr1c4,Kikor2c3,Haroldr4c1,Ornellar3c2. Visiblepieces,greencluesandcrossedrowsconfirmed; transitionedTapthesuspectyouaccuse. Accusationcompletionnotverified; no purchases.",
+        "iframe_test": "not_tested"
+      },
+      "release_record": {
+        "slug": "super-detective",
+        "title": "Super Detective",
+        "category": "Puzzle",
+        "shortDescription": "Place suspects on a floor plan using the case clues",
+        "externalUrl": "https://superdetectivegame.com/",
+        "image": {
+          "path": "/games/campaign4-super-detective.webp",
+          "type": "game_page_open_graph",
+          "source_url": "https://superdetectivegame.com/og.jpg",
+          "provenance": "Game-page Open Graph image; no separate standalone creator cover verified in report.",
+          "dimensions": {
+            "width": 1200,
+            "height": 845
+          },
+          "format": "WebP",
+          "bytes": 64542,
+          "sha256": "bafb7a2c392423e86a73dd907340546be42d86cb07c70bdecad2f5f56891480c",
+          "method": "same-source blurred background; full cover centered on 1200x845, exact dimensions encoded via cwebp",
+          "visual_description": "Navy/gold fingerprint medallion and SUPER DETECTIVE wordmark beside a tilted floor-plan grid with suspect portraits, doors, and furnishings.",
+          "crop": "Full 1200x630 cover centered over a softened, darkened background derived from the same image; full wordmark and floor plan retained.",
+          "generated_concept_selection": null
+        }
+      },
+      "local_evidence": {
+        "run_id": "2026-10-10T185643Z",
+        "window": 4,
+        "source_report": "luna3.json",
+        "gameplay_report": "parent-gameplay.json",
+        "included_in_repository": false
+      }
+    },
+    {
+      "candidate_id": 6,
+      "candidate_title": "Warpstrike",
+      "release_title": "Warpstrike",
+      "creator": "ιπρ (@ipirho)",
+      "xSource": "https://x.com/ipirho/status/2102647959297118444",
+      "candidate_play_url": "https://games.agora-agency.com/g/warpstrike-5c3b17",
+      "disposition": "eligible",
+      "terminal_code": "direct_gameplay_verified",
+      "decision_reason": "Parent direct test observed an actual input response and the creator/game page has explicit game-specific AI attribution. This was a bounded check, not a full playthrough.",
+      "ai_authorship_evidence": {
+        "gate_status": "pass",
+        "evidence": [
+          {
+            "quote": "Claude Opus 5.5 made a 3d cell shaded space shooter. Made with threeJS. Made in claude code, uploaded via Agora MCP.",
+            "source_url": "https://x.com/ipirho/status/2102647959297118444",
+            "source_type": "creator X post; exact text retrieved in saved X oEmbed and confirmed in static public X page HTML",
+            "verification": "verified; the same post links to the exact Warpstrike AgoraGames page"
+          },
+          {
+            "quote": "madeWith: Claude",
+            "source_url": "https://games.agora-agency.com/g/warpstrike-5c3b17",
+            "source_type": "game-page server-rendered metadata field",
+            "verification": "verified in static page markup; no scripts executed. This is a game-specific platform credit."
+          }
+        ]
+      },
+      "gameplay": {
+        "status": "gameplay_verified",
+        "direct_game_url_tested": "https://g-5c3b17b4-f622-4b73-9938-aeb03ba53210-v1.games.agora-agency.com/",
+        "observations": "Warpstrike launched at Agora portal. Nestedframe drag blocked by fractionaliframe coordinates. Navigated observed gameframe URL; muted and launched. Mouse drag center-to-left moved ship left; opposite drag moved ship right. Auto firing/scoring not counted as input proof. Direct controls verified; site iframe not independently verified.",
+        "iframe_test": "not_tested"
+      },
+      "release_record": {
+        "slug": "warpstrike",
+        "title": "Warpstrike",
+        "category": "Action",
+        "shortDescription": "Pilot a cel-shaded spacecraft through enemy waves",
+        "externalUrl": "https://games.agora-agency.com/g/warpstrike-5c3b17",
+        "image": {
+          "path": "/games/campaign4-warpstrike.webp",
+          "type": "official_game_page_poster",
+          "source_url": "https://games.agora-agency.com/api/posters/c509bf0b-9c48-470c-a822-1ba987aefa89/desktop?artifact=a4772297-2a22-41cb-b005-9280c5a87405",
+          "provenance": "Official AgoraGames game-page Open Graph image/poster.",
+          "dimensions": {
+            "width": 1200,
+            "height": 845
+          },
+          "format": "WebP",
+          "bytes": 58572,
+          "sha256": "a71ce31e657bf622e271cfce5ab6a7c1e8861bab284e4a89bfa66dab6cde26ca",
+          "method": "centered cover crop to exact 1200x845",
+          "visual_description": "Cell-shaded spaceship over a pale blue sky/sea, central WARPSTRIKE title, yellow launch panel, and small control hints.",
+          "crop": "Centered cover crop; title, launch panel, and central ship remain visible; outer wing edges are trimmed slightly.",
+          "generated_concept_selection": null
+        }
+      },
+      "local_evidence": {
+        "run_id": "2026-10-10T185643Z",
+        "window": 4,
+        "source_report": "luna2.json",
+        "gameplay_report": "parent-gameplay.json",
+        "included_in_repository": false
+      }
+    },
+    {
+      "candidate_id": 7,
+      "candidate_title": "Atomic War 2D",
+      "release_title": "Atomic War 2D",
+      "creator": "Sonny (@sonnylazuardi)",
+      "xSource": "https://x.com/sonnylazuardi/status/2106786651787923716",
+      "candidate_play_url": "https://atomic.sonnylab.com/",
+      "disposition": "eligible",
+      "terminal_code": "direct_gameplay_verified",
+      "decision_reason": "Parent direct test observed an actual input response and the creator/game page has explicit game-specific AI attribution. This was a bounded check, not a full playthrough.",
+      "ai_authorship_evidence": {
+        "gate_status": "pass",
+        "evidence": [
+          {
+            "quote": "weekend ini, coba vibe coding pake opus 5.5 buat bikin game 2D dari dota 2 custom game atomic war",
+            "source_url": "https://x.com/sonnylazuardi/status/2106786651787923716",
+            "source_type": "creator X post in Indonesian; exact text retrieved in saved X oEmbed and confirmed in static public X page HTML",
+            "verification": "verified; the same post links to Atomic War 2D. Working translation: “This weekend, I tried vibe coding with Opus 5.5 to make a 2D game from the Dota 2 custom game Atomic War.” This is a game-specific AI-assisted statement; it does not establish the whole game was autonomously generated."
+          }
+        ]
+      },
+      "gameplay": {
+        "status": "gameplay_verified",
+        "direct_game_url_tested": "https://atomic.sonnylab.com/",
+        "observations": "AtomicWar2D: m muted, Soundoff confirmed. Bots, defaultsummonerStart. RecruitedRiki: coins5to2, heroes0/5to1/5, RecruitedRiki feedback. Ready initiatedRound1BattlevsSmokeGank. Short strategy/bot test;onlineunverified.",
+        "iframe_test": "not_tested"
+      },
+      "release_record": {
+        "slug": "atomic-war-2d",
+        "title": "Atomic War 2D",
+        "category": "Strategy",
+        "shortDescription": "Recruit heroes, manage coins, and fight auto-battler rounds",
+        "externalUrl": "https://atomic.sonnylab.com/",
+        "image": {
+          "path": "/games/campaign4-atomic-war-2d.webp",
+          "type": "creator_post_video_thumbnail",
+          "source_url": "https://pbs.twimg.com/amplify_video_thumb/2106786237445210112/img/w8aOcN74eX_PfA3J?format=webp&name=large",
+          "provenance": "Creator X post video thumbnail showing a game scene; static page inspection found no dedicated cover.",
+          "dimensions": {
+            "width": 1200,
+            "height": 845
+          },
+          "format": "WebP",
+          "bytes": 82276,
+          "sha256": "e1eade5162b96d2a078c5d720f84feca71673205b591ea1b2e0616b2c94f84db",
+          "method": "creator still crop x278 y40 1397x984 then resize; exact dimensions encoded via cwebp",
+          "visual_description": "Warm stone/brick tactical arena, small hero units, central Round 16 battle banner, player/item panels, and battle overlay.",
+          "crop": "Source crop x=278,y=40,w=1397,h=984 from 1920x1080, then scale to 1200x845. Removes Chrome top bar/side rail and Windows taskbar while retaining arena, banner, units, and part of the in-game HUD.",
+          "generated_concept_selection": null
+        }
+      },
+      "local_evidence": {
+        "run_id": "2026-10-10T185643Z",
+        "window": 4,
+        "source_report": "luna2.json",
+        "gameplay_report": "parent-gameplay.json",
+        "included_in_repository": false
+      }
+    },
+    {
+      "candidate_id": 8,
+      "candidate_title": "Pac-Matic",
+      "creator": "@dgrreen",
+      "xSource": "https://x.com/dgrreen/status/2107526111345402005",
+      "candidate_play_url": "https://pac-matic.daniel-green.chatgpt.site/",
+      "disposition": "held",
+      "terminal_code": "hold_ai_authorship_unverified",
+      "decision_reason": "The source does not explicitly attribute this specific game to AI; platform/brand context is insufficient.",
+      "ai_authorship_evidence": {
+        "gate_status": "hold_missing_game_specific_ai_statement",
+        "evidence": [
+          {
+            "quote": "I've been trying to get Codex to clean my house for months so I built a @maticrobots game",
+            "source_url": "https://x.com/dgrreen/status/2107526111345402005",
+            "source_type": "creator X post; exact text retrieved in saved X oEmbed and confirmed in static public X page HTML",
+            "verification": "verified as source text, but it does not state that Codex or another AI tool was used to build this specific game; the game page only credits Daniel Green. Hold authorship as missing/ambiguous, not as proof of non-AI origin."
+          }
+        ]
+      },
+      "gameplay": {
+        "status": "not_tested_or_not_attempted",
+        "observations": null,
+        "iframe_test": "not_tested"
+      },
+      "local_evidence": {
+        "run_id": "2026-10-10T185643Z",
+        "window": 4,
+        "source_report": "luna2.json",
+        "gameplay_report": null,
+        "included_in_repository": false
+      }
+    },
+    {
+      "candidate_id": 9,
+      "candidate_title": "Copperwind Arcade",
+      "creator": "@HomieRocks",
+      "xSource": "https://x.com/HomieRocks/status/2106899021201879194",
+      "candidate_play_url": "https://codex.homie.rocks/",
+      "disposition": "held",
+      "terminal_code": "hold_exact_game_url_unverified",
+      "decision_reason": "The URL is an arcade collection hub; the candidate is not a single exact playable game.",
+      "ai_authorship_evidence": {
+        "gate_status": "pass_for_three_specific_child_games; candidate_identity_unresolved",
+        "evidence": [
+          {
+            "quote": "Meet Copperwind Arcade 🌬️\nBuilt with Codex on Homie.\n\nThree multiplayer browser experiments: chase sparks, ferry lanterns, grow a glowing garden. Quick rounds. Phone + desktop. Bots fill empty seats.",
+            "source_url": "https://x.com/HomieRocks/status/2106899021201879194",
+            "source_type": "creator X post; exact text retrieved in saved X oEmbed and confirmed in static public X page HTML",
+            "verification": "verified as a studio/collection statement; it refers to three experiments and does not identify one playable game in the candidate record."
+          },
+          {
+            "quote": "Made by Copperwind Arcade · Original multiplayer games. Built with Codex on Homie. Design and procedural art: Ember Kites. Based on Cinder Circuit by Ember Kites.",
+            "source_url": "https://codex.homie.rocks/cinder-circuit/",
+            "source_type": "specific game page credits for Cinder Circuit",
+            "verification": "verified; the candidate post’s “chase sparks” experiment maps to Cinder Circuit by the hub’s own title/description; this is an attributed showcase edition of Ember Kites’ game."
+          },
+          {
+            "quote": "Made by Copperwind Arcade · Original multiplayer games. Built with Codex on Homie. Design and procedural artwork: Copperwind Arcade.",
+            "source_url": "https://codex.homie.rocks/lantern-ferry/",
+            "source_type": "specific game page credits for Lantern Ferry",
+            "verification": "verified; the candidate post’s “ferry lanterns” experiment maps to Lantern Ferry by the hub’s own title/description."
+          },
+          {
+            "quote": "Made by Copperwind Arcade · Original multiplayer games. Built with Codex on Homie. Design and procedural art: Copperwind Arcade.",
+            "source_url": "https://codex.homie.rocks/signal-bloom/",
+            "source_type": "specific game page credits for Signal Bloom",
+            "verification": "verified; the candidate post’s “grow a glowing garden” experiment maps to Signal Bloom by the hub’s own title/description."
+          }
+        ]
+      },
+      "gameplay": {
+        "status": "not_tested_or_not_attempted",
+        "observations": null,
+        "iframe_test": "not_tested"
+      },
+      "local_evidence": {
+        "run_id": "2026-10-10T185643Z",
+        "window": 4,
+        "source_report": "luna2.json",
+        "gameplay_report": null,
+        "included_in_repository": false
+      }
+    },
+    {
+      "candidate_id": 10,
+      "candidate_title": "Third Person Boxer 3D",
+      "creator": "@sun_0369",
+      "xSource": "https://x.com/sun_0369/status/2108151786641260973",
+      "candidate_play_url": "https://shmind369.itch.io/third-person-boxer-3d",
+      "disposition": "held",
+      "terminal_code": "hold_controls_unverified",
+      "decision_reason": "The parent test did not establish a visible response to actual game controls.",
+      "ai_authorship_evidence": {
+        "gate_status": "pass",
+        "evidence": [
+          {
+            "quote": "🥊 I made a 3D boxing game! You can play it directly in your browser — no download required. 🎮 Play here: https://t.co/n9ZCKw0YCS Made with AI-assisted development.",
+            "source_url": "https://x.com/sun_0369/status/2108151786641260973",
+            "source_type": "creator X post; exact text retrieved in saved X oEmbed and confirmed in static public X page HTML",
+            "verification": "verified; same post links to the itch.io game"
+          },
+          {
+            "quote": "AI Disclosure: AI Assisted",
+            "source_url": "https://shmind369.itch.io/third-person-boxer-3d",
+            "source_type": "game-page AI disclosure field",
+            "verification": "verified on current static itch.io game page; used as corroboration to the creator’s explicit post"
+          }
+        ]
+      },
+      "gameplay": {
+        "status": "held_controls_unverified",
+        "observations": "ThirdPersonBoxer3D loaded and rendered bothboxers. Mutebutton became crossed speaker. Swipe from lowerplayer towardopponent didnotproduce visibleenemyhealthchange; playerhealthfell passively. Cannotestablishpunchresponse;browserinputlimitationnotconfirmedgamefailure.",
+        "iframe_test": "not_tested"
+      },
+      "local_evidence": {
+        "run_id": "2026-10-10T185643Z",
+        "window": 4,
+        "source_report": "luna2.json",
+        "gameplay_report": "parent-gameplay.json",
+        "included_in_repository": false
+      }
+    },
+    {
+      "candidate_id": 11,
+      "candidate_title": "What Maya Knew",
+      "release_title": "What Maya Knew",
+      "creator": "Yenfus (@official_yenfus)",
+      "xSource": "https://x.com/official_yenfus/status/2106058308457279646",
+      "candidate_play_url": "https://yenfus.itch.io/what-maya-knew",
+      "disposition": "eligible",
+      "terminal_code": "direct_gameplay_verified",
+      "decision_reason": "Parent direct test observed an actual input response and the creator/game page has explicit game-specific AI attribution. This was a bounded check, not a full playthrough.",
+      "ai_authorship_evidence": {
+        "gate_status": "pass",
+        "evidence": [
+          {
+            "quote": "I made my first game. It took almost a year, in my spare time around a full-time job. Saying it up front: it was made with AI. Code, art, writing and voice all came from AI tools, directed and tested by me. What Maya Knew. Free, in your browser:",
+            "source_url": "https://x.com/official_yenfus/status/2106058308457279646",
+            "source_type": "creator X post, retrieved in saved X oEmbed",
+            "verification": "verified; quote applies to the named game in the same post"
+          },
+          {
+            "quote": "Writing and code made with AI assistance.",
+            "source_url": "https://yenfus.itch.io/what-maya-knew",
+            "source_type": "game-page credits",
+            "verification": "verified via current game page"
+          }
+        ]
+      },
+      "gameplay": {
+        "status": "gameplay_verified",
+        "direct_game_url_tested": "https://yenfus.itch.io/what-maya-knew",
+        "observations": "WhatMayaKnew:NewGame, skippedprologue,apartmentLaptop, simulatedbirthdaypasswordunlockedlaptop. Openedc_marsh_crossref.txt, selectedCOREYMARSH clue; checkbox0to1,Notebook0notes to1note,questions1of3. Fictionalin-gameevidenceonly;notfullplaythrough. Pagecommentsreportlaterstringpuzzleglitchnotindependentlytested.",
+        "iframe_test": "not_tested"
+      },
+      "release_record": {
+        "slug": "what-maya-knew",
+        "title": "What Maya Knew",
+        "category": "Adventure",
+        "shortDescription": "Investigate a missing-person case through a laptop and clues",
+        "externalUrl": "https://yenfus.itch.io/what-maya-knew",
+        "image": {
+          "path": "/games/campaign4-what-maya-knew.webp",
+          "type": "itch_game_page_cover",
+          "source_url": "https://img.itch.zone/aW1nLzMwNDcwODc3LmpwZWc=/original/Uk%2BHvD.jpeg",
+          "provenance": "itch.io game-page Open Graph image; creator-published game cover.",
+          "dimensions": {
+            "width": 1200,
+            "height": 845
+          },
+          "format": "WebP",
+          "bytes": 60260,
+          "sha256": "a198fd26cefb018d4666746c6332e6625a1e6517cde47dedce4fcde111ddeb1a",
+          "method": "centered cover crop to exact 1200x845",
+          "visual_description": "Warm lamp-lit bedroom/office with open doorway/window, desk/laptop, corkboard of notes and photos, and half-burned notebook; cream title and gold tagline near bottom.",
+          "crop": "Centered cover crop removes about 11% of source height; title and tagline remain fully visible.",
+          "generated_concept_selection": null
+        }
+      },
+      "local_evidence": {
+        "run_id": "2026-10-10T185643Z",
+        "window": 4,
+        "source_report": "luna4.json",
+        "gameplay_report": "parent-gameplay.json",
+        "included_in_repository": false
+      }
+    },
+    {
+      "candidate_id": 12,
+      "candidate_title": "Rally Director",
+      "release_title": "Rally Director",
+      "creator": "Jo Youngwon (@YoungwonJo)",
+      "xSource": "https://x.com/YoungwonJo/status/2106631617817239586",
+      "candidate_play_url": "https://j001net.itch.io/rally-director",
+      "disposition": "eligible",
+      "terminal_code": "direct_gameplay_verified",
+      "decision_reason": "Parent direct test observed an actual input response and the creator/game page has explicit game-specific AI attribution. This was a bounded check, not a full playthrough.",
+      "ai_authorship_evidence": {
+        "gate_status": "pass",
+        "evidence": [
+          {
+            "quote": "Early test build, made with AI tools.",
+            "source_url": "https://x.com/YoungwonJo/status/2106631617817239586",
+            "source_type": "creator X post, retrieved in saved X oEmbed",
+            "verification": "verified; post is about Rally Director"
+          },
+          {
+            "quote": "Graphics, audio/music, text and code in this game were made with AI tools.",
+            "source_url": "https://j001net.itch.io/rally-director",
+            "source_type": "game-page AI disclosure (English text shown alongside Korean notice)",
+            "verification": "verified via current game page"
+          }
+        ]
+      },
+      "gameplay": {
+        "status": "gameplay_verified",
+        "direct_game_url_tested": "https://html.itch.zone/html/19551142-2098602/index.html?v=1791627699",
+        "observations": "RallyDirector: itchframe title loaded butclickdidnotadvance. Observed directframeURL loadedandNewGame worked. ChallengeRoadstage1 simulatedrace finished P2/8; no timegainedfrominputs explicitlyshown, rhythmnotverified. SkilltreeAnti-lagBurst Learn1SPchangedSP3to2andUnlocked withcelebration. Managementprogressioncausallyverified,notdrivinginput. Systemmute preserved.",
+        "iframe_test": "not_tested"
+      },
+      "release_record": {
+        "slug": "rally-director",
+        "title": "Rally Director",
+        "category": "Racing",
+        "shortDescription": "Manage a rally team or race the rhythm-synced Challenge Road",
+        "externalUrl": "https://j001net.itch.io/rally-director",
+        "image": {
+          "path": "/games/campaign4-rally-director.webp",
+          "type": "itch_game_page_cover",
+          "source_url": "https://img.itch.zone/aW1nLzMwNTIwODczLnBuZw==/original/gTzJ8o.png",
+          "provenance": "itch.io game-page Open Graph image; creator-published game cover.",
+          "dimensions": {
+            "width": 1200,
+            "height": 845
+          },
+          "format": "WebP",
+          "bytes": 127728,
+          "sha256": "6cb252d14a087d4d86255bb0d027f7f627d1a18de03a64511568032789e2afbf",
+          "method": "centered cover crop to exact 1200x845",
+          "visual_description": "Illustrated gravel switchback through conifer hills, black/yellow RALLY DIRECTOR badge and checkered flag, blue-suited racer with helmet, co-driver with clipboard.",
+          "crop": "Centered cover crop removes about 11% of source height; badge, racers, and road remain visible.",
+          "generated_concept_selection": null
+        }
+      },
+      "local_evidence": {
+        "run_id": "2026-10-10T185643Z",
+        "window": 4,
+        "source_report": "luna4.json",
+        "gameplay_report": "parent-gameplay.json",
+        "included_in_repository": false
+      }
+    },
+    {
+      "candidate_id": 13,
+      "candidate_title": "CatWalk",
+      "creator": "@blitast_studio",
+      "xSource": "https://x.com/blitast_studio/status/2106002741906833871",
+      "candidate_play_url": "https://blitastxyz.itch.io/catwalk",
+      "disposition": "held",
+      "terminal_code": "hold_controls_unverified",
+      "decision_reason": "The parent test did not establish a visible response to actual game controls.",
+      "ai_authorship_evidence": {
+        "gate_status": "pass",
+        "evidence": [
+          {
+            "quote": "AI Disclosure  | AI Assisted | Code | Graphics | Sounds | Text",
+            "source_url": "https://blitastxyz.itch.io/catwalk",
+            "source_type": "game-page AI disclosure field",
+            "verification": "verified via current game page; disclosure is specific to this game"
+          },
+          {
+            "quote": "Built with Claude Code, ~200KB, all…",
+            "source_url": "https://x.com/blitast_studio/status/2106002741906833871",
+            "source_type": "creator X post, retrieved in saved X oEmbed",
+            "verification": "post retrieval truncates after “all…”; not relied on for the authorship gate"
+          }
+        ]
+      },
+      "gameplay": {
+        "status": "held_controls_unverified",
+        "observations": "CatWalk loaded itchanddirectframe. Spacebeganrun;heldspace600ms showedcatabovegroundand2firefliesbutconcurrentleftbehindmessage; didnotestablishreliablejump/recovery. Holdforinputverification,notbroken.",
+        "iframe_test": "not_tested"
+      },
+      "local_evidence": {
+        "run_id": "2026-10-10T185643Z",
+        "window": 4,
+        "source_report": "luna4.json",
+        "gameplay_report": "parent-gameplay.json",
+        "included_in_repository": false
+      }
+    },
+    {
+      "candidate_id": 14,
+      "candidate_title": "Rose & Blade",
+      "creator": "@danielv8698",
+      "xSource": "https://x.com/danielv8698/status/2107578963581440111",
+      "candidate_play_url": "https://danielv8.itch.io/rose-and-blade",
+      "disposition": "held",
+      "terminal_code": "hold_pointer_input_unverified",
+      "decision_reason": "Pointer-lock/input behavior did not produce a verified player response.",
+      "ai_authorship_evidence": {
+        "gate_status": "pass",
+        "evidence": [
+          {
+            "quote": "I just built a full multiplayer game using Claude Opus 5.5 with zero backend servers.",
+            "source_url": "https://x.com/danielv8698/status/2107578963581440111",
+            "source_type": "creator X post, retrieved in saved X oEmbed",
+            "verification": "verified; the post explicitly refers to this linked game"
+          }
+        ]
+      },
+      "gameplay": {
+        "status": "held_pointer_capture",
+        "observations": "Rose&Blade creator directsite loadedsoloarena defaultloadout. Fight immediatelyPaused askingResumetocapturemouse;Resume+heldW1500ms remainedpaused. No gameplayverified;pointercapturelimitationnotgamefailure.",
+        "iframe_test": "not_tested"
+      },
+      "local_evidence": {
+        "run_id": "2026-10-10T185643Z",
+        "window": 4,
+        "source_report": "luna4.json",
+        "gameplay_report": "parent-gameplay.json",
+        "included_in_repository": false
+      }
+    },
+    {
+      "candidate_id": 15,
+      "candidate_title": "ODYSSEUS: LOST WORLDS",
+      "creator": "@Maadferit94",
+      "xSource": "https://x.com/Maadferit94/status/2105167991767970066",
+      "candidate_play_url": "https://odysseus-lost-worlds.sooyeon-jun-0389.chatgpt.site/",
+      "disposition": "held",
+      "terminal_code": "hold_navigation_unverified",
+      "decision_reason": "The test did not reach a verified playable game state after navigation.",
+      "ai_authorship_evidence": {
+        "gate_status": "pass",
+        "evidence": [
+          {
+            "quote": "I’m not a developer, but I made a browser game with ChatGPT + Codex. Meet ODYSSEUS: LOST WORLDS ⚔️ Try it on desktop—what would you change first?",
+            "source_url": "https://x.com/Maadferit94/status/2105167991767970066",
+            "source_type": "creator X post, retrieved in saved X oEmbed",
+            "verification": "verified; explicit creator statement about the named linked game"
+          }
+        ]
+      },
+      "gameplay": {
+        "status": "held_browser_navigation",
+        "observations": "Odysseus exactcandidateURL navigation returnednetERR_ABORTED; previousgamepage remained. Browsernavigationlimitation, notproofgamebroken.",
+        "iframe_test": "not_tested"
+      },
+      "local_evidence": {
+        "run_id": "2026-10-10T185643Z",
+        "window": 4,
+        "source_report": "luna4.json",
+        "gameplay_report": "parent-gameplay.json",
+        "included_in_repository": false
+      }
+    },
+    {
+      "candidate_id": 16,
+      "candidate_title": "The Brian Boru 2026 Championship",
+      "release_title": "Brian Boru Golf",
+      "creator": "@Stephen_Griffin",
+      "xSource": "https://x.com/Stephen_Griffin/status/2103463728096125382",
+      "candidate_play_url": "https://brian-boru-golf-2026.griffin147.chatgpt.site/",
+      "disposition": "eligible",
+      "terminal_code": "direct_gameplay_verified",
+      "decision_reason": "Parent direct test observed an actual input response and the creator/game page has explicit game-specific AI attribution. This was a bounded check, not a full playthrough.",
+      "ai_authorship_evidence": {
+        "gate_status": "pass",
+        "evidence": [
+          {
+            "quote": "Site by GPT-6 Astra, game by Claude Opus 5.5",
+            "source_url": "https://x.com/Stephen_Griffin/status/2103463728096125382",
+            "source_type": "Creator X post text from saved oEmbed snapshot.",
+            "verification": "The shortened Play link resolves to the exact candidate host/title. The site contains a separate 16-bit golf warm-up iframe at /golf-game?v=4."
+          }
+        ]
+      },
+      "gameplay": {
+        "status": "gameplay_verified",
+        "direct_game_url_tested": "https://brian-boru-golf-2026.griffin147.chatgpt.site/golf-game?v=4",
+        "observations": "Sound is off. PlayFull18/defaultPLAYER/OnceAYearHacker. ThreeSpace swing inputs advancedSHOT1to2, PIN382Yto291Y, TEETOFAIRWAY, driver to3wood. Short direct golf shot verified; root is event page, use observed arcade link.",
+        "iframe_test": "not_tested"
+      },
+      "release_record": {
+        "slug": "brian-boru-golf",
+        "title": "Brian Boru Golf",
+        "category": "Sports",
+        "shortDescription": "Take an arcade golf shot on a 16-bit course",
+        "externalUrl": "https://brian-boru-golf-2026.griffin147.chatgpt.site/golf-game?v=4",
+        "image": {
+          "path": "/games/campaign4-brian-boru-golf.webp",
+          "type": "observed_gameplay_screenshot",
+          "source_url": "https://brian-boru-golf-2026.griffin147.chatgpt.site/golf-game?v=4",
+          "provenance": "Parent gameplay screenshot of the actual standalone 16-bit golf game; the event-page portrait/course photograph was not used.",
+          "dimensions": {
+            "width": 1200,
+            "height": 845
+          },
+          "format": "WebP",
+          "bytes": 76300,
+          "sha256": "dbfcb220756d5d9be64775ceff5e2b9b0d70f8f112ac752cbba32e2dd8704fe0",
+          "method": "Crop game frame from parent gameplay screenshot (x=400,y=72,w=480,h=570), upscale to 712x845, centered on a same-source softened background; scene kept intact.",
+          "visual_description": "Green-and-gold CRT-like 16-bit frame around a top-down fairway lined with trees; Hole 1 / Par 4 HUD, yardage, club, wind and swing meter are visible.",
+          "crop": "Preserved the game screen from the parent screenshot and centered it over a softened copy of its own pixels; no game content removed.",
+          "generated_concept_selection": null
+        }
+      },
+      "local_evidence": {
+        "run_id": "2026-10-10T185643Z",
+        "window": 4,
+        "source_report": "luna5.json",
+        "gameplay_report": "parent-gameplay.json",
+        "included_in_repository": false
+      },
+      "destination_note": "The event/course landing page is not the game. Link the observed standalone golf route above."
+    },
+    {
+      "candidate_id": 17,
+      "candidate_title": "STARFALL: The Last Beacon",
+      "release_title": "STARFALL: The Last Beacon",
+      "creator": "@ShanGulamani",
+      "xSource": "https://x.com/ShanGulamani/status/2103472111574741150",
+      "candidate_play_url": "https://starfall-pocket-arcade.shang637.chatgpt.site/",
+      "disposition": "eligible",
+      "terminal_code": "direct_gameplay_verified",
+      "decision_reason": "Parent direct test observed an actual input response and the creator/game page has explicit game-specific AI attribution. This was a bounded check, not a full playthrough.",
+      "ai_authorship_evidence": {
+        "gate_status": "pass_with_truncated_quote",
+        "evidence": [
+          {
+            "quote": "Built with GPT-6 Astra Ultra — same…",
+            "context_quote": "No CS degree. Still shipping a space shooter to the App Store. Play → [creator-linked candidate]. My stack tonight in one prompt: … Built with GPT-6 Astra Ultra — same…",
+            "source_url": "https://x.com/ShanGulamani/status/2103472111574741150",
+            "source_type": "Creator-authored X post text from saved public X oEmbed snapshot.",
+            "verification": "The creator-linked destination is STARFALL: The Last Beacon; the model-credit excerpt is truncated after “same…”. Parent accepted the explicit model credit with that limitation recorded."
+          }
+        ]
+      },
+      "gameplay": {
+        "status": "gameplay_verified",
+        "direct_game_url_tested": "https://starfall-pocket-arcade.shang637.chatgpt.site/",
+        "observations": "Starfall sound disabled (Enable sound). Campaign1 launch, paused toread linkedcontrols. Resumed and heldSpace2200ms:score000000to000100, encounter1to2, hull72unchanged. Short shooting response verified; no complete mission.",
+        "iframe_test": "not_tested"
+      },
+      "release_record": {
+        "slug": "starfall-the-last-beacon",
+        "title": "STARFALL: The Last Beacon",
+        "category": "Action",
+        "shortDescription": "Fire through waves in a retro space-shooter mission",
+        "externalUrl": "https://starfall-pocket-arcade.shang637.chatgpt.site/",
+        "image": {
+          "path": "/games/concept-campaign4-starfall-the-last-beacon.webp",
+          "type": "generated_concept_selected_by_parent",
+          "source_url": null,
+          "provenance": "Original generated concept artwork; option B was selected by the parent. No creator cover or saved gameplay pixels were available.",
+          "dimensions": {
+            "width": 1200,
+            "height": 845
+          },
+          "format": "WebP",
+          "bytes": 125046,
+          "sha256": "436abc69df833e26fa72ae74ef6ca1f83e1a5fdcc14b861e78760705d2c76648",
+          "method": "Centered crop x=41,y=0,w=1454,h=1024, resized to 1200x845, WebP quality 86.",
+          "visual_description": "Low-poly orange-and-white fighter with cyan canopy/engines facing a formation of purple ships and orange projectiles in dark navy space.",
+          "crop": "Centered crop from 1536x1024 to 1454x1024 at x=41, then resized to 1200x845; central fighter and enemy formation remain in frame.",
+          "generated_concept_selection": {
+            "selected": "B",
+            "reason": "Overhead combat composition communicates verified arcade shooting and keeps the central ship readable.",
+            "prompt_record": "windows/4/starfall-prompts.json",
+            "other_option_retained_locally": true
+          }
+        }
+      },
+      "local_evidence": {
+        "run_id": "2026-10-10T185643Z",
+        "window": 4,
+        "source_report": "luna5.json",
+        "gameplay_report": "parent-gameplay.json",
+        "included_in_repository": false
+      },
+      "art_note": "Parent-selected generated concept B; gameplay screenshot was not retained, so the visual is genre-based and not claimed as a source-game screenshot or verified art match."
+    },
+    {
+      "candidate_id": 18,
+      "candidate_title": "Tumble",
+      "creator": "@Jasonm2spla",
+      "xSource": "https://x.com/Jasonm2spla/status/2109081453908640063",
+      "candidate_play_url": "https://marblesandbox.grok.me/",
+      "disposition": "held",
+      "terminal_code": "hold_objective_unverified",
+      "decision_reason": "The experience appeared to be an open sandbox; a concrete game objective was not established.",
+      "ai_authorship_evidence": {
+        "gate_status": "pass",
+        "evidence": [
+          {
+            "quote": "I built this with Grok — try it out:",
+            "source_url": "https://x.com/Jasonm2spla/status/2109081453908640063",
+            "source_type": "Creator X post text from saved oEmbed snapshot.",
+            "verification": "Exact post links to marblesandbox.grok.me, whose page title is Tumble."
+          }
+        ]
+      },
+      "gameplay": {
+        "status": "held_sandbox_scope",
+        "observations": "Tumble mutedImpacts/MusicOff. Shove visibly tilted stackedblocks/objects;floorclick addedbox,count11to12. Physicsinteractionworks,butnoobjective/wincondition observed;holdcatalogscope ratherthanclaimgamefailure.",
+        "iframe_test": "not_tested"
+      },
+      "local_evidence": {
+        "run_id": "2026-10-10T185643Z",
+        "window": 4,
+        "source_report": "luna5.json",
+        "gameplay_report": "parent-gameplay.json",
+        "included_in_repository": false
+      }
+    },
+    {
+      "candidate_id": 19,
+      "candidate_title": "Flagfield",
+      "release_title": "Flagfield",
+      "creator": "@ProfWhiteDuck12",
+      "xSource": "https://x.com/ProfWhiteDuck12/status/2108786231366836732",
+      "candidate_play_url": "https://flag-field.grok.me/",
+      "disposition": "eligible",
+      "terminal_code": "direct_gameplay_verified",
+      "decision_reason": "Parent direct test observed an actual input response and the creator/game page has explicit game-specific AI attribution. This was a bounded check, not a full playthrough.",
+      "ai_authorship_evidence": {
+        "gate_status": "pass",
+        "evidence": [
+          {
+            "quote": "I built this with Grok — try it out with new features and updates:",
+            "source_url": "https://x.com/ProfWhiteDuck12/status/2108786231366836732",
+            "source_type": "Creator X post text from saved oEmbed snapshot.",
+            "verification": "Exact post links to flag-field.grok.me, which resolves to /lobby; page title and description identify Flagfield as Minesweeper, pattern trainer and Flags duel."
+          }
+        ]
+      },
+      "gameplay": {
+        "status": "gameplay_verified",
+        "direct_game_url_tested": "https://flag-field.grok.me/",
+        "observations": "Flagfield muteUnmute. VsAI route finishesloadingguestcontrols (initiallobby stale). Social,Private,Startmatch. AIopenedB12=3;clickedA1 revealed1andnotation2.A1 1;AIrespondedA11=2andYourturn. GuestprivateAIpuzzleinteractionverified.",
+        "iframe_test": "not_tested"
+      },
+      "release_record": {
+        "slug": "flagfield",
+        "title": "Flagfield",
+        "category": "Puzzle",
+        "shortDescription": "Reveal cells and mark flags on a Minesweeper board",
+        "externalUrl": "https://flag-field.grok.me/",
+        "image": {
+          "path": "/games/campaign4-flagfield.webp",
+          "type": "game_page_open_graph",
+          "source_url": "https://flag-field.grok.me/og.jpg",
+          "provenance": "Game-page Open Graph image retained in the report; it is game-specific rather than generic site art.",
+          "dimensions": {
+            "width": 1200,
+            "height": 845
+          },
+          "format": "WebP",
+          "bytes": 45948,
+          "sha256": "30e32b3e0c49689a1bfefc92b31fcfb8e78654e404a5c724433de3732f390bd9",
+          "method": "Centered cover crop to exact 1200x845; title, red flag and cracked center tile remain visible.",
+          "visual_description": "Dark gridded board, cracked center tile with a red glow, red flag and large FLAGFIELD / “Clear the field.” lettering.",
+          "crop": "Centered cover crop to exact 1200x845; title, flag and cracked tile stay within frame.",
+          "generated_concept_selection": null
+        }
+      },
+      "local_evidence": {
+        "run_id": "2026-10-10T185643Z",
+        "window": 4,
+        "source_report": "luna5.json",
+        "gameplay_report": "parent-gameplay.json",
+        "included_in_repository": false
+      }
+    },
+    {
+      "candidate_id": 20,
+      "candidate_title": "99% YOUTH Échecs",
+      "release_title": "99% YOUTH Échecs",
+      "creator": "@QuentinCad31672",
+      "xSource": "https://x.com/QuentinCad31672/status/2108971042232246517",
+      "candidate_play_url": "https://flora-acorn-cloud-rapid.grok.me/",
+      "disposition": "eligible",
+      "terminal_code": "direct_gameplay_verified",
+      "decision_reason": "Parent direct test observed an actual input response and the creator/game page has explicit game-specific AI attribution. This was a bounded check, not a full playthrough.",
+      "ai_authorship_evidence": {
+        "gate_status": "pass",
+        "evidence": [
+          {
+            "quote": "I built this with Grok — try it out:",
+            "source_url": "https://x.com/QuentinCad31672/status/2108971042232246517",
+            "source_type": "Creator X post text from saved oEmbed snapshot.",
+            "verification": "Exact post links to flora-acorn-cloud-rapid.grok.me, whose page title is 99% YOUTH — Échecs."
+          }
+        ]
+      },
+      "gameplay": {
+        "status": "gameplay_verified",
+        "direct_game_url_tested": "https://flora-acorn-cloud-rapid.grok.me/",
+        "observations": "99%Youth: Son clickedtoMuet. e2toe4 pawn moved,notatione4;computerknightb8toc6,screenshotnotatione4Nc6. Shortdefaultbotmatch.",
+        "iframe_test": "not_tested"
+      },
+      "release_record": {
+        "slug": "99-youth-echecs",
+        "title": "99% YOUTH Échecs",
+        "category": "Strategy",
+        "shortDescription": "Play a bot match in a chess variant with special piece rules",
+        "externalUrl": "https://flora-acorn-cloud-rapid.grok.me/",
+        "image": {
+          "path": "/games/campaign4-youth-echecs.webp",
+          "type": "game_page_open_graph",
+          "source_url": "https://flora-acorn-cloud-rapid.grok.me/og.jpg",
+          "provenance": "Game-page Open Graph image; saved from the exact creator-linked candidate.",
+          "dimensions": {
+            "width": 1200,
+            "height": 845
+          },
+          "format": "WebP",
+          "bytes": 26468,
+          "sha256": "2e763bd0e64d68a18c7f3d67203f07eb3676533d555f13d50016cd6746255f07",
+          "method": "Full source composition contained over a same-source blurred fill to preserve the black pawn, 99% wordmark and YOUTH Échecs title.",
+          "visual_description": "Ivory field with black pawn silhouette, large red 99%, YOUTH Échecs lettering and a small circular 99% badge.",
+          "crop": "Full original composition centered over a same-source blurred fill; avoids cropping the pawn or title.",
+          "generated_concept_selection": null
+        }
+      },
+      "local_evidence": {
+        "run_id": "2026-10-10T185643Z",
+        "window": 4,
+        "source_report": "luna5.json",
+        "gameplay_report": "parent-gameplay.json",
+        "included_in_repository": false
+      }
+    },
+    {
+      "candidate_id": 21,
+      "candidate_title": "CELESTE: Faction HQ",
+      "creator": "@MDrake0715",
+      "xSource": "https://x.com/MDrake0715/status/2108917643335893384",
+      "candidate_play_url": "https://celeste.madgical.com/",
+      "disposition": "held",
+      "terminal_code": "hold_ai_authorship_and_game_identity",
+      "decision_reason": "The source describes an AI-built hub for a card game, but does not establish that the linked hub itself is the AI-built game.",
+      "ai_authorship_evidence": {
+        "gate_status": "ambiguous_hold",
+        "evidence": [
+          {
+            "quote": "Used it with Grok Build to make a new hub to show off my card game Celeste. The website is",
+            "context_quote": null,
+            "source_url": "https://x.com/MDrake0715/status/2108917643335893384",
+            "source_type": "Creator-authored X post text retrieved through public X oEmbed",
+            "verification": "The creator attributes the hub/website to Grok Build and describes Celeste as an existing card game. This does not establish that the game itself was AI-made, so the explicit game-authorship gate remains unmet."
+          }
+        ]
+      },
+      "gameplay": {
+        "status": "not_tested_or_not_attempted",
+        "observations": null,
+        "iframe_test": "not_tested"
+      },
+      "local_evidence": {
+        "run_id": "2026-10-10T185643Z",
+        "window": 4,
+        "source_report": "luna1.json",
+        "gameplay_report": null,
+        "included_in_repository": false
+      }
+    },
+    {
+      "candidate_id": 22,
+      "candidate_title": "Captain Barbarossa",
+      "creator": "@AIDevelopp",
+      "xSource": "https://x.com/AIDevelopp/status/2106793504013795560",
+      "candidate_play_url": "https://captainbarbarossa.com/",
+      "disposition": "held",
+      "terminal_code": "hold_login_gate",
+      "decision_reason": "A login gate prevented a safe direct gameplay test.",
+      "ai_authorship_evidence": {
+        "gate_status": "pass",
+        "evidence": [
+          {
+            "quote": "Built a Seafight alternative multiplayer game entirely with GPT-6 Astra and Claude Opus 5.5",
+            "context_quote": null,
+            "source_url": "https://x.com/AIDevelopp/status/2106793504013795560",
+            "source_type": "Creator-authored X post text retrieved through public X oEmbed",
+            "verification": "The creator names this multiplayer game and explicitly attributes its creation to two AI models."
+          }
+        ]
+      },
+      "gameplay": {
+        "status": "held_login_required",
+        "observations": "CaptainBarbarossa redirectedwww; onlynickname/emailpasswordSetSail/CreateCaptain,Googleunavailable;noguestgameentry. Noaccountcreated.",
+        "iframe_test": "not_tested"
+      },
+      "local_evidence": {
+        "run_id": "2026-10-10T185643Z",
+        "window": 4,
+        "source_report": "luna1.json",
+        "gameplay_report": "parent-gameplay.json",
+        "included_in_repository": false
+      }
+    },
+    {
+      "candidate_id": 23,
+      "candidate_title": "Clunk Smash",
+      "release_title": "Clunk Smash",
+      "creator": "@clunk_games",
+      "xSource": "https://x.com/clunk_games/status/2103296602723217781",
+      "candidate_play_url": "https://clunk.games/en/smash",
+      "disposition": "eligible",
+      "terminal_code": "direct_gameplay_verified",
+      "decision_reason": "Parent direct test observed an actual input response and the creator/game page has explicit game-specific AI attribution. This was a bounded check, not a full playthrough.",
+      "ai_authorship_evidence": {
+        "gate_status": "pass",
+        "evidence": [
+          {
+            "quote": "Physics, sound and every drawing were written as code by Claude Opus 5.5.",
+            "context_quote": "New on clunk.games: Clunk Smash (test build)",
+            "source_url": "https://x.com/clunk_games/status/2103296602723217781",
+            "source_type": "Creator-authored X post; public X oEmbed truncates the closing attribution, so the exact creator-post HTML was also inspected",
+            "verification": "The same post identifies Clunk Smash and explicitly attributes its physics, sound, and drawings to Claude Opus 5.5. The creator's t.co playable link resolves to the clunk.games host; the submitted /en/smash path was separately confirmed by HTTP metadata and its canonical URL. Do not state that t.co itself resolves to /en/smash."
+          }
+        ]
+      },
+      "gameplay": {
+        "status": "gameplay_verified",
+        "direct_game_url_tested": "https://clunk.games/en/smash",
+        "observations": "ClunkSmash settingsSoundOff MusicOff;freePractice (notranked). Right500ms thenSpace:visibleCLUNK+20,blockfragments,score60;shortsmashresponse,1heartremaining.",
+        "iframe_test": "not_tested"
+      },
+      "release_record": {
+        "slug": "clunk-smash",
+        "title": "Clunk Smash",
+        "category": "Action",
+        "shortDescription": "Leap and smash falling face-block buildings with a hammer",
+        "externalUrl": "https://clunk.games/en/smash",
+        "image": {
+          "path": "/games/campaign4-clunk-smash.webp",
+          "type": "creator_post_video_thumbnail",
+          "source_url": "https://pbs.twimg.com/amplify_video_thumb/2103296469440790528/img/Tx7DCFFZmu6zaW2U?format=webp&name=large",
+          "provenance": "Authentic creator-post video thumbnail; source SHA-256 matches the saved W1 creator-art report.",
+          "dimensions": {
+            "width": 1200,
+            "height": 845
+          },
+          "format": "WebP",
+          "bytes": 28994,
+          "sha256": "8ef6d860ab1cf6564402f2bc77ed320aa96472ff788d26beaff771f9565bee7f",
+          "method": "Full portrait creator-post gameplay capture contained on a same-source blurred fill; keeps hearts, score, face-block action and shield control in frame.",
+          "visual_description": "Portrait gameplay capture: peach sky, pastel city blocks, colorful face-block characters, heart/score HUD, smash combo and shield button.",
+          "crop": "Entire portrait capture contained on a same-source blurred fill; retains the HUD and action because a wide crop would discard either.",
+          "generated_concept_selection": null
+        }
+      },
+      "local_evidence": {
+        "run_id": "2026-10-10T185643Z",
+        "window": 4,
+        "source_report": "luna1.json",
+        "gameplay_report": "parent-gameplay.json",
+        "included_in_repository": false
+      }
+    },
+    {
+      "candidate_id": 24,
+      "candidate_title": "Kettu-Vellam",
+      "release_title": "Kettu-Vellam",
+      "creator": "@jessinvibe",
+      "xSource": "https://x.com/jessinvibe/status/2104388015405830498",
+      "candidate_play_url": "https://kettuvellam.com/",
+      "disposition": "eligible",
+      "terminal_code": "direct_gameplay_verified",
+      "decision_reason": "Parent direct test observed an actual input response and the creator/game page has explicit game-specific AI attribution. This was a bounded check, not a full playthrough.",
+      "ai_authorship_evidence": {
+        "gate_status": "pass",
+        "evidence": [
+          {
+            "quote": "Made this game using Claude Opus 5.5 inside @v0",
+            "context_quote": null,
+            "source_url": "https://x.com/jessinvibe/status/2104388015405830498",
+            "source_type": "Creator-authored X post text retrieved through public X oEmbed",
+            "verification": "The creator explicitly says this game was made using Claude Opus 5.5."
+          }
+        ]
+      },
+      "gameplay": {
+        "status": "gameplay_verified",
+        "direct_game_url_tested": "https://kettuvellam.com/",
+        "observations": "KettuVellam settingsvolume0,defaultChundan/KuttanadRacer. Start,heldW4000ms:0to23knots,boatadvancedwithwake,time10.541. Shortaccelerationtest,notcompletedrace.",
+        "iframe_test": "not_tested"
+      },
+      "release_record": {
+        "slug": "kettu-vellam",
+        "title": "Kettu-Vellam",
+        "category": "Racing",
+        "shortDescription": "Race Chundan snake boats through Kerala backwaters",
+        "externalUrl": "https://kettuvellam.com/",
+        "image": {
+          "path": "/games/campaign4-kettu-vellam.webp",
+          "type": "creator_post_video_thumbnail",
+          "source_url": "https://pbs.twimg.com/amplify_video_thumb/2104387431168700416/img/uwv0lbffyI6TTX49?format=webp&name=large",
+          "provenance": "Authentic creator-post gameplay thumbnail; source SHA-256 matches the saved W1 creator-art report.",
+          "dimensions": {
+            "width": 1200,
+            "height": 845
+          },
+          "format": "WebP",
+          "bytes": 128366,
+          "sha256": "1a2e866f51103e92daa438b2958852450c64cb43ad2de8cc03968b2357f3838f",
+          "method": "Removed browser chrome with crop x=67,y=96,w=1817,h=1091; contained the complete game viewport over a same-source blurred fill, preserving the racing scene and HUD.",
+          "visual_description": "3D Kerala snake-boat race on reflective backwaters, palm-lined green banks, crews in long boats, race-position/map HUD and central countdown.",
+          "crop": "Removed browser bar and black border, then contained the complete game viewport over a same-source blurred fill; all race HUD remains visible.",
+          "generated_concept_selection": null
+        }
+      },
+      "local_evidence": {
+        "run_id": "2026-10-10T185643Z",
+        "window": 4,
+        "source_report": "luna1.json",
+        "gameplay_report": "parent-gameplay.json",
+        "included_in_repository": false
+      }
+    },
+    {
+      "candidate_id": 25,
+      "candidate_title": "INKBOUND",
+      "creator": "@agentgamesbot",
+      "xSource": "https://x.com/agentgamesbot/status/2103401820261355554",
+      "candidate_play_url": "https://agentgames.itch.io/inkbound",
+      "disposition": "held",
+      "terminal_code": "hold_controls_unverified",
+      "decision_reason": "The parent test did not establish a visible response to actual game controls.",
+      "ai_authorship_evidence": {
+        "gate_status": "pass",
+        "evidence": [
+          {
+            "quote": "Claude Opus 5.5 built this pixel game in 30 minutes.",
+            "context_quote": null,
+            "source_url": "https://x.com/agentgamesbot/status/2103401820261355554",
+            "source_type": "Creator-authored X post text retrieved through public X oEmbed",
+            "verification": "The post names INKBOUND and says the model built this pixel game; its play link resolves to the submitted itch.io page."
+          }
+        ]
+      },
+      "gameplay": {
+        "status": "held_controls_unverified",
+        "observations": "Inkbounditchframe loaded,selfplayingdemo. Canvasclick,M,SpacebeganChapter1. S700ms no clearedsinkresponse. W twice restartedChapter1afterdeath;jumptimingnotreliablycaptured. Holdinputverification,notgamefailure. Systemmute preserved.",
+        "iframe_test": "not_tested"
+      },
+      "local_evidence": {
+        "run_id": "2026-10-10T185643Z",
+        "window": 4,
+        "source_report": "luna1.json",
+        "gameplay_report": "parent-gameplay.json",
+        "included_in_repository": false
+      }
+    }
+  ],
+  "prepared_at_utc": "2026-10-11T03:52:41Z"
+}
