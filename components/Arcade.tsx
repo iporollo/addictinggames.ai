@@ -3,7 +3,7 @@
 import { useEffect, useRef, useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { allListedGames, newGames, playableGames, orderedGames, matchesGame, type ListedGame } from '@/lib/games';
+import { allListedGames, newGames, orderedGames, matchesGame, type ListedGame } from '@/lib/games';
 import { browseGames, browseTabs, gameRows, gameTags, type BrowseTab } from '@/lib/browse';
 import { useRecentGames } from '@/lib/history';
 import { Icon } from './Icon';
@@ -69,7 +69,7 @@ export function Arcade() {
   const filtering = Boolean(query.trim());
   function filter<T extends ListedGame>(games: T[]): T[] { return games.filter(game => matchesGame(game, query) || gameTags(game).join(' ').toLocaleLowerCase('en').includes(query.trim().toLocaleLowerCase('en'))); }
   const count = filter(allListedGames).length;
-  const browsed = filter(browseGames(playableGames, tab));
+  const browsed = filter(browseGames(allListedGames, tab));
 
   return <>
     <div className="arcade-tools">
@@ -81,7 +81,7 @@ export function Arcade() {
       <div className="arcade-main">
         <ArcadeSection id="featured" title="Featured" note="Five handpicked games to play next." games={filter(featuredPicks)} featured filtering={filtering} mobileScrolling />
         <ArcadeSection key={query} id="new-games" title="New Games" note="Explore new games. Swipe, use the arrows, or tab through every card." games={filter(newGames)} filtering={filtering} scrolling />
-        <ArcadeSection id="multiplayer" title="Multiplayer" note="Play with friends. Choose online multiplayer or a local two-player match." games={filter(browseGames(playableGames, 'Multiplayer'))} filtering={filtering} mobileScrolling />
+        <ArcadeSection id="multiplayer" title="Multiplayer" note="Play with friends. Choose online multiplayer or a local two-player match." games={filter(browseGames(allListedGames, 'Multiplayer'))} filtering={filtering} mobileScrolling />
         <ArcadeSection id="recently-played" title="Recently Played" note="Pick up where you left off. Saved on this browser." games={filter(recent)} recentEmpty={!recent.length} filtering={filtering} mobileScrolling />
         <section className="arcade-section browse-section" aria-labelledby="browse-heading">
           <div className="arcade-section-heading"><div><h2 id="browse-heading">Browse Games</h2><p>Find your kind of game. One game can fit several genres.</p></div></div>
