@@ -1,0 +1,2377 @@
+[
+  {
+    "slug": "3d-car-simulator",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/3d-car-simulator-initial.png",
+    "sha256": "a563e4c9f0aaf9e4abb7ff27ea8bae26c1ccd10d95336a478223dae4a4e03b28"
+  },
+  {
+    "slug": "3d-car-simulator",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/3d-car-simulator-after.png",
+    "sha256": "6bbb538824375f3ac155d395a275c64f926e66e32f20a4612448fe02eba0c644"
+  },
+  {
+    "slug": "3d-car-simulator",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/3d-car-simulator-followup-before.png",
+    "sha256": "213a0649c1bb3d84cee0a2eba66981c2345bcc13ffcbf18666415f6e2bab364d"
+  },
+  {
+    "slug": "3d-car-simulator",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/3d-car-simulator-followup-after.png",
+    "sha256": "e7d7ae8a7833beff716feee22473dbe5ccd3f9f3d75580888e4112fda053b77f"
+  },
+  {
+    "slug": "ash-line",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/ash-line-initial.png",
+    "sha256": "14e08504cc7f0d105eb5fb5113709f04bb0816faf46927795df310983223a8a5"
+  },
+  {
+    "slug": "ash-line",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/ash-line-after.png",
+    "sha256": "f0da289258e2ccde9a00a7a4b5a80dc29354980a40455f8f3528311dc400ba28"
+  },
+  {
+    "slug": "battle-peaks",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/battle-peaks-initial.png",
+    "sha256": "8a2e23236e2771b95397a94b20a8984169608fbbbc2e37d6368936aa82153441"
+  },
+  {
+    "slug": "battle-peaks",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/battle-peaks-after.png",
+    "sha256": "56efd09a889cd5b960cabc3dc12f15262c6d8dc9efe940c5aac991f98855ebbf"
+  },
+  {
+    "slug": "canal-shark",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/canal-shark-initial.png",
+    "sha256": "79d73649c502938e562f8bdf643de6e96cd96cd50eec876dc8fc2ea538fcd4b7"
+  },
+  {
+    "slug": "canal-shark",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/canal-shark-after.png",
+    "sha256": "3f3f46700a2dba8461c2761d2be0d84698b387dbe7210a46499da72d8bc313c9"
+  },
+  {
+    "slug": "color-war",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/color-war-initial.png",
+    "sha256": "8443f609c8c51015525cd0ff2f1ddef0ba457fc09de3a1de909659707cb5f767"
+  },
+  {
+    "slug": "color-war",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/color-war-after.png",
+    "sha256": "114c9dcf05fb76db0b92d8db1efb9b91fb9cc0b80d02302dfca444768a7df5e7"
+  },
+  {
+    "slug": "color-war",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/color-war-followup-before.png",
+    "sha256": "12db37f6a57f7bcab7fa054b7b66a9430f7386b5e43f16ff03d0853acfa2e792"
+  },
+  {
+    "slug": "color-war",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/color-war-followup-after.png",
+    "sha256": "716b24e2eb7e748a5b122b3e32c49dae0b5401edf56b92c0871d6debdefec333"
+  },
+  {
+    "slug": "color-war",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/color-war-retry-before.png",
+    "sha256": "878a3c8136f8707e96a70c1b4756d530ab6da0a2de292ed8e0c7e351a1ccfe4f"
+  },
+  {
+    "slug": "color-war",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/color-war-retry-after.png",
+    "sha256": "12bce8ec26b09c9a3401d41cc9271119e685d538b106bd3f1505b97ce7a4db5e"
+  },
+  {
+    "slug": "color-war",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/color-war-final-before.png",
+    "sha256": "b5af256bb9da8ca4464e2df9dcee597798e7c0f117255ced672a6b1e53631b41"
+  },
+  {
+    "slug": "color-war",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/color-war-final-menu.png",
+    "sha256": "8443f609c8c51015525cd0ff2f1ddef0ba457fc09de3a1de909659707cb5f767"
+  },
+  {
+    "slug": "color-war",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/color-war-final-after.png",
+    "sha256": "12bce8ec26b09c9a3401d41cc9271119e685d538b106bd3f1505b97ce7a4db5e"
+  },
+  {
+    "slug": "cs-surf",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/cs-surf-initial.png",
+    "sha256": "400f6380cffad43e85ac47c8e9dcc5cd9f4838dbd17407d11a412f9b9aa01423"
+  },
+  {
+    "slug": "cs-surf",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/cs-surf-after.png",
+    "sha256": "414ad037c93254ef11582ee7756b1bd086291f0d2b4e158b8f190422fea82a0b"
+  },
+  {
+    "slug": "disco-dino-lost-worlds",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/disco-dino-lost-worlds-initial.png",
+    "sha256": "92119e8ef7c293a30fb3b3b6da24e78d3611d30666cd0e9e1180458273e9f30e"
+  },
+  {
+    "slug": "disco-dino-lost-worlds",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/disco-dino-lost-worlds-after.png",
+    "sha256": "9f7a2ac1028a4f5f1f12486150602e6d8e0e34713f407a3f9bafd712fd9c0f8f"
+  },
+  {
+    "slug": "disco-dino-lost-worlds",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/disco-dino-lost-worlds-followup-before.png",
+    "sha256": "9eba0fa9adddd7548e7d374a647e86d3638ad3303d965ae130f6f0e46a077f19"
+  },
+  {
+    "slug": "disco-dino-lost-worlds",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/disco-dino-lost-worlds-followup-after.png",
+    "sha256": "9f7a2ac1028a4f5f1f12486150602e6d8e0e34713f407a3f9bafd712fd9c0f8f"
+  },
+  {
+    "slug": "drawdown",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/drawdown-initial.png",
+    "sha256": "80a1fd3ce9c1d9e119c3d7a8fd4a7889b13ecc8d5a32ad58cfbe226eb7babfac"
+  },
+  {
+    "slug": "drawdown",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/drawdown-after.png",
+    "sha256": "b48b8fa289b9ec232b5c862168f2b35a631d12d5e7657b6c2baa3cfdc637a44e"
+  },
+  {
+    "slug": "drawdown",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/drawdown-followup-before.png",
+    "sha256": "607d9f2976859f28bf61dc3efc1e0f79c493fe1192a3c81e78b6e7d0fff3b826"
+  },
+  {
+    "slug": "drawdown",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/drawdown-followup-after.png",
+    "sha256": "9d4d984618386718494fce96de01c5e559cbe4ddc781610d0119dd4650bf4aac"
+  },
+  {
+    "slug": "drawdown",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/drawdown-followup-dot1.png",
+    "sha256": "25e598c61e37f1256473da2f3eadb2f28154d815426dfabf1740f2ae27bbd862"
+  },
+  {
+    "slug": "faux-ami",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/faux-ami-initial.png",
+    "sha256": "65abc38aa0108cbb7456fdf652821eab700a49f8f871af76180d4a108ed6f16b"
+  },
+  {
+    "slug": "faux-ami",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/faux-ami-after.png",
+    "sha256": "bcc67ad65b859d29abf173ee0787a43c8847c8132c0b3359d56b1203af9312c7"
+  },
+  {
+    "slug": "faux-ami",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/faux-ami-followup-before.png",
+    "sha256": "1a8467146e4207a6a1e9220365555eb69fd5265a2ba49edc38f908c931bf25ea"
+  },
+  {
+    "slug": "faux-ami",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/faux-ami-followup-after.png",
+    "sha256": "c1f3be4c6c1e4aeaf1089142fa15ee27d68cec1222bd1addbeda4637c7e7eca5"
+  },
+  {
+    "slug": "faux-ami",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/faux-ami-retry-before.png",
+    "sha256": "b46289649d7eeff68a22a5396be21b52f8d83080ca07c7fb98f5b0517513cd05"
+  },
+  {
+    "slug": "faux-ami",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/faux-ami-retry-after.png",
+    "sha256": "9dedcae1b31d834bf69503f290f23f528daaed753b3263b6e36eb0c966d35f45"
+  },
+  {
+    "slug": "faux-ami",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/faux-ami-final-before.png",
+    "sha256": "9b94d5433b5cbace4ce8ad873268cbe7b59881fd402cdde32b772f03ba224cda"
+  },
+  {
+    "slug": "faux-ami",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/faux-ami-final-stage.png",
+    "sha256": "8fc79d2c229924ce6bd01a1cece334af583693bf4923298ab7e17f1cb6c0bb1f"
+  },
+  {
+    "slug": "faux-ami",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/faux-ami-final-after.png",
+    "sha256": "d49f59853be74644665da957c0e57457efe1a773eb5289d71100ead6df0a15e8"
+  },
+  {
+    "slug": "fly-pieter",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/fly-pieter-initial.png",
+    "sha256": "0f7e61d52068995cde88402e26708b1a2089f12d75ea6a78d00be36d82be979b"
+  },
+  {
+    "slug": "fly-pieter",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/fly-pieter-after.png",
+    "sha256": "2e296ce8c8f0c410055e7f37ccc52a8caf4521efd2564b7db7af221060902ed5"
+  },
+  {
+    "slug": "gigacity",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/gigacity-initial.png",
+    "sha256": "4de9d703db9d4269061d9708b859b5705d6484dddf4dcc8b2b3869715fb9608a"
+  },
+  {
+    "slug": "gigacity",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/gigacity-after.png",
+    "sha256": "50baa3a71486e849400a84baa19d0fe05b7263baafd6eccb31aee5923d9af453"
+  },
+  {
+    "slug": "half-life",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/half-life-initial.png",
+    "sha256": "8503670405de3fe39098e3a7c64fa418e583a6de73bcf786970b4fa97714a2ce"
+  },
+  {
+    "slug": "half-life",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/half-life-after.png",
+    "sha256": "8503670405de3fe39098e3a7c64fa418e583a6de73bcf786970b4fa97714a2ce"
+  },
+  {
+    "slug": "heroes-journey",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/heroes-journey-initial.png",
+    "sha256": "6be4d7484dec434eefcc353115e7330de0a04deef493f317029d7902db232767"
+  },
+  {
+    "slug": "heroes-journey",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/heroes-journey-after.png",
+    "sha256": "41bdcbc95574836aff3ed9e088a43a4dbdf3d78dcb022fdc9b6f6efaf723ced6"
+  },
+  {
+    "slug": "jamo-jump",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/jamo-jump-initial.png",
+    "sha256": "7cb2d224528949cabb22f16798cae80ec1bcfa80f3e18c2dacb6e370afeeed5b"
+  },
+  {
+    "slug": "jamo-jump",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/jamo-jump-after.png",
+    "sha256": "0dc580f05ede701349b7f7d31563d2ac19df74c6020f821daa78030278d5ef71"
+  },
+  {
+    "slug": "jamo-jump",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/jamo-jump-followup-before.png",
+    "sha256": "ee31d66f034e8740465ec93b9903aea04d4d4200081af6bff38a2b41cfcf2dc1"
+  },
+  {
+    "slug": "jamo-jump",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/jamo-jump-followup-after.png",
+    "sha256": "3bb1cdf1da7e8fd28f4be3646826c60892e3dbe7af593e3501add2494d2db7a7"
+  },
+  {
+    "slug": "jamo-jump",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/jamo-jump-retry-before.png",
+    "sha256": "ab1568e4322d1bdf27e61ad4f058b7280da49485bbe34a9d12a8cb78ba930169"
+  },
+  {
+    "slug": "jamo-jump",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/jamo-jump-retry-after.png",
+    "sha256": "58c7faded84e7ae26feaf7c5f4d3d3bf06bf32f082058f70037f2686fdaab29c"
+  },
+  {
+    "slug": "jamo-jump",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/jamo-jump-final-before.png",
+    "sha256": "ee31d66f034e8740465ec93b9903aea04d4d4200081af6bff38a2b41cfcf2dc1"
+  },
+  {
+    "slug": "lantern-isle",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/lantern-isle-initial.png",
+    "sha256": "09e3a5dd7c837e572282efff03d34dc8bb1aa88e35792a4f9aebc317e0d2be56"
+  },
+  {
+    "slug": "lantern-isle",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/lantern-isle-after.png",
+    "sha256": "1d42972c8af91362322e062a7f042ccebf9aac6ae155772939e5a69a2232eed5"
+  },
+  {
+    "slug": "llama-roguelike",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/llama-roguelike-initial.png",
+    "sha256": "20a661e62798ebd6d0ef05e75b631e7e0e728b3abc3828595e97048758342017"
+  },
+  {
+    "slug": "llama-roguelike",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/llama-roguelike-after.png",
+    "sha256": "a67f082440a951be0432db63fa141648a2bc924ca6906e8472d78a03c76a2fec"
+  },
+  {
+    "slug": "moon-mars-mission-studio",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/moon-mars-mission-studio-initial.png",
+    "sha256": "203fa87998645bbcc5485c55894e80debaec2c123baa43c312d2b3fbbe38fb66"
+  },
+  {
+    "slug": "moon-mars-mission-studio",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/moon-mars-mission-studio-after.png",
+    "sha256": "990f3fb9970662a0e44e2de0e722867324a9abb47cdbc786bf97431380bfa0df"
+  },
+  {
+    "slug": "neon-palms-port-solana",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/neon-palms-port-solana-initial.png",
+    "sha256": "97652e2092cc8de1d2faa813d6dac2f80457ff868ea479c712bb8814fffd672a"
+  },
+  {
+    "slug": "neon-palms-port-solana",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/neon-palms-port-solana-after.png",
+    "sha256": "303745c3528c1011911ca8de19a24efe5ca8172a8e0bca877a52c367b96831e7"
+  },
+  {
+    "slug": "neon-palms-port-solana",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/neon-palms-port-solana-followup-before.png",
+    "sha256": "97652e2092cc8de1d2faa813d6dac2f80457ff868ea479c712bb8814fffd672a"
+  },
+  {
+    "slug": "neon-palms-port-solana",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/neon-palms-port-solana-followup-after.png",
+    "sha256": "73dbf585312410173ea7a789cda7de543d45206f898f93436020bf618e015f4a"
+  },
+  {
+    "slug": "operation-nightwood",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/operation-nightwood-initial.png",
+    "sha256": "397b0a4dfb75cba1e674cdd8132463bea0b10cdb5bea04ef06b51393745462d6"
+  },
+  {
+    "slug": "operation-nightwood",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/operation-nightwood-after.png",
+    "sha256": "397b0a4dfb75cba1e674cdd8132463bea0b10cdb5bea04ef06b51393745462d6"
+  },
+  {
+    "slug": "pantry-dash",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/pantry-dash-initial.png",
+    "sha256": "f402b103f9b4d3cd1d3364c281c7ee57a5687f85710df5faad760aaead3c7054"
+  },
+  {
+    "slug": "pantry-dash",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/pantry-dash-after.png",
+    "sha256": "d6c721311d8ad7b1c4a193b15012de8da4baccd2b3bcb0f8ad060bd6d6a742c6"
+  },
+  {
+    "slug": "pantry-dash",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/pantry-dash-followup-before.png",
+    "sha256": "bc98324570f82bfadcf97fac28eb1d0c78edf13dc7c3cf4e6b418fa670fa6f71"
+  },
+  {
+    "slug": "pantry-dash",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/pantry-dash-followup-after.png",
+    "sha256": "49c014616c0ad54ed0a3ab2bebc1a28ca2ab05ea53a2c2155d6e99c3803a9d48"
+  },
+  {
+    "slug": "pantry-dash",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/pantry-dash-retry-before.png",
+    "sha256": "69b85ca4b664285b6a2fac5f06b7d3c9623cf49ed9613e8afaffea76e9162398"
+  },
+  {
+    "slug": "pantry-dash",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/pantry-dash-retry-after.png",
+    "sha256": "038b80e4f7c06681bae3eb7df63d3f7ef7350e43a8cc1aab74bf45a5e19a5334"
+  },
+  {
+    "slug": "pantry-dash",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/pantry-dash-final-before.png",
+    "sha256": "75869f58413e9af4a52b61aa749aa65e686165c8a467585709193070b2ca91ef"
+  },
+  {
+    "slug": "pantry-dash",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/pantry-dash-final-after.png",
+    "sha256": "b1fbb835312939409d002e636a933e8c0fd9c4d0de3dbc3c6f277d21adade372"
+  },
+  {
+    "slug": "plaid-circuit",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/plaid-circuit-initial.png",
+    "sha256": "c67f20dd849c938e0bae304d2554116cd7e37318902e823abb1970d781019a47"
+  },
+  {
+    "slug": "plaid-circuit",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/plaid-circuit-after.png",
+    "sha256": "d49da71329af6b01347c314b3cec53ea37c37f8f66778023bd2c1a9d888ab7a6"
+  },
+  {
+    "slug": "plaid-circuit",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/plaid-circuit-followup-before.png",
+    "sha256": "ae477243d6fa4cbd79f4e86e1125fe791ca5786ca5d9b39643b00dff71b7d9a7"
+  },
+  {
+    "slug": "plaid-circuit",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/plaid-circuit-followup-after.png",
+    "sha256": "5978d48b7859e4d15b431504da9c9ec3de8b23e081faa10424f983d2a64fa842"
+  },
+  {
+    "slug": "pulse",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/pulse-initial.png",
+    "sha256": "be1241028cdb4d129a67ed12949473c189f033bc6084b76d1f9007e3111048ef"
+  },
+  {
+    "slug": "pulse",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/pulse-after.png",
+    "sha256": "53bfda226a46dc4790d2d116a2b85a6470209b668c4a2b9c88122b7ec99e8334"
+  },
+  {
+    "slug": "quake-3",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/quake-3-initial.png",
+    "sha256": "836da0bbd7feda8634aa5c615de297af0c9d5f9f9301aeadbf38b3a89a34b5d2"
+  },
+  {
+    "slug": "quake-3",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/quake-3-after.png",
+    "sha256": "b184f9ac438a86a39cb7960e505d33100b34177db5065a22d30269336f32ccba"
+  },
+  {
+    "slug": "return-to-castle-wolfenstein",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/return-to-castle-wolfenstein-initial.png",
+    "sha256": "90269d630bf73a9426beafd3db24ed9b1490d347b4d3a2ae89c06ae459051e39"
+  },
+  {
+    "slug": "return-to-castle-wolfenstein",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/return-to-castle-wolfenstein-after.png",
+    "sha256": "7149131b69cba65e3b81766f8f004a189285a995c66fd51da301ebbe34de97ef"
+  },
+  {
+    "slug": "roll-for-agi",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/roll-for-agi-initial.png",
+    "sha256": "d55248e45ffaa9c7a9eb23d311fe3ad18d317589ff2e44520eeb6029ffe97f38"
+  },
+  {
+    "slug": "roll-for-agi",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/roll-for-agi-after.png",
+    "sha256": "aa6f382b85cf3c298055ac329d6ba39e50883f6ce857e1dabdd92b10b3de7b4d"
+  },
+  {
+    "slug": "roll-for-agi",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/roll-for-agi-followup-before.png",
+    "sha256": "20d2556d917134b92b099de3fc955b193b073e796a81f062a2daaafcaaec0291"
+  },
+  {
+    "slug": "roll-for-agi",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/roll-for-agi-followup-after.png",
+    "sha256": "9b01799d06c46b1b236a4aeea179d82f856849a871bb4d865344797f39217c60"
+  },
+  {
+    "slug": "roll-for-agi",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/roll-for-agi-retry-before.png",
+    "sha256": "555be267dc0645ee0eee75c119fb79d474a15b7ba201cd53f163a26b864f8dc7"
+  },
+  {
+    "slug": "roll-for-agi",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/roll-for-agi-retry-after.png",
+    "sha256": "65a1c16ee01e5c5354479b72aa53aadb4da134b8c81869d50b543343db4c0f18"
+  },
+  {
+    "slug": "sharespark",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/sharespark-initial.png",
+    "sha256": "66f35d8572bb81d5c5edd810aabd95b4bed345263d7c0d25ce48d7f6217f8088"
+  },
+  {
+    "slug": "sharespark",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/sharespark-after.png",
+    "sha256": "79ea1a49bdb8e0ac7eb9091d6c0789f00654a3c57ac9088d0afe89ec013d1c81"
+  },
+  {
+    "slug": "small-worlds",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/small-worlds-initial.png",
+    "sha256": "c01e0b3b9e087a302cf2453e6edd0334cd8b941ffcc59ea1f2d2990044bb9f52"
+  },
+  {
+    "slug": "small-worlds",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/small-worlds-after.png",
+    "sha256": "42f33c1e9c477d7e269d1ba98341be9f41db61a0fa7c4b53fd558b24ffc73e26"
+  },
+  {
+    "slug": "small-worlds",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/small-worlds-followup-before.png",
+    "sha256": "267231c9311abeba92471d3715d1398fd9be466db7d1489fcae2d974c2c8f763"
+  },
+  {
+    "slug": "small-worlds",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/small-worlds-followup-after.png",
+    "sha256": "4ec00c2a2acb94985af1f59f2d432b2dfdf40c53137579f6cace221648a97d0f"
+  },
+  {
+    "slug": "spire",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/spire-initial.png",
+    "sha256": "2affc7f02ab823fa4e9ed1bb6f604ba783a805e77abfe2a969989a338a2901df"
+  },
+  {
+    "slug": "spire",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/spire-after.png",
+    "sha256": "80faca6867271ec24645b3e97fb5f8fd263dd9df2387cb608db0e379d7128109"
+  },
+  {
+    "slug": "mutual-fun",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/mutual-fun-initial.png",
+    "sha256": "1ed962d887d1679dc0b78bda9f9d503513a53be5d922fe5fbf1b87b8e4f437bd"
+  },
+  {
+    "slug": "mutual-fun",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/mutual-fun-after.png",
+    "sha256": "e8c67bfcc48b441008538fb2ddcdf0c6f7f812d9ffdd506f6f6dbcbad52b93d8"
+  },
+  {
+    "slug": "tiger-rider-chess",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/tiger-rider-chess-initial.png",
+    "sha256": "37181b6bf845b10d7e02715f1b1296a75cd06ca584fd48fec15766d5c9682c3a"
+  },
+  {
+    "slug": "tiger-rider-chess",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/tiger-rider-chess-after.png",
+    "sha256": "09746a4f1c26ccd5dd0a20e81c342ef56f01966a8e88b1ea518864024ee767df"
+  },
+  {
+    "slug": "tiger-rider-chess",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/tiger-rider-chess-followup-before.png",
+    "sha256": "42b4818f810d9b2620f392a6f6d6316ce8e72e653abb5087d164ba2f4f457567"
+  },
+  {
+    "slug": "tiger-rider-chess",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/tiger-rider-chess-followup-after.png",
+    "sha256": "24a4adf9a7d9e1eaa3ccc69a57806f74a2dbf0985ea87ff36b2be4b67d35f9b1"
+  },
+  {
+    "slug": "toybox-push",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/toybox-push-initial.png",
+    "sha256": "25fb2116ba23545e7afc3c81eed58018230eb459d5f0571543c431b1161cbdcb"
+  },
+  {
+    "slug": "toybox-push",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/toybox-push-after.png",
+    "sha256": "04efc967a83fd9539d12f77f0ed74707ce798bf2f81c194042be8ab6b3e43b42"
+  },
+  {
+    "slug": "toybox-push",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/toybox-push-followup-before.png",
+    "sha256": "25fb2116ba23545e7afc3c81eed58018230eb459d5f0571543c431b1161cbdcb"
+  },
+  {
+    "slug": "toybox-push",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/toybox-push-followup-after.png",
+    "sha256": "76a61b09dc0ef27c5b526d2ba3b7862cc2eccf79d830d0e79e91b94d0a1904ce"
+  },
+  {
+    "slug": "vector-anti-gravity-racing",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/vector-anti-gravity-racing-initial.png",
+    "sha256": "8648558d074c03eb2ff5de52127a1ac322c1fadcef2c2bb9e6afa881d813c48f"
+  },
+  {
+    "slug": "vector-anti-gravity-racing",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/vector-anti-gravity-racing-after.png",
+    "sha256": "b5691fcfa32160dfacfaaaacb360a9c2005f166e3ce47a4023b4c004b30fc7d0"
+  },
+  {
+    "slug": "what-maya-knew",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/what-maya-knew-initial.png",
+    "sha256": "ac56c3e16fcedd07b7615709b5d025d3aafb837d35e629791f1f850c33f780b3"
+  },
+  {
+    "slug": "what-maya-knew",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/what-maya-knew-after.png",
+    "sha256": "7976a83803e9050b47cecf9ffb60f4cca35266a3231930e75b9b14c5855508c1"
+  },
+  {
+    "slug": "what-maya-knew",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/what-maya-knew-followup-before.png",
+    "sha256": "ac56c3e16fcedd07b7615709b5d025d3aafb837d35e629791f1f850c33f780b3"
+  },
+  {
+    "slug": "what-maya-knew",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/what-maya-knew-followup-after.png",
+    "sha256": "73407363884f671883128c3252f15673440ad49b62a877f90b275ac02984be49"
+  },
+  {
+    "slug": "yugisnap",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/yugisnap-initial.png",
+    "sha256": "96f4d71af27b423e5f7fa3f0d5fd1afcaaf33a9d33240676d94f958e4f4f1ca0"
+  },
+  {
+    "slug": "yugisnap",
+    "path": "docs/category-audit/2026-10-11/worker-1/screenshots/yugisnap-after.png",
+    "sha256": "96f4d71af27b423e5f7fa3f0d5fd1afcaaf33a9d33240676d94f958e4f4f1ca0"
+  },
+  {
+    "slug": "third-mainland-biker",
+    "path": "docs/category-audit/2026-10-11/worker-2/evidence/third-mainland-biker-recheck-before.png",
+    "sha256": "89af0691a8db1d1dbc9666363c817395fd2691a0ecc8266da204153d6637a7e0"
+  },
+  {
+    "slug": "third-mainland-biker",
+    "path": "docs/category-audit/2026-10-11/worker-2/evidence/third-mainland-biker-recheck-after.png",
+    "sha256": "a197d189bc9c03f44de2cdcafb64467406e7365ff229081fe6eda1a07e8cd219"
+  },
+  {
+    "slug": "ashen-vow",
+    "path": "docs/category-audit/2026-10-11/worker-2/evidence/ashen-vow-recheck-before.png",
+    "sha256": "1de818d5113c3980b7044944e8e5872d2b87c515bcaba9a92a82578c46ba2743"
+  },
+  {
+    "slug": "ashen-vow",
+    "path": "docs/category-audit/2026-10-11/worker-2/evidence/ashen-vow-recheck-after.png",
+    "sha256": "eeb12be80fe5246896d70c3368c769db0b0ae7784f3e4d3d2ebdc310848cff0c"
+  },
+  {
+    "slug": "black-ops-2",
+    "path": "docs/category-audit/2026-10-11/worker-2/evidence/black-ops-2-before.png",
+    "sha256": "3d5aee340f81614823305363d787f6201923dbd561ec22d9222d0f046898532f"
+  },
+  {
+    "slug": "black-ops-2",
+    "path": "docs/category-audit/2026-10-11/worker-2/evidence/black-ops-2-after.png",
+    "sha256": "3d5aee340f81614823305363d787f6201923dbd561ec22d9222d0f046898532f"
+  },
+  {
+    "slug": "church-life",
+    "path": "docs/category-audit/2026-10-11/worker-2/evidence/church-life-targeted-before.png",
+    "sha256": "bcfe087cf68f20a72a1f5508cf3c7579a7592aa9b7d66f81b837bbe9fef62a9e"
+  },
+  {
+    "slug": "church-life",
+    "path": "docs/category-audit/2026-10-11/worker-2/evidence/church-life-targeted-after.png",
+    "sha256": "fd93889a5fdb3d606906b0fef6432b7bdc639063cde636be1551ae9b222377c6"
+  },
+  {
+    "slug": "comet-cup",
+    "path": "docs/category-audit/2026-10-11/worker-2/evidence/comet-cup-targeted-before.png",
+    "sha256": "31bccf1f69fccd5dca0f48a30ab3938b8ee75a135ca526ca6d0e00705b2b51ec"
+  },
+  {
+    "slug": "comet-cup",
+    "path": "docs/category-audit/2026-10-11/worker-2/evidence/comet-cup-targeted-after.png",
+    "sha256": "19c14a3203b3268ef9093495724d46c79290dcc922dce74a56604a03b58a2d96"
+  },
+  {
+    "slug": "diablo",
+    "path": "docs/category-audit/2026-10-11/worker-2/evidence/diablo-followup-before.png",
+    "sha256": "3208ac279a6e1bab05b910a3724b26822e2a93b7621ad280241ea1301072eecb"
+  },
+  {
+    "slug": "diablo",
+    "path": "docs/category-audit/2026-10-11/worker-2/evidence/diablo-followup-after.png",
+    "sha256": "e9fb2736c82006fb556a15ffbcd92cfa958519b6bdd0bd63fa4c98627d6f33bc"
+  },
+  {
+    "slug": "dliclips-rush",
+    "path": "docs/category-audit/2026-10-11/worker-2/evidence/dliclips-rush-before.png",
+    "sha256": "26b2af2ddfed898a6d7da92a820ae7460a36091657b32d83a41b5c7d2439c210"
+  },
+  {
+    "slug": "dliclips-rush",
+    "path": "docs/category-audit/2026-10-11/worker-2/evidence/dliclips-rush-after.png",
+    "sha256": "e4a0be53e17075302cd3eb77fc211947841730ac5677336eeb559b9c7dd7b146"
+  },
+  {
+    "slug": "duel-in-the-great-hall",
+    "path": "docs/category-audit/2026-10-11/worker-2/evidence/duel-in-the-great-hall-before.png",
+    "sha256": "638f268391ec44f734d95025ace3da51b6fde4c45df69c2483b8e5fe330b5d7f"
+  },
+  {
+    "slug": "duel-in-the-great-hall",
+    "path": "docs/category-audit/2026-10-11/worker-2/evidence/duel-in-the-great-hall-after.png",
+    "sha256": "638f268391ec44f734d95025ace3da51b6fde4c45df69c2483b8e5fe330b5d7f"
+  },
+  {
+    "slug": "flagfield",
+    "path": "docs/category-audit/2026-10-11/worker-2/evidence/flagfield-targeted-before.png",
+    "sha256": "66ed228728fe3c52923a68cdc66734b9ea03fb88b01c40b5ab636f03d9945bd0"
+  },
+  {
+    "slug": "flagfield",
+    "path": "docs/category-audit/2026-10-11/worker-2/evidence/flagfield-targeted-after.png",
+    "sha256": "0f47a54d002fc178d8006e4124f1b76a2c89c9c42286bbd96099641bb1a9c113"
+  },
+  {
+    "slug": "flycard",
+    "path": "docs/category-audit/2026-10-11/worker-2/evidence/flycard-recheck-before.png",
+    "sha256": "f2c015605ad22bca7922cba7f9297c8c638277f6cb0d5ae389ab491e8129b3bc"
+  },
+  {
+    "slug": "flycard",
+    "path": "docs/category-audit/2026-10-11/worker-2/evidence/flycard-recheck-after.png",
+    "sha256": "9f1e9253861ddba05a9b81827c0cc14bdbee0f379214fcedcabe6c7c2014b47e"
+  },
+  {
+    "slug": "golden-tide",
+    "path": "docs/category-audit/2026-10-11/worker-2/evidence/golden-tide-before.png",
+    "sha256": "52679b5eb71f9420151dee4bbc076c6dee5e7b2a633b96c354c5217c82f79c2c"
+  },
+  {
+    "slug": "golden-tide",
+    "path": "docs/category-audit/2026-10-11/worker-2/evidence/golden-tide-after.png",
+    "sha256": "b5bf4ed24f8c02e198c5a0432af2cf85268602fe52c45bdcdc39f3ccacc8a895"
+  },
+  {
+    "slug": "half-life-cs-16",
+    "path": "docs/category-audit/2026-10-11/worker-2/evidence/half-life-cs-16-recheck-before.png",
+    "sha256": "dba6085b472e8c3ba40b79417d68f50646f91505d00555977c5cf06dc3fc3817"
+  },
+  {
+    "slug": "half-life-cs-16",
+    "path": "docs/category-audit/2026-10-11/worker-2/evidence/half-life-cs-16-recheck-after.png",
+    "sha256": "a3f6ea2e60520270c00f805da8d14dfdc05b20bc8f5e9347a09f7fc1b0d5e1be"
+  },
+  {
+    "slug": "hidamari-pond",
+    "path": "docs/category-audit/2026-10-11/worker-2/evidence/hidamari-pond-recheck-before.png",
+    "sha256": "f37290946a2a487b82966695260f647b64da3f59c672d1dcc06ec26911aafa75"
+  },
+  {
+    "slug": "hidamari-pond",
+    "path": "docs/category-audit/2026-10-11/worker-2/evidence/hidamari-pond-recheck-after.png",
+    "sha256": "0893559346ee21e5f00c53d7f8f0af9469cd595dcd2312fb62912cebe8f12bad"
+  },
+  {
+    "slug": "k-dudu-ironfang",
+    "path": "docs/category-audit/2026-10-11/worker-2/evidence/k-dudu-ironfang-recheck-before.png",
+    "sha256": "b37e7f2a7bf918b0b8375a54998a19c7e722d8760189278dc088374bdb009221"
+  },
+  {
+    "slug": "k-dudu-ironfang",
+    "path": "docs/category-audit/2026-10-11/worker-2/evidence/k-dudu-ironfang-recheck-after.png",
+    "sha256": "e719515ddac08901c79b2877dd16422abf2fda1f67f4f3b98bcb3ecf47e738fb"
+  },
+  {
+    "slug": "lantern-walk",
+    "path": "docs/category-audit/2026-10-11/worker-2/evidence/lantern-walk-followup-before.png",
+    "sha256": "0c71aa620936d948093b0dfd263a3453d0a2f40c1177f724d58b9fcd817915c7"
+  },
+  {
+    "slug": "lantern-walk",
+    "path": "docs/category-audit/2026-10-11/worker-2/evidence/lantern-walk-followup-after.png",
+    "sha256": "d09927b137ac152ac257ae67b2857236df06c0130f7c7aa0ec332a10ab8f2c9c"
+  },
+  {
+    "slug": "mars-gt",
+    "path": "docs/category-audit/2026-10-11/worker-2/evidence/mars-gt-recheck-before.png",
+    "sha256": "11f6be17c9f8f6c275b82a087c99a259113fb55e33deea3ee2a0c05b23f15683"
+  },
+  {
+    "slug": "mars-gt",
+    "path": "docs/category-audit/2026-10-11/worker-2/evidence/mars-gt-recheck-after.png",
+    "sha256": "2fec40c25d23a809a5c08d247d798d2c0e14eb3fcbf91257c7f46b172444757f"
+  },
+  {
+    "slug": "moonlit-spellcaster",
+    "path": "docs/category-audit/2026-10-11/worker-2/evidence/moonlit-spellcaster-recheck-before.png",
+    "sha256": "f1805e90e7a293654a7ed0192c81afa0f1b6283a9451b8e60e2acc1f8ed91dea"
+  },
+  {
+    "slug": "moonlit-spellcaster",
+    "path": "docs/category-audit/2026-10-11/worker-2/evidence/moonlit-spellcaster-recheck-after.png",
+    "sha256": "0cafbf5db63f4819518afdf4145cfa1ca56c7bdb474a0e03d293984965b93a39"
+  },
+  {
+    "slug": "neon-stack",
+    "path": "docs/category-audit/2026-10-11/worker-2/evidence/neon-stack-recheck-before.png",
+    "sha256": "de5eb585785d381642abc086396fbbf340d25245888f75a669392b5d596f2dc6"
+  },
+  {
+    "slug": "neon-stack",
+    "path": "docs/category-audit/2026-10-11/worker-2/evidence/neon-stack-recheck-after.png",
+    "sha256": "76fdad59b14b3b205ad6f76214ba96ea5461ea6a44e2ed58c6dd6ffa4fef4a18"
+  },
+  {
+    "slug": "opus-2k",
+    "path": "docs/category-audit/2026-10-11/worker-2/evidence/opus-2k-targeted-before.png",
+    "sha256": "ec72a7f96ff602f0f513c5af3cbeb41fa1e2894d07e2b3a0816febfc5720113b"
+  },
+  {
+    "slug": "opus-2k",
+    "path": "docs/category-audit/2026-10-11/worker-2/evidence/opus-2k-targeted-after.png",
+    "sha256": "36f3a9f794e9fe1feb310be00aebdf2751b4b0bcda713dd46e567da867d42f9a"
+  },
+  {
+    "slug": "pelican-ride",
+    "path": "docs/category-audit/2026-10-11/worker-2/evidence/pelican-ride-recheck-before.png",
+    "sha256": "a1324b1f4fadf0f2cc4e914a544219d89d16b32ce07e4906e3cc4eded06867bb"
+  },
+  {
+    "slug": "pelican-ride",
+    "path": "docs/category-audit/2026-10-11/worker-2/evidence/pelican-ride-recheck-after.png",
+    "sha256": "2260ead493bd19ca8075b516ed74a6681270c802927e471292824c8742ca8f07"
+  },
+  {
+    "slug": "planeteer",
+    "path": "docs/category-audit/2026-10-11/worker-2/evidence/planeteer-followup-before.png",
+    "sha256": "58969417c353158456bde1bfdb51977823185040405cb57fff3fba18ca561506"
+  },
+  {
+    "slug": "planeteer",
+    "path": "docs/category-audit/2026-10-11/worker-2/evidence/planeteer-followup-after.png",
+    "sha256": "45f9e3e667ce9d4df96d0eae63757c01d9ac277a1244504a724ce8b051cc42ab"
+  },
+  {
+    "slug": "pumpwise",
+    "path": "docs/category-audit/2026-10-11/worker-2/evidence/pumpwise-recheck-before.png",
+    "sha256": "c80113892f6cb23eca1d8b6032a1a1fc3c5fed43e41c19d64ce0570444103d72"
+  },
+  {
+    "slug": "pumpwise",
+    "path": "docs/category-audit/2026-10-11/worker-2/evidence/pumpwise-recheck-after.png",
+    "sha256": "50b6785baa2d5d275d3ba346a7232485d254c8b0403366bca2a2e3a479aac405"
+  },
+  {
+    "slug": "quiet-rooms",
+    "path": "docs/category-audit/2026-10-11/worker-2/evidence/quiet-rooms-recheck-before.png",
+    "sha256": "a2027d9df620f87151892b6c275556e0d9da26f2801dcaae1030debac8645597"
+  },
+  {
+    "slug": "quiet-rooms",
+    "path": "docs/category-audit/2026-10-11/worker-2/evidence/quiet-rooms-recheck-after.png",
+    "sha256": "3732680a22e9dd04e61794cfb981a7ff8bef705f1278974329b0bf4ee570841d"
+  },
+  {
+    "slug": "ripple-pool",
+    "path": "docs/category-audit/2026-10-11/worker-2/evidence/ripple-pool-recheck-before.png",
+    "sha256": "6e587ec6346c2fc6046fca4023d1e364482bf568fd72eba279dbf7d4233af813"
+  },
+  {
+    "slug": "ripple-pool",
+    "path": "docs/category-audit/2026-10-11/worker-2/evidence/ripple-pool-recheck-after.png",
+    "sha256": "4ad3da2c628b903006f5359d19b5ce54a846b27212735d79ecc1b66900d3381d"
+  },
+  {
+    "slug": "rx-78-2-reentry",
+    "path": "docs/category-audit/2026-10-11/worker-2/evidence/rx-78-2-reentry-recheck-before.png",
+    "sha256": "06b3484ca58a9e6836def1aa7517fc2dae74686642946e9dc7b3178bf80c6c70"
+  },
+  {
+    "slug": "rx-78-2-reentry",
+    "path": "docs/category-audit/2026-10-11/worker-2/evidence/rx-78-2-reentry-recheck-after.png",
+    "sha256": "4b495ef8ef893b9db03beac149badc7530f5c940cd5124b278d71574e9985597"
+  },
+  {
+    "slug": "skate-3",
+    "path": "docs/category-audit/2026-10-11/worker-2/evidence/skate-3-before.png",
+    "sha256": "420489a0d640248369e6da9a52a53cee940211a5935850fe5fbc1534e01369a6"
+  },
+  {
+    "slug": "skate-3",
+    "path": "docs/category-audit/2026-10-11/worker-2/evidence/skate-3-after.png",
+    "sha256": "420489a0d640248369e6da9a52a53cee940211a5935850fe5fbc1534e01369a6"
+  },
+  {
+    "slug": "snowboard-supreme",
+    "path": "docs/category-audit/2026-10-11/worker-2/evidence/snowboard-supreme-recheck-before.png",
+    "sha256": "da0e322e091c920d24b95034d9b75ccb6b34c5f6e3a9f988506ea5543aac39dd"
+  },
+  {
+    "slug": "snowboard-supreme",
+    "path": "docs/category-audit/2026-10-11/worker-2/evidence/snowboard-supreme-recheck-after.png",
+    "sha256": "a3548d771ac47420a60269577891118f49ccf51132498b0b40a22248acf17b20"
+  },
+  {
+    "slug": "stardust-isles",
+    "path": "docs/category-audit/2026-10-11/worker-2/evidence/stardust-isles-followup-before.png",
+    "sha256": "ad27972efa3e7bb474fc91112652529c6b716a582d14cece7ff68a4cb80bf204"
+  },
+  {
+    "slug": "stardust-isles",
+    "path": "docs/category-audit/2026-10-11/worker-2/evidence/stardust-isles-followup-after.png",
+    "sha256": "39c847a37e198f1e8bf4e37b5f4354152fc8d70c369e04014d3b3421b725a09b"
+  },
+  {
+    "slug": "simpsons-hit-and-run",
+    "path": "docs/category-audit/2026-10-11/worker-2/evidence/simpsons-hit-and-run-followup-before.png",
+    "sha256": "2b2172d32aa9f714d723f53a9225a914d8c18a47853f34f2dc38c841c82d6a8d"
+  },
+  {
+    "slug": "simpsons-hit-and-run",
+    "path": "docs/category-audit/2026-10-11/worker-2/evidence/simpsons-hit-and-run-followup-after.png",
+    "sha256": "0df519ea0928b911abefbeea00d67c11ca68de1f7e6a2086ae27482d7295074f"
+  },
+  {
+    "slug": "till-dark",
+    "path": "docs/category-audit/2026-10-11/worker-2/evidence/till-dark-followup-before.png",
+    "sha256": "dfa2ecad8d47cfa1d6adbaa817bcb7b5bc44fe05c169b91d7e0024330b601c5d"
+  },
+  {
+    "slug": "till-dark",
+    "path": "docs/category-audit/2026-10-11/worker-2/evidence/till-dark-followup-after.png",
+    "sha256": "6e6c1b0d2c56552e9dc3250dfcf0a02107b5ecef0067811fdfc8cee8cfef39ca"
+  },
+  {
+    "slug": "trip-ibadan",
+    "path": "docs/category-audit/2026-10-11/worker-2/evidence/trip-ibadan-followup-before.png",
+    "sha256": "9c2103eed5f31b5fba19d1ec07b1737be0f776d5f0c8b14cbf4ab5be5e2fee09"
+  },
+  {
+    "slug": "trip-ibadan",
+    "path": "docs/category-audit/2026-10-11/worker-2/evidence/trip-ibadan-followup-after.png",
+    "sha256": "b8e9f9e6fa7ca8ab533fabe17ef88aa0e44473b688a26d4428ac793a12477709"
+  },
+  {
+    "slug": "void-clash",
+    "path": "docs/category-audit/2026-10-11/worker-2/evidence/void-clash-recheck-before.png",
+    "sha256": "1647e44a2fce8b56ca055f3df10ad05948a4bb4f2efc19684c41d2f584cf5f5d"
+  },
+  {
+    "slug": "void-clash",
+    "path": "docs/category-audit/2026-10-11/worker-2/evidence/void-clash-recheck-after.png",
+    "sha256": "c3dcee25e0bc8cb43138a9c76fea698bbe273f91db0a7c4afc4411e11cf7c785"
+  },
+  {
+    "slug": "wild-fields-1648",
+    "path": "docs/category-audit/2026-10-11/worker-2/evidence/wild-fields-1648-before.png",
+    "sha256": "638f268391ec44f734d95025ace3da51b6fde4c45df69c2483b8e5fe330b5d7f"
+  },
+  {
+    "slug": "wild-fields-1648",
+    "path": "docs/category-audit/2026-10-11/worker-2/evidence/wild-fields-1648-after.png",
+    "sha256": "638f268391ec44f734d95025ace3da51b6fde4c45df69c2483b8e5fe330b5d7f"
+  },
+  {
+    "slug": "zero-facility",
+    "path": "docs/category-audit/2026-10-11/worker-2/evidence/zero-facility-recheck-before.png",
+    "sha256": "3807c71261e7c23faeb0b03950299491826cf96245e6568e541b0d10ef66f4dd"
+  },
+  {
+    "slug": "zero-facility",
+    "path": "docs/category-audit/2026-10-11/worker-2/evidence/zero-facility-recheck-after.png",
+    "sha256": "dcd90bcb2505569b0a5d8e8c90f3d43d359abc65bd4bb39cbf9c58bd1039ddde"
+  },
+  {
+    "slug": "99-youth-echecs",
+    "path": "docs/category-audit/2026-10-11/worker-3/screenshots/99-youth-echecs-before.png",
+    "sha256": "f74e8a3cd5ca4b7154e4125a059b04dcbbd2bfb9074352548d47c3709740daa5"
+  },
+  {
+    "slug": "99-youth-echecs",
+    "path": "docs/category-audit/2026-10-11/worker-3/screenshots/99-youth-echecs-after-2.png",
+    "sha256": "1687fb5c0085984d8faa4063ba911304463b93f479eb8269b921fb515a6d39e1"
+  },
+  {
+    "slug": "99-youth-echecs",
+    "path": "docs/category-audit/2026-10-11/worker-3/screenshots/99-youth-echecs-after-3.png",
+    "sha256": "566ce269b5334f3700bd88e346771d6bb8b0d67f9fe54ee07b85274d446a3a25"
+  },
+  {
+    "slug": "atomic-war-2d",
+    "path": "docs/category-audit/2026-10-11/worker-3/screenshots/atomic-war-2d-before.png",
+    "sha256": "97643ed0473921a418fc85025a8691d2e562ff71dc142a91a17ff37f003a65d2"
+  },
+  {
+    "slug": "atomic-war-2d",
+    "path": "docs/category-audit/2026-10-11/worker-3/screenshots/atomic-war-2d-after-2.png",
+    "sha256": "dc0406284272b63b42144d900fc7985de23bc7297dd91888b94b7637c78bc4ff"
+  },
+  {
+    "slug": "atomic-war-2d",
+    "path": "docs/category-audit/2026-10-11/worker-3/screenshots/atomic-war-2d-after-5.png",
+    "sha256": "145d4fcba2501761acf1444f9cce528607b9ca3f65f32bb7b55f2b17c47687cd"
+  },
+  {
+    "slug": "atomic-war-2d",
+    "path": "docs/category-audit/2026-10-11/worker-3/screenshots/atomic-war-2d-error-6.png",
+    "sha256": "5a2a5774d193261e6009e9064bd37f2a899d2d7c509b6a68b1fb387b54ba0257"
+  },
+  {
+    "slug": "bo1-zombies",
+    "path": "docs/category-audit/2026-10-11/worker-3/screenshots/bo1-zombies-before.png",
+    "sha256": "521095bb7ba997150083792f708c4e23bb81f122d20fa337fb08f15cdcea22b5"
+  },
+  {
+    "slug": "bo1-zombies",
+    "path": "docs/category-audit/2026-10-11/worker-3/screenshots/bo1-zombies-after-3.png",
+    "sha256": "926921017af10cacfa6c04dab59e6890d53a36905b642db54939e951219668a1"
+  },
+  {
+    "slug": "bo1-zombies",
+    "path": "docs/category-audit/2026-10-11/worker-3/screenshots/bo1-zombies-after-6.png",
+    "sha256": "800a7b4b649b572c1115d26081734d54b529cfee54e864897cd9d30df2499a40"
+  },
+  {
+    "slug": "bo1-zombies",
+    "path": "docs/category-audit/2026-10-11/worker-3/screenshots/bo1-zombies-after-7.png",
+    "sha256": "68b0572de36309b7af05026114bffd9f68f0e3ffa1136523d42bf91f3d7ab958"
+  },
+  {
+    "slug": "cinder-ring",
+    "path": "docs/category-audit/2026-10-11/worker-3/screenshots/cinder-ring-before.png",
+    "sha256": "3acca29cd1c42d3b4635d527b23adf5f74af30a84b4ff38fb18d647b2b03d204"
+  },
+  {
+    "slug": "cinder-ring",
+    "path": "docs/category-audit/2026-10-11/worker-3/screenshots/cinder-ring-after-1.png",
+    "sha256": "1b170e1efbff6a77f4874ea2085435ee2b89ac72c50043a7edf32136fb147c16"
+  },
+  {
+    "slug": "cinder-ring",
+    "path": "docs/category-audit/2026-10-11/worker-3/screenshots/cinder-ring-after-3.png",
+    "sha256": "af28a226686009885bbaebfa386676d4282b6bd0f7cb1723610609e66960066d"
+  },
+  {
+    "slug": "cinder-ring",
+    "path": "docs/category-audit/2026-10-11/worker-3/screenshots/cinder-ring-after-5.png",
+    "sha256": "38b1da703786f0c6dd193d202d01ffce45e4d0d5e7222f520ded5f01722ea63d"
+  },
+  {
+    "slug": "cinder-ring",
+    "path": "docs/category-audit/2026-10-11/worker-3/screenshots/cinder-ring-after-6.png",
+    "sha256": "1023fd837b2084cf75651ed17170aedb2c61d62d99814b1e729221a9c16b8a69"
+  },
+  {
+    "slug": "cowduction",
+    "path": "docs/category-audit/2026-10-11/worker-3/screenshots/cowduction-before.png",
+    "sha256": "c17f08edc4d775c78b955438a72eba0573faf34c2f597e19a1c881875596713f"
+  },
+  {
+    "slug": "cowduction",
+    "path": "docs/category-audit/2026-10-11/worker-3/screenshots/cowduction-after-3.png",
+    "sha256": "461ac8e03d99d11b04e9c43d34dc9b9d92c45877dc6506d448175689a4f605cb"
+  },
+  {
+    "slug": "cowduction",
+    "path": "docs/category-audit/2026-10-11/worker-3/screenshots/cowduction-error-5.png",
+    "sha256": "53eb8ea5142877ed4f9c67d237f610de4d61174b174de4c74d225ea1256a31ae"
+  },
+  {
+    "slug": "cowduction",
+    "path": "docs/category-audit/2026-10-11/worker-3/screenshots/cowduction-after-8.png",
+    "sha256": "70faf4fc0880bd0d3ae39046a79cf2c5b38c45f66e7e49aefbb5bf7eefe2486a"
+  },
+  {
+    "slug": "dili-cart",
+    "path": "docs/category-audit/2026-10-11/worker-3/screenshots/dili-cart-before.png",
+    "sha256": "4ef4c4e25276ce6aff0a8952be53c808244cb72b29b3024c413b6da63a4e3351"
+  },
+  {
+    "slug": "dili-cart",
+    "path": "docs/category-audit/2026-10-11/worker-3/screenshots/dili-cart-after-3.png",
+    "sha256": "02f9a1d5245776a02d5983324d914551784803a48038096a1128fa8a7f86c062"
+  },
+  {
+    "slug": "dili-cart",
+    "path": "docs/category-audit/2026-10-11/worker-3/screenshots/dili-cart-after-5.png",
+    "sha256": "beebfe24a9b27f2839d8b2234d775fc742827ccb4631d85f0406d93046b0bc89"
+  },
+  {
+    "slug": "dili-cart",
+    "path": "docs/category-audit/2026-10-11/worker-3/screenshots/dili-cart-after-7.png",
+    "sha256": "833e88ac5fc11e2424917d54c61691b565c510517a5ddbf952e10d15f40bf1c5"
+  },
+  {
+    "slug": "dlicom-attack",
+    "path": "docs/category-audit/2026-10-11/worker-3/screenshots/dlicom-attack-before.png",
+    "sha256": "88b5a0f456f7d3567f9b0cf5a14bb130bc53276394f5f5a9583355fb483f5d75"
+  },
+  {
+    "slug": "dlicom-attack",
+    "path": "docs/category-audit/2026-10-11/worker-3/screenshots/dlicom-attack-after-1.png",
+    "sha256": "47fdf24865381e96b428294d75d888caae1e92125a84c67f3f6ad14050d6feff"
+  },
+  {
+    "slug": "dlicom-attack",
+    "path": "docs/category-audit/2026-10-11/worker-3/screenshots/dlicom-attack-after-2.png",
+    "sha256": "b8528b05b3ebee127b1b6b9bbbd247c1d885b262906895a16c59985e71499d86"
+  },
+  {
+    "slug": "dlicom-attack",
+    "path": "docs/category-audit/2026-10-11/worker-3/screenshots/dlicom-attack-after-3.png",
+    "sha256": "cbacc6839012aeba787298d5c66242cbe63fbc19076e587860b9c8d7fa677546"
+  },
+  {
+    "slug": "dust-and-lead",
+    "path": "docs/category-audit/2026-10-11/worker-3/screenshots/dust-and-lead-before.png",
+    "sha256": "de2756849ec84ee85be7349ed2d0fa92b38d3c093adfd7bf7b5772a93bc843ac"
+  },
+  {
+    "slug": "dust-and-lead",
+    "path": "docs/category-audit/2026-10-11/worker-3/screenshots/dust-and-lead-after-1.png",
+    "sha256": "a14e2188e820d32df22cd643dfb1dbe02f84907c1ab1fb7333eeaf15dccb059d"
+  },
+  {
+    "slug": "dust-and-lead",
+    "path": "docs/category-audit/2026-10-11/worker-3/screenshots/dust-and-lead-after-2.png",
+    "sha256": "85b312c6406633895adb80b78dd6e04d5f7bf0851b83c5079df2a5acd208439c"
+  },
+  {
+    "slug": "dust-and-lead",
+    "path": "docs/category-audit/2026-10-11/worker-3/screenshots/dust-and-lead-after-4.png",
+    "sha256": "cf8dd9f87dc3cb6e61683ff05aa62c1c3e8b3c8b2f68f3b8c6abc6a80ea88af6"
+  },
+  {
+    "slug": "flap-nyc",
+    "path": "docs/category-audit/2026-10-11/worker-3/screenshots/flap-nyc-before.png",
+    "sha256": "20480247f22a43debd9c5c1d9c0e88cc2915cd476399f62c8486a0db8b6f06c6"
+  },
+  {
+    "slug": "flap-nyc",
+    "path": "docs/category-audit/2026-10-11/worker-3/screenshots/flap-nyc-after-1.png",
+    "sha256": "2acb79c516fcf879dd07bf47a114ea96a5c73a342b2c3b2df40438860e12e210"
+  },
+  {
+    "slug": "flap-nyc",
+    "path": "docs/category-audit/2026-10-11/worker-3/screenshots/flap-nyc-after-2.png",
+    "sha256": "2366300e0cec671bfcdb4a0c28bac0dce79433829dafc1ea766e4479f95d6da5"
+  },
+  {
+    "slug": "flap-nyc",
+    "path": "docs/category-audit/2026-10-11/worker-3/screenshots/flap-nyc-after-3.png",
+    "sha256": "73a09b33622d6335bd40624148989f827015236b0a36edbffd4846d60c2e69e7"
+  },
+  {
+    "slug": "flap-nyc",
+    "path": "docs/category-audit/2026-10-11/worker-3/screenshots/flap-nyc-after-7.png",
+    "sha256": "9735ed86d711a7ce835c5460e4537705232fd12d04187714028059cc6c34e157"
+  },
+  {
+    "slug": "footballmon",
+    "path": "docs/category-audit/2026-10-11/worker-3/screenshots/footballmon-before.png",
+    "sha256": "4306378d13c7a798f09874f1a3c133333861e0449852e0f32dadd7e55ef16dd6"
+  },
+  {
+    "slug": "footballmon",
+    "path": "docs/category-audit/2026-10-11/worker-3/screenshots/footballmon-after-4.png",
+    "sha256": "5b90d16b5e58f993cf4dfffbac67a0a09454937e521ed3a1b49e50e8aa5170e4"
+  },
+  {
+    "slug": "footballmon",
+    "path": "docs/category-audit/2026-10-11/worker-3/screenshots/footballmon-after-6.png",
+    "sha256": "3d3764c9e834fb9533331480ec2fddb678767e1c7c202d59d525c7dcbc3c0ae2"
+  },
+  {
+    "slug": "footballmon",
+    "path": "docs/category-audit/2026-10-11/worker-3/screenshots/footballmon-after-9.png",
+    "sha256": "456fcc9715b7a97badfda3b412737867e9751ef2c874af017387e6868615da39"
+  },
+  {
+    "slug": "gta-5",
+    "path": "docs/category-audit/2026-10-11/worker-3/screenshots/gta-5-before.png",
+    "sha256": "24172fcd4999e9fd5887a3f0cda760bebea6aad0d8b2e01c48bb064b5f840d4e"
+  },
+  {
+    "slug": "gta-5",
+    "path": "docs/category-audit/2026-10-11/worker-3/screenshots/gta-5-after-1.png",
+    "sha256": "de06082141ffa92377ee11032010247f7be8650c03d1d8502088b2b8384c0f5a"
+  },
+  {
+    "slug": "gta-5",
+    "path": "docs/category-audit/2026-10-11/worker-3/screenshots/gta-5-after-2.png",
+    "sha256": "9207049ab27b64bd520df60130674407966c4d49837966087b7bdd0c6d7f9c21"
+  },
+  {
+    "slug": "halo-ce",
+    "path": "docs/category-audit/2026-10-11/worker-3/screenshots/halo-ce-before.png",
+    "sha256": "cf05eecbeefb9162c785bdee496fda7e910035af5efa82508531ff9148921401"
+  },
+  {
+    "slug": "hungry-seal",
+    "path": "docs/category-audit/2026-10-11/worker-3/screenshots/hungry-seal-before.png",
+    "sha256": "8b50c6b2125900bd091500a8a6e764564a7a36aee37d596879b91ea54c72d8b9"
+  },
+  {
+    "slug": "hungry-seal",
+    "path": "docs/category-audit/2026-10-11/worker-3/screenshots/hungry-seal-after-2.png",
+    "sha256": "23c277a748a0e17626a85cc3b9fdb1a6f79d958f06a403dfe372cf683443c6e5"
+  },
+  {
+    "slug": "hungry-seal",
+    "path": "docs/category-audit/2026-10-11/worker-3/screenshots/hungry-seal-after-3.png",
+    "sha256": "b7dc1db72f2d0573f2c7e0d694aa6a3fd1deacd53d101e362aa44b98be127044"
+  },
+  {
+    "slug": "hungry-seal",
+    "path": "docs/category-audit/2026-10-11/worker-3/screenshots/hungry-seal-after-4.png",
+    "sha256": "305f5bbb1fd4e974d94587039e2b7924ca0e5903fbdb7cc2ebfbafe7f2719c3d"
+  },
+  {
+    "slug": "kettu-vellam",
+    "path": "docs/category-audit/2026-10-11/worker-3/screenshots/kettu-vellam-before.png",
+    "sha256": "216eccdbc77da87da838bd818c28088cc36855c7eaeb8f20381c9c6f1af62e48"
+  },
+  {
+    "slug": "kettu-vellam",
+    "path": "docs/category-audit/2026-10-11/worker-3/screenshots/kettu-vellam-after-2.png",
+    "sha256": "e3612c54a2b6b0fd1ea327114f1d77e6227e86e14d2b81223464d4a8a1b2a9e9"
+  },
+  {
+    "slug": "kettu-vellam",
+    "path": "docs/category-audit/2026-10-11/worker-3/screenshots/kettu-vellam-after-3.png",
+    "sha256": "5b33c3710a1ee25b026b6a47190d1c2ce91d024c4269e9e5d349bc97acca397d"
+  },
+  {
+    "slug": "kettu-vellam",
+    "path": "docs/category-audit/2026-10-11/worker-3/screenshots/kettu-vellam-after-4.png",
+    "sha256": "e8bcfbe23655ae7484ca74a248caa57faf9fb3479f42a8df1b3427447a9faac5"
+  },
+  {
+    "slug": "lava-lasso",
+    "path": "docs/category-audit/2026-10-11/worker-3/screenshots/lava-lasso-before.png",
+    "sha256": "fa7652d4c132768da145fc05b7255c30a2c69d2ca2d055f52faa79104c6344d9"
+  },
+  {
+    "slug": "lava-lasso",
+    "path": "docs/category-audit/2026-10-11/worker-3/screenshots/lava-lasso-after-2.png",
+    "sha256": "9f698f7ec652319628d1882b52f77720a5258c6acc0204ece10ce16e693d30ff"
+  },
+  {
+    "slug": "lava-lasso",
+    "path": "docs/category-audit/2026-10-11/worker-3/screenshots/lava-lasso-after-3.png",
+    "sha256": "e3571411ce1af93cb5f93ce64801071489f7a735dfaa80b4df203bebb258c139"
+  },
+  {
+    "slug": "lava-lasso",
+    "path": "docs/category-audit/2026-10-11/worker-3/screenshots/lava-lasso-after-4.png",
+    "sha256": "c97a9fd967005a4a4bb205f33035804e3bafe0ef6e9638119147cfd03cb7ffac"
+  },
+  {
+    "slug": "lava-lasso",
+    "path": "docs/category-audit/2026-10-11/worker-3/screenshots/lava-lasso-after-7.png",
+    "sha256": "92b53c1f328dcf725a9e8208f9878c1b800ab451a404dec5dcd46d5f8ab762e4"
+  },
+  {
+    "slug": "math-quest",
+    "path": "docs/category-audit/2026-10-11/worker-3/screenshots/math-quest-before.png",
+    "sha256": "d29c21a4724adea0f8189abbc9cdaf3e675c673113ed6658f33c6fdd2def6e75"
+  },
+  {
+    "slug": "math-quest",
+    "path": "docs/category-audit/2026-10-11/worker-3/screenshots/math-quest-after-9.png",
+    "sha256": "57847bf6c3738169b040919664de876addf5a383cab39b25b1cc40a2d2f8ac28"
+  },
+  {
+    "slug": "must-kill-the-king",
+    "path": "docs/category-audit/2026-10-11/worker-3/screenshots/must-kill-the-king-before.png",
+    "sha256": "516e0b9a2c88672f5f5eeea24148f0841692ee4c738cb5ecf447f9fe6f61b9e8"
+  },
+  {
+    "slug": "must-kill-the-king",
+    "path": "docs/category-audit/2026-10-11/worker-3/screenshots/must-kill-the-king-after-1.png",
+    "sha256": "bd3bab0c0ac9671692e16edb06bddc8c80251323416cb8fe97823803490048c9"
+  },
+  {
+    "slug": "must-kill-the-king",
+    "path": "docs/category-audit/2026-10-11/worker-3/screenshots/must-kill-the-king-after-2.png",
+    "sha256": "5c78d305fba74729e51d81acd83e4dd098e34bbfcec4b759f3a988ed48719d5f"
+  },
+  {
+    "slug": "must-kill-the-king",
+    "path": "docs/category-audit/2026-10-11/worker-3/screenshots/must-kill-the-king-after-3.png",
+    "sha256": "88da1891188eb9a93961cee68e55b1c125b890879eaf57e372503195d193bc24"
+  },
+  {
+    "slug": "orbit-forge",
+    "path": "docs/category-audit/2026-10-11/worker-1/assist-3/screenshots/orbit-forge-initial.png",
+    "sha256": "523c6182fe1b16ab54b084b911b21abcd614bf21a4fcdab5850f283281e2c92b"
+  },
+  {
+    "slug": "orbit-forge",
+    "path": "docs/category-audit/2026-10-11/worker-1/assist-3/screenshots/orbit-forge-design.png",
+    "sha256": "16d7f540ea6c194143225f7fc9c23465f92ec6e3cfb1d243880de4dfb250143a"
+  },
+  {
+    "slug": "orbit-forge",
+    "path": "docs/category-audit/2026-10-11/worker-1/assist-3/screenshots/orbit-forge-after.png",
+    "sha256": "5ace1f65f3bd8b6114393dca0c4ac01345a0b905f995ef7561b1289a7f85e52e"
+  },
+  {
+    "slug": "pes-6",
+    "path": "docs/category-audit/2026-10-11/worker-1/assist-3/screenshots/pes-6-initial.png",
+    "sha256": "40e247d05d53b6425c09a4f508bc7213c640a1b7af54f48875d223060c98f73f"
+  },
+  {
+    "slug": "pes-6",
+    "path": "docs/category-audit/2026-10-11/worker-1/assist-3/screenshots/pes-6-after.png",
+    "sha256": "963975ac41cd42c84f008e844b107c165a189f29c41f5ae28c440580bf26f1bf"
+  },
+  {
+    "slug": "pes-6",
+    "path": "docs/category-audit/2026-10-11/worker-1/assist-3/screenshots/pes-6-online-tab.png",
+    "sha256": "0e3be6c5b6d8729f3b235ba8007a6b22b44c185e54124067aa890119d8826b52"
+  },
+  {
+    "slug": "pocket-gridiron",
+    "path": "docs/category-audit/2026-10-11/worker-1/assist-3/screenshots/pocket-gridiron-initial.png",
+    "sha256": "5c232e7829e6167245938e4a202c7f0d131fce056cdb842b6d4185e7bb313737"
+  },
+  {
+    "slug": "pocket-gridiron",
+    "path": "docs/category-audit/2026-10-11/worker-1/assist-3/screenshots/pocket-gridiron-after.png",
+    "sha256": "6bd005e07cf10cf1bf71e688a4f138016bbe19728b719b62e731e2f37179d60e"
+  },
+  {
+    "slug": "puni-jump",
+    "path": "docs/category-audit/2026-10-11/worker-1/assist-3/screenshots/puni-jump-initial.png",
+    "sha256": "9314df6d324f7cbf3dd5a226b0c103590c9f0268979b43728d39216738bbf1bf"
+  },
+  {
+    "slug": "puni-jump",
+    "path": "docs/category-audit/2026-10-11/worker-1/assist-3/screenshots/puni-jump-splash-after.png",
+    "sha256": "2393e5927a8aa4c3b3cd12d2f5be829a3f3fa91d178d03cba65897b0c8c2e14d"
+  },
+  {
+    "slug": "puni-jump",
+    "path": "docs/category-audit/2026-10-11/worker-1/assist-3/screenshots/puni-jump-after.png",
+    "sha256": "e2fb354bfe99b8f383d75a72966ee04bc3b8b55a1d7ae3ed037d1a50b652796c"
+  },
+  {
+    "slug": "rage",
+    "path": "docs/category-audit/2026-10-11/worker-1/assist-3/screenshots/rage-initial.png",
+    "sha256": "8c3feea505afb3db6941decea09428193d46cf1fc45bb52173a3c6202e0db065"
+  },
+  {
+    "slug": "rage",
+    "path": "docs/category-audit/2026-10-11/worker-1/assist-3/screenshots/rage-after.png",
+    "sha256": "8ceeaf8f8bf328dd2391c92056db6ddcb50337b1cd5d14bc15a498df5fb74f69"
+  },
+  {
+    "slug": "rise-and-raid",
+    "path": "docs/category-audit/2026-10-11/worker-1/assist-3/screenshots/rise-and-raid-initial.png",
+    "sha256": "0531a70b8e724341fdb5cddbf37df75034b3a5908e3d381de57bb307df17cd38"
+  },
+  {
+    "slug": "rise-and-raid",
+    "path": "docs/category-audit/2026-10-11/worker-1/assist-3/screenshots/rise-and-raid-after.png",
+    "sha256": "f8036e0c501aaa1f2b806ffa84620430a804eaab905e7d10883bc6dd5c30edbb"
+  },
+  {
+    "slug": "sadie-and-luna",
+    "path": "docs/category-audit/2026-10-11/worker-1/assist-3/screenshots/sadie-and-luna-initial.png",
+    "sha256": "14b2ea56fab202905836a5eaf1d696b117fb807c85322e0dd80260d933a77c53"
+  },
+  {
+    "slug": "sadie-and-luna",
+    "path": "docs/category-audit/2026-10-11/worker-1/assist-3/screenshots/sadie-and-luna-level.png",
+    "sha256": "3c1f0f9f18e2e60ecccd797dba670b169eb095eaf9b022037b29b4a91d3985d5"
+  },
+  {
+    "slug": "sadie-and-luna",
+    "path": "docs/category-audit/2026-10-11/worker-1/assist-3/screenshots/sadie-and-luna-after.png",
+    "sha256": "a450fcb22fcd6c744670250e89e08d7c5ad10af8144c17ac7d0951a335961a7d"
+  },
+  {
+    "slug": "ski-jumping",
+    "path": "docs/category-audit/2026-10-11/worker-1/assist-3/screenshots/ski-jumping-initial.png",
+    "sha256": "c2548db2b9fc02024bb3bf8b9eb0eaf13ff9e8f4fd85c356f0b5e72b16b20a0f"
+  },
+  {
+    "slug": "ski-jumping",
+    "path": "docs/category-audit/2026-10-11/worker-1/assist-3/screenshots/ski-jumping-training.png",
+    "sha256": "bdc90f7f9b79a8d007b7f8a5fd3fc98d492e3ce44eccc498ba62f09cfa035e7d"
+  },
+  {
+    "slug": "soccar",
+    "path": "docs/category-audit/2026-10-11/worker-4/assist-3/soccar-before.png",
+    "sha256": "76094fc84055738dc325e1bde414af7b1e79369cd838db5df22a4ec335d81e07"
+  },
+  {
+    "slug": "soccar",
+    "path": "docs/category-audit/2026-10-11/worker-4/assist-3/soccar-action-1.png",
+    "sha256": "01177efb4207ed515b5fdd182db6eb13eaa779635694ef56e4c79ff251dc07b1"
+  },
+  {
+    "slug": "soccar",
+    "path": "docs/category-audit/2026-10-11/worker-4/assist-3/soccar-check-6.png",
+    "sha256": "f9d65ed99248c0446bbea31cdb1f4dc677703ddfb9584b7a40bec834908e55ee"
+  },
+  {
+    "slug": "starfall-the-last-beacon",
+    "path": "docs/category-audit/2026-10-11/worker-4/assist-3/starfall-the-last-beacon-before.png",
+    "sha256": "7e864219acc20cf84be2feee2fd4212eaadd362942c412a52fb024db82061293"
+  },
+  {
+    "slug": "starfall-the-last-beacon",
+    "path": "docs/category-audit/2026-10-11/worker-4/assist-3/starfall-the-last-beacon-action-4.png",
+    "sha256": "2de8b65c4258ce1f805ff87bc1ab216124217219aa06e4a626a59f092c029f8a"
+  },
+  {
+    "slug": "starfall-the-last-beacon",
+    "path": "docs/category-audit/2026-10-11/worker-4/assist-3/starfall-the-last-beacon-action-6.png",
+    "sha256": "abbc1b2582007105b88c6331619068565c4086d7096316535ad7654c911ad44f"
+  },
+  {
+    "slug": "starfall-the-last-beacon",
+    "path": "docs/category-audit/2026-10-11/worker-4/assist-3/starfall-the-last-beacon-action-8.png",
+    "sha256": "ac109811944a30658c86e918018691b2bbc2817d5c0b1060baafc7a9b4b8484b"
+  },
+  {
+    "slug": "the-street-game",
+    "path": "docs/category-audit/2026-10-11/worker-4/assist-3/the-street-game-before.png",
+    "sha256": "a462592d8ee7fa9dba93fbb57d226808080cc4f05ddebd49724b3ce93b340577"
+  },
+  {
+    "slug": "the-street-game",
+    "path": "docs/category-audit/2026-10-11/worker-4/assist-3/the-street-game-action-2.png",
+    "sha256": "0d93cf776406ab5777e15456dd845b6559f5e9e64ee49dffdd42576d935f2ecd"
+  },
+  {
+    "slug": "the-street-game",
+    "path": "docs/category-audit/2026-10-11/worker-4/assist-3/the-street-game-action-3.png",
+    "sha256": "e3ed2bc918eb76a94f6883858df8acd84d1b78bc67c09b152005d7604b66b46a"
+  },
+  {
+    "slug": "time-echo",
+    "path": "docs/category-audit/2026-10-11/worker-4/assist-3/time-echo-before.png",
+    "sha256": "0361e069078ab7d8c505857deecc6b5f1abc377e9f45da289ee037dbb908f43e"
+  },
+  {
+    "slug": "time-echo",
+    "path": "docs/category-audit/2026-10-11/worker-4/assist-3/time-echo-action-1.png",
+    "sha256": "30b63e63fd28fb2148ddaee0deff2ef4aedc76255abda31087edb64abf7ef2cf"
+  },
+  {
+    "slug": "time-echo",
+    "path": "docs/category-audit/2026-10-11/worker-4/assist-3/time-echo-action-3.png",
+    "sha256": "157b181a0363955f6645c5ee4d906f1228ec0f78d582e4fb1bd83e052bb69b7a"
+  },
+  {
+    "slug": "time-echo",
+    "path": "docs/category-audit/2026-10-11/worker-4/assist-3/time-echo-action-4.png",
+    "sha256": "93adcc92e6ad58dc5b10442f171703bda5ba6aa883cdfd1e2a893aef3bce6cec"
+  },
+  {
+    "slug": "ttak-stop",
+    "path": "docs/category-audit/2026-10-11/worker-4/assist-3/ttak-stop-before.png",
+    "sha256": "9e60e51be8671fd99a697157befbcbb57ad1196f37ba3ab86ead422cb6e9dcd9"
+  },
+  {
+    "slug": "ttak-stop",
+    "path": "docs/category-audit/2026-10-11/worker-4/assist-3/ttak-stop-action-1.png",
+    "sha256": "fca9ad2a396a4ceab4daeb94b56bf290eba3a25ca855f97d26a3705192cf2ce9"
+  },
+  {
+    "slug": "ttak-stop",
+    "path": "docs/category-audit/2026-10-11/worker-4/assist-3/ttak-stop-action-2.png",
+    "sha256": "ebcd13dcbc17fb4906d317c2b598cdddcccd5daf04b25bf7a4273e194d129216"
+  },
+  {
+    "slug": "void-explorer",
+    "path": "docs/category-audit/2026-10-11/worker-4/assist-3/void-explorer-before.png",
+    "sha256": "e71d35c22a3017fccaf31176012d15ca6f38eae19695d18844db7d315718ba6c"
+  },
+  {
+    "slug": "void-explorer",
+    "path": "docs/category-audit/2026-10-11/worker-4/assist-3/void-explorer-action-1.png",
+    "sha256": "51ba39f7d2d799e0373ad0354f04eda651074eb07875b4c00e98514e7a777d77"
+  },
+  {
+    "slug": "void-explorer",
+    "path": "docs/category-audit/2026-10-11/worker-4/assist-3/void-explorer-action-2.png",
+    "sha256": "e713d96291167a1dc428283ccb639aa9da19a3bf9991c5bc96fe22e7cb9d1ff8"
+  },
+  {
+    "slug": "word-ladder-duel",
+    "path": "docs/category-audit/2026-10-11/worker-4/assist-3/word-ladder-duel-before.png",
+    "sha256": "a557d4bc87bd0a381f637b527eb554889c1ef8a30893c10cdd9c0aa62bf1c98c"
+  },
+  {
+    "slug": "word-ladder-duel",
+    "path": "docs/category-audit/2026-10-11/worker-4/assist-3/word-ladder-duel-action-1.png",
+    "sha256": "bbfef3d15006bd8998f912d835559b92e00c271342516c26e420625ed00ef9e1"
+  },
+  {
+    "slug": "word-ladder-duel",
+    "path": "docs/category-audit/2026-10-11/worker-4/assist-3/word-ladder-duel-action-2.png",
+    "sha256": "464abeb0db5d8a2ceb3a0f694a704ff51dcc8cb274cfc2e344282e993f663135"
+  },
+  {
+    "slug": "word-ladder-duel",
+    "path": "docs/category-audit/2026-10-11/worker-4/assist-3/word-ladder-duel-action-3.png",
+    "sha256": "c0b606d0eb7a0df6717d91887f1c64adca48770b65c46631257f1ade08537823"
+  },
+  {
+    "slug": "night-cruise",
+    "path": "docs/category-audit/2026-10-11/worker-4/assist-3/night-cruise-before.png",
+    "sha256": "1bf366cf0bda325ddcc948e5e111d6330b0b340c55ab2f5ef9efbace7cad2d84"
+  },
+  {
+    "slug": "night-cruise",
+    "path": "docs/category-audit/2026-10-11/worker-4/assist-3/night-cruise-action-1.png",
+    "sha256": "b239555932b60b26db91edd13dc95f25db19705042891cc8d7f7f2b262c388a7"
+  },
+  {
+    "slug": "night-cruise",
+    "path": "docs/category-audit/2026-10-11/worker-4/assist-3/night-cruise-action-2.png",
+    "sha256": "26f78d2230e4c3fbbdd05dc1312b0ace2404f64515054ea67e26be1701798151"
+  },
+  {
+    "slug": "night-cruise",
+    "path": "docs/category-audit/2026-10-11/worker-4/assist-3/night-cruise-action-3.png",
+    "sha256": "d51708aac3820f4cbbcf581f3797783ca9cad1cb743046bab1b71b847965dd3b"
+  },
+  {
+    "slug": "night-cruise",
+    "path": "docs/category-audit/2026-10-11/worker-4/assist-3/night-cruise-action-4.png",
+    "sha256": "1dc909e6bf7861f2ba4d037fbd95fa3a32d0b21777f7d52d7a86309082d7ec5c"
+  },
+  {
+    "slug": "go-for-launch",
+    "path": "docs/category-audit/2026-10-11/worker-4/go-for-launch-load.png",
+    "sha256": "28a3f866013a25750993a70c4eac892ba0e16a116422b3356ce8b74f95dbd921"
+  },
+  {
+    "slug": "go-for-launch",
+    "path": "docs/category-audit/2026-10-11/worker-4/go-for-launch-after.png",
+    "sha256": "ee11398846095556a194e35e455f945afed97b2ffb5502653821126a3eff7af6"
+  },
+  {
+    "slug": "axiom",
+    "path": "docs/category-audit/2026-10-11/worker-4/axiom-retry-before.png",
+    "sha256": "0f38ec1206b583ab5519592f42f75911d97cb44337e5dfde09e5c3cfe4a340f4"
+  },
+  {
+    "slug": "axiom",
+    "path": "docs/category-audit/2026-10-11/worker-4/axiom-targeted.png",
+    "sha256": "c5fd72b326c1f6baca328ca8f9b83f5b3871f5c7ad7f4f9d33511bf03c42698c"
+  },
+  {
+    "slug": "brian-boru-golf",
+    "path": "docs/category-audit/2026-10-11/worker-4/brian-boru-golf-load.png",
+    "sha256": "2bc397ee9a0f46042890377d3bee82ea24f94ba87e32cf722db2673da044277c"
+  },
+  {
+    "slug": "brian-boru-golf",
+    "path": "docs/category-audit/2026-10-11/worker-4/brian-boru-golf-after.png",
+    "sha256": "1c5981f5e11f261b99c9ecde57292c066ca9f77d6c79185165d3be89643f068b"
+  },
+  {
+    "slug": "clunk-smash",
+    "path": "docs/category-audit/2026-10-11/worker-4/clunk-smash-retry-before.png",
+    "sha256": "d86aafa7ae23896b30f15a706bb83cbcdec1e6589611c379554b02849724f813"
+  },
+  {
+    "slug": "clunk-smash",
+    "path": "docs/category-audit/2026-10-11/worker-4/clunk-smash-targeted.png",
+    "sha256": "1d6da97402d6c9191fe2f72f44ec7ed741e9ec6c4253984fdaec47e7de7e702f"
+  },
+  {
+    "slug": "cows-with-buns",
+    "path": "docs/category-audit/2026-10-11/worker-4/cows-with-buns-retry-before.png",
+    "sha256": "d1a66e8e5131c2014d619a9b88d59e01e6b63d7c4b876e45285d41216766b614"
+  },
+  {
+    "slug": "cows-with-buns",
+    "path": "docs/category-audit/2026-10-11/worker-4/cows-with-buns-targeted.png",
+    "sha256": "d111407d6f91e30c69ab2ae3a0cf1ea62177bc87d9e92803e882f15cfb02ae13"
+  },
+  {
+    "slug": "cows-with-buns",
+    "path": "docs/category-audit/2026-10-11/worker-4/cows-with-buns-final-active-before.png",
+    "sha256": "6bfa93af06b96b81894a612d224d5a75c79fcfb031d3fa170b5d78cbbff13298"
+  },
+  {
+    "slug": "dino-souls",
+    "path": "docs/category-audit/2026-10-11/worker-4/dino-souls-retry-before.png",
+    "sha256": "120ddb86c69db43535e295cbc7405c457257441769e97cefa6d5a010bb846233"
+  },
+  {
+    "slug": "dino-souls",
+    "path": "docs/category-audit/2026-10-11/worker-4/dino-souls-retry-after.png",
+    "sha256": "ae517fc40f08d83042f440c2b96ed452696233b5e62c57f3066dcaf95e9de0ab"
+  },
+  {
+    "slug": "doge-rally",
+    "path": "docs/category-audit/2026-10-11/worker-4/doge-rally-retry-before.png",
+    "sha256": "03a4cda75c4167051b35ba7379e2fab6ee876ea9c6fe04b03f6eeb725a9fb5b3"
+  },
+  {
+    "slug": "doge-rally",
+    "path": "docs/category-audit/2026-10-11/worker-4/doge-rally-retry-after.png",
+    "sha256": "986176c5f1bb948277932df6377cb90d021855cfa4a289c215cb0274aa2926a1"
+  },
+  {
+    "slug": "earth-defender",
+    "path": "docs/category-audit/2026-10-11/worker-4/earth-defender-retry-before.png",
+    "sha256": "853283a37f40a8474241060db862ef738b794d718f3930a719b755cf1e245996"
+  },
+  {
+    "slug": "earth-defender",
+    "path": "docs/category-audit/2026-10-11/worker-4/earth-defender-targeted.png",
+    "sha256": "ff1dd49add628a3a949fd9f5a42612fc5134c4a9e490df1d0e600eb05de8f3a6"
+  },
+  {
+    "slug": "fleet-horizon",
+    "path": "docs/category-audit/2026-10-11/worker-4/fleet-horizon-retry-before.png",
+    "sha256": "05e1337ef70da70ed6432d7a5e0c2367a6b599194ddd4de54eb21d299323ae06"
+  },
+  {
+    "slug": "fleet-horizon",
+    "path": "docs/category-audit/2026-10-11/worker-4/fleet-horizon-targeted.png",
+    "sha256": "2b1905cac09fd4b37ab5e93b1174ca509d64d2d5149de4721be09ac8fe1489ec"
+  },
+  {
+    "slug": "foundry",
+    "path": "docs/category-audit/2026-10-11/worker-4/foundry-load.png",
+    "sha256": "0d7f49cb8cc91e9d18bf891af861c7c86192fc7b3804874d229cda9a7cc29f87"
+  },
+  {
+    "slug": "foundry",
+    "path": "docs/category-audit/2026-10-11/worker-4/foundry-after.png",
+    "sha256": "d02d68a719dfb2ad5b4014a4e640608b1e335ecceb0c1d54013acb2095d0e059"
+  },
+  {
+    "slug": "gta-vice-city",
+    "path": "docs/category-audit/2026-10-11/worker-4/gta-vice-city-load.png",
+    "sha256": "a2b64ce47a3e07083cc9b4de9abc63c1f16b9e5b2979d5b4168fb2cc4393f069"
+  },
+  {
+    "slug": "gta-vice-city",
+    "path": "docs/category-audit/2026-10-11/worker-4/gta-vice-city-after.png",
+    "sha256": "bb67da34b6abde99e3a4b2252a62b32edbae81080e346522a9c64db9983a20fd"
+  },
+  {
+    "slug": "halo-ce-mobile",
+    "path": "docs/category-audit/2026-10-11/worker-4/halo-ce-mobile-load.png",
+    "sha256": "cee1c950ccfe391f703b0a53c43c97506073a19be62545f28481839e57af20f4"
+  },
+  {
+    "slug": "halo-ce-mobile",
+    "path": "docs/category-audit/2026-10-11/worker-4/halo-ce-mobile-targeted.png",
+    "sha256": "df86fae0652bf1b2c9633a23a4ea13bb6cbbd8c7a6a284032942981e7f6dd461"
+  },
+  {
+    "slug": "ink-dash",
+    "path": "docs/category-audit/2026-10-11/worker-4/ink-dash-load.png",
+    "sha256": "ee112d85a7e5973a6c283284ad0ad560c33ef3e85e7a7ff4793f4d214cab1916"
+  },
+  {
+    "slug": "ink-dash",
+    "path": "docs/category-audit/2026-10-11/worker-4/ink-dash-after.png",
+    "sha256": "933ef84b62772e7f80bf7c447e79b84474abf8aaf2b228c52b901bf87f93b308"
+  },
+  {
+    "slug": "kindlekeep-td",
+    "path": "docs/category-audit/2026-10-11/worker-4/kindlekeep-td-retry-before.png",
+    "sha256": "e8309403776d8c580d9ff1b20cb5d3a46cfd5d274e23a40b5dfe8546c812e474"
+  },
+  {
+    "slug": "kindlekeep-td",
+    "path": "docs/category-audit/2026-10-11/worker-4/kindlekeep-td-retry-after.png",
+    "sha256": "ff1603ff66e9ff025061d42b5a853b318283bdb59fe58177f2e1b15f4788d813"
+  },
+  {
+    "slug": "lets-kart",
+    "path": "docs/category-audit/2026-10-11/worker-4/lets-kart-retry-before.png",
+    "sha256": "335ae4e3dc82457d26b384de41e369028237ff5611583f514738ee5358f2ce43"
+  },
+  {
+    "slug": "lets-kart",
+    "path": "docs/category-audit/2026-10-11/worker-4/lets-kart-targeted.png",
+    "sha256": "177093925a212fe717c1bcff89a3145423997ba8605931efdd293554a0987ff1"
+  },
+  {
+    "slug": "mayoi-koji",
+    "path": "docs/category-audit/2026-10-11/worker-4/mayoi-koji-load.png",
+    "sha256": "6f06c0d7c78867a7b372cdf760a29869abbf83e194f621ab0a595f5d6d70dc98"
+  },
+  {
+    "slug": "mayoi-koji",
+    "path": "docs/category-audit/2026-10-11/worker-4/mayoi-koji-after.png",
+    "sha256": "8e9a52400dccfe6cefd163f701c0ac9b61571db58a6b4d30c94a347fc58acdf8"
+  },
+  {
+    "slug": "naval-warfare",
+    "path": "docs/category-audit/2026-10-11/worker-4/naval-warfare-retry-before.png",
+    "sha256": "bc55dd9209b8ab910f3ab1c9b813d5ceb11ab76a4f894e1fd8bc5cc2c21e0ed2"
+  },
+  {
+    "slug": "naval-warfare",
+    "path": "docs/category-audit/2026-10-11/worker-4/naval-warfare-retry-after.png",
+    "sha256": "a4892582e23e6479679b85e06b48e9d4482639316a2e3e50506c1f99a5c0c9a1"
+  },
+  {
+    "slug": "night-shift",
+    "path": "docs/category-audit/2026-10-11/worker-4/night-shift-final-active-before.png",
+    "sha256": "09358206471044d1a665b9a93137ad6f88c3bf4601b8994592f6da7df52277ff"
+  },
+  {
+    "slug": "night-shift",
+    "path": "docs/category-audit/2026-10-11/worker-4/night-shift-final-after.png",
+    "sha256": "82c8e7eea6b98960f9cb40bed960c6f997ccb95a430b39a3a277782fd9ac9fdf"
+  },
+  {
+    "slug": "overburn",
+    "path": "docs/category-audit/2026-10-11/worker-4/overburn-retry-before.png",
+    "sha256": "617dc641b827e403cf51bfeb99c9f375505ba11f0321b37303a153a64644aa82"
+  },
+  {
+    "slug": "overburn",
+    "path": "docs/category-audit/2026-10-11/worker-4/overburn-targeted.png",
+    "sha256": "cb5d847b171e573925ed0b5aa5c2a2dc2d723eef176b3804fec955539b56d094"
+  },
+  {
+    "slug": "pip-the-plant",
+    "path": "docs/category-audit/2026-10-11/worker-4/pip-the-plant-retry-before.png",
+    "sha256": "18afd933f88fd4d0656700c833f02822931e5e81350068b38492590b1d72ce06"
+  },
+  {
+    "slug": "pip-the-plant",
+    "path": "docs/category-audit/2026-10-11/worker-4/pip-the-plant-targeted.png",
+    "sha256": "223c95cd0006b8eb7b5499135d08a0fe954612e490c98b8155af8e9ea9f4d8dc"
+  },
+  {
+    "slug": "project-nova",
+    "path": "docs/category-audit/2026-10-11/worker-4/project-nova-final-active-before.png",
+    "sha256": "d1ba90ca6a500456cfae59e4da9ba8f7ccd222cd4caa7ebcb1b4b34ac4049f3e"
+  },
+  {
+    "slug": "project-nova",
+    "path": "docs/category-audit/2026-10-11/worker-4/project-nova-final-after.png",
+    "sha256": "243b533b1fcc4447c3daa17273246cc84c478961ccd4146d45548a289bebc3b9"
+  },
+  {
+    "slug": "quake-1",
+    "path": "docs/category-audit/2026-10-11/worker-4/quake-1-load.png",
+    "sha256": "0cf4d2dc660babd3ee50d28af76ed75a5d060ca4324fc04dd92efdab9f836898"
+  },
+  {
+    "slug": "quake-1",
+    "path": "docs/category-audit/2026-10-11/worker-4/quake-1-after.png",
+    "sha256": "ea16763202015e52d0ed667153d81726c755a20f2c30706959717ea15cd942d1"
+  },
+  {
+    "slug": "rajyam",
+    "path": "docs/category-audit/2026-10-11/worker-4/rajyam-retry-before.png",
+    "sha256": "7e844b9ec7aa457d893df596ad7eabe08d0a6a25ee1670b641f70d98441304e7"
+  },
+  {
+    "slug": "rajyam",
+    "path": "docs/category-audit/2026-10-11/worker-4/rajyam-targeted.png",
+    "sha256": "03d9d8de63286188055020cbb0791bcb7d48f41c1f13fe09aa4811824c29ee62"
+  },
+  {
+    "slug": "robobeats-mooncake-chop",
+    "path": "docs/category-audit/2026-10-11/worker-4/robobeats-mooncake-chop-load.png",
+    "sha256": "2ec4ecf335daeb15da68d3bae924410ee6b6edff7cb6c041998cc33e1b52e9b9"
+  },
+  {
+    "slug": "robobeats-mooncake-chop",
+    "path": "docs/category-audit/2026-10-11/worker-4/robobeats-mooncake-chop-targeted.png",
+    "sha256": "b7a90f4a670353c2581591338a4e54944edd33be28f8fcc224082eae1fbce276"
+  },
+  {
+    "slug": "salmon-survival",
+    "path": "docs/category-audit/2026-10-11/worker-4/salmon-survival-retry-after.png",
+    "sha256": "f66df2f5dc0417ff014957edaaab33f1a34a945a90b485d1ec24094153ab9e4a"
+  },
+  {
+    "slug": "salmon-survival",
+    "path": "docs/category-audit/2026-10-11/worker-4/salmon-survival-targeted.png",
+    "sha256": "02eeab76d3d2b2dbdb09b7aad0adec17a192d091a1038695b0173f6b08431163"
+  },
+  {
+    "slug": "ski-simulator-360-vail",
+    "path": "docs/category-audit/2026-10-11/worker-4/ski-simulator-360-vail-load.png",
+    "sha256": "24b951df503d4c156abc7b761d393382e948a29bbe5f8d8fa427017f35f40f84"
+  },
+  {
+    "slug": "somnolith-alpha",
+    "path": "docs/category-audit/2026-10-11/worker-4/somnolith-alpha-targeted.png",
+    "sha256": "38649f6de732746e6cdef07231acf81af9d16ea143ecbdd3d0850183005786f6"
+  },
+  {
+    "slug": "super-detective",
+    "path": "docs/category-audit/2026-10-11/worker-4/super-detective-retry-before.png",
+    "sha256": "7bc5f37acfbe10e0fccde627018ba8d5a6f2c933579069144470595e8fd7a3e5"
+  },
+  {
+    "slug": "super-detective",
+    "path": "docs/category-audit/2026-10-11/worker-4/super-detective-targeted.png",
+    "sha256": "7aaeca9d0b6f49793457edccc4bb698aad833c2397f123123a4b07c125f6d4e7"
+  },
+  {
+    "slug": "thermopylae",
+    "path": "docs/category-audit/2026-10-11/worker-4/thermopylae-targeted.png",
+    "sha256": "800d395a70243d08aad7b5e0088b6ca23fbf07ee237f67ea2d847f5cacc35bcb"
+  },
+  {
+    "slug": "thermopylae",
+    "path": "docs/category-audit/2026-10-11/worker-4/thermopylae-final-active-before.png",
+    "sha256": "3681ca71548bba2545a9d1d35746bd11a893de3877b66211e88bfdb5d371be6e"
+  },
+  {
+    "slug": "thermopylae",
+    "path": "docs/category-audit/2026-10-11/worker-4/thermopylae-final-after.png",
+    "sha256": "6702e0284cc0aedf6119d44e9da08c16ce3f5b438961184dfbce8d582e42561d"
+  },
+  {
+    "slug": "timeline-tactics",
+    "path": "docs/category-audit/2026-10-11/worker-4/timeline-tactics-final2-before.png",
+    "sha256": "a2e397e637fb28011efcfbcbd43f02cee68fce39c74ecee5353959cd476a4587"
+  },
+  {
+    "slug": "timeline-tactics",
+    "path": "docs/category-audit/2026-10-11/worker-4/timeline-tactics-final2-selected.png",
+    "sha256": "b41688e9a0dac2fd65d0df55c97ada7d548a816ac0ff065ec5ad11a92f9fb183"
+  },
+  {
+    "slug": "timeline-tactics",
+    "path": "docs/category-audit/2026-10-11/worker-4/timeline-tactics-final2-after.png",
+    "sha256": "07d1df12dfd0ae708c9735b98700c75bb1861197e50762ae222ac0813f9e8f75"
+  },
+  {
+    "slug": "turbo-kart-gp",
+    "path": "docs/category-audit/2026-10-11/worker-4/turbo-kart-gp-retry-before.png",
+    "sha256": "f523d70a398ea99a06abd058d5051d99add310581b24cdd39fc495627a2e85e0"
+  },
+  {
+    "slug": "turbo-kart-gp",
+    "path": "docs/category-audit/2026-10-11/worker-4/turbo-kart-gp-targeted.png",
+    "sha256": "29035cdf0ab4495d9d471ca62faf20dade9cd4784494cf979ab67f9b4fc662a5"
+  },
+  {
+    "slug": "vortex-rash",
+    "path": "docs/category-audit/2026-10-11/worker-4/vortex-rash-retry-before.png",
+    "sha256": "9919bf444a60e4f4560517b87f5ea605ce53098ca1987d1e7947d4e5579403b4"
+  },
+  {
+    "slug": "vortex-rash",
+    "path": "docs/category-audit/2026-10-11/worker-4/vortex-rash-retry-after.png",
+    "sha256": "e4b5c2822b15d93a464a56f54410442d1230e523eadfc8643d90b3ebd8626c79"
+  },
+  {
+    "slug": "wording-well",
+    "path": "docs/category-audit/2026-10-11/worker-4/wording-well-targeted.png",
+    "sha256": "e7ad9e0d664af28d18bbf563a1f68c89555e7ab01866161c32fd47b1a56ed493"
+  },
+  {
+    "slug": "wording-well",
+    "path": "docs/category-audit/2026-10-11/worker-4/wording-well-frame-before.png",
+    "sha256": "1bf836bd94a8b7e9ea1b81b5848689f3d40050d9544a5adba9ea687cc2cf7a28"
+  },
+  {
+    "slug": "aether-break",
+    "path": "docs/category-audit/2026-10-11/worker-5/screenshots/aether-break-before.png",
+    "sha256": "f887ed44cd650e8923a96b46ecf7589945676a55aaefb94f46edc3f4857381ec"
+  },
+  {
+    "slug": "aether-break",
+    "path": "docs/category-audit/2026-10-11/worker-5/screenshots/aether-break-instructions.png",
+    "sha256": "6609a2e425bc9e9919d25a5aa2697b207c675e3e67986d52b99568e0cac362df"
+  },
+  {
+    "slug": "aether-break",
+    "path": "docs/category-audit/2026-10-11/worker-5/screenshots/aether-break-launched.png",
+    "sha256": "d4c3324c08f6662ce90c1a4ce06b8946e214bb50b52ea32441fa8861193bcdc8"
+  },
+  {
+    "slug": "aether-break",
+    "path": "docs/category-audit/2026-10-11/worker-5/screenshots/aether-break-paddle-move.png",
+    "sha256": "02ea19529f5088d09895bca4d9505f00830890c77ec1b3649ba2745a36d5ebba"
+  },
+  {
+    "slug": "bad-idea",
+    "path": "docs/category-audit/2026-10-11/worker-5/screenshots/bad-idea-before.png",
+    "sha256": "d4274f92bed040e70a5bf96003d768c19f63d6adbfbbef5bef782e58ba7a7c3a"
+  },
+  {
+    "slug": "bad-idea",
+    "path": "docs/category-audit/2026-10-11/worker-5/screenshots/bad-idea-play-claude.png",
+    "sha256": "9bd146ecbad455917b8b7430a4b92c440311ae8d67b24abe2a11e676273c89e8"
+  },
+  {
+    "slug": "bad-idea",
+    "path": "docs/category-audit/2026-10-11/worker-5/screenshots/bad-idea-level-2.png",
+    "sha256": "70b9514e0537faff4f80d9f984e2302ea73583fd734674f461e42ee8a4dce7eb"
+  },
+  {
+    "slug": "bad-idea",
+    "path": "docs/category-audit/2026-10-11/worker-5/screenshots/bad-idea-decline-choice.png",
+    "sha256": "9266172d5dad30c743e6b12d8e7a69518458c4dba22b37c6811355a79a54de5a"
+  },
+  {
+    "slug": "bruce-lee-the-dragon-returns",
+    "path": "docs/category-audit/2026-10-11/worker-5/screenshots/bruce-lee-the-dragon-returns-before.png",
+    "sha256": "ec6d6db7a71315ccd8ee7148c979ff995d2eaaaa31294e02349061ea98d71c63"
+  },
+  {
+    "slug": "bruce-lee-the-dragon-returns",
+    "path": "docs/category-audit/2026-10-11/worker-5/screenshots/bruce-lee-the-dragon-returns-move-right.png",
+    "sha256": "caae013829c386cdc9e13d16eee537e71a8e1f84d8f09b02c289eb544c17c6bb"
+  },
+  {
+    "slug": "bruce-lee-the-dragon-returns",
+    "path": "docs/category-audit/2026-10-11/worker-5/screenshots/bruce-lee-the-dragon-returns-fight.png",
+    "sha256": "b554a8802003834840d0efcfae60d731cdad6f09e748306c45ba22d39c715ed6"
+  },
+  {
+    "slug": "coin-collector-3d",
+    "path": "docs/category-audit/2026-10-11/worker-5/screenshots/coin-collector-3d-before.png",
+    "sha256": "3a6930853f8bad62ad46cc277a2ea71854798cf570d2e17231dc76b3bc1d09e1"
+  },
+  {
+    "slug": "coin-collector-3d",
+    "path": "docs/category-audit/2026-10-11/worker-5/screenshots/coin-collector-3d-solo-start.png",
+    "sha256": "0a13de02bb50e5a3762f3a6858e60df4605c86586e7ac8ebed92b533dc170bbf"
+  },
+  {
+    "slug": "coin-collector-3d",
+    "path": "docs/category-audit/2026-10-11/worker-5/screenshots/coin-collector-3d-move-jump-kick.png",
+    "sha256": "1ce1bc7fbcb18543629355f65901785e2629f11a8f359b13e990a63aa7df7e04"
+  },
+  {
+    "slug": "crew-run",
+    "path": "docs/category-audit/2026-10-11/worker-5/screenshots/crew-run-before.png",
+    "sha256": "397b0a4dfb75cba1e674cdd8132463bea0b10cdb5bea04ef06b51393745462d6"
+  },
+  {
+    "slug": "dirtline",
+    "path": "docs/category-audit/2026-10-11/worker-5/screenshots/dirtline-before.png",
+    "sha256": "ec0c506ed73bbd0a864a3a50d503ca9101bf82d8ca3cf82c79efe526c90b1c36"
+  },
+  {
+    "slug": "dirtline",
+    "path": "docs/category-audit/2026-10-11/worker-5/screenshots/dirtline-throttle.png",
+    "sha256": "cddf26e0d688ffe0491137ad137efc6f3585d9376602c69f3618488a3484611e"
+  },
+  {
+    "slug": "dracula-0",
+    "path": "docs/category-audit/2026-10-11/worker-5/screenshots/dracula-0-before.png",
+    "sha256": "d25f71ba94fa69e44bc11dd0531a8aeaa051955c29fb96f107d1cefd222e4610"
+  },
+  {
+    "slug": "dracula-0",
+    "path": "docs/category-audit/2026-10-11/worker-5/screenshots/dracula-0-loading-retry.png",
+    "sha256": "98ee0e29a07651242fc226e4c1a4325c65835f24220f53f7e34b1ee1f14b79e2"
+  },
+  {
+    "slug": "dracula-0",
+    "path": "docs/category-audit/2026-10-11/worker-5/screenshots/dracula-0-started.png",
+    "sha256": "9d938bbe5c97ca241cc937f8fd210ef14bb20664005c878be9a70aa1177a0094"
+  },
+  {
+    "slug": "dracula-0",
+    "path": "docs/category-audit/2026-10-11/worker-5/screenshots/dracula-0-advance-map.png",
+    "sha256": "712ec1c7cfaeace1287832f386fefc7c73407fb351551d854016e879bedfc5a3"
+  },
+  {
+    "slug": "dracula-0",
+    "path": "docs/category-audit/2026-10-11/worker-5/screenshots/dracula-0-move-fight.png",
+    "sha256": "c44217a75f4724d8d586cf474ffd76d3d594e4cc1827ff3174d3c9e875f90667"
+  },
+  {
+    "slug": "falling-bubbles",
+    "path": "docs/category-audit/2026-10-11/worker-5/screenshots/falling-bubbles-before.png",
+    "sha256": "38ddbf7cbc89fd3a2dce62481042f32f06a6ad5b6fa5646b0ff791adf4137b51"
+  },
+  {
+    "slug": "falling-bubbles",
+    "path": "docs/category-audit/2026-10-11/worker-5/screenshots/falling-bubbles-started.png",
+    "sha256": "b0209e25ade9599c069ac0399062ca30c03d0ce69490f937812b68bbd3876cf3"
+  },
+  {
+    "slug": "falling-bubbles",
+    "path": "docs/category-audit/2026-10-11/worker-5/screenshots/falling-bubbles-join-player-2.png",
+    "sha256": "42697d7f640479c76dbc5f5e88235de30e7b4cfff65a637fe7a74fccca349284"
+  },
+  {
+    "slug": "falling-bubbles",
+    "path": "docs/category-audit/2026-10-11/worker-5/screenshots/falling-bubbles-player-2-move-fire.png",
+    "sha256": "83465a9deced782c6dbc0b11ad8fd43316f79c51cb9beba99123f6ba9b585e7e"
+  },
+  {
+    "slug": "fluffy-chase",
+    "path": "docs/category-audit/2026-10-11/worker-5/screenshots/fluffy-chase-before.png",
+    "sha256": "16b130c24bb7da9b2980e9ce0eb08e9e0226c64b1e10c6c5b7b6dc47c357231e"
+  },
+  {
+    "slug": "fluffy-chase",
+    "path": "docs/category-audit/2026-10-11/worker-5/screenshots/fluffy-chase-solo-start.png",
+    "sha256": "a414d5323b03791fd815513c808e72545c64d0f354ba76f7c1d4d5c051d3f105"
+  },
+  {
+    "slug": "fluffy-chase",
+    "path": "docs/category-audit/2026-10-11/worker-5/screenshots/fluffy-chase-move-forward.png",
+    "sha256": "2c95c4d4e1cecfd55cfc98930a6b191235b59a5d976439b991e35ef24d725dd9"
+  },
+  {
+    "slug": "fluffy-chase",
+    "path": "docs/category-audit/2026-10-11/worker-5/screenshots/fluffy-chase-run-turn-jump.png",
+    "sha256": "ec0af564da2ad59338447634678169851fe713e72edb8805a6fb69692cdb2f92"
+  },
+  {
+    "slug": "freesbee",
+    "path": "docs/category-audit/2026-10-11/worker-5/screenshots/freesbee-before.png",
+    "sha256": "59238b613252f155a0cd672b100f5b4daa5cd7e4c17bb8d32a4f500dd1650937"
+  },
+  {
+    "slug": "freesbee",
+    "path": "docs/category-audit/2026-10-11/worker-5/screenshots/freesbee-run-jump.png",
+    "sha256": "fe9f472a0e2b857ea9dae747f1efd78fc6867358255f526b3d2826bf3c4474a4"
+  },
+  {
+    "slug": "halberd-flight-range",
+    "path": "docs/category-audit/2026-10-11/worker-5/screenshots/halberd-flight-range-before.png",
+    "sha256": "397b0a4dfb75cba1e674cdd8132463bea0b10cdb5bea04ef06b51393745462d6"
+  },
+  {
+    "slug": "halberd-flight-range",
+    "path": "docs/category-audit/2026-10-11/worker-5/screenshots/halberd-flight-range-retry.png",
+    "sha256": "397b0a4dfb75cba1e674cdd8132463bea0b10cdb5bea04ef06b51393745462d6"
+  },
+  {
+    "slug": "heritage-walk-ethiopia",
+    "path": "docs/category-audit/2026-10-11/worker-5/screenshots/heritage-walk-ethiopia-before.png",
+    "sha256": "3cbd13d93f35780441772850b1281029d752ed1aa28fb3a5144ecaeb0b669d04"
+  },
+  {
+    "slug": "heritage-walk-ethiopia",
+    "path": "docs/category-audit/2026-10-11/worker-5/screenshots/heritage-walk-ethiopia-game-mode.png",
+    "sha256": "14c472b9ce0a473d047129eafee45e96fc2da1619a8b6c71cffe70b87b351554"
+  },
+  {
+    "slug": "heritage-walk-ethiopia",
+    "path": "docs/category-audit/2026-10-11/worker-5/screenshots/heritage-walk-ethiopia-site-selected.png",
+    "sha256": "90dda2fbebfa476152a2e16157cc00e74f5424d8a78dc0cf081ce272f46020d4"
+  },
+  {
+    "slug": "heritage-walk-ethiopia",
+    "path": "docs/category-audit/2026-10-11/worker-5/screenshots/heritage-walk-ethiopia-walking-site.png",
+    "sha256": "c0fc4c67e75df82d9883d2a8ff902597fda048239ccfb060ea8a7c98babac319"
+  },
+  {
+    "slug": "heritage-walk-ethiopia",
+    "path": "docs/category-audit/2026-10-11/worker-5/screenshots/heritage-walk-ethiopia-walk.png",
+    "sha256": "5ec34a935fcd54ebab07758213edb82183f22cbf42e54ac4dfe97371bbb1f85e"
+  },
+  {
+    "slug": "island-survivor",
+    "path": "docs/category-audit/2026-10-11/worker-5/screenshots/island-survivor-before.png",
+    "sha256": "a2d93839dcfd4a9efb3113a7c0d97af4f500910a77b99afa6874a329a4c0ac15"
+  },
+  {
+    "slug": "island-survivor",
+    "path": "docs/category-audit/2026-10-11/worker-5/screenshots/island-survivor-started.png",
+    "sha256": "6ac1832443f7fddf452b7eff4586d81e645389688b2260b6a27dc5289829f24b"
+  },
+  {
+    "slug": "island-survivor",
+    "path": "docs/category-audit/2026-10-11/worker-5/screenshots/island-survivor-island-playing.png",
+    "sha256": "8edb5a634d61375b014074493ecea301623eaf99bd9ebd8b5b461518e453e115"
+  },
+  {
+    "slug": "island-survivor",
+    "path": "docs/category-audit/2026-10-11/worker-5/screenshots/island-survivor-move-click.png",
+    "sha256": "86bd3c66a54ac4d6592686dc387fa52959f54e8401d16ec9364b3fd9225cd057"
+  },
+  {
+    "slug": "island-survivor",
+    "path": "docs/category-audit/2026-10-11/worker-5/screenshots/island-survivor-help.png",
+    "sha256": "ea4368db721995c08328266d466ef7d77e928915e829933b93be41e0a1dcdd7b"
+  },
+  {
+    "slug": "kreuz-adler",
+    "path": "docs/category-audit/2026-10-11/worker-5/screenshots/kreuz-adler-before.png",
+    "sha256": "b06e2f06fe66e11ff6ba89e840c164bd588bdbc7ca722f791d9f5b6e48857ca0"
+  },
+  {
+    "slug": "kreuz-adler",
+    "path": "docs/category-audit/2026-10-11/worker-5/screenshots/kreuz-adler-board.png",
+    "sha256": "932e8000b1f1bf9888c615f7b1ab74ba223a2d70a128efc02a9902464f5ffbd1"
+  },
+  {
+    "slug": "kreuz-adler",
+    "path": "docs/category-audit/2026-10-11/worker-5/screenshots/kreuz-adler-court-start.png",
+    "sha256": "3665eb39fb69f2fe3ccea50d0badc3a021425504b162fd7456c868d8652cc573"
+  },
+  {
+    "slug": "kreuz-adler",
+    "path": "docs/category-audit/2026-10-11/worker-5/screenshots/kreuz-adler-court-map.png",
+    "sha256": "a15f3da65f14945a610f7d09eebed1bac3ac594534044444936d8e323078e5b0"
+  },
+  {
+    "slug": "little-lake",
+    "path": "docs/category-audit/2026-10-11/worker-5/screenshots/little-lake-before.png",
+    "sha256": "812f8c18196fa22eb707cf3b93a0df97a9bf69fe31db73855c4156ce18733e63"
+  },
+  {
+    "slug": "little-lake",
+    "path": "docs/category-audit/2026-10-11/worker-5/screenshots/little-lake-cast.png",
+    "sha256": "4544e902cecba11d46317c13d24c40293cc30f45d2dd6f8028a110796af843d2"
+  },
+  {
+    "slug": "little-lake",
+    "path": "docs/category-audit/2026-10-11/worker-5/screenshots/little-lake-bite-check.png",
+    "sha256": "8f467a6aa74fa801276eb0a1dfc27822c5c155c290aeb4ba4260e1fb53a22714"
+  },
+  {
+    "slug": "mikage-quest",
+    "path": "docs/category-audit/2026-10-11/worker-5/screenshots/mikage-quest-before.png",
+    "sha256": "5cac73a3794217b29db9ad02af8b7848822bb2cd3433a2cd70386c5b330b310b"
+  },
+  {
+    "slug": "mikage-quest",
+    "path": "docs/category-audit/2026-10-11/worker-5/screenshots/mikage-quest-embedded.png",
+    "sha256": "c098f7bd38bb97b9ce2c5c929d256b26a609cda9791b6688b8b4fd72eae2b89d"
+  },
+  {
+    "slug": "mikage-quest",
+    "path": "docs/category-audit/2026-10-11/worker-5/screenshots/mikage-quest-new-game.png",
+    "sha256": "5494cf4308bc3ed3920824f84b55ef3ca0d606253ea1f3730a5a52d145d3558c"
+  },
+  {
+    "slug": "mikage-quest",
+    "path": "docs/category-audit/2026-10-11/worker-5/screenshots/mikage-quest-movement.png",
+    "sha256": "e868a5a1b451ac087db8ce29f0b836a98c5e65ee13b6dde4212bdc9f2f1a7696"
+  },
+  {
+    "slug": "neon-nightfall",
+    "path": "docs/category-audit/2026-10-11/worker-5/screenshots/neon-nightfall-before.png",
+    "sha256": "42a2b2a1d64649e34c862ede12a209aef0464a3601e1b0e41c9d9b3b431bd85c"
+  },
+  {
+    "slug": "neon-nightfall",
+    "path": "docs/category-audit/2026-10-11/worker-5/screenshots/neon-nightfall-wave-start.png",
+    "sha256": "65810bb8769c70a8a7604c47bb4608680a18e7c996b44db3c552547557e1085d"
+  },
+  {
+    "slug": "neon-nightfall",
+    "path": "docs/category-audit/2026-10-11/worker-5/screenshots/neon-nightfall-shoot-move.png",
+    "sha256": "75588e4f992c7cb1bbd4e1299560bd718c479135ebdbee1df3dec5efaef666bd"
+  },
+  {
+    "slug": "nushi-fishing",
+    "path": "docs/category-audit/2026-10-11/worker-5/screenshots/nushi-fishing-before.png",
+    "sha256": "7af4a91021b9eba775539e3f923c360fdb539aec7f305f75457346b52f270b3f"
+  },
+  {
+    "slug": "nushi-fishing",
+    "path": "docs/category-audit/2026-10-11/worker-5/screenshots/nushi-fishing-started.png",
+    "sha256": "2d2d5618357c0566c1e216992f50d9941ad39e55785c8ebb84a515fef7f10757"
+  },
+  {
+    "slug": "nushi-fishing",
+    "path": "docs/category-audit/2026-10-11/worker-5/screenshots/nushi-fishing-cast-result.png",
+    "sha256": "cd402df1c396586d3c12a9e88e9f61a6beb10b27b6ddb58f94244d8b2128784c"
+  },
+  {
+    "slug": "nushi-fishing",
+    "path": "docs/category-audit/2026-10-11/worker-5/screenshots/nushi-fishing-nushi-bite.png",
+    "sha256": "da6b861ab048e0f1329e12b068f2b4659bebe8dd556f085f24047164ed039c39"
+  },
+  {
+    "slug": "ovz-global-flashpoint",
+    "path": "docs/category-audit/2026-10-11/worker-5/screenshots/ovz-global-flashpoint-before.png",
+    "sha256": "e3d7b30d455d69ad78c8698923b2f03a179934b6e6ae675bddef416f74dff122"
+  },
+  {
+    "slug": "ovz-global-flashpoint",
+    "path": "docs/category-audit/2026-10-11/worker-5/screenshots/ovz-global-flashpoint-download-final-check.png",
+    "sha256": "d2c3b363a9804630cfbe233e247a7c29552d8cbd92915243c133d9ffe37fbb7d"
+  },
+  {
+    "slug": "pit-tactics",
+    "path": "docs/category-audit/2026-10-11/worker-5/screenshots/pit-tactics-before.png",
+    "sha256": "df466cb52339171ec9c5db625f5e54d5ff712bddd702d608f602be273015f29c"
+  },
+  {
+    "slug": "pit-tactics",
+    "path": "docs/category-audit/2026-10-11/worker-5/screenshots/pit-tactics-mission-started.png",
+    "sha256": "e063f0e0e749d6f8ada700b3c3a303617cfa171e22e1bb0681dd5b71378e9f14"
+  },
+  {
+    "slug": "pit-tactics",
+    "path": "docs/category-audit/2026-10-11/worker-5/screenshots/pit-tactics-select-soldier.png",
+    "sha256": "01b3d2050063b46c8daf073e34dc4f036fdc1a83a09b900a513dcfeb2693cf32"
+  },
+  {
+    "slug": "sykes-picot",
+    "path": "docs/category-audit/2026-10-11/worker-5/screenshots/sykes-picot-before.png",
+    "sha256": "8e18ec75f34857fe572587f8a9db89d0da8f50168b156f9b1a7c91f90f124b52"
+  },
+  {
+    "slug": "sykes-picot",
+    "path": "docs/category-audit/2026-10-11/worker-5/screenshots/sykes-picot-frontiers-begin.png",
+    "sha256": "ff518892ec42b829f7de25a69418d7759a48fe0ed4e8bc6fb4d916d14bfb3b7a"
+  },
+  {
+    "slug": "sykes-picot",
+    "path": "docs/category-audit/2026-10-11/worker-5/screenshots/sykes-picot-hex-select.png",
+    "sha256": "fbbbe77d23704756774c7031cb9d5cc822d76a6296a04e964e77b2b58deb63ac"
+  },
+  {
+    "slug": "sykes-picot",
+    "path": "docs/category-audit/2026-10-11/worker-5/screenshots/sykes-picot-selection-cleared.png",
+    "sha256": "fb123ef44ad04b5f11bf7fff9fb587bc7ff19fd10168b5fdebdce68b97e5fabe"
+  },
+  {
+    "slug": "quake-2",
+    "path": "docs/category-audit/2026-10-11/worker-5/screenshots/quake-2-before.png",
+    "sha256": "ee526969ea0bf491f9720421fc2b28424d5bc57ce1848c7203426bac8a459fb4"
+  },
+  {
+    "slug": "rally-director",
+    "path": "docs/category-audit/2026-10-11/worker-5/screenshots/rally-director-before.png",
+    "sha256": "fe2679ae6effbae2e8b641d42a41311debf5fbf4809cb4638efdb591aea71be4"
+  },
+  {
+    "slug": "rally-director",
+    "path": "docs/category-audit/2026-10-11/worker-5/screenshots/rally-director-rally-menu.png",
+    "sha256": "6a0cc6ba2498c89c0e6e3db003a45dcb84be423e7372e7c913c06f3b56afa113"
+  },
+  {
+    "slug": "rally-director",
+    "path": "docs/category-audit/2026-10-11/worker-5/screenshots/rally-director-load-check.png",
+    "sha256": "a2c599c78fe8a258bebce5f3eab9f402bc25aa5a5882824d8093a7b213cde796"
+  },
+  {
+    "slug": "rally-director",
+    "path": "docs/category-audit/2026-10-11/worker-5/screenshots/rally-director-new-game.png",
+    "sha256": "7242d299ab34e20c1aef788b12559d84cc8b1c9071e46d51f7ef99df7076fbf6"
+  },
+  {
+    "slug": "rally-director",
+    "path": "docs/category-audit/2026-10-11/worker-5/screenshots/rally-director-challenge-road.png",
+    "sha256": "54cc7fa51eb95425f589ebb257c46ec13c8176c3dd721b202c2a76567ab42c9c"
+  },
+  {
+    "slug": "rally-director",
+    "path": "docs/category-audit/2026-10-11/worker-5/screenshots/rally-director-stage-open.png",
+    "sha256": "a0e2b7b6099018b07a1092aa2f610b4ee7867dfc60a0ba64f81d152af547399d"
+  },
+  {
+    "slug": "rally-director",
+    "path": "docs/category-audit/2026-10-11/worker-5/screenshots/rally-director-stage-ready.png",
+    "sha256": "ca38f5ad8660fa911c473fbc4534d16430663106c505b9fb255492528a95412e"
+  },
+  {
+    "slug": "rally-director",
+    "path": "docs/category-audit/2026-10-11/worker-5/screenshots/rally-director-stage-run.png",
+    "sha256": "eafda865523417a549322ab8d040bc5016f9faefc7556bfe394048bb269851fe"
+  },
+  {
+    "slug": "pumpkin-catch",
+    "path": "docs/category-audit/2026-10-11/worker-5/screenshots/pumpkin-catch-before.png",
+    "sha256": "850a68bd6231abe1ee3b9d5b3c64345402d9806f62bcaa66518024f3a3f0539f"
+  },
+  {
+    "slug": "pumpkin-catch",
+    "path": "docs/category-audit/2026-10-11/worker-5/screenshots/pumpkin-catch-pumpkin-start.png",
+    "sha256": "32cde48361ac2fd0300008d203137b2e25210004747aadd7091348511891fdc5"
+  },
+  {
+    "slug": "pumpkin-catch",
+    "path": "docs/category-audit/2026-10-11/worker-5/screenshots/pumpkin-catch-catch-attempt.png",
+    "sha256": "31af170e0d34c51a8807baaccd907008f716f7c4a4372e4f71cf8b088c1d1843"
+  },
+  {
+    "slug": "senor-inteligente",
+    "path": "docs/category-audit/2026-10-11/worker-5/screenshots/senor-inteligente-before.png",
+    "sha256": "bb01e1849d0d02050b49dd4e6dfb3b48ce4e4d2f958329b0554f256e88adcde0"
+  },
+  {
+    "slug": "senor-inteligente",
+    "path": "docs/category-audit/2026-10-11/worker-5/screenshots/senor-inteligente-start.png",
+    "sha256": "3ee0057784378f7a59e0d3d2d5744005f1e83a6a20319f7ffd42178f511426b1"
+  },
+  {
+    "slug": "senor-inteligente",
+    "path": "docs/category-audit/2026-10-11/worker-5/screenshots/senor-inteligente-lasso.png",
+    "sha256": "ea14a894a60822e30e920c27ee4249ef1a981b818b676817d748a2a8ebf33e73"
+  },
+  {
+    "slug": "skyrunner",
+    "path": "docs/category-audit/2026-10-11/worker-5/screenshots/skyrunner-before.png",
+    "sha256": "1f2c4557ba73990e4a4f53f7564bd84f8b6a8a71a73a817d3ec2b4785d1b28d0"
+  },
+  {
+    "slug": "skyrunner",
+    "path": "docs/category-audit/2026-10-11/worker-5/screenshots/skyrunner-pursuit-start.png",
+    "sha256": "517cef05181e7bfc073485cb4dc8b597d25551d0fe7cdb9f964362ca517f407a"
+  },
+  {
+    "slug": "skyrunner",
+    "path": "docs/category-audit/2026-10-11/worker-5/screenshots/skyrunner-start-run.png",
+    "sha256": "056092bb942c5f630b45e82be261dd41ea80da09b210406c84c34e69af524741"
+  },
+  {
+    "slug": "skyrunner",
+    "path": "docs/category-audit/2026-10-11/worker-5/screenshots/skyrunner-started-pursuit.png",
+    "sha256": "23f75211f660d638078b901b6b015dcc7818da5e3f15e1ca5af2d9d136bb4e4e"
+  },
+  {
+    "slug": "skyrunner",
+    "path": "docs/category-audit/2026-10-11/worker-5/screenshots/skyrunner-boost.png",
+    "sha256": "7a54502f0fdfde9b21aca121f6191ad8638cc44c2841dd5db9dfa55b6fa7068e"
+  },
+  {
+    "slug": "spark",
+    "path": "docs/category-audit/2026-10-11/worker-5/screenshots/spark-before.png",
+    "sha256": "b4caeb242d299a596b9ac44acaaa0bccacb5ea483d1868e683f202e5deeff001"
+  },
+  {
+    "slug": "spark",
+    "path": "docs/category-audit/2026-10-11/worker-5/screenshots/spark-spark-start.png",
+    "sha256": "a87cd0cf91e5f6218a997ad7c36210a139d4e3b840a5495ee4e1b6217c05746d"
+  },
+  {
+    "slug": "spark",
+    "path": "docs/category-audit/2026-10-11/worker-5/screenshots/spark-training.png",
+    "sha256": "d8200a6f4539fedf3f32b93101013b895f77ed7b8365bbe45b0c6517da1458be"
+  },
+  {
+    "slug": "spark",
+    "path": "docs/category-audit/2026-10-11/worker-5/screenshots/spark-train-click.png",
+    "sha256": "f75148f646871e3f5541322d1f4d625c06c3d2b0084d3ceb70e34f26f41150d6"
+  },
+  {
+    "slug": "terra-incognita",
+    "path": "docs/category-audit/2026-10-11/worker-5/screenshots/terra-incognita-before.png",
+    "sha256": "c6199626f82097a5c56a925a0944a8d4bb6c7d999a7c845b0504cb0dfb8b3c1a"
+  },
+  {
+    "slug": "terra-incognita",
+    "path": "docs/category-audit/2026-10-11/worker-5/screenshots/terra-incognita-terra-island.png",
+    "sha256": "7fff652ba9eab8aaf1a43d16c29b52095f3f73e3e5a100679b0acb3882902f4a"
+  },
+  {
+    "slug": "terra-incognita",
+    "path": "docs/category-audit/2026-10-11/worker-5/screenshots/terra-incognita-island-play.png",
+    "sha256": "53b89ac9f95ca7c6255af4de2f259d267ec00f002d12ef9c2f98284304d04af3"
+  },
+  {
+    "slug": "terra-incognita",
+    "path": "docs/category-audit/2026-10-11/worker-5/screenshots/terra-incognita-walk.png",
+    "sha256": "5e49ffca70f87289b2ccfa343d0b78fc89973b398a5353c85c35d621b73459e6"
+  },
+  {
+    "slug": "tidebreak",
+    "path": "docs/category-audit/2026-10-11/worker-5/screenshots/tidebreak-before.png",
+    "sha256": "35befae221f17f178930e15184c80748c99655a8d657cc9839488f0b5d2f82ce"
+  },
+  {
+    "slug": "tidebreak",
+    "path": "docs/category-audit/2026-10-11/worker-5/screenshots/tidebreak-raid-start.png",
+    "sha256": "89d22fa302211dbc4563a2d433aedb1d5dcac061541669bd866e7a4e94f97e88"
+  },
+  {
+    "slug": "tidebreak",
+    "path": "docs/category-audit/2026-10-11/worker-5/screenshots/tidebreak-raid-help.png",
+    "sha256": "317016ab4e85da0b26c58374e182c9decac7b16d0d5568f9424e7afbd82f66b7"
+  },
+  {
+    "slug": "toadstool-crossing",
+    "path": "docs/category-audit/2026-10-11/worker-5/screenshots/toadstool-crossing-before.png",
+    "sha256": "116fb00b4af46811b74009d1fd580bc0e2e28d5b43334f735d1fbda8385345fa"
+  },
+  {
+    "slug": "toadstool-crossing",
+    "path": "docs/category-audit/2026-10-11/worker-5/screenshots/toadstool-crossing-hop-up.png",
+    "sha256": "764ad29c87d26598a66a6157e217e2c2365d5071d6f5149d3b3a290ac516ed80"
+  },
+  {
+    "slug": "unburied-blackwald-bunker",
+    "path": "docs/category-audit/2026-10-11/worker-5/screenshots/unburied-blackwald-bunker-controls.png",
+    "sha256": "205e2753c2d5024e81e1ceb300156866e93ddabcc60677bc219272e0dd55cb01"
+  },
+  {
+    "slug": "unburied-blackwald-bunker",
+    "path": "docs/category-audit/2026-10-11/worker-5/screenshots/unburied-blackwald-bunker-solo-start.png",
+    "sha256": "5f5d1a8f0e1a4db25ba287acec26ec467ee3a2b0facf4309d6d5eb41d0198a83"
+  },
+  {
+    "slug": "warpstrike",
+    "path": "docs/category-audit/2026-10-11/worker-5/screenshots/warpstrike-before.png",
+    "sha256": "34855879e4f0489fae57325cfe1665e85328d7db07ef7a8941c5327119ac35f0"
+  },
+  {
+    "slug": "warpstrike",
+    "path": "docs/category-audit/2026-10-11/worker-5/screenshots/warpstrike-warpstrike-start.png",
+    "sha256": "579407ef763a1143694af7ece9012103dda2e13270fb8194d1173b2371c18f1d"
+  },
+  {
+    "slug": "warpstrike",
+    "path": "docs/category-audit/2026-10-11/worker-5/screenshots/warpstrike-launch.png",
+    "sha256": "88793b19bb29014e99ddd6e0f9ca79df9d44942716fa0cb7760fd102b14fc2e7"
+  },
+  {
+    "slug": "warpstrike",
+    "path": "docs/category-audit/2026-10-11/worker-5/screenshots/warpstrike-flight-and-fire.png",
+    "sha256": "4f9c1a95f130f4135f789d9f079880d12e02bed7f6f4feed7901ef8bea3b5b6c"
+  },
+  {
+    "slug": "ww2-dogfight",
+    "path": "docs/category-audit/2026-10-11/worker-5/screenshots/ww2-dogfight-before.png",
+    "sha256": "09894bb715482afa19d5a0793eab46093fee802ca488937d090cc6452dc78096"
+  }
+]

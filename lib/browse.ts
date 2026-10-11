@@ -1,35 +1,12 @@
-export const browseTabs = ['All', 'Action', 'Update', 'Simulators', 'Survival', 'Strategy', 'Multiplayer', 'Puzzle', 'Arcade', 'Adventure', 'Racing', 'Sports', 'Tower Defense'] as const;
+import { gameTags, gameCategories } from './game-categories.ts';
+export { gameTags, gameModeLabels, multiplayerModes } from './game-categories.ts';
+
+export const browseTabs = ['All', 'Action', 'Update', ...gameCategories.filter(category => category !== 'Action')] as const;
 export type BrowseTab = typeof browseTabs[number];
-
-// Mode evidence is recorded in docs/MULTIPLAYER.md. Only verified playable
-// games are passed into browseGames; this metadata never publishes a candidate.
-export const multiplayerModes: Record<string, string> = {
-  'fly-pieter': 'Online multiplayer',
-  'ww2-dogfight': 'Online multiplayer',
-  'battle-peaks': 'Local 2-player',
-};
-
-// Secondary genres supported by catalog descriptions and the dated scout reports.
-// This is presentation metadata only: the verified playable list remains the gate.
-const secondaryTags: Record<string, string[]> = {
-  'kindlekeep-td': ['Tower Defense'],
-  'ash-line': ['Tower Defense'], // Batch 9: placed a tower and started a wave.
-  'plaid-circuit': ['Racing', 'Arcade'],
-  'dili-cart': ['Racing'],
-  'third-mainland-biker': ['Racing'],
-  'dracula-0': ['Adventure'],
-  'ashen-vow': ['Adventure'],
-  'neon-nightfall': ['Survival'],
-  'ink-dash': ['Survival'],
-};
 
 // Add an entry only after a game update (not its discovery) is verified.
 // Dates are UTC ISO timestamps; evidence identifies the report or release checked.
 export const verifiedUpdates: Record<string, { updatedAt: string; evidence: string }> = {};
-
-export function gameTags(game: { category: string; slug: string }): string[] {
-  return [...new Set([game.category === 'Simulation' ? 'Simulators' : game.category, ...(secondaryTags[game.slug] ?? []), ...(multiplayerModes[game.slug] ? ['Multiplayer', multiplayerModes[game.slug]] : [])])];
-}
 
 export function browseGames<T extends { category: string; slug: string }>(games: T[], tab: BrowseTab, now = Date.now()): T[] {
   if (tab === 'All') return games;

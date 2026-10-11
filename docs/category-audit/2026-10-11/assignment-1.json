@@ -1,0 +1,274 @@
+[
+  {
+    "slug": "3d-car-simulator",
+    "title": "3D Car Driving Simulator",
+    "url": "https://3d-car-driving-simulation.vercel.app",
+    "currentCategory": "Simulation",
+    "currentTags": [],
+    "description": "Realistic 3D driving experience"
+  },
+  {
+    "slug": "ash-line",
+    "title": "ASH LINE",
+    "url": "https://cedar-crisp-sky-orbit.grok.me/ash-line.html",
+    "currentCategory": "Strategy",
+    "currentTags": [],
+    "description": "Defend a wasteland route against zombie waves."
+  },
+  {
+    "slug": "battle-peaks",
+    "title": "Battle Peaks",
+    "url": "https://battle-peaks1.vercel.app/",
+    "currentCategory": "Strategy",
+    "currentTags": [],
+    "description": "Aim and fire across a mountainous battlefield in a local two-player artillery game."
+  },
+  {
+    "slug": "canal-shark",
+    "title": "CANAL SHARK",
+    "url": "https://bukangshark.restart4k.workers.dev/",
+    "currentCategory": "Action",
+    "currentTags": [],
+    "description": "Steer a shark through a pixel-art canal. Opens on the game's own site and may need time to load."
+  },
+  {
+    "slug": "color-war",
+    "title": "Color War",
+    "url": "https://solider10.github.io/colorwar/",
+    "currentCategory": "Strategy",
+    "currentTags": [],
+    "description": "Capture neighboring tiles against a computer rival."
+  },
+  {
+    "slug": "cs-surf",
+    "title": "CS Surf",
+    "url": "https://surfd.net/",
+    "currentCategory": "Sports",
+    "currentTags": [],
+    "description": "Surf a map with desktop mouse controls. Opens on the game's own site and may need time to load."
+  },
+  {
+    "slug": "disco-dino-lost-worlds",
+    "title": "DiscoDino: Lost Worlds",
+    "url": "https://discodino.netlify.app/",
+    "currentCategory": "Adventure",
+    "currentTags": [],
+    "description": "Explore pixel-art habitats and spot prehistoric creatures. Opens on the game's own site and may need time to load."
+  },
+  {
+    "slug": "drawdown",
+    "title": "Drawdown",
+    "url": "https://drawdown-game.vercel.app/",
+    "currentCategory": "Puzzle",
+    "currentTags": [],
+    "description": "Set up warp threads and treadles, then weave matching rows. Opens on the game's own site and may need time to load."
+  },
+  {
+    "slug": "faux-ami",
+    "title": "Faux Ami",
+    "url": "https://faux-ami-french-game.vercel.app/",
+    "currentCategory": "Puzzle",
+    "currentTags": [],
+    "description": "Guess the true meaning of French words that look familiar in English."
+  },
+  {
+    "slug": "fly-pieter",
+    "title": "fly.pieter.com",
+    "url": "https://fly.pieter.com",
+    "currentCategory": "Simulation",
+    "currentTags": [],
+    "description": "Free to play MMO flight simulator"
+  },
+  {
+    "slug": "gigacity",
+    "title": "Gigacity",
+    "url": "https://sael.net/gigacity",
+    "currentCategory": "Simulation",
+    "currentTags": [],
+    "description": "Fly through a generated city and change the camera, sky, and flight controls."
+  },
+  {
+    "slug": "half-life",
+    "title": "Half Life",
+    "url": "https://pixelsuft.github.io/hl/",
+    "currentCategory": "Action",
+    "currentTags": [],
+    "description": "Play a browser Half-Life port. Opens on the game's own site and may need time to load."
+  },
+  {
+    "slug": "heroes-journey",
+    "title": "Heroes Journey",
+    "url": "https://heroezjourney.com/",
+    "currentCategory": "Action",
+    "currentTags": [],
+    "description": "Fight your way along a colorful wildwood road."
+  },
+  {
+    "slug": "jamo-jump",
+    "title": "Jamo Jump",
+    "url": "https://jamojump.app/",
+    "currentCategory": "Puzzle",
+    "currentTags": [],
+    "description": "Guide a horse across a Hangul word puzzle. Opens on the game's own site and may need time to load."
+  },
+  {
+    "slug": "lantern-isle",
+    "title": "Lantern Isle",
+    "url": "https://games.jimmychandra.com/games/lantern_isle/",
+    "currentCategory": "Action",
+    "currentTags": [],
+    "description": "Explore a shipwrecked island and relight its lighthouse."
+  },
+  {
+    "slug": "llama-roguelike",
+    "title": "Llama Roguelike",
+    "url": "https://aovks23.itch.io/llama-roguelike-work-in-progress",
+    "currentCategory": "Strategy",
+    "currentTags": [],
+    "description": "Arrange your pack and battle across the Andes. Opens on the game's own site and may need time to load."
+  },
+  {
+    "slug": "moon-mars-mission-studio",
+    "title": "Moon & Mars Mission Studio",
+    "url": "https://sanghyunpark.pages.dev/apps/mission-studio/",
+    "currentCategory": "Simulation",
+    "currentTags": [],
+    "description": "Plan trajectories and launch Apollo and Mars scenarios. Opens on the game's own site and may need time to load."
+  },
+  {
+    "slug": "neon-palms-port-solana",
+    "title": "Neon Palms — Port Solana",
+    "url": "https://dubovskylabs.com/benchmarks/gta/apps/claude-opus-5-5/index.html",
+    "currentCategory": "Simulation",
+    "currentTags": [],
+    "description": "Explore a 3D coastal city with movement and map controls. Opens on the game's own site and may need time to load."
+  },
+  {
+    "slug": "operation-nightwood",
+    "title": "Operation Nightwood",
+    "url": "https://claude.ai/artifact/CdXyZVrixg9iZDA1k5eH6G",
+    "currentCategory": "Action",
+    "currentTags": [],
+    "description": "Steer and brake through a pixel-art night-driving mission. Opens on the game's own site and may need time to load."
+  },
+  {
+    "slug": "pantry-dash",
+    "title": "Pantry Dash",
+    "url": "https://mdhasibul35.github.io/pantry-dash/",
+    "currentCategory": "Arcade",
+    "currentTags": [],
+    "description": "Guide a small mouse through a kitchen maze, collecting cheese while avoiding cats."
+  },
+  {
+    "slug": "plaid-circuit",
+    "title": "Plaid Circuit",
+    "url": "https://roadster.grok.me/",
+    "currentCategory": "Sports",
+    "currentTags": [],
+    "description": "Choose a car and race laps around an arcade circuit."
+  },
+  {
+    "slug": "pulse",
+    "title": "PULSE",
+    "url": "https://orbix.grok.me/",
+    "currentCategory": "Arcade",
+    "currentTags": [],
+    "description": "Switch sides with one tap and keep your run alive."
+  },
+  {
+    "slug": "quake-3",
+    "title": "Quake 3",
+    "url": "https://q3.pieter.com/",
+    "currentCategory": "Action",
+    "currentTags": [],
+    "description": "Open a browser Quake III arena. Opens on the game's own site and may need time to load."
+  },
+  {
+    "slug": "return-to-castle-wolfenstein",
+    "title": "Return to Castle Wolfenstein",
+    "url": "https://rtcw.pieter.com/",
+    "currentCategory": "Action",
+    "currentTags": [],
+    "description": "Open a browser shooter port. Opens on the game's own site and may need time to load."
+  },
+  {
+    "slug": "roll-for-agi",
+    "title": "Roll for AGI",
+    "url": "https://rollforagi.com",
+    "currentCategory": "Strategy",
+    "currentTags": [],
+    "description": "Roll dice and build an AI lab. Opens on the game's own site and may need time to load."
+  },
+  {
+    "slug": "sharespark",
+    "title": "ShareSpark",
+    "url": "https://share-spark.vercel.app",
+    "currentCategory": "Simulation",
+    "currentTags": [],
+    "description": "Invent pretend companies in a family market game. Opens on the game's own site and may need time to load."
+  },
+  {
+    "slug": "small-worlds",
+    "title": "Small Worlds",
+    "url": "https://crane-cosmic-kind-rose.grok.me/",
+    "currentCategory": "Simulation",
+    "currentTags": [],
+    "description": "Tilt a small world and change its weather. Opens on the game's own site and may need time to load."
+  },
+  {
+    "slug": "spire",
+    "title": "SPIRE",
+    "url": "https://juniper-fern-giant-zephyr.grok.me/",
+    "currentCategory": "Puzzle",
+    "currentTags": [],
+    "description": "Stack aligned blocks with well-timed taps. Opens on the game's own site and may need time to load."
+  },
+  {
+    "slug": "mutual-fun",
+    "title": "The Mutual Fun",
+    "url": "https://mutual-self.vercel.app/",
+    "currentCategory": "Arcade",
+    "currentTags": [],
+    "description": "Guide a business dog through seven rounds of musical chairs in a 3D boardroom."
+  },
+  {
+    "slug": "tiger-rider-chess",
+    "title": "Tiger Rider Chess: Der Kompass",
+    "url": "https://tigerriderchess.grok.me/",
+    "currentCategory": "Strategy",
+    "currentTags": [],
+    "description": "Play a character-themed chess match against a computer opponent. Opens on the game's own site and may need time to load."
+  },
+  {
+    "slug": "toybox-push",
+    "title": "Toybox Push",
+    "url": "https://games.jimmychandra.com/games/toybox_push/",
+    "currentCategory": "Puzzle",
+    "currentTags": [],
+    "description": "Guide a toy robot and push wooden blocks onto gold stars."
+  },
+  {
+    "slug": "vector-anti-gravity-racing",
+    "title": "VECTOR: Anti-Gravity Racing",
+    "url": "https://wavedash.com/games/vector-anti-gravity-racing",
+    "currentCategory": "Racing",
+    "currentTags": [],
+    "description": "Race anti-gravity craft on futuristic tracks. Opens on the game's own site and may need time to load."
+  },
+  {
+    "slug": "what-maya-knew",
+    "title": "What Maya Knew",
+    "url": "https://yenfus.itch.io/what-maya-knew",
+    "currentCategory": "Adventure",
+    "currentTags": [],
+    "description": "Investigate a missing-person case through a laptop and clues. Opens on the game's own site and may need time to load."
+  },
+  {
+    "slug": "yugisnap",
+    "title": "YugiSnap",
+    "url": "https://yugisnap.kw-15.workers.dev/",
+    "currentCategory": "Strategy",
+    "currentTags": [],
+    "description": "Plan turns and place cards across three duel lanes. Opens on the game's own site and may need time to load."
+  }
+]

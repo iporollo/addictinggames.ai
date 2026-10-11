@@ -1,0 +1,1391 @@
+[
+  {
+    "slug": "go-for-launch",
+    "title": "A71 // GO FOR LAUNCH",
+    "url": "https://go4launch.grok.me/",
+    "currentCategory": "Arcade",
+    "categories": [
+      "Arcade"
+    ],
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "mechanics": "Short timed score challenge: steer a rocket-powered car and vent to hop; measured score and location changed during controls.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Clicked Start and focused the game canvas.",
+        "Pressed ArrowUp, ArrowLeft, and Space for 250 ms each."
+      ],
+      "outcome": "HUD changed from MCGREGOR PAD / score 0 to BOCA CHICA / score 7; COPV remained 100.",
+      "screenshotPaths": [
+        "worker-4/go-for-launch-load.png",
+        "worker-4/go-for-launch-after.png"
+      ],
+      "limitations": []
+    },
+    "sources": [
+      {
+        "url": "https://go4launch.grok.me/",
+        "kind": "first-party game page",
+        "currentOrPrior": "current",
+        "detail": "http 200; A71 // GO FOR LAUNCH"
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "Arcade fits the brief score/reflex loop; no race competitors or course result were observed.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "axiom",
+    "title": "Axiom",
+    "url": "https://horizon-plum-forest-zest.grok.me/",
+    "currentCategory": "Puzzle",
+    "categories": [
+      "Puzzle"
+    ],
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "mechanics": "Five logic games: Sudoku, Mosaic, Lamps, Cipher, and Queens. Opened Lamps and pressed a board cell; its counter changed from 0 to 1 press.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Opened Lamps.",
+        "Clicked row 1, column 4 of the 5×5 board."
+      ],
+      "outcome": "The Lamps counter changed from 0 to 1 press and the selected cell/neighbors visibly flipped.",
+      "screenshotPaths": [
+        "worker-4/axiom-retry-before.png",
+        "worker-4/axiom-targeted.png"
+      ],
+      "limitations": []
+    },
+    "sources": [
+      {
+        "url": "https://horizon-plum-forest-zest.grok.me/",
+        "kind": "first-party game page",
+        "currentOrPrior": "current",
+        "detail": "http 200; Axiom"
+      },
+      {
+        "path": "game-discovery-bot/runs/2026-10-10T185643Z/reports/worker2/axiom.json",
+        "kind": "local gameplay receipt",
+        "currentOrPrior": "prior",
+        "detail": "Historical evidence is supporting context only; it does not establish current access."
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "Puzzle is directly supported by the first-party logic games and by a current Lamps-board response.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "brian-boru-golf",
+    "title": "Brian Boru Golf",
+    "url": "https://brian-boru-golf-2026.griffin147.chatgpt.site/golf-game?v=4",
+    "currentCategory": "Sports",
+    "categories": [
+      "Sports"
+    ],
+    "status": "documented_only",
+    "confidence": "high",
+    "mechanics": "A 16-bit golf title with aiming, club, and swing controls. Start opens a player-name leaderboard form before the first shot.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Clicked the game screen and pressed Space, then ArrowUp.",
+        "Stopped at the player-name entry screen; did not submit a name."
+      ],
+      "outcome": "Start advanced to the public leaderboard name form; no shot was observed.",
+      "screenshotPaths": [
+        "worker-4/brian-boru-golf-load.png",
+        "worker-4/brian-boru-golf-after.png"
+      ],
+      "limitations": [
+        "Current golf mechanics were not played because the first shot was gated by the public leaderboard name form."
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://brian-boru-golf-2026.griffin147.chatgpt.site/golf-game?v=4",
+        "kind": "first-party game page",
+        "currentOrPrior": "current",
+        "detail": "http 200; Brian Boru Millennium Cup: 16-Bit Golf"
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "Golf uses sport rules. The public leaderboard name prompt blocked the first shot, so the current gameplay loop remains unverified.",
+    "proposedNewCategories": [],
+    "accessIssue": "Start led to a public player-name prompt before the first golf shot; the review did not submit a name.",
+    "accessIssueType": "public-leaderboard"
+  },
+  {
+    "slug": "clunk-smash",
+    "title": "Clunk Smash",
+    "url": "https://clunk.games/en/smash",
+    "currentCategory": "Action",
+    "categories": [
+      "Action",
+      "Arcade"
+    ],
+    "status": "documented_only",
+    "confidence": "medium",
+    "mechanics": "Practice displays a character smashing falling blocks, with hearts, waves, and a score. Practice loaded Wave 1, but no hit response was confirmed.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Clicked Practice.",
+        "Held ArrowLeft 900 ms toward a falling block.",
+        "Pressed Space for a 300 ms smash after it approached."
+      ],
+      "outcome": "Wave 1 and score 0 remained visible; no hit, score, or heart change was confirmed.",
+      "screenshotPaths": [
+        "worker-4/clunk-smash-retry-before.png",
+        "worker-4/clunk-smash-targeted.png"
+      ],
+      "limitations": [
+        "Current gameplay response is not verified; see actions/outcome and separately dated sources."
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://clunk.games/en/smash",
+        "kind": "first-party game page",
+        "currentOrPrior": "current",
+        "detail": "http 200; Clunk Smash — smash the falling blocks"
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "Action covers the real-time smash action; its waves and short high-score run also fit Arcade. Current input did not change the score or hearts.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "cows-with-buns",
+    "title": "Cows With Buns",
+    "url": "https://cowswithbuns.stevenrouk.com/",
+    "currentCategory": "Action",
+    "categories": [
+      "Action"
+    ],
+    "status": "documented_only",
+    "confidence": "high",
+    "mechanics": "Side-view rescue/shooter: move and jump, fire buns at pens, and free animals who then follow and fire. First-party instructions list Arrow/A-D, Space/Up/W, and J/X controls.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Clicked Play; the story advanced to the playable field.",
+        "Pressed D and Space during the initial field test; no movement/shot counter change was confirmed.",
+        "Opened How to play and inspected the controls; no gameplay result was recorded during the help-screen retry."
+      ],
+      "outcome": "The field loaded with hearts and rescue counters, but current input produced no measurable outcome.",
+      "screenshotPaths": [
+        "worker-4/cows-with-buns-retry-before.png",
+        "worker-4/cows-with-buns-targeted.png",
+        "worker-4/cows-with-buns-final-active-before.png"
+      ],
+      "limitations": [
+        "Current play state loaded, but no movement, bun hit, or rescue response was confirmed."
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://cowswithbuns.stevenrouk.com/",
+        "kind": "first-party game page",
+        "currentOrPrior": "current",
+        "detail": "http 200; Cows With Buns"
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "Action describes the real-time movement and bun-fire rescue loop. No short replayable score/timing loop was established, so Arcade is omitted.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "dino-souls",
+    "title": "Dino Souls",
+    "url": "https://updateddino.xyz/",
+    "currentCategory": "Action",
+    "categories": [
+      "Action",
+      "Multiplayer"
+    ],
+    "status": "documented_only",
+    "confidence": "high",
+    "mechanics": "The first-party Arena page describes human 2v2 rounds, revives, public quick match, and private friend rooms. The separate solo boss rush documents jump, bite, roll, and three flasks per fight.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Opened the separately documented /solo page and pressed Space then ArrowRight for 650 ms each.",
+        "Did not use public matchmaking or connect an account."
+      ],
+      "outcome": "The solo controls were visible, but no present-run state change was confirmed.",
+      "screenshotPaths": [
+        "worker-4/dino-souls-retry-before.png",
+        "worker-4/dino-souls-retry-after.png"
+      ],
+      "limitations": [
+        "Current gameplay response is unverified; historical gameplay evidence is listed separately.",
+        "No public match or account connection was attempted."
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://updateddino.xyz/",
+        "kind": "first-party game page",
+        "currentOrPrior": "current",
+        "detail": "http 200; Dino Souls Arena"
+      },
+      {
+        "path": "game-discovery-bot/runs/2026-10-10T185643Z/reports/worker5/18-dino-souls.json",
+        "kind": "local gameplay receipt",
+        "currentOrPrior": "prior",
+        "detail": "Historical evidence is supporting context only; it does not establish current access."
+      }
+    ],
+    "multiplayerMode": "Online multiplayer",
+    "rationale": "Action fits the combat; documented human teams/private rooms justify Multiplayer. Current review used the solo route and did not join a match.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "doge-rally",
+    "title": "Doge Rally",
+    "url": "https://slate-juniper-arch-drum.grok.me/",
+    "currentCategory": "Sports",
+    "categories": [
+      "Sports",
+      "Arcade",
+      "Multiplayer"
+    ],
+    "status": "documented_only",
+    "confidence": "high",
+    "mechanics": "Pong-style coin rally against the computer, with a separate two-player shared-phone mode. Versus the machine displayed a 0–0 rally HUD.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Selected Versus the machine.",
+        "Held W and S for 650 ms each."
+      ],
+      "outcome": "A 0–0 “RALLY 1 TO 7” HUD appeared; no point was scored in the short test.",
+      "screenshotPaths": [
+        "worker-4/doge-rally-retry-before.png",
+        "worker-4/doge-rally-retry-after.png"
+      ],
+      "limitations": [
+        "Current gameplay response is not verified; see actions/outcome and separately dated sources."
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://slate-juniper-arch-drum.grok.me/",
+        "kind": "first-party game page",
+        "currentOrPrior": "current",
+        "detail": "http 200; Doge Rally"
+      }
+    ],
+    "multiplayerMode": "Local 2-player",
+    "rationale": "Sports describes rally rules, Arcade the short reflex loop, and the explicit local two-human control option supports Multiplayer.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "earth-defender",
+    "title": "EARTH DEFENDER",
+    "url": "https://apex-slate-spring-otter.grok.me/",
+    "currentCategory": "Action",
+    "categories": [
+      "Action"
+    ],
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "mechanics": "Wave-based Earth defense: choose a laser, guided missile, or cannon; move and manually aim the battery. A current playfield click visibly launched guided missiles.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Clicked Korean “Start defense”.",
+        "Selected Guided Missile.",
+        "Clicked the playfield at x1037,y417 to aim/fire."
+      ],
+      "outcome": "The live Wave 1 view showed two guided missiles and their trails rising from the battery after the playfield click.",
+      "screenshotPaths": [
+        "worker-4/earth-defender-retry-before.png",
+        "worker-4/earth-defender-targeted.png"
+      ],
+      "limitations": []
+    },
+    "sources": [
+      {
+        "url": "https://apex-slate-spring-otter.grok.me/",
+        "kind": "first-party game page",
+        "currentOrPrior": "current",
+        "detail": "http 200; EARTH DEFENDER"
+      },
+      {
+        "path": "game-discovery-bot/runs/2026-10-10T185643Z/reports/worker2/earth-defender.json",
+        "kind": "local gameplay receipt",
+        "currentOrPrior": "prior",
+        "detail": "Historical evidence is supporting context only; it does not establish current access."
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "Action fits the manual aim-and-fire loop. No deployable defenses are shown, so Tower Defense would mislabel the mechanics.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "fleet-horizon",
+    "title": "Fleet Horizon",
+    "url": "https://defense.aizoo.one/",
+    "currentCategory": "Action",
+    "categories": [
+      "Action"
+    ],
+    "status": "documented_only",
+    "confidence": "high",
+    "mechanics": "First-party page describes a coastal battery against ships, aircraft, and landing forces, with five weapon classes and mouse aiming. Current attempt stayed at mission selection/deployment.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Selected Dawn Coast.",
+        "The visible Deploy control did not start a battle during this pass.",
+        "Moved and held the mouse on the displayed scene for 1 second."
+      ],
+      "outcome": "The page remained at mission selection; the compass angle changed from 000° to 042°, but no battle HUD or target response appeared. A previous local gameplay receipt is separately cited.",
+      "screenshotPaths": [
+        "worker-4/fleet-horizon-retry-before.png",
+        "worker-4/fleet-horizon-targeted.png"
+      ],
+      "limitations": [
+        "Current gameplay remains unverified; a prior local receipt is supporting historical evidence only."
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://defense.aizoo.one/",
+        "kind": "first-party game page",
+        "currentOrPrior": "current",
+        "detail": "http 200; Beachhead Defense – Free 3D Browser Defense Game"
+      },
+      {
+        "path": "game-discovery-bot/runs/2026-10-10T185643Z/reports/worker3/12-fleet-horizon.json",
+        "kind": "local gameplay receipt",
+        "currentOrPrior": "prior",
+        "detail": "Historical evidence is supporting context only; it does not establish current access."
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "Manual coastal-gun combat fits Action. No buildable/deployable defenses were observed, so Tower Defense is not supported.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "foundry",
+    "title": "FOUNDRY",
+    "url": "https://games.jimmychandra.com/games/foundry/",
+    "currentCategory": "Puzzle",
+    "categories": [
+      "Puzzle"
+    ],
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "mechanics": "Box-pushing puzzle; after arrow inputs the HUD changed from 0 moves / 0 pushes to 2 moves / 1 push.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Pressed ArrowRight and ArrowUp for 250 ms each."
+      ],
+      "outcome": "HUD changed from 0 moves / 0 pushes to 2 moves / 1 push.",
+      "screenshotPaths": [
+        "worker-4/foundry-load.png",
+        "worker-4/foundry-after.png"
+      ],
+      "limitations": []
+    },
+    "sources": [
+      {
+        "url": "https://games.jimmychandra.com/games/foundry/",
+        "kind": "first-party game page",
+        "currentOrPrior": "current",
+        "detail": "http 200; FOUNDRY â€” a box-pushing puzzle"
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "Directly observed Sokoban-like manipulation and counters support Puzzle.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "gta-vice-city",
+    "title": "GTA Vice City",
+    "url": "https://joncodeofficial.github.io/gta-vice-city-wasm",
+    "currentCategory": "Simulation",
+    "categories": [
+      "Action",
+      "Adventure"
+    ],
+    "status": "documented_only",
+    "confidence": "medium",
+    "mechanics": "The browser port requires a local game.tar.gz from a legitimate copy. Rockstar’s official game page describes a large city, non-linear play, and a character-driven rise-to-power story; its official controls guide documents shooting and scoped weapons.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Loaded the assigned port and inspected its import/setup page.",
+        "Did not select or upload a game archive."
+      ],
+      "outcome": "The current page stayed at “Import required”; no game session began.",
+      "screenshotPaths": [
+        "worker-4/gta-vice-city-load.png",
+        "worker-4/gta-vice-city-after.png"
+      ],
+      "limitations": [
+        "Current gameplay is unverified because the port requires a local copy of the original game."
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://joncodeofficial.github.io/gta-vice-city-wasm",
+        "kind": "first-party game page",
+        "currentOrPrior": "current",
+        "detail": "http 200; GTA: Vice City — WASM Port"
+      },
+      {
+        "url": "https://www.rockstargames.com/games/vicecity",
+        "kind": "official publisher game page for the original game",
+        "currentOrPrior": "current",
+        "detail": "Describes a huge urban sprawl, non-linear gameplay, a character-driven story, and the player’s option to take over the city; supports Adventure/progression."
+      },
+      {
+        "url": "https://support.rockstargames.com/articles/6PXKAiKnAwtES5fSl4JFtT/detailed-breakdown-of-controls-options-in-vice-city-10th-anniversary-edition",
+        "kind": "official publisher controls guide for the original game",
+        "currentOrPrior": "current",
+        "detail": "Documents tap-to-shoot, scoped weapons (including sniper rifle/rocket launcher), and gunplay-focused missions; supports Action."
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "Original first-party materials support Action (gunplay) and Adventure (open-city narrative/progression). This corrects the current Simulation tag even though the browser port is blocked until the user supplies game files.",
+    "proposedNewCategories": [],
+    "accessIssue": "The port requires the player’s own game.tar.gz before Start; no game files were supplied. The current port page says the data is not included.",
+    "accessIssueType": "game-copy-required"
+  },
+  {
+    "slug": "halo-ce-mobile",
+    "title": "Halo CE mobile",
+    "url": "https://hcemobile.com/",
+    "currentCategory": "Action",
+    "categories": [
+      "Action",
+      "Multiplayer"
+    ],
+    "status": "documented_only",
+    "confidence": "high",
+    "mechanics": "The first-party page describes the full Halo: Combat Evolved campaign and multiplayer, ranked playlists/matchmaking, and custom-game lobbies players can host, join, and invite friends to.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Clicked Continue in the Browser.",
+        "Inspected first-party campaign, multiplayer, and account requirements; did not upload game data or use sign-in controls."
+      ],
+      "outcome": "The page requires the player’s own Halo CE Xbox disc image (.iso/.xiso) to run any game mode; online also requires a free account. The page states campaign, split screen, and System Link do not require an account.",
+      "screenshotPaths": [
+        "worker-4/halo-ce-mobile-load.png",
+        "worker-4/halo-ce-mobile-targeted.png"
+      ],
+      "limitations": [
+        "No gameplay entered because the page requires user-supplied game data.",
+        "Online play was not tested; the account gate was not used."
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://hcemobile.com/",
+        "kind": "first-party game page",
+        "currentOrPrior": "current",
+        "detail": "http 200; HCEMobile - Halo: Combat Evolved Mobile"
+      }
+    ],
+    "multiplayerMode": "Online multiplayer",
+    "rationale": "Action describes the first-person combat game. Explicit human ranked matchmaking and host/join custom lobbies justify Multiplayer; online mode is documented but was not entered.",
+    "proposedNewCategories": [],
+    "accessIssue": "Requires the player’s own Halo CE Xbox disc image before play. Online additionally requires an account, which was not created or used.",
+    "accessIssueType": "game-copy-required"
+  },
+  {
+    "slug": "ink-dash",
+    "title": "Ink Dash",
+    "url": "https://rajpurohitkushal92.github.io/khnix-game-12/",
+    "currentCategory": "Action",
+    "categories": [
+      "Action",
+      "Arcade"
+    ],
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "mechanics": "After Start, the arena showed WASD movement, mouse aim/fire, and Space dash; score changed 0→13 during the control sequence.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Clicked Start and focused the canvas.",
+        "Held D and Space for 250 ms each."
+      ],
+      "outcome": "Score changed from 0 to 13 in the active Level 1 arena.",
+      "screenshotPaths": [
+        "worker-4/ink-dash-load.png",
+        "worker-4/ink-dash-after.png"
+      ],
+      "limitations": []
+    },
+    "sources": [
+      {
+        "url": "https://rajpurohitkushal92.github.io/khnix-game-12/",
+        "kind": "first-party game page",
+        "currentOrPrior": "current",
+        "detail": "http 200; Ink Dash"
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "Action is the shooter loop; Arcade describes short score/wave play.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "kindlekeep-td",
+    "title": "Kindlekeep TD",
+    "url": "https://kindlekeep.vercel.app/",
+    "currentCategory": "Strategy",
+    "categories": [
+      "Strategy",
+      "Tower Defense"
+    ],
+    "status": "documented_only",
+    "confidence": "high",
+    "mechanics": "First-party campaign copy and menu describe fixed-lane defense against waves, alongside campaign, endless, and daily modes. The current attempt reached the campaign map, not a tower-placement/wave screen.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Selected Campaign and tried the visible number/Space inputs."
+      ],
+      "outcome": "The campaign map displayed Hearthwood Vale and locked later stages; no tower placement or enemy wave was observed.",
+      "screenshotPaths": [
+        "worker-4/kindlekeep-td-retry-before.png",
+        "worker-4/kindlekeep-td-retry-after.png"
+      ],
+      "limitations": [
+        "Current gameplay response is not verified; see actions/outcome and separately dated sources."
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://kindlekeep.vercel.app/",
+        "kind": "first-party game page",
+        "currentOrPrior": "current",
+        "detail": "http 200; Kindlekeep TD"
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "Tower Defense describes holding the vale against waves; Strategy describes choosing and upgrading defenses. No gameplay correction beyond those documented mechanics is needed.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "lets-kart",
+    "title": "Let's Kart!",
+    "url": "https://fish.ryantsai.com/kart/",
+    "currentCategory": "Racing",
+    "categories": [
+      "Racing",
+      "Multiplayer"
+    ],
+    "status": "documented_only",
+    "confidence": "high",
+    "mechanics": "Local bot race menu exposes six tracks, cups, and race controls; current test reached the race countdown but remained at 0 km/h. First-party page also exposes Online Lobby, Quick match, Create room, and Join.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Selected the local Race Bots option and started Shiba Park.",
+        "Held W for 2.2 seconds and D for 800 ms during the race start."
+      ],
+      "outcome": "The current screenshot remained at the “Let’s Race!” countdown with 0 km/h; prior pilot receipt separately records speed 0→94 km/h during W input.",
+      "screenshotPaths": [
+        "worker-4/lets-kart-retry-before.png",
+        "worker-4/lets-kart-targeted.png"
+      ],
+      "limitations": [
+        "Current gameplay input did not change the HUD; prior gameplay receipt is historical supporting evidence only."
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://fish.ryantsai.com/kart/",
+        "kind": "first-party game page",
+        "currentOrPrior": "current",
+        "detail": "http 200; Let's Kart!"
+      },
+      {
+        "path": "game-discovery-bot/pilot-2026-10-10/tests/parent/lets-kart.json",
+        "kind": "local gameplay receipt",
+        "currentOrPrior": "prior",
+        "detail": "Historical evidence is supporting context only; it does not establish current access."
+      }
+    ],
+    "multiplayerMode": "Online multiplayer",
+    "rationale": "Racing describes the track competition; human online lobby/match/room controls justify Multiplayer. AI racers do not justify the tag. Current speed/motion did not respond in this pass; the previous pilot receipt is cited separately.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "mayoi-koji",
+    "title": "Mayoi Koji",
+    "url": "https://cloud-tulip-beam-fire.grok.me",
+    "currentCategory": "Puzzle",
+    "categories": [
+      "Puzzle"
+    ],
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "mechanics": "Start opened a 3-minute maze. ArrowRight/ArrowUp were followed by progress 1/100→2/100 and timer 3:00→2:52.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Clicked Start and focused the maze.",
+        "Pressed ArrowRight and ArrowUp for 250 ms each."
+      ],
+      "outcome": "Progress changed 1/100→2/100 and timer 3:00→2:52.",
+      "screenshotPaths": [
+        "worker-4/mayoi-koji-load.png",
+        "worker-4/mayoi-koji-after.png"
+      ],
+      "limitations": []
+    },
+    "sources": [
+      {
+        "url": "https://cloud-tulip-beam-fire.grok.me",
+        "kind": "first-party game page",
+        "currentOrPrior": "current",
+        "detail": "http 200; まよい小路"
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "Timed maze navigation to reveal a picture is a puzzle; short timer alone does not make it Action or Racing.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "naval-warfare",
+    "title": "Naval Warfare",
+    "url": "https://gunwake.aizoo.one/",
+    "currentCategory": "Action",
+    "categories": [
+      "Action"
+    ],
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "mechanics": "Single-player carrier battle loaded Wave 01. After W, HUD showed speed 4.9 KT; Space exposed Pause. 39 naval-gun rounds remained.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Clicked Deploy carrier.",
+        "Held W for 650 ms; pressed Space to inspect pause."
+      ],
+      "outcome": "Single-player Wave 01 HUD showed speed 4.9 KT, 39 naval-gun rounds, and the Resume battle control.",
+      "screenshotPaths": [
+        "worker-4/naval-warfare-retry-before.png",
+        "worker-4/naval-warfare-retry-after.png"
+      ],
+      "limitations": []
+    },
+    "sources": [
+      {
+        "url": "https://gunwake.aizoo.one/",
+        "kind": "first-party game page",
+        "currentOrPrior": "current",
+        "detail": "http 200; Gunwake — Free 3D Naval Warfare Game"
+      },
+      {
+        "path": "game-discovery-bot/runs/2026-10-10T185643Z/reports/worker4/16-naval-warfare.json",
+        "kind": "local gameplay receipt",
+        "currentOrPrior": "prior",
+        "detail": "Historical evidence is supporting context only; it does not establish current access."
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "Direct sailing and firing in a naval battle fit Action. First-party page says single-player.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "night-shift",
+    "title": "Night Shift",
+    "url": "https://games.jimmychandra.com/games/night_shift/",
+    "currentCategory": "Puzzle",
+    "categories": [
+      "Puzzle"
+    ],
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "mechanics": "A 3D Sokoban-like factory puzzle: move a worker and push crates onto marked bays. D moved the worker and changed the move counter from 0 to 1.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Pressed Escape to dismiss the first-party intro dialog.",
+        "Held D for 800 ms, then S for 500 ms using the first-party WASD instructions."
+      ],
+      "outcome": "The worker moved on the board and the move counter changed from 0 to 1; one of two crates remained stored.",
+      "screenshotPaths": [
+        "worker-4/night-shift-final-active-before.png",
+        "worker-4/night-shift-final-after.png"
+      ],
+      "limitations": []
+    },
+    "sources": [
+      {
+        "url": "https://games.jimmychandra.com/games/night_shift/",
+        "kind": "first-party game page",
+        "currentOrPrior": "current",
+        "detail": "http 200; Night Shift â€” A factory puzzle"
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "Puzzle is directly described on the first-party page and confirmed by a current move response.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "overburn",
+    "title": "OverBurn",
+    "url": "https://overburn.whitebeardapps.com/",
+    "currentCategory": "Action",
+    "categories": [
+      "Action",
+      "Arcade"
+    ],
+    "status": "documented_only",
+    "confidence": "high",
+    "mechanics": "The current page remains on its Launch screen. A previous same-day local gameplay receipt verified vertical space-shooter play, an upgrade choice, and Focus toggle.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Inspected the Launch page; attempted the visible Launch control and direct Space/ArrowRight inputs.",
+        "Did not select sign-in controls."
+      ],
+      "outcome": "The current page remained at the launch splash with no gameplay state visible. A prior isolated receipt is separately cited.",
+      "screenshotPaths": [
+        "worker-4/overburn-retry-before.png",
+        "worker-4/overburn-targeted.png"
+      ],
+      "limitations": [
+        "Current gameplay response is not verified; see actions/outcome and separately dated sources."
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://overburn.whitebeardapps.com/",
+        "kind": "first-party game page",
+        "currentOrPrior": "current",
+        "detail": "http 200; Overburn"
+      },
+      {
+        "path": "game-discovery-bot/runs/2026-10-10T185643Z/reports/worker4/15-overburn.json",
+        "kind": "local gameplay receipt",
+        "currentOrPrior": "prior",
+        "detail": "Historical evidence is supporting context only; it does not establish current access."
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "Action describes the shooter combat; Arcade describes its short survival/score run. Current direct retry did not enter a run, and the prior receipt is not current gameplay verification.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "pip-the-plant",
+    "title": "Pip the Plant",
+    "url": "https://legendary-faloodeh-080537.netlify.app/games/pip-the-plant/index.html",
+    "currentCategory": "Simulation",
+    "categories": [
+      "Simulators"
+    ],
+    "status": "documented_only",
+    "confidence": "high",
+    "mechanics": "Plant-care screen offers Talk, Water, and Light controls and a Happiness meter. Talk/plant click changed the greeting to a prompt to type a message, but plant-care meter changes were not observed.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Clicked Talk, then clicked Pip.",
+        "Also tried Water in the first pass; Happiness remained at 0%."
+      ],
+      "outcome": "Talk changed the greeting to “Hi there!” and exposed a text-entry prompt. Water produced no visible meter change.",
+      "screenshotPaths": [
+        "worker-4/pip-the-plant-retry-before.png",
+        "worker-4/pip-the-plant-targeted.png"
+      ],
+      "limitations": [
+        "The core care response remains unverified; conversation UI response alone does not establish the plant-care loop."
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://legendary-faloodeh-080537.netlify.app/games/pip-the-plant/index.html",
+        "kind": "first-party game page",
+        "currentOrPrior": "current",
+        "detail": "http 200; Pip the Plant"
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "Simulators (the catalog’s canonical name for the Simulation alias) describes caring for a plant system. The Talk UI responded, but a care action did not visibly change the plant or meter.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "project-nova",
+    "title": "Project Nova",
+    "url": "https://project-nova-v0001.grok.me/",
+    "currentCategory": "Arcade",
+    "categories": [
+      "Arcade",
+      "Action"
+    ],
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "mechanics": "Short lane-runner with automatic fire: survive by moving the ship; Space or double-tap purges hostiles. D moved the ship and score rose from 0 to 200 as enemies were hit.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Clicked Start.",
+        "Held D for 850 ms using the first-party WASD movement controls."
+      ],
+      "outcome": "Ship moved from center to the right side of the lane; score changed 0→200 with +100 hit indicators while Wave 1 continued.",
+      "screenshotPaths": [
+        "worker-4/project-nova-final-active-before.png",
+        "worker-4/project-nova-final-after.png"
+      ],
+      "limitations": []
+    },
+    "sources": [
+      {
+        "url": "https://project-nova-v0001.grok.me/",
+        "kind": "first-party game page",
+        "currentOrPrior": "current",
+        "detail": "http 200; Project Nova"
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "Arcade is the short reflex lane-runner loop; Action is meaningful because the ship automatically shoots hostiles and the player can purge them.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "quake-1",
+    "title": "Quake 1",
+    "url": "https://q1.pieter.com/",
+    "currentCategory": "Action",
+    "categories": [
+      "Action",
+      "Multiplayer"
+    ],
+    "status": "documented_only",
+    "confidence": "high",
+    "mechanics": "First-party page describes the QuakeWorld browser arena as online play for up to eight; 32 online users were shown. The public Play route returned HTTP 403 and no match was entered.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Opened the QuakeWorld page and clicked its public Play link.",
+        "Stopped when /play returned HTTP 403; did not join a match."
+      ],
+      "outcome": "The public entry endpoint returned HTTP 403 Forbidden; the page itself described online matches for up to eight.",
+      "screenshotPaths": [
+        "worker-4/quake-1-load.png",
+        "worker-4/quake-1-after.png"
+      ],
+      "limitations": [
+        "No match was joined; public entry was blocked by HTTP 403."
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://q1.pieter.com/",
+        "kind": "first-party game page",
+        "currentOrPrior": "current",
+        "detail": "http 200; Play QuakeWorld Multiplayer Online - q1.pieter.com (Non-commercial and unofficial)"
+      }
+    ],
+    "multiplayerMode": "Online multiplayer",
+    "rationale": "Action describes the arena shooter; online human QuakeWorld play supports Multiplayer. Public match was not joined.",
+    "proposedNewCategories": [],
+    "accessIssue": "The public /play endpoint returned HTTP 403 Forbidden during this review.",
+    "accessIssueType": "other"
+  },
+  {
+    "slug": "rajyam",
+    "title": "Rajyam",
+    "url": "https://playrajyam.com/",
+    "currentCategory": "Strategy",
+    "categories": [
+      "Action"
+    ],
+    "status": "documented_only",
+    "confidence": "high",
+    "mechanics": "First level is a side-view castle defense scene with a manually aimed Stone Launcher, a visible trajectory arc, and ammunition. Current input did not produce a confirmed shot.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Selected Play Level 1 · Greenmark.",
+        "Pressed Space and ArrowRight; then clicked the attacker area at x140,y600."
+      ],
+      "outcome": "The Dawn Watch field showed a fixed castle, incoming units, and a Stone Launcher at 4/4 ammunition; no projectile or ammo change was confirmed.",
+      "screenshotPaths": [
+        "worker-4/rajyam-retry-before.png",
+        "worker-4/rajyam-targeted.png"
+      ],
+      "limitations": [
+        "Current shot response is unverified; visible trajectory/castle-defense screen supports the Action classification."
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://playrajyam.com/",
+        "kind": "first-party game page",
+        "currentOrPrior": "current",
+        "detail": "http 200; Rajyam"
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "Action fits manually aiming and firing at incoming forces. Strategy and Tower Defense are not supported by current evidence: no strategic planning or deployable defenses were observed.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "robobeats-mooncake-chop",
+    "title": "RoboBeats: Mooncake Chop",
+    "url": "https://robobeats-mooncake-mobile.netlify.app/",
+    "currentCategory": "Arcade",
+    "categories": [
+      "Arcade"
+    ],
+    "status": "documented_only",
+    "confidence": "medium",
+    "mechanics": "First-party menu selects a mooncake, character, and speed. Play advanced to a Level 1 “White lotus, double yolk” screen with five empty timing markers; no timed input response was observed.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Force-clicked the labeled Play button and pressed Space once."
+      ],
+      "outcome": "The screen advanced to the Level 1 title card; timing markers remained empty and no score/action response was confirmed.",
+      "screenshotPaths": [
+        "worker-4/robobeats-mooncake-chop-load.png",
+        "worker-4/robobeats-mooncake-chop-targeted.png"
+      ],
+      "limitations": [
+        "Current timing/chopping response is unverified."
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://robobeats-mooncake-mobile.netlify.app/",
+        "kind": "first-party game page",
+        "currentOrPrior": "current",
+        "detail": "http 200; RoboBeats: Mooncake Chop 機器人切月餅"
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "Arcade covers the short timing/reflex chopping loop shown by the game’s title and setup. No separate Rhythm category is needed for the current catalog.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "salmon-survival",
+    "title": "Salmon Survival",
+    "url": "https://salmon-survival.vercel.app/",
+    "currentCategory": "Survival",
+    "categories": [
+      "Survival"
+    ],
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "mechanics": "Swim and dodge through a salmon life cycle. After Start, W/D input changed the sibling count to 1,986/2,000 and awarded the “Swam under drifting ice floes” badge.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Clicked Start swimming and focused the game canvas.",
+        "Held W for 900 ms and D for 500 ms."
+      ],
+      "outcome": "HUD showed 1,986 of 2,000 siblings and the “Ice breakup — Swam under drifting ice floes” badge.",
+      "screenshotPaths": [
+        "worker-4/salmon-survival-retry-after.png",
+        "worker-4/salmon-survival-targeted.png"
+      ],
+      "limitations": []
+    },
+    "sources": [
+      {
+        "url": "https://salmon-survival.vercel.app/",
+        "kind": "first-party game page",
+        "currentOrPrior": "current",
+        "detail": "http 200; Salmon Survival"
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "Survival is the core loop: avoid river hazards and survive the salmon journey; the current input changed a survival counter and earned a hazard badge.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "ski-simulator-360-vail",
+    "title": "Ski Simulator 360 (Vail)",
+    "url": "https://ski-simulator-360.pages.dev/?world=vail",
+    "currentCategory": "Sports",
+    "categories": [
+      "Sports",
+      "Simulators",
+      "Multiplayer"
+    ],
+    "status": "documented_only",
+    "confidence": "high",
+    "mechanics": "A ski simulation over mapped real-world resorts with speed/elevation/score HUD and Explorer/Realistic modes. The current page visibly offers Invite Friends and Join Friends.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Inspected Vail resort/mode selector and first-party Invite Friends / Join Friends controls.",
+        "Tried navigation keys; no slope run began."
+      ],
+      "outcome": "Resort selection stayed visible and speed/elevation remained blank; friend invite/join controls were available.",
+      "screenshotPaths": [
+        "worker-4/ski-simulator-360-vail-load.png"
+      ],
+      "limitations": [
+        "Current skiing gameplay and actual multiplayer session were not tested."
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://ski-simulator-360.pages.dev/?world=vail",
+        "kind": "first-party game page",
+        "currentOrPrior": "current",
+        "detail": "http 200; Ski Simulator 360 — Real Resorts. Real Mountains."
+      }
+    ],
+    "multiplayerMode": "Online multiplayer",
+    "rationale": "Sports describes skiing; Simulators describes real-world recreation and terrain; explicit invite/join-friends controls support online human multiplayer. No slope run was started.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "somnolith-alpha",
+    "title": "SOMNOLITH alpha",
+    "url": "https://claude.ai/artifact/RbtCujA2J6CpzJnxSEsYJ6",
+    "currentCategory": "Adventure",
+    "categories": [
+      "Adventure"
+    ],
+    "status": "documented_only",
+    "confidence": "medium",
+    "mechanics": "Current Claude artifact URL returned Page not found. A prior same-day isolated receipt reports Start and directional input changed the forest/pond scene; current access remains unavailable.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Loaded the assigned Claude artifact URL and waited for the page."
+      ],
+      "outcome": "Current page displayed “Page not found”; prior gameplay is cited separately and does not prove current access.",
+      "screenshotPaths": [
+        "worker-4/somnolith-alpha-targeted.png"
+      ],
+      "limitations": [
+        "No current gameplay was possible because the page returned 404."
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://claude.ai/artifact/RbtCujA2J6CpzJnxSEsYJ6",
+        "kind": "first-party game page",
+        "currentOrPrior": "current",
+        "detail": "http 200; Page not found – Claude"
+      },
+      {
+        "path": "game-discovery-bot/runs/2026-10-10T185643Z/reports/worker5/08-somnolith-alpha.json",
+        "kind": "local gameplay receipt",
+        "currentOrPrior": "prior",
+        "detail": "Historical evidence is supporting context only; it does not establish current access."
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "Prior scene-exploration evidence supports Adventure; current 404 prevents a fresh play check.",
+    "proposedNewCategories": [],
+    "accessIssue": "The assigned Claude artifact URL currently returns Page not found.",
+    "accessIssueType": "404"
+  },
+  {
+    "slug": "super-detective",
+    "title": "Super Detective",
+    "url": "https://superdetectivegame.com/",
+    "currentCategory": "Puzzle",
+    "categories": [
+      "Puzzle"
+    ],
+    "status": "documented_only",
+    "confidence": "high",
+    "mechanics": "First-party page calls this a logic mystery with five weekly cases and no guessing; opening this week’s case list showed free case cards and paid packs. No puzzle case was entered.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Opened this week’s case files; did not select any paid case pack."
+      ],
+      "outcome": "The case list displayed five weekly cases and extra paid packs; no in-case puzzle response was tested.",
+      "screenshotPaths": [
+        "worker-4/super-detective-retry-before.png",
+        "worker-4/super-detective-targeted.png"
+      ],
+      "limitations": [
+        "Current gameplay response is not verified; see actions/outcome and separately dated sources."
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://superdetectivegame.com/",
+        "kind": "first-party game page",
+        "currentOrPrior": "current",
+        "detail": "http 200; Super Detective · Murder mystery logic puzzles"
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "Puzzle is directly supported by clue-based suspect placement; no paid pack was selected.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "thermopylae",
+    "title": "Thermopylae",
+    "url": "https://thermopylae-v2.vercel.app/",
+    "currentCategory": "Action",
+    "categories": [
+      "Action"
+    ],
+    "status": "documented_only",
+    "confidence": "high",
+    "mechanics": "First-party training teaches spear thrusts and a held shield against blows; the live scene displays Leonidas and enemy soldiers. The current short K hold produced no measurable block/health-counter change.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Selected Training.",
+        "Held K for 2.2 seconds as the tutorial instructed, then waited briefly."
+      ],
+      "outcome": "The training view showed Leonidas facing enemy soldiers with shield and spear, but no hit/block counter or enemy response was confirmed.",
+      "screenshotPaths": [
+        "worker-4/thermopylae-targeted.png",
+        "worker-4/thermopylae-final-active-before.png",
+        "worker-4/thermopylae-final-after.png"
+      ],
+      "limitations": [
+        "Current combat response remains unverified; the training instructions and combat scene support Action."
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://thermopylae-v2.vercel.app/",
+        "kind": "first-party game page",
+        "currentOrPrior": "current",
+        "detail": "http 200; Thermopylae · Leonidas"
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "Action is the documented real-time spear-and-shield combat loop. Adventure is not added from the historical campaign framing alone.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "timeline-tactics",
+    "title": "Timeline Tactics",
+    "url": "https://tactics.parasol.network/play?v=7",
+    "currentCategory": "Strategy",
+    "categories": [
+      "Strategy",
+      "Multiplayer"
+    ],
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "mechanics": "Turn-based isometric tactics with Knight, Archer, and Mage. In a CPU match, selecting the Archer and tapping a highlighted tile changed it from READY to a completed move at a1.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Selected Play the CPU now; no human matchmaking joined.",
+        "Clicked the Archer on the board at x211,y500.",
+        "Clicked the highlighted tile at x125,y450."
+      ],
+      "outcome": "The board selected the Archer, then the UI reported “Archer move a1, wait — DONE” and remaining waiting units decreased from 3 to 2.",
+      "screenshotPaths": [
+        "worker-4/timeline-tactics-final2-before.png",
+        "worker-4/timeline-tactics-final2-selected.png",
+        "worker-4/timeline-tactics-final2-after.png"
+      ],
+      "limitations": [
+        "Only the CPU mode was played; the human online mode is documented from the live matchmaking UI."
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://tactics.parasol.network/play?v=7",
+        "kind": "first-party game page",
+        "currentOrPrior": "current",
+        "detail": "http 200; Timeline Tactics"
+      }
+    ],
+    "multiplayerMode": "Online multiplayer",
+    "rationale": "Strategy is the unit-order/turn-planning loop. The separate Live Quick Match searches for human opponents, so Multiplayer is a real supported mode; this review used the CPU option only.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "turbo-kart-gp",
+    "title": "Turbo Kart GP",
+    "url": "https://turbo-kart-gp-6e9.pages.dev/",
+    "currentCategory": "Sports",
+    "categories": [
+      "Racing"
+    ],
+    "status": "documented_only",
+    "confidence": "high",
+    "mechanics": "Original kart racer: Enter advanced through title and Grand Prix into an eight-racer character-selection screen, but no race was started.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Pressed Enter at the title, cup selection, and racer-selection screen."
+      ],
+      "outcome": "The game reached “Choose Your Racer” with Blaze and seven other racers; no course or race HUD appeared.",
+      "screenshotPaths": [
+        "worker-4/turbo-kart-gp-retry-before.png",
+        "worker-4/turbo-kart-gp-targeted.png"
+      ],
+      "limitations": [
+        "Current gameplay response is not verified; see actions/outcome and separately dated sources."
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://turbo-kart-gp-6e9.pages.dev/",
+        "kind": "first-party game page",
+        "currentOrPrior": "current",
+        "detail": "http 200; Turbo Kart GP"
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "Racing is the track competition. AI rivals do not count as Multiplayer.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "vortex-rash",
+    "title": "VORTEX RASH",
+    "url": "https://amber-arch-blue-reef.grok.me/",
+    "currentCategory": "Racing",
+    "categories": [
+      "Racing",
+      "Action"
+    ],
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "mechanics": "Neon Spire Alley race started; W/A/D inputs were followed by active HUD P7/7, elapsed time 1:17.5, 37 km/h, and 1x. The page also documents slashing rival gangs.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Selected Neon Spire Alley and Start Race.",
+        "Held W, A, and D for 650 ms each."
+      ],
+      "outcome": "Active HUD showed P7/7, 1:17.5, 37 km/h and 1x.",
+      "screenshotPaths": [
+        "worker-4/vortex-rash-retry-before.png",
+        "worker-4/vortex-rash-retry-after.png"
+      ],
+      "limitations": []
+    },
+    "sources": [
+      {
+        "url": "https://amber-arch-blue-reef.grok.me/",
+        "kind": "first-party game page",
+        "currentOrPrior": "current",
+        "detail": "http 200; VORTEX RASH"
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "Race/time course is primary Racing; attacking rivals is a meaningful Action secondary loop.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "wording-well",
+    "title": "Wording Well",
+    "url": "https://exedexes1.itch.io/wording-well",
+    "currentCategory": "Puzzle",
+    "categories": [
+      "Puzzle"
+    ],
+    "status": "documented_only",
+    "confidence": "high",
+    "mechanics": "Embedded first-party game describes lettered stones in a square well, word spelling, word-length rules, and dungeon stairs/traps. In the current frame, Level 1/Open rim instructions were visible; no board input response was confirmed.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Retried the assigned itch.io URL after an initial transient HTTP 429.",
+        "The page loaded its embedded game frame; inspected the current instructions and controls.",
+        "Did not confirm any in-frame board-state change after input."
+      ],
+      "outcome": "Current page and embedded game loaded; first-party frame showed lettered-stone word mechanics and controls. No gameplay response was confirmed.",
+      "screenshotPaths": [
+        "worker-4/wording-well-targeted.png",
+        "worker-4/wording-well-frame-before.png"
+      ],
+      "limitations": [
+        "Current word-placement response remains unverified; prior local receipts are supporting evidence only."
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://exedexes1.itch.io/wording-well",
+        "kind": "first-party game page",
+        "currentOrPrior": "current",
+        "detail": "http 429; 429 Too Many Requests"
+      },
+      {
+        "path": "game-discovery-bot/pilot-2026-10-10/tests/parent/wording-well.json",
+        "kind": "local gameplay receipt",
+        "currentOrPrior": "prior",
+        "detail": "Historical evidence is supporting context only; it does not establish current access."
+      },
+      {
+        "url": "https://html-classic.itch.zone/html/19611311/index.html?v=1791351360",
+        "kind": "first-party embedded game frame",
+        "currentOrPrior": "current",
+        "detail": "Accessible frame states “Lettered stones fall. Spell, and the dead hold the stair”, lists word-length rules and controls, and shows Open rim/level instructions. Supports Puzzle; current board action was not verified."
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "Puzzle describes spelling words with falling lettered stones; the visible game page names influences Wordtris, Welltris, and Scrabble. No new category is necessary.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  }
+]

@@ -1,0 +1,66 @@
+{
+  "model": "gpt-6-luna",
+  "reasoningEffort": "max",
+  "workerCount": 5,
+  "configurationEvidence": "Successful collaboration.spawn_agent calls with explicit model and reasoning_effort; no substitutions.",
+  "sourceCommit": "a4b007f01e0b39e8929351a14e39cf2b483092fc",
+  "liveRosterMatched": 167,
+  "workers": [
+    {
+      "name": "/root/category_review_1",
+      "assignment": "assignment-1.json",
+      "output": "worker-1/review.json"
+    },
+    {
+      "name": "/root/category_review_2",
+      "assignment": "assignment-2.json",
+      "output": "worker-2/review.json"
+    },
+    {
+      "name": "/root/category_review_3",
+      "assignment": "assignment-3.json",
+      "output": "worker-3/review.json"
+    },
+    {
+      "name": "/root/category_review_4",
+      "assignment": "assignment-4.json",
+      "output": "worker-4/review.json"
+    },
+    {
+      "name": "/root/category_review_5",
+      "assignment": "assignment-5.json",
+      "output": "worker-5/review.json"
+    }
+  ],
+  "assistance": [
+    {
+      "worker": "/root/category_review_1",
+      "output": "worker-1/assist-3/review.json",
+      "slugs": [
+        "orbit-forge",
+        "pes-6",
+        "pocket-gridiron",
+        "puni-jump",
+        "rage",
+        "rise-and-raid",
+        "sadie-and-luna",
+        "ski-jumping"
+      ]
+    },
+    {
+      "worker": "/root/category_review_4",
+      "output": "worker-4/assist-3/review.json",
+      "slugs": [
+        "soccar",
+        "starfall-the-last-beacon",
+        "the-street-game",
+        "time-echo",
+        "ttak-stop",
+        "void-explorer",
+        "word-ladder-duel",
+        "night-cruise"
+      ]
+    }
+  ],
+  "note": "The same five configured workers were reused to finish assignment-3; no additional workers were spawned. Its final coverage is worker-3 plus the two assistance files."
+}

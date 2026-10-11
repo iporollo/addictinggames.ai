@@ -1,0 +1,3642 @@
+[
+  {
+    "slug": "3d-car-simulator",
+    "title": "3D Car Driving Simulator",
+    "url": "https://3d-car-driving-simulation.vercel.app",
+    "originalCategories": [
+      "Simulators"
+    ],
+    "categories": [
+      "Simulators"
+    ],
+    "multiplayerMode": null,
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "changed": false,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Simulators is the accurate existing category for free driving with vehicle telemetry and no race or time-trial loop.",
+    "reviewDirectory": "worker-1",
+    "mechanics": "A free-driving 3D car simulation with speed, distance, health, and nitro gauges. W changed speed from 0 to 20 km/h and distance from 0.00 to 0.01 km; no race objective was present."
+  },
+  {
+    "slug": "99-youth-echecs",
+    "title": "99% YOUTH Échecs",
+    "url": "https://flora-acorn-cloud-rapid.grok.me/",
+    "originalCategories": [
+      "Strategy"
+    ],
+    "categories": [
+      "Strategy",
+      "Multiplayer"
+    ],
+    "multiplayerMode": "Local 2-player",
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "changed": true,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Strategy describes the chess-like tactical loop. Multiplayer is warranted by the explicit alternating À deux mode with same-screen two-player instructions. Puzzle would overstate the game as a puzzle rather than a match.",
+    "reviewDirectory": "worker-3",
+    "mechanics": "A chess variant played by moving custom pieces across an 8x8 board. The game offers solo play against its Collectif opponent and alternating local two-player play; the board rotates after each local turn."
+  },
+  {
+    "slug": "aether-break",
+    "title": "Aether Break",
+    "url": "https://cactus-eagle-finch-branch.grok.me/",
+    "originalCategories": [
+      "Action"
+    ],
+    "categories": [
+      "Arcade"
+    ],
+    "multiplayerMode": null,
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "changed": true,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "The verified loop is a short score/reflex brick-breaking round, so Arcade describes it better than Action. The ball angle and brick field do not make solving a puzzle the main loop.",
+    "reviewDirectory": "worker-5",
+    "mechanics": "A brick-breaker: launch a bouncing ball, move the paddle, clear brick formations, and avoid losing the ball. The instructions describe angle-dependent rebounds, destructible plates, and power-ups."
+  },
+  {
+    "slug": "ash-line",
+    "title": "ASH LINE",
+    "url": "https://cedar-crisp-sky-orbit.grok.me/ash-line.html",
+    "originalCategories": [
+      "Strategy",
+      "Tower Defense"
+    ],
+    "categories": [
+      "Tower Defense",
+      "Strategy",
+      "Survival"
+    ],
+    "multiplayerMode": null,
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "changed": true,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Tower Defense is the core wave-defense loop, Strategy reflects tower/resource placement, and the game's own framing supports Survival as an additional mode descriptor.",
+    "reviewDirectory": "worker-1",
+    "mechanics": "A five-wave defense run asks the player to place towers and route ash lines to stop moving zombie waves; lives and coins are finite resources. The opening screen calls it a roguelite survivor tower defense."
+  },
+  {
+    "slug": "ashen-vow",
+    "title": "Ashen Vow",
+    "url": "https://pearl-spark-hazel-bold.grok.me/",
+    "originalCategories": [
+      "Action",
+      "Adventure"
+    ],
+    "categories": [
+      "Action",
+      "Adventure"
+    ],
+    "multiplayerMode": null,
+    "status": "documented_only",
+    "confidence": "medium",
+    "changed": false,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Real-time enemy combat is the immediate loop (Action); persistent kit and a multi-area quest culminating in a dragon give Adventure a meaningful secondary role.",
+    "reviewDirectory": "worker-2",
+    "mechanics": "A side-scrolling fantasy roguelike with real-time attacks, platform traversal, enemy-specific counters, gear, and a road-to-dragon progression loop."
+  },
+  {
+    "slug": "atomic-war-2d",
+    "title": "Atomic War 2D",
+    "url": "https://atomic.sonnylab.com/",
+    "originalCategories": [
+      "Strategy"
+    ],
+    "categories": [
+      "Strategy"
+    ],
+    "multiplayerMode": null,
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "changed": false,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Strategy is the core loop: choose a summoner, recruit and manage units/items with limited coins, then let the army resolve rounds. No human-player mode was confirmed.",
+    "reviewDirectory": "worker-3",
+    "mechanics": "An auto-battler with a hero draft, a timed preparation phase, a shop, coin-based recruitment, and automatically resolved rounds against named opponents."
+  },
+  {
+    "slug": "axiom",
+    "title": "Axiom",
+    "url": "https://horizon-plum-forest-zest.grok.me/",
+    "originalCategories": [
+      "Puzzle"
+    ],
+    "categories": [
+      "Puzzle"
+    ],
+    "multiplayerMode": null,
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "changed": false,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Puzzle is directly supported by the first-party logic games and by a current Lamps-board response.",
+    "reviewDirectory": "worker-4",
+    "mechanics": "Five logic games: Sudoku, Mosaic, Lamps, Cipher, and Queens. Opened Lamps and pressed a board cell; its counter changed from 0 to 1 press."
+  },
+  {
+    "slug": "bad-idea",
+    "title": "Bad Idea",
+    "url": "https://claude-codex.anshkapuriya.in/",
+    "originalCategories": [
+      "Puzzle"
+    ],
+    "categories": [
+      "Puzzle"
+    ],
+    "multiplayerMode": null,
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "changed": false,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "The player solves misleading text/control challenges, which is directly covered by Puzzle. The satire and choice of Claude/Codex branches are presentation, not separate game categories.",
+    "reviewDirectory": "worker-5",
+    "mechanics": "Ten short deliberately misleading UX puzzles, including contradictory text, deceptive controls, reversed scrolling, and color-word or input challenges."
+  },
+  {
+    "slug": "battle-peaks",
+    "title": "Battle Peaks",
+    "url": "https://battle-peaks1.vercel.app/",
+    "originalCategories": [
+      "Strategy",
+      "Multiplayer"
+    ],
+    "categories": [
+      "Strategy",
+      "Multiplayer"
+    ],
+    "multiplayerMode": "Local 2-player",
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "changed": false,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Angle, power, terrain, and turn-based firing decisions fit Strategy. Two human commander slots and local-play evidence support Multiplayer; AI opponents are not being inferred.",
+    "reviewDirectory": "worker-1",
+    "mechanics": "Turn-based local artillery duel across uneven terrain. Players adjust firing angle and power before firing at the other commander."
+  },
+  {
+    "slug": "black-ops-2",
+    "title": "Black Ops 2",
+    "url": "https://vibeslops.luckeysystems.com/",
+    "originalCategories": [
+      "Action"
+    ],
+    "categories": [
+      "Action"
+    ],
+    "multiplayerMode": null,
+    "status": "unresolved",
+    "confidence": "low",
+    "changed": false,
+    "acceptedRecommendation": false,
+    "accessIssue": "The linked host returned DNS_PROBE_FINISHED_NXDOMAIN on two attempts; no game content loaded.",
+    "accessIssueType": "dns",
+    "decisionRationale": "Insufficient admissible evidence for a correction; retain the original categories. Retain the existing Action label because the catalog describes this link as an action port, but leave the record unresolved and do not add Shooter until the current port's provenance/mechanics are verified.",
+    "reviewDirectory": "worker-2",
+    "mechanics": "The assigned catalog entry identifies Black Ops 2 as an action port, but the linked host did not load and no first-party provenance for the browser recreation was available. The original Call of Duty: Black Ops II is a first-person shooter; that alone does not establish the mechanics of this linked port."
+  },
+  {
+    "slug": "bo1-zombies",
+    "title": "BO1 Zombies",
+    "url": "https://vel.gg/bo1z",
+    "originalCategories": [
+      "Action"
+    ],
+    "categories": [
+      "Action",
+      "Survival",
+      "Shooter"
+    ],
+    "multiplayerMode": null,
+    "status": "documented_only",
+    "confidence": "medium",
+    "changed": true,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "The first-person aiming-and-firing loop warrants Shooter; real-time combat fits Action; surviving zombie waves is a central objective. Shooter is a proposed precise category absent from the current set. Supervisor records current gameplay as unverified: the capture does not isolate a meaningful movement/weapon response from automatic run progression.",
+    "reviewDirectory": "worker-3",
+    "mechanics": "A first-person Call of Duty Zombies port with map selection, a pistol, round survival, points, kills, and headshot counters. The landing screen describes survival against large zombie waves."
+  },
+  {
+    "slug": "brian-boru-golf",
+    "title": "Brian Boru Golf",
+    "url": "https://brian-boru-golf-2026.griffin147.chatgpt.site/golf-game?v=4",
+    "originalCategories": [
+      "Sports"
+    ],
+    "categories": [
+      "Sports"
+    ],
+    "multiplayerMode": null,
+    "status": "documented_only",
+    "confidence": "high",
+    "changed": false,
+    "acceptedRecommendation": true,
+    "accessIssue": "Start led to a public player-name prompt before the first golf shot; the review did not submit a name.",
+    "accessIssueType": "public-leaderboard",
+    "decisionRationale": "Golf uses sport rules. The public leaderboard name prompt blocked the first shot, so the current gameplay loop remains unverified.",
+    "reviewDirectory": "worker-4",
+    "mechanics": "A 16-bit golf title with aiming, club, and swing controls. Start opens a player-name leaderboard form before the first shot."
+  },
+  {
+    "slug": "bruce-lee-the-dragon-returns",
+    "title": "Bruce Lee: The Dragon Returns",
+    "url": "https://axchapman.freedev.app/brucelee.php",
+    "originalCategories": [
+      "Action"
+    ],
+    "categories": [
+      "Action",
+      "Adventure",
+      "Platformer"
+    ],
+    "multiplayerMode": null,
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "changed": true,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Action covers fighting, while Adventure covers the chamber exploration and collection progression. Platformer would capture the defining jump/climb traversal across distinct levels that Action and Adventure do not name.",
+    "reviewDirectory": "worker-5",
+    "mechanics": "Single-player side-view fortress game with 20 chambers. The player moves, jumps/climbs, ducks, fights enemies, and collects lanterns across courtyards."
+  },
+  {
+    "slug": "canal-shark",
+    "title": "CANAL SHARK",
+    "url": "https://bukangshark.restart4k.workers.dev/",
+    "originalCategories": [
+      "Action"
+    ],
+    "categories": [
+      "Survival",
+      "Arcade",
+      "Action"
+    ],
+    "multiplayerMode": null,
+    "status": "documented_only",
+    "confidence": "high",
+    "changed": true,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Survival is the selected threat-endurance mode, the score/time run is arcade-like, and direct movement/dash input supports Action. Supervisor records current gameplay as unverified: the capture does not isolate a meaningful movement/weapon response from automatic run progression.",
+    "reviewDirectory": "worker-1",
+    "mechanics": "A shark navigates a pixel-art canal in a timed survival run with health and dash meters, stage, and score; the title menu also offers an escape mode."
+  },
+  {
+    "slug": "church-life",
+    "title": "Church Life",
+    "url": "https://churchlife.netlify.app/",
+    "originalCategories": [
+      "Adventure"
+    ],
+    "categories": [
+      "Adventure"
+    ],
+    "multiplayerMode": null,
+    "status": "documented_only",
+    "confidence": "medium",
+    "changed": false,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "The tested loop is character-driven story and progression through a neighborhood, so Adventure is the best available category.",
+    "reviewDirectory": "worker-2",
+    "mechanics": "A narrative life-simulation/story game about growing up in a church community, meeting characters, and advancing through dated objectives and dialogue."
+  },
+  {
+    "slug": "cinder-ring",
+    "title": "Cinder Ring",
+    "url": "https://cinderring.tech/",
+    "originalCategories": [
+      "Action"
+    ],
+    "categories": [
+      "Action",
+      "Multiplayer"
+    ],
+    "multiplayerMode": "Online multiplayer",
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "changed": true,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Action describes the spell-combat arena loop. Multiplayer is supported by explicit invite-friend room creation and join-by-code UI. Survival is not added as a generic last-player-standing label for an arena brawler.",
+    "reviewDirectory": "worker-3",
+    "mechanics": "A mage arena brawler where players cast projectiles and knockback spells on a crumbling floating ring. It supports solo bot matches, online rooms, invite-by-code rooms, and free-for-all or Tag Team formats."
+  },
+  {
+    "slug": "clunk-smash",
+    "title": "Clunk Smash",
+    "url": "https://clunk.games/en/smash",
+    "originalCategories": [
+      "Action"
+    ],
+    "categories": [
+      "Action",
+      "Arcade"
+    ],
+    "multiplayerMode": null,
+    "status": "documented_only",
+    "confidence": "medium",
+    "changed": true,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Action covers the real-time smash action; its waves and short high-score run also fit Arcade. Current input did not change the score or hearts.",
+    "reviewDirectory": "worker-4",
+    "mechanics": "Practice displays a character smashing falling blocks, with hearts, waves, and a score. Practice loaded Wave 1, but no hit response was confirmed."
+  },
+  {
+    "slug": "coin-collector-3d",
+    "title": "Coin Collector 3D",
+    "url": "https://notef.dreamcore.gg/coin-collector-3d/",
+    "originalCategories": [
+      "Action"
+    ],
+    "categories": [
+      "Action",
+      "Multiplayer"
+    ],
+    "multiplayerMode": "Online multiplayer",
+    "status": "documented_only",
+    "confidence": "high",
+    "changed": true,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Action describes the combat and Multiplayer is supported by explicit current online modes for human players. The short test did not establish that platform jumping is central enough to warrant a new category. Supervisor records current gameplay as unverified: the capture does not isolate a meaningful movement/weapon response from automatic run progression.",
+    "reviewDirectory": "worker-5",
+    "mechanics": "A 3D arena coin-collection game with jumping, punches, kicks, fireballs, and slime enemies. The menu offers solo play, an online free-for-all arena for up to 20, and play with friends."
+  },
+  {
+    "slug": "color-war",
+    "title": "Color War",
+    "url": "https://solider10.github.io/colorwar/",
+    "originalCategories": [
+      "Strategy"
+    ],
+    "categories": [
+      "Strategy",
+      "Multiplayer"
+    ],
+    "multiplayerMode": "Local 2-player",
+    "status": "documented_only",
+    "confidence": "high",
+    "changed": true,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Territory planning is Strategy. The explicit friend mode supports local human Multiplayer; the computer mode alone would not.",
+    "reviewDirectory": "worker-1",
+    "mechanics": "A tile-capture game: claim neighboring squares, expand territory, and compete against a computer; the live menu separately offers Play with a Friend."
+  },
+  {
+    "slug": "comet-cup",
+    "title": "Comet Cup",
+    "url": "https://legendary-faloodeh-080537.netlify.app/games/comet-cup/index.html",
+    "originalCategories": [
+      "Sports"
+    ],
+    "categories": [
+      "Racing",
+      "Multiplayer"
+    ],
+    "multiplayerMode": "Local 2-player",
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "changed": true,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Circuit placement and lap completion make Racing the primary category. The 2 PLAYER split-screen mode is actual local human multiplayer.",
+    "reviewDirectory": "worker-2",
+    "mechanics": "Eight-kart circuit racing with three-lap tracks, drifting, and turbo; the current game offers split-screen local two-player races."
+  },
+  {
+    "slug": "cowduction",
+    "title": "Cowduction",
+    "url": "https://cowduction.guibsonv.chatgpt.site/",
+    "originalCategories": [
+      "Action"
+    ],
+    "categories": [
+      "Action",
+      "Arcade",
+      "Shooter"
+    ],
+    "multiplayerMode": null,
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "changed": true,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Real-time beam combat fits Action; the short score-and-wave alien-shooting loop fits Arcade; Shooter identifies the central weapon-based play. Shooter is a proposed precise category absent from the current set.",
+    "reviewDirectory": "worker-3",
+    "mechanics": "A side-view arcade space shooter in which a cow-piloted UFO moves through an alien battlefield and fires a beam. The mission HUD tracks hull, beam force, alien resistance, wave/target progress, corridor progress, and score."
+  },
+  {
+    "slug": "cows-with-buns",
+    "title": "Cows With Buns",
+    "url": "https://cowswithbuns.stevenrouk.com/",
+    "originalCategories": [
+      "Action"
+    ],
+    "categories": [
+      "Action",
+      "Shooter"
+    ],
+    "multiplayerMode": null,
+    "status": "documented_only",
+    "confidence": "high",
+    "changed": true,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Action describes the real-time movement and bun-fire rescue loop. No short replayable score/timing loop was established, so Arcade is omitted. Supervisor added Shooter: first-party mechanics establish aiming/firing weapons as the core loop.",
+    "reviewDirectory": "worker-4",
+    "mechanics": "Side-view rescue/shooter: move and jump, fire buns at pens, and free animals who then follow and fire. First-party instructions list Arrow/A-D, Space/Up/W, and J/X controls."
+  },
+  {
+    "slug": "crew-run",
+    "title": "Crew Run",
+    "url": "https://claude.ai/artifact/WSVMA7xecUuBPL5wKkx62p",
+    "originalCategories": [
+      "Adventure"
+    ],
+    "categories": [
+      "Adventure"
+    ],
+    "multiplayerMode": null,
+    "status": "documented_only",
+    "confidence": "high",
+    "changed": false,
+    "acceptedRecommendation": true,
+    "accessIssue": "Current Claude artifact URL displays Page not found.",
+    "accessIssueType": "404",
+    "decisionRationale": "Adventure describes traveling through the festival venue and progressing toward stage sets. The friends are NPC companions in the prior test; no human multiplayer mode was observed.",
+    "reviewDirectory": "worker-5",
+    "mechanics": "Timed 3D festival outing: guide a small group of friends through a venue toward stage sets while managing time, tokens, points, and crew mood."
+  },
+  {
+    "slug": "cs-surf",
+    "title": "CS Surf",
+    "url": "https://surfd.net/",
+    "originalCategories": [
+      "Sports"
+    ],
+    "categories": [
+      "Racing"
+    ],
+    "multiplayerMode": null,
+    "status": "documented_only",
+    "confidence": "medium",
+    "changed": true,
+    "acceptedRecommendation": true,
+    "accessIssue": "The selected Boreas course remained at “Loading Boreas… / Loading map…” through the short retry.",
+    "accessIssueType": "loading",
+    "decisionRationale": "Timed routes, checkpoints, and course records fit Racing better than Sports: this is a Counter-Strike movement course, not a real-world surfing rules simulation. Online mode was not sufficient evidence for human multiplayer.",
+    "reviewDirectory": "worker-1",
+    "mechanics": "A first-person surf-course client lists linear and staged maps, checkpoints, solo/online modes, a local-best record, and mouse/keyboard controls. The selected Boreas map showed two checkpoints and remained at Loading map… during this visit."
+  },
+  {
+    "slug": "diablo",
+    "title": "Diablo",
+    "url": "https://johnimril.github.io/diablo_web/",
+    "originalCategories": [
+      "Adventure"
+    ],
+    "categories": [
+      "Action",
+      "Adventure"
+    ],
+    "multiplayerMode": null,
+    "status": "documented_only",
+    "confidence": "medium",
+    "changed": true,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Real-time combat is central (Action), while character, loot, and dungeon progression fit Adventure. The visible Multiplayer menu alone is insufficient to assign a human multiplayer tag for this browser port.",
+    "reviewDirectory": "worker-2",
+    "mechanics": "An isometric action role-playing dungeon game centered on real-time combat, loot, and progression through Tristram's dungeon."
+  },
+  {
+    "slug": "dili-cart",
+    "title": "Dili Cart",
+    "url": "https://dili-cart.pages.dev/",
+    "originalCategories": [
+      "Sports",
+      "Racing"
+    ],
+    "categories": [
+      "Racing",
+      "Multiplayer"
+    ],
+    "multiplayerMode": "Online multiplayer",
+    "status": "documented_only",
+    "confidence": "high",
+    "changed": true,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Racing is the central loop and is more accurate than Sports. Multiplayer is supported by the explicit Race friends / Room code option. The race is arcade-style, but no extra Arcade tag is needed to describe the kart competition. Supervisor records current gameplay as unverified: the capture does not isolate a meaningful movement/weapon response from automatic run progression.",
+    "reviewDirectory": "worker-3",
+    "mechanics": "A cartoon kart racing game with three-lap circuits, eight racers, drifts, items, lap timing, position, and score. Guest mode is available; Race friends exposes room-code play."
+  },
+  {
+    "slug": "dino-souls",
+    "title": "Dino Souls",
+    "url": "https://updateddino.xyz/",
+    "originalCategories": [
+      "Action"
+    ],
+    "categories": [
+      "Action",
+      "Multiplayer"
+    ],
+    "multiplayerMode": "Online multiplayer",
+    "status": "documented_only",
+    "confidence": "high",
+    "changed": true,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Action fits the combat; documented human teams/private rooms justify Multiplayer. Current review used the solo route and did not join a match.",
+    "reviewDirectory": "worker-4",
+    "mechanics": "The first-party Arena page describes human 2v2 rounds, revives, public quick match, and private friend rooms. The separate solo boss rush documents jump, bite, roll, and three flasks per fight."
+  },
+  {
+    "slug": "dirtline",
+    "title": "DIRTLINE",
+    "url": "https://dirtline.pages.dev/?v=2",
+    "originalCategories": [
+      "Arcade"
+    ],
+    "categories": [
+      "Racing"
+    ],
+    "multiplayerMode": null,
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "changed": true,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "The timed checkpoint course is a racing/time-course loop, so Racing is more accurate than the current broad Arcade category. No opponent is needed for a time-course category under the review definitions.",
+    "reviewDirectory": "worker-5",
+    "mechanics": "Ride a motocross bike along a timed canyon course with checkpoints. The instructions emphasize throttle, braking, shifting the rider's weight, and controlling the bike in the air."
+  },
+  {
+    "slug": "disco-dino-lost-worlds",
+    "title": "DiscoDino: Lost Worlds",
+    "url": "https://discodino.netlify.app/",
+    "originalCategories": [
+      "Adventure"
+    ],
+    "categories": [
+      "Adventure"
+    ],
+    "multiplayerMode": null,
+    "status": "documented_only",
+    "confidence": "medium",
+    "changed": false,
+    "acceptedRecommendation": true,
+    "accessIssue": "Two clicks on the visible Play control left the game on its title screen in this browser session.",
+    "accessIssueType": "loading",
+    "decisionRationale": "Exploration and discovery are the supported existing Adventure loop. The page does not establish a separate puzzle or educational mode strongly enough to add a tag.",
+    "reviewDirectory": "worker-1",
+    "mechanics": "Pixel-art exploration game introduced as discovering a prehistoric world; the title screen shows an explorer, habitat, and a Play control."
+  },
+  {
+    "slug": "dliclips-rush",
+    "title": "DliClips Rush",
+    "url": "https://dliclips-rush.netlify.app/",
+    "originalCategories": [
+      "Arcade"
+    ],
+    "categories": [
+      "Arcade"
+    ],
+    "multiplayerMode": null,
+    "status": "documented_only",
+    "confidence": "medium",
+    "changed": false,
+    "acceptedRecommendation": true,
+    "accessIssue": "Continuing as guest would publish a nickname/avatar and best scores publicly; the audit stopped before supplying identity or score data.",
+    "accessIssueType": "public-leaderboard",
+    "decisionRationale": "The game is a fast sequence of short reflex/tap challenges, which matches Arcade. A leaderboard is not multiplayer.",
+    "reviewDirectory": "worker-2",
+    "mechanics": "A rapid sequence of short clip challenges scored through repeated taps; guest nickname, avatar, and best scores are displayed publicly on a global leaderboard."
+  },
+  {
+    "slug": "dlicom-attack",
+    "title": "Dlicom Attack",
+    "url": "https://dlicom-attack.vercel.app/",
+    "originalCategories": [
+      "Strategy"
+    ],
+    "categories": [
+      "Strategy"
+    ],
+    "multiplayerMode": null,
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "changed": false,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Strategy fits the node-routing, automatic battle, and deliberate skill-build choices. The first-party UI did not show a human multiplayer mode; no additional genre category is needed for this loop.",
+    "reviewDirectory": "worker-3",
+    "mechanics": "A roguelite auto-battler in which the player routes through nodes in a corrupted network, lets Dili fight automatically, collects Bits, and chooses run-specific skills to shape the build."
+  },
+  {
+    "slug": "doge-rally",
+    "title": "Doge Rally",
+    "url": "https://slate-juniper-arch-drum.grok.me/",
+    "originalCategories": [
+      "Sports"
+    ],
+    "categories": [
+      "Sports",
+      "Arcade",
+      "Multiplayer"
+    ],
+    "multiplayerMode": "Local 2-player",
+    "status": "documented_only",
+    "confidence": "high",
+    "changed": true,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Sports describes rally rules, Arcade the short reflex loop, and the explicit local two-human control option supports Multiplayer.",
+    "reviewDirectory": "worker-4",
+    "mechanics": "Pong-style coin rally against the computer, with a separate two-player shared-phone mode. Versus the machine displayed a 0–0 rally HUD."
+  },
+  {
+    "slug": "dracula-0",
+    "title": "Dracula 0",
+    "url": "https://dracula-0.vercel.app/",
+    "originalCategories": [
+      "Action",
+      "Adventure"
+    ],
+    "categories": [
+      "Action",
+      "Adventure"
+    ],
+    "multiplayerMode": null,
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "changed": false,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Action describes the combat and Adventure describes the staged exploration and story progression. The tested opening did not establish platform jumping as a core mechanic that would require a new Platformer category.",
+    "reviewDirectory": "worker-5",
+    "mechanics": "Pixel-art side-scrolling action adventure with staged progression, dialogue, health, a whip attack, and candle/sigil interactions."
+  },
+  {
+    "slug": "drawdown",
+    "title": "Drawdown",
+    "url": "https://drawdown-game.vercel.app/",
+    "originalCategories": [
+      "Puzzle"
+    ],
+    "categories": [
+      "Puzzle"
+    ],
+    "multiplayerMode": null,
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "changed": false,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "The goal is to solve a constrained pattern/sequence using loom controls, which fits Puzzle. There is no need for a new crafting category.",
+    "reviewDirectory": "worker-1",
+    "mechanics": "A weaving logic puzzle asks the player to configure warp threads, shafts, and treadles in order to produce a target cloth pattern. Clicking gold-box loom dots visibly changed the cloth and loom configuration."
+  },
+  {
+    "slug": "duel-in-the-great-hall",
+    "title": "Duel in the Great Hall",
+    "url": "https://claude.ai/artifact/PBxLGdivoetPfPiukZjJHu",
+    "originalCategories": [
+      "Action"
+    ],
+    "categories": [
+      "Action"
+    ],
+    "multiplayerMode": null,
+    "status": "documented_only",
+    "confidence": "medium",
+    "changed": false,
+    "acceptedRecommendation": true,
+    "accessIssue": "The assigned Claude artifact URL returns Page not found.",
+    "accessIssueType": "404",
+    "decisionRationale": "The supplied game description identifies direct arena combat against CPU, which matches Action; a CPU is not human multiplayer.",
+    "reviewDirectory": "worker-2",
+    "mechanics": "A short fantasy arena fighter: fight a CPU opponent over a best-of-three set of rounds."
+  },
+  {
+    "slug": "dust-and-lead",
+    "title": "Dust & Lead",
+    "url": "https://inkstaid.github.io/dust-and-lead/",
+    "originalCategories": [
+      "Action"
+    ],
+    "categories": [
+      "Platformer",
+      "Action",
+      "Shooter"
+    ],
+    "multiplayerMode": null,
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "changed": true,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Platformer is the title-screen genre and is supported by side-view traversal and the explicit jump control. Action and Shooter describe the active gun/knife combat. Platformer and Shooter are proposed because the existing catalog categories do not name these distinct core mechanics precisely; no score-chasing or other Arcade loop was observed.",
+    "reviewDirectory": "worker-3",
+    "mechanics": "A side-scrolling Wild West platformer. Jack moves along a horizontal course, traverses obstacles, jumps, and fights with revolver/shotgun and knife; the opening mission says the Crowe boys took his horse."
+  },
+  {
+    "slug": "earth-defender",
+    "title": "EARTH DEFENDER",
+    "url": "https://apex-slate-spring-otter.grok.me/",
+    "originalCategories": [
+      "Action"
+    ],
+    "categories": [
+      "Action",
+      "Shooter"
+    ],
+    "multiplayerMode": null,
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "changed": true,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Action fits the manual aim-and-fire loop. No deployable defenses are shown, so Tower Defense would mislabel the mechanics. Supervisor added Shooter: first-party mechanics establish aiming/firing weapons as the core loop.",
+    "reviewDirectory": "worker-4",
+    "mechanics": "Wave-based Earth defense: choose a laser, guided missile, or cannon; move and manually aim the battery. A current playfield click visibly launched guided missiles."
+  },
+  {
+    "slug": "falling-bubbles",
+    "title": "Falling Bubbles",
+    "url": "https://falling-bubbles.vercel.app/",
+    "originalCategories": [
+      "Puzzle"
+    ],
+    "categories": [
+      "Arcade",
+      "Multiplayer",
+      "Shooter"
+    ],
+    "multiplayerMode": "Local 2-player",
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "changed": true,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "The score/reflex shooting loop fits Arcade, and the game explicitly supports a second local human player. Puzzle is misleading because the main challenge is aiming and dodging, not logic solving. Supervisor added Shooter: first-party mechanics establish aiming/firing weapons as the core loop.",
+    "reviewDirectory": "worker-5",
+    "mechanics": "A Pang-style reflex shooter: aim a harpoon at descending bubbles that split into smaller bubbles, avoid contact, and survive while scoring. Player 1 uses arrows/Space; Player 2 can join locally with WASD/Left Shift."
+  },
+  {
+    "slug": "faux-ami",
+    "title": "Faux Ami",
+    "url": "https://faux-ami-french-game.vercel.app/",
+    "originalCategories": [
+      "Puzzle"
+    ],
+    "categories": [
+      "Puzzle",
+      "Educational"
+    ],
+    "multiplayerMode": null,
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "changed": true,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Short word-meaning decisions fit the existing Puzzle category. A separate Educational category is not necessary to describe this multiple-choice word game. Supervisor adds Educational for the observed arithmetic/language knowledge practice, consistent with the newly accepted definition.",
+    "reviewDirectory": "worker-1",
+    "mechanics": "A French false-friend quiz presents a French word and asks the player to pick its true English meaning. Selecting chocolate for chocolat produced the correct-answer card and increased the streak from 0 to 1."
+  },
+  {
+    "slug": "flagfield",
+    "title": "Flagfield",
+    "url": "https://flag-field.grok.me/",
+    "originalCategories": [
+      "Puzzle"
+    ],
+    "categories": [
+      "Puzzle",
+      "Multiplayer"
+    ],
+    "multiplayerMode": "Online multiplayer",
+    "status": "documented_only",
+    "confidence": "medium",
+    "changed": true,
+    "acceptedRecommendation": true,
+    "accessIssue": "Sign-in is required to choose a lobby username and join a human match; the AI setup is accessible without signing in.",
+    "accessIssueType": "sign-in",
+    "decisionRationale": "The game is a mine-logic puzzle; explicit random online human opponents justify Multiplayer as a secondary category.",
+    "reviewDirectory": "worker-2",
+    "mechanics": "A competitive Minesweeper-like puzzle: reveal cells and flag mines; the live lobby offers matches against AI and random online humans."
+  },
+  {
+    "slug": "flap-nyc",
+    "title": "Flap NYC",
+    "url": "https://flapnyc.kumodeck.app/",
+    "originalCategories": [
+      "Arcade"
+    ],
+    "categories": [
+      "Arcade"
+    ],
+    "multiplayerMode": null,
+    "status": "gameplay_verified",
+    "confidence": "medium",
+    "changed": false,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Arcade accurately describes the short one-button timing/reflex flight and block-score loop. No second existing category adds a more precise core mechanic.",
+    "reviewDirectory": "worker-3",
+    "mechanics": "A one-button flappy-flight obstacle game: a pigeon crosses a scrolling Manhattan skyline by tapping to flap, with block-count scoring and landmarks such as Brooklyn Bridge."
+  },
+  {
+    "slug": "fleet-horizon",
+    "title": "Fleet Horizon",
+    "url": "https://defense.aizoo.one/",
+    "originalCategories": [
+      "Action"
+    ],
+    "categories": [
+      "Action",
+      "Shooter"
+    ],
+    "multiplayerMode": null,
+    "status": "documented_only",
+    "confidence": "high",
+    "changed": true,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Manual coastal-gun combat fits Action. No buildable/deployable defenses were observed, so Tower Defense is not supported. Supervisor added Shooter: first-party mechanics establish aiming/firing weapons as the core loop.",
+    "reviewDirectory": "worker-4",
+    "mechanics": "First-party page describes a coastal battery against ships, aircraft, and landing forces, with five weapon classes and mouse aiming. Current attempt stayed at mission selection/deployment."
+  },
+  {
+    "slug": "fluffy-chase",
+    "title": "Fluffy Chase",
+    "url": "https://the-file-fluffy-chase.morning-rice-8034.workers.dev/",
+    "originalCategories": [
+      "Action"
+    ],
+    "categories": [
+      "Action",
+      "Adventure",
+      "Multiplayer"
+    ],
+    "multiplayerMode": "Online multiplayer",
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "changed": true,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Action describes the chase/yarn ability play, Adventure describes exploration and mission progression through the city, and Multiplayer is supported by the live 'play with others' mode. The online mode itself was not tested.",
+    "reviewDirectory": "worker-5",
+    "mechanics": "Third-person 3D city mission game. Case 01 asks the player to reach a yellow taxi and fire yarn to make it fluffy; the UI also offers online play with others. Controls include movement, inspection, jumping, and a yarn/special action."
+  },
+  {
+    "slug": "fly-pieter",
+    "title": "fly.pieter.com",
+    "url": "https://fly.pieter.com",
+    "originalCategories": [
+      "Simulators",
+      "Multiplayer"
+    ],
+    "categories": [
+      "Simulators",
+      "Multiplayer"
+    ],
+    "multiplayerMode": "Online multiplayer",
+    "status": "documented_only",
+    "confidence": "high",
+    "changed": false,
+    "acceptedRecommendation": true,
+    "accessIssue": "Joining requires entering a display name and completing a Cloudflare human-verification challenge; neither was used.",
+    "accessIssueType": "other",
+    "decisionRationale": "Flight simulation is the primary loop and the first-party page explicitly calls the game an MMO, supporting actual online Multiplayer. No attempt was made to create a name or solve a verification challenge.",
+    "reviewDirectory": "worker-1",
+    "mechanics": "A free-to-play MMO flight simulator with shared live-flight radar and aircraft controls; the current join screen asks for an in-game display name and a Cloudflare human-verification check."
+  },
+  {
+    "slug": "flycard",
+    "title": "FlyCard",
+    "url": "https://takedaiori.github.io/flycardgame/",
+    "originalCategories": [
+      "Strategy"
+    ],
+    "categories": [
+      "Strategy"
+    ],
+    "multiplayerMode": null,
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "changed": false,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Card selection and positioning are tactical decisions, so Strategy is the best fit. The current screen labels the opponent AI, not a human player.",
+    "reviewDirectory": "worker-2",
+    "mechanics": "A turn-based card duel against an AI, where the player drags cards backward to deploy them into a tabletop battle."
+  },
+  {
+    "slug": "footballmon",
+    "title": "Footballmon",
+    "url": "https://footballmon.satinyhero4.chatgpt.site/",
+    "originalCategories": [
+      "Sports"
+    ],
+    "categories": [
+      "Sports",
+      "Strategy",
+      "Simulators"
+    ],
+    "multiplayerMode": null,
+    "status": "gameplay_verified",
+    "confidence": "medium",
+    "changed": true,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Sports is the subject and position structure. Strategy captures drafting/assigning a 22-player team and choosing defense/offensive structure; Simulators captures the stated experimental season-simulation result. The season feature is first-party documented but its result was not run in this review.",
+    "reviewDirectory": "worker-3",
+    "mechanics": "A Pokémon American-football team-building and season simulator. The player drafts 22 Pokémon into football positions, selects defensive formations and offensive personnel, and simulates season results. The first-party page describes the season simulation as experimental."
+  },
+  {
+    "slug": "foundry",
+    "title": "FOUNDRY",
+    "url": "https://games.jimmychandra.com/games/foundry/",
+    "originalCategories": [
+      "Puzzle"
+    ],
+    "categories": [
+      "Puzzle"
+    ],
+    "multiplayerMode": null,
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "changed": false,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Directly observed Sokoban-like manipulation and counters support Puzzle.",
+    "reviewDirectory": "worker-4",
+    "mechanics": "Box-pushing puzzle; after arrow inputs the HUD changed from 0 moves / 0 pushes to 2 moves / 1 push."
+  },
+  {
+    "slug": "freesbee",
+    "title": "Freesbee",
+    "url": "https://okidoki9903.github.io/Freesbee/",
+    "originalCategories": [
+      "Arcade"
+    ],
+    "categories": [
+      "Sports",
+      "Arcade"
+    ],
+    "multiplayerMode": null,
+    "status": "documented_only",
+    "confidence": "medium",
+    "changed": true,
+    "acceptedRecommendation": true,
+    "accessIssue": "The scene rendered at launch, but after input the capture became a solid green canvas, preventing visual confirmation of live play.",
+    "accessIssueType": "other",
+    "decisionRationale": "Sports fits the frisbee/dog-disc activity; Arcade is meaningful for the short timed score-and-reflex round. The current post-input render issue keeps this classification documented-only in this review.",
+    "reviewDirectory": "worker-5",
+    "mechanics": "Timed dog-disc catching game: run, jump, and sprint under a thrown frisbee while the timer and score track attempts."
+  },
+  {
+    "slug": "gigacity",
+    "title": "Gigacity",
+    "url": "https://sael.net/gigacity",
+    "originalCategories": [
+      "Simulators"
+    ],
+    "categories": [
+      "Simulators"
+    ],
+    "multiplayerMode": null,
+    "status": "documented_only",
+    "confidence": "medium",
+    "changed": false,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "The city-and-flight sandbox models a navigable urban system; it has no race, opponent, or strategy objective. Simulators is the closest existing tag.",
+    "reviewDirectory": "worker-1",
+    "mechanics": "A generated 3D city viewed while flying, with camera and sky settings plus steering, orbit, turbo, and hover controls. The city HUD exposes changing tower, traffic, and rendering metrics."
+  },
+  {
+    "slug": "go-for-launch",
+    "title": "A71 // GO FOR LAUNCH",
+    "url": "https://go4launch.grok.me/",
+    "originalCategories": [
+      "Arcade"
+    ],
+    "categories": [
+      "Arcade"
+    ],
+    "multiplayerMode": null,
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "changed": false,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Arcade fits the brief score/reflex loop; no race competitors or course result were observed.",
+    "reviewDirectory": "worker-4",
+    "mechanics": "Short timed score challenge: steer a rocket-powered car and vent to hop; measured score and location changed during controls."
+  },
+  {
+    "slug": "golden-tide",
+    "title": "Golden Tide",
+    "url": "https://sundyme.github.io/golden-tide-play",
+    "originalCategories": [
+      "Casual"
+    ],
+    "categories": [
+      "Casual"
+    ],
+    "multiplayerMode": null,
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "changed": false,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "This is a low-pressure coin-pusher loop; Casual fits the existing categories better than Arcade or Gambling-like labels.",
+    "reviewDirectory": "worker-2",
+    "mechanics": "A coin-pusher: drop virtual coins onto a moving playfield, push coins toward rewards, and pursue treasure-map goals."
+  },
+  {
+    "slug": "gta-5",
+    "title": "GTA 5",
+    "url": "https://web.archive.org/web/20261006055917/https://playgta5.com/",
+    "originalCategories": [
+      "Simulators"
+    ],
+    "categories": [
+      "Simulators"
+    ],
+    "multiplayerMode": null,
+    "status": "unresolved",
+    "confidence": "low",
+    "changed": false,
+    "acceptedRecommendation": false,
+    "accessIssue": "The archived shell loaded, but its black game canvas stalled at 6% after 52 seconds and displayed a no-progress / possible out-of-memory warning.",
+    "accessIssueType": "loading",
+    "decisionRationale": "Insufficient admissible evidence for a correction; retain the original categories. Keep the existing Simulation label provisionally with unresolved status. Although the original game has official open-world/story/mission descriptions, the archived browser recreation did not reach playable content, and its title/menu alone do not establish that it implements the original mechanics. No correction or Multiplayer tag is supported in this review.",
+    "reviewDirectory": "worker-3",
+    "mechanics": "The archived page shows GTA V branding and Sandbox Mode / Story Mode plus GTA V Map / GTA VI Map choices. The browser recreation did not reach a playable scene in this review, so its mechanics are unverified."
+  },
+  {
+    "slug": "gta-vice-city",
+    "title": "GTA Vice City",
+    "url": "https://joncodeofficial.github.io/gta-vice-city-wasm",
+    "originalCategories": [
+      "Simulators"
+    ],
+    "categories": [
+      "Action",
+      "Adventure"
+    ],
+    "multiplayerMode": null,
+    "status": "documented_only",
+    "confidence": "medium",
+    "changed": true,
+    "acceptedRecommendation": true,
+    "accessIssue": "The port requires the player’s own game.tar.gz before Start; no game files were supplied. The current port page says the data is not included.",
+    "accessIssueType": "game-copy-required",
+    "decisionRationale": "Original first-party materials support Action (gunplay) and Adventure (open-city narrative/progression). This corrects the current Simulation tag even though the browser port is blocked until the user supplies game files.",
+    "reviewDirectory": "worker-4",
+    "mechanics": "The browser port requires a local game.tar.gz from a legitimate copy. Rockstar’s official game page describes a large city, non-linear play, and a character-driven rise-to-power story; its official controls guide documents shooting and scoped weapons."
+  },
+  {
+    "slug": "halberd-flight-range",
+    "title": "HALBERD FLIGHT RANGE",
+    "url": "https://claude.ai/artifact/KsDAsLriC91Yc3SiSSNUU4",
+    "originalCategories": [
+      "Simulators"
+    ],
+    "categories": [
+      "Simulators"
+    ],
+    "multiplayerMode": null,
+    "status": "documented_only",
+    "confidence": "high",
+    "changed": false,
+    "acceptedRecommendation": true,
+    "accessIssue": "Current Claude artifact URL returned Page not found on initial navigation and retry.",
+    "accessIssueType": "404",
+    "decisionRationale": "The first-party description and dated flight-state receipt support Simulators. The category maps to the catalog's existing Simulation alias. Current access is unavailable, so the recommendation is documented-only.",
+    "reviewDirectory": "worker-5",
+    "mechanics": "Apache-class helicopter flight-model and firing-range prototype; a prior direct test used keyboard-only flight controls and tracked speed, altitude, heading, thrust, and vertical speed."
+  },
+  {
+    "slug": "half-life",
+    "title": "Half Life",
+    "url": "https://pixelsuft.github.io/hl/",
+    "originalCategories": [
+      "Action"
+    ],
+    "categories": [
+      "Action",
+      "Shooter"
+    ],
+    "multiplayerMode": null,
+    "status": "documented_only",
+    "confidence": "medium",
+    "changed": true,
+    "acceptedRecommendation": true,
+    "accessIssue": "The Emscripten port remained on an incomplete Memory size settings screen after the loading allowance.",
+    "accessIssueType": "loading",
+    "decisionRationale": "Half-Life is a real-time combat shooter, accurately covered by Action. No new Shooter category is needed for this title. Supervisor added Shooter: first-party mechanics establish aiming/firing weapons as the core loop.",
+    "reviewDirectory": "worker-1",
+    "mechanics": "The supplied page identifies itself as an Xash3D FWGS Emscripten port of Half-Life. Its first-party port screen stayed at Settings: Memory size: with no playable HUD or controls."
+  },
+  {
+    "slug": "half-life-cs-16",
+    "title": "Half Life / CS 1.6",
+    "url": "https://x8bitrain.github.io/webXash/",
+    "originalCategories": [
+      "Action"
+    ],
+    "categories": [
+      "Action",
+      "Shooter"
+    ],
+    "multiplayerMode": null,
+    "status": "documented_only",
+    "confidence": "medium",
+    "changed": true,
+    "acceptedRecommendation": true,
+    "accessIssue": "The current WebXash page did not include the Counter-Strike game data; it asks the player to provide a game folder or ZIP before a game can run.",
+    "accessIssueType": "game-copy-required",
+    "decisionRationale": "The underlying games are first-person shooters with real-time combat. Action fits the broad existing category; proposed Shooter expresses the core gun-based perspective more clearly. Do not infer browser-port multiplayer while no game is loaded.",
+    "reviewDirectory": "worker-2",
+    "mechanics": "A WebXash port front end for Half-Life/Counter-Strike, both first-person shooters; the current launch path requires user-supplied game data or ZIP files."
+  },
+  {
+    "slug": "halo-ce",
+    "title": "Halo CE",
+    "url": "https://mitchellhynes.com/halo",
+    "originalCategories": [
+      "Action"
+    ],
+    "categories": [
+      "Action",
+      "Shooter",
+      "Multiplayer"
+    ],
+    "multiplayerMode": "Online multiplayer",
+    "status": "documented_only",
+    "confidence": "medium",
+    "changed": true,
+    "acceptedRecommendation": true,
+    "accessIssue": "The first-party site states it does not provide Halo game data and requires the player to choose an XISO made from their own Xbox copy; no playable game scene was available without that file.",
+    "accessIssueType": "game-copy-required",
+    "decisionRationale": "Action fits the documented real-time combat controls. Shooter is a more precise descriptor for the first-person mouse-aim and weapon-control interface and is proposed as a new taxonomy category. Multiplayer is supported by explicit online invite/link/create-room/join-game features, not merely a “Play Online” button. Actual play and multiplayer were not exercised because the page requires a user-owned XISO.",
+    "reviewDirectory": "worker-3",
+    "mechanics": "The Halo CE web port documents first-person movement and mouse aiming with left/right-mouse weapon controls, and presents online multiplayer with invite-link, room, join-game and player-name controls. Play requires a Halo XISO made from the visitor’s own Xbox copy."
+  },
+  {
+    "slug": "halo-ce-mobile",
+    "title": "Halo CE mobile",
+    "url": "https://hcemobile.com/",
+    "originalCategories": [
+      "Action"
+    ],
+    "categories": [
+      "Action",
+      "Multiplayer",
+      "Shooter"
+    ],
+    "multiplayerMode": "Online multiplayer",
+    "status": "documented_only",
+    "confidence": "high",
+    "changed": true,
+    "acceptedRecommendation": true,
+    "accessIssue": "Requires the player’s own Halo CE Xbox disc image before play. Online additionally requires an account, which was not created or used.",
+    "accessIssueType": "game-copy-required",
+    "decisionRationale": "Action describes the first-person combat game. Explicit human ranked matchmaking and host/join custom lobbies justify Multiplayer; online mode is documented but was not entered. Supervisor added Shooter: first-party mechanics establish aiming/firing weapons as the core loop.",
+    "reviewDirectory": "worker-4",
+    "mechanics": "The first-party page describes the full Halo: Combat Evolved campaign and multiplayer, ranked playlists/matchmaking, and custom-game lobbies players can host, join, and invite friends to."
+  },
+  {
+    "slug": "heritage-walk-ethiopia",
+    "title": "Heritage Walk: Ethiopia",
+    "url": "https://heritage-walk-zeamekonnen-gmailcoms-projects.vercel.app/",
+    "originalCategories": [
+      "Adventure"
+    ],
+    "categories": [
+      "Adventure"
+    ],
+    "multiplayerMode": null,
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "changed": false,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Adventure best captures the on-foot exploration and landmark collection across sites. The heritage facts add educational content but the existing Adventure category describes the playable loop without a new category.",
+    "reviewDirectory": "worker-5",
+    "mechanics": "Explore 3D models of Ethiopian World Heritage sites on foot, discover three landmarks per site, and collect passport stamps; the game also contains factual heritage descriptions."
+  },
+  {
+    "slug": "heroes-journey",
+    "title": "Heroes Journey",
+    "url": "https://heroezjourney.com/",
+    "originalCategories": [
+      "Action"
+    ],
+    "categories": [
+      "Action",
+      "Adventure",
+      "Platformer"
+    ],
+    "multiplayerMode": null,
+    "status": "documented_only",
+    "confidence": "high",
+    "changed": true,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Action covers the real-time combat and Adventure covers the road/progression. Platform traversal is a substantial genre element missing from the current category set, so Platformer is proposed as a new category if the owner approves a shared category expansion. Supervisor accepts the shared Platformer expansion for documented side-view jump/climb traversal.",
+    "reviewDirectory": "worker-1",
+    "mechanics": "A side-view combat journey with sword combos, parry, crossbow, dodge, sprint-kick, jumping, climbing, and gliding; the page shows a Wildwood Road combat scene and detailed controls."
+  },
+  {
+    "slug": "hidamari-pond",
+    "title": "Hidamari Pond",
+    "url": "https://seicolor.github.io/hidamari-numa-site/play/?place=numa",
+    "originalCategories": [
+      "Simulators"
+    ],
+    "categories": [
+      "Simulators"
+    ],
+    "multiplayerMode": null,
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "changed": false,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Fishing tools, water depth, and catch tasks simulate a real-world activity; Simulation is the right existing catalog category (displayed as Simulators in browse).",
+    "reviewDirectory": "worker-2",
+    "mechanics": "A tranquil fishing simulation with rod/bait selection, casting, water depth, and fishing tasks."
+  },
+  {
+    "slug": "hungry-seal",
+    "title": "Hungry Seal",
+    "url": "https://hungry-seal.horly.dev/",
+    "originalCategories": [
+      "Arcade"
+    ],
+    "categories": [
+      "Arcade",
+      "Survival"
+    ],
+    "multiplayerMode": null,
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "changed": true,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Arcade captures the short per-run score/combo and mission loop. Survival is also warranted because the first-party game explicitly makes continuously draining hunger a resource pressure while larger prey are hazards. No Multiplayer or generic Action tag is needed.",
+    "reviewDirectory": "worker-3",
+    "mechanics": "A score/combo arcade swimming game with a continuously draining hunger bar: steer a seal to eat fish smaller than itself, grow, collect coins, and avoid prey that is too large. Missions track fish eaten, score, and seabirds caught per run."
+  },
+  {
+    "slug": "ink-dash",
+    "title": "Ink Dash",
+    "url": "https://rajpurohitkushal92.github.io/khnix-game-12/",
+    "originalCategories": [
+      "Action",
+      "Survival"
+    ],
+    "categories": [
+      "Action",
+      "Arcade",
+      "Shooter"
+    ],
+    "multiplayerMode": null,
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "changed": true,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Action is the shooter loop; Arcade describes short score/wave play. Supervisor added Shooter: first-party mechanics establish aiming/firing weapons as the core loop.",
+    "reviewDirectory": "worker-4",
+    "mechanics": "After Start, the arena showed WASD movement, mouse aim/fire, and Space dash; score changed 0→13 during the control sequence."
+  },
+  {
+    "slug": "island-survivor",
+    "title": "Island Survivor",
+    "url": "https://ja.sperdeboer.nl/island/",
+    "originalCategories": [
+      "Survival"
+    ],
+    "categories": [
+      "Survival"
+    ],
+    "multiplayerMode": null,
+    "status": "documented_only",
+    "confidence": "medium",
+    "changed": false,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Survival remains the clearest fit for an island game with health, day progression, inventory, crafting, and building. The short sample did not verify resource pressure strongly enough to add Adventure, Simulators, or Strategy.",
+    "reviewDirectory": "worker-5",
+    "mechanics": "Desert-island survival scenario with health, time/day, resource slots, and a help panel describing the island systems."
+  },
+  {
+    "slug": "jamo-jump",
+    "title": "Jamo Jump",
+    "url": "https://jamojump.app/",
+    "originalCategories": [
+      "Puzzle"
+    ],
+    "categories": [
+      "Puzzle"
+    ],
+    "multiplayerMode": null,
+    "status": "documented_only",
+    "confidence": "high",
+    "changed": false,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Word construction and route solving make Puzzle the accurate existing category; it is not a reflex action game merely because the horse moves.",
+    "reviewDirectory": "worker-1",
+    "mechanics": "A Hangul word puzzle asks players to move a horse from a start consonant to a flag consonant by finding two-syllable Korean words. Current practice screen explains a consonant-jump puzzle and shows practice 1/10."
+  },
+  {
+    "slug": "k-dudu-ironfang",
+    "title": "K-DUDU: Ironfang",
+    "url": "https://oasis-winter-blade-thunder.grok.me/",
+    "originalCategories": [
+      "Action"
+    ],
+    "categories": [
+      "Platformer",
+      "Action"
+    ],
+    "multiplayerMode": null,
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "changed": true,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Jumping across ledges is a defining core mechanic and is not named by an existing category, so Platformer is proposed; Action covers the meaningful combat layer.",
+    "reviewDirectory": "worker-2",
+    "mechanics": "A side-view pixel platform game built around jumping between ledges and fighting armored enemies with attacks and special moves."
+  },
+  {
+    "slug": "kettu-vellam",
+    "title": "Kettu-Vellam",
+    "url": "https://kettuvellam.com/",
+    "originalCategories": [
+      "Racing"
+    ],
+    "categories": [
+      "Racing"
+    ],
+    "multiplayerMode": null,
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "changed": false,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Racing precisely describes the three-lap course and lap-record loop. Open-world roaming is a documented side mode but was not shown to be the central game loop; no human multiplayer is presented.",
+    "reviewDirectory": "worker-3",
+    "mechanics": "A 3D Kerala snake-boat racing game with multiple boats, a three-lap race, three backwater courses, selectable boat characteristics, rival difficulty, throttle/steer/brake/boost controls, and a separate open-world roam mode."
+  },
+  {
+    "slug": "kindlekeep-td",
+    "title": "Kindlekeep TD",
+    "url": "https://kindlekeep.vercel.app/",
+    "originalCategories": [
+      "Strategy",
+      "Tower Defense"
+    ],
+    "categories": [
+      "Strategy",
+      "Tower Defense"
+    ],
+    "multiplayerMode": null,
+    "status": "documented_only",
+    "confidence": "high",
+    "changed": false,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Tower Defense describes holding the vale against waves; Strategy describes choosing and upgrading defenses. No gameplay correction beyond those documented mechanics is needed.",
+    "reviewDirectory": "worker-4",
+    "mechanics": "First-party campaign copy and menu describe fixed-lane defense against waves, alongside campaign, endless, and daily modes. The current attempt reached the campaign map, not a tower-placement/wave screen."
+  },
+  {
+    "slug": "kreuz-adler",
+    "title": "Kreuz & Adler",
+    "url": "https://kreuzundadlerspiel.grok.me/en",
+    "originalCategories": [
+      "Strategy"
+    ],
+    "categories": [
+      "Strategy"
+    ],
+    "multiplayerMode": null,
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "changed": false,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Strategy directly describes the main loop of choosing a realm and issuing territorial orders. No explicit human multiplayer support was shown, so Multiplayer is not inferred from the multiple computer-controlled realms.",
+    "reviewDirectory": "worker-5",
+    "mechanics": "Turn-based territorial strategy game set in 1227. Choose a court/faction, then allocate marches, contest or attack neighboring lands, play cards, and end turns across a map of European realms."
+  },
+  {
+    "slug": "lantern-isle",
+    "title": "Lantern Isle",
+    "url": "https://games.jimmychandra.com/games/lantern_isle/",
+    "originalCategories": [
+      "Action"
+    ],
+    "categories": [
+      "Adventure",
+      "Platformer"
+    ],
+    "multiplayerMode": null,
+    "status": "documented_only",
+    "confidence": "medium",
+    "changed": true,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Exploring a shipwrecked island and completing the lighthouse objective fits Adventure. Its side-view jumping/climbing traversal motivates a proposed Platformer category; current Action is unsupported because no combat is shown. Supervisor accepts the shared Platformer expansion for documented side-view jump/climb traversal.",
+    "reviewDirectory": "worker-1",
+    "mechanics": "A side-view island exploration game opens with a wrecked boat and a lighthouse objective; visible controls include move/climb, jump, pick up/use, drop, and hint."
+  },
+  {
+    "slug": "lantern-walk",
+    "title": "Lantern Walk",
+    "url": "https://sail-giant-wave-tiger.grok.me/",
+    "originalCategories": [
+      "Casual"
+    ],
+    "categories": [
+      "Puzzle",
+      "Casual"
+    ],
+    "multiplayerMode": null,
+    "status": "documented_only",
+    "confidence": "medium",
+    "changed": true,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Finding the requested object is a light visual puzzle, with a relaxed tone that also fits Casual; movement alone does not justify Adventure.",
+    "reviewDirectory": "worker-2",
+    "mechanics": "A gentle Halloween hidden-object game: match a prompted item such as a light/lantern among yard decorations, then continue walking through scenes."
+  },
+  {
+    "slug": "lava-lasso",
+    "title": "Lava Lasso",
+    "url": "https://sloptopia.gooooooooor.chatgpt.site/games/lava-lasso.html?from=sloptopia",
+    "originalCategories": [
+      "Action"
+    ],
+    "categories": [
+      "Action",
+      "Platformer",
+      "Survival"
+    ],
+    "multiplayerMode": null,
+    "status": "gameplay_verified",
+    "confidence": "medium",
+    "changed": true,
+    "acceptedRecommendation": true,
+    "accessIssue": "The game page loaded, but pointer-lock capture reported “The root document of this element is not valid for pointer lock.” W advanced the tutorial once, while Space did not advance the jump step, so full control was not verified in this headless session.",
+    "accessIssueType": "pointer-capture",
+    "decisionRationale": "Action matches real-time traversal and documented combat. Platformer describes the defining jump/gap/lasso traversal, which the existing taxonomy does not name precisely; propose Platformer. Survival applies to the explicitly presented endless mode where lava never stops and the objective is to climb as high as possible. Multiplayer is not indicated.",
+    "reviewDirectory": "worker-3",
+    "mechanics": "A 3D rooftop traversal/action game with timed levels and an endless climb above rising lava. The player jumps and flips across gaps, lassos anchors and changes rope length to swing, and fights goons with combos, kicks, dodges, and counters. The menu lists four worlds of stages and bosses; its Endless mode has no exit and ever-rising lava."
+  },
+  {
+    "slug": "lets-kart",
+    "title": "Let's Kart!",
+    "url": "https://fish.ryantsai.com/kart/",
+    "originalCategories": [
+      "Racing"
+    ],
+    "categories": [
+      "Racing",
+      "Multiplayer"
+    ],
+    "multiplayerMode": "Online multiplayer",
+    "status": "documented_only",
+    "confidence": "high",
+    "changed": true,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Racing describes the track competition; human online lobby/match/room controls justify Multiplayer. AI racers do not justify the tag. Current speed/motion did not respond in this pass; the previous pilot receipt is cited separately.",
+    "reviewDirectory": "worker-4",
+    "mechanics": "Local bot race menu exposes six tracks, cups, and race controls; current test reached the race countdown but remained at 0 km/h. First-party page also exposes Online Lobby, Quick match, Create room, and Join."
+  },
+  {
+    "slug": "little-lake",
+    "title": "Little Lake (Gone Fishin')",
+    "url": "https://fishing-supdlicomcom.vercel.app/",
+    "originalCategories": [
+      "Simulators"
+    ],
+    "categories": [
+      "Simulators"
+    ],
+    "multiplayerMode": null,
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "changed": false,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Simulators describes the real-world fishing activity and timed casting/reeling loop. The short repeatable cast is not enough to add Arcade as a second label; the existing Simulation catalog label maps to Simulators.",
+    "reviewDirectory": "worker-5",
+    "mechanics": "Cozy fishing loop: drop a line, watch for a bite, reel with a timing marker, keep fish, sell catches for gold, and buy rod/line upgrades."
+  },
+  {
+    "slug": "llama-roguelike",
+    "title": "Llama Roguelike",
+    "url": "https://aovks23.itch.io/llama-roguelike-work-in-progress",
+    "originalCategories": [
+      "Strategy"
+    ],
+    "categories": [
+      "Strategy"
+    ],
+    "multiplayerMode": null,
+    "status": "documented_only",
+    "confidence": "high",
+    "changed": false,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Combat is turn-based and the distinctive core is planning action economy and item layout, so Strategy fits better than Action. The first-party description gives enough evidence without inventing another tag.",
+    "reviewDirectory": "worker-1",
+    "mechanics": "A turn-based llama roguelike combines five-action combat choices (spit, kick, defend) with a backpack where item placement/order changes attack effects, plus shops, events, bosses, and difficulty modes. Current page's embedded title offers Jugar but no run was started."
+  },
+  {
+    "slug": "mars-gt",
+    "title": "Mars GT",
+    "url": "https://mars-gt.vercel.app/",
+    "originalCategories": [
+      "Simulators"
+    ],
+    "categories": [
+      "Simulators"
+    ],
+    "multiplayerMode": null,
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "changed": false,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "This is free driving with gravity/environment simulation, not a race or track event; Simulation is the accurate existing category.",
+    "reviewDirectory": "worker-2",
+    "mechanics": "A free-drive car simulation in a canyon with selectable Earth/Mars gravity, speed, and vehicle control; no race objective was present."
+  },
+  {
+    "slug": "math-quest",
+    "title": "Math Quest",
+    "url": "https://mathquest-play.mareku011.chatgpt.site/",
+    "originalCategories": [
+      "Puzzle"
+    ],
+    "categories": [
+      "Puzzle",
+      "Adventure",
+      "Educational"
+    ],
+    "multiplayerMode": null,
+    "status": "gameplay_verified",
+    "confidence": "medium",
+    "changed": true,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Puzzle fits the verified arithmetic-solving loop; Adventure is supported by the first-party 42-stage story mode and prior first-party map notes. Educational is a justified new category because the game explicitly targets elementary grades and teaches arithmetic, a defining purpose that the existing browse categories do not express. The single current question verifies the core response loop but not the full challenge or campaign.",
+    "reviewDirectory": "worker-3",
+    "mechanics": "A Japanese-language, grade 3–5 arithmetic game wrapped in RPG battles and progression. Challenge mode presents timed addition/subtraction problems, awards score/combo points for correct answers, and damages monsters; the first-party menu also offers a 42-stage story adventure."
+  },
+  {
+    "slug": "mayoi-koji",
+    "title": "Mayoi Koji",
+    "url": "https://cloud-tulip-beam-fire.grok.me",
+    "originalCategories": [
+      "Puzzle"
+    ],
+    "categories": [
+      "Puzzle"
+    ],
+    "multiplayerMode": null,
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "changed": false,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Timed maze navigation to reveal a picture is a puzzle; short timer alone does not make it Action or Racing.",
+    "reviewDirectory": "worker-4",
+    "mechanics": "Start opened a 3-minute maze. ArrowRight/ArrowUp were followed by progress 1/100→2/100 and timer 3:00→2:52."
+  },
+  {
+    "slug": "mikage-quest",
+    "title": "Mikage Quest",
+    "url": "https://kazuyoshi1118.itch.io/mikage-quest",
+    "originalCategories": [
+      "Adventure"
+    ],
+    "categories": [
+      "Adventure",
+      "Strategy"
+    ],
+    "multiplayerMode": null,
+    "status": "gameplay_verified",
+    "confidence": "medium",
+    "changed": true,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Adventure fits the story-driven quest across scenes. Strategy is justified by the explicitly described command-based, turn-oriented battle system; the opening test did not reach a battle. No new RPG category is needed to describe these two central mechanics.",
+    "reviewDirectory": "worker-5",
+    "mechanics": "Short retro Japanese high-school JRPG demo: follow a story in a small mountain town, move through scenes, and engage in Dragon-Quest-style command battles with a party."
+  },
+  {
+    "slug": "moon-mars-mission-studio",
+    "title": "Moon & Mars Mission Studio",
+    "url": "https://sanghyunpark.pages.dev/apps/mission-studio/",
+    "originalCategories": [
+      "Simulators"
+    ],
+    "categories": [
+      "Simulators"
+    ],
+    "multiplayerMode": null,
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "changed": false,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Mission selection and spacecraft liftoff with flight telemetry support an interactive spaceflight simulator. The observed setup did not establish a distinct tactical or resource-management loop for Strategy.",
+    "reviewDirectory": "worker-1",
+    "mechanics": "Select a real or concept mission, configure inputs and trajectories, then fly an interactive spacecraft/launch simulation with timeline and telemetry. Apollo 11 liftoff displayed engine status, vehicle parts, altitude, velocity, thrust, and g-force."
+  },
+  {
+    "slug": "moonlit-spellcaster",
+    "title": "Moonlit Spellcaster",
+    "url": "https://clubhouse1661.github.io/moonlit-spellcaster/",
+    "originalCategories": [
+      "Arcade"
+    ],
+    "categories": [
+      "Arcade"
+    ],
+    "multiplayerMode": null,
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "changed": false,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "The tested loop is short movement and target-hit scoring, which fits Arcade. There is no sustained combat or exploration evidence to add Action or Adventure.",
+    "reviewDirectory": "worker-2",
+    "mechanics": "A short score-focused spell action loop: move the wizard along a rampart and fire charged magic at targets."
+  },
+  {
+    "slug": "must-kill-the-king",
+    "title": "MUST KILL THE KING",
+    "url": "https://forest-brook-zenith-iris.grok.me/",
+    "originalCategories": [
+      "Strategy"
+    ],
+    "categories": [
+      "Strategy"
+    ],
+    "multiplayerMode": null,
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "changed": false,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Strategy describes the turn-based tactical board game and its king-capture objective. The tested opponent responded automatically; no human multiplayer option was observed, so Multiplayer is not applied. The fantasy pieces are theme and do not warrant Action or Adventure tags.",
+    "reviewDirectory": "worker-3",
+    "mechanics": "A turn-based fantasy tactics game on a 5×5 board. The Coral Beasts side moves distinct piece types against the Raven Court; the goal is to take the opposing king. The UI states pawns move one square and there is no castling. A novice AI opponent responds to moves."
+  },
+  {
+    "slug": "mutual-fun",
+    "title": "The Mutual Fun",
+    "url": "https://mutual-self.vercel.app/",
+    "originalCategories": [
+      "Arcade"
+    ],
+    "categories": [
+      "Arcade"
+    ],
+    "multiplayerMode": null,
+    "status": "documented_only",
+    "confidence": "medium",
+    "changed": false,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Short rounds, timed movement, and eliminations fit Arcade. No user-controlled second human mode is shown; the visible rivals are not sufficient evidence for Multiplayer.",
+    "reviewDirectory": "worker-1",
+    "mechanics": "A seven-round musical-chairs/green-light elimination game. The current round screen shows a business dog, 10 boardroom participants, a green-light movement prompt, and an eventual King Chair finale."
+  },
+  {
+    "slug": "naval-warfare",
+    "title": "Naval Warfare",
+    "url": "https://gunwake.aizoo.one/",
+    "originalCategories": [
+      "Action"
+    ],
+    "categories": [
+      "Action",
+      "Shooter"
+    ],
+    "multiplayerMode": null,
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "changed": true,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Direct sailing and firing in a naval battle fit Action. First-party page says single-player. Supervisor added Shooter: first-party mechanics establish aiming/firing weapons as the core loop.",
+    "reviewDirectory": "worker-4",
+    "mechanics": "Single-player carrier battle loaded Wave 01. After W, HUD showed speed 4.9 KT; Space exposed Pause. 39 naval-gun rounds remained."
+  },
+  {
+    "slug": "neon-nightfall",
+    "title": "Neon Nightfall",
+    "url": "https://mdhasibul35.github.io/neon-nightfall/",
+    "originalCategories": [
+      "Action",
+      "Survival"
+    ],
+    "categories": [
+      "Action",
+      "Survival",
+      "Shooter"
+    ],
+    "multiplayerMode": null,
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "changed": true,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Action describes the real-time shooting combat, Survival describes the escalating wave-endurance objective, and Arcade is supported by the short high-wave/high-score record loop. Existing tags cover the shooter and survival mechanics without requiring a new Shooter category. Supervisor uses Shooter instead of generic Arcade for the observed pulse-pistol wave loop.",
+    "reviewDirectory": "worker-5",
+    "mechanics": "First-person arena shooter: move, aim and shoot a pulse pistol at undead in escalating waves, collect points, buy guns, and attempt to survive for a high wave record."
+  },
+  {
+    "slug": "neon-palms-port-solana",
+    "title": "Neon Palms — Port Solana",
+    "url": "https://dubovskylabs.com/benchmarks/gta/apps/claude-opus-5-5/index.html",
+    "originalCategories": [
+      "Simulators"
+    ],
+    "categories": [
+      "Simulators",
+      "Adventure"
+    ],
+    "multiplayerMode": null,
+    "status": "documented_only",
+    "confidence": "medium",
+    "changed": true,
+    "acceptedRecommendation": true,
+    "accessIssue": "The title screen remained after two clicks on CLICK TO PLAY; no in-game scene appeared.",
+    "accessIssueType": "loading",
+    "decisionRationale": "The displayed free-roam city/vehicle controls support Simulators, with city exploration as a secondary Adventure loop. No race or combat mode was visible.",
+    "reviewDirectory": "worker-1",
+    "mechanics": "A fictional 3D coastal city title screen advertises WASD movement, mouse look, entering a vehicle, a map, and pause. The on-screen CLICK TO PLAY prompt did not leave the title screen in two attempts."
+  },
+  {
+    "slug": "neon-stack",
+    "title": "NEON STACK",
+    "url": "https://neon-stack.grok.me/",
+    "originalCategories": [
+      "Puzzle"
+    ],
+    "categories": [
+      "Puzzle"
+    ],
+    "multiplayerMode": null,
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "changed": false,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Piece placement and row-clearing are direct puzzle-solving mechanics; Puzzle is sufficient.",
+    "reviewDirectory": "worker-2",
+    "mechanics": "A falling-block puzzle in which the player moves/rotates pieces and clears rows; the live screen explicitly labels it a falling-block puzzle."
+  },
+  {
+    "slug": "night-cruise",
+    "title": "Night Cruise",
+    "url": "https://nightcruisegame.com/",
+    "originalCategories": [
+      "Racing"
+    ],
+    "categories": [
+      "Simulators"
+    ],
+    "multiplayerMode": null,
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "changed": true,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Replace Racing with Simulators: the creator explicitly describes an open drive with no race/time course, and the tested activity is accelerating a car on an expressway.",
+    "reviewDirectory": "worker-4/assist-3",
+    "mechanics": "Open-ended night driving simulator: choose a map and vehicle, then drive an expressway without a race or mission. Vehicle stats and a live speedometer are provided."
+  },
+  {
+    "slug": "night-shift",
+    "title": "Night Shift",
+    "url": "https://games.jimmychandra.com/games/night_shift/",
+    "originalCategories": [
+      "Puzzle"
+    ],
+    "categories": [
+      "Puzzle"
+    ],
+    "multiplayerMode": null,
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "changed": false,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Puzzle is directly described on the first-party page and confirmed by a current move response.",
+    "reviewDirectory": "worker-4",
+    "mechanics": "A 3D Sokoban-like factory puzzle: move a worker and push crates onto marked bays. D moved the worker and changed the move counter from 0 to 1."
+  },
+  {
+    "slug": "nushi-fishing",
+    "title": "Nushi Fishing",
+    "url": "https://nushizuri02.netlify.app/",
+    "originalCategories": [
+      "Simulators"
+    ],
+    "categories": [
+      "Simulators"
+    ],
+    "multiplayerMode": null,
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "changed": false,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Simulators best captures the explicitly fishing-centered interaction. Fish collection/ranks are progression, not sufficient reason to add Arcade; no survival, action combat, or human multiplayer was observed. Existing Simulation maps to Simulators.",
+    "reviewDirectory": "worker-5",
+    "mechanics": "3D fishing collection game: hold and release to cast farther, tap when the bobber sinks, build a 16-fish log, and collect dopamine/rank/pity and rod/float statistics across rivers."
+  },
+  {
+    "slug": "operation-nightwood",
+    "title": "Operation Nightwood",
+    "url": "https://claude.ai/artifact/CdXyZVrixg9iZDA1k5eH6G",
+    "originalCategories": [
+      "Action"
+    ],
+    "categories": [
+      "Action"
+    ],
+    "multiplayerMode": null,
+    "status": "unresolved",
+    "confidence": "low",
+    "changed": false,
+    "acceptedRecommendation": false,
+    "accessIssue": "The supplied artifact URL displays “Page not found.”",
+    "accessIssueType": "404",
+    "decisionRationale": "Insufficient admissible evidence for a correction; retain the original categories. No evidence supports changing the current Action category. Preserve it provisionally rather than guessing; re-review if the game URL is restored.",
+    "reviewDirectory": "worker-1",
+    "mechanics": "Unknown from admissible gameplay evidence: the supplied URL currently renders a not-found page, so the assigned catalog description was not treated as verified game mechanics."
+  },
+  {
+    "slug": "opus-2k",
+    "title": "Opus 5.5 NBA 2K",
+    "url": "https://genex.games/opus-2k",
+    "originalCategories": [
+      "Sports"
+    ],
+    "categories": [
+      "Sports"
+    ],
+    "multiplayerMode": null,
+    "status": "documented_only",
+    "confidence": "medium",
+    "changed": false,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Basketball is the defining sport; the listing describes solo play. Do not add Multiplayer based on the hosting site's general online features.",
+    "reviewDirectory": "worker-2",
+    "mechanics": "A solo 3D basketball game with dribbling, shooting, layups, dunks, sprinting, and ball reset controls."
+  },
+  {
+    "slug": "orbit-forge",
+    "title": "Orbit Forge",
+    "url": "https://vishalbhoir18.github.io/rocket_orbit_forge/",
+    "originalCategories": [
+      "Simulators"
+    ],
+    "categories": [
+      "Simulators",
+      "Strategy"
+    ],
+    "multiplayerMode": null,
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "changed": true,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Simulators is primary because the game models rocket construction and flight physics. Strategy is a meaningful secondary category: choosing stages, engines, fuel, and a flight profile trades mass, thrust, drag, stability, and delta-v.",
+    "reviewDirectory": "worker-1/assist-3",
+    "mechanics": "A hands-on rocket-design and launch simulator. Configure body, fins, stages, nozzles, fuel tanks, and flight plan; the analysis panel reports launch mass, thrust-to-weight, drag, delta-v, stability, and projected burns."
+  },
+  {
+    "slug": "overburn",
+    "title": "OverBurn",
+    "url": "https://overburn.whitebeardapps.com/",
+    "originalCategories": [
+      "Action"
+    ],
+    "categories": [
+      "Action",
+      "Arcade",
+      "Shooter"
+    ],
+    "multiplayerMode": null,
+    "status": "documented_only",
+    "confidence": "high",
+    "changed": true,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Action describes the shooter combat; Arcade describes its short survival/score run. Current direct retry did not enter a run, and the prior receipt is not current gameplay verification. Supervisor added Shooter: first-party mechanics establish aiming/firing weapons as the core loop.",
+    "reviewDirectory": "worker-4",
+    "mechanics": "The current page remains on its Launch screen. A previous same-day local gameplay receipt verified vertical space-shooter play, an upgrade choice, and Focus toggle."
+  },
+  {
+    "slug": "ovz-global-flashpoint",
+    "title": "OVZ: Global Flashpoint",
+    "url": "https://ovz-game-production.up.railway.app/",
+    "originalCategories": [
+      "Action"
+    ],
+    "categories": [
+      "Action",
+      "Multiplayer",
+      "Shooter"
+    ],
+    "multiplayerMode": "Online multiplayer",
+    "status": "documented_only",
+    "confidence": "high",
+    "changed": true,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Action is supported by the live first-person shooter title presentation. Multiplayer is supported by current online player/match counts plus friend invite and private-match controls; online play was not entered. The long initial download is recorded as a limitation, not a failure, since loading completed. Supervisor added Shooter: first-party mechanics establish aiming/firing weapons as the core loop.",
+    "reviewDirectory": "worker-5",
+    "mechanics": "Online first-person combat game with a Play menu, player naming, friend invitation, and private-match option. The title screen shows current online/in-match counts and a rifle-bearing character image."
+  },
+  {
+    "slug": "pantry-dash",
+    "title": "Pantry Dash",
+    "url": "https://mdhasibul35.github.io/pantry-dash/",
+    "originalCategories": [
+      "Arcade"
+    ],
+    "categories": [
+      "Arcade"
+    ],
+    "multiplayerMode": null,
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "changed": false,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Short score-based maze runs with pickups and moving hazards fit Arcade. Survival is not added merely because the player has limited lives.",
+    "reviewDirectory": "worker-1",
+    "mechanics": "A maze-chase game asks the player to collect cheese, avoid or scare cats, collect bonuses, and clear five rooms while tracking score and lives. The post-action screen showed score 10 in level 1."
+  },
+  {
+    "slug": "pelican-ride",
+    "title": "Pelican Ride",
+    "url": "https://yuhan9988.github.io/pelican-ride/",
+    "originalCategories": [
+      "Racing"
+    ],
+    "categories": [
+      "Sports",
+      "Arcade"
+    ],
+    "multiplayerMode": null,
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "changed": true,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Bicycle riding and trick challenges are the sport activity (Sports); a short timed challenge and badge/score loop support Arcade. This is not Racing because no opponent/course finish race is shown.",
+    "reviewDirectory": "worker-2",
+    "mechanics": "A pelican-on-a-bicycle sport/trick ride with speed, cadence, gears, steering, jumps, tricks, fishing, badges, and a 60-second challenge."
+  },
+  {
+    "slug": "pes-6",
+    "title": "PES 6",
+    "url": "https://pes6.optijuegos.net/",
+    "originalCategories": [
+      "Sports"
+    ],
+    "categories": [
+      "Sports",
+      "Multiplayer"
+    ],
+    "multiplayerMode": "Online multiplayer",
+    "status": "documented_only",
+    "confidence": "medium",
+    "changed": true,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Sports is the core game: association football under PES rules. Multiplayer is supported by the port's explicit Online tab and public/private room controls with a human-player count; the review did not join a room.",
+    "reviewDirectory": "worker-1/assist-3",
+    "mechanics": "A browser port of Pro Evolution Soccer 6 for PSP. The current page presents commentary/language launch options and an Online tab with room controls, player-count selection (2–16), and public/private room settings."
+  },
+  {
+    "slug": "pip-the-plant",
+    "title": "Pip the Plant",
+    "url": "https://legendary-faloodeh-080537.netlify.app/games/pip-the-plant/index.html",
+    "originalCategories": [
+      "Simulators"
+    ],
+    "categories": [
+      "Simulators"
+    ],
+    "multiplayerMode": null,
+    "status": "documented_only",
+    "confidence": "high",
+    "changed": false,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Simulators (the catalog’s canonical name for the Simulation alias) describes caring for a plant system. The Talk UI responded, but a care action did not visibly change the plant or meter.",
+    "reviewDirectory": "worker-4",
+    "mechanics": "Plant-care screen offers Talk, Water, and Light controls and a Happiness meter. Talk/plant click changed the greeting to a prompt to type a message, but plant-care meter changes were not observed."
+  },
+  {
+    "slug": "pit-tactics",
+    "title": "Pit Tactics",
+    "url": "https://www.scenario.com/explorations/pit-tactics/",
+    "originalCategories": [
+      "Strategy"
+    ],
+    "categories": [
+      "Strategy"
+    ],
+    "multiplayerMode": null,
+    "status": "documented_only",
+    "confidence": "high",
+    "changed": false,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Strategy accurately describes the deliberate, turn-based unit positioning and tactical objectives. Combat is turn-based rather than real-time Action; the brief sample does not justify adding Survival or a human Multiplayer label.",
+    "reviewDirectory": "worker-5",
+    "mechanics": "Turn-based isometric mission: command ten soldiers to destroy two hive nests and evacuate survivors; move and act once per turn, use cover, heal, manage hazards, and stop fallen humans from turning into zombies."
+  },
+  {
+    "slug": "plaid-circuit",
+    "title": "Plaid Circuit",
+    "url": "https://roadster.grok.me/",
+    "originalCategories": [
+      "Sports",
+      "Racing",
+      "Arcade"
+    ],
+    "categories": [
+      "Racing",
+      "Arcade"
+    ],
+    "multiplayerMode": null,
+    "status": "documented_only",
+    "confidence": "high",
+    "changed": true,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Competing on a circuit is Racing; the brief score/time/drift reflex format fits Arcade. Sports is less precise than the dedicated Racing category.",
+    "reviewDirectory": "worker-1",
+    "mechanics": "An 8-bit three-lap circuit racer: choose a vehicle, steer, drift to charge, and release to boost. Current play reached Lap 1/3 with speed, position, timer, and control HUD, but W did not produce a visible speed change in this capture."
+  },
+  {
+    "slug": "planeteer",
+    "title": "Planeteer",
+    "url": "https://planeteer.vercel.app/",
+    "originalCategories": [
+      "Simulators"
+    ],
+    "categories": [
+      "Simulators",
+      "Adventure",
+      "Multiplayer"
+    ],
+    "multiplayerMode": "Online multiplayer",
+    "status": "documented_only",
+    "confidence": "medium",
+    "changed": true,
+    "acceptedRecommendation": true,
+    "accessIssue": "The current headless browser remains at the 'Click to look around' pointer-capture prompt; a prior native-browser receipt successfully moved and explored the world.",
+    "accessIssueType": "pointer-capture",
+    "decisionRationale": "World movement and travel fit Simulation, exploration/progression fits Adventure, and the explicit online-play option supports Multiplayer. Online participation was not tested.",
+    "reviewDirectory": "worker-2",
+    "mechanics": "An explorable solar-system/world simulator with walking, sea/air travel, offline exploration, and an explicit online-play mode."
+  },
+  {
+    "slug": "pocket-gridiron",
+    "title": "Pocket Gridiron",
+    "url": "https://cellis212.github.io/pocket-gridiron/",
+    "originalCategories": [
+      "Sports"
+    ],
+    "categories": [
+      "Sports",
+      "Strategy",
+      "Simulators"
+    ],
+    "multiplayerMode": null,
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "changed": true,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Sports is primary because the simulated matches follow football rules. Strategy is secondary because lineups, offensive style, fourth-down decisions, season play, and scouting are central player choices; AI-simulated teams do not justify Multiplayer. Supervisor adds Simulators for the documented generated match/season outcomes and football-system simulation.",
+    "reviewDirectory": "worker-1/assist-3",
+    "mechanics": "A football management and exhibition simulator using Pokémon teams, ratings, lineups, offensive styles, and fourth-down choices. Exhibition and season play generate full match scores and play-by-play; scouting and lineup editing are also available."
+  },
+  {
+    "slug": "project-nova",
+    "title": "Project Nova",
+    "url": "https://project-nova-v0001.grok.me/",
+    "originalCategories": [
+      "Arcade"
+    ],
+    "categories": [
+      "Arcade",
+      "Action"
+    ],
+    "multiplayerMode": null,
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "changed": true,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Arcade is the short reflex lane-runner loop; Action is meaningful because the ship automatically shoots hostiles and the player can purge them.",
+    "reviewDirectory": "worker-4",
+    "mechanics": "Short lane-runner with automatic fire: survive by moving the ship; Space or double-tap purges hostiles. D moved the ship and score rose from 0 to 200 as enemies were hit."
+  },
+  {
+    "slug": "pulse",
+    "title": "PULSE",
+    "url": "https://orbix.grok.me/",
+    "originalCategories": [
+      "Arcade"
+    ],
+    "categories": [
+      "Arcade"
+    ],
+    "multiplayerMode": null,
+    "status": "documented_only",
+    "confidence": "medium",
+    "changed": false,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "The short, replayable timing/reflex loop is Arcade. The word survive in the pitch alone does not establish the resource-pressure loop needed for Survival.",
+    "reviewDirectory": "worker-1",
+    "mechanics": "A one-tap side-switch score run. The title says TAP TO PLAY; after two canvas taps, the screenshot showed a score counter at 0 and the two sides/objects, but no successful switch or score change was visible."
+  },
+  {
+    "slug": "pumpkin-catch",
+    "title": "RoboBeats: Pumpkin Catch",
+    "url": "https://pumpkin-catch.netlify.app",
+    "originalCategories": [
+      "Casual"
+    ],
+    "categories": [
+      "Arcade"
+    ],
+    "multiplayerMode": null,
+    "status": "gameplay_verified",
+    "confidence": "medium",
+    "changed": true,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Arcade is the closest fit for a short reflex-and-catching loop. The current sample did not establish rhythm synchronization despite 'RoboBeats' in the title, so no Rhythm category is proposed.",
+    "reviewDirectory": "worker-5",
+    "mechanics": "Halloween-themed falling-treat catching game: choose a catcher, level and speed, then position the character under incoming candies while a ten-step catch/progress meter tracks the run."
+  },
+  {
+    "slug": "pumpwise",
+    "title": "Pumpwise",
+    "url": "https://pumpwise-chi.vercel.app/",
+    "originalCategories": [
+      "Simulators"
+    ],
+    "categories": [
+      "Simulators"
+    ],
+    "multiplayerMode": null,
+    "status": "documented_only",
+    "confidence": "medium",
+    "changed": false,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "The visible station-management interface and prior receipt's price/service/fuel-sales response describe operating a real-world petrol station, so Simulation is accurate.",
+    "reviewDirectory": "worker-2",
+    "mechanics": "A petrol-station management simulator: manage forecourt operations, fuel deliveries, prices, services, finances, and customers."
+  },
+  {
+    "slug": "puni-jump",
+    "title": "Puni Jump",
+    "url": "https://puni-jump.web.app/",
+    "originalCategories": [
+      "Action"
+    ],
+    "categories": [
+      "Arcade",
+      "Platformer",
+      "Action"
+    ],
+    "multiplayerMode": null,
+    "status": "documented_only",
+    "confidence": "high",
+    "changed": true,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Arcade fits the short timed stages, lives, score, and jump combos; Action fits active dodging and stomping. Platform traversal and wall-jumping are the defining genre and are not named by the existing categories, so Platformer is proposed as a shared new category. Supervisor adds Platformer for the explicitly documented vertical jump, enemy-stomp and wall-jump loop.",
+    "reviewDirectory": "worker-1/assist-3",
+    "mechanics": "A portrait, score-based jump game: direct a mushroom character through short vertical stages, stomp spiky enemies, chain jumps for rising combo scores, and wall-jump. The current page's instructions show three lives and a 30-second opening stage."
+  },
+  {
+    "slug": "quake-1",
+    "title": "Quake 1",
+    "url": "https://q1.pieter.com/",
+    "originalCategories": [
+      "Action"
+    ],
+    "categories": [
+      "Action",
+      "Multiplayer",
+      "Shooter"
+    ],
+    "multiplayerMode": "Online multiplayer",
+    "status": "documented_only",
+    "confidence": "high",
+    "changed": true,
+    "acceptedRecommendation": true,
+    "accessIssue": "The public /play endpoint returned HTTP 403 Forbidden during this review.",
+    "accessIssueType": "other",
+    "decisionRationale": "Action describes the arena shooter; online human QuakeWorld play supports Multiplayer. Public match was not joined. Supervisor added Shooter: first-party mechanics establish aiming/firing weapons as the core loop.",
+    "reviewDirectory": "worker-4",
+    "mechanics": "First-party page describes the QuakeWorld browser arena as online play for up to eight; 32 online users were shown. The public Play route returned HTTP 403 and no match was entered."
+  },
+  {
+    "slug": "quake-2",
+    "title": "Quake 2",
+    "url": "https://q2.pieter.com/",
+    "originalCategories": [
+      "Action"
+    ],
+    "categories": [
+      "Action",
+      "Shooter",
+      "Multiplayer"
+    ],
+    "multiplayerMode": "Online multiplayer",
+    "status": "documented_only",
+    "confidence": "high",
+    "changed": true,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Action captures Quake II's shooter/combat identity; Multiplayer is directly supported by the live online player and active map list. Online play was not entered and no chat was used.",
+    "reviewDirectory": "worker-5",
+    "mechanics": "Browser Quake II port presented as real Quake II multiplayer with up to eight players per match; current landing page shows active online players, match map, player names, and leaderboards."
+  },
+  {
+    "slug": "quake-3",
+    "title": "Quake 3",
+    "url": "https://q3.pieter.com/",
+    "originalCategories": [
+      "Action"
+    ],
+    "categories": [
+      "Action",
+      "Multiplayer",
+      "Shooter"
+    ],
+    "multiplayerMode": "Online multiplayer",
+    "status": "documented_only",
+    "confidence": "high",
+    "changed": true,
+    "acceptedRecommendation": true,
+    "accessIssue": "Clicking Play returned 403 Forbidden (nginx/1.30.4).",
+    "accessIssueType": "other",
+    "decisionRationale": "Arena-shooter combat fits Action and the page explicitly presents an online human-player service, supporting Multiplayer. The public player list is mode evidence, not gameplay proof. Supervisor added Shooter: first-party mechanics establish aiming/firing weapons as the core loop.",
+    "reviewDirectory": "worker-1",
+    "mechanics": "The first-party page describes Quake III multiplayer online and displayed a public list of 39 players and kill leaderboards. Selecting Play returned 403 Forbidden before a match loaded."
+  },
+  {
+    "slug": "quiet-rooms",
+    "title": "Quiet Rooms",
+    "url": "https://53616d616e746861.github.io/quiet-rooms/",
+    "originalCategories": [
+      "Adventure"
+    ],
+    "categories": [
+      "Adventure"
+    ],
+    "multiplayerMode": null,
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "changed": false,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Exploring successive atmospheric rooms is the defining loop; Adventure is the best fit.",
+    "reviewDirectory": "worker-2",
+    "mechanics": "A first-person atmospheric exploration story across surreal rooms, with walking, looking around, and interacting with characters."
+  },
+  {
+    "slug": "rage",
+    "title": "Rage",
+    "url": "https://darths-rage.netlify.app/",
+    "originalCategories": [
+      "Action"
+    ],
+    "categories": [
+      "Action"
+    ],
+    "multiplayerMode": null,
+    "status": "documented_only",
+    "confidence": "high",
+    "changed": false,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Action is the accurate existing category: the main loop is real-time corridor traversal and blade combat. A health meter alone does not establish Survival, and no supported human multiplayer mode was found.",
+    "reviewDirectory": "worker-1/assist-3",
+    "mechanics": "A first-person/over-the-shoulder corridor action game with a red energy blade. The page lists walking/turning, block, swing, blade throw, and grip/interact controls; the objective marker and health/grip/throw HUD indicate a combat encounter ahead."
+  },
+  {
+    "slug": "rajyam",
+    "title": "Rajyam",
+    "url": "https://playrajyam.com/",
+    "originalCategories": [
+      "Strategy"
+    ],
+    "categories": [
+      "Action"
+    ],
+    "multiplayerMode": null,
+    "status": "documented_only",
+    "confidence": "high",
+    "changed": true,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Action fits manually aiming and firing at incoming forces. Strategy and Tower Defense are not supported by current evidence: no strategic planning or deployable defenses were observed.",
+    "reviewDirectory": "worker-4",
+    "mechanics": "First level is a side-view castle defense scene with a manually aimed Stone Launcher, a visible trajectory arc, and ammunition. Current input did not produce a confirmed shot."
+  },
+  {
+    "slug": "rally-director",
+    "title": "Rally Director",
+    "url": "https://j001net.itch.io/rally-director",
+    "originalCategories": [
+      "Racing"
+    ],
+    "categories": [
+      "Racing",
+      "Strategy",
+      "Rhythm"
+    ],
+    "multiplayerMode": null,
+    "status": "documented_only",
+    "confidence": "high",
+    "changed": true,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Racing describes the rally stage, Strategy describes the Pro Manager team-management mode, and Rhythm describes the beat-synced pace-note timing in Challenge Road. The first-party description explicitly makes rhythm timing part of a core mode, which existing categories cannot name precisely.",
+    "reviewDirectory": "worker-5",
+    "mechanics": "Rally management title with two modes: operate a team across a fictional championship, and drive a progression-based Challenge Road where the player taps pace notes on the music beat. The sampled Challenge Road stage was an 8.2 km virtual rally race."
+  },
+  {
+    "slug": "return-to-castle-wolfenstein",
+    "title": "Return to Castle Wolfenstein",
+    "url": "https://rtcw.pieter.com/",
+    "originalCategories": [
+      "Action"
+    ],
+    "categories": [
+      "Action",
+      "Multiplayer",
+      "Shooter"
+    ],
+    "multiplayerMode": "Online multiplayer",
+    "status": "documented_only",
+    "confidence": "high",
+    "changed": true,
+    "acceptedRecommendation": true,
+    "accessIssue": "Clicking Play returned 403 Forbidden (nginx/1.30.4) before the advertised large game-data download.",
+    "accessIssueType": "other",
+    "decisionRationale": "Shooter combat fits Action; an explicitly named public multiplayer engine and online-player list support Multiplayer. The page's online roster is not being called gameplay verification. Supervisor added Shooter: first-party mechanics establish aiming/firing weapons as the core loop.",
+    "reviewDirectory": "worker-1",
+    "mechanics": "The first-party landing page labels the browser port as Return to Castle Wolfenstein multiplayer, shows an online-player list, and says the first load downloads about 380 MB. Selecting Play returned 403 before download/gameplay."
+  },
+  {
+    "slug": "ripple-pool",
+    "title": "Ripple Pool",
+    "url": "https://ripplepool.app/",
+    "originalCategories": [
+      "Puzzle"
+    ],
+    "categories": [
+      "Puzzle"
+    ],
+    "multiplayerMode": null,
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "changed": false,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "The core loop is aiming and combining colors to solve a spatial puzzle; Puzzle is sufficient.",
+    "reviewDirectory": "worker-2",
+    "mechanics": "A physics puzzle that aims colored drops into a pool so matching colors collide and merge, creating room for further drops."
+  },
+  {
+    "slug": "rise-and-raid",
+    "title": "Rise & Raid",
+    "url": "https://riseandraid.anemoncreative.com/",
+    "originalCategories": [
+      "Strategy"
+    ],
+    "categories": [
+      "Strategy"
+    ],
+    "multiplayerMode": null,
+    "status": "documented_only",
+    "confidence": "high",
+    "changed": false,
+    "acceptedRecommendation": true,
+    "accessIssue": "The first response showed a 403 browser-check interstitial; it cleared to the guest landing screen after a short wait.",
+    "accessIssueType": "other",
+    "decisionRationale": "Strategy is primary: building structures, allocating resources, and raising an army to raid are planning and resource decisions. The available text does not establish that raid targets are human-controlled, so Multiplayer is not added.",
+    "reviewDirectory": "worker-1/assist-3",
+    "mechanics": "A medieval village-building game: expand an economy, spend resources on structures, raise an army, and raid other settlements. A 15-step tutorial teaches building and resource management."
+  },
+  {
+    "slug": "robobeats-mooncake-chop",
+    "title": "RoboBeats: Mooncake Chop",
+    "url": "https://robobeats-mooncake-mobile.netlify.app/",
+    "originalCategories": [
+      "Arcade"
+    ],
+    "categories": [
+      "Arcade"
+    ],
+    "multiplayerMode": null,
+    "status": "documented_only",
+    "confidence": "medium",
+    "changed": false,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Arcade covers the short timing/reflex chopping loop shown by the game’s title and setup. No separate Rhythm category is needed for the current catalog.",
+    "reviewDirectory": "worker-4",
+    "mechanics": "First-party menu selects a mooncake, character, and speed. Play advanced to a Level 1 “White lotus, double yolk” screen with five empty timing markers; no timed input response was observed."
+  },
+  {
+    "slug": "roll-for-agi",
+    "title": "Roll for AGI",
+    "url": "https://rollforagi.com",
+    "originalCategories": [
+      "Strategy"
+    ],
+    "categories": [
+      "Strategy"
+    ],
+    "multiplayerMode": null,
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "changed": false,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Dice movement feeds resource allocation and build choices across a board, so Strategy is primary. Arcade would understate the planning loop.",
+    "reviewDirectory": "worker-1",
+    "mechanics": "A dice-driven board game about investing tokens/parameters in an AI lab. Landing on spaces opens choices such as building a house or spending tokens for a text model. Current roll opened an Empty Lot event and Text/Don't build choices."
+  },
+  {
+    "slug": "rx-78-2-reentry",
+    "title": "RX-78-2 Re-entry",
+    "url": "https://rx78-2-reentry.vercel.app/",
+    "originalCategories": [
+      "Simulators"
+    ],
+    "categories": [
+      "Simulators",
+      "Action"
+    ],
+    "multiplayerMode": null,
+    "status": "documented_only",
+    "confidence": "medium",
+    "changed": true,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Atmospheric flight telemetry and manual flight control make Simulation primary. The narrative includes an active hostile attack scenario, so Action is a meaningful secondary tag; no combat was claimed as played.",
+    "reviewDirectory": "worker-2",
+    "mechanics": "A detailed atmospheric re-entry flight simulator in a Gundam scenario, with telemetry, manual-entry controls, mission communications, and Zaku attack pressure."
+  },
+  {
+    "slug": "sadie-and-luna",
+    "title": "Sadie & Luna",
+    "url": "https://sadieandluna-thegame.grok.me/",
+    "originalCategories": [
+      "Puzzle"
+    ],
+    "categories": [
+      "Puzzle",
+      "Adventure",
+      "Platformer"
+    ],
+    "multiplayerMode": null,
+    "status": "documented_only",
+    "confidence": "high",
+    "changed": true,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Puzzle is primary because the dogs have complementary abilities for solving obstacles; Adventure describes the journey home. Platforming traversal and jumping are substantial but lack an existing category, so Platformer is proposed as a shared category. The Play Sadie button is a character switch, not proof of two human players. Supervisor accepts the shared Platformer expansion for documented side-view jump/climb traversal.",
+    "reviewDirectory": "worker-1/assist-3",
+    "mechanics": "A two-dog puzzle-adventure collection. In Find the Way Home, Luna hops and lights dark areas while Sadie shoves obstacles; both dogs must reach the porch. The current level shows a fence, three hearts, and Left/Right/Bark/Play Sadie controls. Other listed modes are a framing/photo challenge and a timed toy-room challenge."
+  },
+  {
+    "slug": "salmon-survival",
+    "title": "Salmon Survival",
+    "url": "https://salmon-survival.vercel.app/",
+    "originalCategories": [
+      "Survival"
+    ],
+    "categories": [
+      "Survival"
+    ],
+    "multiplayerMode": null,
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "changed": false,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Survival is the core loop: avoid river hazards and survive the salmon journey; the current input changed a survival counter and earned a hazard badge.",
+    "reviewDirectory": "worker-4",
+    "mechanics": "Swim and dodge through a salmon life cycle. After Start, W/D input changed the sibling count to 1,986/2,000 and awarded the “Swam under drifting ice floes” badge."
+  },
+  {
+    "slug": "senor-inteligente",
+    "title": "Señor Inteligente",
+    "url": "https://inteligente.lol/",
+    "originalCategories": [
+      "Arcade"
+    ],
+    "categories": [
+      "Arcade",
+      "Action"
+    ],
+    "multiplayerMode": null,
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "changed": true,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Arcade captures the short score/level/target loop; Action is meaningful because the active play uses real-time lasso and kick attacks against in-game targets. No new Platformer category is needed because no jump/platform traversal was observed.",
+    "reviewDirectory": "worker-5",
+    "mechanics": "Pixel-art side-scrolling score game: ride a horse, lasso signs to yank them, and kick protesters across numbered worlds; the HUD tracks score, world stage, and targets defeated."
+  },
+  {
+    "slug": "sharespark",
+    "title": "ShareSpark",
+    "url": "https://share-spark.vercel.app",
+    "originalCategories": [
+      "Simulators"
+    ],
+    "categories": [
+      "Simulators",
+      "Strategy",
+      "Multiplayer"
+    ],
+    "multiplayerMode": "Local multiplayer",
+    "status": "documented_only",
+    "confidence": "high",
+    "changed": true,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "The simulated market is primary; company creation and market decisions add Strategy. The game explicitly requires multiple family participants, supporting local Multiplayer.",
+    "reviewDirectory": "worker-1",
+    "mechanics": "A pretend family stock-market game: 2–4 local players invent fictional companies, then respond to news and moving charts over market days. The current setup requires at least one kid and one grown-up."
+  },
+  {
+    "slug": "simpsons-hit-and-run",
+    "title": "The Simpsons: Hit & Run",
+    "url": "https://shar-wasm.cjoseph.workers.dev/?skipmovie",
+    "originalCategories": [
+      "Racing"
+    ],
+    "categories": [
+      "Adventure"
+    ],
+    "multiplayerMode": null,
+    "status": "documented_only",
+    "confidence": "medium",
+    "changed": true,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "The publisher describes mission-based on-foot and vehicle play across Springfield. Adventure better captures the open-world mission loop than Racing; driving alone is not a race.",
+    "reviewDirectory": "worker-2",
+    "mechanics": "An open-world mission game mixing on-foot exploration and driving around Springfield; the driving supports missions and pursuit rather than a standalone track-racing loop."
+  },
+  {
+    "slug": "skate-3",
+    "title": "Skate 3",
+    "url": "https://skate.aaddpp.lol/",
+    "originalCategories": [
+      "Sports"
+    ],
+    "categories": [
+      "Sports"
+    ],
+    "multiplayerMode": null,
+    "status": "documented_only",
+    "confidence": "medium",
+    "changed": false,
+    "acceptedRecommendation": true,
+    "accessIssue": "The linked site contains only the engine; a legally owned Skate 3 copy converted by the user is required to play.",
+    "accessIssueType": "game-copy-required",
+    "decisionRationale": "The official publisher describes Skate 3 as a skateboarding game; Sports is the existing category that fits the underlying title.",
+    "reviewDirectory": "worker-2",
+    "mechanics": "The underlying Skate 3 is a skateboarding sports game with trick challenges and skatepark/street environments; the current fan port hosts only its engine and requires a legally owned converted game copy."
+  },
+  {
+    "slug": "ski-jumping",
+    "title": "Ski Jumping",
+    "url": "https://skijumping.io/",
+    "originalCategories": [
+      "Sports"
+    ],
+    "categories": [
+      "Sports",
+      "Multiplayer"
+    ],
+    "multiplayerMode": "Online multiplayer",
+    "status": "documented_only",
+    "confidence": "high",
+    "changed": true,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Sports is primary because the activity follows ski-jumping rules and technique. The current menu explicitly supports tournaments with friends, which is evidence for human Multiplayer; no race or leaderboard is used to infer that category.",
+    "reviewDirectory": "worker-1/assist-3",
+    "mechanics": "A 3D ski-jumping sports game with Training and World Cup modes. Training lets players choose the hill, wind, start gate, suit, and skis before a jump. The current menu explicitly offers creating a tournament with friends."
+  },
+  {
+    "slug": "ski-simulator-360-vail",
+    "title": "Ski Simulator 360 (Vail)",
+    "url": "https://ski-simulator-360.pages.dev/?world=vail",
+    "originalCategories": [
+      "Sports"
+    ],
+    "categories": [
+      "Sports",
+      "Simulators",
+      "Multiplayer"
+    ],
+    "multiplayerMode": "Online multiplayer",
+    "status": "documented_only",
+    "confidence": "high",
+    "changed": true,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Sports describes skiing; Simulators describes real-world recreation and terrain; explicit invite/join-friends controls support online human multiplayer. No slope run was started.",
+    "reviewDirectory": "worker-4",
+    "mechanics": "A ski simulation over mapped real-world resorts with speed/elevation/score HUD and Explorer/Realistic modes. The current page visibly offers Invite Friends and Join Friends."
+  },
+  {
+    "slug": "skyrunner",
+    "title": "Sky Runner",
+    "url": "https://games.johnslagboom.com/skyrunner/",
+    "originalCategories": [
+      "Arcade"
+    ],
+    "categories": [
+      "Arcade"
+    ],
+    "multiplayerMode": null,
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "changed": false,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Arcade fits the fast repeatable score/reflex pursuit and near-miss bonuses. Racing is withheld because no track race or competing finish order was observed; real-world driving simulation does not describe the neon arcade pursuit.",
+    "reviewDirectory": "worker-5",
+    "mechanics": "Fast futuristic car pursuit through neon districts, using boost, roll and siren while dodging traffic for near-miss points and preserving hull."
+  },
+  {
+    "slug": "small-worlds",
+    "title": "Small Worlds",
+    "url": "https://crane-cosmic-kind-rose.grok.me/",
+    "originalCategories": [
+      "Simulators"
+    ],
+    "categories": [
+      "Survival",
+      "Adventure"
+    ],
+    "multiplayerMode": null,
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "changed": true,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Food/lives pressure supports Survival; reaching the gate through an explorable changing world supports Adventure. Tilt control alone did not establish a puzzle-solving loop. Simulation is not a good fit because this is a character-goal game, not modeling a real-world system.",
+    "reviewDirectory": "worker-1",
+    "mechanics": "A small-planet exploration game where tilt changes the ground under a character. Food sustains strength, ten amethysts open the gate, and lives/weather create resource pressure. Current Easy world showed lives, gems, fed status, and a joystick; rightward tilt changed the joystick to Steep."
+  },
+  {
+    "slug": "snowboard-supreme",
+    "title": "Snowboard Supreme",
+    "url": "https://snowboard-supreme.vercel.app/",
+    "originalCategories": [
+      "Sports"
+    ],
+    "categories": [
+      "Sports",
+      "Arcade"
+    ],
+    "multiplayerMode": null,
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "changed": true,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Snowboarding is the sport activity (Sports); its endless short-run score and combo loop supports Arcade. No race is required in the tested Endless Descent mode.",
+    "reviewDirectory": "worker-2",
+    "mechanics": "An endless snowboard descent with carving, jumps, grabs, speed, score, and combo chaining; separate slalom and daily challenge modes are also offered."
+  },
+  {
+    "slug": "soccar",
+    "title": "Soccar",
+    "url": "https://soccar-one.vercel.app/",
+    "originalCategories": [
+      "Sports"
+    ],
+    "categories": [
+      "Sports"
+    ],
+    "multiplayerMode": null,
+    "status": "gameplay_verified",
+    "confidence": "medium",
+    "changed": false,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Sports is the best fit for the car-soccer rules/activity visible in Free Play. The tested route was explicitly Free Play, so this evidence does not establish a human multiplayer mode.",
+    "reviewDirectory": "worker-4/assist-3",
+    "mechanics": "Rocket-powered car soccer. The accessible Free Play mode places a car and soccer ball in an arena; this pass verified forward movement but did not test scoring or a competitive match."
+  },
+  {
+    "slug": "somnolith-alpha",
+    "title": "SOMNOLITH alpha",
+    "url": "https://claude.ai/artifact/RbtCujA2J6CpzJnxSEsYJ6",
+    "originalCategories": [
+      "Adventure"
+    ],
+    "categories": [
+      "Adventure"
+    ],
+    "multiplayerMode": null,
+    "status": "documented_only",
+    "confidence": "medium",
+    "changed": false,
+    "acceptedRecommendation": true,
+    "accessIssue": "The assigned Claude artifact URL currently returns Page not found.",
+    "accessIssueType": "404",
+    "decisionRationale": "Prior scene-exploration evidence supports Adventure; current 404 prevents a fresh play check.",
+    "reviewDirectory": "worker-4",
+    "mechanics": "Current Claude artifact URL returned Page not found. A prior same-day isolated receipt reports Start and directional input changed the forest/pond scene; current access remains unavailable."
+  },
+  {
+    "slug": "spark",
+    "title": "Spark",
+    "url": "https://geoffstearns.com/spark/",
+    "originalCategories": [
+      "Simulators"
+    ],
+    "categories": [
+      "Simulators",
+      "Strategy"
+    ],
+    "multiplayerMode": null,
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "changed": true,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Simulators covers operating an AI laboratory and training system; Strategy is meaningful because limited compute and lab progression require allocation and upgrade choices. The existing Simulation catalog label maps to Simulators.",
+    "reviewDirectory": "worker-5",
+    "mechanics": "Operate a tiny AI lab by training a language model with limited compute, balancing compute use and model progress, and growing the lab through upgrades."
+  },
+  {
+    "slug": "spire",
+    "title": "SPIRE",
+    "url": "https://juniper-fern-giant-zephyr.grok.me/",
+    "originalCategories": [
+      "Puzzle"
+    ],
+    "categories": [
+      "Arcade"
+    ],
+    "multiplayerMode": null,
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "changed": true,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Timing and repeatable score stacking are an Arcade loop, not a logic/manipulation Puzzle.",
+    "reviewDirectory": "worker-1",
+    "mechanics": "A one-tap timing stacker. The title says line up a block; perfect drops preserve width and build a combo. After start/taps, the post-action screenshot showed a stack and score 10."
+  },
+  {
+    "slug": "stardust-isles",
+    "title": "Stardust Isles",
+    "url": "https://game.danzechen.world/",
+    "originalCategories": [
+      "Adventure"
+    ],
+    "categories": [
+      "Adventure"
+    ],
+    "multiplayerMode": null,
+    "status": "documented_only",
+    "confidence": "medium",
+    "changed": false,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Exploration and collecting through an island village are the main loop; Adventure fits, and the failure to move past the title in a short test is not an access failure.",
+    "reviewDirectory": "worker-2",
+    "mechanics": "A 3D island exploration and collection game; the live title describes it as an exploration/collection mini-game."
+  },
+  {
+    "slug": "starfall-the-last-beacon",
+    "title": "STARFALL: The Last Beacon",
+    "url": "https://starfall-pocket-arcade.shang637.chatgpt.site/",
+    "originalCategories": [
+      "Action"
+    ],
+    "categories": [
+      "Action",
+      "Arcade",
+      "Shooter"
+    ],
+    "multiplayerMode": null,
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "changed": true,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Action describes the real-time shooter combat, while Arcade fits its short wave-and-score mission loop. Narrative framing alone does not justify Adventure over those observed mechanics. Supervisor added Shooter: first-party mechanics establish aiming/firing weapons as the core loop.",
+    "reviewDirectory": "worker-4/assist-3",
+    "mechanics": "Campaign space shooter: fly through hostile waves, fire weapons, protect hull, and advance through short scored mission stages. The first-party field guide lists WASD/arrows to move, W/up to boost, Space/J to fire, and 13 steps in Mission 1."
+  },
+  {
+    "slug": "super-detective",
+    "title": "Super Detective",
+    "url": "https://superdetectivegame.com/",
+    "originalCategories": [
+      "Puzzle"
+    ],
+    "categories": [
+      "Puzzle"
+    ],
+    "multiplayerMode": null,
+    "status": "documented_only",
+    "confidence": "high",
+    "changed": false,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Puzzle is directly supported by clue-based suspect placement; no paid pack was selected.",
+    "reviewDirectory": "worker-4",
+    "mechanics": "First-party page calls this a logic mystery with five weekly cases and no guessing; opening this week’s case list showed free case cards and paid packs. No puzzle case was entered."
+  },
+  {
+    "slug": "sykes-picot",
+    "title": "Proposed Frontiers",
+    "url": "https://sykespicot.io/",
+    "originalCategories": [
+      "Strategy"
+    ],
+    "categories": [
+      "Strategy"
+    ],
+    "multiplayerMode": null,
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "changed": false,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Strategy best describes planning and assigning territory through politically meaningful choices and map overlays. The theme is history, but there is no quiz or educational challenge loop requiring a new Education category.",
+    "reviewDirectory": "worker-5",
+    "mechanics": "Historical map-planning game: paint selectable hexes, assign land to territories, choose political status and external relationships, inspect demographic/ethnic/economic overlays, then view settlement results."
+  },
+  {
+    "slug": "terra-incognita",
+    "title": "Terra Incognita",
+    "url": "https://mts.now/mathofthewild",
+    "originalCategories": [
+      "Puzzle"
+    ],
+    "categories": [
+      "Adventure",
+      "Educational"
+    ],
+    "multiplayerMode": null,
+    "status": "documented_only",
+    "confidence": "medium",
+    "changed": true,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Adventure captures island exploration. Educational is proposed because the first-party content centers on mathematical claims and Lean proofs, which Puzzle would imply the player solves but the available evidence did not establish.",
+    "reviewDirectory": "worker-5",
+    "mechanics": "Explore a 3D island to discover 42 mathematical shrines and 330 scrolls that present mathematical claims and Lean proofs."
+  },
+  {
+    "slug": "the-street-game",
+    "title": "The Street Game",
+    "url": "https://street-game.centro-datos-crudo.workers.dev/",
+    "originalCategories": [
+      "Casual"
+    ],
+    "categories": [
+      "Casual"
+    ],
+    "multiplayerMode": null,
+    "status": "documented_only",
+    "confidence": "medium",
+    "changed": false,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "The title presents a casual marbles-versus-AI activity. Casual remains the most defensible existing category; no multiplayer tag is appropriate for an AI opponent, and this pass did not establish a distinct sports/arcade loop strongly enough to change the tag.",
+    "reviewDirectory": "worker-4/assist-3",
+    "mechanics": "Marbles game against the named AI opponent Claude. The first-party page instructs the player to drag backward and release to shoot; the scoreboard identifies YOU and CLAUDE."
+  },
+  {
+    "slug": "thermopylae",
+    "title": "Thermopylae",
+    "url": "https://thermopylae-v2.vercel.app/",
+    "originalCategories": [
+      "Action"
+    ],
+    "categories": [
+      "Action"
+    ],
+    "multiplayerMode": null,
+    "status": "documented_only",
+    "confidence": "high",
+    "changed": false,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Action is the documented real-time spear-and-shield combat loop. Adventure is not added from the historical campaign framing alone.",
+    "reviewDirectory": "worker-4",
+    "mechanics": "First-party training teaches spear thrusts and a held shield against blows; the live scene displays Leonidas and enemy soldiers. The current short K hold produced no measurable block/health-counter change."
+  },
+  {
+    "slug": "third-mainland-biker",
+    "title": "3rd Mainland Biker",
+    "url": "https://3rdmainland.start.ng/",
+    "originalCategories": [
+      "Arcade",
+      "Racing"
+    ],
+    "categories": [
+      "Racing"
+    ],
+    "multiplayerMode": null,
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "changed": true,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "The central challenge is to ride the bridge as fast as possible, so Racing fits better than a generic Arcade label.",
+    "reviewDirectory": "worker-2",
+    "mechanics": "A motorbike time-trial across an 11 km bridge: accelerate, brake, steer, and jump while chasing the fastest crossing."
+  },
+  {
+    "slug": "tidebreak",
+    "title": "Tidebreak",
+    "url": "https://tidebreak.freesoul.games/",
+    "originalCategories": [
+      "Strategy"
+    ],
+    "categories": [
+      "Strategy"
+    ],
+    "multiplayerMode": null,
+    "status": "documented_only",
+    "confidence": "high",
+    "changed": false,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Strategy fits planning squad placement and issuing tactical defensive orders. Although the game defends against a raid, the current UI emphasizes commandable squads and targeting rather than placing fixed towers, so Tower Defense is not added.",
+    "reviewDirectory": "worker-5",
+    "mechanics": "Command defensive squads on a sequence of islands under raid pressure; choose a squad and tile, drag to aim, and use shield/Brace orders to protect against incoming attackers."
+  },
+  {
+    "slug": "tiger-rider-chess",
+    "title": "Tiger Rider Chess: Der Kompass",
+    "url": "https://tigerriderchess.grok.me/",
+    "originalCategories": [
+      "Strategy"
+    ],
+    "categories": [
+      "Strategy",
+      "Multiplayer"
+    ],
+    "multiplayerMode": "Local 2-player",
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "changed": true,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Chess is Strategy. The explicit two-player mode supports local human Multiplayer; the reviewed match was against the computer and is not the basis for the multiplayer tag.",
+    "reviewDirectory": "worker-1",
+    "mechanics": "A character-themed chess game with a Chronicler AI mode and an explicit Zwei Spieler (two players) option. A current match recorded e4 and the reply e5 in the chronicle."
+  },
+  {
+    "slug": "till-dark",
+    "title": "Till Dark",
+    "url": "https://till-dark.vercel.app/",
+    "originalCategories": [
+      "Adventure"
+    ],
+    "categories": [
+      "Adventure"
+    ],
+    "multiplayerMode": null,
+    "status": "documented_only",
+    "confidence": "medium",
+    "changed": false,
+    "acceptedRecommendation": true,
+    "accessIssue": "Headless browser pointer capture did not clear the Click again to enter overlay; previous native-browser gameplay did enter and move.",
+    "accessIssueType": "pointer-capture",
+    "decisionRationale": "The documented objective is to escape/explore a forest under a nightfall threat, so Adventure is supported. This is a headless pointer-capture barrier, not evidence the site is down.",
+    "reviewDirectory": "worker-2",
+    "mechanics": "A first-person forest escape/exploration game with walking, running, jumping, and a nightfall threat."
+  },
+  {
+    "slug": "time-echo",
+    "title": "Time Echo",
+    "url": "https://time-echo-play.vercel.app/",
+    "originalCategories": [
+      "Adventure"
+    ],
+    "categories": [
+      "Adventure",
+      "Puzzle"
+    ],
+    "multiplayerMode": null,
+    "status": "gameplay_verified",
+    "confidence": "medium",
+    "changed": true,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Adventure covers first-person environmental exploration and progression through cycles; Puzzle is a meaningful secondary tag because discovering persistent memories through repeated cycles is the stated core mechanic.",
+    "reviewDirectory": "worker-4/assist-3",
+    "mechanics": "First-person exploration in a repeating room/cycle. The game says actions persist across resets and tracks memories to find; the loop combines exploration with observation and temporal puzzle solving."
+  },
+  {
+    "slug": "timeline-tactics",
+    "title": "Timeline Tactics",
+    "url": "https://tactics.parasol.network/play?v=7",
+    "originalCategories": [
+      "Strategy"
+    ],
+    "categories": [
+      "Strategy",
+      "Multiplayer"
+    ],
+    "multiplayerMode": "Online multiplayer",
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "changed": true,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Strategy is the unit-order/turn-planning loop. The separate Live Quick Match searches for human opponents, so Multiplayer is a real supported mode; this review used the CPU option only.",
+    "reviewDirectory": "worker-4",
+    "mechanics": "Turn-based isometric tactics with Knight, Archer, and Mage. In a CPU match, selecting the Archer and tapping a highlighted tile changed it from READY to a completed move at a1."
+  },
+  {
+    "slug": "toadstool-crossing",
+    "title": "Toadstool Crossing",
+    "url": "https://toadstoolcrossing.grok.me/",
+    "originalCategories": [
+      "Arcade"
+    ],
+    "categories": [
+      "Arcade"
+    ],
+    "multiplayerMode": null,
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "changed": false,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Arcade fits a short reflex-based lane-crossing score loop. The frog-style hopping does not establish a platforming traversal objective distinct from the immediate hazard-dodging arcade task.",
+    "reviewDirectory": "worker-5",
+    "mechanics": "Frogger-style score game: hop across lanes of traffic and water platforms to reach five lily homes while managing lives and a level progression meter."
+  },
+  {
+    "slug": "toybox-push",
+    "title": "Toybox Push",
+    "url": "https://games.jimmychandra.com/games/toybox_push/",
+    "originalCategories": [
+      "Puzzle"
+    ],
+    "categories": [
+      "Puzzle"
+    ],
+    "multiplayerMode": null,
+    "status": "documented_only",
+    "confidence": "high",
+    "changed": false,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Planning crate pushes in a constrained grid is a clear Puzzle loop; no additional tag is needed.",
+    "reviewDirectory": "worker-1",
+    "mechanics": "A 155-level Sokoban-style game: move a robot and push crates onto gold-star targets. Current level 1 HUD showed 0 moves, 0 pushes, and 1/2 crates on targets."
+  },
+  {
+    "slug": "trip-ibadan",
+    "title": "Trip_Ibadan",
+    "url": "https://trip-ibadan.vercel.app/",
+    "originalCategories": [
+      "Simulators"
+    ],
+    "categories": [
+      "Simulators"
+    ],
+    "multiplayerMode": null,
+    "status": "documented_only",
+    "confidence": "medium",
+    "changed": false,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Passenger transport along a real-world intercity route is simulation, not Racing.",
+    "reviewDirectory": "worker-2",
+    "mechanics": "An intercity passenger-driving simulation across a Lagos-to-Ibadan route, with selectable vehicles, passenger service, road progress, and driving controls."
+  },
+  {
+    "slug": "ttak-stop",
+    "title": "Ttak! Stop",
+    "url": "https://ttak-stop.web.app/",
+    "originalCategories": [
+      "Casual"
+    ],
+    "categories": [
+      "Arcade"
+    ],
+    "multiplayerMode": null,
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "changed": true,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Arcade fits a repeatable reaction/timing score challenge. A leaderboard or share/challenge button does not establish multiplayer.",
+    "reviewDirectory": "worker-4/assist-3",
+    "mechanics": "Single-player timing/reflex score game: start the moving marker and stop it inside the colored target zone for points; misses trigger a death effect."
+  },
+  {
+    "slug": "turbo-kart-gp",
+    "title": "Turbo Kart GP",
+    "url": "https://turbo-kart-gp-6e9.pages.dev/",
+    "originalCategories": [
+      "Sports"
+    ],
+    "categories": [
+      "Racing"
+    ],
+    "multiplayerMode": null,
+    "status": "documented_only",
+    "confidence": "high",
+    "changed": true,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Racing is the track competition. AI rivals do not count as Multiplayer.",
+    "reviewDirectory": "worker-4",
+    "mechanics": "Original kart racer: Enter advanced through title and Grand Prix into an eight-racer character-selection screen, but no race was started."
+  },
+  {
+    "slug": "unburied-blackwald-bunker",
+    "title": "UNBURIED: Blackwald Bunker",
+    "url": "https://unburied.inkwave.workers.dev/",
+    "originalCategories": [
+      "Action"
+    ],
+    "categories": [
+      "Shooter",
+      "Survival",
+      "Multiplayer"
+    ],
+    "multiplayerMode": "Online multiplayer",
+    "status": "documented_only",
+    "confidence": "high",
+    "changed": true,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Shooter and Survival name the documented first-person firearm and round-endurance loop. Multiplayer is supported by the explicit Co-op and room-code options, but no co-op session was entered. A dedicated Shooter label describes the weapon-combat loop more specifically than broad Action.",
+    "reviewDirectory": "worker-5",
+    "mechanics": "Round-based first-person bunker survival shooter, with solo and co-op entry options; controls include movement, sprint, jump, crouch, firearm aiming/firing/reload, knife, grenade, and interaction/buy."
+  },
+  {
+    "slug": "vector-anti-gravity-racing",
+    "title": "VECTOR: Anti-Gravity Racing",
+    "url": "https://wavedash.com/games/vector-anti-gravity-racing",
+    "originalCategories": [
+      "Racing"
+    ],
+    "categories": [
+      "Racing",
+      "Arcade",
+      "Multiplayer"
+    ],
+    "multiplayerMode": "Online multiplayer",
+    "status": "documented_only",
+    "confidence": "high",
+    "changed": true,
+    "acceptedRecommendation": true,
+    "accessIssue": "The public game page exposed an account panel and no playable client/Play control in this session; sign-in was not attempted.",
+    "accessIssueType": "other",
+    "decisionRationale": "Track races are primary; rapid weapon/boost races fit Arcade; explicit 2–8-player public/private online rooms support Multiplayer. CPU pilots alone are not treated as human multiplayer.",
+    "reviewDirectory": "worker-1",
+    "mechanics": "A browser anti-gravity racer with five tracks/craft, weapons, a 72-event career, seven CPU pilots, and online rooms for 2–8 pilots. The current Wavedash page showed store details and an account panel, not the race client."
+  },
+  {
+    "slug": "void-clash",
+    "title": "Void Clash TCG",
+    "url": "https://void-clash-tcg.grok.me",
+    "originalCategories": [
+      "Strategy"
+    ],
+    "categories": [
+      "Strategy",
+      "Multiplayer"
+    ],
+    "multiplayerMode": "Online multiplayer",
+    "status": "documented_only",
+    "confidence": "medium",
+    "changed": true,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Deck selection, resources, and turn-based tactics fit Strategy; the visible PVP option indicates a human-versus-human mode, though matchmaking was not tested.",
+    "reviewDirectory": "worker-2",
+    "mechanics": "A card battler with deck construction, resource/weapon/skill cards, solo AI fights, and a PVP mode advertised on the current title screen."
+  },
+  {
+    "slug": "void-explorer",
+    "title": "Void Explorer",
+    "url": "https://void-explorer.openai.chatgpt.site/",
+    "originalCategories": [
+      "Simulators"
+    ],
+    "categories": [
+      "Simulators"
+    ],
+    "multiplayerMode": null,
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "changed": false,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Use the displayed site taxonomy name Simulators (the catalog uses Simulation as an alias). Measured flight and navigation telemetry support a spaceflight simulator; no separate narrative/progression evidence warrants adding Adventure.",
+    "reviewDirectory": "worker-4/assist-3",
+    "mechanics": "Spaceflight/navigation simulator in a procedural universe. The HUD models thrust, velocity, planet range, arrival time, flight profile, and surface altitude; the expedition menu advertises 2,048 reachable systems."
+  },
+  {
+    "slug": "vortex-rash",
+    "title": "VORTEX RASH",
+    "url": "https://amber-arch-blue-reef.grok.me/",
+    "originalCategories": [
+      "Racing"
+    ],
+    "categories": [
+      "Racing",
+      "Action"
+    ],
+    "multiplayerMode": null,
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "changed": true,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Race/time course is primary Racing; attacking rivals is a meaningful Action secondary loop.",
+    "reviewDirectory": "worker-4",
+    "mechanics": "Neon Spire Alley race started; W/A/D inputs were followed by active HUD P7/7, elapsed time 1:17.5, 37 km/h, and 1x. The page also documents slashing rival gangs."
+  },
+  {
+    "slug": "warpstrike",
+    "title": "Warpstrike",
+    "url": "https://games.agora-agency.com/g/warpstrike-5c3b17",
+    "originalCategories": [
+      "Action"
+    ],
+    "categories": [
+      "Action",
+      "Shooter",
+      "Arcade"
+    ],
+    "multiplayerMode": null,
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "changed": true,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Action covers real-time space combat, Shooter gives the core firearm/projectile combat its specific genre, and Arcade fits the score-and-encounter loop. Shooter is proposed because existing Action is too broad to distinguish this weapon-focused play.",
+    "reviewDirectory": "worker-5",
+    "mechanics": "Cel-shaded spacecraft action shooter with weapon firing against enemy waves; the short score-driven run includes distinct encounters and a hull meter."
+  },
+  {
+    "slug": "what-maya-knew",
+    "title": "What Maya Knew",
+    "url": "https://yenfus.itch.io/what-maya-knew",
+    "originalCategories": [
+      "Adventure"
+    ],
+    "categories": [
+      "Adventure",
+      "Puzzle"
+    ],
+    "multiplayerMode": null,
+    "status": "documented_only",
+    "confidence": "high",
+    "changed": true,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "The investigation narrative and case progression fit Adventure; clue analysis and case-board linkage fit Puzzle. The first-party page explicitly says all data and people are fictional/simulated.",
+    "reviewDirectory": "worker-1",
+    "mechanics": "A fictional missing-person OSINT investigation: inspect a locked laptop, notebook, corkboard, and 28 varied leads (sorting posts, mapping photos, comparing sites, searching records), then pin evidence to questions. Lead costs and hints affect the ending."
+  },
+  {
+    "slug": "wild-fields-1648",
+    "title": "Wild Fields 1648",
+    "url": "https://claude.ai/artifact/WKFVS2VNcV8eKBd4kQs4mH",
+    "originalCategories": [
+      "Strategy"
+    ],
+    "categories": [
+      "Strategy"
+    ],
+    "multiplayerMode": null,
+    "status": "documented_only",
+    "confidence": "medium",
+    "changed": false,
+    "acceptedRecommendation": true,
+    "accessIssue": "The assigned Claude artifact URL returns Page not found.",
+    "accessIssueType": "404",
+    "decisionRationale": "Issuing unit commands on a battlefield is a planning/tactics loop, matching Strategy. No multiplayer mode is shown in the supplied description.",
+    "reviewDirectory": "worker-2",
+    "mechanics": "A pike-and-shot battlefield tactics game in which the player issues worker/unit commands and plans force deployment."
+  },
+  {
+    "slug": "word-ladder-duel",
+    "title": "Word Ladder Duel",
+    "url": "https://world-ladder-duel.grok.me/",
+    "originalCategories": [
+      "Puzzle"
+    ],
+    "categories": [
+      "Puzzle",
+      "Multiplayer"
+    ],
+    "multiplayerMode": "Local 2-player",
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "changed": true,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Puzzle is the core word-transformation mechanic. Multiplayer is supported because the first-party menu explicitly offers same-device play and the tutorial advances to another player's turn; this tag does not imply that a live online match was tested.",
+    "reviewDirectory": "worker-4/assist-3",
+    "mechanics": "Word-chain puzzle: both players change exactly one letter while preserving word length and avoiding repeats. First-party options explicitly include same-device play, play against a bot, and a private room."
+  },
+  {
+    "slug": "wording-well",
+    "title": "Wording Well",
+    "url": "https://exedexes1.itch.io/wording-well",
+    "originalCategories": [
+      "Puzzle"
+    ],
+    "categories": [
+      "Puzzle"
+    ],
+    "multiplayerMode": null,
+    "status": "documented_only",
+    "confidence": "high",
+    "changed": false,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Puzzle describes spelling words with falling lettered stones; the visible game page names influences Wordtris, Welltris, and Scrabble. No new category is necessary.",
+    "reviewDirectory": "worker-4",
+    "mechanics": "Embedded first-party game describes lettered stones in a square well, word spelling, word-length rules, and dungeon stairs/traps. In the current frame, Level 1/Open rim instructions were visible; no board input response was confirmed."
+  },
+  {
+    "slug": "ww2-dogfight",
+    "title": "WW2 Dog Fight Arena",
+    "url": "https://fly.zullo.fun/",
+    "originalCategories": [
+      "Action",
+      "Multiplayer"
+    ],
+    "categories": [
+      "Simulators",
+      "Action",
+      "Multiplayer"
+    ],
+    "multiplayerMode": "Online multiplayer",
+    "status": "documented_only",
+    "confidence": "high",
+    "changed": true,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "Simulators is the main fit for the explicitly described flight simulator, Action captures aerial combat, and Multiplayer is supported by the live Squadron mode text. The multiplayer mode was not entered.",
+    "reviewDirectory": "worker-5",
+    "mechanics": "WWII aerial combat flight simulator with a solo mission against AI enemies and a Squadron mode for multiplayer aerial combat."
+  },
+  {
+    "slug": "yugisnap",
+    "title": "YugiSnap",
+    "url": "https://yugisnap.kw-15.workers.dev/",
+    "originalCategories": [
+      "Strategy"
+    ],
+    "categories": [
+      "Strategy"
+    ],
+    "multiplayerMode": null,
+    "status": "unresolved",
+    "confidence": "low",
+    "changed": false,
+    "acceptedRecommendation": false,
+    "accessIssue": "The supplied host yugisnap.kw-15.workers.dev returned DNS_PROBE_FINISHED_NXDOMAIN on two visits.",
+    "accessIssueType": "dns",
+    "decisionRationale": "Insufficient admissible evidence for a correction; retain the original categories. Keep the existing Strategy category provisionally because no admissible evidence supports a correction. The catalog description alone was not treated as verification.",
+    "reviewDirectory": "worker-1",
+    "mechanics": "Unknown: two direct visits returned DNS_PROBE_FINISHED_NXDOMAIN for the supplied host; no first-party mechanics or gameplay could be observed."
+  },
+  {
+    "slug": "zero-facility",
+    "title": "Zero Facility",
+    "url": "https://suyancc.github.io/zero-facility",
+    "originalCategories": [
+      "Adventure"
+    ],
+    "categories": [
+      "Adventure"
+    ],
+    "multiplayerMode": null,
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "changed": false,
+    "acceptedRecommendation": true,
+    "accessIssue": null,
+    "accessIssueType": null,
+    "decisionRationale": "The task is an exploration/stealth escape with objectives, making Adventure more accurate than Action based solely on movement or a timer.",
+    "reviewDirectory": "worker-2",
+    "mechanics": "An isometric stealth-escape adventure through a facility, with objectives, movement, equipment/items, and a timed escape pressure."
+  }
+]

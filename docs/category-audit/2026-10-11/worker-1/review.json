@@ -1,0 +1,1467 @@
+[
+  {
+    "slug": "3d-car-simulator",
+    "title": "3D Car Driving Simulator",
+    "url": "https://3d-car-driving-simulation.vercel.app",
+    "currentCategory": "Simulation",
+    "categories": [
+      "Simulators"
+    ],
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "mechanics": "A free-driving 3D car simulation with speed, distance, health, and nitro gauges. W changed speed from 0 to 20 km/h and distance from 0.00 to 0.01 km; no race objective was present.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Clicked the active driving canvas and held W for 1.7 seconds.",
+        "Observed speed change 0→20 km/h and distance 0.00→0.01 km."
+      ],
+      "outcome": "The car advanced in the city and the HUD registered speed/distance.",
+      "screenshotPaths": [
+        "screenshots/3d-car-simulator-initial.png",
+        "screenshots/3d-car-simulator-after.png",
+        "screenshots/3d-car-simulator-followup-before.png",
+        "screenshots/3d-car-simulator-followup-after.png"
+      ],
+      "limitations": "Short straight-line input; steering, collisions, and any additional modes were not tested."
+    },
+    "sources": [
+      {
+        "url": "https://3d-car-driving-simulation.vercel.app",
+        "kind": "live page, visible controls, or current access check",
+        "timeframe": "current",
+        "detail": "A free-driving 3D car simulation with speed, distance, health, and nitro gauges. W changed speed from 0 to 20 km/h and distance from 0.00 to 0.01 km; no race objective was present."
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "Simulators is the accurate existing category for free driving with vehicle telemetry and no race or time-trial loop.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "ash-line",
+    "title": "ASH LINE",
+    "url": "https://cedar-crisp-sky-orbit.grok.me/ash-line.html",
+    "currentCategory": "Strategy",
+    "categories": [
+      "Tower Defense",
+      "Strategy",
+      "Survival"
+    ],
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "mechanics": "A five-wave defense run asks the player to place towers and route ash lines to stop moving zombie waves; lives and coins are finite resources. The opening screen calls it a roguelite survivor tower defense.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Clicked 开始守护 (begin defense), then 出击 (launch wave).",
+        "Observed the live farm map at wave 1/5 with 20 lives, 228 coins, 0 kills, and three moving enemies."
+      ],
+      "outcome": "An active tower-defense wave appeared with enemies, tower choices, resources, and a route.",
+      "screenshotPaths": [
+        "screenshots/ash-line-initial.png",
+        "screenshots/ash-line-after.png"
+      ],
+      "limitations": "Only the first wave was observed; tower placement, later waves, and run completion were not tested."
+    },
+    "sources": [
+      {
+        "url": "https://cedar-crisp-sky-orbit.grok.me/ash-line.html",
+        "kind": "live page, visible controls, or current access check",
+        "timeframe": "current",
+        "detail": "A five-wave defense run asks the player to place towers and route ash lines to stop moving zombie waves; lives and coins are finite resources. The opening screen calls it a roguelite survivor tower defense."
+      },
+      {
+        "path": "docs/AI-GAME-SCOUT-BATCH9-2026-10-09.md",
+        "kind": "dated gameplay receipt",
+        "timeframe": "prior",
+        "detail": "A tower was selected, enemies moved in a launched wave, and the speed setting changed from 1x to 2x."
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "Tower Defense is the core wave-defense loop, Strategy reflects tower/resource placement, and the game's own framing supports Survival as an additional mode descriptor.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "battle-peaks",
+    "title": "Battle Peaks",
+    "url": "https://battle-peaks1.vercel.app/",
+    "currentCategory": "Strategy",
+    "categories": [
+      "Strategy",
+      "Multiplayer"
+    ],
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "mechanics": "Turn-based local artillery duel across uneven terrain. Players adjust firing angle and power before firing at the other commander.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Initialized the battalion and started a battle.",
+        "Held ArrowUp; the current Player 1 firing angle read 128° at power 50.",
+        "Pressed Space; no projectile was visible in the immediate capture."
+      ],
+      "outcome": "A live two-commander match and adjustable artillery controls appeared; the angle value changed.",
+      "screenshotPaths": [
+        "screenshots/battle-peaks-initial.png",
+        "screenshots/battle-peaks-after.png"
+      ],
+      "limitations": "Current capture did not show an impact or second player taking a turn; dated local-match receipt corroborates the two-player mode."
+    },
+    "sources": [
+      {
+        "url": "https://battle-peaks1.vercel.app/",
+        "kind": "live page, visible controls, or current access check",
+        "timeframe": "current",
+        "detail": "Turn-based local artillery duel across uneven terrain. Players adjust firing angle and power before firing at the other commander."
+      },
+      {
+        "path": "docs/AI-GAME-SCOUT-BATCH5-2026-10-09.md",
+        "kind": "dated gameplay receipt",
+        "timeframe": "prior",
+        "detail": "A local two-player match began; Up changed aim from 45° to 77° and Space launched a projectile."
+      },
+      {
+        "path": "docs/MULTIPLAYER.md",
+        "kind": "repository mode record",
+        "timeframe": "prior",
+        "detail": "Records Battle Peaks as Local 2-player with evidence from its match and commander selector."
+      }
+    ],
+    "multiplayerMode": "Local 2-player",
+    "rationale": "Angle, power, terrain, and turn-based firing decisions fit Strategy. Two human commander slots and local-play evidence support Multiplayer; AI opponents are not being inferred.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "canal-shark",
+    "title": "CANAL SHARK",
+    "url": "https://bukangshark.restart4k.workers.dev/",
+    "currentCategory": "Action",
+    "categories": [
+      "Survival",
+      "Arcade",
+      "Action"
+    ],
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "mechanics": "A shark navigates a pixel-art canal in a timed survival run with health and dash meters, stage, and score; the title menu also offers an escape mode.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Selected the Survival Mode card.",
+        "Held ArrowUp for 1.2 seconds, then pressed Space for the displayed dash control.",
+        "Observed the shark at stage 1 with a 0:03 timer and score 20."
+      ],
+      "outcome": "The title menu transitioned to a live canal run with the shark, stage, timer, score, health, and dash meters.",
+      "screenshotPaths": [
+        "screenshots/canal-shark-initial.png",
+        "screenshots/canal-shark-after.png"
+      ],
+      "limitations": "Brief opening run only; dash effect, survival completion, and Escape Mode were not tested."
+    },
+    "sources": [
+      {
+        "url": "https://bukangshark.restart4k.workers.dev/",
+        "kind": "live page, visible controls, or current access check",
+        "timeframe": "current",
+        "detail": "A shark navigates a pixel-art canal in a timed survival run with health and dash meters, stage, and score; the title menu also offers an escape mode."
+      },
+      {
+        "path": "../game-discovery-bot/runs/2026-10-10T185643Z/reports/24-canal-shark-parent.json",
+        "kind": "dated gameplay receipt",
+        "timeframe": "prior",
+        "detail": "Restarted Survival and observed Left move/rotate the shark from x=674 to x=617."
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "Survival is the selected threat-endurance mode, the score/time run is arcade-like, and direct movement/dash input supports Action.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "color-war",
+    "title": "Color War",
+    "url": "https://solider10.github.io/colorwar/",
+    "currentCategory": "Strategy",
+    "categories": [
+      "Strategy",
+      "Multiplayer"
+    ],
+    "status": "documented_only",
+    "confidence": "high",
+    "mechanics": "A tile-capture game: claim neighboring squares, expand territory, and compete against a computer; the live menu separately offers Play with a Friend.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Loaded the title and main-menu screens; the current menu visibly lists Play vs Computer and Play with a Friend.",
+        "A fresh board appeared during the initial pass with Blue's turn and legal neighboring-tile indicators, but no tile capture was confirmed."
+      ],
+      "outcome": "Current UI documents both solo-vs-computer and friend play; a complete move-and-response was not observed.",
+      "screenshotPaths": [
+        "screenshots/color-war-initial.png",
+        "screenshots/color-war-after.png",
+        "screenshots/color-war-followup-before.png",
+        "screenshots/color-war-followup-after.png",
+        "screenshots/color-war-retry-before.png",
+        "screenshots/color-war-retry-after.png",
+        "screenshots/color-war-final-before.png",
+        "screenshots/color-war-final-menu.png",
+        "screenshots/color-war-final-after.png"
+      ],
+      "limitations": "No tile was confirmed captured and no second human turn was tested; categories are based on the current menu and instructions, not a completed match."
+    },
+    "sources": [
+      {
+        "url": "https://solider10.github.io/colorwar/",
+        "kind": "live page, visible controls, or current access check",
+        "timeframe": "current",
+        "detail": "A tile-capture game: claim neighboring squares, expand territory, and compete against a computer; the live menu separately offers Play with a Friend."
+      }
+    ],
+    "multiplayerMode": "Local 2-player",
+    "rationale": "Territory planning is Strategy. The explicit friend mode supports local human Multiplayer; the computer mode alone would not.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "cs-surf",
+    "title": "CS Surf",
+    "url": "https://surfd.net/",
+    "currentCategory": "Sports",
+    "categories": [
+      "Racing"
+    ],
+    "status": "documented_only",
+    "confidence": "medium",
+    "mechanics": "A first-person surf-course client lists linear and staged maps, checkpoints, solo/online modes, a local-best record, and mouse/keyboard controls. The selected Boreas map showed two checkpoints and remained at Loading map… during this visit.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Opened the practice facility and course list; selected the visible Boreas course and Solo mode where available.",
+        "Held W briefly; the client remained on Loading Boreas… / Loading map…."
+      ],
+      "outcome": "A live course selector and course metadata were visible, but the playable map did not appear.",
+      "screenshotPaths": [
+        "screenshots/cs-surf-initial.png",
+        "screenshots/cs-surf-after.png"
+      ],
+      "limitations": "Current map load and W movement remain unverified; no multiplayer tag because human opponents were not confirmed."
+    },
+    "sources": [
+      {
+        "url": "https://surfd.net/",
+        "kind": "live page, visible controls, or current access check",
+        "timeframe": "current",
+        "detail": "A first-person surf-course client lists linear and staged maps, checkpoints, solo/online modes, a local-best record, and mouse/keyboard controls. The selected Boreas map showed two checkpoints and remained at Loading map… during this visit."
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "Timed routes, checkpoints, and course records fit Racing better than Sports: this is a Counter-Strike movement course, not a real-world surfing rules simulation. Online mode was not sufficient evidence for human multiplayer.",
+    "proposedNewCategories": [],
+    "accessIssue": "The selected Boreas course remained at “Loading Boreas… / Loading map…” through the short retry.",
+    "accessIssueType": "loading"
+  },
+  {
+    "slug": "disco-dino-lost-worlds",
+    "title": "DiscoDino: Lost Worlds",
+    "url": "https://discodino.netlify.app/",
+    "currentCategory": "Adventure",
+    "categories": [
+      "Adventure"
+    ],
+    "status": "documented_only",
+    "confidence": "medium",
+    "mechanics": "Pixel-art exploration game introduced as discovering a prehistoric world; the title screen shows an explorer, habitat, and a Play control.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Loaded the title screen and clicked Play twice in separate fresh-page attempts; the game screen did not advance."
+      ],
+      "outcome": "The title art and Play/Settings/Sign in controls remained visible; no level or creature interaction was observed.",
+      "screenshotPaths": [
+        "screenshots/disco-dino-lost-worlds-initial.png",
+        "screenshots/disco-dino-lost-worlds-after.png",
+        "screenshots/disco-dino-lost-worlds-followup-before.png",
+        "screenshots/disco-dino-lost-worlds-followup-after.png"
+      ],
+      "limitations": "No in-game movement or discovery was verified."
+    },
+    "sources": [
+      {
+        "url": "https://discodino.netlify.app/",
+        "kind": "live page, visible controls, or current access check",
+        "timeframe": "current",
+        "detail": "Pixel-art exploration game introduced as discovering a prehistoric world; the title screen shows an explorer, habitat, and a Play control."
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "Exploration and discovery are the supported existing Adventure loop. The page does not establish a separate puzzle or educational mode strongly enough to add a tag.",
+    "proposedNewCategories": [],
+    "accessIssue": "Two clicks on the visible Play control left the game on its title screen in this browser session.",
+    "accessIssueType": "loading"
+  },
+  {
+    "slug": "drawdown",
+    "title": "Drawdown",
+    "url": "https://drawdown-game.vercel.app/",
+    "currentCategory": "Puzzle",
+    "categories": [
+      "Puzzle"
+    ],
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "mechanics": "A weaving logic puzzle asks the player to configure warp threads, shafts, and treadles in order to produce a target cloth pattern. Clicking gold-box loom dots visibly changed the cloth and loom configuration.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Clicked two dots in the gold box, following the page instruction “Tap a dot in the gold box to change the cloth.”"
+      ],
+      "outcome": "The post-action screenshot shows the cloth pattern and thread configuration changed.",
+      "screenshotPaths": [
+        "screenshots/drawdown-initial.png",
+        "screenshots/drawdown-after.png",
+        "screenshots/drawdown-followup-before.png",
+        "screenshots/drawdown-followup-after.png",
+        "screenshots/drawdown-followup-dot1.png"
+      ],
+      "limitations": "Only the interactive demo was tested; a full browser-play level was not launched."
+    },
+    "sources": [
+      {
+        "url": "https://drawdown-game.vercel.app/",
+        "kind": "live page, visible controls, or current access check",
+        "timeframe": "current",
+        "detail": "A weaving logic puzzle asks the player to configure warp threads, shafts, and treadles in order to produce a target cloth pattern. Clicking gold-box loom dots visibly changed the cloth and loom configuration."
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "The goal is to solve a constrained pattern/sequence using loom controls, which fits Puzzle. There is no need for a new crafting category.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "faux-ami",
+    "title": "Faux Ami",
+    "url": "https://faux-ami-french-game.vercel.app/",
+    "currentCategory": "Puzzle",
+    "categories": [
+      "Puzzle"
+    ],
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "mechanics": "A French false-friend quiz presents a French word and asks the player to pick its true English meaning. Selecting chocolate for chocolat produced the correct-answer card and increased the streak from 0 to 1.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Clicked Jouer, then C'est parti to begin level 1.",
+        "Selected chocolate for chocolat and observed “Oui!” / “= chocolate” and streak 0→1."
+      ],
+      "outcome": "The answer was accepted, an explanation card appeared, and the game advanced its streak.",
+      "screenshotPaths": [
+        "screenshots/faux-ami-initial.png",
+        "screenshots/faux-ami-after.png",
+        "screenshots/faux-ami-followup-before.png",
+        "screenshots/faux-ami-followup-after.png",
+        "screenshots/faux-ami-retry-before.png",
+        "screenshots/faux-ami-retry-after.png",
+        "screenshots/faux-ami-final-before.png",
+        "screenshots/faux-ami-final-stage.png",
+        "screenshots/faux-ami-final-after.png"
+      ],
+      "limitations": "One question was answered; later levels and scoring were not tested."
+    },
+    "sources": [
+      {
+        "url": "https://faux-ami-french-game.vercel.app/",
+        "kind": "live page, visible controls, or current access check",
+        "timeframe": "current",
+        "detail": "A French false-friend quiz presents a French word and asks the player to pick its true English meaning. Selecting chocolate for chocolat produced the correct-answer card and increased the streak from 0 to 1."
+      },
+      {
+        "path": "docs/AI-GAME-SCOUT-BATCH4-2026-10-09.md",
+        "kind": "dated gameplay receipt",
+        "timeframe": "prior",
+        "detail": "Earlier play also answered chocolat correctly and increased the streak from 0 to 1."
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "Short word-meaning decisions fit the existing Puzzle category. A separate Educational category is not necessary to describe this multiple-choice word game.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "fly-pieter",
+    "title": "fly.pieter.com",
+    "url": "https://fly.pieter.com",
+    "currentCategory": "Simulation",
+    "categories": [
+      "Simulators",
+      "Multiplayer"
+    ],
+    "status": "documented_only",
+    "confidence": "high",
+    "mechanics": "A free-to-play MMO flight simulator with shared live-flight radar and aircraft controls; the current join screen asks for an in-game display name and a Cloudflare human-verification check.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Opened the live landing page and inspected Join the game; the join form required a display name and Cloudflare verification.",
+        "Did not enter a name or interact with the verification control."
+      ],
+      "outcome": "The public flight-sim description and join gate were visible, but no flight was entered.",
+      "screenshotPaths": [
+        "screenshots/fly-pieter-initial.png",
+        "screenshots/fly-pieter-after.png"
+      ],
+      "limitations": "Current flight controls and shared play were not tested."
+    },
+    "sources": [
+      {
+        "url": "https://fly.pieter.com",
+        "kind": "live page, visible controls, or current access check",
+        "timeframe": "current",
+        "detail": "A free-to-play MMO flight simulator with shared live-flight radar and aircraft controls; the current join screen asks for an in-game display name and a Cloudflare human-verification check."
+      },
+      {
+        "path": "docs/MULTIPLAYER.md",
+        "kind": "repository mode record",
+        "timeframe": "prior",
+        "detail": "Identifies fly.pieter.com as Online multiplayer based on its MMO landing page and Join the game control."
+      }
+    ],
+    "multiplayerMode": "Online multiplayer",
+    "rationale": "Flight simulation is the primary loop and the first-party page explicitly calls the game an MMO, supporting actual online Multiplayer. No attempt was made to create a name or solve a verification challenge.",
+    "proposedNewCategories": [],
+    "accessIssue": "Joining requires entering a display name and completing a Cloudflare human-verification challenge; neither was used.",
+    "accessIssueType": "other"
+  },
+  {
+    "slug": "gigacity",
+    "title": "Gigacity",
+    "url": "https://sael.net/gigacity",
+    "currentCategory": "Simulation",
+    "categories": [
+      "Simulators"
+    ],
+    "status": "documented_only",
+    "confidence": "medium",
+    "mechanics": "A generated 3D city viewed while flying, with camera and sky settings plus steering, orbit, turbo, and hover controls. The city HUD exposes changing tower, traffic, and rendering metrics.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Held W for one second using the on-screen control legend; the city remained visible with steering, orbit, turbo, and hover controls."
+      ],
+      "outcome": "A live generated city scene and telemetry remained active, but this short capture did not isolate a controlled movement change from animation/render updates.",
+      "screenshotPaths": [
+        "screenshots/gigacity-initial.png",
+        "screenshots/gigacity-after.png"
+      ],
+      "limitations": "No measured flight response, destination, or task completion was confirmed."
+    },
+    "sources": [
+      {
+        "url": "https://sael.net/gigacity",
+        "kind": "live page, visible controls, or current access check",
+        "timeframe": "current",
+        "detail": "A generated 3D city viewed while flying, with camera and sky settings plus steering, orbit, turbo, and hover controls. The city HUD exposes changing tower, traffic, and rendering metrics."
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "The city-and-flight sandbox models a navigable urban system; it has no race, opponent, or strategy objective. Simulators is the closest existing tag.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "half-life",
+    "title": "Half Life",
+    "url": "https://pixelsuft.github.io/hl/",
+    "currentCategory": "Action",
+    "categories": [
+      "Action"
+    ],
+    "status": "documented_only",
+    "confidence": "medium",
+    "mechanics": "The supplied page identifies itself as an Xash3D FWGS Emscripten port of Half-Life. Its first-party port screen stayed at Settings: Memory size: with no playable HUD or controls.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Opened the supplied port and waited 12 seconds for its memory/settings initialization; no gameplay controls appeared."
+      ],
+      "outcome": "Only the Xash3D port/settings screen was observed; no game state was reached.",
+      "screenshotPaths": [
+        "screenshots/half-life-initial.png",
+        "screenshots/half-life-after.png"
+      ],
+      "limitations": "Gameplay and any exact mode remain unverified."
+    },
+    "sources": [
+      {
+        "url": "https://pixelsuft.github.io/hl/",
+        "kind": "live page, visible controls, or current access check",
+        "timeframe": "current",
+        "detail": "The supplied page identifies itself as an Xash3D FWGS Emscripten port of Half-Life. Its first-party port screen stayed at Settings: Memory size: with no playable HUD or controls."
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "Half-Life is a real-time combat shooter, accurately covered by Action. No new Shooter category is needed for this title.",
+    "proposedNewCategories": [],
+    "accessIssue": "The Emscripten port remained on an incomplete Memory size settings screen after the loading allowance.",
+    "accessIssueType": "loading"
+  },
+  {
+    "slug": "heroes-journey",
+    "title": "Heroes Journey",
+    "url": "https://heroezjourney.com/",
+    "currentCategory": "Action",
+    "categories": [
+      "Action",
+      "Adventure"
+    ],
+    "status": "documented_only",
+    "confidence": "high",
+    "mechanics": "A side-view combat journey with sword combos, parry, crossbow, dodge, sprint-kick, jumping, climbing, and gliding; the page shows a Wildwood Road combat scene and detailed controls.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Held ArrowRight and pressed J for the displayed movement and blade-combo controls; the in-game clock advanced from 07:30 to 07:50, but no hit/defeat change was isolated in the current capture."
+      ],
+      "outcome": "The live side-scrolling combat scene and full movement/combat control set were visible; current input response was not conclusive.",
+      "screenshotPaths": [
+        "screenshots/heroes-journey-initial.png",
+        "screenshots/heroes-journey-after.png"
+      ],
+      "limitations": "Current attack damage and level progression were not verified."
+    },
+    "sources": [
+      {
+        "url": "https://heroezjourney.com/",
+        "kind": "live page, visible controls, or current access check",
+        "timeframe": "current",
+        "detail": "A side-view combat journey with sword combos, parry, crossbow, dodge, sprint-kick, jumping, climbing, and gliding; the page shows a Wildwood Road combat scene and detailed controls."
+      },
+      {
+        "path": "docs/AI-GAME-SCOUT-BATCH9-2026-10-09.md",
+        "kind": "dated gameplay receipt",
+        "timeframe": "prior",
+        "detail": "A prior run moved and attacked; a six-hit combo and enemy defeat were observed."
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "Action covers the real-time combat and Adventure covers the road/progression. Platform traversal is a substantial genre element missing from the current category set, so Platformer is proposed as a new category if the owner approves a shared category expansion.",
+    "proposedNewCategories": [
+      "Platformer"
+    ],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "jamo-jump",
+    "title": "Jamo Jump",
+    "url": "https://jamojump.app/",
+    "currentCategory": "Puzzle",
+    "categories": [
+      "Puzzle"
+    ],
+    "status": "documented_only",
+    "confidence": "high",
+    "mechanics": "A Hangul word puzzle asks players to move a horse from a start consonant to a flag consonant by finding two-syllable Korean words. Current practice screen explains a consonant-jump puzzle and shows practice 1/10.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Tapped through the Korean-language instructions to the practice 1/10 puzzle, which displayed start/flag consonants and a two-syllable answer field."
+      ],
+      "outcome": "The live practice puzzle and rules appeared; the current answer was not submitted successfully.",
+      "screenshotPaths": [
+        "screenshots/jamo-jump-initial.png",
+        "screenshots/jamo-jump-after.png",
+        "screenshots/jamo-jump-followup-before.png",
+        "screenshots/jamo-jump-followup-after.png",
+        "screenshots/jamo-jump-retry-before.png",
+        "screenshots/jamo-jump-retry-after.png",
+        "screenshots/jamo-jump-final-before.png"
+      ],
+      "limitations": "Current puzzle completion is unverified; prior receipt provides dated evidence of a practice round passing."
+    },
+    "sources": [
+      {
+        "url": "https://jamojump.app/",
+        "kind": "live page, visible controls, or current access check",
+        "timeframe": "current",
+        "detail": "A Hangul word puzzle asks players to move a horse from a start consonant to a flag consonant by finding two-syllable Korean words. Current practice screen explains a consonant-jump puzzle and shows practice 1/10."
+      },
+      {
+        "path": "../game-discovery-bot/runs/2026-10-10T185643Z/reports/23-jamo-parent.json",
+        "kind": "dated gameplay receipt",
+        "timeframe": "prior",
+        "detail": "Started ten-round practice, entered 지금, used Jump, and observed practice 1 pass and the next practice prompt."
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "Word construction and route solving make Puzzle the accurate existing category; it is not a reflex action game merely because the horse moves.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "lantern-isle",
+    "title": "Lantern Isle",
+    "url": "https://games.jimmychandra.com/games/lantern_isle/",
+    "currentCategory": "Action",
+    "categories": [
+      "Adventure"
+    ],
+    "status": "documented_only",
+    "confidence": "medium",
+    "mechanics": "A side-view island exploration game opens with a wrecked boat and a lighthouse objective; visible controls include move/climb, jump, pick up/use, drop, and hint.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Held ArrowRight, then pressed E using the displayed move/climb and pick-up/use controls."
+      ],
+      "outcome": "The current scene shows the wrecked-boat/lighthouse objective and an active island environment; no item-use or objective progress was visible after the short input.",
+      "screenshotPaths": [
+        "screenshots/lantern-isle-initial.png",
+        "screenshots/lantern-isle-after.png"
+      ],
+      "limitations": "Current movement and objective completion were not verified."
+    },
+    "sources": [
+      {
+        "url": "https://games.jimmychandra.com/games/lantern_isle/",
+        "kind": "live page, visible controls, or current access check",
+        "timeframe": "current",
+        "detail": "A side-view island exploration game opens with a wrecked boat and a lighthouse objective; visible controls include move/climb, jump, pick up/use, drop, and hint."
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "Exploring a shipwrecked island and completing the lighthouse objective fits Adventure. Its side-view jumping/climbing traversal motivates a proposed Platformer category; current Action is unsupported because no combat is shown.",
+    "proposedNewCategories": [
+      "Platformer"
+    ],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "llama-roguelike",
+    "title": "Llama Roguelike",
+    "url": "https://aovks23.itch.io/llama-roguelike-work-in-progress",
+    "currentCategory": "Strategy",
+    "categories": [
+      "Strategy"
+    ],
+    "status": "documented_only",
+    "confidence": "high",
+    "mechanics": "A turn-based llama roguelike combines five-action combat choices (spit, kick, defend) with a backpack where item placement/order changes attack effects, plus shops, events, bosses, and difficulty modes. Current page's embedded title offers Jugar but no run was started.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Clicked itch.io's Run game control; the embedded game loaded its Spanish title screen with Jugar and backpack-order instructions. No run was started."
+      ],
+      "outcome": "The first-party game title and mechanics screen loaded; the game loop itself was not entered.",
+      "screenshotPaths": [
+        "screenshots/llama-roguelike-initial.png",
+        "screenshots/llama-roguelike-after.png"
+      ],
+      "limitations": "No current combat, inventory, or run progression was observed."
+    },
+    "sources": [
+      {
+        "url": "https://aovks23.itch.io/llama-roguelike-work-in-progress",
+        "kind": "live page, visible controls, or current access check",
+        "timeframe": "current",
+        "detail": "A turn-based llama roguelike combines five-action combat choices (spit, kick, defend) with a backpack where item placement/order changes attack effects, plus shops, events, bosses, and difficulty modes. Current page's embedded title offers Jugar but no run was started."
+      },
+      {
+        "path": "../game-discovery-bot/pilot-2026-10-10/tests/b/reports/llama-roguelike.json",
+        "kind": "dated gameplay attempt",
+        "timeframe": "prior",
+        "detail": "Earlier tester reached the itch.io page and title screen but could not get past Jugar; it does not verify gameplay."
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "Combat is turn-based and the distinctive core is planning action economy and item layout, so Strategy fits better than Action. The first-party description gives enough evidence without inventing another tag.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "moon-mars-mission-studio",
+    "title": "Moon & Mars Mission Studio",
+    "url": "https://sanghyunpark.pages.dev/apps/mission-studio/",
+    "currentCategory": "Simulation",
+    "categories": [
+      "Simulators"
+    ],
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "mechanics": "Select a real or concept mission, configure inputs and trajectories, then fly an interactive spacecraft/launch simulation with timeline and telemetry. Apollo 11 liftoff displayed engine status, vehicle parts, altitude, velocity, thrust, and g-force.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Selected Apollo 11, clicked Fly this mission and Skip countdown.",
+        "Observed T+00:00:00 and Saturn V liftoff with engine state, 408 m/s inertial speed, 2 m/s surface speed, 1 m altitude, and 1.21 g telemetry."
+      ],
+      "outcome": "The selected mission entered a live liftoff/flight state with changing telemetry and an event timeline.",
+      "screenshotPaths": [
+        "screenshots/moon-mars-mission-studio-initial.png",
+        "screenshots/moon-mars-mission-studio-after.png"
+      ],
+      "limitations": "Only the opening launch state was observed; orbit, landing, and return were not played through."
+    },
+    "sources": [
+      {
+        "url": "https://sanghyunpark.pages.dev/apps/mission-studio/",
+        "kind": "live page, visible controls, or current access check",
+        "timeframe": "current",
+        "detail": "Select a real or concept mission, configure inputs and trajectories, then fly an interactive spacecraft/launch simulation with timeline and telemetry. Apollo 11 liftoff displayed engine status, vehicle parts, altitude, velocity, thrust, and g-force."
+      },
+      {
+        "path": "../game-discovery-bot/runs/2026-10-10T185643Z/reports/worker5/07-moon-mars-mission-studio.json",
+        "kind": "dated gameplay receipt",
+        "timeframe": "prior",
+        "detail": "Apollo 11 and Mars 2020 trajectories were solved and launches advanced with telemetry."
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "Mission selection and spacecraft liftoff with flight telemetry support an interactive spaceflight simulator. The observed setup did not establish a distinct tactical or resource-management loop for Strategy.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "neon-palms-port-solana",
+    "title": "Neon Palms — Port Solana",
+    "url": "https://dubovskylabs.com/benchmarks/gta/apps/claude-opus-5-5/index.html",
+    "currentCategory": "Simulation",
+    "categories": [
+      "Simulators",
+      "Adventure"
+    ],
+    "status": "documented_only",
+    "confidence": "medium",
+    "mechanics": "A fictional 3D coastal city title screen advertises WASD movement, mouse look, entering a vehicle, a map, and pause. The on-screen CLICK TO PLAY prompt did not leave the title screen in two attempts.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Clicked the visible CLICK TO PLAY prompt and held W; a second coordinate-accurate retry left the title screen unchanged."
+      ],
+      "outcome": "Only the fictional Port Solana title screen and control legend remained visible; no playable city state was reached.",
+      "screenshotPaths": [
+        "screenshots/neon-palms-port-solana-initial.png",
+        "screenshots/neon-palms-port-solana-after.png",
+        "screenshots/neon-palms-port-solana-followup-before.png",
+        "screenshots/neon-palms-port-solana-followup-after.png"
+      ],
+      "limitations": "Current exploration/vehicle control is unverified."
+    },
+    "sources": [
+      {
+        "url": "https://dubovskylabs.com/benchmarks/gta/apps/claude-opus-5-5/index.html",
+        "kind": "live page, visible controls, or current access check",
+        "timeframe": "current",
+        "detail": "A fictional 3D coastal city title screen advertises WASD movement, mouse look, entering a vehicle, a map, and pause. The on-screen CLICK TO PLAY prompt did not leave the title screen in two attempts."
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "The displayed free-roam city/vehicle controls support Simulators, with city exploration as a secondary Adventure loop. No race or combat mode was visible.",
+    "proposedNewCategories": [],
+    "accessIssue": "The title screen remained after two clicks on CLICK TO PLAY; no in-game scene appeared.",
+    "accessIssueType": "loading"
+  },
+  {
+    "slug": "operation-nightwood",
+    "title": "Operation Nightwood",
+    "url": "https://claude.ai/artifact/CdXyZVrixg9iZDA1k5eH6G",
+    "currentCategory": "Action",
+    "categories": [
+      "Action"
+    ],
+    "status": "unresolved",
+    "confidence": "low",
+    "mechanics": "Unknown from admissible gameplay evidence: the supplied URL currently renders a not-found page, so the assigned catalog description was not treated as verified game mechanics.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Opened the supplied Claude Artifact URL; it displayed Page not found. No gameplay input was possible."
+      ],
+      "outcome": "No game was available at the supplied address in this session.",
+      "screenshotPaths": [
+        "screenshots/operation-nightwood-initial.png",
+        "screenshots/operation-nightwood-after.png"
+      ],
+      "limitations": "Title, mechanics, and category remain unresolved."
+    },
+    "sources": [
+      {
+        "url": "https://claude.ai/artifact/CdXyZVrixg9iZDA1k5eH6G",
+        "kind": "live page, visible controls, or current access check",
+        "timeframe": "current",
+        "detail": "Unknown from admissible gameplay evidence: the supplied URL currently renders a not-found page, so the assigned catalog description was not treated as verified game mechanics."
+      },
+      {
+        "path": "docs/category-audit/2026-10-11/assignment-1.json",
+        "kind": "catalog roster entry",
+        "timeframe": "current",
+        "detail": "Used only to identify the assigned title/URL/current category; its short description was not used as mechanics evidence."
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "No evidence supports changing the current Action category. Preserve it provisionally rather than guessing; re-review if the game URL is restored.",
+    "proposedNewCategories": [],
+    "accessIssue": "The supplied artifact URL displays “Page not found.”",
+    "accessIssueType": "404"
+  },
+  {
+    "slug": "pantry-dash",
+    "title": "Pantry Dash",
+    "url": "https://mdhasibul35.github.io/pantry-dash/",
+    "currentCategory": "Arcade",
+    "categories": [
+      "Arcade"
+    ],
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "mechanics": "A maze-chase game asks the player to collect cheese, avoid or scare cats, collect bonuses, and clear five rooms while tracking score and lives. The post-action screen showed score 10 in level 1.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Clicked Start and held ArrowRight for about 0.9 seconds, following the displayed arrow/WASD instructions.",
+        "Inspected the post-action screenshot: level 1 was active and score read 10."
+      ],
+      "outcome": "The screenshot showed the active maze with Pip and a score of 10 after the input.",
+      "screenshotPaths": [
+        "screenshots/pantry-dash-initial.png",
+        "screenshots/pantry-dash-after.png",
+        "screenshots/pantry-dash-followup-before.png",
+        "screenshots/pantry-dash-followup-after.png",
+        "screenshots/pantry-dash-retry-before.png",
+        "screenshots/pantry-dash-retry-after.png",
+        "screenshots/pantry-dash-final-before.png",
+        "screenshots/pantry-dash-final-after.png"
+      ],
+      "limitations": "No room completion, cat interaction, or later levels were tested."
+    },
+    "sources": [
+      {
+        "url": "https://mdhasibul35.github.io/pantry-dash/",
+        "kind": "live page, visible controls, or current access check",
+        "timeframe": "current",
+        "detail": "A maze-chase game asks the player to collect cheese, avoid or scare cats, collect bonuses, and clear five rooms while tracking score and lives. The post-action screen showed score 10 in level 1."
+      },
+      {
+        "path": "docs/AI-GAME-SCOUT-BATCH4-2026-10-09.md",
+        "kind": "dated gameplay receipt",
+        "timeframe": "prior",
+        "detail": "Earlier play recorded score rising 0→60 after Start and Right."
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "Short score-based maze runs with pickups and moving hazards fit Arcade. Survival is not added merely because the player has limited lives.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "plaid-circuit",
+    "title": "Plaid Circuit",
+    "url": "https://roadster.grok.me/",
+    "currentCategory": "Sports",
+    "categories": [
+      "Racing",
+      "Arcade"
+    ],
+    "status": "documented_only",
+    "confidence": "high",
+    "mechanics": "An 8-bit three-lap circuit racer: choose a vehicle, steer, drift to charge, and release to boost. Current play reached Lap 1/3 with speed, position, timer, and control HUD, but W did not produce a visible speed change in this capture.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Pressed Start, selected S PLAID, and clicked Launch.",
+        "The race screen displayed Lap 1/3, P1/4, a timer, and W/S/A/D/Space controls; held W briefly, but speed stayed at 0."
+      ],
+      "outcome": "The garage transitioned to a race HUD and track, but current vehicle movement was not verified.",
+      "screenshotPaths": [
+        "screenshots/plaid-circuit-initial.png",
+        "screenshots/plaid-circuit-after.png",
+        "screenshots/plaid-circuit-followup-before.png",
+        "screenshots/plaid-circuit-followup-after.png"
+      ],
+      "limitations": "Current acceleration is unverified; a clearly labeled dated receipt documents earlier speed 0→72 after W."
+    },
+    "sources": [
+      {
+        "url": "https://roadster.grok.me/",
+        "kind": "live page, visible controls, or current access check",
+        "timeframe": "current",
+        "detail": "An 8-bit three-lap circuit racer: choose a vehicle, steer, drift to charge, and release to boost. Current play reached Lap 1/3 with speed, position, timer, and control HUD, but W did not produce a visible speed change in this capture."
+      },
+      {
+        "path": "docs/AI-GAME-SCOUT-BATCH9-2026-10-09.md",
+        "kind": "dated gameplay receipt",
+        "timeframe": "prior",
+        "detail": "Selected a car, started a race, and saw W change speed from 0 to 72."
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "Competing on a circuit is Racing; the brief score/time/drift reflex format fits Arcade. Sports is less precise than the dedicated Racing category.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "pulse",
+    "title": "PULSE",
+    "url": "https://orbix.grok.me/",
+    "currentCategory": "Arcade",
+    "categories": [
+      "Arcade"
+    ],
+    "status": "documented_only",
+    "confidence": "medium",
+    "mechanics": "A one-tap side-switch score run. The title says TAP TO PLAY; after two canvas taps, the screenshot showed a score counter at 0 and the two sides/objects, but no successful switch or score change was visible.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Tapped the canvas at TAP TO PLAY, then tapped once during the run."
+      ],
+      "outcome": "The title changed to a score screen with a 0 counter and the playfield; no side-switch response was confirmed.",
+      "screenshotPaths": [
+        "screenshots/pulse-initial.png",
+        "screenshots/pulse-after.png"
+      ],
+      "limitations": "A successful side switch or longer run was not captured."
+    },
+    "sources": [
+      {
+        "url": "https://orbix.grok.me/",
+        "kind": "live page, visible controls, or current access check",
+        "timeframe": "current",
+        "detail": "A one-tap side-switch score run. The title says TAP TO PLAY; after two canvas taps, the screenshot showed a score counter at 0 and the two sides/objects, but no successful switch or score change was visible."
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "The short, replayable timing/reflex loop is Arcade. The word survive in the pitch alone does not establish the resource-pressure loop needed for Survival.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "quake-3",
+    "title": "Quake 3",
+    "url": "https://q3.pieter.com/",
+    "currentCategory": "Action",
+    "categories": [
+      "Action",
+      "Multiplayer"
+    ],
+    "status": "documented_only",
+    "confidence": "high",
+    "mechanics": "The first-party page describes Quake III multiplayer online and displayed a public list of 39 players and kill leaderboards. Selecting Play returned 403 Forbidden before a match loaded.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Loaded the first-party page and inspected its 39-player list and multiplayer description.",
+        "Clicked Play; the route returned a 403 Forbidden nginx screen."
+      ],
+      "outcome": "The multiplayer landing page loaded but no match or playable HUD did.",
+      "screenshotPaths": [
+        "screenshots/quake-3-initial.png",
+        "screenshots/quake-3-after.png"
+      ],
+      "limitations": "Current gameplay and live match participation remain unverified."
+    },
+    "sources": [
+      {
+        "url": "https://q3.pieter.com/",
+        "kind": "live page, visible controls, or current access check",
+        "timeframe": "current",
+        "detail": "The first-party page describes Quake III multiplayer online and displayed a public list of 39 players and kill leaderboards. Selecting Play returned 403 Forbidden before a match loaded."
+      }
+    ],
+    "multiplayerMode": "Online multiplayer",
+    "rationale": "Arena-shooter combat fits Action and the page explicitly presents an online human-player service, supporting Multiplayer. The public player list is mode evidence, not gameplay proof.",
+    "proposedNewCategories": [],
+    "accessIssue": "Clicking Play returned 403 Forbidden (nginx/1.30.4).",
+    "accessIssueType": "other"
+  },
+  {
+    "slug": "return-to-castle-wolfenstein",
+    "title": "Return to Castle Wolfenstein",
+    "url": "https://rtcw.pieter.com/",
+    "currentCategory": "Action",
+    "categories": [
+      "Action",
+      "Multiplayer"
+    ],
+    "status": "documented_only",
+    "confidence": "high",
+    "mechanics": "The first-party landing page labels the browser port as Return to Castle Wolfenstein multiplayer, shows an online-player list, and says the first load downloads about 380 MB. Selecting Play returned 403 before download/gameplay.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Loaded the first-party multiplayer landing page and inspected its 27-player list and first-load notice.",
+        "Clicked Play; the route returned 403 Forbidden."
+      ],
+      "outcome": "The port landing page loaded; no game download or match started.",
+      "screenshotPaths": [
+        "screenshots/return-to-castle-wolfenstein-initial.png",
+        "screenshots/return-to-castle-wolfenstein-after.png"
+      ],
+      "limitations": "Playable mode and current combat remain unverified."
+    },
+    "sources": [
+      {
+        "url": "https://rtcw.pieter.com/",
+        "kind": "live page, visible controls, or current access check",
+        "timeframe": "current",
+        "detail": "The first-party landing page labels the browser port as Return to Castle Wolfenstein multiplayer, shows an online-player list, and says the first load downloads about 380 MB. Selecting Play returned 403 before download/gameplay."
+      }
+    ],
+    "multiplayerMode": "Online multiplayer",
+    "rationale": "Shooter combat fits Action; an explicitly named public multiplayer engine and online-player list support Multiplayer. The page's online roster is not being called gameplay verification.",
+    "proposedNewCategories": [],
+    "accessIssue": "Clicking Play returned 403 Forbidden (nginx/1.30.4) before the advertised large game-data download.",
+    "accessIssueType": "other"
+  },
+  {
+    "slug": "roll-for-agi",
+    "title": "Roll for AGI",
+    "url": "https://rollforagi.com",
+    "currentCategory": "Strategy",
+    "categories": [
+      "Strategy"
+    ],
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "mechanics": "A dice-driven board game about investing tokens/parameters in an AI lab. Landing on spaces opens choices such as building a house or spending tokens for a text model. Current roll opened an Empty Lot event and Text/Don't build choices.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Clicked Start and Roll; an Empty Lot event appeared with a $3 build choice.",
+        "Current board showed the Text build option (Tokens 10, Params +1) and Don't build; a prior run selected Text and progressed the board."
+      ],
+      "outcome": "The roll resolved to a board event with a meaningful resource/build decision.",
+      "screenshotPaths": [
+        "screenshots/roll-for-agi-initial.png",
+        "screenshots/roll-for-agi-after.png",
+        "screenshots/roll-for-agi-followup-before.png",
+        "screenshots/roll-for-agi-followup-after.png",
+        "screenshots/roll-for-agi-retry-before.png",
+        "screenshots/roll-for-agi-retry-after.png"
+      ],
+      "limitations": "The current run was not advanced beyond its opening choice; prior receipt documents a Text build and resolved board event."
+    },
+    "sources": [
+      {
+        "url": "https://rollforagi.com",
+        "kind": "live page, visible controls, or current access check",
+        "timeframe": "current",
+        "detail": "A dice-driven board game about investing tokens/parameters in an AI lab. Landing on spaces opens choices such as building a house or spending tokens for a text model. Current roll opened an Empty Lot event and Text/Don't build choices."
+      },
+      {
+        "path": "../game-discovery-bot/pilot-2026-10-10/tests/b/reports/roll-for-agi.json",
+        "kind": "dated gameplay receipt",
+        "timeframe": "prior",
+        "detail": "Started, rolled, chose Text, skipped the tutorial, and observed the house trigger and score resolution."
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "Dice movement feeds resource allocation and build choices across a board, so Strategy is primary. Arcade would understate the planning loop.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "sharespark",
+    "title": "ShareSpark",
+    "url": "https://share-spark.vercel.app",
+    "currentCategory": "Simulation",
+    "categories": [
+      "Simulators",
+      "Strategy",
+      "Multiplayer"
+    ],
+    "status": "documented_only",
+    "confidence": "high",
+    "mechanics": "A pretend family stock-market game: 2–4 local players invent fictional companies, then respond to news and moving charts over market days. The current setup requires at least one kid and one grown-up.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Opened Start New Game and inspected the setup: 2–4 player slots with Kid/Grown-up roles and company-creation step.",
+        "Did not submit player profiles or company details in the current pass."
+      ],
+      "outcome": "The live setup form documents a shared local family game; current play was not advanced.",
+      "screenshotPaths": [
+        "screenshots/sharespark-initial.png",
+        "screenshots/sharespark-after.png"
+      ],
+      "limitations": "No new profiles were created; a prior receipt used synthetic names/companies and observed market day 0→1."
+    },
+    "sources": [
+      {
+        "url": "https://share-spark.vercel.app",
+        "kind": "live page, visible controls, or current access check",
+        "timeframe": "current",
+        "detail": "A pretend family stock-market game: 2–4 local players invent fictional companies, then respond to news and moving charts over market days. The current setup requires at least one kid and one grown-up."
+      },
+      {
+        "path": "../game-discovery-bot/pilot-2026-10-10/tests/c/sharespark.json",
+        "kind": "dated gameplay receipt",
+        "timeframe": "prior",
+        "detail": "Synthetic local players/fictional company advanced the market from day 0 to day 1 and produced a simulated price change."
+      }
+    ],
+    "multiplayerMode": "Local multiplayer",
+    "rationale": "The simulated market is primary; company creation and market decisions add Strategy. The game explicitly requires multiple family participants, supporting local Multiplayer.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "small-worlds",
+    "title": "Small Worlds",
+    "url": "https://crane-cosmic-kind-rose.grok.me/",
+    "currentCategory": "Simulation",
+    "categories": [
+      "Survival",
+      "Adventure"
+    ],
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "mechanics": "A small-planet exploration game where tilt changes the ground under a character. Food sustains strength, ten amethysts open the gate, and lives/weather create resource pressure. Current Easy world showed lives, gems, fed status, and a joystick; rightward tilt changed the joystick to Steep.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Clicked Begin and selected Easy.",
+        "Dragged the lower-left on-screen joystick right; the live Easy world displayed the character, lives 10, gems 0/10, Fed 4/10, and a Steep tilt indicator."
+      ],
+      "outcome": "The game entered an active Easy world; the post-action screenshot shows the world, character, resource HUD, and tilted joystick.",
+      "screenshotPaths": [
+        "screenshots/small-worlds-initial.png",
+        "screenshots/small-worlds-after.png",
+        "screenshots/small-worlds-followup-before.png",
+        "screenshots/small-worlds-followup-after.png"
+      ],
+      "limitations": "No food/gem collection or gate completion was attempted."
+    },
+    "sources": [
+      {
+        "url": "https://crane-cosmic-kind-rose.grok.me/",
+        "kind": "live page, visible controls, or current access check",
+        "timeframe": "current",
+        "detail": "A small-planet exploration game where tilt changes the ground under a character. Food sustains strength, ten amethysts open the gate, and lives/weather create resource pressure. Current Easy world showed lives, gems, fed status, and a joystick; rightward tilt changed the joystick to Steep."
+      },
+      {
+        "path": "../game-discovery-bot/runs/2026-10-10T185643Z/reports/worker3/13-small-worlds.json",
+        "kind": "dated gameplay receipt",
+        "timeframe": "prior",
+        "detail": "Selected Easy, changed the weather, tilted the joystick, and observed the character slide/fall and HUD/time changes."
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "Food/lives pressure supports Survival; reaching the gate through an explorable changing world supports Adventure. Tilt control alone did not establish a puzzle-solving loop. Simulation is not a good fit because this is a character-goal game, not modeling a real-world system.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "spire",
+    "title": "SPIRE",
+    "url": "https://juniper-fern-giant-zephyr.grok.me/",
+    "currentCategory": "Puzzle",
+    "categories": [
+      "Arcade"
+    ],
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "mechanics": "A one-tap timing stacker. The title says line up a block; perfect drops preserve width and build a combo. After start/taps, the post-action screenshot showed a stack and score 10.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Tapped TAP TO START, then tapped once during the run.",
+        "Inspected the post-action screenshot: stacked blocks were visible and the score was 10."
+      ],
+      "outcome": "The game entered its stacking run and registered a score of 10.",
+      "screenshotPaths": [
+        "screenshots/spire-initial.png",
+        "screenshots/spire-after.png"
+      ],
+      "limitations": "Only the opening stack was observed; later combos and game over were not tested."
+    },
+    "sources": [
+      {
+        "url": "https://juniper-fern-giant-zephyr.grok.me/",
+        "kind": "live page, visible controls, or current access check",
+        "timeframe": "current",
+        "detail": "A one-tap timing stacker. The title says line up a block; perfect drops preserve width and build a combo. After start/taps, the post-action screenshot showed a stack and score 10."
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "Timing and repeatable score stacking are an Arcade loop, not a logic/manipulation Puzzle.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "mutual-fun",
+    "title": "The Mutual Fun",
+    "url": "https://mutual-self.vercel.app/",
+    "currentCategory": "Arcade",
+    "categories": [
+      "Arcade"
+    ],
+    "status": "documented_only",
+    "confidence": "medium",
+    "mechanics": "A seven-round musical-chairs/green-light elimination game. The current round screen shows a business dog, 10 boardroom participants, a green-light movement prompt, and an eventual King Chair finale.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Clicked ENTER BOARDROOM and held W during Round 1/7.",
+        "Observed a green-light round with a ten-participant HUD; no controlled movement or elimination was isolated in the current screenshot."
+      ],
+      "outcome": "The title transitioned into the active Round 1/7 boardroom state.",
+      "screenshotPaths": [
+        "screenshots/mutual-fun-initial.png",
+        "screenshots/mutual-fun-after.png"
+      ],
+      "limitations": "Current input response and rival control type were not fully established; no Multiplayer tag without human-player evidence."
+    },
+    "sources": [
+      {
+        "url": "https://mutual-self.vercel.app/",
+        "kind": "live page, visible controls, or current access check",
+        "timeframe": "current",
+        "detail": "A seven-round musical-chairs/green-light elimination game. The current round screen shows a business dog, 10 boardroom participants, a green-light movement prompt, and an eventual King Chair finale."
+      },
+      {
+        "path": "docs/AI-GAME-SCOUT-BATCH5-2026-10-09.md",
+        "kind": "dated gameplay receipt",
+        "timeframe": "prior",
+        "detail": "Earlier play recorded W moving the business-dog avatar during a green-light round."
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "Short rounds, timed movement, and eliminations fit Arcade. No user-controlled second human mode is shown; the visible rivals are not sufficient evidence for Multiplayer.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "tiger-rider-chess",
+    "title": "Tiger Rider Chess: Der Kompass",
+    "url": "https://tigerriderchess.grok.me/",
+    "currentCategory": "Strategy",
+    "categories": [
+      "Strategy",
+      "Multiplayer"
+    ],
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "mechanics": "A character-themed chess game with a Chronicler AI mode and an explicit Zwei Spieler (two players) option. A current match recorded e4 and the reply e5 in the chronicle.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Started the match against the Chronicler.",
+        "Moved the e-pawn from e2 to e4; the live chronicle recorded 1. e4 and the computer reply e5."
+      ],
+      "outcome": "A legal pawn move was accepted and the opposing turn resolved.",
+      "screenshotPaths": [
+        "screenshots/tiger-rider-chess-initial.png",
+        "screenshots/tiger-rider-chess-after.png",
+        "screenshots/tiger-rider-chess-followup-before.png",
+        "screenshots/tiger-rider-chess-followup-after.png"
+      ],
+      "limitations": "A second human match was not played; two-player support is grounded in the visible mode selector."
+    },
+    "sources": [
+      {
+        "url": "https://tigerriderchess.grok.me/",
+        "kind": "live page, visible controls, or current access check",
+        "timeframe": "current",
+        "detail": "A character-themed chess game with a Chronicler AI mode and an explicit Zwei Spieler (two players) option. A current match recorded e4 and the reply e5 in the chronicle."
+      }
+    ],
+    "multiplayerMode": "Local 2-player",
+    "rationale": "Chess is Strategy. The explicit two-player mode supports local human Multiplayer; the reviewed match was against the computer and is not the basis for the multiplayer tag.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "toybox-push",
+    "title": "Toybox Push",
+    "url": "https://games.jimmychandra.com/games/toybox_push/",
+    "currentCategory": "Puzzle",
+    "categories": [
+      "Puzzle"
+    ],
+    "status": "documented_only",
+    "confidence": "high",
+    "mechanics": "A 155-level Sokoban-style game: move a robot and push crates onto gold-star targets. Current level 1 HUD showed 0 moves, 0 pushes, and 1/2 crates on targets.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Started level 1 and pressed D once using the on-screen WASD movement legend; the HUD remained at 0 moves/0 pushes."
+      ],
+      "outcome": "The level board and target/crate layout were visible, but the attempted move did not register in this capture.",
+      "screenshotPaths": [
+        "screenshots/toybox-push-initial.png",
+        "screenshots/toybox-push-after.png",
+        "screenshots/toybox-push-followup-before.png",
+        "screenshots/toybox-push-followup-after.png"
+      ],
+      "limitations": "No crate push or level completion was verified; this is an evidence limitation, not an access failure."
+    },
+    "sources": [
+      {
+        "url": "https://games.jimmychandra.com/games/toybox_push/",
+        "kind": "live page, visible controls, or current access check",
+        "timeframe": "current",
+        "detail": "A 155-level Sokoban-style game: move a robot and push crates onto gold-star targets. Current level 1 HUD showed 0 moves, 0 pushes, and 1/2 crates on targets."
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "Planning crate pushes in a constrained grid is a clear Puzzle loop; no additional tag is needed.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "vector-anti-gravity-racing",
+    "title": "VECTOR: Anti-Gravity Racing",
+    "url": "https://wavedash.com/games/vector-anti-gravity-racing",
+    "currentCategory": "Racing",
+    "categories": [
+      "Racing",
+      "Arcade",
+      "Multiplayer"
+    ],
+    "status": "documented_only",
+    "confidence": "high",
+    "mechanics": "A browser anti-gravity racer with five tracks/craft, weapons, a 72-event career, seven CPU pilots, and online rooms for 2–8 pilots. The current Wavedash page showed store details and an account panel, not the race client.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Inspected the public Wavedash game page, which lists track/career modes and 2–8-pilot public/private online rooms.",
+        "Scrolled for the playable area; no game client or Play control appeared in this session. No sign-up/sign-in was attempted."
+      ],
+      "outcome": "The current visit provided detailed first-party mode/mechanics text but no active race.",
+      "screenshotPaths": [
+        "screenshots/vector-anti-gravity-racing-initial.png",
+        "screenshots/vector-anti-gravity-racing-after.png"
+      ],
+      "limitations": "Current playable build was not accessible in the visited public page; dated gameplay receipt confirms a prior solo race."
+    },
+    "sources": [
+      {
+        "url": "https://wavedash.com/games/vector-anti-gravity-racing",
+        "kind": "live page, visible controls, or current access check",
+        "timeframe": "current",
+        "detail": "A browser anti-gravity racer with five tracks/craft, weapons, a 72-event career, seven CPU pilots, and online rooms for 2–8 pilots. The current Wavedash page showed store details and an account panel, not the race client."
+      },
+      {
+        "path": "../game-discovery-bot/runs/2026-10-10T185643Z/reports/worker1/10-vector-anti-gravity-racing.json",
+        "kind": "dated gameplay receipt",
+        "timeframe": "prior",
+        "detail": "Prior tester entered a race against CPU pilots on the embedded Wavedash game."
+      }
+    ],
+    "multiplayerMode": "Online multiplayer",
+    "rationale": "Track races are primary; rapid weapon/boost races fit Arcade; explicit 2–8-player public/private online rooms support Multiplayer. CPU pilots alone are not treated as human multiplayer.",
+    "proposedNewCategories": [],
+    "accessIssue": "The public game page exposed an account panel and no playable client/Play control in this session; sign-in was not attempted.",
+    "accessIssueType": "other"
+  },
+  {
+    "slug": "what-maya-knew",
+    "title": "What Maya Knew",
+    "url": "https://yenfus.itch.io/what-maya-knew",
+    "currentCategory": "Adventure",
+    "categories": [
+      "Adventure",
+      "Puzzle"
+    ],
+    "status": "documented_only",
+    "confidence": "high",
+    "mechanics": "A fictional missing-person OSINT investigation: inspect a locked laptop, notebook, corkboard, and 28 varied leads (sorting posts, mapping photos, comparing sites, searching records), then pin evidence to questions. Lead costs and hints affect the ending.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Opened the itch.io embed; the current embedded game displayed its New Game / How to Play menu. No case was started in this capture."
+      ],
+      "outcome": "The game menu and first-party mechanics/content description loaded; no clue or case-board action was played.",
+      "screenshotPaths": [
+        "screenshots/what-maya-knew-initial.png",
+        "screenshots/what-maya-knew-after.png",
+        "screenshots/what-maya-knew-followup-before.png",
+        "screenshots/what-maya-knew-followup-after.png"
+      ],
+      "limitations": "Game loop and later puzzle progression remain unverified in the current pass."
+    },
+    "sources": [
+      {
+        "url": "https://yenfus.itch.io/what-maya-knew",
+        "kind": "live page, visible controls, or current access check",
+        "timeframe": "current",
+        "detail": "A fictional missing-person OSINT investigation: inspect a locked laptop, notebook, corkboard, and 28 varied leads (sorting posts, mapping photos, comparing sites, searching records), then pin evidence to questions. Lead costs and hints affect the ending."
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "The investigation narrative and case progression fit Adventure; clue analysis and case-board linkage fit Puzzle. The first-party page explicitly says all data and people are fictional/simulated.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "yugisnap",
+    "title": "YugiSnap",
+    "url": "https://yugisnap.kw-15.workers.dev/",
+    "currentCategory": "Strategy",
+    "categories": [
+      "Strategy"
+    ],
+    "status": "unresolved",
+    "confidence": "low",
+    "mechanics": "Unknown: two direct visits returned DNS_PROBE_FINISHED_NXDOMAIN for the supplied host; no first-party mechanics or gameplay could be observed.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Attempted the supplied URL in the initial capture and one retry; both returned ERR_NAME_NOT_RESOLVED / DNS_PROBE_FINISHED_NXDOMAIN."
+      ],
+      "outcome": "The supplied game host did not resolve in either attempt.",
+      "screenshotPaths": [
+        "screenshots/yugisnap-initial.png",
+        "screenshots/yugisnap-after.png"
+      ],
+      "limitations": "All mechanics and category remain unverified until the host is restored."
+    },
+    "sources": [
+      {
+        "url": "https://yugisnap.kw-15.workers.dev/",
+        "kind": "live page, visible controls, or current access check",
+        "timeframe": "current",
+        "detail": "Unknown: two direct visits returned DNS_PROBE_FINISHED_NXDOMAIN for the supplied host; no first-party mechanics or gameplay could be observed."
+      },
+      {
+        "path": "docs/category-audit/2026-10-11/assignment-1.json",
+        "kind": "catalog roster entry",
+        "timeframe": "current",
+        "detail": "Used only to identify the assigned title/URL/current category; its short description was not used as mechanics evidence."
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "Keep the existing Strategy category provisionally because no admissible evidence supports a correction. The catalog description alone was not treated as verification.",
+    "proposedNewCategories": [],
+    "accessIssue": "The supplied host yugisnap.kw-15.workers.dev returned DNS_PROBE_FINISHED_NXDOMAIN on two visits.",
+    "accessIssueType": "dns"
+  }
+]
