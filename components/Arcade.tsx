@@ -15,9 +15,8 @@ const featuredPicks = orderedGames([
 ]);
 
 function ArcadeCard({ game, eager = false }: { game: ListedGame; eager?: boolean }) {
-  const conceptual = 'conceptualArtwork' in game && game.conceptualArtwork;
   const content = <>
-    <div className="arcade-artwork"><Image src={game.imageUrl} alt={`${game.title} ${conceptual ? 'concept artwork, not actual gameplay' : 'game artwork'}`} fill sizes="(max-width: 639px) 44vw, (max-width: 1023px) 22vw, 16vw" loading={eager ? 'eager' : 'lazy'} />{conceptual && <span className="concept-art-label" title="Concept artwork, not actual gameplay">Concept artwork</span>}<span className="arcade-play"><Icon name="play" width={15} height={15} /></span></div>
+    <div className="arcade-artwork"><Image src={game.imageUrl} alt={`${game.title} game artwork`} fill sizes="(max-width: 639px) 44vw, (max-width: 1023px) 22vw, 16vw" loading={eager ? 'eager' : 'lazy'} /><span className="arcade-play"><Icon name="play" width={15} height={15} /></span></div>
     <div className="arcade-card-copy"><h3>{game.title}</h3><p>{game.shortDescription}</p><div className="game-tags">{gameTags(game).map(tag => <span key={tag}>{tag}</span>)}{'externalUrl' in game && <span>Opens game site</span>}</div></div>
   </>;
   return 'externalUrl' in game
