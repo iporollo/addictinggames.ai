@@ -63,3 +63,13 @@ test('multiplayer distinguishes human play modes from computer opponents', () =>
   assert(gameTags(local).includes('Local 2-player'));
   for (const game of solo) assert(!gameTags(game).includes('Multiplayer'));
 });
+
+
+test('browse accepts both embedded and external listed entries', () => {
+  const embedded = { slug: 'embedded-puzzle', category: 'Puzzle', embedUrl: 'https://example.com/embedded' };
+  const direct = { slug: 'external-puzzle', category: 'Puzzle', externalUrl: 'https://example.com/direct' };
+  const games = [embedded, direct];
+  assert.deepEqual(browseGames(games, 'All'), games);
+  assert.deepEqual(browseGames(games, 'Puzzle'), games);
+  assert.equal(browseGames(games, 'Puzzle')[1].externalUrl, direct.externalUrl);
+});

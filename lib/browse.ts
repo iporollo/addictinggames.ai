@@ -1,5 +1,3 @@
-import type { PlayableGame } from './games';
-
 export const browseTabs = ['All', 'Action', 'Update', 'Simulators', 'Survival', 'Strategy', 'Multiplayer', 'Puzzle', 'Arcade', 'Adventure', 'Racing', 'Sports', 'Tower Defense'] as const;
 export type BrowseTab = typeof browseTabs[number];
 
@@ -33,7 +31,7 @@ export function gameTags(game: { category: string; slug: string }): string[] {
   return [...new Set([game.category === 'Simulation' ? 'Simulators' : game.category, ...(secondaryTags[game.slug] ?? []), ...(multiplayerModes[game.slug] ? ['Multiplayer', multiplayerModes[game.slug]] : [])])];
 }
 
-export function browseGames(games: PlayableGame[], tab: BrowseTab, now = Date.now()) {
+export function browseGames<T extends { category: string; slug: string }>(games: T[], tab: BrowseTab, now = Date.now()): T[] {
   if (tab === 'All') return games;
   if (tab === 'Update') return games.filter(game => {
     const update = verifiedUpdates[game.slug];
