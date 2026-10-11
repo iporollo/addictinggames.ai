@@ -391,5 +391,3 @@ h2, h3 { color: var(--heading); }
 @media (max-width: 639px) {
   .game-scroll-row { grid-auto-columns: min(68vw, 220px); gap: 14px; }
 }
-
-.concept-art-label { position: absolute; left: 5px; top: 5px; padding: 2px 5px; border-radius: 3px; background: #101828d9; color: #fff; font-size: 10px; line-height: 1.3; pointer-events: none; }
