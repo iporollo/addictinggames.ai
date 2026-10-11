@@ -1,0 +1,1290 @@
+{
+  "run_id": "2026-10-10T185643Z",
+  "window": 3,
+  "document_type": "direct_game_release_manifest_with_terminal_review",
+  "status": "prepared_for_parent_review",
+  "publication_status": "not_merged_or_deployed",
+  "release_scope": "Ten parent-approved Window 3 direct-game additions. All 25 candidates have explicit terminal dispositions and source/game evidence. Direct external URLs are recorded; AddictingGames iframe integration was not tested.",
+  "source_baseline": {
+    "repository": "https://github.com/iporollo/addictinggames.ai.git",
+    "branch": "main",
+    "head_sha": "948a8189f4f7d7ace4ce435d04220ed6c1a554a7",
+    "baseline_direct_game_count": 77,
+    "candidate_urls_absent_from_baseline_catalog": true,
+    "candidate_urls_absent_from_saved_prior_and_live_url_snapshots": true,
+    "duplicate_check_evidence": {
+      "current_main_direct_entries": 87,
+      "prior_snapshot_urls_checked": 243,
+      "live_baseline_urls_checked": 447,
+      "approved_release_urls_found_in_any_checked_snapshot": 0
+    }
+  },
+  "terminal_counts": {
+    "eligible": 10,
+    "held": 13,
+    "excluded": 2,
+    "total": 25
+  },
+  "asset_policy": {
+    "card_dimensions": "1200x845 WebP; existing 1.42 artwork slot retained",
+    "creator_art_count": 8,
+    "generated_concept_count": 2,
+    "concept_labels": "Existing concept-art badge is activated by the concept- filename prefix.",
+    "iframe_flags_added": false,
+    "layout_changes": false,
+    "source_code_executed": false
+  },
+  "records": [
+    {
+      "candidate_id": 1,
+      "candidate_title": "KosiGhost",
+      "creator": "@0xbalzzam",
+      "xSource": "https://x.com/0xbalzzam/status/2108985389814038599",
+      "candidate_play_url": "https://kosighost-v2.onrender.com/",
+      "disposition": "held",
+      "terminal_code": "hold_controls_unverified",
+      "decision_reason": "No observable jump or duck response could be attributed to inputs during the short run.",
+      "ai_authorship_evidence": {
+        "gate_status": "pass",
+        "quote": "I built a game with Claude Opus 5.5 and I still can't get past 1500 meters. its called KosiGhost how far can you get?",
+        "translation": null,
+        "source_url": "https://x.com/0xbalzzam/status/2108985389814038599",
+        "source_type": "Creator-authored X post text returned by the public X oEmbed endpoint.",
+        "source_verification": "Exact post URL returned author @0xbalzzam and this post text; quote is game-specific and explicitly says it was built with Claude Opus 5.5.",
+        "authorship_status": "verified"
+      },
+      "gameplay": {
+        "status": "held_input_response_unverified",
+        "load_observation": "Direct page loaded to a playable runner start screen in roughly a few seconds. It described jumping 1–3 tombstones in a row with Space/tap and ducking with Down/swipe after 500 m.",
+        "direct_outcome": "Playable scene and restart/game-over loop rendered. I could not verify a controlled jump or duck response after repeated direct inputs; this is an input-verification limitation, not a confirmed game defect.",
+        "inputs_and_visible_responses": [
+          {
+            "input": "Clicked Play.",
+            "visible_response": "Run began and distance advanced from 0 m to about 5–10 m; the ghost runner, starfield, tombstones and coin counter were visible."
+          },
+          {
+            "input": "Pressed Space during repeated runs; also clicked the play area and character area on separate attempts.",
+            "visible_response": "Runs ended at 49 m with a Run over panel and coin totals of 1–2. I did not observe a clear jump-height change attributable to the inputs."
+          }
+        ],
+        "limits": "Short direct test only. The game ended at 49 m on attempts; the input-to-avatar response was not clear. No iframe test.",
+        "addictinggames_iframe_test": "not_tested"
+      },
+      "evidence_report": "game-discovery-bot/runs/2026-10-10T185643Z/windows/3/reports/luna1.json"
+    },
+    {
+      "candidate_id": 2,
+      "candidate_title": "Drawdown",
+      "creator": "@mattgoldenberg",
+      "xSource": "https://x.com/mattgoldenberg/status/2109041299617956160",
+      "candidate_play_url": "https://drawdown-game.vercel.app/",
+      "disposition": "eligible",
+      "terminal_code": "direct_gameplay_verified",
+      "decision_reason": "Parent-approved; direct input changed treadle and matching-cell counters and visibly updated woven cloth.",
+      "ai_authorship_evidence": {
+        "gate_status": "pass",
+        "quote": "drawdown, the puzzle game opus 5.5 made from scratch in 39 hours.",
+        "translation": null,
+        "source_url": "https://x.com/mattgoldenberg/status/2109041299617956160",
+        "source_type": "Creator-authored X post text returned by the public X oEmbed endpoint.",
+        "source_verification": "Exact post URL returned author @mattgoldenberg and this game-specific statement; Opus 5.5 is named as the tool used to make the puzzle game.",
+        "authorship_status": "verified"
+      },
+      "gameplay": {
+        "status": "agent_gameplay_verified",
+        "load_observation": "Homepage loaded immediately. Followed Play in your browser to /play/, started the first commission, chose Go directly to the floor loom and then Go to the loom; dismissed the lesson overlay to inspect the loom controls.",
+        "direct_outcome": "Direct game interaction verified. A two-shaft weaving puzzle lets the player thread warp, tie treadles, and weave rows; inputs changed both the woven cloth and the matching-cell/treadle counters.",
+        "inputs_and_visible_responses": [
+          {
+            "input": "Clicked warp intersections for threads 1 and 3 on shaft 1 and threads 2 and 4 on shaft 2.",
+            "visible_response": "Status changed from 0/16 agreeing cells and 0/2 shafts used to 0/16 and 2/2 shafts used; the four thread connections became visible."
+          },
+          {
+            "input": "Clicked tie-up hooks for treadle 1 to shaft 1 and treadle 2 to shaft 2.",
+            "visible_response": "Cord connections appeared between the shafts and pedals."
+          },
+          {
+            "input": "Clicked Treadle 1.",
+            "visible_response": "UI advanced to 4/16 cells that agree and 1/2 treadles used; explanation said treadle 1 lifts shaft 1 and threads 1 and 3 go up."
+          },
+          {
+            "input": "Clicked Treadle 2.",
+            "visible_response": "UI advanced to 8/16 cells that agree and 2/2 treadles used; explanation said treadle 2 lifts shaft 2 and threads 2 and 4 go up. The woven cloth row visibly updated."
+          }
+        ],
+        "limits": "Direct interaction verified through the first two picks of the opening miller commission; not a full game completion. No iframe test.",
+        "addictinggames_iframe_test": "not_tested"
+      },
+      "evidence_report": "game-discovery-bot/runs/2026-10-10T185643Z/windows/3/reports/luna1.json",
+      "release_record": {
+        "slug": "drawdown",
+        "title": "Drawdown",
+        "category": "Puzzle",
+        "description": "Set up warp threads and treadles, then weave matching rows",
+        "externalUrl": "https://drawdown-game.vercel.app/",
+        "xSource": "https://x.com/mattgoldenberg/status/2109041299617956160",
+        "acceptance_basis": "agent_gameplay_verified",
+        "image": {
+          "imageUrl": "/games/campaign3-drawdown.webp",
+          "kind": "creator_page_og",
+          "source_mode": "contain",
+          "source_dimensions": [
+            1200,
+            630
+          ],
+          "output_dimensions": [
+            1200,
+            845
+          ],
+          "bytes": 76510,
+          "sha256": "4783cffc5c59d6cb433d754053d3e04b19c0e528c9900a62c6765f8d31fb5759",
+          "source_url": null,
+          "source_page_url": "https://drawdown-game.vercel.app/",
+          "pixel_description": "Designed indigo-and-cream landscape cover: clear Drawdown title and weaving-puzzle tagline at left, a detailed loom/weave pattern with a finished cream-and-red swatch at right."
+        },
+        "rights_branding_note": null
+      }
+    },
+    {
+      "candidate_id": 3,
+      "candidate_title": "Agege Life",
+      "creator": "@agege_life",
+      "xSource": "https://x.com/agege_life/status/2108916476820545912",
+      "candidate_play_url": "https://agege.life/",
+      "disposition": "held",
+      "terminal_code": "hold_age_gate",
+      "decision_reason": "Site required an 18+ assertion before gameplay; no age assertion or account submission was made.",
+      "ai_authorship_evidence": {
+        "gate_status": "pass",
+        "quote": "A game, no question. I gave Claude Code the brief for a city life-sim set in Lagos and let it run 19h 53m without touching it. Live four days later:",
+        "translation": null,
+        "source_url": "https://x.com/agege_life/status/2108916476820545912",
+        "source_type": "Creator-authored X post text returned by the public X oEmbed endpoint.",
+        "source_verification": "Exact post URL returned author @agege_life and a game-specific statement describing Claude Code receiving and running the brief.",
+        "authorship_status": "verified"
+      },
+      "gameplay": {
+        "status": "held_age_gate",
+        "load_observation": "Homepage loaded quickly and showed a Lagos/ Agege map hero. The playable page took about one minute to finish its “Hold on small, your street dey wake…” loading screen, then showed the welcome modal and character creator.",
+        "direct_outcome": "Held before gameplay at the site’s 18+ assertion gate. This is not a game defect. No account, login, age assertion, or character submission was made.",
+        "inputs_and_visible_responses": [
+          {
+            "input": "Selected the visible Play first guest route; did not create an account or log in.",
+            "visible_response": "Character creator opened."
+          },
+          {
+            "input": "No age declaration or character-name entry was submitted.",
+            "visible_response": "The page requires “I'm an adult (18+)” before Continue becomes enabled and says other real players will talk to the player; no further gameplay controls were accessible."
+          }
+        ],
+        "limits": "Direct asset loading and character creation UI were observed; no in-game movement or simulation was tested. No iframe test.",
+        "addictinggames_iframe_test": "not_tested"
+      },
+      "evidence_report": "game-discovery-bot/runs/2026-10-10T185643Z/windows/3/reports/luna1.json"
+    },
+    {
+      "candidate_id": 4,
+      "candidate_title": "Night Cruise",
+      "creator": "@nightcruisegame",
+      "xSource": "https://x.com/nightcruisegame/status/2104253373151334446",
+      "candidate_play_url": "https://nightcruisegame.com/",
+      "disposition": "eligible",
+      "terminal_code": "direct_gameplay_verified_with_route_limit",
+      "decision_reason": "Parent-approved; Up and Down changed speed and scene in the loaded parking/road area. Steering and expressway run remain unverified.",
+      "ai_authorship_evidence": {
+        "gate_status": "pass",
+        "quote": "Built with Claude Opus 5.5, with third-party car models adapted and integrated into the game.",
+        "translation": null,
+        "source_url": "https://x.com/nightcruisegame/status/2104253373151334446",
+        "source_type": "Creator-authored X post text returned by the public X oEmbed endpoint.",
+        "source_verification": "Exact post URL returned this game-specific Claude Opus 5.5 statement and disclosed third-party adapted car models.",
+        "authorship_status": "verified"
+      },
+      "gameplay": {
+        "status": "agent_gameplay_verified_with_route_limit",
+        "load_observation": "Direct navigation initially showed the prior page while the title changed and the game loaded. After about 55 seconds the Night Cruise menu appeared. Selected Play, Japan K1 Loop, the default Compact car, and Drive; the 3D driving scene then loaded.",
+        "direct_outcome": "The direct game loaded and keyboard inputs changed the visible speed and scene. The car spawned in a parking area facing a barrier; I did not reach the expressway or verify turning, so route-driving behavior remains untested.",
+        "inputs_and_visible_responses": [
+          {
+            "input": "Selected Play, Japan K1 Loop, Compact, then Drive.",
+            "visible_response": "A garage with 20 cars appeared, followed by a 3D nighttime parking/expressway scene with the Compact car, minimap and 0 km/h speed display."
+          },
+          {
+            "input": "Held Up for 2.5 seconds.",
+            "visible_response": "Speed changed from 0 to 5 km/h and the road/parking view shifted as the car moved toward a barrier."
+          },
+          {
+            "input": "Held Down for 2.2 seconds.",
+            "visible_response": "Speed changed from 0 to 32 km/h and parking lines shifted relative to the car. The UI did not label the in-drive meaning of this key; no directional meaning is inferred."
+          },
+          {
+            "input": "Pressed Right and Left separately for about 1 second each.",
+            "visible_response": "The speed returned to 0 after the Right input; I did not observe a controlled turn or establish steering response."
+          }
+        ],
+        "limits": "Direct loading and speed response were observed. This was a short test in a parking area; the barrier blocked a meaningful expressway run and steering was not confirmed. No iframe test.",
+        "addictinggames_iframe_test": "not_tested"
+      },
+      "evidence_report": "game-discovery-bot/runs/2026-10-10T185643Z/windows/3/reports/luna1.json",
+      "release_record": {
+        "slug": "night-cruise",
+        "title": "Night Cruise",
+        "category": "Racing",
+        "description": "Drive a compact car through a nighttime road test",
+        "externalUrl": "https://nightcruisegame.com/",
+        "xSource": "https://x.com/nightcruisegame/status/2104253373151334446",
+        "acceptance_basis": "agent_gameplay_verified_with_route_limit",
+        "image": {
+          "imageUrl": "/games/campaign3-night-cruise.webp",
+          "kind": "creator_page_presskit_cover",
+          "source_mode": "contain",
+          "source_dimensions": [
+            1200,
+            630
+          ],
+          "output_dimensions": [
+            1200,
+            845
+          ],
+          "bytes": 41424,
+          "sha256": "84efe01a768925b72ed32872ed13a1bafb33efda32ab94dd815f2430c6a4b163",
+          "source_url": null,
+          "source_page_url": "https://nightcruisegame.com/",
+          "pixel_description": "Night expressway and bridge under a deep purple sky, with a small red coupe centered on the road and large NIGHT CRUISE title lettering at left; Portuguese tagline appears below."
+        },
+        "rights_branding_note": null
+      }
+    },
+    {
+      "candidate_id": 5,
+      "candidate_title": "Doodle Battles",
+      "creator": "@ketanofc",
+      "xSource": "https://x.com/ketanofc/status/2106250265389343030",
+      "candidate_play_url": "https://doodlebattles.vercel.app/",
+      "disposition": "held",
+      "terminal_code": "hold_controls_unverified",
+      "decision_reason": "Active enemy damage confounded movement and jump inputs; observed score/kills are not attributed to a control.",
+      "ai_authorship_evidence": {
+        "gate_status": "pass",
+        "quote": "built with Claude Opus 5 and OpenAI GPT-5.6 Luna",
+        "translation": null,
+        "source_url": "https://x.com/ketanofc/status/2106250265389343030",
+        "source_type": "Creator-authored X post text returned by the public X oEmbed endpoint.",
+        "source_verification": "Exact post URL returned author @ketanofc; this game-specific statement follows its description of the browser-based survival shooter.",
+        "authorship_status": "verified"
+      },
+      "gameplay": {
+        "status": "held_controls_unverified",
+        "load_observation": "Direct top-level page loaded to a title screen without an account or sign-in step. Started Solo; the Wave 1 scene showed Score 0, 7 enemies left, HP 120, Rifle 35/175 and a first-person doodle city map.",
+        "direct_outcome": "The solo shooter ran directly in the browser, with live enemy-wave and health HUDs and a terminal one-wave result of 2 kills/400 points. Inputs were sent during play, but movement, firing and jump effects were not independently isolated from the active enemy damage; this is a limited gameplay verification, not a claim that a particular input caused a kill.",
+        "inputs_and_visible_responses": [
+          {
+            "input": "Clicked Start solo.",
+            "visible_response": "Entered Wave 1 with 7 enemies left, HP 120, score 0, and Rifle 35/175."
+          },
+          {
+            "input": "Held W for 1.1 seconds, then pressed Space for 0.6 seconds during the active wave.",
+            "visible_response": "The scene orientation changed; the HUD showed HP fall from 120 to 0, then later 120 to 77 with a red damage overlay while the wave still showed 7 enemies. Enemy attacks were active, so the health loss cannot be attributed to either input and a jump/movement animation was not isolated."
+          },
+          {
+            "input": "Clicked the center of the game area twice during the run; later reopened the visible final result after the browser reported an app change.",
+            "visible_response": "After the first click the HUD returned to HP 120 and Wave 1; the final result screen displayed “you survived 1 wave · 2 kills · score 400 · NEW BEST.” The intervening run state does not establish which individual input produced either kill."
+          }
+        ],
+        "limits": "The solo wave and final score screen were visible, but movement, firing and jump effects were not independently isolated from active enemy attacks. The observed 2 kills/400 points are not treated as input-response evidence. No iframe test.",
+        "addictinggames_iframe_test": "not_tested"
+      },
+      "evidence_report": "game-discovery-bot/runs/2026-10-10T185643Z/windows/3/reports/luna1.json"
+    },
+    {
+      "candidate_id": 6,
+      "candidate_title": "DiscoDino: Lost Worlds",
+      "creator": "@goethecoin",
+      "xSource": "https://x.com/goethecoin/status/2104439776539791421",
+      "candidate_play_url": "https://discodino.netlify.app/",
+      "disposition": "eligible",
+      "terminal_code": "direct_gameplay_verified",
+      "decision_reason": "Parent-approved; W moved the avatar and scrolled the scene. Photo capture remained unverified.",
+      "ai_authorship_evidence": {
+        "gate_status": "pass",
+        "quote": "Look at my game guys!! DiscoDino: Lost Worlds is live! Built with Claude Opus 5.5. Track down and photograph 50 prehistoric creatures across 11 pixel-art levels. Plays in your browser on phone or desktop.",
+        "translation": null,
+        "source_url": "https://x.com/goethecoin/status/2104439776539791421",
+        "source_type": "Creator's X post, inspected directly in an owned browser tab.",
+        "source_verification": "The exact X post displayed the creator, game name, game-specific Claude Opus 5.5 statement, and link to discodino.netlify.app."
+      },
+      "gameplay": {
+        "status": "agent_gameplay_verified",
+        "load_observation": "The exact URL displayed the title screen in about 1.6 seconds; Level 1 followed immediately after Play. No slow asset wait was needed.",
+        "direct_outcome": "Loaded to the DiscoDino: Lost Worlds title screen and entered Level 1, Jehol Biota. The HUD showed 0/13 photos and the prompt 'Spot a creature, then use the camera.' The bottom help bar listed WASD movement, C/right-click camera, Space/click snap, and E use. Clicking the canvas and holding W for 1.5 seconds moved the character north and scrolled the scene. Pressing Space left the photo count at 0/13; no creature photograph was confirmed.",
+        "inputs_and_visible_responses": [
+          {
+            "input": "Clicked Play on the title screen.",
+            "response": "Entered Level 1, Jehol Biota; the photo counter displayed 0/13 and the game showed the creature/camera objective."
+          },
+          {
+            "input": "Clicked the canvas near the player, then held W for 1.5 seconds.",
+            "response": "The avatar moved north along the path and the camera scrolled, confirming responsive movement."
+          },
+          {
+            "input": "Pressed Space once.",
+            "response": "No photo was confirmed; HUD remained 0/13."
+          }
+        ],
+        "limits": "Movement is verified; no photo capture or level completion was verified. Short direct-play check only.",
+        "addictinggames_iframe_test": "not_tested"
+      },
+      "evidence_report": "game-discovery-bot/runs/2026-10-10T185643Z/windows/3/reports/luna2.json",
+      "release_record": {
+        "slug": "disco-dino-lost-worlds",
+        "title": "DiscoDino: Lost Worlds",
+        "category": "Adventure",
+        "description": "Explore pixel-art habitats and spot prehistoric creatures",
+        "externalUrl": "https://discodino.netlify.app/",
+        "xSource": "https://x.com/goethecoin/status/2104439776539791421",
+        "acceptance_basis": "agent_gameplay_verified",
+        "image": {
+          "imageUrl": "/games/campaign3-disco-dino-lost-worlds.webp",
+          "kind": "creator_post_art",
+          "source_mode": "crop_pixel",
+          "source_dimensions": [
+            1004,
+            1144
+          ],
+          "output_dimensions": [
+            1200,
+            845
+          ],
+          "bytes": 56550,
+          "sha256": "60c94d6ebfbfb54ab3ae49a0a2b2bb0ada84dfd264ab2442d051302ba526e22e",
+          "source_url": "https://pbs.twimg.com/media/HTR4vo9bYAAW8yw?format=webp&name=large",
+          "source_page_url": "https://x.com/goethecoin/status/2104439776539791421/photo/1",
+          "pixel_description": "Portrait pixel-art scene: a large brown dinosaur beside a small field explorer on a green prehistoric path, with dense foliage and a dirt trail. No title text or UI appears in the image."
+        },
+        "rights_branding_note": null
+      }
+    },
+    {
+      "candidate_id": 7,
+      "candidate_title": "Heritage Walk: Ethiopia",
+      "creator": "@zeamekonnen",
+      "xSource": "https://x.com/zeamekonnen/status/2103525767401357776",
+      "candidate_play_url": "https://heritage-walk-zeamekonnen-gmailcoms-projects.vercel.app/#play/lalibela",
+      "disposition": "eligible",
+      "terminal_code": "direct_gameplay_verified",
+      "decision_reason": "Parent-approved; W moved the avatar and changed landmark count from 0/3 to 1/3 with a discovery card.",
+      "ai_authorship_evidence": {
+        "gate_status": "pass",
+        "quote": "I built a 3D game where you walk Ethiopia's 10 UNESCO World Heritage sites, from Lalibela to Melka Kunture. Pick a traveller, find the landmarks, fill your heritage passport. Free in the browser 🇪🇹 Built with Claude Opus 5.5 by @AnthropicAI",
+        "translation": null,
+        "source_url": "https://x.com/zeamekonnen/status/2103525767401357776",
+        "source_type": "Creator's X post, inspected directly in an owned browser tab.",
+        "source_verification": "The exact X post displayed the creator, game-specific statement, and the linked Vercel game page."
+      },
+      "gameplay": {
+        "status": "agent_gameplay_verified",
+        "load_observation": "The initial page appeared in about 1.9 seconds; the selection and scene transitions were immediate. No slow asset wait was needed.",
+        "direct_outcome": "The landing page offered Just visit and Play the game. Chose Play the game, selected Rock-Hewn Churches, Lalibela, kept the default Elder traveller, and entered the fictional name 'Test Walker'. The playable 3D scene showed 0 of 3 landmarks found. Holding W for 1.5 seconds moved the avatar forward and discovered 'A New Jerusalem'; the visible HUD changed to 1 of 3 found and showed an explanatory card about Lalibela's layout and Yordanos stream.",
+        "inputs_and_visible_responses": [
+          {
+            "input": "Selected Play the game, then the Rock-Hewn Churches, Lalibela site.",
+            "response": "The traveller selection screen appeared with site description, four character choices, skin tone options, and a name field."
+          },
+          {
+            "input": "Entered fictional name 'Test Walker' and selected Start exploring.",
+            "response": "Entered the Lalibela 3D scene; the HUD displayed 0 of 3 found and controls 'Walk with WASD or the arrow keys, Shift to run. Drag to look, scroll to zoom, C to change camera.'"
+          },
+          {
+            "input": "Clicked the scene near the avatar, then held W for 1.5 seconds.",
+            "response": "Landmark count changed from 0 of 3 to 1 of 3; a 'Landmark discovered — A New Jerusalem' card appeared with descriptive text."
+          }
+        ],
+        "limits": "One site and one landmark interaction verified; the other nine sites, full collection loop, and complete game were not tested.",
+        "addictinggames_iframe_test": "not_tested"
+      },
+      "evidence_report": "game-discovery-bot/runs/2026-10-10T185643Z/windows/3/reports/luna2.json",
+      "release_record": {
+        "slug": "heritage-walk-ethiopia",
+        "title": "Heritage Walk: Ethiopia",
+        "category": "Adventure",
+        "description": "Walk Ethiopian heritage sites and discover landmarks",
+        "externalUrl": "https://heritage-walk-zeamekonnen-gmailcoms-projects.vercel.app/",
+        "xSource": "https://x.com/zeamekonnen/status/2103525767401357776",
+        "acceptance_basis": "agent_gameplay_verified",
+        "image": {
+          "imageUrl": "/games/campaign3-heritage-walk-ethiopia.webp",
+          "kind": "creator_page_og",
+          "source_mode": "contain",
+          "source_dimensions": [
+            1200,
+            630
+          ],
+          "output_dimensions": [
+            1200,
+            845
+          ],
+          "bytes": 31966,
+          "sha256": "702aeb4540d3576bb6c14853c6c14d43ffea1823c7d4417afc4508c0ad31f28d",
+          "source_url": "https://heritage-walk-zeamekonnen-gmailcoms-projects.vercel.app/og-image.png",
+          "source_page_url": "https://heritage-walk-zeamekonnen-gmailcoms-projects.vercel.app/",
+          "pixel_description": "Wide title card with Amharic lettering, Heritage Walk title and Ethiopia heritage-site description, over a simple cream-and-terracotta landscape with landmark silhouettes and a small traveller."
+        },
+        "rights_branding_note": null
+      }
+    },
+    {
+      "candidate_id": 8,
+      "candidate_title": "Rise & Raid",
+      "creator": "@efeislekel",
+      "xSource": "https://x.com/efeislekel/status/2107531682475565085",
+      "candidate_play_url": "https://riseandraid.anemoncreative.com/",
+      "disposition": "eligible",
+      "terminal_code": "direct_gameplay_verified",
+      "decision_reason": "Parent-approved; placing a Gold Mine advanced the tutorial 1/15 to 2/15 and reduced crystals 1,000 to 932.",
+      "ai_authorship_evidence": {
+        "gate_status": "pass",
+        "quote": "🏰 Rise & Raid is coming soon! Built with Claude Opus 5.5, Rise & Raid is a strategy game where you build your kingdom, raise an army & raid your enemies. 📱Coming to Google Play 🌐Play the web test: https://t.co/sC8Z916sKW ⚔️ Follow for updates!",
+        "translation": null,
+        "source_url": "https://x.com/efeislekel/status/2107531682475565085",
+        "source_type": "Creator's X post, inspected directly in an owned browser tab.",
+        "source_verification": "The exact X post displayed the game-specific Claude statement, the direct game link, and the post's attached game image. A later creator post shown in Discover more called the game ready to try and linked the same domain."
+      },
+      "gameplay": {
+        "status": "agent_gameplay_verified",
+        "load_observation": "The page reached the game UI in about 3.1 seconds; title, guest setup, and the first build action worked without an extended asset wait.",
+        "direct_outcome": "The direct page loaded to a medieval village title screen. Chose Play as guest, then PLAY, entered the fictional village name 'Testhold', saved the guest village, and selected Let's go. Tutorial step 1/15 asked for a Gold Mine. Opened Build > Economy, selected Gold Mine (68), and clicked the visible placement ghost beside the Town Hall. The mine appeared and the tutorial advanced to step 2/15 ('Now build a Crystal Pump'); a 'Gold Mine built!' notice appeared and crystal changed from 1,000 to 932.",
+        "inputs_and_visible_responses": [
+          {
+            "input": "Selected Play as guest and then the title screen's PLAY button.",
+            "response": "A 'Found your village' setup modal appeared; no account or Google sign-in was used."
+          },
+          {
+            "input": "Entered fictional village name 'Testhold', saved, and selected Let's go.",
+            "response": "The village scene opened and tutorial step 1/15 requested a Gold Mine."
+          },
+          {
+            "input": "Opened Build, selected the Economy Gold Mine option (68), and clicked the placement ghost on an open tile near the Town Hall.",
+            "response": "A Gold Mine appeared; the UI showed 'Gold Mine built!', advanced to tutorial step 2/15, and crystal decreased from 1,000 to 932."
+          }
+        ],
+        "limits": "A guest village setup and one tutorial build action were verified. No attack, army training, multiplayer, cloud-save, or full campaign was tested.",
+        "addictinggames_iframe_test": "not_tested"
+      },
+      "evidence_report": "game-discovery-bot/runs/2026-10-10T185643Z/windows/3/reports/luna2.json",
+      "release_record": {
+        "slug": "rise-and-raid",
+        "title": "Rise & Raid",
+        "category": "Strategy",
+        "description": "Build village structures in a medieval strategy game",
+        "externalUrl": "https://riseandraid.anemoncreative.com/",
+        "xSource": "https://x.com/efeislekel/status/2107531682475565085",
+        "acceptance_basis": "agent_gameplay_verified",
+        "image": {
+          "imageUrl": "/games/concept-campaign3-rise-and-raid.webp",
+          "kind": "selected_generated_concept",
+          "source_mode": "crop",
+          "source_dimensions": [
+            1536,
+            1024
+          ],
+          "output_dimensions": [
+            1200,
+            845
+          ],
+          "bytes": 290328,
+          "sha256": "683f5c991fae1b931f05d5b6a725767e50fa733adadc1805a46b8d27915f8176",
+          "source_url": "https://pbs.twimg.com/media/HT90Lh3XIAASEZm?format=webp&name=large",
+          "source_page_url": "https://x.com/efeislekel/status/2107531682475565085/photo/1",
+          "pixel_description": "Portrait fantasy poster with a crowned armored warrior, a bright kingdom of castles and ships, a large Rise & Raid logo, and prominent 'COMING SOON' and 'MOBILE GAME' text.",
+          "selected_concept": {
+            "variant": "B",
+            "reason": "Tighter town hall and mine composition reads clearly at card size and matches observed building tutorial",
+            "shown_ab_in_campaign_chat": true,
+            "prompt_evidence": "game-discovery-bot/runs/2026-10-10T185643Z/windows/3/art-generated/rise-and-raid-B-prompt.txt",
+            "generated_source": "game-discovery-bot/runs/2026-10-10T185643Z/windows/3/art-generated/rise-and-raid-B.png"
+          }
+        },
+        "rights_branding_note": null
+      }
+    },
+    {
+      "candidate_id": 9,
+      "candidate_title": "RoboBeats: Mooncake Chop",
+      "creator": "@nullinbetween",
+      "xSource": "https://x.com/nullinbetween/status/2104504963833753777",
+      "candidate_play_url": "https://robobeats-mooncake-mobile.netlify.app/",
+      "disposition": "eligible",
+      "terminal_code": "direct_gameplay_verified",
+      "decision_reason": "Parent-approved; clicking the target mooncake split it into halves and showed Perfect! with a star response.",
+      "ai_authorship_evidence": {
+        "gate_status": "pass",
+        "quote": "A little mooncake game 🌕 After kids tried Mooncake Chop at home: 🥮 4 new stages to learn mooncake names—same difficulty 🤖 More character choices 🏠 Simpler next-stage / home navigation Built with Claude Opus 5.5. Play:",
+        "translation": null,
+        "source_url": "https://x.com/nullinbetween/status/2104504963833753777",
+        "source_type": "Creator's X post, inspected directly in an owned browser tab.",
+        "source_verification": "The exact X post displayed the game-specific Claude statement, linked to robobeats-mooncake-mobile.netlify.app, and its game title preview. The official game page also linked '© 2026 appsbymeredith' and @nullinbetween."
+      },
+      "gameplay": {
+        "status": "agent_gameplay_verified",
+        "load_observation": "The direct URL reached the stage-selection menu in about 1.5 seconds; the playfield began immediately after Play and countdown.",
+        "direct_outcome": "The page loaded to a menu for Mooncake Chop, with four selectable mooncake stages, six chopper choices, and Slow/Fast speed. Sound on was unchecked (value 0). Selected Play; after the 3-count start, tapped the visible mooncake at approximately [885, 508]. The mooncake split into two yolk halves and 'Perfect!' appeared, confirming the chop/timing response.",
+        "inputs_and_visible_responses": [
+          {
+            "input": "Selected Play with the default White lotus, double yolk stage, Pip chopper, and Slow speed.",
+            "response": "The live scene started after a 3-count, showing the watercolor robot, lunar surface, mooncake targets, and sound-off icon."
+          },
+          {
+            "input": "Clicked the visible mooncake at approximately [885, 508].",
+            "response": "The target split into two halves and 'Perfect!' appeared with a celebratory star effect."
+          }
+        ],
+        "limits": "One default stage and one successful chop were observed; all four stages, chopper variants, speed settings, and progression were not tested.",
+        "addictinggames_iframe_test": "not_tested"
+      },
+      "evidence_report": "game-discovery-bot/runs/2026-10-10T185643Z/windows/3/reports/luna2.json",
+      "release_record": {
+        "slug": "robobeats-mooncake-chop",
+        "title": "RoboBeats: Mooncake Chop",
+        "category": "Arcade",
+        "description": "Tap to the beat and chop mooncakes on the lunar counter",
+        "externalUrl": "https://robobeats-mooncake-mobile.netlify.app/",
+        "xSource": "https://x.com/nullinbetween/status/2104504963833753777",
+        "acceptance_basis": "agent_gameplay_verified",
+        "image": {
+          "imageUrl": "/games/campaign3-robobeats-mooncake-chop.webp",
+          "kind": "creator_page_og",
+          "source_mode": "contain",
+          "source_dimensions": [
+            1200,
+            630
+          ],
+          "output_dimensions": [
+            1200,
+            845
+          ],
+          "bytes": 73672,
+          "sha256": "d3ae11eeed18f8648a356df442009fd3f47739b53471b5712a09921fab9e368e",
+          "source_url": "https://robobeats-mooncake-mobile.netlify.app/og.png",
+          "source_page_url": "https://robobeats-mooncake-mobile.netlify.app/",
+          "pixel_description": "Wide watercolor-style title art with a teal robot, two mooncakes, a bunny and a child at a lunar counter, under a starry violet sky. Large English and Chinese title text reads 'Mooncake Chop' and 'Tap to the beat!'."
+        },
+        "rights_branding_note": null
+      }
+    },
+    {
+      "candidate_id": 10,
+      "candidate_title": "Cinder Ring",
+      "creator": "@dralizedhuman",
+      "xSource": "https://x.com/dralizedhuman/status/2103817567370391835",
+      "candidate_play_url": "https://cinderring.tech/",
+      "disposition": "eligible",
+      "terminal_code": "direct_gameplay_verified_with_route_limit",
+      "decision_reason": "Parent-approved; Q cast Fireball and showed a 5-second cooldown. Hit/damage was not confirmed.",
+      "ai_authorship_evidence": {
+        "gate_status": "pass",
+        "quote": "Warcraft 3's Warlock map, rebuilt in the browser with Claude Opus 5.5. Playable in 30 minutes. Suitable for devices of all sizes (I hope). I can update the game based on your feedback. Zero lines of code written by me. Play Here:",
+        "translation": null,
+        "source_url": "https://x.com/dralizedhuman/status/2103817567370391835",
+        "source_type": "Creator's X post and creator reply, inspected directly in an owned browser tab.",
+        "source_verification": "The exact source post linked cinderring.tech and explicitly called the game a Warcraft 3 Warlock map rebuilt with Claude Opus 5.5; the creator reply on the same X timeline says Claude generated this game in 40 minutes."
+      },
+      "gameplay": {
+        "status": "agent_gameplay_verified",
+        "load_observation": "The direct game menu appeared in about 6.7 seconds. How to Play and bot setup were available; the first arena began without a slow asset wait.",
+        "direct_outcome": "Read How to Play. Started Single Player with the default Free-for-all, three rivals, Adept skill, and five rounds; entered round 1 and toggled the in-game sound control from Sound on to Sound off. The HUD showed round 1 of 5, player health 100/100, and Fireball on Q. Right-clicked toward an opponent at approximately [630, 158] and pressed Q. The player appeared at a new position and the Fireball icon showed a 5-second cooldown; the screenshot did not establish a hit or opponent damage.",
+        "inputs_and_visible_responses": [
+          {
+            "input": "Selected Play vs Bots, kept defaults (Free-for-all, three rivals, Adept, five rounds), and selected ENTER THE RING then ENTER ROUND 1.",
+            "response": "The arena opened with player and three bot health bars; HUD displayed Round 1 of 5 and Fireball (Q)."
+          },
+          {
+            "input": "Clicked the visible Sound on control.",
+            "response": "The game control changed to Sound off; system output mute remained unchanged."
+          },
+          {
+            "input": "Right-clicked toward Oskarn at approximately [630, 158], then pressed Q.",
+            "response": "The player shifted position and the Q Fireball icon displayed a five-second cooldown. A hit/damage response was not confirmed; the player scoreboard remained 0."
+          }
+        ],
+        "limits": "One brief bot round and one cast response were observed. No hit, kill, round result, multiplayer session, or complete match was verified.",
+        "addictinggames_iframe_test": "not_tested"
+      },
+      "evidence_report": "game-discovery-bot/runs/2026-10-10T185643Z/windows/3/reports/luna2.json",
+      "release_record": {
+        "slug": "cinder-ring",
+        "title": "Cinder Ring",
+        "category": "Action",
+        "description": "Cast spells in a floating mage arena",
+        "externalUrl": "https://cinderring.tech/",
+        "xSource": "https://x.com/dralizedhuman/status/2103817567370391835",
+        "acceptance_basis": "agent_gameplay_verified",
+        "image": {
+          "imageUrl": "/games/campaign3-cinder-ring.webp",
+          "kind": "creator_page_og",
+          "source_mode": "contain",
+          "source_dimensions": [
+            1200,
+            630
+          ],
+          "output_dimensions": [
+            1200,
+            845
+          ],
+          "bytes": 111794,
+          "sha256": "f2842d3f8a04a3ab9dc2770ff6733914e35bf5d998f7b4f6c4f5323cacc8e378",
+          "source_url": "https://cinderring.tech/og.png",
+          "source_page_url": "https://cinderring.tech/",
+          "pixel_description": "Wide, game-branded arena composition: a mage stands on a circular hex-tile platform over a starfield, with violet crystals and a rival arena visible. Left-side text reads Cinder Ring, 'A Mage Arena Brawl', and describes the knockback objective. No Warcraft logo is visible in this image."
+        },
+        "rights_branding_note": "Observed source/game content is recorded in evidence; this manifest does not represent rights clearance."
+      }
+    },
+    {
+      "candidate_id": 11,
+      "candidate_title": "Cyber Dragons",
+      "creator": "@afnanbtc",
+      "xSource": "https://x.com/afnanbtc/status/2104985667952595331",
+      "candidate_play_url": "https://cyber-dragons.netlify.app/",
+      "disposition": "held",
+      "terminal_code": "hold_ai_authorship_unverified",
+      "decision_reason": "Gameplay moved, but the source only says vibe coded and does not explicitly identify AI as making this game.",
+      "ai_authorship_evidence": {
+        "gate_status": "hold",
+        "quote": "Vibe coded my own game for the community! Cyber Dragons is fully playable in-browser right now.",
+        "translation": null,
+        "source_url": "https://x.com/afnanbtc/status/2104985667952595331",
+        "source_type": "Creator's X post and visible creator follow-up, inspected directly in Brave.",
+        "source_verification": "The creator's post names Cyber Dragons, links its playable URL, and says it is vibe coded. The visible follow-up says only 'More details'; neither post names AI or a specific AI tool."
+      },
+      "gameplay": {
+        "status": "agent_gameplay_verified",
+        "load_observation": null,
+        "direct_outcome": "Opened the direct game page and launched Wave 1. The screen identified ship movement on WASD/arrows, shooting on click/F/Enter, and EMP on Space. Starting score was 0 and lives were 3. ArrowLeft held for about 500 ms moved the ship from roughly x755 to x555; during the real-time wave the life count also fell to 2, which is not attributed to that input. ArrowRight held for about 500 ms moved the ship back toward x738. A short F press was attempted but no isolated projectile or score response was confirmed. The wave was not completed.",
+        "inputs_and_visible_responses": [
+          {
+            "input": "ArrowLeft for about 500 ms during Wave 1.",
+            "response": "Ship shifted left from about x755 to x555; score stayed 0. A life was lost during the real-time play, with no causal attribution."
+          },
+          {
+            "input": "ArrowRight for about 500 ms.",
+            "response": "Ship shifted back toward x738, demonstrating directional movement."
+          }
+        ],
+        "limits": "Short directional movement check, not a completed wave. AI authorship remains unverified under the explicit-AI gate.",
+        "addictinggames_iframe_test": "not_tested"
+      },
+      "evidence_report": "game-discovery-bot/runs/2026-10-10T185643Z/windows/3/reports/luna4.json"
+    },
+    {
+      "candidate_id": 12,
+      "candidate_title": "Kimuko: Counterforce",
+      "creator": "@tmiotesla",
+      "xSource": "https://x.com/tmiotesla/status/2103119666130420136",
+      "candidate_play_url": "https://frontseatgamer.com/games/kimuko",
+      "disposition": "held",
+      "terminal_code": "hold_controls_unverified",
+      "decision_reason": "Lane-runner progression was observed, but no attributable arrow or drag response was established; explicit AI gate is also not met.",
+      "ai_authorship_evidence": {
+        "gate_status": "pass",
+        "quote": "Video game companies are dead. No art team. No co-founder. Just shipped a browser-playable billion dollar game with Claude Opus 5.5. Playable here: frontseatgamer.com/games/kimuko",
+        "translation": null,
+        "source_url": "https://x.com/tmiotesla/status/2103119666130420136",
+        "source_type": "Creator's X post, inspected directly in Brave.",
+        "source_verification": "The creator's post directly links Kimuko and names Claude Opus 5.5 in the same game-specific statement."
+      },
+      "gameplay": {
+        "status": "held_controls_unverified",
+        "load_observation": null,
+        "direct_outcome": "Opened the game, selected Deploy, Operation One: Ashfall Landing, then Move Out. The page described a real-time lane runner with arrow/drag steering, automatic fire, gates that change squad size, and bosses. Arrow and drag inputs were tried. The run advanced through gates and into the Vessk boss stage while HUD weapon and confirmed-squad counts changed, but the action continued between inputs and observations; no distinct avatar/location or gate-selection change could be attributed confidently to the inputs. A menu/abort returned to operations, then the run was started again for a bounded retry. The game loaded and played; this is not a broken-game finding.",
+        "inputs_and_visible_responses": [],
+        "limits": "Fast autonomous progression prevented cleanly attributable control response; no full operation or boss completion was established.",
+        "addictinggames_iframe_test": "not_tested"
+      },
+      "evidence_report": "game-discovery-bot/runs/2026-10-10T185643Z/windows/3/reports/luna4.json"
+    },
+    {
+      "candidate_id": 13,
+      "candidate_title": "Neon Ronin: Road to Dawn",
+      "creator": "@thecuongpham",
+      "xSource": "https://x.com/thecuongpham/status/2109038344030044274",
+      "candidate_play_url": "https://neon-ronin-city-walk-01.deepokapi32.chatgpt.site/",
+      "disposition": "held",
+      "terminal_code": "hold_ai_authorship_unverified",
+      "decision_reason": "Creator praises GPT-6.1 Sol but does not explicitly state it made this game; combat also confounded controls.",
+      "ai_authorship_evidence": {
+        "gate_status": "hold",
+        "quote": "I got tired of watching people showing off, so I decided to take my faith into my own hands. Everyone is making incredible games with Opus 5.5 and I want to show off that @ChatGPT GPT-6.1 Sol is great too! Play it here: city-walk-01.deepokapi32.chatgpt.site It's open-sourced github.com/shashlykdev/01",
+        "translation": null,
+        "source_url": "https://x.com/thecuongpham/status/2109038344030044274",
+        "source_type": "Creator's X post and later creator update, inspected directly in Brave.",
+        "source_verification": "The post links the game and praises GPT-6.1 Sol in the same message, but does not explicitly say the game was made/built with AI. A later creator update says a boss fight, sound effects, and music were being added; it does not clarify authorship."
+      },
+      "gameplay": {
+        "status": "held_controls_unverified",
+        "load_observation": null,
+        "direct_outcome": "Direct page opened to the title screen, which listed A/D or arrows to move, Space to jump, J to chain katana attacks, K to dodge, and Escape to pause; its Sound off control was already unchecked. Entered District 01: The Lantern District. After a retry from the death dialog, ArrowRight was pressed for about 350 ms; health changed from 100 to 90 while enemies closed in, but the screenshot did not isolate a clear movement effect. Space was then pressed briefly; health fell to 30 during combat and the death dialog returned. The observed state changes are not treated as proof that movement or jumping worked. Game loaded into a playable scene; held for uncertain control response, not marked broken.",
+        "inputs_and_visible_responses": [],
+        "limits": "Only the opening district was entered. Real-time enemy attacks confounded input attribution, and no complete fight or boss was tested.",
+        "addictinggames_iframe_test": "not_tested"
+      },
+      "evidence_report": "game-discovery-bot/runs/2026-10-10T185643Z/windows/3/reports/luna4.json"
+    },
+    {
+      "candidate_id": 14,
+      "candidate_title": "YugiSnap",
+      "creator": "@yugisnap",
+      "xSource": "https://x.com/yugisnap/status/2108157646369087617",
+      "candidate_play_url": "https://yugisnap.kw-15.workers.dev/",
+      "disposition": "eligible",
+      "terminal_code": "direct_gameplay_verified",
+      "decision_reason": "Parent-approved; dragging Blade Knight to lane 1 planned a card, spent 2 energy, and reduced hand 5 to 4.",
+      "ai_authorship_evidence": {
+        "gate_status": "pass",
+        "quote": "It's my vibe coding project, built step by step with AI.",
+        "translation": null,
+        "source_url": "https://x.com/yugisnap/status/2108157646369087617",
+        "source_type": "Creator's X post and creator reply, inspected directly in Brave.",
+        "source_verification": "The creator's post names YugiSnap, describes it as a fan-made browser game, links the exact playable URL, and explicitly says it was built step by step with AI."
+      },
+      "gameplay": {
+        "status": "agent_gameplay_verified",
+        "load_observation": null,
+        "direct_outcome": "Direct browser page opened to a deck-ready home screen. Started Solo Duel > Single game. At turn 2 with 2 energy, dragged Blade Knight (cost 2, power 3) from the hand to lane 1; UI reported Planned Blade Knight and energy fell 2 to 0. Resolved Battle Phase; Blade Knight appeared as Set on our side of lane 1 and hand size decreased from 5 to 4. This verifies one card-placement action and response, not a complete duel.",
+        "inputs_and_visible_responses": [
+          {
+            "input": "Started a Solo Duel single game.",
+            "response": "The board displayed three lanes, 1/6 turn progression, a hand, field rules, and energy."
+          },
+          {
+            "input": "Dragged Blade Knight from the hand into the player's side of lane 1 when 2 energy was available.",
+            "response": "The game displayed Planned Blade Knight, reduced remaining energy from 2 to 0, and reduced the hand from 5 to 4."
+          },
+          {
+            "input": "Activated the Battle Phase control to resolve the planned card.",
+            "response": "Blade Knight appeared face down as Set on the player's side of lane 1."
+          }
+        ],
+        "limits": "Short direct single-player check; one card placement was confirmed. No full match, win/loss, opponent strategy, or iframe behavior was tested.",
+        "addictinggames_iframe_test": "not_tested"
+      },
+      "evidence_report": "game-discovery-bot/runs/2026-10-10T185643Z/windows/3/reports/luna4.json",
+      "release_record": {
+        "slug": "yugisnap",
+        "title": "YugiSnap",
+        "category": "Strategy",
+        "description": "Plan turns and place cards across three duel lanes",
+        "externalUrl": "https://yugisnap.kw-15.workers.dev/",
+        "xSource": "https://x.com/yugisnap/status/2108157646369087617",
+        "acceptance_basis": "agent_gameplay_verified",
+        "image": {
+          "imageUrl": "/games/campaign3-yugisnap.webp",
+          "kind": "creator_page_og",
+          "source_mode": "contain",
+          "source_dimensions": [
+            1200,
+            630
+          ],
+          "output_dimensions": [
+            1200,
+            845
+          ],
+          "bytes": 21648,
+          "sha256": "329f498ef57cee0da8c7bc9ce69c568ca25746abae798b631ac59cbf379b23a0",
+          "source_url": "https://yugisnap.kw-15.workers.dev/og-image.png",
+          "source_page_url": "https://yugisnap.kw-15.workers.dev/",
+          "pixel_description": "Clean dark-navy title card with large yellow YugiSnap lettering, '6 TURNS · 3 LANES · 12 CARDS', 'Browser Strategy Card Game', and two simple outlined card motifs."
+        },
+        "rights_branding_note": null
+      }
+    },
+    {
+      "candidate_id": 15,
+      "candidate_title": "My Aquarium",
+      "creator": "@bickelc98",
+      "xSource": "https://x.com/bickelc98/status/2106145741442060780",
+      "candidate_play_url": "https://peekarium.com/AquariumGame/",
+      "disposition": "held",
+      "terminal_code": "hold_ai_authorship_unverified",
+      "decision_reason": "Creator says vibe-coded but does not explicitly identify AI or a tool as making the game; water-change response alone does not clear authorship.",
+      "ai_authorship_evidence": {
+        "gate_status": "hold",
+        "quote": "Check out this aquarium game fully playable in browser. Yes its vibe-coded but your kids are gonna love it and there arent any ads🤷‍♂️🤷‍♂️ #WebDevelopment unofficialartworks.github.io/AquariumGame/#",
+        "translation": null,
+        "source_url": "https://x.com/bickelc98/status/2106145741442060780",
+        "source_type": "Creator's X post and later creator post, inspected directly in Brave.",
+        "source_verification": "The creator's post links the aquarium game but only says 'vibe-coded'; no AI or tool is named. A later creator post links peekarium.com but does not describe AI authorship."
+      },
+      "gameplay": {
+        "status": "agent_gameplay_verified",
+        "load_observation": null,
+        "direct_outcome": "Opened a direct My Aquarium screen. It showed an Aquarium/Nursery switch, level and coin counters, Tank health (hungry/algae/murk/waste), and Watch/Feed/Clean/Decorate/Shop modes. In Clean mode, the game instructed 'Drag across the glass to scrub with the Sponge'; two drag attempts showed a sponge/cursor effect but no attributable algae decrease. Murk measured 7% before clicking the clearly labeled Water change control. The game showed 'Fresh water is on its way!' and murk reached 0%; coin count stayed at 170 across that action. No Shop was opened and no currency was spent. Earlier balance change from 120 to 170 occurred over elapsed idle play and is not attributed to an input.",
+        "inputs_and_visible_responses": [
+          {
+            "input": "Opened Clean mode and selected the Sponge; dragged across the visible aquarium glass.",
+            "response": "The sponge cursor/visual moved, but algae did not decrease in the immediate observed status; not counted as a cleaning success."
+          },
+          {
+            "input": "Clicked Water change (UI description: Clears murk) when murk was 7%.",
+            "response": "A 'Fresh water is on its way!' toast appeared; the next state showed murk 0%. Coin count stayed 170."
+          }
+        ],
+        "limits": "Short management-game check; water-change response was verified, but the sponge action did not produce an isolated algae decrease. No Shop, purchase, full progression, or iframe was tested. AI attribution remains unverified under the explicit-AI gate.",
+        "addictinggames_iframe_test": "not_tested"
+      },
+      "evidence_report": "game-discovery-bot/runs/2026-10-10T185643Z/windows/3/reports/luna4.json"
+    },
+    {
+      "candidate_id": 16,
+      "candidate_title": "Gatebreaker",
+      "creator": "@vdarvo",
+      "xSource": "https://x.com/vdarvo/status/2109038237708927052",
+      "candidate_play_url": "https://gatebreakers.grok.me/",
+      "disposition": "held",
+      "terminal_code": "hold_auth_gate",
+      "decision_reason": "The title page required sign-in or registration; no account was entered or created.",
+      "ai_authorship_evidence": {
+        "gate_status": "pass",
+        "quote": "I built this with Grok — try it out:",
+        "translation": null,
+        "source_url": "https://x.com/vdarvo/status/2109038237708927052",
+        "source_type": "Creator's X post, inspected directly.",
+        "source_verification": "X post at the exact source URL showed the creator, quote, and link to gatebreakers.grok.me."
+      },
+      "gameplay": {
+        "status": "held_auth_gate",
+        "load_observation": "A “SYSTEM BOOT” screen resolved to the sign-in/register screen after about 15 seconds.",
+        "direct_outcome": "The page loaded to “System Awakening” with sign-in/register controls and email/password fields. It said “Register yourself into The System, or return to finish what you started.” No account was entered or created; no gameplay input was attempted.",
+        "inputs_and_visible_responses": [],
+        "limits": "Landing page observed only; no game/session behavior established.",
+        "addictinggames_iframe_test": "not_tested"
+      },
+      "evidence_report": "game-discovery-bot/runs/2026-10-10T185643Z/windows/3/reports/luna5.json"
+    },
+    {
+      "candidate_id": 17,
+      "candidate_title": "Word Ladder Duel",
+      "creator": "@1ParalleSociety",
+      "xSource": "https://x.com/1ParalleSociety/status/2108977409110282321",
+      "candidate_play_url": "https://world-ladder-duel.grok.me/",
+      "disposition": "eligible",
+      "terminal_code": "direct_gameplay_verified",
+      "decision_reason": "Parent-approved; RANG was accepted, player score rose 0 to 1, and the bot replied with RANK.",
+      "ai_authorship_evidence": {
+        "gate_status": "pass",
+        "quote": "I built this with Grok — try it out:",
+        "translation": null,
+        "source_url": "https://x.com/1ParalleSociety/status/2108977409110282321",
+        "source_type": "Creator's X post, inspected directly.",
+        "source_verification": "X post at the exact source URL showed the creator, quote, and link to world-ladder-duel.grok.me."
+      },
+      "gameplay": {
+        "status": "agent_gameplay_verified",
+        "load_observation": null,
+        "direct_outcome": "Page loaded to a match setup with no account requirement. Started a bot match (single-player vs computer; no multiplayer claim). The opening word was SANG. Selecting S→R produced “RANG · Valid”; submitting it changed Player 1 from 0 to 1 and passed the turn to the computer. The bot then played RANK, changed Computer from 0 to 1, and returned the turn to Player 1. One unsubmitted exploratory letter choice showed “QANG · Not in this match dictionary”; it did not enter the word history.",
+        "inputs_and_visible_responses": [
+          {
+            "input": "Started a bot match using the visible Start match control.",
+            "response": "The board showed Player 1's turn, starting word SANG, score 0–0, and no timer."
+          },
+          {
+            "input": "Selected the first letter and chose R, then submitted RANG.",
+            "response": "The UI marked RANG valid, recorded it as move 1, raised Player 1's score to 1, and showed the computer's turn."
+          },
+          {
+            "input": "Waited for the bot turn to resolve.",
+            "response": "The board recorded RANK as the second move, Computer score became 1, and Player 1's next turn appeared."
+          }
+        ],
+        "limits": "Short single-player bot check; no full match or multiplayer test. Built-in page sound control remained as found; parent-confirmed system mute stayed unchanged.",
+        "addictinggames_iframe_test": "not_tested"
+      },
+      "evidence_report": "game-discovery-bot/runs/2026-10-10T185643Z/windows/3/reports/luna5.json",
+      "release_record": {
+        "slug": "word-ladder-duel",
+        "title": "Word Ladder Duel",
+        "category": "Puzzle",
+        "description": "Change one letter at a time in a word-ladder duel",
+        "externalUrl": "https://world-ladder-duel.grok.me/",
+        "xSource": "https://x.com/1ParalleSociety/status/2108977409110282321",
+        "acceptance_basis": "agent_gameplay_verified",
+        "image": {
+          "imageUrl": "/games/concept-campaign3-word-ladder-duel.webp",
+          "kind": "selected_generated_concept",
+          "source_mode": "crop",
+          "source_dimensions": [
+            1536,
+            1024
+          ],
+          "output_dimensions": [
+            1200,
+            845
+          ],
+          "bytes": 152390,
+          "sha256": "1bae76ef7f17720cf438299a22367bc30d79c84b0e977a068cfb91e8aa33f3e0",
+          "source_url": null,
+          "source_page_url": null,
+          "pixel_description": null,
+          "selected_concept": {
+            "variant": "B",
+            "reason": "Larger focal replacement letter and less visual clutter at small card size; faithful observed RANG to RANK mechanic",
+            "shown_ab_in_campaign_chat": true,
+            "prompt_evidence": "game-discovery-bot/runs/2026-10-10T185643Z/windows/3/art-generated/word-ladder-duel-B-prompt.txt",
+            "generated_source": "game-discovery-bot/runs/2026-10-10T185643Z/windows/3/art-generated/word-ladder-duel-B.png"
+          }
+        },
+        "rights_branding_note": null
+      }
+    },
+    {
+      "candidate_id": 18,
+      "candidate_title": "Magic Cade Ball",
+      "creator": "@lenkendall",
+      "xSource": "https://x.com/lenkendall/status/2101692888451039668",
+      "candidate_play_url": "https://fabulous-bienenstitch-67a491.netlify.app/",
+      "disposition": "held",
+      "terminal_code": "hold_ai_authorship_and_game_classification",
+      "decision_reason": "Creator does not explicitly identify AI authorship; one advice button responded, but no game objective or progression was shown.",
+      "ai_authorship_evidence": {
+        "gate_status": "hold",
+        "quote": "Play the Magic Cade Ball to help make decisions on Up or Down. This is not a company product, just a silly vibe coded thing I made for fun for people who can’t predict good.",
+        "translation": null,
+        "source_url": "https://x.com/lenkendall/status/2101692888451039668",
+        "source_type": "Creator-authored X post inspected directly.",
+        "source_verification": "The exact post displayed the quoted text and linked the Netlify game page."
+      },
+      "gameplay": {
+        "status": "interaction_verified_game_classification_uncertain",
+        "load_observation": null,
+        "direct_outcome": "The page showed “MAGIC CADE BALL” and instructed “Don't know what to predict? Tap the ball to get advice.” Clicking the visible “Shake Magic Cade Ball for UP or DOWN” control changed the ball text to “CLEMENTE SAYS DOWN.” No score, progression, or other game objective was visible; this may be a decision toy rather than a game.",
+        "inputs_and_visible_responses": [
+          {
+            "input": "Clicked the visible button labeled “Shake Magic Cade Ball for UP or DOWN.”",
+            "visible_response": "The custom ball displayed “CLEMENTE SAYS DOWN.”"
+          }
+        ],
+        "limits": "One button interaction was verified; game classification and AI authorship remain unclear.",
+        "addictinggames_iframe_test": "not_tested"
+      },
+      "evidence_report": "game-discovery-bot/runs/2026-10-10T185643Z/windows/3/reports/luna5.json"
+    },
+    {
+      "candidate_id": 19,
+      "candidate_title": "The Adventures of Cyrax",
+      "creator": "@tankership69",
+      "xSource": "https://x.com/tankership69/status/2108968235437814012",
+      "candidate_play_url": "https://tankership69.itch.io/the-adventures-of-cyrax",
+      "disposition": "held",
+      "terminal_code": "hold_ai_authorship_unverified",
+      "decision_reason": "A short rhythm-game sequence loaded, but creator only says vibe coded; no explicit game-specific AI authoring statement was found. No separate rights gate applied.",
+      "ai_authorship_evidence": {
+        "gate_status": "hold",
+        "quote": "I was bored and vibe coded a Cyrax game.",
+        "translation": null,
+        "source_url": "https://x.com/tankership69/status/2108968235437814012",
+        "source_type": "Creator-authored X post inspected directly.",
+        "source_verification": "The exact post displayed the quote and linked the itch.io game. The itch page separately says “Made in one very long conversation, entirely in a single HTML file, with no assets.” Neither statement names AI."
+      },
+      "gameplay": {
+        "status": "limited_gameplay_verified",
+        "load_observation": "The itch page loaded to a Run game control. Starting it loaded a pixel-art game frame.",
+        "direct_outcome": "The title screen showed CYRAX and “A man, an attic, and five delusions. He cannot win.” Enter advanced to intro narration; Z advanced into the attic and activated “Z STADIUM TOUR”; another Z entered a rhythm stage with score 0, crowd 80,000, combo 0x, and four colored lanes. No lane key was pressed, so rhythm scoring was not tested; after no lane input the sequence advanced to grandma dialogue and then GAME OVER after Z.",
+        "inputs_and_visible_responses": [
+          {
+            "input": "Pressed Enter on the title screen.",
+            "visible_response": "The screen changed from the CYRAX title to introductory narration."
+          },
+          {
+            "input": "Pressed Z to advance the intro, then Z at the attic interaction prompt.",
+            "visible_response": "The attic appeared, then the “Z STADIUM TOUR” interaction advanced into a stadium-themed rhythm stage."
+          }
+        ],
+        "limits": "A short interaction reached the rhythm minigame, but no lane scoring, full mission, or completion was verified.",
+        "addictinggames_iframe_test": "not_tested"
+      },
+      "evidence_report": "game-discovery-bot/runs/2026-10-10T185643Z/windows/3/reports/luna5.json"
+    },
+    {
+      "candidate_id": 20,
+      "candidate_title": "Dubovsky Labs city game",
+      "creator": "@Marek_Dubovsky",
+      "xSource": "https://x.com/Marek_Dubovsky/status/2105725141531701682",
+      "candidate_play_url": "https://dubovskylabs.com/benchmarks/gta/apps/claude-opus-5-5/index.html",
+      "disposition": "eligible",
+      "terminal_code": "direct_gameplay_verified",
+      "decision_reason": "Parent-approved; W moved the avatar/camera and M opened and closed the city map. Missions and vehicle entry remain untested.",
+      "ai_authorship_evidence": {
+        "gate_status": "pass",
+        "quote": "One “GTA” prompt. 35 hours. Claude Opus 5.5 built a playable browser game with a living city and 28 story missions.",
+        "translation": null,
+        "source_url": "https://x.com/Marek_Dubovsky/status/2105725141531701682",
+        "source_type": "Creator-authored X post inspected directly.",
+        "source_verification": "The exact post linked Dubovsky Labs. The site's game page identifies itself as “MADE BY CLAUDE OPUS 5.5” and “A playable 3D city built by Claude Opus 5.5.”"
+      },
+      "gameplay": {
+        "status": "agent_gameplay_verified",
+        "load_observation": "The creator page linked the playable benchmark build. Initial navigation was black for about 30 seconds before the neon sunset splash appeared; clicking it began shader compilation, then a 3D city spawn scene rendered.",
+        "direct_outcome": "In the 3D city scene, a one-second W input moved the avatar/camera forward toward the street. Pressing M opened the full Port Solana city map, showing named districts and a legend for police, shops, safehouses, races, roads, and turf; pressing M closed the map. The scene showed an avatar, pedestrians, traffic, storefronts, a minimap, an in-game clock, and $500 starting cash. A “CLICK TO PLAY” label remained visible while the movement and map controls responded; missions and vehicle entry were not tested.",
+        "inputs_and_visible_responses": [
+          {
+            "input": "Pressed W for about one second in the loaded city scene.",
+            "visible_response": "The avatar/camera advanced toward the street; the curb and nearby storefronts shifted in the view."
+          },
+          {
+            "input": "Pressed M.",
+            "visible_response": "A full-screen Port Solana city map opened with districts, roads, destinations, and a legend."
+          },
+          {
+            "input": "Pressed M again.",
+            "visible_response": "The map closed and the 3D city scene returned."
+          }
+        ],
+        "limits": "Short movement/map check only. The creator advertises 28 missions, but no mission, vehicle, combat, or full progression was tested.",
+        "addictinggames_iframe_test": "not_tested"
+      },
+      "evidence_report": "game-discovery-bot/runs/2026-10-10T185643Z/windows/3/reports/luna5.json",
+      "release_record": {
+        "slug": "neon-palms-port-solana",
+        "title": "Neon Palms — Port Solana",
+        "category": "Simulation",
+        "description": "Explore a 3D coastal city with movement and map controls",
+        "externalUrl": "https://dubovskylabs.com/benchmarks/gta/apps/claude-opus-5-5/index.html",
+        "xSource": "https://x.com/Marek_Dubovsky/status/2105725141531701682",
+        "acceptance_basis": "agent_gameplay_verified",
+        "image": {
+          "imageUrl": "/games/campaign3-neon-palms-port-solana.webp",
+          "kind": "creator_page_og",
+          "source_mode": "crop",
+          "source_dimensions": [
+            1920,
+            1080
+          ],
+          "output_dimensions": [
+            1200,
+            845
+          ],
+          "bytes": 201932,
+          "sha256": "9106fbdb3352fbc82a360b6f10e53447a551c86de9a2fe30f0c1df741c6b53ea",
+          "source_url": "https://dubovskylabs.com/assets/img/projects/neon-palms/hero/ocean-mile-morning-1920.jpg",
+          "source_page_url": "https://dubovskylabs.com/neon-palms-claude-opus-5-5/index.html",
+          "pixel_description": "Wide, bright coastal city scene with turquoise water, a long sandy beach and palm-lined shore in the foreground, pastel waterfront blocks, port cranes and a distant downtown skyline."
+        },
+        "rights_branding_note": null
+      }
+    },
+    {
+      "candidate_id": 21,
+      "candidate_title": "Neon Skies (霓虹天际)",
+      "creator": "@loveAIwang",
+      "xSource": "https://x.com/loveAIwang/status/2108816389691855049",
+      "candidate_play_url": "https://neon-skies-17852.netlify.app/",
+      "disposition": "held",
+      "terminal_code": "hold_game_classification",
+      "decision_reason": "Parent direct check found a responsive procedural city generator with seed/building/room-count changes but no game goal.",
+      "ai_authorship_evidence": {
+        "gate_status": "pass",
+        "quote": "代码全是Opus 5.5写的",
+        "translation": "All the code was written by Opus 5.5.",
+        "source_url": "https://x.com/loveAIwang/status/2108816389691855049",
+        "source_type": "Creator's X post, inspected directly.",
+        "source_verification": "The post by AI Wang linked to neon-skies-17852.netlify.app and included the exact Chinese statement. The same post described browser WebGPU and continuous flight; its embedded video was not used as cover art."
+      },
+      "gameplay": {
+        "status": "held_game_classification",
+        "load_observation": null,
+        "direct_outcome": "Loaded procedural city after several minutes:518buildings910flyingcars~496krooms. NewCity button changedseed4417to19931,512buildings~537krooms. Responsive citygenerator, no gamegoal observed; notbroken.",
+        "inputs_and_visible_responses": [
+          {
+            "input": "Parent direct gameplay review; see observation field for exact controls/actions tested.",
+            "response": "Loaded procedural city after several minutes:518buildings910flyingcars~496krooms. NewCity button changedseed4417to19931,512buildings~537krooms. Responsive citygenerator, no gamegoal observed; notbroken."
+          }
+        ],
+        "limits": "No game content, loading outcome, or controls were observed; do not classify as broken.",
+        "addictinggames_iframe_test": "not_tested"
+      },
+      "evidence_report": "game-discovery-bot/runs/2026-10-10T185643Z/windows/3/reports/luna6.json",
+      "parent_terminal_review": {
+        "id": 21,
+        "decision": "held_game_classification",
+        "observations": "Loaded procedural city after several minutes:518buildings910flyingcars~496krooms. NewCity button changedseed4417to19931,512buildings~537krooms. Responsive citygenerator, no gamegoal observed; notbroken."
+      },
+      "evidence_report_parent_supplement": "game-discovery-bot/runs/2026-10-10T185643Z/windows/3/reports/parent-supplement.json",
+      "historical_worker_test": {
+        "status_before_parent_recheck": "held_browser_control_interruption",
+        "original_assessment_preserved_at": "game-discovery-bot/runs/2026-10-10T185643Z/windows/3/reports/luna6.json",
+        "superseding_parent_observation_at": "game-discovery-bot/runs/2026-10-10T185643Z/windows/3/reports/parent-supplement.json"
+      }
+    },
+    {
+      "candidate_id": 22,
+      "candidate_title": "Sven Stroll",
+      "creator": "@CryoLife2032",
+      "xSource": "https://x.com/CryoLife2032/status/2109011328421835031",
+      "candidate_play_url": "https://svenstroll.grok.me/",
+      "disposition": "held",
+      "terminal_code": "hold_controls_unverified",
+      "decision_reason": "Parent direct check found that K, focus+K, and a pistol click did not change ammo; timer advanced without a verified gameplay response.",
+      "ai_authorship_evidence": {
+        "gate_status": "pass",
+        "quote": "I built this with Grok — try it out:",
+        "translation": null,
+        "source_url": "https://x.com/CryoLife2032/status/2109011328421835031",
+        "source_type": "Creator's X post, inspected directly.",
+        "source_verification": "The post by Haeley 'CryoKeen' The Scifi Guy showed the exact statement and linked to svenstroll.grok.me."
+      },
+      "gameplay": {
+        "status": "held_controls_unverified",
+        "load_observation": null,
+        "direct_outcome": "EnteredSTROLLIN,HP100SUIT0BARNEY80,9mm12. k press,playfieldfocus+k,visiblePistolclick didnotchangeammo. Timeradvanced. No causalgameplayresponse established.",
+        "inputs_and_visible_responses": [
+          {
+            "input": "Parent direct gameplay review; see observation field for exact controls/actions tested.",
+            "response": "EnteredSTROLLIN,HP100SUIT0BARNEY80,9mm12. k press,playfieldfocus+k,visiblePistolclick didnotchangeammo. Timeradvanced. No causalgameplayresponse established."
+          }
+        ],
+        "limits": "No game page or gameplay observed.",
+        "addictinggames_iframe_test": "not_tested"
+      },
+      "evidence_report": "game-discovery-bot/runs/2026-10-10T185643Z/windows/3/reports/luna6.json",
+      "parent_terminal_review": {
+        "id": 22,
+        "decision": "held_controls_unverified",
+        "observations": "EnteredSTROLLIN,HP100SUIT0BARNEY80,9mm12. k press,playfieldfocus+k,visiblePistolclick didnotchangeammo. Timeradvanced. No causalgameplayresponse established."
+      },
+      "evidence_report_parent_supplement": "game-discovery-bot/runs/2026-10-10T185643Z/windows/3/reports/parent-supplement.json",
+      "historical_worker_test": {
+        "status_before_parent_recheck": "not_tested_due_to_browser_interruption",
+        "original_assessment_preserved_at": "game-discovery-bot/runs/2026-10-10T185643Z/windows/3/reports/luna6.json",
+        "superseding_parent_observation_at": "game-discovery-bot/runs/2026-10-10T185643Z/windows/3/reports/parent-supplement.json"
+      }
+    },
+    {
+      "candidate_id": 23,
+      "candidate_title": "Kreuz & Adler Codex",
+      "creator": "@unrealhailstorm",
+      "xSource": "https://x.com/unrealhailstorm/status/2108972941752909929",
+      "candidate_play_url": "https://kreuzundadlerflipgame.grok.me/en",
+      "disposition": "excluded",
+      "terminal_code": "excluded_reference_book",
+      "decision_reason": "Parent direct check found a 19-page flipbook; its PLAY link points to a separately tracked game and is not itself a standalone game.",
+      "ai_authorship_evidence": {
+        "gate_status": "pass",
+        "quote": "Made with Grok Build. A strategy game by Diego",
+        "translation": null,
+        "source_url": "https://x.com/unrealhailstorm/status/2108972941752909929",
+        "source_type": "Creator's X post, inspected directly.",
+        "source_verification": "The exact post linked to kreuzundadlerflipgame.grok.me/en. A separate sibling post on the account referred to another related game; that other title and URL were not used for this attribution."
+      },
+      "gameplay": {
+        "status": "excluded_reference_book",
+        "load_observation": null,
+        "direct_outcome": "Cross&EagleCodex is19pageflipbook; PLAY links kreuzundadlerspiel.grok.me already W4ID3. Notstandalonegame.",
+        "inputs_and_visible_responses": [
+          {
+            "input": "Parent direct gameplay review; see observation field for exact controls/actions tested.",
+            "response": "Cross&EagleCodex is19pageflipbook; PLAY links kreuzundadlerspiel.grok.me already W4ID3. Notstandalonegame."
+          }
+        ],
+        "limits": "Creator identifies it as a strategy game, but no game page, mechanics, or visual style were observed.",
+        "addictinggames_iframe_test": "not_tested"
+      },
+      "evidence_report": "game-discovery-bot/runs/2026-10-10T185643Z/windows/3/reports/luna6.json",
+      "parent_terminal_review": {
+        "id": 23,
+        "decision": "excluded_reference_book",
+        "observations": "Cross&EagleCodex is19pageflipbook; PLAY links kreuzundadlerspiel.grok.me already W4ID3. Notstandalonegame."
+      },
+      "evidence_report_parent_supplement": "game-discovery-bot/runs/2026-10-10T185643Z/windows/3/reports/parent-supplement.json",
+      "historical_worker_test": {
+        "status_before_parent_recheck": "not_tested_due_to_browser_interruption",
+        "original_assessment_preserved_at": "game-discovery-bot/runs/2026-10-10T185643Z/windows/3/reports/luna6.json",
+        "superseding_parent_observation_at": "game-discovery-bot/runs/2026-10-10T185643Z/windows/3/reports/parent-supplement.json"
+      }
+    },
+    {
+      "candidate_id": 24,
+      "candidate_title": "Awoken Way",
+      "creator": "@olsen41810",
+      "xSource": "https://x.com/olsen41810/status/2107158609893507438",
+      "candidate_play_url": "https://awokenway11.grok.me/",
+      "disposition": "excluded",
+      "terminal_code": "excluded_non_game",
+      "decision_reason": "Parent direct check found a numerology calculator/reflection/practice/membership site, with no game presented.",
+      "ai_authorship_evidence": {
+        "gate_status": "pass",
+        "quote": "I built this with Grok — try it out:",
+        "translation": null,
+        "source_url": "https://x.com/olsen41810/status/2107158609893507438",
+        "source_type": "Creator's X post, inspected directly.",
+        "source_verification": "The post by Teah L olsen showed the exact statement and linked to awokenway11.grok.me."
+      },
+      "gameplay": {
+        "status": "excluded_non_game",
+        "load_observation": null,
+        "direct_outcome": "AwokenWay is numerology calculator/reflection/practice/membership site. Nogame presented.",
+        "inputs_and_visible_responses": [
+          {
+            "input": "Parent direct gameplay review; see observation field for exact controls/actions tested.",
+            "response": "AwokenWay is numerology calculator/reflection/practice/membership site. Nogame presented."
+          }
+        ],
+        "limits": "No game page or visual/gameplay behavior observed.",
+        "addictinggames_iframe_test": "not_tested"
+      },
+      "evidence_report": "game-discovery-bot/runs/2026-10-10T185643Z/windows/3/reports/luna6.json",
+      "parent_terminal_review": {
+        "id": 24,
+        "decision": "excluded_non_game",
+        "observations": "AwokenWay is numerology calculator/reflection/practice/membership site. Nogame presented."
+      },
+      "evidence_report_parent_supplement": "game-discovery-bot/runs/2026-10-10T185643Z/windows/3/reports/parent-supplement.json",
+      "historical_worker_test": {
+        "status_before_parent_recheck": "not_tested_due_to_browser_interruption",
+        "original_assessment_preserved_at": "game-discovery-bot/runs/2026-10-10T185643Z/windows/3/reports/luna6.json",
+        "superseding_parent_observation_at": "game-discovery-bot/runs/2026-10-10T185643Z/windows/3/reports/parent-supplement.json"
+      }
+    },
+    {
+      "candidate_id": 25,
+      "candidate_title": "Let there be light",
+      "creator": "@carlodaristotil",
+      "xSource": "https://x.com/carlodaristotil/status/2106933357850317188",
+      "candidate_play_url": "https://big-bang-grok-build-24.grok.me/",
+      "disposition": "held",
+      "terminal_code": "hold_game_classification",
+      "decision_reason": "Parent direct check found a timed particle/early-universe educational experience with epochs and counters but no game goal.",
+      "ai_authorship_evidence": {
+        "gate_status": "pass",
+        "quote": "I built this with Grok — try it out:",
+        "translation": null,
+        "source_url": "https://x.com/carlodaristotil/status/2106933357850317188",
+        "source_type": "Creator's X post, inspected directly.",
+        "source_verification": "The post by CarloTonyD linked to big-bang-grok-build-24.grok.me/ and contained the exact statement."
+      },
+      "gameplay": {
+        "status": "held_game_classification",
+        "load_observation": null,
+        "direct_outcome": "Begin opened timed particle/earlyuniverse educationalexperience with epochs,collisionselection,counters. No gamegoal established; notbroken.",
+        "inputs_and_visible_responses": [
+          {
+            "input": "Parent direct gameplay review; see observation field for exact controls/actions tested.",
+            "response": "Begin opened timed particle/earlyuniverse educationalexperience with epochs,collisionselection,counters. No gamegoal established; notbroken."
+          }
+        ],
+        "limits": "No game page or gameplay behavior observed.",
+        "addictinggames_iframe_test": "not_tested"
+      },
+      "evidence_report": "game-discovery-bot/runs/2026-10-10T185643Z/windows/3/reports/luna6.json",
+      "parent_terminal_review": {
+        "id": 25,
+        "decision": "held_game_classification",
+        "observations": "Begin opened timed particle/earlyuniverse educationalexperience with epochs,collisionselection,counters. No gamegoal established; notbroken."
+      },
+      "evidence_report_parent_supplement": "game-discovery-bot/runs/2026-10-10T185643Z/windows/3/reports/parent-supplement.json",
+      "historical_worker_test": {
+        "status_before_parent_recheck": "not_tested_due_to_browser_interruption",
+        "original_assessment_preserved_at": "game-discovery-bot/runs/2026-10-10T185643Z/windows/3/reports/luna6.json",
+        "superseding_parent_observation_at": "game-discovery-bot/runs/2026-10-10T185643Z/windows/3/reports/parent-supplement.json"
+      }
+    }
+  ]
+}
