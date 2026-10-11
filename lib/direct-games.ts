@@ -14,6 +14,18 @@ export type DirectGame = {
 };
 
 const source: [string, string, string, string, string, string?][] = [
+  // AI Game Scout campaign, Window 3. These open the exact original game sites.
+  ['drawdown', 'Drawdown', 'Puzzle', 'Set up warp threads and treadles, then weave matching rows', 'https://drawdown-game.vercel.app/', '/games/campaign3-drawdown.webp'],
+  ['night-cruise', 'Night Cruise', 'Racing', 'Drive a compact car through a nighttime road test', 'https://nightcruisegame.com/', '/games/campaign3-night-cruise.webp'],
+  ['disco-dino-lost-worlds', 'DiscoDino: Lost Worlds', 'Adventure', 'Explore pixel-art habitats and spot prehistoric creatures', 'https://discodino.netlify.app/', '/games/campaign3-disco-dino-lost-worlds.webp'],
+  ['heritage-walk-ethiopia', 'Heritage Walk: Ethiopia', 'Adventure', 'Walk Ethiopian heritage sites and discover landmarks', 'https://heritage-walk-zeamekonnen-gmailcoms-projects.vercel.app/', '/games/campaign3-heritage-walk-ethiopia.webp'],
+  ['rise-and-raid', 'Rise & Raid', 'Strategy', 'Build village structures in a medieval strategy game', 'https://riseandraid.anemoncreative.com/', '/games/concept-campaign3-rise-and-raid.webp'],
+  ['robobeats-mooncake-chop', 'RoboBeats: Mooncake Chop', 'Arcade', 'Tap to the beat and chop mooncakes on the lunar counter', 'https://robobeats-mooncake-mobile.netlify.app/', '/games/campaign3-robobeats-mooncake-chop.webp'],
+  ['cinder-ring', 'Cinder Ring', 'Action', 'Cast spells in a floating mage arena', 'https://cinderring.tech/', '/games/campaign3-cinder-ring.webp'],
+  ['yugisnap', 'YugiSnap', 'Strategy', 'Plan turns and place cards across three duel lanes', 'https://yugisnap.kw-15.workers.dev/', '/games/campaign3-yugisnap.webp'],
+  ['word-ladder-duel', 'Word Ladder Duel', 'Puzzle', 'Change one letter at a time in a word-ladder duel', 'https://world-ladder-duel.grok.me/', '/games/concept-campaign3-word-ladder-duel.webp'],
+  ['neon-palms-port-solana', 'Neon Palms — Port Solana', 'Simulation', 'Explore a 3D coastal city with movement and map controls', 'https://dubovskylabs.com/benchmarks/gta/apps/claude-opus-5-5/index.html', '/games/campaign3-neon-palms-port-solana.webp'],
+
   ['pocket-gridiron', 'Pocket Gridiron', 'Sports', 'Set team lineups and simulate football exhibitions', 'https://cellis212.github.io/pocket-gridiron/', '/games/campaign2-pocket-gridiron.webp'],
   ['ski-simulator-360-vail', 'Ski Simulator 360 (Vail)', 'Sports', 'Ski the Vail slope and track speed, elevation, and score', 'https://ski-simulator-360.pages.dev/?world=vail', '/games/campaign2-ski-simulator-360-vail.webp'],
   ['tidebreak', 'Tidebreak', 'Strategy', 'Place defensive squads on an island before a Viking raid', 'https://tidebreak.freesoul.games/', '/games/campaign2-tidebreak.webp'],
