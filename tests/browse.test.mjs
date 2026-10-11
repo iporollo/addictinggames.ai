@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { browseGames, gameRows, gameTags, verifiedUpdates } from '../lib/browse.ts';
+import { browseGames, gameRows, gameTags, gameModeLabels, verifiedUpdates } from '../lib/browse.ts';
 
 test('three rows preserve every entry in order, including uneven and empty lists', () => {
   for (const count of [0, 1, 2, 5, 45, 46, 100]) {
@@ -16,7 +16,7 @@ test('a verified game can belong to multiple supported categories', () => {
   const battle = { slug: 'battle-peaks', category: 'Strategy' };
   const tower = { slug: 'kindlekeep-td', category: 'Strategy' };
   const flight = { slug: 'fly-pieter', category: 'Simulation' };
-  assert.deepEqual(gameTags(battle), ['Strategy', 'Multiplayer', 'Local 2-player']);
+  assert.deepEqual(gameTags(battle), ['Strategy', 'Multiplayer']);
   assert.deepEqual(browseGames([battle, tower, flight], 'Multiplayer'), [battle, flight]);
   assert.deepEqual(browseGames([battle, tower, flight], 'Tower Defense'), [tower]);
   assert.deepEqual(browseGames([battle, tower, flight], 'Simulators'), [flight]);
@@ -52,15 +52,16 @@ test('multiplayer distinguishes human play modes from computer opponents', () =>
   const flight = { slug: 'fly-pieter', category: 'Simulation' };
   const dogfight = { slug: 'ww2-dogfight', category: 'Action' };
   const local = { slug: 'battle-peaks', category: 'Strategy' };
+  const localRally = { slug: 'doge-rally', category: 'Sports' };
   const solo = [
     { slug: 'turbo-kart-gp', category: 'Sports' },
-    { slug: 'doge-rally', category: 'Sports' },
     { slug: 'soccar', category: 'Sports' },
   ];
-  assert.deepEqual(browseGames([flight, dogfight, local, ...solo], 'Multiplayer'), [flight, dogfight, local]);
-  assert(gameTags(flight).includes('Online multiplayer'));
-  assert(gameTags(dogfight).includes('Online multiplayer'));
-  assert(gameTags(local).includes('Local 2-player'));
+  assert.deepEqual(browseGames([flight, dogfight, local, localRally, ...solo], 'Multiplayer'), [flight, dogfight, local, localRally]);
+  assert(gameModeLabels(flight).includes('Online multiplayer'));
+  assert(gameModeLabels(dogfight).includes('Online multiplayer'));
+  assert(gameModeLabels(local).includes('Local 2-player'));
+  assert(gameModeLabels(localRally).includes('Local 2-player'));
   for (const game of solo) assert(!gameTags(game).includes('Multiplayer'));
 });
 

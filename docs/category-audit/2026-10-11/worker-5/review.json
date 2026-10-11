@@ -1,0 +1,1383 @@
+[
+  {
+    "slug": "aether-break",
+    "title": "Aether Break",
+    "url": "https://cactus-eagle-finch-branch.grok.me/",
+    "currentCategory": "Action",
+    "categories": [
+      "Arcade"
+    ],
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "mechanics": "A brick-breaker: launch a bouncing ball, move the paddle, clear brick formations, and avoid losing the ball. The instructions describe angle-dependent rebounds, destructible plates, and power-ups.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Opened How to Play and read its mouse/keyboard controls.",
+        "Started play and pressed Space to launch.",
+        "Held ArrowLeft to move the paddle."
+      ],
+      "outcome": "The ball launched and the score reached 50 as bricks were hit. After the paddle input, the ball was lost and the game displayed its relaunch prompt.",
+      "screenshotPaths": [
+        "screenshots/aether-break-before.png",
+        "screenshots/aether-break-instructions.png",
+        "screenshots/aether-break-launched.png",
+        "screenshots/aether-break-paddle-move.png"
+      ],
+      "limitations": "One short round only; no vault was cleared."
+    },
+    "sources": [
+      {
+        "url": "https://cactus-eagle-finch-branch.grok.me/",
+        "kind": "current",
+        "detail": "Live title screen and instructions identify the game as a brick breaker and specify paddle, launch, brick, and power-up mechanics; current gameplay is captured in screenshots."
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "The verified loop is a short score/reflex brick-breaking round, so Arcade describes it better than Action. The ball angle and brick field do not make solving a puzzle the main loop.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "bad-idea",
+    "title": "Bad Idea",
+    "url": "https://claude-codex.anshkapuriya.in/",
+    "currentCategory": "Puzzle",
+    "categories": [
+      "Puzzle"
+    ],
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "mechanics": "Ten short deliberately misleading UX puzzles, including contradictory text, deceptive controls, reversed scrolling, and color-word or input challenges.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Selected the Made by Claude game from the landing page.",
+        "Clicked Continue on Level 1.",
+        "Clicked Decline on Level 2's misleading terms challenge."
+      ],
+      "outcome": "Continue advanced the live page from Level 1 to Level 2. Decline produced the in-game response 'Declined. Your reading progress has been declined too.' The page describes ten levels and varied UX puzzles.",
+      "screenshotPaths": [
+        "screenshots/bad-idea-before.png",
+        "screenshots/bad-idea-play-claude.png",
+        "screenshots/bad-idea-level-2.png",
+        "screenshots/bad-idea-decline-choice.png"
+      ],
+      "limitations": "Sampled the first two of ten levels; did not continue through all puzzles or use the Codex branch."
+    },
+    "sources": [
+      {
+        "url": "https://claude-codex.anshkapuriya.in/",
+        "kind": "current",
+        "detail": "Current landing page identifies two ten-level UX-trolling puzzle branches; current Level 1-to-2 interaction and a Level 2 choice are captured in screenshots."
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "The player solves misleading text/control challenges, which is directly covered by Puzzle. The satire and choice of Claude/Codex branches are presentation, not separate game categories.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "bruce-lee-the-dragon-returns",
+    "title": "Bruce Lee: The Dragon Returns",
+    "url": "https://axchapman.freedev.app/brucelee.php",
+    "currentCategory": "Action",
+    "categories": [
+      "Action",
+      "Adventure",
+      "Platformer"
+    ],
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "mechanics": "Single-player side-view fortress game with 20 chambers. The player moves, jumps/climbs, ducks, fights enemies, and collects lanterns across courtyards.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Opened the first chamber, The Dragon Courtyard.",
+        "Held ArrowRight to move through the courtyard.",
+        "Pressed Space to fight."
+      ],
+      "outcome": "The title overlay cleared into the playable courtyard; the player and enemies were visible on separate platforms. The on-screen life count dropped from five to four during the combat attempt. The HUD states 20 chambers and a lantern-collection objective.",
+      "screenshotPaths": [
+        "screenshots/bruce-lee-the-dragon-returns-before.png",
+        "screenshots/bruce-lee-the-dragon-returns-move-right.png",
+        "screenshots/bruce-lee-the-dragon-returns-fight.png"
+      ],
+      "limitations": "Only the opening chamber was sampled; the attempt ended after one life was lost, without completing its lantern objective."
+    },
+    "sources": [
+      {
+        "url": "https://axchapman.freedev.app/brucelee.php",
+        "kind": "current",
+        "detail": "Live game UI identifies a single-player 20-chamber fortress, move/jump/climb/duck/fight controls, enemies, lives, and lantern objectives; active courtyard screenshots capture the current game."
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "Action covers fighting, while Adventure covers the chamber exploration and collection progression. Platformer would capture the defining jump/climb traversal across distinct levels that Action and Adventure do not name.",
+    "proposedNewCategories": [
+      {
+        "name": "Platformer",
+        "rationale": "The game depends on side-view movement, jumping, climbing, and navigating platforms. Existing Action and Adventure describe combat and progression but not this central traversal mechanic."
+      }
+    ],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "coin-collector-3d",
+    "title": "Coin Collector 3D",
+    "url": "https://notef.dreamcore.gg/coin-collector-3d/",
+    "currentCategory": "Action",
+    "categories": [
+      "Action",
+      "Multiplayer"
+    ],
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "mechanics": "A 3D arena coin-collection game with jumping, punches, kicks, fireballs, and slime enemies. The menu offers solo play, an online free-for-all arena for up to 20, and play with friends.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Read the live menu and controls; chose Play solo, without signing in.",
+        "Held W and D while pressing Space and K to move, jump, and kick."
+      ],
+      "outcome": "The live canvas showed Coins 0/27 and a running timer, then an Ultimate-ready state and the message 'The boss slime got away…'. The game began responding in its arena; no coins were collected during the short test. The menu explicitly offers online human play, but that mode was not entered.",
+      "screenshotPaths": [
+        "screenshots/coin-collector-3d-before.png",
+        "screenshots/coin-collector-3d-solo-start.png",
+        "screenshots/coin-collector-3d-move-jump-kick.png"
+      ],
+      "limitations": "Only solo play was tested. The online arena/friends modes are documented by the current menu, but sign-in and multiplayer were not attempted."
+    },
+    "sources": [
+      {
+        "url": "https://notef.dreamcore.gg/coin-collector-3d/",
+        "kind": "current",
+        "detail": "Current menu documents solo, arena free-for-all for up to 20 players, and play-with-friends; current controls and live coin/timer/boss state are captured in screenshots."
+      }
+    ],
+    "multiplayerMode": "Online multiplayer",
+    "rationale": "Action describes the combat and Multiplayer is supported by explicit current online modes for human players. The short test did not establish that platform jumping is central enough to warrant a new category.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "crew-run",
+    "title": "Crew Run",
+    "url": "https://claude.ai/artifact/WSVMA7xecUuBPL5wKkx62p",
+    "currentCategory": "Adventure",
+    "categories": [
+      "Adventure"
+    ],
+    "status": "documented_only",
+    "confidence": "high",
+    "mechanics": "Timed 3D festival outing: guide a small group of friends through a venue toward stage sets while managing time, tokens, points, and crew mood.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Opened the current Claude artifact URL and waited for the page to render."
+      ],
+      "outcome": "Current page displayed Claude's Page not found screen. A dated prior direct test started the Raver run and moved toward the Supernova stage; the target distance fell from 78 m to 68 m after W was held for 1.2 seconds. The prior short test ended with a missed set/crew walkout and did not establish completion.",
+      "screenshotPaths": [
+        "screenshots/crew-run-before.png"
+      ],
+      "limitations": "Current artifact URL returned 404. Prior evidence establishes the game loop and movement, but it is not current-session verification."
+    },
+    "sources": [
+      {
+        "url": "https://claude.ai/artifact/WSVMA7xecUuBPL5wKkx62p",
+        "kind": "current",
+        "detail": "Current navigation returned HTTP 200 at the host but rendered Claude's Page not found screen."
+      },
+      {
+        "path": "game-discovery-bot/runs/2026-10-10T185643Z/reports/worker6/19-crew-run.json",
+        "kind": "prior",
+        "detail": "October 10 direct test verified the festival run, visible stage/distance/time/crew mood, and W movement changing stage distance from 78 m to 68 m."
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "Adventure describes traveling through the festival venue and progressing toward stage sets. The friends are NPC companions in the prior test; no human multiplayer mode was observed.",
+    "proposedNewCategories": [],
+    "accessIssue": "Current Claude artifact URL displays Page not found.",
+    "accessIssueType": "404"
+  },
+  {
+    "slug": "dirtline",
+    "title": "DIRTLINE",
+    "url": "https://dirtline.pages.dev/?v=2",
+    "currentCategory": "Arcade",
+    "categories": [
+      "Racing"
+    ],
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "mechanics": "Ride a motocross bike along a timed canyon course with checkpoints. The instructions emphasize throttle, braking, shifting the rider's weight, and controlling the bike in the air.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Clicked Drop In to enter the course.",
+        "Held W (Throttle) for three seconds."
+      ],
+      "outcome": "The timer began at 30 seconds, the bike moved up the canyon ramp, course progress advanced, and the HUD reported 14–16 km/h with checkpoint controls available.",
+      "screenshotPaths": [
+        "screenshots/dirtline-before.png",
+        "screenshots/dirtline-throttle.png"
+      ],
+      "limitations": "Only the opening section was tested; the course was not completed and no competitors were shown."
+    },
+    "sources": [
+      {
+        "url": "https://dirtline.pages.dev/?v=2",
+        "kind": "current",
+        "detail": "Current instructions identify a timed course, checkpoints, throttle/brake, rider-weight, and airborne controls; the live HUD and moving bike are captured in screenshots."
+      },
+      {
+        "path": "docs/AI-GAME-SCOUT-BATCH3-2026-10-09.md",
+        "kind": "prior",
+        "detail": "October 9 scout report also entered DIRTLINE and observed speed rise while riding; this supports the course controls but is not current gameplay evidence."
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "The timed checkpoint course is a racing/time-course loop, so Racing is more accurate than the current broad Arcade category. No opponent is needed for a time-course category under the review definitions.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "dracula-0",
+    "title": "Dracula 0",
+    "url": "https://dracula-0.vercel.app/",
+    "currentCategory": "Action",
+    "categories": [
+      "Action",
+      "Adventure"
+    ],
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "mechanics": "Pixel-art side-scrolling action adventure with staged progression, dialogue, health, a whip attack, and candle/sigil interactions.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Allowed the initial download to finish and selected English.",
+        "Pressed Enter to reach the title menu and start Stage 1-1.",
+        "Advanced the opening scene, then held ArrowRight and pressed Space."
+      ],
+      "outcome": "The game reached Stage 1-1, Night of the Blood Moon, with score, timer, player health, enemy health, and lives visible. Right/Space advanced the opening scene to an in-stage whip tutorial: 'Whip the candles: dragon sigils power up the whip.'",
+      "screenshotPaths": [
+        "screenshots/dracula-0-before.png",
+        "screenshots/dracula-0-loading-retry.png",
+        "screenshots/dracula-0-started.png",
+        "screenshots/dracula-0-advance-map.png",
+        "screenshots/dracula-0-move-fight.png"
+      ],
+      "limitations": "The first-stage opening and tutorial were reached, but a full level or boss was not completed. The first screenshot showed a large download in progress; an additional wait allowed the language menu and game to load."
+    },
+    "sources": [
+      {
+        "url": "https://dracula-0.vercel.app/",
+        "kind": "current",
+        "detail": "Current play reached Stage 1-1 and exposed health/enemy HUD, a staged narrative, and the whip tutorial; screenshots show the current stage interaction."
+      },
+      {
+        "path": "docs/AI-GAME-SCOUT-BATCH2-2026-10-09.md",
+        "kind": "prior",
+        "detail": "October 9 scout report entered Stage 1-1 and observed the character move and dialogue change when holding Right; this is prior corroboration, not current proof."
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "Action describes the combat and Adventure describes the staged exploration and story progression. The tested opening did not establish platform jumping as a core mechanic that would require a new Platformer category.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "falling-bubbles",
+    "title": "Falling Bubbles",
+    "url": "https://falling-bubbles.vercel.app/",
+    "currentCategory": "Puzzle",
+    "categories": [
+      "Arcade",
+      "Multiplayer"
+    ],
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "mechanics": "A Pang-style reflex shooter: aim a harpoon at descending bubbles that split into smaller bubbles, avoid contact, and survive while scoring. Player 1 uses arrows/Space; Player 2 can join locally with WASD/Left Shift.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Started the game and briefly used Player 1's Space/ArrowRight controls.",
+        "Pressed Left Shift to join as Player 2.",
+        "Held D and Left Shift to move/fire with Player 2."
+      ],
+      "outcome": "The game displayed 'Press LEFT SHIFT to join as Player 2'; after Shift, a second cyan player appeared and the HUD announced 'PLAYER 2 CELSIUS BOOST!'. Both player characters remained visible during Player 2 input. Score stayed at 0 during the short test.",
+      "screenshotPaths": [
+        "screenshots/falling-bubbles-before.png",
+        "screenshots/falling-bubbles-started.png",
+        "screenshots/falling-bubbles-join-player-2.png",
+        "screenshots/falling-bubbles-player-2-move-fire.png"
+      ],
+      "limitations": "Brief opening only; no bubble was popped and the round was not completed."
+    },
+    "sources": [
+      {
+        "url": "https://falling-bubbles.vercel.app/",
+        "kind": "current",
+        "detail": "Current instructions describe the splitting-bubble harpoon loop and separate Player 1/Player 2 controls. During live play Shift spawned a second player; screenshots capture the two-player field."
+      }
+    ],
+    "multiplayerMode": "Local 2-player",
+    "rationale": "The score/reflex shooting loop fits Arcade, and the game explicitly supports a second local human player. Puzzle is misleading because the main challenge is aiming and dodging, not logic solving.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "fluffy-chase",
+    "title": "Fluffy Chase",
+    "url": "https://the-file-fluffy-chase.morning-rice-8034.workers.dev/",
+    "currentCategory": "Action",
+    "categories": [
+      "Action",
+      "Adventure",
+      "Multiplayer"
+    ],
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "mechanics": "Third-person 3D city mission game. Case 01 asks the player to reach a yellow taxi and fire yarn to make it fluffy; the UI also offers online play with others. Controls include movement, inspection, jumping, and a yarn/special action.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Started the default solo mode.",
+        "Held W, then W/A and J to move, turn, and jump."
+      ],
+      "outcome": "The live HUD showed Case 01, the objective to walk up to the first taxi, and the instruction to get close and press Space. The camera and city view rotated to a different street angle during movement input; the avatar remained active and the objective remained incomplete. The title menu offers 'Online play with others'; online play was not entered.",
+      "screenshotPaths": [
+        "screenshots/fluffy-chase-before.png",
+        "screenshots/fluffy-chase-solo-start.png",
+        "screenshots/fluffy-chase-move-forward.png",
+        "screenshots/fluffy-chase-run-turn-jump.png"
+      ],
+      "limitations": "Only the first solo objective was tested; the taxi was not fluffed and online play was not entered."
+    },
+    "sources": [
+      {
+        "url": "https://the-file-fluffy-chase.morning-rice-8034.workers.dev/",
+        "kind": "current",
+        "detail": "Current menu offers solo and online-with-others modes. The current mission HUD and camera movement are captured in screenshots; no online session was tested."
+      },
+      {
+        "path": "game-discovery-bot/pilot-2026-10-10/tests/a/fluffy-chase.json",
+        "kind": "prior",
+        "detail": "October 10 report directly observed movement/camera response in the city and recorded the same Case 01 taxi objective; this is supporting prior evidence."
+      }
+    ],
+    "multiplayerMode": "Online multiplayer",
+    "rationale": "Action describes the chase/yarn ability play, Adventure describes exploration and mission progression through the city, and Multiplayer is supported by the live 'play with others' mode. The online mode itself was not tested.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "freesbee",
+    "title": "Freesbee",
+    "url": "https://okidoki9903.github.io/Freesbee/",
+    "currentCategory": "Arcade",
+    "categories": [
+      "Sports",
+      "Arcade"
+    ],
+    "status": "documented_only",
+    "confidence": "medium",
+    "mechanics": "Timed dog-disc catching game: run, jump, and sprint under a thrown frisbee while the timer and score track attempts.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Opened the live 3D field; HUD showed a Border Collie, a disc, score 0, and a 0:57 timer.",
+        "Held D and Space to run and jump."
+      ],
+      "outcome": "The page HUD advanced to 0:26 and reported 'Your owner is about to throw… watch where they turn! Missed! −4 s'. The post-input screenshot was a solid green canvas, so I could not visually verify dog movement or the disc result in the current session.",
+      "screenshotPaths": [
+        "screenshots/freesbee-before.png",
+        "screenshots/freesbee-run-jump.png"
+      ],
+      "limitations": "Current gameplay rendering cleared after input; current gameplay is not confirmed. Historical direct gameplay evidence is listed separately."
+    },
+    "sources": [
+      {
+        "url": "https://okidoki9903.github.io/Freesbee/",
+        "kind": "current",
+        "detail": "Current instructions and opening screen show dog-disc activity, run/jump/sprint controls, a score, timer, and a disc-catching prompt. The canvas cleared after input."
+      },
+      {
+        "path": "docs/AI-GAME-SCOUT-BATCH2-2026-10-09.md",
+        "kind": "prior",
+        "detail": "October 9 scout report resumed the game and observed the dog move across the field after holding D; this is prior evidence, not current gameplay verification."
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "Sports fits the frisbee/dog-disc activity; Arcade is meaningful for the short timed score-and-reflex round. The current post-input render issue keeps this classification documented-only in this review.",
+    "proposedNewCategories": [],
+    "accessIssue": "The scene rendered at launch, but after input the capture became a solid green canvas, preventing visual confirmation of live play.",
+    "accessIssueType": "other"
+  },
+  {
+    "slug": "halberd-flight-range",
+    "title": "HALBERD FLIGHT RANGE",
+    "url": "https://claude.ai/artifact/KsDAsLriC91Yc3SiSSNUU4",
+    "currentCategory": "Simulation",
+    "categories": [
+      "Simulators"
+    ],
+    "status": "documented_only",
+    "confidence": "high",
+    "mechanics": "Apache-class helicopter flight-model and firing-range prototype; a prior direct test used keyboard-only flight controls and tracked speed, altitude, heading, thrust, and vertical speed.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Opened the current artifact URL and retried after waiting five additional seconds."
+      ],
+      "outcome": "Both current attempts returned Claude's 'Page not found' screen; no current gameplay controls were available. A dated prior direct gameplay receipt reports that W changed altitude/vertical speed and ArrowUp changed speed/flight state.",
+      "screenshotPaths": [
+        "screenshots/halberd-flight-range-before.png",
+        "screenshots/halberd-flight-range-retry.png"
+      ],
+      "limitations": "Current gameplay is unavailable because the artifact returns 404. Prior gameplay proof is retained as historical evidence, not represented as current verification."
+    },
+    "sources": [
+      {
+        "url": "https://claude.ai/artifact/KsDAsLriC91Yc3SiSSNUU4",
+        "kind": "current",
+        "detail": "The current URL returned a Page not found screen on initial and retry checks."
+      },
+      {
+        "path": "game-discovery-bot/runs/2026-10-10T185643Z/windows/2/reports/worker3/10-halberd-flight-range.json",
+        "kind": "prior",
+        "detail": "October 10 direct gameplay receipt identifies a flight-model/firing-range prototype; W changed altitude and ArrowUp changed speed and HUD flight state. Only keyboard flight was tested."
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "The first-party description and dated flight-state receipt support Simulators. The category maps to the catalog's existing Simulation alias. Current access is unavailable, so the recommendation is documented-only.",
+    "proposedNewCategories": [],
+    "accessIssue": "Current Claude artifact URL returned Page not found on initial navigation and retry.",
+    "accessIssueType": "404"
+  },
+  {
+    "slug": "heritage-walk-ethiopia",
+    "title": "Heritage Walk: Ethiopia",
+    "url": "https://heritage-walk-zeamekonnen-gmailcoms-projects.vercel.app/",
+    "currentCategory": "Adventure",
+    "categories": [
+      "Adventure"
+    ],
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "mechanics": "Explore 3D models of Ethiopian World Heritage sites on foot, discover three landmarks per site, and collect passport stamps; the game also contains factual heritage descriptions.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Selected Play the game, chose Lalibela, entered the display name Guest, and started exploring.",
+        "Held W and D for two seconds using the in-game WASD walking controls."
+      ],
+      "outcome": "The live game entered its Lalibela 3D walking scene, showed the instruction to find three landmarks, and tracked 0 of 3 found. The short WASD input left the camera very close to the avatar and did not change the landmark count; no landmark collection was confirmed.",
+      "screenshotPaths": [
+        "screenshots/heritage-walk-ethiopia-before.png",
+        "screenshots/heritage-walk-ethiopia-game-mode.png",
+        "screenshots/heritage-walk-ethiopia-site-selected.png",
+        "screenshots/heritage-walk-ethiopia-walking-site.png",
+        "screenshots/heritage-walk-ethiopia-walk.png"
+      ],
+      "limitations": "Sampled one site and did not collect a landmark; avatar movement was not visually isolated from the camera shift."
+    },
+    "sources": [
+      {
+        "url": "https://heritage-walk-zeamekonnen-gmailcoms-projects.vercel.app/",
+        "kind": "current",
+        "detail": "Current menu distinguishes an informational visit from Play the game; game mode describes walking through ten listed heritage sites, finding landmarks and collecting passport stamps. Lalibela scene and in-game controls/HUD are captured."
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "Adventure best captures the on-foot exploration and landmark collection across sites. The heritage facts add educational content but the existing Adventure category describes the playable loop without a new category.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "island-survivor",
+    "title": "Island Survivor",
+    "url": "https://ja.sperdeboer.nl/island/",
+    "currentCategory": "Survival",
+    "categories": [
+      "Survival"
+    ],
+    "status": "documented_only",
+    "confidence": "medium",
+    "mechanics": "Desert-island survival scenario with health, time/day, resource slots, and a help panel describing the island systems.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Started the island scenario and skipped its opening prompt.",
+        "Inspected the help panel and clicked the terrain once; briefly pressed movement keys."
+      ],
+      "outcome": "The scene showed Day 1 at 07:30 with health and inventory slots; help listed G/I/C/B systems. Clicking the scene advanced the clock to 08:40, but movement of the player or a resource change was not confirmed.",
+      "screenshotPaths": [
+        "screenshots/island-survivor-before.png",
+        "screenshots/island-survivor-started.png",
+        "screenshots/island-survivor-island-playing.png",
+        "screenshots/island-survivor-move-click.png",
+        "screenshots/island-survivor-help.png"
+      ],
+      "limitations": "The island and survival HUD rendered, but no player movement or survival-resource response was confirmed; current gameplay remains unverified."
+    },
+    "sources": [
+      {
+        "url": "https://ja.sperdeboer.nl/island/",
+        "kind": "current",
+        "detail": "Current live HUD and help screen show day/time, health, inventory, movement, interaction, inventory, crafting, and building controls."
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "Survival remains the clearest fit for an island game with health, day progression, inventory, crafting, and building. The short sample did not verify resource pressure strongly enough to add Adventure, Simulators, or Strategy.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "kreuz-adler",
+    "title": "Kreuz & Adler",
+    "url": "https://kreuzundadlerspiel.grok.me/en",
+    "currentCategory": "Strategy",
+    "categories": [
+      "Strategy"
+    ],
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "mechanics": "Turn-based territorial strategy game set in 1227. Choose a court/faction, then allocate marches, contest or attack neighboring lands, play cards, and end turns across a map of European realms.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Clicked Begin The Game.",
+        "Selected Papal States, clicked Take The Court, and dismissed the opening tutorial card with Continue."
+      ],
+      "outcome": "The live Round 1 map opened with Papal States as Your Turn. UI instructed the player to select their own land and march or contest a neighbor; March, Attack, Cards, End Turn controls and the realm map were visible. No territory move or attack was issued.",
+      "screenshotPaths": [
+        "screenshots/kreuz-adler-before.png",
+        "screenshots/kreuz-adler-board.png",
+        "screenshots/kreuz-adler-court-start.png",
+        "screenshots/kreuz-adler-court-map.png"
+      ],
+      "limitations": "Only setup and opening turn were observed; no strategic order or full turn was completed. No human multiplayer mode was identified."
+    },
+    "sources": [
+      {
+        "url": "https://kreuzundadlerspiel.grok.me/en",
+        "kind": "current",
+        "detail": "Live page calls it a strategy game; setup offers 18 realms and the active turn UI presents territory selection, marching, attacking, cards, and turn ending."
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "Strategy directly describes the main loop of choosing a realm and issuing territorial orders. No explicit human multiplayer support was shown, so Multiplayer is not inferred from the multiple computer-controlled realms.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "little-lake",
+    "title": "Little Lake (Gone Fishin')",
+    "url": "https://fishing-supdlicomcom.vercel.app/",
+    "currentCategory": "Simulation",
+    "categories": [
+      "Simulators"
+    ],
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "mechanics": "Cozy fishing loop: drop a line, watch for a bite, reel with a timing marker, keep fish, sell catches for gold, and buy rod/line upgrades.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Clicked DROP to cast a line.",
+        "Waited seven seconds for the bite and outcome."
+      ],
+      "outcome": "The live HUD switched to SHHH... WATCH THE BOBBER / WAIT. After seven seconds it showed THE FISH GOT AWAY! and 'That one got away. Cast again and find your rhythm.' The help text says to hold A or Space to reel and keep the marker in the green; no fish was caught in this brief cast.",
+      "screenshotPaths": [
+        "screenshots/little-lake-before.png",
+        "screenshots/little-lake-cast.png",
+        "screenshots/little-lake-bite-check.png"
+      ],
+      "limitations": "One opening cast only; no catch, sale, or upgrade was completed."
+    },
+    "sources": [
+      {
+        "url": "https://fishing-supdlicomcom.vercel.app/",
+        "kind": "current",
+        "detail": "Current page describes a fishing escape; live UI presents cast/wait/reel timing, fish inventory, gold, and tackle upgrades. A cast produced the fish-away prompt."
+      },
+      {
+        "path": "docs/AI-GAME-SCOUT-BATCH6-2026-10-09.md",
+        "kind": "prior",
+        "detail": "Prior direct test dropped a line, waited for Fish on, held Space to reel, observed fish escape and another cast become available."
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "Simulators describes the real-world fishing activity and timed casting/reeling loop. The short repeatable cast is not enough to add Arcade as a second label; the existing Simulation catalog label maps to Simulators.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "mikage-quest",
+    "title": "Mikage Quest",
+    "url": "https://kazuyoshi1118.itch.io/mikage-quest",
+    "currentCategory": "Adventure",
+    "categories": [
+      "Adventure",
+      "Strategy"
+    ],
+    "status": "gameplay_verified",
+    "confidence": "medium",
+    "mechanics": "Short retro Japanese high-school JRPG demo: follow a story in a small mountain town, move through scenes, and engage in Dragon-Quest-style command battles with a party.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Opened the embedded game from Run game on the itch.io page.",
+        "Pressed Z to select the new-game option and advance the opening text."
+      ],
+      "outcome": "The embedded game transitioned from its title menu into the first chapter scene, showing Hikari Lv1 with HP 30 and MP 6, a second character, and an opening dialogue panel. Subsequent Z input advanced to another dialogue line; the attempt did not reach a command battle.",
+      "screenshotPaths": [
+        "screenshots/mikage-quest-before.png",
+        "screenshots/mikage-quest-embedded.png",
+        "screenshots/mikage-quest-new-game.png",
+        "screenshots/mikage-quest-movement.png"
+      ],
+      "limitations": "Only the title and opening scene/dialogue were sampled; command battle behavior is supported by the creator's description but was not exercised."
+    },
+    "sources": [
+      {
+        "url": "https://kazuyoshi1118.itch.io/mikage-quest",
+        "kind": "current",
+        "detail": "The creator describes a five-minute browser demo, arrows/WASD movement, Z confirmation, and Dragon-Quest-style command battles; opening new-game dialogue and HP/MP HUD are captured."
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "Adventure fits the story-driven quest across scenes. Strategy is justified by the explicitly described command-based, turn-oriented battle system; the opening test did not reach a battle. No new RPG category is needed to describe these two central mechanics.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "neon-nightfall",
+    "title": "Neon Nightfall",
+    "url": "https://mdhasibul35.github.io/neon-nightfall/",
+    "currentCategory": "Action",
+    "categories": [
+      "Action",
+      "Shooter",
+      "Survival"
+    ],
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "mechanics": "First-person arena shooter: move, aim and shoot a pulse pistol at undead in escalating waves, collect points, buy guns, and attempt to survive for a high wave record.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Clicked Play to enter Wave 1.",
+        "Clicked the central game view, then held W and mouse fire briefly."
+      ],
+      "outcome": "The active HUD showed Wave 1, eight enemies left, Pulse Pistol with 10/90 ammo, and 500 points. The short attempt ended with the live message 'You fell on wave 1', Kills 0, Points 0, Best Wave 1. No enemy kill was observed.",
+      "screenshotPaths": [
+        "screenshots/neon-nightfall-before.png",
+        "screenshots/neon-nightfall-wave-start.png",
+        "screenshots/neon-nightfall-shoot-move.png"
+      ],
+      "limitations": "Only the first-wave opening was sampled; the short test ended in a fall before any kill or wave completion."
+    },
+    "sources": [
+      {
+        "url": "https://mdhasibul35.github.io/neon-nightfall/",
+        "kind": "current",
+        "detail": "Current title and instructions explicitly describe undead waves, guns, shooting for points, purchases, and survival; the live Wave 1 HUD and Game Over state are captured."
+      },
+      {
+        "path": "docs/AI-GAME-SCOUT-2026-10-09.md",
+        "kind": "prior",
+        "detail": "October 9 direct test started wave 1, paused/resumed with Escape, and observed the scene change after W movement."
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "Action describes the real-time shooting combat, Survival describes the escalating wave-endurance objective, and Arcade is supported by the short high-wave/high-score record loop. Existing tags cover the shooter and survival mechanics without requiring a new Shooter category.",
+    "proposedNewCategories": [
+      {
+        "name": "Shooter",
+        "rationale": "The game is explicitly a first-person gun game with aim/fire controls, ammunition, enemy waves, and a pulse pistol. A Shooter category names this core weapon-combat loop more precisely than Action alone."
+      }
+    ],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "nushi-fishing",
+    "title": "Nushi Fishing",
+    "url": "https://nushizuri02.netlify.app/",
+    "currentCategory": "Simulation",
+    "categories": [
+      "Simulators"
+    ],
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "mechanics": "3D fishing collection game: hold and release to cast farther, tap when the bobber sinks, build a 16-fish log, and collect dopamine/rank/pity and rod/float statistics across rivers.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Switched to English and tapped to start.",
+        "Held the mouse on the river and released to cast; waited for the float, then clicked at its location."
+      ],
+      "outcome": "The active river showed Jade Pool / Morning Mist, a cast limit, fish log 0/16 and a 'Tap when it sinks' prompt; the cast progressed to 'It got away...' and an incoming-shadow message. No fish was caught, and the optional face-upload feature was not used.",
+      "screenshotPaths": [
+        "screenshots/nushi-fishing-before.png",
+        "screenshots/nushi-fishing-started.png",
+        "screenshots/nushi-fishing-cast-result.png",
+        "screenshots/nushi-fishing-nushi-bite.png"
+      ],
+      "limitations": "One unsuccessful cast was tested; no catch, fish-gacha reward, or late-game house defense was sampled."
+    },
+    "sources": [
+      {
+        "url": "https://nushizuri02.netlify.app/",
+        "kind": "current",
+        "detail": "Current UI describes the fishing controls, river, 16-entry fish log, cast limit, and bite prompt; a live cast ended in an escape message."
+      },
+      {
+        "path": "docs/AI-GAME-SCOUT-BATCH7-2026-10-09.md",
+        "kind": "prior",
+        "detail": "Prior direct test started English mode, cast, observed the rain counter fall from three to two, watched the float and reached the escape/retry prompt."
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "Simulators best captures the explicitly fishing-centered interaction. Fish collection/ranks are progression, not sufficient reason to add Arcade; no survival, action combat, or human multiplayer was observed. Existing Simulation maps to Simulators.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "ovz-global-flashpoint",
+    "title": "OVZ: Global Flashpoint",
+    "url": "https://ovz-game-production.up.railway.app/",
+    "currentCategory": "Action",
+    "categories": [
+      "Action",
+      "Multiplayer"
+    ],
+    "status": "documented_only",
+    "confidence": "high",
+    "mechanics": "Online first-person combat game with a Play menu, player naming, friend invitation, and private-match option. The title screen shows current online/in-match counts and a rifle-bearing character image.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Opened the game and waited while the title screen downloaded 10.8 MB of game files.",
+        "Waited until the download indicator disappeared and inspected the loaded title menu."
+      ],
+      "outcome": "The game reached its title screen with PLAY, OPTIONS, MAIN MENU, QUIT; the header showed Invite a friend, Private match, 319 online, and 76 in matches. The download advanced from 2% through 99% to completion. I did not start matchmaking or enter a public/private match; no live combat was tested.",
+      "screenshotPaths": [
+        "screenshots/ovz-global-flashpoint-before.png",
+        "screenshots/ovz-global-flashpoint-download-final-check.png"
+      ],
+      "limitations": "No match was started. The initial download took about two minutes in this isolated browser, but did complete; current in-match controls/mechanics were not directly verified."
+    },
+    "sources": [
+      {
+        "url": "https://ovz-game-production.up.railway.app/",
+        "kind": "current",
+        "detail": "Loaded current title screen and live online/in-match counts, invite-friend and private-match controls; first-person shooter genre is indicated by the rifle character artwork. Download completed before the screenshot."
+      }
+    ],
+    "multiplayerMode": "Online multiplayer",
+    "rationale": "Action is supported by the live first-person shooter title presentation. Multiplayer is supported by current online player/match counts plus friend invite and private-match controls; online play was not entered. The long initial download is recorded as a limitation, not a failure, since loading completed.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "pit-tactics",
+    "title": "Pit Tactics",
+    "url": "https://www.scenario.com/explorations/pit-tactics/",
+    "currentCategory": "Strategy",
+    "categories": [
+      "Strategy"
+    ],
+    "status": "documented_only",
+    "confidence": "high",
+    "mechanics": "Turn-based isometric mission: command ten soldiers to destroy two hive nests and evacuate survivors; move and act once per turn, use cover, heal, manage hazards, and stop fallen humans from turning into zombies.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Started The Descent on Normal.",
+        "Selected a Legion medic to inspect its current unit stats and available orders."
+      ],
+      "outcome": "The mission board showed nest/evacuation objectives, hazards, and unit squads. Selecting Legion 13 displayed health 10/10, movement up to two tiles, and a heal ability, with a move-then-act instruction. No unit movement or attack order was made.",
+      "screenshotPaths": [
+        "screenshots/pit-tactics-before.png",
+        "screenshots/pit-tactics-mission-started.png",
+        "screenshots/pit-tactics-select-soldier.png"
+      ],
+      "limitations": "No movement, attack, or turn advancement was observed; classify from current mission and unit documentation only."
+    },
+    "sources": [
+      {
+        "url": "https://www.scenario.com/explorations/pit-tactics/",
+        "kind": "current",
+        "detail": "Live page labels the game turn-based isometric tactics and exposes mission objectives, hazards, units, movement/action rules, and a selected medic's actual stats/orders."
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "Strategy accurately describes the deliberate, turn-based unit positioning and tactical objectives. Combat is turn-based rather than real-time Action; the brief sample does not justify adding Survival or a human Multiplayer label.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "sykes-picot",
+    "title": "Proposed Frontiers",
+    "url": "https://sykespicot.io/",
+    "currentCategory": "Strategy",
+    "categories": [
+      "Strategy"
+    ],
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "mechanics": "Historical map-planning game: paint selectable hexes, assign land to territories, choose political status and external relationships, inspect demographic/ethnic/economic overlays, then view settlement results.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Clicked BEGIN to open the map-planning activity.",
+        "Clicked the map in Paint mode, selecting five hexes.",
+        "Clicked Clear Selection to return to the initial unpainted map."
+      ],
+      "outcome": "The live map tracked 763 unpainted hexes; the map click selected five hexes and enabled Assign selected land. Clearing selection restored the unpainted count to 763. Territory, political-status, and external-relationship selectors plus Results and league-table controls were visible.",
+      "screenshotPaths": [
+        "screenshots/sykes-picot-before.png",
+        "screenshots/sykes-picot-frontiers-begin.png",
+        "screenshots/sykes-picot-hex-select.png",
+        "screenshots/sykes-picot-selection-cleared.png"
+      ],
+      "limitations": "Only selection/clear behavior was tested; no territory was assigned and no settlement results were generated."
+    },
+    "sources": [
+      {
+        "url": "https://sykespicot.io/",
+        "kind": "current",
+        "detail": "Current game introduces the British/French/Russian territorial negotiation scenario and active map controls; selecting a map area changed the selected-hex/unpainted counts, and clearing selection restored them."
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "Strategy best describes planning and assigning territory through politically meaningful choices and map overlays. The theme is history, but there is no quiz or educational challenge loop requiring a new Education category.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "quake-2",
+    "title": "Quake 2",
+    "url": "https://q2.pieter.com/",
+    "currentCategory": "Action",
+    "categories": [
+      "Action",
+      "Shooter",
+      "Multiplayer"
+    ],
+    "status": "documented_only",
+    "confidence": "high",
+    "mechanics": "Browser Quake II port presented as real Quake II multiplayer with up to eight players per match; current landing page shows active online players, match map, player names, and leaderboards.",
+    "gameplay": {
+      "attempted": false,
+      "actions": [
+        "Opened the current port landing page and inspected its live player/match listing and PLAY option; did not start a public match."
+      ],
+      "outcome": "The live page identifies Quake II, states up to eight players, shows 11 players online on map Q2DM4 and active names, and lists PLAY. No current movement, combat, or match entry was tested.",
+      "screenshotPaths": [
+        "screenshots/quake-2-before.png"
+      ],
+      "limitations": "Current gameplay was not entered to avoid joining an active public match; combat mechanics rely on the first-party Quake II game identity and live multiplayer UI."
+    },
+    "sources": [
+      {
+        "url": "https://q2.pieter.com/",
+        "kind": "current",
+        "detail": "Current title page explicitly says Quake II multiplayer online, up to eight players, with live player/map listing; this supports the online human mode but does not constitute gameplay testing."
+      }
+    ],
+    "multiplayerMode": "Online multiplayer",
+    "rationale": "Action captures Quake II's shooter/combat identity; Multiplayer is directly supported by the live online player and active map list. Online play was not entered and no chat was used.",
+    "proposedNewCategories": [
+      {
+        "name": "Shooter",
+        "rationale": "Quake II is a first-person shooter; a dedicated Shooter category distinguishes direct weapon-combat games from other Action titles. The current port identifies itself as Quake II and exposes live multiplayer matches, although no match was entered."
+      }
+    ],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "rally-director",
+    "title": "Rally Director",
+    "url": "https://j001net.itch.io/rally-director",
+    "currentCategory": "Racing",
+    "categories": [
+      "Racing",
+      "Strategy",
+      "Rhythm"
+    ],
+    "status": "documented_only",
+    "confidence": "high",
+    "mechanics": "Rally management title with two modes: operate a team across a fictional championship, and drive a progression-based Challenge Road where the player taps pace notes on the music beat. The sampled Challenge Road stage was an 8.2 km virtual rally race.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Opened the embedded game and chose New game, then Challenge Road.",
+        "Dismissed guided map/stage prompts, opened Loikkamäki stage 1 (8.2 km), and clicked Start."
+      ],
+      "outcome": "The current stage screen displayed map progression, a skill tree, abilities, and instructions to tap when a pace-note ring appears. Starting displayed a virtual rally order, car, route, speed and split-time panels; the timer ran at 4x. No pace-note or team-management input was tested.",
+      "screenshotPaths": [
+        "screenshots/rally-director-before.png",
+        "screenshots/rally-director-rally-menu.png",
+        "screenshots/rally-director-load-check.png",
+        "screenshots/rally-director-new-game.png",
+        "screenshots/rally-director-challenge-road.png",
+        "screenshots/rally-director-stage-open.png",
+        "screenshots/rally-director-stage-ready.png",
+        "screenshots/rally-director-stage-run.png"
+      ],
+      "limitations": "The menu and opening stage are documented; no player pace-note response, management decision, or completed race was observed, so gameplay is not verified."
+    },
+    "sources": [
+      {
+        "url": "https://j001net.itch.io/rally-director",
+        "kind": "current",
+        "detail": "Current creator page describes Pro Manager team decisions and Challenge Road races, with season-one pace notes rhythm-synced to music. In-game Challenge Road stage and live race UI are captured."
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "Racing describes the rally stage, Strategy describes the Pro Manager team-management mode, and Rhythm describes the beat-synced pace-note timing in Challenge Road. The first-party description explicitly makes rhythm timing part of a core mode, which existing categories cannot name precisely.",
+    "proposedNewCategories": [
+      {
+        "name": "Rhythm",
+        "rationale": "Challenge Road requires tapping pace notes on the beat and the creator explicitly describes its season as rhythm-synced to music; Racing and Strategy do not convey this core timing mechanic."
+      }
+    ],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "pumpkin-catch",
+    "title": "RoboBeats: Pumpkin Catch",
+    "url": "https://pumpkin-catch.netlify.app",
+    "currentCategory": "Casual",
+    "categories": [
+      "Arcade"
+    ],
+    "status": "gameplay_verified",
+    "confidence": "medium",
+    "mechanics": "Halloween-themed falling-treat catching game: choose a catcher, level and speed, then position the character under incoming candies while a ten-step catch/progress meter tracks the run.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Selected Play on the Level 1 London Night setup.",
+        "Pressed left and right arrows during the opening candy sequence."
+      ],
+      "outcome": "The active night scene showed a pumpkin basket catcher, candies falling in separate horizontal lanes, and a ten-position progress strip that changed from empty markers to four candy icons during the brief input window. No finish/result screen was reached, and the exact effect of directional keys on catcher placement was not independently isolated.",
+      "screenshotPaths": [
+        "screenshots/pumpkin-catch-before.png",
+        "screenshots/pumpkin-catch-pumpkin-start.png",
+        "screenshots/pumpkin-catch-catch-attempt.png"
+      ],
+      "limitations": "Short opening only; the catcher did not visibly move in the inspected frames, and no final score or level completion was observed."
+    },
+    "sources": [
+      {
+        "url": "https://pumpkin-catch.netlify.app",
+        "kind": "current",
+        "detail": "Current setup offers a catcher, speed, and level selection; current play screen shows falling candies and a catch-progress strip."
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "Arcade is the closest fit for a short reflex-and-catching loop. The current sample did not establish rhythm synchronization despite 'RoboBeats' in the title, so no Rhythm category is proposed.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "senor-inteligente",
+    "title": "Señor Inteligente",
+    "url": "https://inteligente.lol/",
+    "currentCategory": "Arcade",
+    "categories": [
+      "Arcade",
+      "Action"
+    ],
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "mechanics": "Pixel-art side-scrolling score game: ride a horse, lasso signs to yank them, and kick protesters across numbered worlds; the HUD tracks score, world stage, and targets defeated.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Clicked the title canvas to start World 1-1.",
+        "Clicked LASSO to yank toward a target sign."
+      ],
+      "outcome": "The active screen showed score 0, World 1-1, three lives/targets, SI 0/8, a mounted character, and an 'AI LAUNDRY' sign. The lasso action animated and highlighted the sign as the target; no score/defeat change was observed during the short check.",
+      "screenshotPaths": [
+        "screenshots/senor-inteligente-before.png",
+        "screenshots/senor-inteligente-start.png",
+        "screenshots/senor-inteligente-lasso.png"
+      ],
+      "limitations": "Only the opening stage and one lasso action were sampled; no sign was confirmed destroyed and no level was completed."
+    },
+    "sources": [
+      {
+        "url": "https://inteligente.lol/",
+        "kind": "current",
+        "detail": "Current title and on-screen KICK/LASSO controls, World 1-1 score/lives/targets and the lasso animation toward a highlighted sign were directly observed."
+      },
+      {
+        "path": "docs/AI-GAME-SCOUT-BATCH8-2026-10-09.md",
+        "kind": "prior",
+        "detail": "Prior direct test report covers the opening Señor Inteligente gameplay; current actions/screenshots independently confirm its lasso-and-kick arcade structure."
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "Arcade captures the short score/level/target loop; Action is meaningful because the active play uses real-time lasso and kick attacks against in-game targets. No new Platformer category is needed because no jump/platform traversal was observed.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "skyrunner",
+    "title": "Sky Runner",
+    "url": "https://games.johnslagboom.com/skyrunner/",
+    "currentCategory": "Arcade",
+    "categories": [
+      "Arcade"
+    ],
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "mechanics": "Fast futuristic car pursuit through neon districts, using boost, roll and siren while dodging traffic for near-miss points and preserving hull.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Force-clicked the visible Start Pursuit button after ordinary click targeting timed out on the canvas overlay.",
+        "Held Space for a short boost run."
+      ],
+      "outcome": "The live HUD entered District 1 / Neon Canyon at 221 km/h with hull and siren meters. After Space boost, speed rose to 264 km/h and the score reached 2,710 with multiple near-miss bonuses. A prior test also recorded 396 km/h and score 1,094 during a short run.",
+      "screenshotPaths": [
+        "screenshots/skyrunner-before.png",
+        "screenshots/skyrunner-pursuit-start.png",
+        "screenshots/skyrunner-start-run.png",
+        "screenshots/skyrunner-started-pursuit.png",
+        "screenshots/skyrunner-boost.png"
+      ],
+      "limitations": "Only a brief pursuit segment; no route completion or best-run completion. A standard DOM click timed out because the canvas overlay intercepted it; force-click on the visible menu control successfully started the run."
+    },
+    "sources": [
+      {
+        "url": "https://games.johnslagboom.com/skyrunner/",
+        "kind": "current",
+        "detail": "Current Start Pursuit menu and live HUD show speed, hull, boost/siren controls, neon district, score and near-miss bonuses; Space visibly increased speed and near-miss score."
+      },
+      {
+        "path": "docs/AI-GAME-SCOUT-BATCH5-2026-10-09.md",
+        "kind": "prior",
+        "detail": "Prior direct test started Pursuit, held Space to boost, and observed 396 km/h and 1,094 points as the car crossed a neon city."
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "Arcade fits the fast repeatable score/reflex pursuit and near-miss bonuses. Racing is withheld because no track race or competing finish order was observed; real-world driving simulation does not describe the neon arcade pursuit.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "spark",
+    "title": "Spark",
+    "url": "https://geoffstearns.com/spark/",
+    "currentCategory": "Simulation",
+    "categories": [
+      "Simulators",
+      "Strategy"
+    ],
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "mechanics": "Operate a tiny AI lab by training a language model with limited compute, balancing compute use and model progress, and growing the lab through upgrades.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Started the lab simulation.",
+        "Clicked the central model/training control once."
+      ],
+      "outcome": "The live lab UI showed compute and training progress. After clicking the model, available compute dropped from 12 to 11 and helpful progress increased from 0 to 1/8; the generated output display changed.",
+      "screenshotPaths": [
+        "screenshots/spark-before.png",
+        "screenshots/spark-spark-start.png",
+        "screenshots/spark-training.png",
+        "screenshots/spark-train-click.png"
+      ],
+      "limitations": "One training action only; no extended model training or upgrade purchase was sampled."
+    },
+    "sources": [
+      {
+        "url": "https://geoffstearns.com/spark/",
+        "kind": "current",
+        "detail": "Current playable AI-lab interface exposes compute, model training, progress and upgrade decisions; one training click visibly changed compute and progress."
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "Simulators covers operating an AI laboratory and training system; Strategy is meaningful because limited compute and lab progression require allocation and upgrade choices. The existing Simulation catalog label maps to Simulators.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "terra-incognita",
+    "title": "Terra Incognita",
+    "url": "https://mts.now/mathofthewild",
+    "currentCategory": "Puzzle",
+    "categories": [
+      "Adventure",
+      "Educational"
+    ],
+    "status": "documented_only",
+    "confidence": "medium",
+    "mechanics": "Explore a 3D island to discover 42 mathematical shrines and 330 scrolls that present mathematical claims and Lean proofs.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Entered the island from the opening screen, dismissed the opening sequence, and briefly pressed WASD."
+      ],
+      "outcome": "The current scene rendered an avatar in an open 3D island with HUD counters at 0/42 shrines and 0/330 scrolls. A short WASD input did not produce a clearly confirmed position change in the captured view.",
+      "screenshotPaths": [
+        "screenshots/terra-incognita-before.png",
+        "screenshots/terra-incognita-terra-island.png",
+        "screenshots/terra-incognita-island-play.png",
+        "screenshots/terra-incognita-walk.png"
+      ],
+      "limitations": "The island scene and collection HUD loaded, but movement response and shrine interaction were not verified. The math/Lean content is supported by the current first-party description."
+    },
+    "sources": [
+      {
+        "url": "https://mts.now/mathofthewild",
+        "kind": "current",
+        "detail": "Current first-party page describes an island with 42 mathematical shrines and 330 scrolls; the active scene shows the avatar and shrine/scroll counters, but the sampled movement input had no confirmed visible effect."
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "Adventure captures island exploration. Educational is proposed because the first-party content centers on mathematical claims and Lean proofs, which Puzzle would imply the player solves but the available evidence did not establish.",
+    "proposedNewCategories": [
+      {
+        "name": "Educational",
+        "rationale": "The core collection consists of mathematical shrines and scrolls explaining mathematical claims and Lean proofs; the available current evidence did not show player-solvable logic puzzles. An Educational category describes this instructional content more accurately than Puzzle alone."
+      }
+    ],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "tidebreak",
+    "title": "Tidebreak",
+    "url": "https://tidebreak.freesoul.games/",
+    "currentCategory": "Strategy",
+    "categories": [
+      "Strategy"
+    ],
+    "status": "documented_only",
+    "confidence": "high",
+    "mechanics": "Command defensive squads on a sequence of islands under raid pressure; choose a squad and tile, drag to aim, and use shield/Brace orders to protect against incoming attackers.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Started the raid scenario and opened the in-game help."
+      ],
+      "outcome": "The current board showed Island 1 of 7, squad cards, a raid timer, and a paused tactical scene. Help states that a squad can be tapped and assigned to a tile, a tile can be dragged to aim, and Brace blocks frontal damage for four seconds. No squad order was issued.",
+      "screenshotPaths": [
+        "screenshots/tidebreak-before.png",
+        "screenshots/tidebreak-raid-start.png",
+        "screenshots/tidebreak-raid-help.png"
+      ],
+      "limitations": "The live board and tactical instructions were inspected, but no movement, aim, or defense order was made; current command-response gameplay remains unverified."
+    },
+    "sources": [
+      {
+        "url": "https://tidebreak.freesoul.games/",
+        "kind": "current",
+        "detail": "Current raid board and help panel identify seven island stages, squads, tile movement/aiming, and a timed Brace defense action."
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "Strategy fits planning squad placement and issuing tactical defensive orders. Although the game defends against a raid, the current UI emphasizes commandable squads and targeting rather than placing fixed towers, so Tower Defense is not added.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "toadstool-crossing",
+    "title": "Toadstool Crossing",
+    "url": "https://toadstoolcrossing.grok.me/",
+    "currentCategory": "Arcade",
+    "categories": [
+      "Arcade"
+    ],
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "mechanics": "Frogger-style score game: hop across lanes of traffic and water platforms to reach five lily homes while managing lives and a level progression meter.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Started Level 1.",
+        "Pressed Hop Up once using the on-screen directional control."
+      ],
+      "outcome": "The active board showed traffic and moving logs/turtles, a frog at the lower edge, three lives, and five target homes. After the Hop Up action, the score and best score displayed 10; the brief attempt did not reach a home.",
+      "screenshotPaths": [
+        "screenshots/toadstool-crossing-before.png",
+        "screenshots/toadstool-crossing-hop-up.png"
+      ],
+      "limitations": "Only the opening level and one hop action were sampled; no home or level completion was observed."
+    },
+    "sources": [
+      {
+        "url": "https://toadstoolcrossing.grok.me/",
+        "kind": "current",
+        "detail": "Current active board shows traffic and water lanes, hop controls, lives, score, level, and five home slots; the first hop was followed by score 10."
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "Arcade fits a short reflex-based lane-crossing score loop. The frog-style hopping does not establish a platforming traversal objective distinct from the immediate hazard-dodging arcade task.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "unburied-blackwald-bunker",
+    "title": "UNBURIED: Blackwald Bunker",
+    "url": "https://unburied.inkwave.workers.dev/",
+    "currentCategory": "Action",
+    "categories": [
+      "Shooter",
+      "Survival",
+      "Multiplayer"
+    ],
+    "status": "documented_only",
+    "confidence": "high",
+    "mechanics": "Round-based first-person bunker survival shooter, with solo and co-op entry options; controls include movement, sprint, jump, crouch, firearm aiming/firing/reload, knife, grenade, and interaction/buy.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Inspected the title/menu and opened its controls/manual panel.",
+        "Tried the Solo option, but the menu did not transition into a match during this check."
+      ],
+      "outcome": "The current manual labels the game “A ROUND-BASED SURVIVAL” and lists first-person movement, gun, reload, grenade and interact/buy controls. The menu exposes SOLO, CO-OP, room code and settings. No live match or combat scene was entered.",
+      "screenshotPaths": [
+        "screenshots/unburied-blackwald-bunker-controls.png",
+        "screenshots/unburied-blackwald-bunker-solo-start.png"
+      ],
+      "limitations": "Only the current menu and first-party controls were available; no current movement, enemy encounter, shooting, or co-op session was verified."
+    },
+    "sources": [
+      {
+        "url": "https://unburied.inkwave.workers.dev/",
+        "kind": "current",
+        "detail": "Current game menu/manual explicitly identifies round-based survival, first-person firearm controls, and Solo/Co-op with room-code UI; the attempted Solo start did not enter a match."
+      }
+    ],
+    "multiplayerMode": "Online multiplayer",
+    "rationale": "Shooter and Survival name the documented first-person firearm and round-endurance loop. Multiplayer is supported by the explicit Co-op and room-code options, but no co-op session was entered. A dedicated Shooter label describes the weapon-combat loop more specifically than broad Action.",
+    "proposedNewCategories": [
+      {
+        "name": "Shooter",
+        "rationale": "The first-party controls and “round-based survival” manual identify first-person aiming/firing/reloading as a core mechanic; Shooter distinguishes this from other Action games."
+      }
+    ],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "warpstrike",
+    "title": "Warpstrike",
+    "url": "https://games.agora-agency.com/g/warpstrike-5c3b17",
+    "currentCategory": "Action",
+    "categories": [
+      "Action",
+      "Shooter",
+      "Arcade"
+    ],
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "mechanics": "Cel-shaded spacecraft action shooter with weapon firing against enemy waves; the short score-driven run includes distinct encounters and a hull meter.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Launched the game from its arcade page.",
+        "Used the flight/fire controls briefly during the opening run."
+      ],
+      "outcome": "The current in-game HUD showed score, hull, weapon indicators and a burst control. In the captured run, the target “Warden” was defeated and the score display awarded +5,000; the live score reached 23,960.",
+      "screenshotPaths": [
+        "screenshots/warpstrike-before.png",
+        "screenshots/warpstrike-warpstrike-start.png",
+        "screenshots/warpstrike-launch.png",
+        "screenshots/warpstrike-flight-and-fire.png"
+      ],
+      "limitations": "Only a brief opening flight and combat encounter were sampled; no full wave, final score, or later weapon set was completed."
+    },
+    "sources": [
+      {
+        "url": "https://games.agora-agency.com/g/warpstrike-5c3b17",
+        "kind": "current",
+        "detail": "Current arcade game page and live flight HUD show the spacecraft, weapons, hull, score and burst control; the observed Warden defeat awarded 5,000 points."
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "Action covers real-time space combat, Shooter gives the core firearm/projectile combat its specific genre, and Arcade fits the score-and-encounter loop. Shooter is proposed because existing Action is too broad to distinguish this weapon-focused play.",
+    "proposedNewCategories": [
+      {
+        "name": "Shooter",
+        "rationale": "The central interaction is piloting a craft while firing weapons at enemy waves; a dedicated Shooter category distinguishes this from non-combat Action and pure flight simulations."
+      }
+    ],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "ww2-dogfight",
+    "title": "WW2 Dog Fight Arena",
+    "url": "https://fly.zullo.fun/",
+    "currentCategory": "Action",
+    "categories": [
+      "Simulators",
+      "Action",
+      "Multiplayer"
+    ],
+    "status": "documented_only",
+    "confidence": "high",
+    "mechanics": "WWII aerial combat flight simulator with a solo mission against AI enemies and a Squadron mode for multiplayer aerial combat.",
+    "gameplay": {
+      "attempted": false,
+      "actions": [
+        "Opened the current title screen and inspected its two mode cards."
+      ],
+      "outcome": "The live title describes a free-to-play MMO combat flight sim. Its Solo Mission card says to take to the skies alone and face AI enemies; Squadron says to join other pilots in multiplayer aerial combat. Neither mode was started.",
+      "screenshotPaths": [
+        "screenshots/ww2-dogfight-before.png"
+      ],
+      "limitations": "Current mode options and first-party flight-simulator description were observed; no flight controls, dogfight, solo mission, or online match was tested."
+    },
+    "sources": [
+      {
+        "url": "https://fly.zullo.fun/",
+        "kind": "current",
+        "detail": "Current title screen explicitly describes a combat flight simulator and exposes Solo Mission and Squadron multiplayer aerial-combat modes."
+      }
+    ],
+    "multiplayerMode": "Online multiplayer",
+    "rationale": "Simulators is the main fit for the explicitly described flight simulator, Action captures aerial combat, and Multiplayer is supported by the live Squadron mode text. The multiplayer mode was not entered.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  }
+]

@@ -1,0 +1,816 @@
+[
+  {
+    "slug": "99-youth-echecs",
+    "title": "99% YOUTH Échecs",
+    "url": "https://flora-acorn-cloud-rapid.grok.me/",
+    "currentCategory": "Strategy",
+    "categories": [
+      "Strategy",
+      "Multiplayer"
+    ],
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "mechanics": "A chess variant played by moving custom pieces across an 8x8 board. The game offers solo play against its Collectif opponent and alternating local two-player play; the board rotates after each local turn.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Loaded the live game board; selected the red pawn at a2 and selected a3 as its legal destination.",
+        "Observed the move list update to 1. a3 and the opponent respond Nc6.",
+        "Selected the explicit À deux mode; the game reported that both players use the same screen and the board rotates after each move."
+      ],
+      "outcome": "A legal move and AI reply were recorded in the move list. The game visibly exposes an alternating local two-player mode.",
+      "screenshotPaths": [
+        "screenshots/99-youth-echecs-before.png",
+        "screenshots/99-youth-echecs-after-2.png",
+        "screenshots/99-youth-echecs-after-3.png"
+      ],
+      "limitations": []
+    },
+    "sources": [
+      {
+        "url": "https://flora-acorn-cloud-rapid.grok.me/",
+        "kind": "first-party gameplay UI",
+        "currentOrPrior": "current",
+        "detail": "Observed the custom chess board, move instructions, a3 / Nc6 move list, and À deux mode text stating same-screen alternating turns and board rotation."
+      }
+    ],
+    "multiplayerMode": "Local 2-player",
+    "rationale": "Strategy describes the chess-like tactical loop. Multiplayer is warranted by the explicit alternating À deux mode with same-screen two-player instructions. Puzzle would overstate the game as a puzzle rather than a match.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "atomic-war-2d",
+    "title": "Atomic War 2D",
+    "url": "https://atomic.sonnylab.com/",
+    "currentCategory": "Strategy",
+    "categories": [
+      "Strategy"
+    ],
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "mechanics": "An auto-battler with a hero draft, a timed preparation phase, a shop, coin-based recruitment, and automatically resolved rounds against named opponents.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Selected Play vs Bots from the first-party title screen.",
+        "Selected the Phantom Assassin summoner and started a match.",
+        "Purchased Pudge from the Mystery Shop; the roster changed to 1/5 and coins fell from 5 to 2.",
+        "Entered the round; the battle view named Courier / Invoker as the opponent and displayed VICTORY."
+      ],
+      "outcome": "Recruitment changed the roster and coin total, and the first automated battle resolved as a victory against a bot opponent.",
+      "screenshotPaths": [
+        "screenshots/atomic-war-2d-before.png",
+        "screenshots/atomic-war-2d-after-2.png",
+        "screenshots/atomic-war-2d-after-5.png",
+        "screenshots/atomic-war-2d-error-6.png"
+      ],
+      "limitations": [
+        "The title screen also exposes Play Online; I did not verify that it matches human players, so Multiplayer is not assigned."
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://atomic.sonnylab.com/",
+        "kind": "first-party gameplay UI",
+        "currentOrPrior": "current",
+        "detail": "Observed hero selection, shop purchase, 1/5 roster, 5-to-2 coin change, Round 1 Battle versus Courier, and VICTORY. The Play Online button alone does not establish human multiplayer."
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "Strategy is the core loop: choose a summoner, recruit and manage units/items with limited coins, then let the army resolve rounds. No human-player mode was confirmed.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "bo1-zombies",
+    "title": "BO1 Zombies",
+    "url": "https://vel.gg/bo1z",
+    "currentCategory": "Action",
+    "categories": [
+      "Action",
+      "Survival",
+      "Shooter"
+    ],
+    "status": "gameplay_verified",
+    "confidence": "medium",
+    "mechanics": "A first-person Call of Duty Zombies port with map selection, a pistol, round survival, points, kills, and headshot counters. The landing screen describes survival against large zombie waves.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Selected Kino der Toten from the mission selector and waited through the displayed asset download (86% with about 25 seconds remaining).",
+        "Selected Click to Start and entered the first-person map with a pistol, crosshair, and 500 points.",
+        "Held W briefly; the run ended at the GAME OVER screen with You Survived 1 Round, 500 points, 0 kills, and 0 headshots."
+      ],
+      "outcome": "A playable first-person round reached a recorded game-over result. The test did not confirm a movement or shot effect before the run ended.",
+      "screenshotPaths": [
+        "screenshots/bo1-zombies-before.png",
+        "screenshots/bo1-zombies-after-3.png",
+        "screenshots/bo1-zombies-after-6.png",
+        "screenshots/bo1-zombies-after-7.png"
+      ],
+      "limitations": [
+        "The short run ended before a kill was recorded; no controlled movement or shot response was confirmed.",
+        "One ancillary resource returned HTTP 404 in the browser console; the game itself loaded and ran."
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://vel.gg/bo1z",
+        "kind": "first-party game page and current gameplay",
+        "currentOrPrior": "current",
+        "detail": "Observed map selection, Kino download, first-person pistol scene, and GAME OVER result showing one round survived, 500 points, 0 kills, and 0 headshots. The landing UI states zombie-wave survival."
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "The first-person aiming-and-firing loop warrants Shooter; real-time combat fits Action; surviving zombie waves is a central objective. Shooter is a proposed precise category absent from the current set.",
+    "proposedNewCategories": [
+      {
+        "name": "Shooter",
+        "rationale": "The game is a first-person weapon-based combat game; the current categories do not identify this core genre precisely."
+      }
+    ],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "cinder-ring",
+    "title": "Cinder Ring",
+    "url": "https://cinderring.tech/",
+    "currentCategory": "Action",
+    "categories": [
+      "Action",
+      "Multiplayer"
+    ],
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "mechanics": "A mage arena brawler where players cast projectiles and knockback spells on a crumbling floating ring. It supports solo bot matches, online rooms, invite-by-code rooms, and free-for-all or Tag Team formats.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Selected Play vs Bots, kept the default free-for-all setup with three bot rivals and five rounds, and entered Round 1.",
+        "Pressed the displayed Q key for Fireball; the HUD showed its cooldown, player health changed from 100 to 84, and the ring-crumble countdown appeared."
+      ],
+      "outcome": "Entered a live arena round with three named bot rivals; the Fireball control responded with a cooldown and the active arena showed its crumbling-ring countdown.",
+      "screenshotPaths": [
+        "screenshots/cinder-ring-before.png",
+        "screenshots/cinder-ring-after-1.png",
+        "screenshots/cinder-ring-after-3.png",
+        "screenshots/cinder-ring-after-5.png",
+        "screenshots/cinder-ring-after-6.png"
+      ],
+      "limitations": []
+    },
+    "sources": [
+      {
+        "url": "https://cinderring.tech/",
+        "kind": "first-party gameplay UI",
+        "currentOrPrior": "current",
+        "detail": "The first-party menu says Create Room / Invite friends by code, Join Room / Enter a friend's code, and Quick Match / Join the first open online room. It describes a mage arena brawl with spells that push rivals off the edge. Current bot round displayed Fireball key Q and round, health, rival, and ring-crumble HUDs."
+      }
+    ],
+    "multiplayerMode": "Online multiplayer",
+    "rationale": "Action describes the spell-combat arena loop. Multiplayer is supported by explicit invite-friend room creation and join-by-code UI. Survival is not added as a generic last-player-standing label for an arena brawler.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "cowduction",
+    "title": "Cowduction",
+    "url": "https://cowduction.guibsonv.chatgpt.site/",
+    "currentCategory": "Action",
+    "categories": [
+      "Action",
+      "Arcade",
+      "Shooter"
+    ],
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "mechanics": "A side-view arcade space shooter in which a cow-piloted UFO moves through an alien battlefield and fires a beam. The mission HUD tracks hull, beam force, alien resistance, wave/target progress, corridor progress, and score.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Chose the no-login guest mode, started the Nebulária 1-1 mission, and skipped the intro.",
+        "Read the first-party controls: WASD or arrow keys move; Space fires the beam.",
+        "Restarted after the first short run ended with CASCO SEM ENERGIA. On the second run, held ArrowUp and then Space; the UFO moved upward and the target HUD displayed alien resistance falling to 72% while hull remained 5/5."
+      ],
+      "outcome": "The guest mission loaded and a beam action visibly reduced an alien's resistance from 100% to 72%; the first attempt ended at 0 points after hull loss, while the second remained in play.",
+      "screenshotPaths": [
+        "screenshots/cowduction-before.png",
+        "screenshots/cowduction-after-3.png",
+        "screenshots/cowduction-error-5.png",
+        "screenshots/cowduction-after-8.png"
+      ],
+      "limitations": [
+        "The mission objective was not completed. One first-pass browser context closed after hull reached 1/5; a fresh isolated session successfully retried and confirmed movement/beam response."
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://cowduction.guibsonv.chatgpt.site/",
+        "kind": "first-party gameplay UI",
+        "currentOrPrior": "current",
+        "detail": "Guest mode, mission Nebulária 1-1, and WASD/arrows + Space controls were displayed. Current HUD/screenshot showed the UFO moved vertically and alien resistance decreased to 72% after Space."
+      },
+      {
+        "path": "game-repos/scout-pilot-2026-10-10/tests/a/cowduction.json",
+        "kind": "prior local gameplay receipt",
+        "currentOrPrior": "prior",
+        "detail": "A 2026-10-10 receipt independently documented guest play, UFO movement after W, and hull changing 5/5 to 4/5; historical evidence is preserved."
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "Real-time beam combat fits Action; the short score-and-wave alien-shooting loop fits Arcade; Shooter identifies the central weapon-based play. Shooter is a proposed precise category absent from the current set.",
+    "proposedNewCategories": [
+      {
+        "name": "Shooter",
+        "rationale": "The player directly aims/fires a beam at alien targets; the current categories do not identify shooter play precisely."
+      }
+    ],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "dili-cart",
+    "title": "Dili Cart",
+    "url": "https://dili-cart.pages.dev/",
+    "currentCategory": "Sports",
+    "categories": [
+      "Racing",
+      "Multiplayer"
+    ],
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "mechanics": "A cartoon kart racing game with three-lap circuits, eight racers, drifts, items, lap timing, position, and score. Guest mode is available; Race friends exposes room-code play.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Chose Play as guest, skipped the tutorial, and selected the Dili Circuit race.",
+        "Observed the Dili Circuit start view with a three-lap, eight-racer race, arrow steering/gas controls, a lap timer, minimap, and 8th-place position.",
+        "Pressed ArrowUp as the on-screen gas control; the race timer and rival positions continued to update."
+      ],
+      "outcome": "Entered a live kart race with a track, lap counter, competing racers, position, and timer. The hub explicitly offers Race friends with a room code.",
+      "screenshotPaths": [
+        "screenshots/dili-cart-before.png",
+        "screenshots/dili-cart-after-3.png",
+        "screenshots/dili-cart-after-5.png",
+        "screenshots/dili-cart-after-7.png"
+      ],
+      "limitations": [
+        "The short current run did not confirm a position change; prior local gameplay evidence records an overtake and score increase."
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://dili-cart.pages.dev/",
+        "kind": "first-party gameplay UI",
+        "currentOrPrior": "current",
+        "detail": "The hub showed Dili Circuit, three laps, eight racers, guest mode, and Race friends / Room code. The race view showed steering, drift, gas, item, lap timer, minimap, and 8th place."
+      },
+      {
+        "path": "docs/AI-GAME-SCOUT-BATCH8-2026-10-09.md",
+        "kind": "prior local gameplay receipt",
+        "currentOrPrior": "prior",
+        "detail": "The dated receipt records guest racing on Dili Circuit, Up acceleration, an overtake from 8th to 6th, and 150 points."
+      }
+    ],
+    "multiplayerMode": "Online multiplayer",
+    "rationale": "Racing is the central loop and is more accurate than Sports. Multiplayer is supported by the explicit Race friends / Room code option. The race is arcade-style, but no extra Arcade tag is needed to describe the kart competition.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "dlicom-attack",
+    "title": "Dlicom Attack",
+    "url": "https://dlicom-attack.vercel.app/",
+    "currentCategory": "Strategy",
+    "categories": [
+      "Strategy"
+    ],
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "mechanics": "A roguelite auto-battler in which the player routes through nodes in a corrupted network, lets Dili fight automatically, collects Bits, and chooses run-specific skills to shape the build.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Selected Enter the Network; the Feed chapter presented Node 1 · Battle, Data lane, Spam Bot, and a reward of 20 Bits plus a skill choice.",
+        "Entered the battle node and observed the AUTO BATTLE combat HUD with turn counter, enemy health, Dili integrity, and overdrive meter.",
+        "Waited for combat to resolve; the game displayed a three-skill connection upgrade choice, 20 Bits collected, and highest hit 159."
+      ],
+      "outcome": "The automated fight resolved and offered build progression through run-specific skill selection, confirming the strategy / auto-battler loop.",
+      "screenshotPaths": [
+        "screenshots/dlicom-attack-before.png",
+        "screenshots/dlicom-attack-after-1.png",
+        "screenshots/dlicom-attack-after-2.png",
+        "screenshots/dlicom-attack-after-3.png"
+      ],
+      "limitations": [
+        "The first-party page logged ancillary HTTP 404 resources, but its game UI loaded and the first node completed. No multiplayer mode was identified."
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://dlicom-attack.vercel.app/",
+        "kind": "first-party game page and current gameplay",
+        "currentOrPrior": "current",
+        "detail": "Observed Enter the Network; a chapter node labeled Battle / Data lane / Spam Bot; AUTO BATTLE combat HUD; and after combat, a 20-Bit skill choice screen with highest hit 159."
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "Strategy fits the node-routing, automatic battle, and deliberate skill-build choices. The first-party UI did not show a human multiplayer mode; no additional genre category is needed for this loop.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "dust-and-lead",
+    "title": "Dust & Lead",
+    "url": "https://inkstaid.github.io/dust-and-lead/",
+    "currentCategory": "Action",
+    "categories": [
+      "Platformer",
+      "Action",
+      "Shooter"
+    ],
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "mechanics": "A side-scrolling Wild West platformer. Jack moves along a horizontal course, traverses obstacles, jumps, and fights with revolver/shotgun and knife; the opening mission says the Crowe boys took his horse.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Pressed Space on the title card, which identifies the game as “A Wild West Platformer,” to enter the opening level.",
+        "Read in-game signs: WASD/arrows move; Space or Up jumps; J or L shoots the way the player faces; R reloads; 3 or L uses the knife.",
+        "Held ArrowRight for one second; Jack moved across the level and the scenery scrolled.",
+        "Pressed J; the revolver ammo decreased from 6/18 to 5/18."
+      ],
+      "outcome": "The opening side-scrolling level loaded; movement visibly scrolled the course and firing consumed one revolver round.",
+      "screenshotPaths": [
+        "screenshots/dust-and-lead-before.png",
+        "screenshots/dust-and-lead-after-1.png",
+        "screenshots/dust-and-lead-after-2.png",
+        "screenshots/dust-and-lead-after-4.png"
+      ],
+      "limitations": [
+        "Only the opening stretch was tested; later objectives, enemy encounters, and full-level progression were not exercised."
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://inkstaid.github.io/dust-and-lead/",
+        "kind": "first-party gameplay UI and current gameplay",
+        "currentOrPrior": "current",
+        "detail": "Title card says “A Wild West Platformer.” In-level signage documents movement, jump, shooting, reloading, and knife controls; current screenshot shows ArrowRight moved Jack with level scroll, and J reduced revolver ammunition 6/18 to 5/18."
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "Platformer is the title-screen genre and is supported by side-view traversal and the explicit jump control. Action and Shooter describe the active gun/knife combat. Platformer and Shooter are proposed because the existing catalog categories do not name these distinct core mechanics precisely; no score-chasing or other Arcade loop was observed.",
+    "proposedNewCategories": [
+      {
+        "name": "Platformer",
+        "rationale": "Side-scrolling traversal and jumping are defining mechanics, and the first-party title card explicitly names the genre."
+      },
+      {
+        "name": "Shooter",
+        "rationale": "Gun firing with distinct revolver/shotgun ammunition is a central combat mechanic not named precisely by existing categories."
+      }
+    ],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "flap-nyc",
+    "title": "Flap NYC",
+    "url": "https://flapnyc.kumodeck.app/",
+    "currentCategory": "Arcade",
+    "categories": [
+      "Arcade"
+    ],
+    "status": "gameplay_verified",
+    "confidence": "medium",
+    "mechanics": "A one-button flappy-flight obstacle game: a pigeon crosses a scrolling Manhattan skyline by tapping to flap, with block-count scoring and landmarks such as Brooklyn Bridge.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Selected PLAY; the active scene displayed “TAP TO FLAP” and a score of 0.",
+        "Tapped the playfield; the scene scrolled through city obstacles, displaying the Brooklyn Bridge waypoint and the block counter.",
+        "After collision, the result screen displayed “YOU FLEW,” 0 blocks, and “Reached: Brooklyn Bridge · Golden Hour.” Retried once; it again ended at the opening waypoint with zero blocks."
+      ],
+      "outcome": "The live game entered its tap-to-flap flight loop and produced the expected failed-run summary; the brief attempts did not clear a scoring block.",
+      "screenshotPaths": [
+        "screenshots/flap-nyc-before.png",
+        "screenshots/flap-nyc-after-1.png",
+        "screenshots/flap-nyc-after-2.png",
+        "screenshots/flap-nyc-after-3.png",
+        "screenshots/flap-nyc-after-7.png"
+      ],
+      "limitations": [
+        "The two short runs did not pass a scoring obstacle, so a positive score was not confirmed. The main game still loaded and presented a result; a non-blocking ancillary HTTP 404 appeared in console."
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://flapnyc.kumodeck.app/",
+        "kind": "first-party game page and current gameplay",
+        "currentOrPrior": "current",
+        "detail": "Title page says “Be a pigeon. Cross Manhattan.” The active scene displays “TAP TO FLAP,” a score/block counter, Brooklyn Bridge waypoint, and after collision a YOU FLEW result with 0 blocks and reached landmark."
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "Arcade accurately describes the short one-button timing/reflex flight and block-score loop. No second existing category adds a more precise core mechanic.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "footballmon",
+    "title": "Footballmon",
+    "url": "https://footballmon.satinyhero4.chatgpt.site/",
+    "currentCategory": "Sports",
+    "categories": [
+      "Sports",
+      "Strategy",
+      "Simulators"
+    ],
+    "status": "gameplay_verified",
+    "confidence": "medium",
+    "mechanics": "A Pokémon American-football team-building and season simulator. The player drafts 22 Pokémon into football positions, selects defensive formations and offensive personnel, and simulates season results. The first-party page describes the season simulation as experimental.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Loaded the first-party roster screen, which displayed 22 football position slots, 3–4 and 4–3 defense choices, Fullback/Slot WR options, Sandbox and Draft modes, and a Play season control.",
+        "Selected Draft; the game presented Pick 1 of 22 and five Pokémon candidates.",
+        "Selected Ponyta and assigned it to QB; the roster counter changed from 0/22 to 1/22.",
+        "Opened About & season details; the page says there are 146 Kanto Pokémon, one of each per team; any Pokémon may fill any position; a selected player may be moved/swapped; Fullback and Slot WR alter offensive structure; season results are an experimental simulation."
+      ],
+      "outcome": "The draft action assigned a Pokémon to the football lineup and updated the roster count. Play season was visibly disabled at 1/22, so no season result was produced in this short test.",
+      "screenshotPaths": [
+        "screenshots/footballmon-before.png",
+        "screenshots/footballmon-after-4.png",
+        "screenshots/footballmon-after-6.png",
+        "screenshots/footballmon-after-9.png"
+      ],
+      "limitations": [
+        "The roster was not completed and the season simulation was not run; the simulation category is supported by first-party feature text, not an observed season result.",
+        "A non-blocking ancillary HTTP 404 appeared in the console while the roster interface remained available."
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://footballmon.satinyhero4.chatgpt.site/",
+        "kind": "first-party gameplay UI and current action",
+        "currentOrPrior": "current",
+        "detail": "Current roster screen exposes 22 football positions, Draft/Sandbox, 3–4/4–3 defenses, Fullback/Slot WR choices, and disabled Play season at 1/22 after assigning Ponyta to QB. First-party About text states any Pokémon can fit any position, picks can move/swap, offensive personnel changes structure, and season results are an experimental simulation."
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "Sports is the subject and position structure. Strategy captures drafting/assigning a 22-player team and choosing defense/offensive structure; Simulators captures the stated experimental season-simulation result. The season feature is first-party documented but its result was not run in this review.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "gta-5",
+    "title": "GTA 5",
+    "url": "https://web.archive.org/web/20261006055917/https://playgta5.com/",
+    "currentCategory": "Simulation",
+    "categories": [
+      "Simulation"
+    ],
+    "status": "unresolved",
+    "confidence": "low",
+    "mechanics": "The archived page shows GTA V branding and Sandbox Mode / Story Mode plus GTA V Map / GTA VI Map choices. The browser recreation did not reach a playable scene in this review, so its mechanics are unverified.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Opened the assigned October 6 Internet Archive URL; it redirected to a dated October 5 capture and returned HTTP 200.",
+        "Waited 15 seconds while the page remained near the initial load state; it reached 5% and displayed “No progress for 30 s: the device may be out of memory. Close other tabs, or reload.”",
+        "Pressed Space once; the page changed to Back / GTA V Map / GTA VI Map choices, but its canvas remained black and the progress indicator only reached 6%; after 52 seconds without progress the warning remained."
+      ],
+      "outcome": "The archived shell and GTA V branding loaded, but no playable scene or mechanics were reached. The current Simulation category remains provisional; there is not enough port-level evidence to recommend a correction.",
+      "screenshotPaths": [
+        "screenshots/gta-5-before.png",
+        "screenshots/gta-5-after-1.png",
+        "screenshots/gta-5-after-2.png"
+      ],
+      "limitations": [
+        "No current gameplay was verified. The archive page reports a cross-origin-isolation warning and no-progress/out-of-memory warning; multiple non-blocking 404s appeared in the console."
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://web.archive.org/web/20261006055917/https://playgta5.com/",
+        "kind": "first-party archived page shell/current attempted access",
+        "currentOrPrior": "current",
+        "detail": "The archived page returned 200 and showed GTA V branding, Sandbox Mode / Story Mode controls, then GTA V Map / GTA VI Map choices. The game canvas stayed black at 6% with a no-progress warning; no gameplay mechanics were observed."
+      },
+      {
+        "url": "https://www.rockstargames.com/newswire/article/o349k552544449/grand-theft-auto-vi-official-announcement.html",
+        "kind": "original publisher description",
+        "currentOrPrior": "context only",
+        "detail": "Rockstar describes the original GTA V as open-world with storytelling and mission-based gameplay. This source is used only to identify the original game; it does not establish that the archived browser recreation loaded or implements those mechanics."
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "Keep the existing Simulation label provisionally with unresolved status. Although the original game has official open-world/story/mission descriptions, the archived browser recreation did not reach playable content, and its title/menu alone do not establish that it implements the original mechanics. No correction or Multiplayer tag is supported in this review.",
+    "proposedNewCategories": [],
+    "accessIssue": "The archived shell loaded, but its black game canvas stalled at 6% after 52 seconds and displayed a no-progress / possible out-of-memory warning.",
+    "accessIssueType": "loading"
+  },
+  {
+    "slug": "halo-ce",
+    "title": "Halo CE",
+    "url": "https://mitchellhynes.com/halo",
+    "currentCategory": "Action",
+    "categories": [
+      "Action",
+      "Shooter",
+      "Multiplayer"
+    ],
+    "status": "documented_only",
+    "confidence": "medium",
+    "mechanics": "The Halo CE web port documents first-person movement and mouse aiming with left/right-mouse weapon controls, and presents online multiplayer with invite-link, room, join-game and player-name controls. Play requires a Halo XISO made from the visitor’s own Xbox copy.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Opened the current first-party page; it loaded the Halo CE web interface and displayed a “Choose your Halo XISO” prompt.",
+        "Read the page’s controls: WASD move, mouse aim, RT/LMB and LT/G/RMB controls, with keyboard mappings for actions.",
+        "Read the first-party notice stating that the site does not provide Halo game data and requires an XISO made from the player’s own Xbox copy. The page also exposed ONLINE MULTIPLAYER, Play Online, invite-link, Create link, Join game, and room controls.",
+        "Stopped before selecting or uploading a local game file; no gameplay scene was reached."
+      ],
+      "outcome": "The page documents a Halo CE shooter and explicit human online room/invite/join features, but gameplay could not be launched without the required user-owned XISO.",
+      "screenshotPaths": [
+        "screenshots/halo-ce-before.png"
+      ],
+      "limitations": [
+        "Current gameplay is unverified because the page requires an XISO from the player’s own Xbox copy; no file was provided or selected. Online mode was documented from the UI but not joined."
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://mitchellhynes.com/halo/",
+        "kind": "first-party game interface and access instructions",
+        "currentOrPrior": "current",
+        "detail": "The current UI labels the game Halo CE · Web; lists WASD/mouse and weapon controls; shows Online Multiplayer, Play Online, Invite link, Create link, Join game, and room controls. It states that this independent site does not provide game data and asks visitors to use an XISO made from their own Xbox copy."
+      }
+    ],
+    "multiplayerMode": "Online multiplayer",
+    "rationale": "Action fits the documented real-time combat controls. Shooter is a more precise descriptor for the first-person mouse-aim and weapon-control interface and is proposed as a new taxonomy category. Multiplayer is supported by explicit online invite/link/create-room/join-game features, not merely a “Play Online” button. Actual play and multiplayer were not exercised because the page requires a user-owned XISO.",
+    "proposedNewCategories": [
+      {
+        "name": "Shooter",
+        "rationale": "The first-party interface documents first-person mouse aiming and weapon controls; the existing categories do not name this core mechanic as precisely."
+      }
+    ],
+    "accessIssue": "The first-party site states it does not provide Halo game data and requires the player to choose an XISO made from their own Xbox copy; no playable game scene was available without that file.",
+    "accessIssueType": "game-copy-required"
+  },
+  {
+    "slug": "hungry-seal",
+    "title": "Hungry Seal",
+    "url": "https://hungry-seal.horly.dev/",
+    "currentCategory": "Arcade",
+    "categories": [
+      "Arcade",
+      "Survival"
+    ],
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "mechanics": "A score/combo arcade swimming game with a continuously draining hunger bar: steer a seal to eat fish smaller than itself, grow, collect coins, and avoid prey that is too large. Missions track fish eaten, score, and seabirds caught per run.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Clicked the on-screen Play control to enter the West Beach run; the HUD showed score 0 and Size 1.",
+        "Held ArrowLeft for 1.2 seconds; the seal/world shifted left and the fish/hunger bar decreased.",
+        "Held ArrowUp for 1.2 seconds toward fish; the game displayed score 190, an x3 combo, one coin, and a “Too big!” warning beside pufferfish."
+      ],
+      "outcome": "Swim movement and feeding/scoring responded; the run tracks hunger depletion, size, combo, score, and coin collection, while warning against larger fish.",
+      "screenshotPaths": [
+        "screenshots/hungry-seal-before.png",
+        "screenshots/hungry-seal-after-2.png",
+        "screenshots/hungry-seal-after-3.png",
+        "screenshots/hungry-seal-after-4.png"
+      ],
+      "limitations": [
+        "Only the opening West Beach run was tested; later levels, upgrades, and full-run failure conditions were not explored."
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://hungry-seal.horly.dev/",
+        "kind": "first-party game page and current gameplay",
+        "currentOrPrior": "current",
+        "detail": "The menu lists missions to eat 20 fish, score 2,000, and catch seabirds in one run. It documents mouse/WASD swimming and click/Space/Shift boost. Current HUD names West Beach, Size 1, score, hunger, and combo; feeding produced 190 score, x3 combo, 1 coin, and a “Too big!” warning. The first-party guidance says to eat fish smaller than the seal and that hunger drains continuously."
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "Arcade captures the short per-run score/combo and mission loop. Survival is also warranted because the first-party game explicitly makes continuously draining hunger a resource pressure while larger prey are hazards. No Multiplayer or generic Action tag is needed.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "kettu-vellam",
+    "title": "Kettu-Vellam",
+    "url": "https://kettuvellam.com/",
+    "currentCategory": "Racing",
+    "categories": [
+      "Racing"
+    ],
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "mechanics": "A 3D Kerala snake-boat racing game with multiple boats, a three-lap race, three backwater courses, selectable boat characteristics, rival difficulty, throttle/steer/brake/boost controls, and a separate open-world roam mode.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Selected the first-party RACE mode and inspected boat/course/rival setup. The setup offers three Kerala boat types with speed, acceleration, handling, and weight attributes; three courses; and Leisure/Racer/Champion rival settings.",
+        "Kept the default Chundan Vallam, Kuttanad Canals, and Racer rivals, then started the race. The in-game HUD showed position 6/6, Lap 1/3, timer 0:00, and boost 55%.",
+        "Held ArrowUp, the documented throttle control, for 1.5 seconds; the live timer advanced to 0:10.882 and boat speed reached 11 knots while position remained 6/6."
+      ],
+      "outcome": "Entered a live three-lap boat race and confirmed the throttle changed the speed HUD to 11 knots while the race timer advanced.",
+      "screenshotPaths": [
+        "screenshots/kettu-vellam-before.png",
+        "screenshots/kettu-vellam-after-2.png",
+        "screenshots/kettu-vellam-after-3.png",
+        "screenshots/kettu-vellam-after-4.png"
+      ],
+      "limitations": [
+        "Only the opening seconds of one race were tested; no lap or finish result was reached. The open-world mode was visible on the first-party title screen but not entered."
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://www.kettuvellam.com/",
+        "kind": "first-party game page and current gameplay",
+        "currentOrPrior": "current",
+        "detail": "The first-party page describes racing against rival snake boats and an open backwater roam mode, lists throttle/brake/steer/boost controls and three courses. Setup documents boat speed/acceleration/handling/weight, selectable courses, and rival levels. Current race showed 6/6, Lap 1/3, then 11 knots after ArrowUp throttle."
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "Racing precisely describes the three-lap course and lap-record loop. Open-world roaming is a documented side mode but was not shown to be the central game loop; no human multiplayer is presented.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "lava-lasso",
+    "title": "Lava Lasso",
+    "url": "https://sloptopia.gooooooooor.chatgpt.site/games/lava-lasso.html?from=sloptopia",
+    "currentCategory": "Action",
+    "categories": [
+      "Action",
+      "Platformer",
+      "Survival"
+    ],
+    "status": "gameplay_verified",
+    "confidence": "medium",
+    "mechanics": "A 3D rooftop traversal/action game with timed levels and an endless climb above rising lava. The player jumps and flips across gaps, lassos anchors and changes rope length to swing, and fights goons with combos, kicks, dodges, and counters. The menu lists four worlds of stages and bosses; its Endless mode has no exit and ever-rising lava.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Loaded the first-party Lava Lasso menu, which documents WASD movement/mouse look, Space jump and aerial flip, E or right-click lasso, Shift rope shortening/dodge, combo/kick, enemy throws/counters, and a 3:30 rising-lava timer. Menu modes include a tutorial, four-world climb, endless mode with no exit, and level select.",
+        "Selected the opening tutorial from the menu; it entered level 1-1 at 1:32 with the player 12 m above lava and Tutorial 1/8 (Move).",
+        "Held W for one second; the tutorial advanced to 2/8 (Jump), and the HUD reported BURNED -1 heart.",
+        "Pressed Space as instructed; the tutorial remained at 2/8. Clicking the playfield and pressing Space again did not advance the tutorial; a pointer-lock request logged “The root document of this element is not valid for pointer lock.”"
+      ],
+      "outcome": "The live game loaded and the W input triggered the next tutorial step and a burn/heart loss. A successful jump or lasso action was not confirmed in this headless session because pointer-lock interaction failed.",
+      "screenshotPaths": [
+        "screenshots/lava-lasso-before.png",
+        "screenshots/lava-lasso-after-2.png",
+        "screenshots/lava-lasso-after-3.png",
+        "screenshots/lava-lasso-after-4.png",
+        "screenshots/lava-lasso-after-7.png"
+      ],
+      "limitations": [
+        "Short tutorial test did not reach later traversal/combat steps or a stage result. The page’s pointer-lock request errored in this headless run, and Space did not advance the jump tutorial; do not treat those unexercised controls as verified current outcomes."
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://sloptopia.gooooooooor.chatgpt.site/games/lava-lasso?from=sloptopia",
+        "kind": "first-party menu, controls and current tutorial",
+        "currentOrPrior": "current",
+        "detail": "The game UI lists jump/flip, lasso/rope, combo/kick/dodge, enemy attacks/counter controls, timed levels and an ever-rising lava warning. Menu describes Climb as four worlds/four stages with bosses and Endless as no exit / lava never stops. Current tutorial advanced from Move to Jump after W and showed a lost heart; Space did not progress and a pointer-lock warning was logged."
+      },
+      {
+        "path": "../thumbnail-research/full-roster-2026-10-10/source/docs/AI-GAME-SCOUT-BATCH5-2026-10-09.md",
+        "kind": "prior local gameplay receipt",
+        "currentOrPrior": "prior",
+        "detail": "The October 2026 first-party test started training and held Right; the character ran to the lava edge and the tutorial advanced from Move to Jump. This supports a prior movement response but does not replace the current test."
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "Action matches real-time traversal and documented combat. Platformer describes the defining jump/gap/lasso traversal, which the existing taxonomy does not name precisely; propose Platformer. Survival applies to the explicitly presented endless mode where lava never stops and the objective is to climb as high as possible. Multiplayer is not indicated.",
+    "proposedNewCategories": [
+      {
+        "name": "Platformer",
+        "rationale": "Jumping, aerial movement, and lasso swinging across rooftop gaps are core traversal mechanics absent from the existing category names."
+      }
+    ],
+    "accessIssue": "The game page loaded, but pointer-lock capture reported “The root document of this element is not valid for pointer lock.” W advanced the tutorial once, while Space did not advance the jump step, so full control was not verified in this headless session.",
+    "accessIssueType": "pointer-capture"
+  },
+  {
+    "slug": "math-quest",
+    "title": "Math Quest",
+    "url": "https://mathquest-play.mareku011.chatgpt.site/",
+    "currentCategory": "Puzzle",
+    "categories": [
+      "Puzzle",
+      "Adventure",
+      "Educational"
+    ],
+    "status": "gameplay_verified",
+    "confidence": "medium",
+    "mechanics": "A Japanese-language, grade 3–5 arithmetic game wrapped in RPG battles and progression. Challenge mode presents timed addition/subtraction problems, awards score/combo points for correct answers, and damages monsters; the first-party menu also offers a 42-stage story adventure.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "From the first-party home menu, selected Challenge Mode and Easy; the game displayed a 3-minute timed arithmetic challenge and its scoring rules.",
+        "Entered 1, 1, 1, 7, 6 into the carry/answer fields for 98 + 78 = 176, then selected the answer-check button.",
+        "Inspected the result panel and screenshot after submission."
+      ],
+      "outcome": "The correct answer advanced to question 2, showed a hero attack on the ice monster, raised score from 0 to 80 and solved count from 0 to 1, and displayed combo 1.",
+      "screenshotPaths": [
+        "screenshots/math-quest-before.png",
+        "screenshots/math-quest-after-9.png"
+      ],
+      "limitations": [
+        "Only one question was submitted in this short verification; the full challenge and story campaign were not completed."
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://mathquest-play.mareku011.chatgpt.site/",
+        "kind": "first-party gameplay UI",
+        "currentOrPrior": "current",
+        "detail": "Home menu identifies the game as Math Quest / 算数のゆうしゃ, describes Challenge mode and a 42-stage Story mode, targets grades 3–5, and explains keyboard or handwriting input. The current Challenge instructions specify a three-minute arithmetic battle; a correct 98 + 78 = 176 answer produced the score, combo, solved-count, and monster-attack changes recorded above."
+      },
+      {
+        "path": "game-discovery-bot/runs/2026-10-10T185643Z/reports/14-mathquest-parent.json",
+        "kind": "prior gameplay receipt",
+        "currentOrPrior": "prior",
+        "detail": "A previous short Easy challenge answered 4977 − 4823 = 154 and showed score 0→80, combo 0→1, solved 0→1, monster health 2→1, then a second question. This corroborates the challenge scoring/battle loop independently of the current one-question test."
+      },
+      {
+        "path": "game-discovery-bot/runs/2026-10-10T185643Z/reports/worker3/14-math-quest-pending.json",
+        "kind": "prior first-party UI notes",
+        "currentOrPrior": "prior",
+        "detail": "Prior notes from the first-party story map describe seven areas / 42 stages, a first-stage enemy, math problems, grade 3–5 targeting, and arithmetic input. Used to substantiate that story progression is a meaningful adventure mode, not to claim it was played in this current pass."
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "Puzzle fits the verified arithmetic-solving loop; Adventure is supported by the first-party 42-stage story mode and prior first-party map notes. Educational is a justified new category because the game explicitly targets elementary grades and teaches arithmetic, a defining purpose that the existing browse categories do not express. The single current question verifies the core response loop but not the full challenge or campaign.",
+    "proposedNewCategories": [
+      "Educational"
+    ],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "must-kill-the-king",
+    "title": "MUST KILL THE KING",
+    "url": "https://forest-brook-zenith-iris.grok.me/",
+    "currentCategory": "Strategy",
+    "categories": [
+      "Strategy"
+    ],
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "mechanics": "A turn-based fantasy tactics game on a 5×5 board. The Coral Beasts side moves distinct piece types against the Raven Court; the goal is to take the opposing king. The UI states pawns move one square and there is no castling. A novice AI opponent responds to moves.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Loaded the first-party arena screen, which stated 'Pawns step one. No castling. Tap your piece, then a cyan dot or a crimson ring. Take the king.' Selected Novice and entered the arena.",
+        "Selected the Coral Beasts chick lancer pawn at a2; the board highlighted a3 as a legal destination.",
+        "Moved that pawn to a3 and inspected the board after the Raven Court responded."
+      ],
+      "outcome": "The a2→a3 move cleared the pawn from a2; the Raven Court replied by moving its b4 raven to a3 and capturing it, with the removed Coral pawn shown in the losses area. The display returned to YOUR TURN, confirming alternating turns and an opponent response. No match was completed.",
+      "screenshotPaths": [
+        "screenshots/must-kill-the-king-before.png",
+        "screenshots/must-kill-the-king-after-1.png",
+        "screenshots/must-kill-the-king-after-2.png",
+        "screenshots/must-kill-the-king-after-3.png"
+      ],
+      "limitations": [
+        "Only the opening move and one opponent reply were observed; the match outcome was not tested."
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://forest-brook-zenith-iris.grok.me/",
+        "kind": "first-party gameplay UI",
+        "currentOrPrior": "current",
+        "detail": "The landing screen describes the take-the-king objective, one-step pawns and no castling. The live 5×5 arena showed the selected chick lancer's legal a3 destination, then the Raven Court's b4→a3 capture and Coral pawn loss after the human move."
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "Strategy describes the turn-based tactical board game and its king-capture objective. The tested opponent responded automatically; no human multiplayer option was observed, so Multiplayer is not applied. The fantasy pieces are theme and do not warrant Action or Adventure tags.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  }
+]

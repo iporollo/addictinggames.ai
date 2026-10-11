@@ -1,5 +1,6 @@
-import { games, type Game } from './catalog';
-import { directGames, type DirectGame } from './direct-games';
+import { games, type Game } from './catalog.ts';
+import { gameTags, gameModeLabels } from './game-categories.ts';
+import { directGames, type DirectGame } from './direct-games.ts';
 
 export type PlayableGame = Game & { shortDescription: string; embedUrl: string; sandbox?: string };
 export type ListedGame = PlayableGame | DirectGame;
@@ -192,10 +193,10 @@ export const featuredGames = orderedGames([
 ]);
 
 export const newGames: ListedGame[] = [...directGames, ...orderedGames(newGameSlugs)];
-export const simulatorGames = legacyPlayableGames.filter(game => game.category === 'Simulation');
-export const survivalGames = legacyPlayableGames.filter(game => ['Survival', 'Strategy'].includes(game.category));
+export const simulatorGames = legacyPlayableGames.filter(game => gameTags(game).includes('Simulators'));
+export const survivalGames = legacyPlayableGames.filter(game => gameTags(game).includes('Survival'));
 
 export function matchesGame(game: ListedGame, query: string) {
-  const text = `${game.title} ${game.description} ${game.category} ${'author' in game ? game.author : ''}`.toLocaleLowerCase('en');
+  const text = `${game.title} ${game.description} ${game.category} ${[...gameTags(game), ...gameModeLabels(game)].join(' ')} ${'author' in game ? game.author : ''}`.toLocaleLowerCase('en');
   return text.includes(query.trim().toLocaleLowerCase('en'));
 }

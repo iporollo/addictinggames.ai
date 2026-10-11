@@ -1,0 +1,266 @@
+[
+  {
+    "slug": "aether-break",
+    "title": "Aether Break",
+    "url": "https://cactus-eagle-finch-branch.grok.me/",
+    "currentCategory": "Action",
+    "currentTags": [],
+    "description": "Launch a ball into a brick field and move the paddle. Opens on the game's own site and may need time to load."
+  },
+  {
+    "slug": "bad-idea",
+    "title": "Bad Idea",
+    "url": "https://claude-codex.anshkapuriya.in/",
+    "currentCategory": "Puzzle",
+    "currentTags": [],
+    "description": "Solve deliberately misleading button, color-word, and text-input puzzles. Opens on the game's own site and may need time to load."
+  },
+  {
+    "slug": "bruce-lee-the-dragon-returns",
+    "title": "Bruce Lee: The Dragon Returns",
+    "url": "https://axchapman.freedev.app/brucelee.php",
+    "currentCategory": "Action",
+    "currentTags": [],
+    "description": "Move Bruce through a pixel-art fortress courtyard. Opens on the game's own site and may need time to load."
+  },
+  {
+    "slug": "coin-collector-3d",
+    "title": "Coin Collector 3D",
+    "url": "https://notef.dreamcore.gg/coin-collector-3d/",
+    "currentCategory": "Action",
+    "currentTags": [],
+    "description": "Move through a 3D arena and collect coins. Opens on the game's own site and may need time to load."
+  },
+  {
+    "slug": "crew-run",
+    "title": "Crew Run",
+    "url": "https://claude.ai/artifact/WSVMA7xecUuBPL5wKkx62p",
+    "currentCategory": "Adventure",
+    "currentTags": [],
+    "description": "Explore a 3D festival venue with a small crew. Opens on the game's own site and may need time to load."
+  },
+  {
+    "slug": "dirtline",
+    "title": "DIRTLINE",
+    "url": "https://dirtline.pages.dev/?v=2",
+    "currentCategory": "Arcade",
+    "currentTags": [],
+    "description": "Ride a dirt bike across a rugged course and keep your balance."
+  },
+  {
+    "slug": "dracula-0",
+    "title": "Dracula 0",
+    "url": "https://dracula-0.vercel.app/",
+    "currentCategory": "Action",
+    "currentTags": [],
+    "description": "Cross a dark pixel world in a side-scrolling action adventure."
+  },
+  {
+    "slug": "falling-bubbles",
+    "title": "Falling Bubbles",
+    "url": "https://falling-bubbles.vercel.app/",
+    "currentCategory": "Puzzle",
+    "currentTags": [],
+    "description": "Addictive bubble popping game"
+  },
+  {
+    "slug": "fluffy-chase",
+    "title": "Fluffy Chase",
+    "url": "https://the-file-fluffy-chase.morning-rice-8034.workers.dev/",
+    "currentCategory": "Action",
+    "currentTags": [],
+    "description": "Explore the city and fluff up a yellow taxi. Opens on the game's own site and may need time to load."
+  },
+  {
+    "slug": "freesbee",
+    "title": "Freesbee",
+    "url": "https://okidoki9903.github.io/Freesbee/",
+    "currentCategory": "Arcade",
+    "currentTags": [],
+    "description": "Run and jump as a dog to catch flying discs before time runs out."
+  },
+  {
+    "slug": "halberd-flight-range",
+    "title": "HALBERD FLIGHT RANGE",
+    "url": "https://claude.ai/artifact/KsDAsLriC91Yc3SiSSNUU4",
+    "currentCategory": "Simulation",
+    "currentTags": [],
+    "description": "Pilot an Apache-class helicopter in a flight-model prototype. Opens on the game's own site and may need time to load."
+  },
+  {
+    "slug": "heritage-walk-ethiopia",
+    "title": "Heritage Walk: Ethiopia",
+    "url": "https://heritage-walk-zeamekonnen-gmailcoms-projects.vercel.app/",
+    "currentCategory": "Adventure",
+    "currentTags": [],
+    "description": "Walk Ethiopian heritage sites and discover landmarks. Opens on the game's own site and may need time to load."
+  },
+  {
+    "slug": "island-survivor",
+    "title": "Island Survivor",
+    "url": "https://ja.sperdeboer.nl/island/",
+    "currentCategory": "Survival",
+    "currentTags": [],
+    "description": "Survive a crash landing on a desert island"
+  },
+  {
+    "slug": "kreuz-adler",
+    "title": "Kreuz & Adler",
+    "url": "https://kreuzundadlerspiel.grok.me/en",
+    "currentCategory": "Strategy",
+    "currentTags": [],
+    "description": "Lead a medieval faction through campaign battles. Opens on the game's own site and may need time to load."
+  },
+  {
+    "slug": "little-lake",
+    "title": "Little Lake (Gone Fishin')",
+    "url": "https://fishing-supdlicomcom.vercel.app/",
+    "currentCategory": "Simulation",
+    "currentTags": [],
+    "description": "Cast a line, wait for a bite, and reel in a fish."
+  },
+  {
+    "slug": "mikage-quest",
+    "title": "Mikage Quest",
+    "url": "https://kazuyoshi1118.itch.io/mikage-quest",
+    "currentCategory": "Adventure",
+    "currentTags": [],
+    "description": "Explore a Japanese pixel-art RPG demo. Opens on the game's own site and may need time to load."
+  },
+  {
+    "slug": "neon-nightfall",
+    "title": "Neon Nightfall",
+    "url": "https://mdhasibul35.github.io/neon-nightfall/",
+    "currentCategory": "Action",
+    "currentTags": [],
+    "description": "Survive waves of glowing enemies in a neon arena."
+  },
+  {
+    "slug": "nushi-fishing",
+    "title": "Nushi Fishing",
+    "url": "https://nushizuri02.netlify.app/",
+    "currentCategory": "Simulation",
+    "currentTags": [],
+    "description": "Cast into a rainy fishing pool and try to reel in its elusive catch."
+  },
+  {
+    "slug": "ovz-global-flashpoint",
+    "title": "OVZ: Global Flashpoint",
+    "url": "https://ovz-game-production.up.railway.app/",
+    "currentCategory": "Action",
+    "currentTags": [],
+    "description": "Open the OVZ browser game. Opens on the game's own site and may need time to load."
+  },
+  {
+    "slug": "pit-tactics",
+    "title": "Pit Tactics",
+    "url": "https://www.scenario.com/explorations/pit-tactics/",
+    "currentCategory": "Strategy",
+    "currentTags": [],
+    "description": "Command soldiers through a turn-based mining-pit mission."
+  },
+  {
+    "slug": "sykes-picot",
+    "title": "Proposed Frontiers",
+    "url": "https://sykespicot.io/",
+    "currentCategory": "Strategy",
+    "currentTags": [],
+    "description": "Paint and assign territories on a historical map of the Near East."
+  },
+  {
+    "slug": "quake-2",
+    "title": "Quake 2",
+    "url": "https://q2.pieter.com/",
+    "currentCategory": "Action",
+    "currentTags": [],
+    "description": "Open a browser Quake II port. Opens on the game's own site and may need time to load."
+  },
+  {
+    "slug": "rally-director",
+    "title": "Rally Director",
+    "url": "https://j001net.itch.io/rally-director",
+    "currentCategory": "Racing",
+    "currentTags": [],
+    "description": "Manage a rally team or race the rhythm-synced Challenge Road. Opens on the game's own site and may need time to load."
+  },
+  {
+    "slug": "pumpkin-catch",
+    "title": "RoboBeats: Pumpkin Catch",
+    "url": "https://pumpkin-catch.netlify.app",
+    "currentCategory": "Casual",
+    "currentTags": [],
+    "description": "Catch falling treats on Halloween night. Opens on the game's own site and may need time to load."
+  },
+  {
+    "slug": "senor-inteligente",
+    "title": "Señor Inteligente",
+    "url": "https://inteligente.lol/",
+    "currentCategory": "Arcade",
+    "currentTags": [],
+    "description": "Lasso the signs in a satirical side-scrolling arcade game."
+  },
+  {
+    "slug": "skyrunner",
+    "title": "Sky Runner",
+    "url": "https://games.johnslagboom.com/skyrunner/",
+    "currentCategory": "Arcade",
+    "currentTags": [],
+    "description": "Boost a futuristic car through a neon city in a fast vertical runner."
+  },
+  {
+    "slug": "spark",
+    "title": "Spark",
+    "url": "https://geoffstearns.com/spark/",
+    "currentCategory": "Simulation",
+    "currentTags": [],
+    "description": "Train a model and grow a tiny AI lab. Opens on the game's own site and may need time to load."
+  },
+  {
+    "slug": "terra-incognita",
+    "title": "Terra Incognita",
+    "url": "https://mts.now/mathofthewild",
+    "currentCategory": "Puzzle",
+    "currentTags": [],
+    "description": "Explore an island of mathematical shrines and scrolls."
+  },
+  {
+    "slug": "tidebreak",
+    "title": "Tidebreak",
+    "url": "https://tidebreak.freesoul.games/",
+    "currentCategory": "Strategy",
+    "currentTags": [],
+    "description": "Place defensive squads on an island before a Viking raid. Opens on the game's own site and may need time to load."
+  },
+  {
+    "slug": "toadstool-crossing",
+    "title": "Toadstool Crossing",
+    "url": "https://toadstoolcrossing.grok.me/",
+    "currentCategory": "Arcade",
+    "currentTags": [],
+    "description": "Hop past traffic and across the creek to fill five lily homes."
+  },
+  {
+    "slug": "unburied-blackwald-bunker",
+    "title": "UNBURIED: Blackwald Bunker",
+    "url": "https://unburied.inkwave.workers.dev/",
+    "currentCategory": "Action",
+    "currentTags": [],
+    "description": "Survive a winter bunker battle in a first-person shooter. Opens on the game's own site and may need time to load."
+  },
+  {
+    "slug": "warpstrike",
+    "title": "Warpstrike",
+    "url": "https://games.agora-agency.com/g/warpstrike-5c3b17",
+    "currentCategory": "Action",
+    "currentTags": [],
+    "description": "Pilot a cel-shaded spacecraft through enemy waves. Opens on the game's own site and may need time to load."
+  },
+  {
+    "slug": "ww2-dogfight",
+    "title": "WW2 Dog Fight Arena",
+    "url": "https://fly.zullo.fun/",
+    "currentCategory": "Action",
+    "currentTags": [],
+    "description": "Intense WW2 aerial combat simulator"
+  }
+]

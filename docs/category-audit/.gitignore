@@ -1,0 +1,17 @@
+# Keep raw gameplay captures locally; publish compact findings and source links.
+**/*.png
+**/*.jpg
+**/*.webp
+**/*.html
+**/*.py
+**/*.mjs
+**/inspection.json
+**/observations.json
+**/browser-results.json
+**/raw-results.json
+**/capture-log.json
+**/*-results.json
+**/*-observations.json
+**/*-evidence.json
+**/*-log.json
+**/recon.json

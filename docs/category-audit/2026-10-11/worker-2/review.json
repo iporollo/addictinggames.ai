@@ -1,0 +1,1413 @@
+[
+  {
+    "slug": "third-mainland-biker",
+    "title": "3rd Mainland Biker",
+    "url": "https://3rdmainland.start.ng/",
+    "currentCategory": "Arcade",
+    "categories": [
+      "Racing"
+    ],
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "mechanics": "A motorbike time-trial across an 11 km bridge: accelerate, brake, steer, and jump while chasing the fastest crossing.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Entered the cosmetic in-game display name AuditRider in an isolated browser profile.",
+        "Clicked ENTER - CATCH A BIKE.",
+        "Held W for 1.6 seconds."
+      ],
+      "outcome": "The title screen transitioned to a third-person rider on the 3rd Mainland Bridge road; the speed HUD changed and the rider advanced. The road is described as an 11 km fastest-crossing challenge.",
+      "screenshotPaths": [
+        "evidence/third-mainland-biker-recheck-before.png",
+        "evidence/third-mainland-biker-recheck-after.png"
+      ],
+      "limitations": "One short drive was tested; the crossing and leaderboard were not completed. No human opponent was observed."
+    },
+    "sources": [
+      {
+        "url": "https://3rdmainland.start.ng/",
+        "kind": "live page, visible controls, or current access check",
+        "timeframe": "current",
+        "detail": "Current road view after Enter and W input; on-screen prompt names the 11 km bridge and fastest ride."
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "The central challenge is to ride the bridge as fast as possible, so Racing fits better than a generic Arcade label.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "ashen-vow",
+    "title": "Ashen Vow",
+    "url": "https://pearl-spark-hazel-bold.grok.me/",
+    "currentCategory": "Action",
+    "categories": [
+      "Action",
+      "Adventure"
+    ],
+    "status": "documented_only",
+    "confidence": "medium",
+    "mechanics": "A side-scrolling fantasy roguelike with real-time attacks, platform traversal, enemy-specific counters, gear, and a road-to-dragon progression loop.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Clicked Begin the vow.",
+        "Held D for 800 ms, then pressed J to attack."
+      ],
+      "outcome": "Begin moved from the title overlay into the side-view stage with the peasant, goblin, chest, hearts, gear, and a Potions 1/5 HUD. The before/after capture does not establish a distinct movement or attack response attributable to D/J.",
+      "screenshotPaths": [
+        "evidence/ashen-vow-recheck-before.png",
+        "evidence/ashen-vow-recheck-after.png"
+      ],
+      "limitations": "The current run reached the opening stage but did not confirm movement, a hit, or a kill; no gameplay response is claimed."
+    },
+    "sources": [
+      {
+        "url": "https://pearl-spark-hazel-bold.grok.me/",
+        "kind": "live page, visible controls, or current access check",
+        "timeframe": "current",
+        "detail": "Current opening stage and HUD after Begin; D/J input response was inconclusive."
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "Real-time enemy combat is the immediate loop (Action); persistent kit and a multi-area quest culminating in a dragon give Adventure a meaningful secondary role.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "black-ops-2",
+    "title": "Black Ops 2",
+    "url": "https://vibeslops.luckeysystems.com/",
+    "currentCategory": "Action",
+    "categories": [
+      "Action"
+    ],
+    "status": "unresolved",
+    "confidence": "low",
+    "mechanics": "The assigned catalog entry identifies Black Ops 2 as an action port, but the linked host did not load and no first-party provenance for the browser recreation was available. The original Call of Duty: Black Ops II is a first-person shooter; that alone does not establish the mechanics of this linked port.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Opened the linked site twice with a fresh page and checked after a wait.",
+        "Clicked the page center; no game controls or canvas appeared."
+      ],
+      "outcome": "Both loads returned the browser DNS error DNS_PROBE_FINISHED_NXDOMAIN for vibeslops.luckeysystems.com.",
+      "screenshotPaths": [
+        "evidence/black-ops-2-before.png",
+        "evidence/black-ops-2-after.png"
+      ],
+      "limitations": "Current browser-port gameplay and provenance are unverified. The official manual describes the original title only and does not prove this dead host serves that game or a compatible recreation."
+    },
+    "sources": [
+      {
+        "url": "https://vibeslops.luckeysystems.com/",
+        "kind": "live page, visible controls, or current access check",
+        "timeframe": "current",
+        "detail": "Current access check returned NXDOMAIN twice; assignment/catalog description calls it an action port."
+      },
+      {
+        "url": "https://www.callofduty.com/content/dam/atvi/callofduty/blackops2/manuals/Manual_WiiU_EN.pdf",
+        "kind": "official Black Ops II manual",
+        "timeframe": "prior",
+        "detail": "First-party manual documents the original game's first-person shooter controls and Campaign, Multiplayer, and Zombies modes; it does not verify the linked browser port."
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "Retain the existing Action label because the catalog describes this link as an action port, but leave the record unresolved and do not add Shooter until the current port's provenance/mechanics are verified.",
+    "proposedNewCategories": [],
+    "accessIssue": "The linked host returned DNS_PROBE_FINISHED_NXDOMAIN on two attempts; no game content loaded.",
+    "accessIssueType": "dns"
+  },
+  {
+    "slug": "church-life",
+    "title": "Church Life",
+    "url": "https://churchlife.netlify.app/",
+    "currentCategory": "Adventure",
+    "categories": [
+      "Adventure"
+    ],
+    "status": "documented_only",
+    "confidence": "medium",
+    "mechanics": "A narrative life-simulation/story game about growing up in a church community, meeting characters, and advancing through dated objectives and dialogue.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Clicked Start your Church Life.",
+        "Entered the temporary name Audit in isolated browser storage.",
+        "Clicked Move to Grace Avenue."
+      ],
+      "outcome": "Entered the opening Grace Avenue scene at Saturday, Week 1, 8:00 AM with a 'Say hi to Pastor Daniel' objective and Mum's introductory dialogue. The capture ended before Continue or an objective interaction advanced the story.",
+      "screenshotPaths": [
+        "evidence/church-life-targeted-before.png",
+        "evidence/church-life-targeted-after.png"
+      ],
+      "limitations": "This verifies the story setup and objective UI, not dialog progression or a completed player task."
+    },
+    "sources": [
+      {
+        "url": "https://churchlife.netlify.app/",
+        "kind": "live page, visible controls, or current access check",
+        "timeframe": "current",
+        "detail": "Current opening story HUD and introductory dialogue; Continue was not advanced."
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "The tested loop is character-driven story and progression through a neighborhood, so Adventure is the best available category.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "comet-cup",
+    "title": "Comet Cup",
+    "url": "https://legendary-faloodeh-080537.netlify.app/games/comet-cup/index.html",
+    "currentCategory": "Sports",
+    "categories": [
+      "Racing",
+      "Multiplayer"
+    ],
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "mechanics": "Eight-kart circuit racing with three-lap tracks, drifting, and turbo; the current game offers split-screen local two-player races.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Selected 2 PLAYER.",
+        "Clicked START RACE.",
+        "Focused the split-screen race canvas; held ArrowUp for 2.2 seconds and ArrowLeft for 700 ms."
+      ],
+      "outcome": "Both racers appeared on the circuit in split-screen. The HUD advanced to lap 1/3; P1 reached 11 km/h while P2 remained at 0 km/h.",
+      "screenshotPaths": [
+        "evidence/comet-cup-targeted-before.png",
+        "evidence/comet-cup-targeted-after.png"
+      ],
+      "limitations": "Only the first seconds of one local split-screen race were tested; no full lap was completed."
+    },
+    "sources": [
+      {
+        "url": "https://legendary-faloodeh-080537.netlify.app/games/comet-cup/index.html",
+        "kind": "live page, visible controls, or current access check",
+        "timeframe": "current",
+        "detail": "Split-screen race with separate P1/P2 positions and speeds after the race began."
+      }
+    ],
+    "multiplayerMode": "Local 2-player",
+    "rationale": "Circuit placement and lap completion make Racing the primary category. The 2 PLAYER split-screen mode is actual local human multiplayer.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "diablo",
+    "title": "Diablo",
+    "url": "https://johnimril.github.io/diablo_web/",
+    "currentCategory": "Adventure",
+    "categories": [
+      "Action",
+      "Adventure"
+    ],
+    "status": "documented_only",
+    "confidence": "medium",
+    "mechanics": "An isometric action role-playing dungeon game centered on real-time combat, loot, and progression through Tristram's dungeon.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Clicked Play Free Demo; the page states that the limited shareware download needs no purchase or MPQ file.",
+        "Waited up to 64 additional seconds for the first-party browser demo.",
+        "Observed the Diablo Shareware menu with Single Player, Multiplayer, Replay, Intro, credits, and Exit; did not enter a campaign."
+      ],
+      "outcome": "The free demo recovered from its initial blank/loading state and reached its actual Diablo Shareware menu. The campaign itself was not started.",
+      "screenshotPaths": [
+        "evidence/diablo-followup-before.png",
+        "evidence/diablo-followup-after.png"
+      ],
+      "limitations": "A working playable demo is confirmed, but no in-dungeon gameplay or multiplayer session was tested. The full game separately asks for an owned DIABDAT.MPQ file."
+    },
+    "sources": [
+      {
+        "url": "https://johnimril.github.io/diablo_web/",
+        "kind": "live page, visible controls, or current access check",
+        "timeframe": "current",
+        "detail": "Recovered Shareware menu after the Play Free Demo path and extended wait."
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "Real-time combat is central (Action), while character, loot, and dungeon progression fit Adventure. The visible Multiplayer menu alone is insufficient to assign a human multiplayer tag for this browser port.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "dliclips-rush",
+    "title": "DliClips Rush",
+    "url": "https://dliclips-rush.netlify.app/",
+    "currentCategory": "Arcade",
+    "categories": [
+      "Arcade"
+    ],
+    "status": "documented_only",
+    "confidence": "medium",
+    "mechanics": "A rapid sequence of short clip challenges scored through repeated taps; guest nickname, avatar, and best scores are displayed publicly on a global leaderboard.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Opened the live page and stopped at the player identity/leaderboard notice without entering a nickname or selecting Play as guest."
+      ],
+      "outcome": "The current screen states that the nickname, avatar, and best scores appear publicly on the leaderboard. A dated prior receipt reports five guest taps advancing to Clip 2 without entering a leaderboard identity.",
+      "screenshotPaths": [
+        "evidence/dliclips-rush-before.png",
+        "evidence/dliclips-rush-after.png"
+      ],
+      "limitations": "No new gameplay or score was submitted because the current guest path explicitly discloses public leaderboard publication; current-version gameplay is therefore documented only."
+    },
+    "sources": [
+      {
+        "url": "https://dliclips-rush.netlify.app/",
+        "kind": "live page, visible controls, or current access check",
+        "timeframe": "current",
+        "detail": "Current public leaderboard disclosure and identity gate."
+      },
+      {
+        "path": "docs/AI-GAME-SCOUT-BATCH6-2026-10-09.md",
+        "kind": "dated gameplay receipt",
+        "timeframe": "prior",
+        "detail": "Records a guest run with five taps reaching Clip 2; no public leaderboard identity was entered."
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "The game is a fast sequence of short reflex/tap challenges, which matches Arcade. A leaderboard is not multiplayer.",
+    "proposedNewCategories": [],
+    "accessIssue": "Continuing as guest would publish a nickname/avatar and best scores publicly; the audit stopped before supplying identity or score data.",
+    "accessIssueType": "public-leaderboard"
+  },
+  {
+    "slug": "duel-in-the-great-hall",
+    "title": "Duel in the Great Hall",
+    "url": "https://claude.ai/artifact/PBxLGdivoetPfPiukZjJHu",
+    "currentCategory": "Action",
+    "categories": [
+      "Action"
+    ],
+    "status": "documented_only",
+    "confidence": "medium",
+    "mechanics": "A short fantasy arena fighter: fight a CPU opponent over a best-of-three set of rounds.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Opened the assigned Claude artifact URL and retried after the first failed load."
+      ],
+      "outcome": "Both attempts returned Claude's Page not found screen; no game or controls were served.",
+      "screenshotPaths": [
+        "evidence/duel-in-the-great-hall-before.png",
+        "evidence/duel-in-the-great-hall-after.png"
+      ],
+      "limitations": "Current gameplay and CPU behavior remain unverified because the artifact is unavailable. No multiplayer tag is supported by the description; it identifies a CPU opponent."
+    },
+    "sources": [
+      {
+        "url": "https://claude.ai/artifact/PBxLGdivoetPfPiukZjJHu",
+        "kind": "live page, visible controls, or current access check",
+        "timeframe": "current",
+        "detail": "Current linked artifact returned Page not found on both attempts."
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "The supplied game description identifies direct arena combat against CPU, which matches Action; a CPU is not human multiplayer.",
+    "proposedNewCategories": [],
+    "accessIssue": "The assigned Claude artifact URL returns Page not found.",
+    "accessIssueType": "404"
+  },
+  {
+    "slug": "flagfield",
+    "title": "Flagfield",
+    "url": "https://flag-field.grok.me/",
+    "currentCategory": "Puzzle",
+    "categories": [
+      "Puzzle",
+      "Multiplayer"
+    ],
+    "status": "documented_only",
+    "confidence": "medium",
+    "mechanics": "A competitive Minesweeper-like puzzle: reveal cells and flag mines; the live lobby offers matches against AI and random online humans.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Opened the live lobby and read its sign-in requirement and online-match options.",
+        "Clicked Vs AI; observed the 16×16, 51-mine duel setup, first-to-26 rules, social/ranked settings, and board preview.",
+        "Stopped before starting a round or signing in."
+      ],
+      "outcome": "The AI match setup is available without signing in, but lobby username selection and joining a human match require sign-in. The lobby explicitly offers a random online player ±200 ELO.",
+      "screenshotPaths": [
+        "evidence/flagfield-targeted-before.png",
+        "evidence/flagfield-targeted-after.png"
+      ],
+      "limitations": "No mine was revealed and no round was started. Human matchmaking is advertised, but sign-in is required to enter that mode."
+    },
+    "sources": [
+      {
+        "url": "https://flag-field.grok.me/",
+        "kind": "live page, visible controls, or current access check",
+        "timeframe": "current",
+        "detail": "AI match setup confirms board dimensions/rules; current lobby lists online-random human mode and sign-in gate."
+      }
+    ],
+    "multiplayerMode": "Online multiplayer",
+    "rationale": "The game is a mine-logic puzzle; explicit random online human opponents justify Multiplayer as a secondary category.",
+    "proposedNewCategories": [],
+    "accessIssue": "Sign-in is required to choose a lobby username and join a human match; the AI setup is accessible without signing in.",
+    "accessIssueType": "sign-in"
+  },
+  {
+    "slug": "flycard",
+    "title": "FlyCard",
+    "url": "https://takedaiori.github.io/flycardgame/",
+    "currentCategory": "Strategy",
+    "categories": [
+      "Strategy"
+    ],
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "mechanics": "A turn-based card duel against an AI, where the player drags cards backward to deploy them into a tabletop battle.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Switched the interface to English.",
+        "Dragged the Ace card backward from (465,475) to (355,505) following the on-screen tutorial."
+      ],
+      "outcome": "The card visibly rotated/shifted into the deployment lane and the status changed to 'AI is deploying…', confirming the deployment turn began.",
+      "screenshotPaths": [
+        "evidence/flycard-recheck-before.png",
+        "evidence/flycard-recheck-after.png"
+      ],
+      "limitations": "One card deployment was observed; the resulting AI move and full duel were not tested."
+    },
+    "sources": [
+      {
+        "url": "https://takedaiori.github.io/flycardgame/",
+        "kind": "live page, visible controls, or current access check",
+        "timeframe": "current",
+        "detail": "Card movement and AI deployment response after tutorial drag."
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "Card selection and positioning are tactical decisions, so Strategy is the best fit. The current screen labels the opponent AI, not a human player.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "golden-tide",
+    "title": "Golden Tide",
+    "url": "https://sundyme.github.io/golden-tide-play",
+    "currentCategory": "Casual",
+    "categories": [
+      "Casual"
+    ],
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "mechanics": "A coin-pusher: drop virtual coins onto a moving playfield, push coins toward rewards, and pursue treasure-map goals.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Loaded the live game and tapped the playfield once."
+      ],
+      "outcome": "The displayed virtual-coin count increased from 60 to 61. The page also says in-game coins are virtual items that cannot be redeemed.",
+      "screenshotPaths": [
+        "evidence/golden-tide-before.png",
+        "evidence/golden-tide-after.png"
+      ],
+      "limitations": "One tap verified the coin-pusher loop; no treasure-map goal was completed."
+    },
+    "sources": [
+      {
+        "url": "https://sundyme.github.io/golden-tide-play",
+        "kind": "live page, visible controls, or current access check",
+        "timeframe": "current",
+        "detail": "Current coin balance response and non-redeemable virtual-coin notice."
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "This is a low-pressure coin-pusher loop; Casual fits the existing categories better than Arcade or Gambling-like labels.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "half-life-cs-16",
+    "title": "Half Life / CS 1.6",
+    "url": "https://x8bitrain.github.io/webXash/",
+    "currentCategory": "Action",
+    "categories": [
+      "Action",
+      "Shooter"
+    ],
+    "status": "documented_only",
+    "confidence": "medium",
+    "mechanics": "A WebXash port front end for Half-Life/Counter-Strike, both first-person shooters; the current launch path requires user-supplied game data or ZIP files.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Opened the WebXash page; the default Half-Life screen listed HLDM, Uplink, and Day One demos.",
+        "Selected Counter-Strike and waited 10 seconds for a playable state; Start Demo disappeared while Open game Folder and Open ZIP remained."
+      ],
+      "outcome": "The linked front end loaded, but no game world or HUD appeared after selecting Counter-Strike. Its controls requested a game folder or ZIP.",
+      "screenshotPaths": [
+        "evidence/half-life-cs-16-recheck-before.png",
+        "evidence/half-life-cs-16-recheck-after.png"
+      ],
+      "limitations": "Current shooter gameplay is unverified because the site requires game files; no game-copy was supplied."
+    },
+    "sources": [
+      {
+        "url": "https://x8bitrain.github.io/webXash/",
+        "kind": "live page, visible controls, or current access check",
+        "timeframe": "current",
+        "detail": "WebXash screen after selecting Counter-Strike; only folder/ZIP controls remained."
+      },
+      {
+        "url": "https://store.steampowered.com/app/70/HalfLife/",
+        "kind": "official product page",
+        "timeframe": "prior",
+        "detail": "Valve's official Half-Life product page identifies the underlying first-person action game; it does not verify this browser port."
+      },
+      {
+        "url": "https://store.steampowered.com/app/10/CounterStrike/",
+        "kind": "official product page",
+        "timeframe": "prior",
+        "detail": "Valve's official Counter-Strike product page identifies the underlying multiplayer first-person shooter; this audit did not load its browser game data."
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "The underlying games are first-person shooters with real-time combat. Action fits the broad existing category; proposed Shooter expresses the core gun-based perspective more clearly. Do not infer browser-port multiplayer while no game is loaded.",
+    "proposedNewCategories": [
+      "Shooter"
+    ],
+    "accessIssue": "The current WebXash page did not include the Counter-Strike game data; it asks the player to provide a game folder or ZIP before a game can run.",
+    "accessIssueType": "game-copy-required"
+  },
+  {
+    "slug": "hidamari-pond",
+    "title": "Hidamari Pond",
+    "url": "https://seicolor.github.io/hidamari-numa-site/play/?place=numa",
+    "currentCategory": "Simulation",
+    "categories": [
+      "Simulators"
+    ],
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "mechanics": "A tranquil fishing simulation with rod/bait selection, casting, water depth, and fishing tasks.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Clicked Go fishing.",
+        "Pressed Space for 700 ms to cast."
+      ],
+      "outcome": "The scene entered the autumn pond; the HUD advanced from 17:18 to 17:19, Water changed from -- to 3.0 m, and the bobber-watch prompt appeared while the catch-two-fish task remained 0/2.",
+      "screenshotPaths": [
+        "evidence/hidamari-pond-recheck-before.png",
+        "evidence/hidamari-pond-recheck-after.png"
+      ],
+      "limitations": "A cast and bobber wait state were observed; no fish was caught."
+    },
+    "sources": [
+      {
+        "url": "https://seicolor.github.io/hidamari-numa-site/play/?place=numa",
+        "kind": "live page, visible controls, or current access check",
+        "timeframe": "current",
+        "detail": "Current pond scene and fishing HUD after casting."
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "Fishing tools, water depth, and catch tasks simulate a real-world activity; Simulation is the right existing catalog category (displayed as Simulators in browse).",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "k-dudu-ironfang",
+    "title": "K-DUDU: Ironfang",
+    "url": "https://oasis-winter-blade-thunder.grok.me/",
+    "currentCategory": "Action",
+    "categories": [
+      "Platformer",
+      "Action"
+    ],
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "mechanics": "A side-view pixel platform game built around jumping between ledges and fighting armored enemies with attacks and special moves.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Clicked Play.",
+        "Pressed K to jump, J to attack, then held D to move right."
+      ],
+      "outcome": "The title gave way to an active platform stage with the player, wolf, coins, hearts (4/5), and score 000100; the character traversed the stage while jump/attack controls were active.",
+      "screenshotPaths": [
+        "evidence/k-dudu-ironfang-recheck-before.png",
+        "evidence/k-dudu-ironfang-recheck-after.png"
+      ],
+      "limitations": "The short movement/combat sequence was observed; the armored wolf encounter was not completed."
+    },
+    "sources": [
+      {
+        "url": "https://oasis-winter-blade-thunder.grok.me/",
+        "kind": "live page, visible controls, or current access check",
+        "timeframe": "current",
+        "detail": "Current side-view stage, player HUD, and score after movement/jump/attack."
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "Jumping across ledges is a defining core mechanic and is not named by an existing category, so Platformer is proposed; Action covers the meaningful combat layer.",
+    "proposedNewCategories": [
+      "Platformer"
+    ],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "lantern-walk",
+    "title": "Lantern Walk",
+    "url": "https://sail-giant-wave-tiger.grok.me/",
+    "currentCategory": "Casual",
+    "categories": [
+      "Puzzle",
+      "Casual"
+    ],
+    "status": "documented_only",
+    "confidence": "medium",
+    "mechanics": "A gentle Halloween hidden-object game: match a prompted item such as a light/lantern among yard decorations, then continue walking through scenes.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Clicked Go! on the title prompt.",
+        "Clicked the pictured lantern that matched the current Light prompt.",
+        "Inspected the resulting prompt and item controls."
+      ],
+      "outcome": "The screen showed the prompt sequence Find / Light / Walk and controls Pumpkin, Kitty, Light, Candy, and Walk. The test did not capture a confirmed solved state or transition to the next yard.",
+      "screenshotPaths": [
+        "evidence/lantern-walk-followup-before.png",
+        "evidence/lantern-walk-followup-after.png"
+      ],
+      "limitations": "The selected picture was not confirmed as a correct answer; no score, success message, or completed scene was observed."
+    },
+    "sources": [
+      {
+        "url": "https://sail-giant-wave-tiger.grok.me/",
+        "kind": "live page, visible controls, or current access check",
+        "timeframe": "current",
+        "detail": "Current scene prompts and object-selection controls after beginning the mini-game."
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "Finding the requested object is a light visual puzzle, with a relaxed tone that also fits Casual; movement alone does not justify Adventure.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "mars-gt",
+    "title": "Mars GT",
+    "url": "https://mars-gt.vercel.app/",
+    "currentCategory": "Simulation",
+    "categories": [
+      "Simulators"
+    ],
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "mechanics": "A free-drive car simulation in a canyon with selectable Earth/Mars gravity, speed, and vehicle control; no race objective was present.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Waited 45 seconds for shader compilation.",
+        "Clicked the game canvas and held W for 1.8 seconds."
+      ],
+      "outcome": "The speed HUD changed from 0 to 65 km/h and displayed Earth gravity at 9.81 m/s² while the car advanced along the canyon road.",
+      "screenshotPaths": [
+        "evidence/mars-gt-recheck-before.png",
+        "evidence/mars-gt-recheck-after.png"
+      ],
+      "limitations": "The short drive was tested; switching gravity and completing an objective were not attempted."
+    },
+    "sources": [
+      {
+        "url": "https://mars-gt.vercel.app/",
+        "kind": "live page, visible controls, or current access check",
+        "timeframe": "current",
+        "detail": "Current speed and gravity HUD after driving."
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "This is free driving with gravity/environment simulation, not a race or track event; Simulation is the accurate existing category.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "moonlit-spellcaster",
+    "title": "Moonlit Spellcaster",
+    "url": "https://clubhouse1661.github.io/moonlit-spellcaster/",
+    "currentCategory": "Arcade",
+    "categories": [
+      "Arcade"
+    ],
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "mechanics": "A short score-focused spell action loop: move the wizard along a rampart and fire charged magic at targets.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Held ArrowRight for 900 ms.",
+        "Held Space for 700 ms to charge/release a spell."
+      ],
+      "outcome": "The screenshot showed the wizard on the rampart and the hit counter changed to HITS 1, confirming a target hit.",
+      "screenshotPaths": [
+        "evidence/moonlit-spellcaster-recheck-before.png",
+        "evidence/moonlit-spellcaster-recheck-after.png"
+      ],
+      "limitations": "One hit was confirmed; no longer score run or additional spell types were tested."
+    },
+    "sources": [
+      {
+        "url": "https://clubhouse1661.github.io/moonlit-spellcaster/",
+        "kind": "live page, visible controls, or current access check",
+        "timeframe": "current",
+        "detail": "Current HITS counter and rampart scene after movement and spell input."
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "The tested loop is short movement and target-hit scoring, which fits Arcade. There is no sustained combat or exploration evidence to add Action or Adventure.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "neon-stack",
+    "title": "NEON STACK",
+    "url": "https://neon-stack.grok.me/",
+    "currentCategory": "Puzzle",
+    "categories": [
+      "Puzzle"
+    ],
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "mechanics": "A falling-block puzzle in which the player moves/rotates pieces and clears rows; the live screen explicitly labels it a falling-block puzzle.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Clicked the playfield to start.",
+        "Pressed ArrowLeft, Space, and ArrowDown to move, rotate/drop the current block."
+      ],
+      "outcome": "The live score changed from 0 to 38 and the active falling-block board advanced.",
+      "screenshotPaths": [
+        "evidence/neon-stack-recheck-before.png",
+        "evidence/neon-stack-recheck-after.png"
+      ],
+      "limitations": "One opening piece and score response were observed; no full line-clear or game over was tested."
+    },
+    "sources": [
+      {
+        "url": "https://neon-stack.grok.me/",
+        "kind": "live page, visible controls, or current access check",
+        "timeframe": "current",
+        "detail": "Current board and score 38 after block controls."
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "Piece placement and row-clearing are direct puzzle-solving mechanics; Puzzle is sufficient.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "opus-2k",
+    "title": "Opus 5.5 NBA 2K",
+    "url": "https://genex.games/opus-2k",
+    "currentCategory": "Sports",
+    "categories": [
+      "Sports"
+    ],
+    "status": "documented_only",
+    "confidence": "medium",
+    "mechanics": "A solo 3D basketball game with dribbling, shooting, layups, dunks, sprinting, and ball reset controls.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Opened the Genex game listing and clicked Play.",
+        "Waited 80 more seconds for the embedded WebGPU game to load.",
+        "Inspected the loaded basketball court and its control legend; keyboard interaction was unavailable in the frame wrapper, so no current shot was attempted."
+      ],
+      "outcome": "The embedded frame recovered from loading into a 3D court with player and ball, a game clock at 0:51, and Space/Q/E/Shift/R controls. A dated local play receipt records Space producing an EARLY JUMP SHOT and reducing the 24-second shot clock to 22.",
+      "screenshotPaths": [
+        "evidence/opus-2k-targeted-before.png",
+        "evidence/opus-2k-targeted-after.png"
+      ],
+      "limitations": "Current gameplay response was not re-verified after the recovered load; the shot evidence is from a prior local test. The listing identifies solo basketball; no human mode was observed."
+    },
+    "sources": [
+      {
+        "url": "https://genex.games/opus-2k",
+        "kind": "live page, visible controls, or current access check",
+        "timeframe": "current",
+        "detail": "Recovered current 3D court and basketball HUD after extended WebGPU wait."
+      },
+      {
+        "path": "../game-discovery-bot/pilot-2026-10-10/tests/b/reports/basketball-sim.json",
+        "kind": "dated gameplay receipt",
+        "timeframe": "prior",
+        "detail": "Records a shot attempt, EARLY JUMP SHOT feedback, and shot clock 24→22 in the embedded basketball simulation."
+      },
+      {
+        "path": "../game-discovery-bot/pilot-2026-10-10/publication-draft.json",
+        "kind": "dated pilot summary",
+        "timeframe": "prior",
+        "detail": "Records the solo basketball gameplay check used by the pilot."
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "Basketball is the defining sport; the listing describes solo play. Do not add Multiplayer based on the hosting site's general online features.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "pelican-ride",
+    "title": "Pelican Ride",
+    "url": "https://yuhan9988.github.io/pelican-ride/",
+    "currentCategory": "Racing",
+    "categories": [
+      "Sports",
+      "Arcade"
+    ],
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "mechanics": "A pelican-on-a-bicycle sport/trick ride with speed, cadence, gears, steering, jumps, tricks, fishing, badges, and a 60-second challenge.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Clicked Enter muted.",
+        "Held W for 1.7 seconds and pressed Space to jump."
+      ],
+      "outcome": "Speed rose 24→44 km/h, cadence 67→106 rpm, gear 4/5→5/5, distance 0.03→0.07 km, and badges 0/18→2/18; a Liftoff achievement toast appeared.",
+      "screenshotPaths": [
+        "evidence/pelican-ride-recheck-before.png",
+        "evidence/pelican-ride-recheck-after.png"
+      ],
+      "limitations": "One short riding/jump segment was tested; no full 60-second challenge was completed. No opponent or race was present."
+    },
+    "sources": [
+      {
+        "url": "https://yuhan9988.github.io/pelican-ride/",
+        "kind": "live page, visible controls, or current access check",
+        "timeframe": "current",
+        "detail": "Current speed/cadence/distance/badge changes and Liftoff toast."
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "Bicycle riding and trick challenges are the sport activity (Sports); a short timed challenge and badge/score loop support Arcade. This is not Racing because no opponent/course finish race is shown.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "planeteer",
+    "title": "Planeteer",
+    "url": "https://planeteer.vercel.app/",
+    "currentCategory": "Simulation",
+    "categories": [
+      "Simulators",
+      "Adventure",
+      "Multiplayer"
+    ],
+    "status": "documented_only",
+    "confidence": "medium",
+    "mechanics": "An explorable solar-system/world simulator with walking, sea/air travel, offline exploration, and an explicit online-play mode.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Opened Play offline in an earlier native-browser test and selected Start in Palma.",
+        "Current isolated headless attempt remained on Click to look around after center click and W input.",
+        "Observed the live home screen's Play online / Nobody online right now message."
+      ],
+      "outcome": "A prior local receipt records W moving the character/camera toward a pine tree and lake while distance from Palma changed 30→31 km and the minimap updated. The current headless recheck did not release the look-around overlay. The home screen explicitly offers online play.",
+      "screenshotPaths": [
+        "evidence/planeteer-followup-before.png",
+        "evidence/planeteer-followup-after.png"
+      ],
+      "limitations": "Current headless gameplay input is blocked at pointer capture. The online mode was not entered and no other human player was present; its availability is indicated by the live menu."
+    },
+    "sources": [
+      {
+        "url": "https://planeteer.vercel.app/",
+        "kind": "live page, visible controls, or current access check",
+        "timeframe": "current",
+        "detail": "Current home exposes Play online; current in-world screenshot remains at Click to look around."
+      },
+      {
+        "path": "../addictinggames-scout-pilot/game-repos/scout-pilot-2026-10-10/tests/parent/planeteer.json",
+        "kind": "dated gameplay receipt",
+        "timeframe": "prior",
+        "detail": "Records offline play from Palma, movement toward a pine tree/lake, distance change 30→31 km, and minimap movement; pointer lock was unavailable but drag-look worked."
+      }
+    ],
+    "multiplayerMode": "Online multiplayer",
+    "rationale": "World movement and travel fit Simulation, exploration/progression fits Adventure, and the explicit online-play option supports Multiplayer. Online participation was not tested.",
+    "proposedNewCategories": [],
+    "accessIssue": "The current headless browser remains at the 'Click to look around' pointer-capture prompt; a prior native-browser receipt successfully moved and explored the world.",
+    "accessIssueType": "pointer-capture"
+  },
+  {
+    "slug": "pumpwise",
+    "title": "Pumpwise",
+    "url": "https://pumpwise-chi.vercel.app/",
+    "currentCategory": "Simulation",
+    "categories": [
+      "Simulators"
+    ],
+    "status": "documented_only",
+    "confidence": "medium",
+    "mechanics": "A petrol-station management simulator: manage forecourt operations, fuel deliveries, prices, services, finances, and customers.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Clicked Skip the guide.",
+        "Clicked the 2× time control."
+      ],
+      "outcome": "The 2× control advanced the clock from Day 1 06:00 to 06:06 and cash moved £2,500→£2,499, but no customer service or other management action occurred. A prior dated receipt records that changing the price led to customer service, fuel sales, revenue, and cash changes.",
+      "screenshotPaths": [
+        "evidence/pumpwise-recheck-before.png",
+        "evidence/pumpwise-recheck-after.png"
+      ],
+      "limitations": "Current input only advanced time; it did not verify a management response. The station management loop is supported by the prior price-change receipt, not this current capture."
+    },
+    "sources": [
+      {
+        "url": "https://pumpwise-chi.vercel.app/",
+        "kind": "live page, visible controls, or current access check",
+        "timeframe": "current",
+        "detail": "Current station interface, goals, and automatic time/cash tick; no management response was observed."
+      },
+      {
+        "path": "../game-discovery-bot/runs/2026-10-10T185643Z/reports/worker1/02-pumpwise.json",
+        "kind": "dated gameplay receipt",
+        "timeframe": "prior",
+        "detail": "After a price change the running station showed customer service, fuel sales, revenue, and cash changes; the run stopped before delivery or a full day."
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "The visible station-management interface and prior receipt's price/service/fuel-sales response describe operating a real-world petrol station, so Simulation is accurate.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "quiet-rooms",
+    "title": "Quiet Rooms",
+    "url": "https://53616d616e746861.github.io/quiet-rooms/",
+    "currentCategory": "Adventure",
+    "categories": [
+      "Adventure"
+    ],
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "mechanics": "A first-person atmospheric exploration story across surreal rooms, with walking, looking around, and interacting with characters.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Clicked Enter the room.",
+        "Held W for 1.7 seconds."
+      ],
+      "outcome": "The Sky Room began and its title/entry panel cleared. The screenshot showed the room geometry and central figure closer in the active first-person scene.",
+      "screenshotPaths": [
+        "evidence/quiet-rooms-recheck-before.png",
+        "evidence/quiet-rooms-recheck-after.png"
+      ],
+      "limitations": "Only the initial room and a short walk were tested; no later doorway or dialogue was completed."
+    },
+    "sources": [
+      {
+        "url": "https://53616d616e746861.github.io/quiet-rooms/",
+        "kind": "live page, visible controls, or current access check",
+        "timeframe": "current",
+        "detail": "Current Sky Room scene after entry and walking."
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "Exploring successive atmospheric rooms is the defining loop; Adventure is the best fit.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "ripple-pool",
+    "title": "Ripple Pool",
+    "url": "https://ripplepool.app/",
+    "currentCategory": "Puzzle",
+    "categories": [
+      "Puzzle"
+    ],
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "mechanics": "A physics puzzle that aims colored drops into a pool so matching colors collide and merge, creating room for further drops.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Clicked Try it.",
+        "Clicked and pulled back on the visible game surface to place/aim the first drop."
+      ],
+      "outcome": "The page moved from Place a drop to Aim for a matching color; a new purple drop appeared in the pool and the next drop indicator changed to blue.",
+      "screenshotPaths": [
+        "evidence/ripple-pool-recheck-before.png",
+        "evidence/ripple-pool-recheck-after.png"
+      ],
+      "limitations": "The opening placement and aim response were observed; a matching-color merge and level completion were not tested."
+    },
+    "sources": [
+      {
+        "url": "https://ripplepool.app/",
+        "kind": "live page, visible controls, or current access check",
+        "timeframe": "current",
+        "detail": "Current pool after a drop and the next-color change."
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "The core loop is aiming and combining colors to solve a spatial puzzle; Puzzle is sufficient.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "rx-78-2-reentry",
+    "title": "RX-78-2 Re-entry",
+    "url": "https://rx78-2-reentry.vercel.app/",
+    "currentCategory": "Simulation",
+    "categories": [
+      "Simulators",
+      "Action"
+    ],
+    "status": "documented_only",
+    "confidence": "medium",
+    "mechanics": "A detailed atmospheric re-entry flight simulator in a Gundam scenario, with telemetry, manual-entry controls, mission communications, and Zaku attack pressure.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Clicked Manual Entry.",
+        "Pressed F and held W for 700 ms."
+      ],
+      "outcome": "The current page left the manual-entry overlay and displayed a short launch scene with flight telemetry and Amuro's launch communication. F did not change the weapon-energy display or kill count, and the telemetry/time progression cannot be attributed to the attempted W input. A dated first-party prior test records a confirmed beam-rifle energy change from 15/15 to 14/15 after firing.",
+      "screenshotPaths": [
+        "evidence/rx-78-2-reentry-recheck-before.png",
+        "evidence/rx-78-2-reentry-recheck-after.png"
+      ],
+      "limitations": "The current recheck did not confirm a control response; active combat/control evidence is from the dated prior gameplay report. No combat encounter or mission landing was completed."
+    },
+    "sources": [
+      {
+        "url": "https://rx78-2-reentry.vercel.app/",
+        "kind": "live page, visible controls, or current access check",
+        "timeframe": "current",
+        "detail": "Current manual-entry/launch scene; prior receipt supports controllable flight and firing."
+      },
+      {
+        "path": "../addictinggames-scout-pilot/game-repos/scout-pilot-2026-10-10/tests/a/rx-78-2-reentry.json",
+        "kind": "dated first-party gameplay receipt",
+        "timeframe": "prior",
+        "detail": "A prior Manual Entry test selected Shield to Flow, then target-lock and F firing changed the HUD to MASTER CAUTION/GUN LOCK and Beam Rifle Energy 15/15→14/15; no Zaku kill or mission completion was claimed."
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "Atmospheric flight telemetry and manual flight control make Simulation primary. The narrative includes an active hostile attack scenario, so Action is a meaningful secondary tag; no combat was claimed as played.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "skate-3",
+    "title": "Skate 3",
+    "url": "https://skate.aaddpp.lol/",
+    "currentCategory": "Sports",
+    "categories": [
+      "Sports"
+    ],
+    "status": "documented_only",
+    "confidence": "medium",
+    "mechanics": "The underlying Skate 3 is a skateboarding sports game with trick challenges and skatepark/street environments; the current fan port hosts only its engine and requires a legally owned converted game copy.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Opened the linked fan port and inspected its own access instructions.",
+        "Did not supply a game copy."
+      ],
+      "outcome": "The page states that no game content is hosted and asks the player to bring a legally owned converted Skate 3 copy; the screenshot remained at the engine page.",
+      "screenshotPaths": [
+        "evidence/skate-3-before.png",
+        "evidence/skate-3-after.png"
+      ],
+      "limitations": "No Skate 3 game content loaded, so the live port's controls and gameplay could not be checked."
+    },
+    "sources": [
+      {
+        "url": "https://skate.aaddpp.lol/",
+        "kind": "live page, visible controls, or current access check",
+        "timeframe": "current",
+        "detail": "Current fan-port copy requirement and engine-only page."
+      },
+      {
+        "url": "https://www.ea.com/en-gb/games/skate/skate-3",
+        "kind": "official publisher product page",
+        "timeframe": "prior",
+        "detail": "EA's official page describes the underlying title's skateboarding, tricks, parks, and team challenges; it does not verify the browser port."
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "The official publisher describes Skate 3 as a skateboarding game; Sports is the existing category that fits the underlying title.",
+    "proposedNewCategories": [],
+    "accessIssue": "The linked site contains only the engine; a legally owned Skate 3 copy converted by the user is required to play.",
+    "accessIssueType": "game-copy-required"
+  },
+  {
+    "slug": "snowboard-supreme",
+    "title": "Snowboard Supreme",
+    "url": "https://snowboard-supreme.vercel.app/",
+    "currentCategory": "Sports",
+    "categories": [
+      "Sports",
+      "Arcade"
+    ],
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "mechanics": "An endless snowboard descent with carving, jumps, grabs, speed, score, and combo chaining; separate slalom and daily challenge modes are also offered.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Selected Endless Descent.",
+        "Pressed Space to jump and held A to carve for 1.4 seconds."
+      ],
+      "outcome": "The run HUD showed score 914, a ×3 combo, 30 m distance, and 36 km/h; the player was airborne with a grab prompt.",
+      "screenshotPaths": [
+        "evidence/snowboard-supreme-recheck-before.png",
+        "evidence/snowboard-supreme-recheck-after.png"
+      ],
+      "limitations": "The short opening run was observed; no wipeout, full challenge, or daily seed completion was tested."
+    },
+    "sources": [
+      {
+        "url": "https://snowboard-supreme.vercel.app/",
+        "kind": "live page, visible controls, or current access check",
+        "timeframe": "current",
+        "detail": "Current run score/combo/distance HUD after a jump and carve."
+      },
+      {
+        "path": "docs/AI-GAME-SCOUT-BATCH8-2026-10-09.md",
+        "kind": "dated gameplay receipt",
+        "timeframe": "prior",
+        "detail": "A prior Endless Descent test used Space and A; speed rose 32→84 km/h, distance reached 249 m, and score reached 664."
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "Snowboarding is the sport activity (Sports); its endless short-run score and combo loop supports Arcade. No race is required in the tested Endless Descent mode.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "stardust-isles",
+    "title": "Stardust Isles",
+    "url": "https://game.danzechen.world/",
+    "currentCategory": "Adventure",
+    "categories": [
+      "Adventure"
+    ],
+    "status": "documented_only",
+    "confidence": "medium",
+    "mechanics": "A 3D island exploration and collection game; the live title describes it as an exploration/collection mini-game.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Inspected the bilingual title screen and New Journey/Continue controls.",
+        "A short current W press did not move past the title screen.",
+        "A dated prior receipt records starting New Journey, entering the 3D village, and walking toward the well."
+      ],
+      "outcome": "The current page remains on the Stardust Isles title with New Journey and language controls. Prior gameplay moved the character toward the well as the in-game clock advanced 08:40→09:10.",
+      "screenshotPaths": [
+        "evidence/stardust-isles-followup-before.png",
+        "evidence/stardust-isles-followup-after.png"
+      ],
+      "limitations": "Current gameplay was not re-entered during this bounded run; the playable-world evidence is from the dated prior receipt."
+    },
+    "sources": [
+      {
+        "url": "https://game.danzechen.world/",
+        "kind": "live page, visible controls, or current access check",
+        "timeframe": "current",
+        "detail": "Current title screen; no loading error or gate."
+      },
+      {
+        "path": "docs/AI-GAME-SCOUT-BATCH5-2026-10-09.md",
+        "kind": "dated gameplay receipt",
+        "timeframe": "prior",
+        "detail": "Started New Journey, entered the 3D village, walked toward the well, and observed in-game time 08:40→09:10."
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "Exploration and collecting through an island village are the main loop; Adventure fits, and the failure to move past the title in a short test is not an access failure.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "simpsons-hit-and-run",
+    "title": "The Simpsons: Hit & Run",
+    "url": "https://shar-wasm.cjoseph.workers.dev/?skipmovie",
+    "currentCategory": "Racing",
+    "categories": [
+      "Adventure"
+    ],
+    "status": "documented_only",
+    "confidence": "medium",
+    "mechanics": "An open-world mission game mixing on-foot exploration and driving around Springfield; the driving supports missions and pursuit rather than a standalone track-racing loop.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Clicked Play and waited 22 seconds until the game's NEW GAME screen appeared.",
+        "Clicked NEW GAME and held ArrowUp for one second while the game continued loading."
+      ],
+      "outcome": "The browser port reached its own Simpsons living-room title/menu scene and then showed the game loading emblem. No active mission or driving HUD was confirmed.",
+      "screenshotPaths": [
+        "evidence/simpsons-hit-and-run-followup-before.png",
+        "evidence/simpsons-hit-and-run-followup-after.png"
+      ],
+      "limitations": "Current port gameplay remains unverified after the NEW GAME loading step. Reaching a game menu is not gameplay verification; the bounded wait does not establish a site availability failure."
+    },
+    "sources": [
+      {
+        "url": "https://shar-wasm.cjoseph.workers.dev/?skipmovie",
+        "kind": "live page, visible controls, or current access check",
+        "timeframe": "current",
+        "detail": "Current game title/loading scene after choosing NEW GAME; no gameplay HUD."
+      },
+      {
+        "url": "https://www.nintendoworldreport.com/pr/8984/simpsons-hit-n-run-released",
+        "kind": "publisher release announcement",
+        "timeframe": "prior",
+        "detail": "Describes mission-based driving and on-foot play in an interactive Springfield; supports Adventure rather than a racing-only label."
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "The publisher describes mission-based on-foot and vehicle play across Springfield. Adventure better captures the open-world mission loop than Racing; driving alone is not a race.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "till-dark",
+    "title": "Till Dark",
+    "url": "https://till-dark.vercel.app/",
+    "currentCategory": "Adventure",
+    "categories": [
+      "Adventure"
+    ],
+    "status": "documented_only",
+    "confidence": "medium",
+    "mechanics": "A first-person forest escape/exploration game with walking, running, jumping, and a nightfall threat.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Current headless run waited for shader compilation, clicked the enter prompt twice, and held W; the overlay changed to Click again to enter but remained.",
+        "A dated local play receipt records native Chrome movement toward terrain and a silhouette with W and movement away with S."
+      ],
+      "outcome": "The current capture stayed on the forest entry overlay after the repeated click; prior native-browser play advanced into the forest and changed the view with movement.",
+      "screenshotPaths": [
+        "evidence/till-dark-followup-before.png",
+        "evidence/till-dark-followup-after.png"
+      ],
+      "limitations": "Current headless pointer capture did not enter the scene. The earlier native-browser gameplay is the only successful movement receipt; nightfall/escape was not completed."
+    },
+    "sources": [
+      {
+        "url": "https://till-dark.vercel.app/",
+        "kind": "live page, visible controls, or current access check",
+        "timeframe": "current",
+        "detail": "Current headless overlay still requests a second click."
+      },
+      {
+        "path": "../game-discovery-bot/runs/2026-10-10T185643Z/reports/worker3/03-parent-recheck.json",
+        "kind": "dated gameplay receipt",
+        "timeframe": "prior",
+        "detail": "Native Chrome test entered the rainy forest; W moved toward terrain/silhouette and S moved away."
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "The documented objective is to escape/explore a forest under a nightfall threat, so Adventure is supported. This is a headless pointer-capture barrier, not evidence the site is down.",
+    "proposedNewCategories": [],
+    "accessIssue": "Headless browser pointer capture did not clear the Click again to enter overlay; previous native-browser gameplay did enter and move.",
+    "accessIssueType": "pointer-capture"
+  },
+  {
+    "slug": "trip-ibadan",
+    "title": "Trip_Ibadan",
+    "url": "https://trip-ibadan.vercel.app/",
+    "currentCategory": "Simulation",
+    "categories": [
+      "Simulators"
+    ],
+    "status": "documented_only",
+    "confidence": "medium",
+    "mechanics": "An intercity passenger-driving simulation across a Lagos-to-Ibadan route, with selectable vehicles, passenger service, road progress, and driving controls.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Current run clicked START TRIP and observed the Toyota Sienna/intercity bus selection screen; it did not board a vehicle or start the route.",
+        "A dated prior receipt records selecting Toyota Sienna, Ojota→Berger, boarding six passengers, then driving with W."
+      ],
+      "outcome": "Current route selection lists six passenger seats and vehicle attributes. Prior play records the road moving and speed increasing from 0 to 13 km/h after departure.",
+      "screenshotPaths": [
+        "evidence/trip-ibadan-followup-before.png",
+        "evidence/trip-ibadan-followup-after.png"
+      ],
+      "limitations": "No current run was driven past the vehicle picker; route-driving evidence is dated prior gameplay. No timed race or human competitor was observed."
+    },
+    "sources": [
+      {
+        "url": "https://trip-ibadan.vercel.app/",
+        "kind": "live page, visible controls, or current access check",
+        "timeframe": "current",
+        "detail": "Current vehicle selection screen after starting the route."
+      },
+      {
+        "path": "docs/AI-GAME-SCOUT-BATCH8-2026-10-09.md",
+        "kind": "dated gameplay receipt",
+        "timeframe": "prior",
+        "detail": "Selected Toyota Sienna and Ojota→Berger, boarded six passengers, departed, and observed speed rise 0→13 km/h while the road moved."
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "Passenger transport along a real-world intercity route is simulation, not Racing.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "void-clash",
+    "title": "Void Clash TCG",
+    "url": "https://void-clash-tcg.grok.me",
+    "currentCategory": "Strategy",
+    "categories": [
+      "Strategy",
+      "Multiplayer"
+    ],
+    "status": "documented_only",
+    "confidence": "medium",
+    "mechanics": "A card battler with deck construction, resource/weapon/skill cards, solo AI fights, and a PVP mode advertised on the current title screen.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Clicked START, selected NEXT at the fighter screen, and observed the Realm Deck builder with four stored decks and weapon/skill/item cards.",
+        "Did not enter a match or the PVP queue.",
+        "A dated prior receipt records a solo match against AI with movement, an AI turn, defensive play, and a card play."
+      ],
+      "outcome": "Current page reached the deck-management screen. The title screen visibly offers PVP. Prior gameplay verifies a turn-based solo combat loop but does not verify human PVP matchmaking.",
+      "screenshotPaths": [
+        "evidence/void-clash-recheck-before.png",
+        "evidence/void-clash-recheck-after.png"
+      ],
+      "limitations": "No live human match was started; Multiplayer is based on the explicit PVP mode label. Current gameplay did not progress past deck building."
+    },
+    "sources": [
+      {
+        "url": "https://void-clash-tcg.grok.me",
+        "kind": "live page, visible controls, or current access check",
+        "timeframe": "current",
+        "detail": "Current deck builder; PVP option on title screen."
+      },
+      {
+        "path": "../addictinggames-scout-pilot/game-repos/scout-pilot-2026-10-10/tests/c/void-clash-tcg.json",
+        "kind": "dated gameplay receipt",
+        "timeframe": "prior",
+        "detail": "Records a solo fight with movement, AI turn, defense, and card play; no human match was involved."
+      }
+    ],
+    "multiplayerMode": "Online multiplayer",
+    "rationale": "Deck selection, resources, and turn-based tactics fit Strategy; the visible PVP option indicates a human-versus-human mode, though matchmaking was not tested.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "wild-fields-1648",
+    "title": "Wild Fields 1648",
+    "url": "https://claude.ai/artifact/WKFVS2VNcV8eKBd4kQs4mH",
+    "currentCategory": "Strategy",
+    "categories": [
+      "Strategy"
+    ],
+    "status": "documented_only",
+    "confidence": "medium",
+    "mechanics": "A pike-and-shot battlefield tactics game in which the player issues worker/unit commands and plans force deployment.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Opened the assigned Claude artifact URL and retried after the first failed load."
+      ],
+      "outcome": "Both attempts returned Claude's Page not found screen; no game controls or battlefield were served.",
+      "screenshotPaths": [
+        "evidence/wild-fields-1648-before.png",
+        "evidence/wild-fields-1648-after.png"
+      ],
+      "limitations": "Current gameplay and unit-command details could not be checked on the linked page; the category is based on the site's supplied description."
+    },
+    "sources": [
+      {
+        "url": "https://claude.ai/artifact/WKFVS2VNcV8eKBd4kQs4mH",
+        "kind": "live page, visible controls, or current access check",
+        "timeframe": "current",
+        "detail": "Current linked artifact returned Page not found on both attempts."
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "Issuing unit commands on a battlefield is a planning/tactics loop, matching Strategy. No multiplayer mode is shown in the supplied description.",
+    "proposedNewCategories": [],
+    "accessIssue": "The assigned Claude artifact URL returns Page not found.",
+    "accessIssueType": "404"
+  },
+  {
+    "slug": "zero-facility",
+    "title": "Zero Facility",
+    "url": "https://suyancc.github.io/zero-facility",
+    "currentCategory": "Adventure",
+    "categories": [
+      "Adventure"
+    ],
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "mechanics": "An isometric stealth-escape adventure through a facility, with objectives, movement, equipment/items, and a timed escape pressure.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Clicked the orange Start Escape control.",
+        "Held W for 1.7 seconds."
+      ],
+      "outcome": "The live scene entered the facility and displayed a mission HUD with a running timer, equipment/item panel, and objective/progress indicators; the player moved through the active area.",
+      "screenshotPaths": [
+        "evidence/zero-facility-recheck-before.png",
+        "evidence/zero-facility-recheck-after.png"
+      ],
+      "limitations": "The opening escape segment was tested; no successful exit or full objective chain was completed."
+    },
+    "sources": [
+      {
+        "url": "https://suyancc.github.io/zero-facility",
+        "kind": "live page, visible controls, or current access check",
+        "timeframe": "current",
+        "detail": "Current in-facility mission HUD and active scene after Start Escape and movement."
+      }
+    ],
+    "multiplayerMode": null,
+    "rationale": "The task is an exploration/stealth escape with objectives, making Adventure more accurate than Action based solely on movement or a timer.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  }
+]

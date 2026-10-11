@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import { useEffect, useRef, useState } from 'react';
 import type { PlayableGame } from '@/lib/games';
+import { gameTags } from '@/lib/game-categories';
 import { recordPlayed, forgetPlayed } from '@/lib/history';
 import { BackToDiscover } from './BackToDiscover';
 import { Icon } from './Icon';
@@ -30,7 +31,7 @@ export function GamePlayer({ game }: { game: PlayableGame }) {
 
   return <main id="main" className="player-page container">
     <div className="player-topline"><BackToDiscover /><Link href="/games" className="text-link">All Games <Icon name="arrow" width={16} /></Link></div>
-    <div className="player-panel"><div className="player-heading"><div><span className="eyebrow">{game.category}</span><h2>{game.title}</h2><p>{game.description}</p><a className="author-link" href={`https://x.com/${game.author}`} target="_blank" rel="noopener noreferrer">By @{game.author}</a></div><button type="button" className="button secondary fullscreen-button" aria-label="Enter fullscreen" onClick={fullscreen}><Icon name="fullscreen" /><span>Fullscreen</span></button></div>
+    <div className="player-panel"><div className="player-heading"><div><span className="eyebrow">{gameTags(game).join(' · ')}</span><h2>{game.title}</h2><p>{game.description}</p><a className="author-link" href={`https://x.com/${game.author}`} target="_blank" rel="noopener noreferrer">By @{game.author}</a></div><button type="button" className="button secondary fullscreen-button" aria-label="Enter fullscreen" onClick={fullscreen}><Icon name="fullscreen" /><span>Fullscreen</span></button></div>
       {fullscreenError && <p className="fullscreen-message" role="status">{fullscreenError}</p>}
       <div className="game-viewport" ref={viewport} aria-busy={state === 'loading'}>
         <button type="button" className="exit-fullscreen button secondary" onClick={() => document.exitFullscreen().catch(() => setFullscreenError('Use your browser’s fullscreen control to return.'))}><Icon name="close" />Exit fullscreen</button>

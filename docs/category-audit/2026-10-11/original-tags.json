@@ -1,0 +1,1188 @@
+{
+  "sourceCommit": "a4b007f01e0b39e8929351a14e39cf2b483092fc",
+  "note": "Reconstructed from source lib/browse.ts; roster currentTags fields were empty in the initial extraction. Mode labels are kept separate.",
+  "games": [
+    {
+      "slug": "3d-car-simulator",
+      "categories": [
+        "Simulators"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "third-mainland-biker",
+      "categories": [
+        "Arcade",
+        "Racing"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "99-youth-echecs",
+      "categories": [
+        "Strategy"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "go-for-launch",
+      "categories": [
+        "Arcade"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "aether-break",
+      "categories": [
+        "Action"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "ash-line",
+      "categories": [
+        "Strategy",
+        "Tower Defense"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "ashen-vow",
+      "categories": [
+        "Action",
+        "Adventure"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "atomic-war-2d",
+      "categories": [
+        "Strategy"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "axiom",
+      "categories": [
+        "Puzzle"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "bad-idea",
+      "categories": [
+        "Puzzle"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "battle-peaks",
+      "categories": [
+        "Strategy",
+        "Multiplayer"
+      ],
+      "mode": "Local 2-player"
+    },
+    {
+      "slug": "black-ops-2",
+      "categories": [
+        "Action"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "bo1-zombies",
+      "categories": [
+        "Action"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "brian-boru-golf",
+      "categories": [
+        "Sports"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "bruce-lee-the-dragon-returns",
+      "categories": [
+        "Action"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "canal-shark",
+      "categories": [
+        "Action"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "church-life",
+      "categories": [
+        "Adventure"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "cinder-ring",
+      "categories": [
+        "Action"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "clunk-smash",
+      "categories": [
+        "Action"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "coin-collector-3d",
+      "categories": [
+        "Action"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "color-war",
+      "categories": [
+        "Strategy"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "comet-cup",
+      "categories": [
+        "Sports"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "cowduction",
+      "categories": [
+        "Action"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "cows-with-buns",
+      "categories": [
+        "Action"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "crew-run",
+      "categories": [
+        "Adventure"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "cs-surf",
+      "categories": [
+        "Sports"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "diablo",
+      "categories": [
+        "Adventure"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "dili-cart",
+      "categories": [
+        "Sports",
+        "Racing"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "dino-souls",
+      "categories": [
+        "Action"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "dirtline",
+      "categories": [
+        "Arcade"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "disco-dino-lost-worlds",
+      "categories": [
+        "Adventure"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "dliclips-rush",
+      "categories": [
+        "Arcade"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "dlicom-attack",
+      "categories": [
+        "Strategy"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "doge-rally",
+      "categories": [
+        "Sports"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "dracula-0",
+      "categories": [
+        "Action",
+        "Adventure"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "drawdown",
+      "categories": [
+        "Puzzle"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "duel-in-the-great-hall",
+      "categories": [
+        "Action"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "dust-and-lead",
+      "categories": [
+        "Action"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "earth-defender",
+      "categories": [
+        "Action"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "falling-bubbles",
+      "categories": [
+        "Puzzle"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "faux-ami",
+      "categories": [
+        "Puzzle"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "flagfield",
+      "categories": [
+        "Puzzle"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "flap-nyc",
+      "categories": [
+        "Arcade"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "fleet-horizon",
+      "categories": [
+        "Action"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "fluffy-chase",
+      "categories": [
+        "Action"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "fly-pieter",
+      "categories": [
+        "Simulators",
+        "Multiplayer"
+      ],
+      "mode": "Online multiplayer"
+    },
+    {
+      "slug": "flycard",
+      "categories": [
+        "Strategy"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "footballmon",
+      "categories": [
+        "Sports"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "foundry",
+      "categories": [
+        "Puzzle"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "freesbee",
+      "categories": [
+        "Arcade"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "gigacity",
+      "categories": [
+        "Simulators"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "golden-tide",
+      "categories": [
+        "Casual"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "gta-5",
+      "categories": [
+        "Simulators"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "gta-vice-city",
+      "categories": [
+        "Simulators"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "halberd-flight-range",
+      "categories": [
+        "Simulators"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "half-life",
+      "categories": [
+        "Action"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "half-life-cs-16",
+      "categories": [
+        "Action"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "halo-ce",
+      "categories": [
+        "Action"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "halo-ce-mobile",
+      "categories": [
+        "Action"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "heritage-walk-ethiopia",
+      "categories": [
+        "Adventure"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "heroes-journey",
+      "categories": [
+        "Action"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "hidamari-pond",
+      "categories": [
+        "Simulators"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "hungry-seal",
+      "categories": [
+        "Arcade"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "ink-dash",
+      "categories": [
+        "Action",
+        "Survival"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "island-survivor",
+      "categories": [
+        "Survival"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "jamo-jump",
+      "categories": [
+        "Puzzle"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "k-dudu-ironfang",
+      "categories": [
+        "Action"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "kettu-vellam",
+      "categories": [
+        "Racing"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "kindlekeep-td",
+      "categories": [
+        "Strategy",
+        "Tower Defense"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "kreuz-adler",
+      "categories": [
+        "Strategy"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "lantern-isle",
+      "categories": [
+        "Action"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "lantern-walk",
+      "categories": [
+        "Casual"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "lava-lasso",
+      "categories": [
+        "Action"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "lets-kart",
+      "categories": [
+        "Racing"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "little-lake",
+      "categories": [
+        "Simulators"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "llama-roguelike",
+      "categories": [
+        "Strategy"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "mars-gt",
+      "categories": [
+        "Simulators"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "math-quest",
+      "categories": [
+        "Puzzle"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "mayoi-koji",
+      "categories": [
+        "Puzzle"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "mikage-quest",
+      "categories": [
+        "Adventure"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "moon-mars-mission-studio",
+      "categories": [
+        "Simulators"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "moonlit-spellcaster",
+      "categories": [
+        "Arcade"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "must-kill-the-king",
+      "categories": [
+        "Strategy"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "naval-warfare",
+      "categories": [
+        "Action"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "neon-nightfall",
+      "categories": [
+        "Action",
+        "Survival"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "neon-palms-port-solana",
+      "categories": [
+        "Simulators"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "neon-stack",
+      "categories": [
+        "Puzzle"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "night-cruise",
+      "categories": [
+        "Racing"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "night-shift",
+      "categories": [
+        "Puzzle"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "nushi-fishing",
+      "categories": [
+        "Simulators"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "operation-nightwood",
+      "categories": [
+        "Action"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "opus-2k",
+      "categories": [
+        "Sports"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "orbit-forge",
+      "categories": [
+        "Simulators"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "overburn",
+      "categories": [
+        "Action"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "ovz-global-flashpoint",
+      "categories": [
+        "Action"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "pantry-dash",
+      "categories": [
+        "Arcade"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "pelican-ride",
+      "categories": [
+        "Racing"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "pes-6",
+      "categories": [
+        "Sports"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "pip-the-plant",
+      "categories": [
+        "Simulators"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "pit-tactics",
+      "categories": [
+        "Strategy"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "plaid-circuit",
+      "categories": [
+        "Sports",
+        "Racing",
+        "Arcade"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "planeteer",
+      "categories": [
+        "Simulators"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "pocket-gridiron",
+      "categories": [
+        "Sports"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "project-nova",
+      "categories": [
+        "Arcade"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "sykes-picot",
+      "categories": [
+        "Strategy"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "pulse",
+      "categories": [
+        "Arcade"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "pumpwise",
+      "categories": [
+        "Simulators"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "puni-jump",
+      "categories": [
+        "Action"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "quake-1",
+      "categories": [
+        "Action"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "quake-2",
+      "categories": [
+        "Action"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "quake-3",
+      "categories": [
+        "Action"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "quiet-rooms",
+      "categories": [
+        "Adventure"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "rage",
+      "categories": [
+        "Action"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "rajyam",
+      "categories": [
+        "Strategy"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "rally-director",
+      "categories": [
+        "Racing"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "return-to-castle-wolfenstein",
+      "categories": [
+        "Action"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "ripple-pool",
+      "categories": [
+        "Puzzle"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "rise-and-raid",
+      "categories": [
+        "Strategy"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "robobeats-mooncake-chop",
+      "categories": [
+        "Arcade"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "pumpkin-catch",
+      "categories": [
+        "Casual"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "roll-for-agi",
+      "categories": [
+        "Strategy"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "rx-78-2-reentry",
+      "categories": [
+        "Simulators"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "sadie-and-luna",
+      "categories": [
+        "Puzzle"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "salmon-survival",
+      "categories": [
+        "Survival"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "senor-inteligente",
+      "categories": [
+        "Arcade"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "sharespark",
+      "categories": [
+        "Simulators"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "skate-3",
+      "categories": [
+        "Sports"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "ski-jumping",
+      "categories": [
+        "Sports"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "ski-simulator-360-vail",
+      "categories": [
+        "Sports"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "skyrunner",
+      "categories": [
+        "Arcade"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "small-worlds",
+      "categories": [
+        "Simulators"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "snowboard-supreme",
+      "categories": [
+        "Sports"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "soccar",
+      "categories": [
+        "Sports"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "somnolith-alpha",
+      "categories": [
+        "Adventure"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "spark",
+      "categories": [
+        "Simulators"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "spire",
+      "categories": [
+        "Puzzle"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "stardust-isles",
+      "categories": [
+        "Adventure"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "starfall-the-last-beacon",
+      "categories": [
+        "Action"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "super-detective",
+      "categories": [
+        "Puzzle"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "terra-incognita",
+      "categories": [
+        "Puzzle"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "mutual-fun",
+      "categories": [
+        "Arcade"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "simpsons-hit-and-run",
+      "categories": [
+        "Racing"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "the-street-game",
+      "categories": [
+        "Casual"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "thermopylae",
+      "categories": [
+        "Action"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "tidebreak",
+      "categories": [
+        "Strategy"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "tiger-rider-chess",
+      "categories": [
+        "Strategy"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "till-dark",
+      "categories": [
+        "Adventure"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "time-echo",
+      "categories": [
+        "Adventure"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "timeline-tactics",
+      "categories": [
+        "Strategy"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "toadstool-crossing",
+      "categories": [
+        "Arcade"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "toybox-push",
+      "categories": [
+        "Puzzle"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "trip-ibadan",
+      "categories": [
+        "Simulators"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "ttak-stop",
+      "categories": [
+        "Casual"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "turbo-kart-gp",
+      "categories": [
+        "Sports"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "unburied-blackwald-bunker",
+      "categories": [
+        "Action"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "vector-anti-gravity-racing",
+      "categories": [
+        "Racing"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "void-clash",
+      "categories": [
+        "Strategy"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "void-explorer",
+      "categories": [
+        "Simulators"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "vortex-rash",
+      "categories": [
+        "Racing"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "warpstrike",
+      "categories": [
+        "Action"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "what-maya-knew",
+      "categories": [
+        "Adventure"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "wild-fields-1648",
+      "categories": [
+        "Strategy"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "word-ladder-duel",
+      "categories": [
+        "Puzzle"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "wording-well",
+      "categories": [
+        "Puzzle"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "ww2-dogfight",
+      "categories": [
+        "Action",
+        "Multiplayer"
+      ],
+      "mode": "Online multiplayer"
+    },
+    {
+      "slug": "yugisnap",
+      "categories": [
+        "Strategy"
+      ],
+      "mode": null
+    },
+    {
+      "slug": "zero-facility",
+      "categories": [
+        "Adventure"
+      ],
+      "mode": null
+    }
+  ]
+}

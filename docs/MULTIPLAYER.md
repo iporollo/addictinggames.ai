@@ -1,5 +1,7 @@
 # Multiplayer presentation evidence
 
+The [October 11 full-catalog audit](category-audit/2026-10-11/REPORT.md) expands these historical findings to all 167 listed games. Current assignments and separate human mode labels live in `lib/game-categories.ts`, including direct-play destinations. The dated observations below remain intact as prior evidence. Newly documented modes are supported functionality; their presence does not claim simultaneous online-client testing.
+
 Checked October 9, 2026. These are existing verified playable catalog entries; this change does not add games or alter iframe permissions.
 
 | Game | Human play mode | Evidence |

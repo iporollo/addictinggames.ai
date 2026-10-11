@@ -4,7 +4,7 @@ import { useEffect, useRef, useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { allListedGames, newGames, orderedGames, matchesGame, type ListedGame } from '@/lib/games';
-import { browseGames, browseTabs, gameRows, gameTags, type BrowseTab } from '@/lib/browse';
+import { browseGames, browseTabs, gameRows, gameTags, gameModeLabels, type BrowseTab } from '@/lib/browse';
 import { useRecentGames } from '@/lib/history';
 import { Icon } from './Icon';
 import { Newsletter } from './Newsletter';
@@ -17,7 +17,7 @@ const featuredPicks = orderedGames([
 function ArcadeCard({ game, eager = false }: { game: ListedGame; eager?: boolean }) {
   const content = <>
     <div className="arcade-artwork"><Image src={game.imageUrl} alt={`${game.title} game artwork`} fill sizes="(max-width: 639px) 44vw, (max-width: 1023px) 22vw, 16vw" loading={eager ? 'eager' : 'lazy'} /><span className="arcade-play"><Icon name="play" width={15} height={15} /></span></div>
-    <div className="arcade-card-copy"><h3>{game.title}</h3><p>{game.shortDescription}</p><div className="game-tags">{gameTags(game).map(tag => <span key={tag}>{tag}</span>)}</div></div>
+    <div className="arcade-card-copy"><h3>{game.title}</h3><p>{game.shortDescription}</p><div className="game-tags">{[...gameTags(game), ...gameModeLabels(game)].map(tag => <span key={tag}>{tag}</span>)}</div></div>
   </>;
   return 'externalUrl' in game
     ? <a href={game.externalUrl} className="arcade-card" aria-label={`Play ${game.title} (new tab)`} target="_blank" rel="noopener noreferrer">{content}</a>
@@ -67,7 +67,7 @@ export function Arcade() {
   const [tab, setTab] = useState<BrowseTab>('All');
   const recent = useRecentGames();
   const filtering = Boolean(query.trim());
-  function filter<T extends ListedGame>(games: T[]): T[] { return games.filter(game => matchesGame(game, query) || gameTags(game).join(' ').toLocaleLowerCase('en').includes(query.trim().toLocaleLowerCase('en'))); }
+  function filter<T extends ListedGame>(games: T[]): T[] { return games.filter(game => matchesGame(game, query)); }
   const count = filter(allListedGames).length;
   const browsed = filter(browseGames(allListedGames, tab));
 

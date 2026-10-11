@@ -1,0 +1,269 @@
+[
+  {
+    "slug": "soccar",
+    "title": "Soccar",
+    "url": "https://soccar-one.vercel.app/",
+    "currentCategory": "Sports",
+    "categories": ["Sports"],
+    "status": "gameplay_verified",
+    "confidence": "medium",
+    "mechanics": "Rocket-powered car soccer. The accessible Free Play mode places a car and soccer ball in an arena; this pass verified forward movement but did not test scoring or a competitive match.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Selected the visible Free Play option from the title screen.",
+        "Held W for 600 ms in the arena."
+      ],
+      "outcome": "Free Play loaded with a car, ball, arena, and 0–0 scoreboard. After W, the arena/car viewpoint shifted forward; no goal was scored and the scoreboard remained 0–0. Escape toggled the menu display but was not needed for the movement check.",
+      "screenshotPaths": [
+        "worker-4/assist-3/soccar-before.png",
+        "worker-4/assist-3/soccar-action-1.png",
+        "worker-4/assist-3/soccar-check-6.png"
+      ],
+      "limitations": ["Only Free Play movement was checked; competitive play, ball contact, and scoring were not verified."]
+    },
+    "sources": [
+      {"url": "https://soccar-one.vercel.app/", "kind": "first-party game page", "currentOrPrior": "current", "detail": "Loaded the live title screen and Free Play arena; screenshot shows a car, soccer ball, arena, and score HUD."}
+    ],
+    "multiplayerMode": null,
+    "rationale": "Sports is the best fit for the car-soccer rules/activity visible in Free Play. The tested route was explicitly Free Play, so this evidence does not establish a human multiplayer mode.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "starfall-the-last-beacon",
+    "title": "STARFALL: The Last Beacon",
+    "url": "https://starfall-pocket-arcade.shang637.chatgpt.site/",
+    "currentCategory": "Action",
+    "categories": ["Action", "Arcade"],
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "mechanics": "Campaign space shooter: fly through hostile waves, fire weapons, protect hull, and advance through short scored mission stages. The first-party field guide lists WASD/arrows to move, W/up to boost, Space/J to fire, and 13 steps in Mission 1.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Launched Mission 1, Vesper Reach.",
+        "Read the in-game How to Play field guide for keyboard controls.",
+        "Launched the mission again, held W for 900 ms, then held Space for 1,200 ms."
+      ],
+      "outcome": "The mission HUD began at hull 100, score 000000, progress 1/13. After the movement/fire inputs it showed hull 8, score 000200, and progress 3/13. An earlier no-input run ended at Signal Lost with score 0; this was not treated as a success.",
+      "screenshotPaths": [
+        "worker-4/assist-3/starfall-the-last-beacon-before.png",
+        "worker-4/assist-3/starfall-the-last-beacon-action-4.png",
+        "worker-4/assist-3/starfall-the-last-beacon-action-6.png",
+        "worker-4/assist-3/starfall-the-last-beacon-action-8.png"
+      ],
+      "limitations": ["Only the first mission was tested; no mission completion or multiplayer mode was observed."]
+    },
+    "sources": [
+      {"url": "https://starfall-pocket-arcade.shang637.chatgpt.site/", "kind": "first-party game page", "currentOrPrior": "current", "detail": "Campaign menu frames the game around firing through waves and lighting three beacons; the live mission exposes hull, score, and 1/13 progression."},
+      {"url": "https://starfall-pocket-arcade.shang637.chatgpt.site/how-to-play", "kind": "first-party controls guide", "currentOrPrior": "current", "detail": "In-game guide states WASD/arrows move, W/up boosts, Space/J fires primary weapon, and describes three campaign beacons and mission controls."}
+    ],
+    "multiplayerMode": null,
+    "rationale": "Action describes the real-time shooter combat, while Arcade fits its short wave-and-score mission loop. Narrative framing alone does not justify Adventure over those observed mechanics.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "the-street-game",
+    "title": "The Street Game",
+    "url": "https://street-game.centro-datos-crudo.workers.dev/",
+    "currentCategory": "Casual",
+    "categories": ["Casual"],
+    "status": "documented_only",
+    "confidence": "medium",
+    "mechanics": "Marbles game against the named AI opponent Claude. The first-party page instructs the player to drag backward and release to shoot; the scoreboard identifies YOU and CLAUDE.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Opened the title screen, selected Play, and restarted the round using the visible Play Again control.",
+        "Followed the on-screen instruction and dragged backward across the board before releasing."
+      ],
+      "outcome": "The live page presented a marbles board and the drag/release instruction. After the drag, the screenshot showed a marbles formation without the animated hand, but the score remained 0–0 and the page continued to expose a stale GAME OVER overlay, so this run did not establish a reliable current round-state change. A prior local direct-play receipt reports a visible shot/formation response against Claude, while explicitly claiming no point, win, or completed round.",
+      "screenshotPaths": [
+        "worker-4/assist-3/the-street-game-before.png",
+        "worker-4/assist-3/the-street-game-action-2.png",
+        "worker-4/assist-3/the-street-game-action-3.png"
+      ],
+      "limitations": ["The current run's GAME OVER overlay appeared stale; no score or completed round was observed. Prior gameplay evidence is cited separately, not represented as this run's verification."]
+    },
+    "sources": [
+      {"url": "https://street-game.centro-datos-crudo.workers.dev/", "kind": "first-party game page", "currentOrPrior": "current", "detail": "The live page presents a marble board, YOU-versus-CLAUDE score, and drag-back/release-to-shoot instruction."},
+      {"path": "game-discovery-bot/runs/2026-10-10T185643Z/reports/worker1/01-the-street-game.json", "kind": "prior direct-play receipt", "currentOrPrior": "prior", "detail": "Reports a visible board/shot-marble response after drag-and-release against Claude; score stayed 0–0 and no win/completed round was claimed."}
+    ],
+    "multiplayerMode": null,
+    "rationale": "The title presents a casual marbles-versus-AI activity. Casual remains the most defensible existing category; no multiplayer tag is appropriate for an AI opponent, and this pass did not establish a distinct sports/arcade loop strongly enough to change the tag.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "time-echo",
+    "title": "Time Echo",
+    "url": "https://time-echo-play.vercel.app/",
+    "currentCategory": "Adventure",
+    "categories": ["Adventure", "Puzzle"],
+    "status": "gameplay_verified",
+    "confidence": "medium",
+    "mechanics": "First-person exploration in a repeating room/cycle. The game says actions persist across resets and tracks memories to find; the loop combines exploration with observation and temporal puzzle solving.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Selected Enter/continue from the paused Empty Room screen.",
+        "Held W for 1,000 ms during the first recording cycle.",
+        "Clicked the room view to capture mouse/look control and allowed the timed cycle to continue; then held W for another 700 ms."
+      ],
+      "outcome": "The initial paused state showed Cycle 01 and Memories 0/1. The recording run proceeded through resets; a later live view showed Cycle 03, Memories 1/1, and the in-game message 'The room is the same. What happens is not.' This verifies a changing cycle/memory state, though the test did not isolate which movement or timing event discovered the memory.",
+      "screenshotPaths": [
+        "worker-4/assist-3/time-echo-before.png",
+        "worker-4/assist-3/time-echo-action-1.png",
+        "worker-4/assist-3/time-echo-action-3.png",
+        "worker-4/assist-3/time-echo-action-4.png"
+      ],
+      "limitations": ["The cause of the 0/1-to-1/1 memory change was not isolated, and no later level was tested."]
+    },
+    "sources": [
+      {"url": "https://time-echo-play.vercel.app/", "kind": "first-party game page", "currentOrPrior": "current", "detail": "The live screen states that cycles reset while some actions persist and displays cycle and memory counters, with WASD/mouse look controls."}
+    ],
+    "multiplayerMode": null,
+    "rationale": "Adventure covers first-person environmental exploration and progression through cycles; Puzzle is a meaningful secondary tag because discovering persistent memories through repeated cycles is the stated core mechanic.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "ttak-stop",
+    "title": "Ttak! Stop",
+    "url": "https://ttak-stop.web.app/",
+    "currentCategory": "Casual",
+    "categories": ["Arcade"],
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "mechanics": "Single-player timing/reflex score game: start the moving marker and stop it inside the colored target zone for points; misses trigger a death effect.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Clicked the canvas at the visible Tap to start prompt.",
+        "Pressed Space once to stop the marker."
+      ],
+      "outcome": "The live screen changed from a 0-score round with marker and target bar to a red particle/death animation after Space; score was not readable in the live capture. A prior local direct-play receipt separately reports a successful stop (score 0 to 152) and a target-zone move. No leaderboard submission or challenge sharing was attempted.",
+      "screenshotPaths": [
+        "worker-4/assist-3/ttak-stop-before.png",
+        "worker-4/assist-3/ttak-stop-action-1.png",
+        "worker-4/assist-3/ttak-stop-action-2.png"
+      ],
+      "limitations": ["This live press appears to have missed and did not expose a readable score; the successful score result is from the prior receipt."]
+    },
+    "sources": [
+      {"url": "https://ttak-stop.web.app/", "kind": "first-party game page", "currentOrPrior": "current", "detail": "The live canvas says Tap/Space to stop and displays the target zone; the Korean subtitle describes bar color changes with score and a death effect."},
+      {"path": "game-discovery-bot/pilot-2026-10-10/tests/parent/ttak-stop.json", "kind": "prior direct-play receipt", "currentOrPrior": "prior", "detail": "Reports a timing round where Space changed score 0 to 152 and moved the target zone."}
+    ],
+    "multiplayerMode": null,
+    "rationale": "Arcade fits a repeatable reaction/timing score challenge. A leaderboard or share/challenge button does not establish multiplayer.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "void-explorer",
+    "title": "Void Explorer",
+    "url": "https://void-explorer.openai.chatgpt.site/",
+    "currentCategory": "Simulation",
+    "categories": ["Simulators"],
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "mechanics": "Spaceflight/navigation simulator in a procedural universe. The HUD models thrust, velocity, planet range, arrival time, flight profile, and surface altitude; the expedition menu advertises 2,048 reachable systems.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Selected Start Expedition from the launch screen.",
+        "Held Space for 1,500 ms to apply thrust."
+      ],
+      "outcome": "The live flight HUD changed from velocity 0.0 m/s, Aurelia Veil range 11,782 km, and arrival 1m39s to 108 km/s, 11,593 km, and 1m36s after thrust.",
+      "screenshotPaths": [
+        "worker-4/assist-3/void-explorer-before.png",
+        "worker-4/assist-3/void-explorer-action-1.png",
+        "worker-4/assist-3/void-explorer-action-2.png"
+      ],
+      "limitations": ["Only short-range flight was tested; approach, landing, on-foot exploration, and other systems were not tested."]
+    },
+    "sources": [
+      {"url": "https://void-explorer.openai.chatgpt.site/", "kind": "first-party game page", "currentOrPrior": "current", "detail": "Launch and flight HUD describe an explorable procedural universe, ship thrust, navigation, planet range, speed, and arrival estimates; the current short flight reproduced changing telemetry."},
+      {"path": "game-discovery-bot/pilot-2026-10-10/tests/c/void-explorer.json", "kind": "prior direct-play receipt", "currentOrPrior": "prior", "detail": "Prior direct-play receipt independently confirms Space thrust changes velocity and destination range; its values differ slightly from this current short test."}
+    ],
+    "multiplayerMode": null,
+    "rationale": "Use the displayed site taxonomy name Simulators (the catalog uses Simulation as an alias). Measured flight and navigation telemetry support a spaceflight simulator; no separate narrative/progression evidence warrants adding Adventure.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "word-ladder-duel",
+    "title": "Word Ladder Duel",
+    "url": "https://world-ladder-duel.grok.me/",
+    "currentCategory": "Puzzle",
+    "categories": ["Puzzle", "Multiplayer"],
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "mechanics": "Word-chain puzzle: both players change exactly one letter while preserving word length and avoiding repeats. First-party options explicitly include same-device play, play against a bot, and a private room.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Opened the in-game tutorial.",
+        "Selected T to turn WALK into TALK and submitted the tutorial word."
+      ],
+      "outcome": "The tutorial advanced from the WALK-to-TALK instruction to 'Now it is the other player's turn. Turn TALK into TALL by replacing its last letter.' This verifies a valid one-letter word change and turn progression. The match setup also explicitly exposes Same device and Private room modes; no online room was created.",
+      "screenshotPaths": [
+        "worker-4/assist-3/word-ladder-duel-before.png",
+        "worker-4/assist-3/word-ladder-duel-action-1.png",
+        "worker-4/assist-3/word-ladder-duel-action-2.png",
+        "worker-4/assist-3/word-ladder-duel-action-3.png"
+      ],
+      "limitations": ["Only the tutorial step was played; no full match, bot match, or private/online room was started."]
+    },
+    "sources": [
+      {"url": "https://world-ladder-duel.grok.me/", "kind": "first-party game page", "currentOrPrior": "current", "detail": "The live tutorial displays the WALK-to-TALK word change and advances to the other player's turn; the setup explicitly lists Same device, Play the bot, and Private room."}
+    ],
+    "multiplayerMode": "Local 2-player",
+    "rationale": "Puzzle is the core word-transformation mechanic. Multiplayer is supported because the first-party menu explicitly offers same-device play and the tutorial advances to another player's turn; this tag does not imply that a live online match was tested.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  },
+  {
+    "slug": "night-cruise",
+    "title": "Night Cruise",
+    "url": "https://nightcruisegame.com/",
+    "currentCategory": "Racing",
+    "categories": ["Simulators"],
+    "status": "gameplay_verified",
+    "confidence": "high",
+    "mechanics": "Open-ended night driving simulator: choose a map and vehicle, then drive an expressway without a race or mission. Vehicle stats and a live speedometer are provided.",
+    "gameplay": {
+      "attempted": true,
+      "actions": [
+        "Selected Play, chose the default Japan/K1 Loop map, and selected the default Street Compact vehicle.",
+        "Held W for 1,000 ms in the driving scene."
+      ],
+      "outcome": "The in-game speedometer changed from 0 km/h to 22 km/h after W; the scene shows the car in the expressway/parking area. The first-party title screen explicitly says 'No race, no mission: pick a car, get on the expressway and drive.'",
+      "screenshotPaths": [
+        "worker-4/assist-3/night-cruise-before.png",
+        "worker-4/assist-3/night-cruise-action-1.png",
+        "worker-4/assist-3/night-cruise-action-2.png",
+        "worker-4/assist-3/night-cruise-action-3.png",
+        "worker-4/assist-3/night-cruise-action-4.png"
+      ],
+      "limitations": ["Only default map/vehicle and acceleration were tested; handling, collisions, online features, and any other modes were not tested."]
+    },
+    "sources": [
+      {"url": "https://nightcruisegame.com/", "kind": "first-party game page", "currentOrPrior": "current", "detail": "Title screen states there is no race or mission and describes free expressway driving; the garage provides vehicle specifications and the live scene exposes a speedometer."}
+    ],
+    "multiplayerMode": null,
+    "rationale": "Replace Racing with Simulators: the creator explicitly describes an open drive with no race/time course, and the tested activity is accelerating a car on an expressway.",
+    "proposedNewCategories": [],
+    "accessIssue": null,
+    "accessIssueType": null
+  }
+]
