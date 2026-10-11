@@ -17,10 +17,10 @@ const featuredPicks = orderedGames([
 function ArcadeCard({ game, eager = false }: { game: ListedGame; eager?: boolean }) {
   const content = <>
     <div className="arcade-artwork"><Image src={game.imageUrl} alt={`${game.title} game artwork`} fill sizes="(max-width: 639px) 44vw, (max-width: 1023px) 22vw, 16vw" loading={eager ? 'eager' : 'lazy'} /><span className="arcade-play"><Icon name="play" width={15} height={15} /></span></div>
-    <div className="arcade-card-copy"><h3>{game.title}</h3><p>{game.shortDescription}</p><div className="game-tags">{gameTags(game).map(tag => <span key={tag}>{tag}</span>)}{'externalUrl' in game && <span>Opens game site</span>}</div></div>
+    <div className="arcade-card-copy"><h3>{game.title}</h3><p>{game.shortDescription}</p><div className="game-tags">{gameTags(game).map(tag => <span key={tag}>{tag}</span>)}</div></div>
   </>;
   return 'externalUrl' in game
-    ? <a href={game.externalUrl} className="arcade-card" aria-label={`Open ${game.title} on its game site (new tab)`} target="_blank" rel="noopener noreferrer">{content}</a>
+    ? <a href={game.externalUrl} className="arcade-card" aria-label={`Play ${game.title} (new tab)`} target="_blank" rel="noopener noreferrer">{content}</a>
     : <Link href={`/games/${game.slug}`} className="arcade-card" aria-label={`Play ${game.title}`}>{content}</Link>;
 }
 
@@ -80,7 +80,7 @@ export function Arcade() {
     <div className="arcade-layout">
       <div className="arcade-main">
         <ArcadeSection id="featured" title="Featured" note="Five handpicked games to play next." games={filter(featuredPicks)} featured filtering={filtering} mobileScrolling />
-        <ArcadeSection key={query} id="new-games" title="New Games" note="Explore new games. Some open on their own sites and may take longer to load. Swipe, use the arrows, or tab through every card." games={filter(newGames)} filtering={filtering} scrolling />
+        <ArcadeSection key={query} id="new-games" title="New Games" note="Explore new games. Swipe, use the arrows, or tab through every card." games={filter(newGames)} filtering={filtering} scrolling />
         <ArcadeSection id="multiplayer" title="Multiplayer" note="Play with friends. Choose online multiplayer or a local two-player match." games={filter(browseGames(playableGames, 'Multiplayer'))} filtering={filtering} mobileScrolling />
         <ArcadeSection id="recently-played" title="Recently Played" note="Pick up where you left off. Saved on this browser." games={filter(recent)} recentEmpty={!recent.length} filtering={filtering} mobileScrolling />
         <section className="arcade-section browse-section" aria-labelledby="browse-heading">
