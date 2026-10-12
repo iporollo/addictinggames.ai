@@ -42,3 +42,6 @@ next-env.d.ts
 
 # Local release receipts and screenshots
 /verification/
+
+# Private/local Scout working records; public receipts belong in game-repos/.
+/game-discovery-bot/runs/

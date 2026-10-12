@@ -2,6 +2,8 @@
 
 The official arcade portal at https://addictinggames.ai. One design, one canonical catalog, verified players, and browser-local play history. The former comparison URLs `/version-a` and `/version-b` permanently redirect to the homepage; the comparison UI and alternate layout are removed.
 
+Agents: start with [AGENTS.md](AGENTS.md) for project scope and the repository-local [AI Game Scout pipeline skill](.agents/skills/addictinggames-ai-pipeline/SKILL.md).
+
 ## Development
 
 Use Node.js 22 or newer, then `npm ci` and `npm run dev`. Validate with `npm run lint`, `npm test`, `npm run build`, and `npm run typecheck`.
@@ -26,7 +28,7 @@ The original included games are 3D Car Driving Simulator, Falling Bubbles, fly.p
 
 The RadiantOpti corrected reply contributes 22 direct-play links to **New Games** and `/games` in one batch. These cards open the original game sites in a new tab because several need longer downloads, browser storage, or desktop mouse capture that the restricted player does not provide. External routing remains internal catalog metadata; cards use the same “Play game” action without a hosting badge. Direct links are not represented as iframe-verified games. Hedgewars and Skate Rust are excluded at the owner's request because of the certificate error and restricted-player refusal, respectively. Featured remains the five owner-curated picks. The `wasmarcade.com/Fan` collection is not listed as one game. At the October 9 check, the Modern Warfare 2 host returned HTTP 429; that external destination remains outside this site's control. Covers for this batch are original abstract artwork, not copied game assets.
 
-The website source is in `app/`, `components/`, `lib/`, and `public/`. Optional upstream source references are in `game-repos/<slug>/MANIFEST.md`, one folder per game with a matched repository. They contain URLs, pinned commits, license evidence, and review notes only. No upstream source is copied or executed. The discovery inbox and X query history are kept outside the production checkout in `../game-discovery-bot/`.
+The website source is in `app/`, `components/`, `lib/`, and `public/`. Optional upstream source references are in `game-repos/<slug>/MANIFEST.md`, one folder per game with a matched repository. They contain URLs, pinned commits, license evidence, and review notes only. No upstream source is copied or executed. Current owner decisions are in `game-discovery-bot/owner-decisions.json`; new raw Scout runs stay local in ignored `game-discovery-bot/runs/`, with concise public release evidence in `game-repos/<run-id>/`. Historical discovery inboxes and X query history remain in the surrounding workspace's `game-discovery-bot/`.
 
 The first batch's source links, gameplay checks, and held candidates are recorded in `docs/AI-GAME-SCOUT-2026-10-09.md`.
 
