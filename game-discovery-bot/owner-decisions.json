@@ -1,0 +1,74 @@
+{
+  "project": "iporollo/addictinggames.ai",
+  "decisions": [
+    {
+      "game": "UNBURIED",
+      "playable_url": "https://unburied.inkwave.workers.dev/",
+      "x_source_url": "https://x.com/JaydenDavisNC/status/2108731577765355704",
+      "decision": "owner_confirmed_valid",
+      "acceptance_basis": "owner_confirmed",
+      "date": "2026-10-10",
+      "statement": "UNBURIED is a valid game.",
+      "source": "Direct owner message in this project chat",
+      "prior_test": "pilot-2026-10-10/tests/parent/unburied-blackwald-bunker.json",
+      "note": "Previous control-capture limitation is inconclusive, not a game defect. Not included in PR23; eligible for a future authorized batch without falsifying prior test evidence."
+    },
+    {
+      "game": "Hedgewars",
+      "playable_url": "https://webwars.link/",
+      "decision": "excluded_by_owner",
+      "source": "GROKBOT-PROFILE.md"
+    },
+    {
+      "game": "Skate Rust",
+      "playable_url": "https://global-terror.net/",
+      "decision": "excluded_by_owner",
+      "source": "GROKBOT-PROFILE.md"
+    },
+    {
+      "game": "Kino der Toten",
+      "playable_url": "https://kino-der-toten.pages.dev/",
+      "decision": "excluded_by_owner",
+      "date": "2026-10-10",
+      "source": "Direct owner instruction in full-roster thumbnail chat",
+      "statement": "delete these links from github repo and delete it off the site",
+      "removal_pr": "https://github.com/iporollo/addictinggames.ai/pull/24",
+      "note": "Historical test evidence preserved."
+    },
+    {
+      "game": "Unreal Tournament",
+      "playable_url": "https://ut.pieter.com/",
+      "decision": "excluded_by_owner",
+      "date": "2026-10-10",
+      "source": "Direct owner instruction in full-roster thumbnail chat",
+      "statement": "delete these links from github repo and delete it off the site",
+      "removal_pr": "https://github.com/iporollo/addictinggames.ai/pull/24",
+      "note": "Historical test evidence preserved."
+    },
+    {
+      "game": "Moon",
+      "playable_url": "https://moon-zombies.pages.dev/",
+      "decision": "excluded_by_owner",
+      "date": "2026-10-10",
+      "source": "Direct owner reply: Remove Moon too",
+      "removal_pr": "https://github.com/iporollo/addictinggames.ai/pull/25",
+      "note": "Historical evidence preserved."
+    },
+    {
+      "game": "BO3 Cheese Cube",
+      "decision": "excluded_by_owner",
+      "date": "2026-10-10",
+      "source": "Direct owner reply in thumbnail chat",
+      "statement": "Remove casino entry; correct mislabeled game",
+      "note": "Client-side redirect reconfirmed; historical evidence retained."
+    },
+    {
+      "game": "Modern Warfare 2",
+      "decision": "correct_identity",
+      "corrected_title": "OVZ: Global Flashpoint",
+      "date": "2026-10-10",
+      "source": "Direct owner reply in thumbnail chat",
+      "statement": "Remove casino entry; correct mislabeled game"
+    }
+  ]
+}
