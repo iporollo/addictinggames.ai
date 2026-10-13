@@ -98,3 +98,26 @@ test('provider failures never become fake success or expose provider details', a
     }
   }, new Response('private provider error', { status: 500 }));
 });
+
+test('mod submissions require original game and explicit pricing before provider calls', async () => {
+  await withProvider(async calls => {
+    for (const extra of [{}, { originalGame: 'Minecraft' }, { originalGame: 'Minecraft', price: 'discount' }, { originalGame: 'x'.repeat(101), price: 'free' }]) {
+      assert.equal((await submitGame(request({ ...validGame, kind: 'mod', ...extra }))).status, 400);
+    }
+    assert.equal((await submitGame(request({ ...validGame, kind: 'other' }))).status, 400);
+    assert.equal(calls.length, 0);
+  });
+});
+
+test('mod submission is identifiable in the existing review table without subscribing its contact', async () => {
+  await withProvider(async calls => {
+    const result = await submitGame(request({ ...validGame, kind: 'mod', originalGame: 'Minecraft', price: 'free' }));
+    assert.equal(result.status, 200);
+    assert.equal(calls.length, 1);
+    assert.equal(calls[0].url, 'https://api.airtable.com/v0/test-only-base/tbl5AUoCl96h5WEMk');
+    const fields = JSON.parse(calls[0].options.body).records[0].fields;
+    assert.equal(fields.Description, 'Mod submission\nOriginal game: Minecraft\nPricing: free\n\n'+validGame.description+'\n\nContact email (review only): creator@example.com');
+    assert.equal(fields.GameURL, validGame.gameUrl);
+    assert.deepEqual(Object.keys(fields).sort(), ['Description', 'GameURL', 'Name']);
+  });
+});
