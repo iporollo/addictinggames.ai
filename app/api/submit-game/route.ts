@@ -21,6 +21,11 @@ export async function POST(request: Request) {
       if (repository.protocol !== 'https:' || repository.hostname !== 'github.com' || !/^\/[^/]+\/[^/]+\/?$/.test(repository.pathname) || repository.username || repository.password) throw new Error('Invalid repository');
     }
   } catch { return Response.json({ error: 'Check the game and repository URLs' }, { status: 400 }); }
+  const isMod = data.kind === 'mod';
+  const originalGame = value('originalGame'), price = value('price');
+  if (data.kind !== undefined && data.kind !== 'game' && !isMod) return Response.json({ error: 'Invalid submission type' }, { status: 400 });
+  if (isMod && (!originalGame || originalGame.length > 100 || !['free', 'paid', 'unknown'].includes(price))) return Response.json({ error: 'Check the original game and mod pricing' }, { status: 400 });
+  const reviewDescription = isMod ? `Mod submission\nOriginal game: ${originalGame}\nPricing: ${price}\n\n${description}` : description;
   const apiKey = process.env.AIRTABLE_API_KEY;
   const base = process.env.AIRTABLE_BASE;
   if (!apiKey || !base) return Response.json({ error: 'Game submissions are temporarily unavailable' }, { status: 503 });
@@ -31,7 +36,7 @@ export async function POST(request: Request) {
       // details in the existing schema; remove review notes before publishing.
       body: JSON.stringify({ records: [{ fields: {
         Name: name,
-        Description: [description, github ? `GitHub repository: ${github}` : '', `Contact email (review only): ${email}`].filter(Boolean).join('\n\n'),
+        Description: [reviewDescription, github ? `GitHub repository: ${github}` : '', `Contact email (review only): ${email}`].filter(Boolean).join('\n\n'),
         ...(author ? { Author: author } : {}),
         GameURL: gameUrl,
       } }] }),

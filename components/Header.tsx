@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { SectionNavigation } from './SectionNavigation';
 import { comicSans } from '@/app/fonts';
 
 // Original TitleWord structure, font, sizes, baseline, gap, tracking and stroke.
@@ -21,6 +22,7 @@ export default function Header() {
             <span className="title-rest title-ai text-stroke">.AI</span>
           </h1>
         </Link>
+        <SectionNavigation />
       </div>
     </header>
   );
