@@ -26,7 +26,7 @@ Do not retroactively remove existing games unless the owner requests an audit or
 
 ## One workspace skill
 
-Use [addictinggames-ai-pipeline](.agents/skills/addictinggames-ai-pipeline/SKILL.md) for the pipeline or an explicitly requested subset.
+Use [addictinggames-pipeline-pt1](.agents/skills/addictinggames-pipeline-pt1/SKILL.md) for the pipeline or an explicitly requested subset.
 The skill combines discovery, testing, A/B artwork, and release instructions; it is specific to this repository.
 Defaults: 25 new candidates or 60 minutes of discovery, five GPT-6 Luna workers with max reasoning, one final release.
 Show generated A/B choices; the agent selects during full pipeline runs, while standalone artwork requests use owner selection.
