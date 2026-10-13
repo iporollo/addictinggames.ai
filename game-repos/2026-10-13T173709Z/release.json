@@ -1,0 +1,707 @@
+{
+  "run_id": "2026-10-13T173709Z",
+  "status": "prepared_for_release",
+  "scope": "Owner supplied list; no discovery or GrokBot run",
+  "summary": {
+    "owner_confirmed": 20,
+    "eligible": 20,
+    "ai_authorship_held": 0,
+    "excluded_mandatory_sign_in": 1
+  },
+  "games": [
+    {
+      "id": "w02-09",
+      "title": "Bluebell Overdrive",
+      "reported_title": "Bluebell Overdrive",
+      "playable_url": "https://bluebell-overdrive.masyumaron333.chatgpt.site/",
+      "ai_authorship": {
+        "source_url": "https://x.com/saycheese_fnd/status/2109846220936225265",
+        "source_type": "creator_x_post",
+        "quote": "【自作ゲーム無料公開中】\nChatGPT-Astra×MeshyAIで作ったブラウザ3Dシューティングゲーム！\nhttps://bluebell-overdrive.masyumaron333.chatgpt.site \n\n3D素材までAIで作れる時代が面白すぎる \n詳しいnote記事は↓",
+        "status": "verified_via_post_data",
+        "verification_method": "X post payload retrieved via FxTwitter post-data endpoint; exact tweet ID, creator text, and linked game host matched. Direct X page remained inaccessible.",
+        "prior_report": "runs/2026-10-13T041408Z/reports/worker-3/w02-09.json"
+      },
+      "gameplay": {
+        "status": "owner_confirmed",
+        "source": "Direct owner messages in this task, 2026-10-13",
+        "prior_agent_attempt_preserved": true,
+        "note": "Owner explicitly listed successful play. Earlier attempt saw the factory arena start and score change, but could not isolate input effect."
+      },
+      "guest_access": {
+        "status": "guest_playable",
+        "checked_at_utc": null,
+        "basis": "owner_confirmation_2026-10-13",
+        "evidence": "Owner accepted successful play under the no-mandatory-account-sign-in preference; no new independent unauthenticated agent playtest is claimed."
+      },
+      "category": "Shooter, Action",
+      "artwork": {
+        "selected_option": "A",
+        "subject": "anime girl against toy robots in an industrial factory",
+        "asset": "/public/games/oct13-bluebell-overdrive.webp",
+        "sha256": "5d5ccfcc6f998ed8dbc5a7f890af2b6921a4aeed35a46bbe945eef39e18d6e44",
+        "bytes": 56586,
+        "type": "generated cover",
+        "source_url": null
+      }
+    },
+    {
+      "id": "w09-19",
+      "title": "Café Rush",
+      "reported_title": "Café Rush",
+      "playable_url": "https://endearing-palmier-d824b3.netlify.app/",
+      "ai_authorship": {
+        "source_url": "https://x.com/EWashoku/status/2108915242340368432",
+        "source_type": "creator_x_post",
+        "quote": "マルチタスクが苦手で、仕事をテキパキこなすのも得意じゃない。\n\nそんな人向けに、ブラウザで遊べる3Dカフェゲームを作りました☕\n\nClaude Code（Opus 5.5）で制作しました。ぜひお試しください！\nhttps://endearing-palmier-d824b3.netlify.app/",
+        "status": "verified_via_post_data",
+        "verification_method": "X post payload retrieved via FxTwitter post-data endpoint; exact tweet ID, creator text, and linked game host matched. Direct X page remained inaccessible.",
+        "prior_report": "runs/2026-10-13T041408Z/reports/worker-2/w09-19.json"
+      },
+      "gameplay": {
+        "status": "owner_confirmed",
+        "source": "Direct owner messages in this task, 2026-10-13",
+        "prior_agent_attempt_preserved": true,
+        "note": "Owner play showed Stage 1 clear with three stars, ¥6440, 10 happy customers, and 0 angry customers."
+      },
+      "guest_access": {
+        "status": "guest_playable",
+        "checked_at_utc": null,
+        "basis": "owner_confirmation_2026-10-13",
+        "evidence": "Owner accepted successful play under the no-mandatory-account-sign-in preference; no new independent unauthenticated agent playtest is claimed."
+      },
+      "category": "Simulators, Casual",
+      "artwork": {
+        "selected_option": "retained",
+        "subject": "3D cafe multitasking game",
+        "asset": "/public/games/oct13-cafe-rush.webp",
+        "sha256": "841488e42ac7de6eb693bbca6f1b9949a621cf1d3b96489d0ba16056e6b30727",
+        "bytes": 31644,
+        "type": "creator OG cover",
+        "source_url": "https://endearing-palmier-d824b3.netlify.app/og.jpg"
+      }
+    },
+    {
+      "id": "w09-21",
+      "title": "MuX catches Shibu",
+      "reported_title": "MuX catches Shibu",
+      "playable_url": "https://shibuonsol.net/game/",
+      "ai_authorship": {
+        "source_url": "https://x.com/Fantoumi/status/2109868312221921476",
+        "source_type": "creator_x_post",
+        "quote": "@elonmusk @bot Made with @grok @bot 🎮💛\nReally impressed by how smooth the process is\nhttps://www.shibuonsol.net/game/",
+        "status": "verified_via_post_data",
+        "verification_method": "X post payload retrieved via FxTwitter post-data endpoint; exact tweet ID, creator text, and linked game host matched. Direct X page remained inaccessible.",
+        "prior_report": "runs/2026-10-13T041408Z/reports/worker-2/w09-21.json"
+      },
+      "gameplay": {
+        "status": "owner_confirmed",
+        "source": "Direct owner messages in this task, 2026-10-13",
+        "prior_agent_attempt_preserved": true,
+        "note": "Owner play showed a 713-point game over followed by a second run reaching 2583 points, 1870/4200 progress, and full hearts."
+      },
+      "guest_access": {
+        "status": "guest_playable",
+        "checked_at_utc": null,
+        "basis": "owner_confirmation_2026-10-13",
+        "evidence": "Owner accepted successful play under the no-mandatory-account-sign-in preference; no new independent unauthenticated agent playtest is claimed."
+      },
+      "category": "Arcade",
+      "artwork": {
+        "selected_option": "A",
+        "subject": "MuX chasing Shibu in original moon arena",
+        "asset": "/public/games/oct13-mux-catches-shibu.webp",
+        "sha256": "234e0e0795e13536cbbd2a480258fadd78eb4f2ee7640ff359abb9ecc1aa261e",
+        "bytes": 56644,
+        "type": "generated cover",
+        "source_url": null
+      }
+    },
+    {
+      "id": "w02-11",
+      "title": "Untitled Opus 5.5 game",
+      "reported_title": "超弩級空中戦艦 (Super Dreadnought: Battle Above the Clouds)",
+      "playable_url": "https://claude.ai/artifact/KECPs9uKjcCFeosuFjHVVT",
+      "ai_authorship": {
+        "source_url": "https://x.com/abaranche/status/2109236819107942403",
+        "source_type": "creator_x_post",
+        "quote": "ここから遊べますん 設計 Opus 5.5 BGM Opus 5.5 SE Opus 5.5 グラフィック Opus 5.5 エフェクト Opus 5.5 ちなみにめっちゃ手を入れたら全然もっと面白く余地あるなと思っており修正始めてますが 感想あったらOpus 5.5が喜ぶのでください",
+        "status": "agent_verified",
+        "prior_report": "runs/2026-10-13T041408Z/reports/worker-4/w02-11.json"
+      },
+      "gameplay": {
+        "status": "owner_confirmed",
+        "source": "Direct owner messages in this task, 2026-10-13",
+        "prior_agent_attempt_preserved": true,
+        "note": "Owner explicitly listed this game as tested and working; no fresh agent input is claimed."
+      },
+      "guest_access": {
+        "status": "guest_playable",
+        "checked_at_utc": null,
+        "basis": "owner_confirmation_2026-10-13",
+        "evidence": "Owner accepted successful play under the no-mandatory-account-sign-in preference; no new independent unauthenticated agent playtest is claimed."
+      },
+      "category": "Action",
+      "artwork": {
+        "selected_option": "A",
+        "subject": "monochrome airship above clouds",
+        "asset": "/public/games/oct13-super-dreadnought.webp",
+        "sha256": "994981b49db2b89749118e0dd5137fe0754c30b8abd71e682ea630919a978cdb",
+        "bytes": 81716,
+        "type": "generated cover"
+      }
+    },
+    {
+      "id": "w03-11",
+      "title": "Backrooms — Signal Lost",
+      "reported_title": "Backrooms — Signal Lost",
+      "playable_url": "https://backrooms-tau.vercel.app/",
+      "ai_authorship": {
+        "source_url": "https://x.com/_ediri/status/2107574890492485984",
+        "source_type": "creator_reply",
+        "quote": "I created with ThreeJS a backroom type game. With Astra and Opus each creating a different level.",
+        "status": "verified",
+        "prior_report": "runs/2026-10-13T041408Z/reports/worker-4/w03-11.json"
+      },
+      "gameplay": {
+        "status": "owner_confirmed",
+        "source": "Direct owner messages in this task, 2026-10-13",
+        "prior_agent_attempt_preserved": true,
+        "note": "Owner explicitly listed this game as tested and working; no fresh agent input is claimed."
+      },
+      "guest_access": {
+        "status": "guest_playable",
+        "checked_at_utc": null,
+        "basis": "owner_confirmation_2026-10-13",
+        "evidence": "Owner accepted successful play under the no-mandatory-account-sign-in preference; no new independent unauthenticated agent playtest is claimed."
+      },
+      "category": "Adventure, Survival",
+      "artwork": {
+        "selected_option": "B",
+        "subject": "yellow office maze with flashlight explorer",
+        "asset": "/public/games/oct13-backrooms-signal-lost.webp",
+        "sha256": "38d7a667fdcff5d89b0c29df77a2b3ab96b4f827b0c5680e8b0140a1fd767387",
+        "bytes": 29716,
+        "type": "generated cover"
+      }
+    },
+    {
+      "id": "w07-20",
+      "title": "Spline Rush",
+      "reported_title": "Spline Rush",
+      "playable_url": "https://spline-rush.vercel.app/",
+      "ai_authorship": {
+        "source_url": "https://x.com/ToolBraidComp/status/2101371681642049578",
+        "source_type": "creator_x_post",
+        "quote": "Apparently building a racing game wasn’t enough. I had to ask Astra for a trailer too 😂 54 seconds. Six tracks. All footage from the actual browser game. Built in Codex. Thanks @OpenAIDevs @threejs @WebGPU 🙌 Give it a spin, it’s free: https://t.co/6kS4ions0z",
+        "status": "agent_verified",
+        "prior_report": "runs/2026-10-13T041408Z/reports/worker-2/w07-20.json"
+      },
+      "gameplay": {
+        "status": "owner_confirmed",
+        "source": "Direct owner messages in this task, 2026-10-13",
+        "prior_agent_attempt_preserved": true,
+        "note": "Owner explicitly listed this game as tested and working; no fresh agent input is claimed."
+      },
+      "guest_access": {
+        "status": "guest_playable",
+        "checked_at_utc": null,
+        "basis": "owner_confirmation_2026-10-13",
+        "evidence": "Owner accepted successful play under the no-mandatory-account-sign-in preference; no new independent unauthenticated agent playtest is claimed."
+      },
+      "category": "Racing",
+      "artwork": {
+        "selected_option": "A",
+        "subject": "3D racing circuit",
+        "asset": "/public/games/oct13-spline-rush.webp",
+        "sha256": "3e5544fd0a6ff91561bfff1abbfff335c8a95ba1c4f55151d3ba6b2997b509d2",
+        "bytes": 54184,
+        "type": "generated cover"
+      }
+    },
+    {
+      "id": "w07-25",
+      "title": "Lagos street football",
+      "reported_title": "Lagos street football",
+      "playable_url": "https://street-football.quikdb.net/",
+      "ai_authorship": {
+        "source_url": "https://x.com/psalmuel_1st/status/2108893805009318270",
+        "source_type": "creator_x_post",
+        "quote": "messed around with codex and built a lagos street football game ⚽🇳🇬 deployed on @quikdb_online https://t.co/OCW43EuFMf go play :)",
+        "status": "agent_verified",
+        "prior_report": "runs/2026-10-13T041408Z/reports/worker-2/w07-25.json"
+      },
+      "gameplay": {
+        "status": "owner_confirmed",
+        "source": "Direct owner messages in this task, 2026-10-13",
+        "prior_agent_attempt_preserved": true,
+        "note": "Owner explicitly listed this game as tested and working; no fresh agent input is claimed."
+      },
+      "guest_access": {
+        "status": "guest_playable",
+        "checked_at_utc": null,
+        "basis": "owner_confirmation_2026-10-13",
+        "evidence": "Owner accepted successful play under the no-mandatory-account-sign-in preference; no new independent unauthenticated agent playtest is claimed."
+      },
+      "category": "Sports",
+      "artwork": {
+        "selected_option": "A",
+        "subject": "five-a-side Lagos street football",
+        "asset": "/public/games/oct13-lagos-street-football.webp",
+        "sha256": "ec3ce09af9b9451a7d10b0030ee489ff86ba4a7819dfd19909cc85cc2da6f167",
+        "bytes": 69506,
+        "type": "generated cover"
+      }
+    },
+    {
+      "id": "w01-09",
+      "title": "IIT Guwahati campus 3D game",
+      "reported_title": "IIT Guwahati campus 3D game",
+      "playable_url": "https://claude.ai/artifact/XTPN49amJGjd9xE2xgMJFS",
+      "ai_authorship": {
+        "source_url": "https://x.com/realGauravVyas/status/2106439912438559150",
+        "source_type": "creator_x_post",
+        "quote": "I built the IIT Guwahati campus as a 3D game you can play in the browser. Walk, cycle, ride the bus, row a boat, fly a drone. Built from scratch with Claude Opus 5.5 and Sonnet 5.5. The character is me.",
+        "status": "agent_verified",
+        "prior_report": "runs/2026-10-13T041408Z/reports/worker-2/w01-09.json"
+      },
+      "gameplay": {
+        "status": "owner_confirmed",
+        "source": "Direct owner messages in this task, 2026-10-13",
+        "prior_agent_attempt_preserved": true,
+        "note": "Earlier form requested student and personal details. Owner later accepted play; anonymous access was not independently established."
+      },
+      "guest_access": {
+        "status": "identity_required",
+        "checked_at_utc": null,
+        "basis": "owner_confirmation_2026-10-13",
+        "evidence": "Earlier form requested full name, gender, hostel, roll number, and room; owner accepted the game after play. Guest access is not anonymous."
+      },
+      "category": "Adventure, Simulators",
+      "artwork": {
+        "selected_option": "B",
+        "subject": "3D campus exploration",
+        "asset": "/public/games/oct13-iit-guwahati-campus.webp",
+        "sha256": "7e80e6ff86afe04ba05a16aad97723ad24f029eafb430799700a39de54a51ed3",
+        "bytes": 100446,
+        "type": "generated cover"
+      }
+    },
+    {
+      "id": "w01-10",
+      "title": "Play Simi",
+      "reported_title": "Play Simi",
+      "playable_url": "https://playsimi.danielquek.com/",
+      "ai_authorship": {
+        "source_url": "https://x.com/daniu_101/status/2109215389637095685",
+        "source_type": "creator_x_post",
+        "quote": "made this game with the time i had left on chatgpt pro before being downgraded to plus.",
+        "status": "agent_verified",
+        "prior_report": "runs/2026-10-13T041408Z/reports/worker-2/w01-10.json"
+      },
+      "gameplay": {
+        "status": "owner_confirmed",
+        "source": "Direct owner messages in this task, 2026-10-13",
+        "prior_agent_attempt_preserved": true,
+        "note": "Owner explicitly listed this game as tested and working; no fresh agent input is claimed."
+      },
+      "guest_access": {
+        "status": "guest_playable",
+        "checked_at_utc": null,
+        "basis": "owner_confirmation_2026-10-13",
+        "evidence": "Owner accepted successful play under the no-mandatory-account-sign-in preference; no new independent unauthenticated agent playtest is claimed."
+      },
+      "category": "Casual",
+      "artwork": {
+        "selected_option": "A",
+        "subject": "original neighborhood arcade playground",
+        "asset": "/public/games/oct13-play-simi.webp",
+        "sha256": "433f268623a4a785bdcab944606940996f4993ff42614a897a79cf7f541b2e3b",
+        "bytes": 72804,
+        "type": "generated cover"
+      }
+    },
+    {
+      "id": "w01-13",
+      "title": "Brickbrag",
+      "reported_title": "Brickbrag",
+      "playable_url": "https://brickbrag.com/",
+      "ai_authorship": {
+        "source_url": "https://x.com/neuling2k/status/2109736577723408525",
+        "source_type": "creator_reply",
+        "quote": "the game I built with Opus 5.5",
+        "status": "agent_verified",
+        "prior_report": "runs/2026-10-13T041408Z/reports/worker-3/w01-13.json"
+      },
+      "gameplay": {
+        "status": "owner_confirmed",
+        "source": "Direct owner messages in this task, 2026-10-13",
+        "prior_agent_attempt_preserved": true,
+        "note": "Earlier page requested a local name/look and showed a per-session link/key. Owner later accepted play."
+      },
+      "guest_access": {
+        "status": "guest_playable",
+        "checked_at_utc": null,
+        "basis": "owner_confirmation_2026-10-13",
+        "evidence": "Earlier page requested a local name/look and displayed a per-session link/key; owner accepted after play."
+      },
+      "category": "Simulators, Racing",
+      "artwork": {
+        "selected_option": "B",
+        "subject": "brick-built town",
+        "asset": "/public/games/oct13-brickbrag.webp",
+        "sha256": "a919fbb37adb0238ed9e1ac4198596059c27d881255a40e469642300b89da78d",
+        "bytes": 146440,
+        "type": "generated cover"
+      }
+    },
+    {
+      "id": "w03-08",
+      "title": "Devin vs. the Backlog",
+      "reported_title": "Devin vs. the Backlog",
+      "playable_url": "https://otter-game-two.vercel.app/",
+      "ai_authorship": {
+        "source_url": "https://x.com/balwahidi_/status/2104616075111628804",
+        "source_type": "creator_x_post",
+        "quote": "Made a little game where Devin (the otter) shoots bugs and every one turns into a PR\n5 worlds, 5 bosses, a terminal narrating the whole run.\nruns in the browser, no install, only on desktop.\n[Made with Opus 5.5 + SWE-2 on Devin]",
+        "status": "verified",
+        "prior_report": "runs/2026-10-13T041408Z/reports/worker-4/w03-08.json"
+      },
+      "gameplay": {
+        "status": "owner_confirmed",
+        "source": "Direct owner messages in this task, 2026-10-13",
+        "prior_agent_attempt_preserved": true,
+        "note": "Earlier attempt stopped at a photosensitivity warning; owner later accepted play."
+      },
+      "guest_access": {
+        "status": "guest_playable",
+        "checked_at_utc": null,
+        "basis": "owner_confirmation_2026-10-13",
+        "evidence": "Earlier local browser profile and photosensitivity warning; owner accepted after play."
+      },
+      "category": "Shooter, Arcade",
+      "artwork": {
+        "selected_option": "A",
+        "subject": "otter versus bugs neon shooter",
+        "asset": "/public/games/oct13-devin-vs-the-backlog.webp",
+        "sha256": "a103e5ed04bb3b8f01c63006af476d048c9c13b19faa7cd23d59b29f2d5dfbc7",
+        "bytes": 73732,
+        "type": "generated cover"
+      }
+    },
+    {
+      "id": "w04-01",
+      "title": "NOVA DEFENDER — Last Signal",
+      "reported_title": "NOVA DEFENDER — Last Signal",
+      "playable_url": "https://nova-defender.expo.app/game/index.html",
+      "ai_authorship": {
+        "source_url": "https://x.com/PeradzeVan58311/status/2103360685132628471",
+        "source_type": "creator_x_post",
+        "quote": null,
+        "status": "verified",
+        "prior_report": "runs/2026-10-13T041408Z/reports/worker-1/w04-01.json"
+      },
+      "gameplay": {
+        "status": "owner_confirmed",
+        "source": "Direct owner messages in this task, 2026-10-13",
+        "prior_agent_attempt_preserved": true,
+        "note": "Owner explicitly listed this game as tested and working; no fresh agent input is claimed."
+      },
+      "guest_access": {
+        "status": "guest_playable",
+        "checked_at_utc": null,
+        "basis": "owner_confirmation_2026-10-13",
+        "evidence": "Owner accepted successful play under the no-mandatory-account-sign-in preference; no new independent unauthenticated agent playtest is claimed."
+      },
+      "category": "Shooter, Survival",
+      "artwork": {
+        "selected_option": "A",
+        "subject": "space wave shooter",
+        "asset": "/public/games/oct13-nova-defender.webp",
+        "sha256": "091270f866dc5050c1951dd56c2cce920fbcef590b7fc4cc522dddaffdb52ead",
+        "bytes": 74004,
+        "type": "generated cover"
+      }
+    },
+    {
+      "id": "w07-04",
+      "title": "Thee Captain’s Blacktide Adventures",
+      "reported_title": "Thee Captain's Blacktide Adventures",
+      "playable_url": "https://gamingwtheecaptain.netlify.app/",
+      "ai_authorship": {
+        "source_url": "https://x.com/Updownupupright/status/2100060376993837529",
+        "source_type": "creator_x_post",
+        "quote": "I'll be updating my game I built with Grok Build soon. Fun mobile and pc pirate ship game. Check it out and find CrackerJack, its to funny. There's awesome special attacks 🍻",
+        "status": "verified",
+        "prior_report": "runs/2026-10-13T041408Z/reports/worker-3/w07-04.json"
+      },
+      "gameplay": {
+        "status": "owner_confirmed",
+        "source": "Direct owner messages in this task, 2026-10-13",
+        "prior_agent_attempt_preserved": true,
+        "note": "Earlier setup requested captain name and X handle for a public score ledger. Owner accepted the played game; only setup was observed by the agent."
+      },
+      "guest_access": {
+        "status": "identity_required",
+        "checked_at_utc": null,
+        "basis": "owner_confirmation_2026-10-13",
+        "evidence": "Earlier setup requested captain name and X handle for a public ledger; owner accepted the game after play. Anonymous access is not established."
+      },
+      "category": "Action, Adventure",
+      "artwork": {
+        "selected_option": "B",
+        "subject": "pirate ship and kraken",
+        "asset": "/public/games/oct13-blacktide-adventures.webp",
+        "sha256": "9ba5ea687f2ed1e1b50a0db613a671438623662728f1a55b0838e5173e39c975",
+        "bytes": 68042,
+        "type": "generated cover"
+      }
+    },
+    {
+      "id": "w07-06",
+      "title": "Patata Parade",
+      "reported_title": "Patata Parade",
+      "playable_url": "https://parade.patata.party/",
+      "ai_authorship": {
+        "source_url": "https://x.com/pu1ai/status/2107662628143477094",
+        "source_type": "creator_x_post",
+        "quote": "又用claude做了一个小游戏",
+        "status": "verified",
+        "prior_report": "runs/2026-10-13T041408Z/reports/worker-3/w07-06.json"
+      },
+      "gameplay": {
+        "status": "owner_confirmed",
+        "source": "Direct owner messages in this task, 2026-10-13",
+        "prior_agent_attempt_preserved": true,
+        "note": "Owner play showed chick collection, growing stack, collision, and replay. Google sign-in was optional for rewards."
+      },
+      "guest_access": {
+        "status": "optional_sign_in",
+        "checked_at_utc": null,
+        "basis": "owner_confirmation_2026-10-13",
+        "evidence": "Core parade and replay were observed during owner play; Google sign-in was optional for rewards."
+      },
+      "category": "Arcade",
+      "artwork": {
+        "selected_option": "A",
+        "subject": "growing chick parade",
+        "asset": "/public/games/oct13-patata-parade.webp",
+        "sha256": "85627ce3bc1bd1069b64c799d5e67a035bc45211189947ce761702267b56f4b9",
+        "bytes": 30288,
+        "type": "generated cover"
+      }
+    },
+    {
+      "id": "w07-07",
+      "title": "ECHO TAP",
+      "reported_title": "ECHO TAP",
+      "playable_url": "https://tap.code-hello.com/",
+      "ai_authorship": {
+        "source_url": "https://x.com/codehello_arg/status/2101872500661473425",
+        "source_type": "creator_x_post",
+        "quote": "Juego de tipeo de código Python. Completamente creado con Codex de @OpenAI ¿Qué les parece?",
+        "status": "verified",
+        "prior_report": "runs/2026-10-13T041408Z/reports/worker-3/w07-07.json"
+      },
+      "gameplay": {
+        "status": "owner_confirmed",
+        "source": "Direct owner messages in this task, 2026-10-13",
+        "prior_agent_attempt_preserved": true,
+        "note": "Guest option was used during owner play; Level B completion, score, precision, and combo changed."
+      },
+      "guest_access": {
+        "status": "guest_playable",
+        "checked_at_utc": null,
+        "basis": "owner_confirmation_2026-10-13",
+        "evidence": "Visible guest option was used during owner play and a level completed."
+      },
+      "category": "Educational",
+      "artwork": {
+        "selected_option": "A",
+        "subject": "black-and-gold code typing",
+        "asset": "/public/games/oct13-echo-tap.webp",
+        "sha256": "3db1afd1e1e5af06ffcdcc107731cb16a248d3d07768481009f35b70d46e4310",
+        "bytes": 47700,
+        "type": "generated cover"
+      }
+    },
+    {
+      "id": "w07-12",
+      "title": "Poke Triad",
+      "reported_title": "Poke Triad",
+      "playable_url": "https://poke-triad.vercel.app/",
+      "ai_authorship": {
+        "source_url": "https://x.com/Blacklinker_/status/2108207060135686499",
+        "source_type": "creator_x_post",
+        "quote": "Probé a hacer un juego de Pokemon basado en las cartas de Triple Triad de FF VIII. Gratis aquí: poke-triad.vercel.app Todo con ChatGPT (necesité 102 versiones diferentes con mejoras 😝)",
+        "status": "verified",
+        "prior_report": "runs/2026-10-13T041408Z/reports/worker-4/w07-12.json"
+      },
+      "gameplay": {
+        "status": "owner_confirmed",
+        "source": "Direct owner messages in this task, 2026-10-13",
+        "prior_agent_attempt_preserved": true,
+        "note": "Earlier page requested a browser-saved profile. Owner play showed card captures and score changes."
+      },
+      "guest_access": {
+        "status": "guest_playable",
+        "checked_at_utc": null,
+        "basis": "owner_confirmation_2026-10-13",
+        "evidence": "Earlier browser-saved local profile requirement; owner played card captures and score changes."
+      },
+      "category": "Strategy",
+      "artwork": {
+        "selected_option": "B",
+        "subject": "elemental creature card duel",
+        "asset": "/public/games/oct13-poke-triad.webp",
+        "sha256": "332bbeae52150d3be2e0dea49b7826fa179ecbc0392b137ae7ba6f072f8e691f",
+        "bytes": 116920,
+        "type": "generated cover"
+      }
+    },
+    {
+      "id": "w09-15",
+      "title": "Waifu Tavern",
+      "reported_title": "Waifu Tavern",
+      "playable_url": "https://waifutavern.xyz/",
+      "ai_authorship": {
+        "source_url": "https://x.com/namorada_online/status/2107853777931743724",
+        "source_type": "creator_x_post",
+        "quote": "I made a clicker game with Claude, check it ou pls https://waifutavern.xyz",
+        "status": "agent_verified",
+        "prior_report": "runs/2026-10-13T041408Z/reports/worker-2/w09-15.json"
+      },
+      "gameplay": {
+        "status": "owner_confirmed",
+        "source": "Direct owner messages in this task, 2026-10-13",
+        "prior_agent_attempt_preserved": true,
+        "note": "Owner play showed production rate and resource progression after the terms screen."
+      },
+      "guest_access": {
+        "status": "guest_playable",
+        "checked_at_utc": null,
+        "basis": "owner_confirmation_2026-10-13",
+        "evidence": "Owner accepted successful play under the no-mandatory-account-sign-in preference; no new independent unauthenticated agent playtest is claimed."
+      },
+      "category": "Casual, Simulators",
+      "artwork": {
+        "selected_option": "B",
+        "subject": "fantasy idle tavern",
+        "asset": "/public/games/oct13-waifu-tavern.webp",
+        "sha256": "72a21fea07925b3947785019d2972ab5729e0c70edd02dc14c1db01fc1b36db3",
+        "bytes": 101092,
+        "type": "generated cover"
+      }
+    },
+    {
+      "id": "w04-22",
+      "title": "UFO parking",
+      "reported_title": "UFO parking",
+      "playable_url": "https://nikitavorontsov.com/lab/ufo-parking/",
+      "ai_authorship": {
+        "source_url": "https://nikitavorontsov.com/lab/ufo-parking/",
+        "source_type": "creator_game_page",
+        "quote": "I gave Claude Opus 5.5, GPT-6 Sol and GPT-6 Luna the same loose brief: make a small one-button UFO parking game in Three.js.",
+        "status": "verified",
+        "prior_report": "runs/2026-10-13T041408Z/reports/worker-3/w04-22.json"
+      },
+      "gameplay": {
+        "status": "owner_confirmed",
+        "source": "Direct owner messages in this task, 2026-10-13",
+        "prior_agent_attempt_preserved": true,
+        "note": "Owner play showed a parking score, timer, thrust, and drift."
+      },
+      "guest_access": {
+        "status": "guest_playable",
+        "checked_at_utc": null,
+        "basis": "owner_confirmation_2026-10-13",
+        "evidence": "Owner accepted successful play under the no-mandatory-account-sign-in preference; no new independent unauthenticated agent playtest is claimed."
+      },
+      "category": "Arcade",
+      "artwork": {
+        "selected_option": "B",
+        "subject": "UFO landing pad",
+        "asset": "/public/games/oct13-ufo-parking.webp",
+        "sha256": "4c4406417589c148df93970988f34e7738b9805f9cec512ffaca6e91a8516414",
+        "bytes": 45534,
+        "type": "generated cover"
+      }
+    },
+    {
+      "id": "w07-08",
+      "title": "Pelican Rider (鹈鹕骑手)",
+      "reported_title": "鹈鹕骑手 (Pelican Rider)",
+      "playable_url": "https://luoxiaoman.com/pelican-rider/",
+      "ai_authorship": {
+        "source_url": "https://x.com/aqua_gluglu/status/2106847151997542795",
+        "source_type": "creator_x_post",
+        "quote": "使用 Opus 5.5 制作的鹈鹕骑自行车小游戏：",
+        "status": "verified",
+        "prior_report": "runs/2026-10-13T041408Z/reports/worker-3/w07-08.json"
+      },
+      "gameplay": {
+        "status": "owner_confirmed",
+        "source": "Direct owner messages in this task, 2026-10-13",
+        "prior_agent_attempt_preserved": true,
+        "note": "Owner play showed course progress, fish, score, time, and stamina changes; finish was not observed."
+      },
+      "guest_access": {
+        "status": "guest_playable",
+        "checked_at_utc": null,
+        "basis": "owner_confirmation_2026-10-13",
+        "evidence": "Owner accepted successful play under the no-mandatory-account-sign-in preference; no new independent unauthenticated agent playtest is claimed."
+      },
+      "category": "Sports, Arcade",
+      "artwork": {
+        "selected_option": "A",
+        "subject": "pelican cycling coastal course",
+        "asset": "/public/games/oct13-pelican-rider.webp",
+        "sha256": "5eaf79761f0845ced351face14bdfd630a2d79da320f1b839b7a1603a327a071",
+        "bytes": 62592,
+        "type": "generated cover"
+      }
+    },
+    {
+      "id": "w09-17",
+      "title": "殘軌戰線",
+      "reported_title": "殘骸戰線",
+      "playable_url": "https://orbital-requiem.deonchi.chatgpt.site/",
+      "ai_authorship": {
+        "source_url": "https://x.com/FaLan52553/status/2096482789948596582",
+        "source_type": "creator_x_post",
+        "quote": "我想用GPT做一些不是套版的遊戲，像是賽車什麼都是套版，所以我用claude寫企劃，用Grok生圖像素材，GPT最後接手製作。看起來還算成功，之後可能會試試看製作XCOM那種3d視角的，不過做這東西居然燒了80% GPT額度= =",
+        "status": "agent_verified",
+        "prior_report": "runs/2026-10-13T041408Z/reports/worker-2/w09-17.json"
+      },
+      "gameplay": {
+        "status": "owner_confirmed",
+        "source": "Direct owner messages in this task, 2026-10-13",
+        "prior_agent_attempt_preserved": true,
+        "note": "Owner play showed unit selection, movement tiles, and enemy phase progression."
+      },
+      "guest_access": {
+        "status": "guest_playable",
+        "checked_at_utc": null,
+        "basis": "owner_confirmation_2026-10-13",
+        "evidence": "Owner accepted successful play under the no-mandatory-account-sign-in preference; no new independent unauthenticated agent playtest is claimed."
+      },
+      "category": "Strategy",
+      "artwork": {
+        "selected_option": "A",
+        "subject": "sci-fi tactical grid",
+        "asset": "/public/games/oct13-orbital-requiem.webp",
+        "sha256": "dd4cbc163ef0879ef1297634d8c77dee2233cee75ef578e6b24e5eef4de6dc1d",
+        "bytes": 80312,
+        "type": "generated cover"
+      }
+    }
+  ],
+  "held": [],
+  "excluded": [
+    {
+      "title": "Puzzle Time",
+      "playable_url": "https://puzzletime.io/",
+      "reason": "Owner reports mandatory Google sign-in with no guest path"
+    }
+  ]
+}

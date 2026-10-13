@@ -69,6 +69,241 @@
       "date": "2026-10-10",
       "source": "Direct owner reply in thumbnail chat",
       "statement": "Remove casino entry; correct mislabeled game"
+    },
+    {
+      "game": "Bluebell Overdrive",
+      "playable_url": "https://bluebell-overdrive.masyumaron333.chatgpt.site/",
+      "decision": "owner_confirmed_valid",
+      "acceptance_basis": "owner_confirmed",
+      "date": "2026-10-13",
+      "statement": "Owner explicitly listed this game as already tested and working.",
+      "source": "Direct owner statements in this task",
+      "prior_test": "runs/2026-10-13T041408Z/reports/worker-3/w02-09.json",
+      "note": "Record this owner gameplay confirmation separately from the earlier attempt; it does not change or replace prior gameplay or AI-authorship evidence."
+    },
+    {
+      "game": "Untitled Opus 5.5 game",
+      "playable_url": "https://claude.ai/artifact/KECPs9uKjcCFeosuFjHVVT",
+      "decision": "owner_confirmed_valid",
+      "acceptance_basis": "owner_confirmed",
+      "date": "2026-10-13",
+      "statement": "Owner explicitly listed this game as already tested and working.",
+      "source": "Direct owner statements in this task",
+      "prior_test": "runs/2026-10-13T041408Z/reports/worker-4/w02-11.json",
+      "note": "Record this owner gameplay confirmation separately from the earlier attempt; it does not change or replace prior gameplay or AI-authorship evidence."
+    },
+    {
+      "game": "Backrooms — Signal Lost",
+      "playable_url": "https://backrooms-tau.vercel.app/",
+      "decision": "owner_confirmed_valid",
+      "acceptance_basis": "owner_confirmed",
+      "date": "2026-10-13",
+      "statement": "Owner explicitly listed this game as already tested and working.",
+      "source": "Direct owner statements in this task",
+      "prior_test": "runs/2026-10-13T041408Z/reports/worker-4/w03-11.json",
+      "note": "Record this owner gameplay confirmation separately from the earlier attempt; it does not change or replace prior gameplay or AI-authorship evidence."
+    },
+    {
+      "game": "Spline Rush",
+      "playable_url": "https://spline-rush.vercel.app/",
+      "decision": "owner_confirmed_valid",
+      "acceptance_basis": "owner_confirmed",
+      "date": "2026-10-13",
+      "statement": "Owner explicitly listed this game as already tested and working.",
+      "source": "Direct owner statements in this task",
+      "prior_test": "runs/2026-10-13T041408Z/reports/worker-2/w07-20.json",
+      "note": "Record this owner gameplay confirmation separately from the earlier attempt; it does not change or replace prior gameplay or AI-authorship evidence."
+    },
+    {
+      "game": "Lagos street football",
+      "playable_url": "https://street-football.quikdb.net/",
+      "decision": "owner_confirmed_valid",
+      "acceptance_basis": "owner_confirmed",
+      "date": "2026-10-13",
+      "statement": "Owner explicitly listed this game as already tested and working.",
+      "source": "Direct owner statements in this task",
+      "prior_test": "runs/2026-10-13T041408Z/reports/worker-2/w07-25.json",
+      "note": "Record this owner gameplay confirmation separately from the earlier attempt; it does not change or replace prior gameplay or AI-authorship evidence."
+    },
+    {
+      "game": "IIT Guwahati campus 3D game",
+      "playable_url": "https://claude.ai/artifact/XTPN49amJGjd9xE2xgMJFS",
+      "decision": "owner_confirmed_valid",
+      "acceptance_basis": "owner_confirmed",
+      "date": "2026-10-13",
+      "statement": "Owner explicitly listed this game as already tested and working.",
+      "source": "Direct owner statements in this task",
+      "prior_test": "runs/2026-10-13T041408Z/reports/worker-2/w01-09.json",
+      "note": "Record this owner gameplay confirmation separately from the earlier attempt; it does not change or replace prior gameplay or AI-authorship evidence."
+    },
+    {
+      "game": "Play Simi",
+      "playable_url": "https://playsimi.danielquek.com/",
+      "decision": "owner_confirmed_valid",
+      "acceptance_basis": "owner_confirmed",
+      "date": "2026-10-13",
+      "statement": "Owner explicitly listed this game as already tested and working.",
+      "source": "Direct owner statements in this task",
+      "prior_test": "runs/2026-10-13T041408Z/reports/worker-2/w01-10.json",
+      "note": "Record this owner gameplay confirmation separately from the earlier attempt; it does not change or replace prior gameplay or AI-authorship evidence."
+    },
+    {
+      "game": "Brickbrag",
+      "playable_url": "https://brickbrag.com/",
+      "decision": "owner_confirmed_valid",
+      "acceptance_basis": "owner_confirmed",
+      "date": "2026-10-13",
+      "statement": "Owner explicitly listed this game as already tested and working.",
+      "source": "Direct owner statements in this task",
+      "prior_test": "runs/2026-10-13T041408Z/reports/worker-3/w01-13.json",
+      "note": "Record this owner gameplay confirmation separately from the earlier attempt; it does not change or replace prior gameplay or AI-authorship evidence."
+    },
+    {
+      "game": "Devin vs. the Backlog",
+      "playable_url": "https://otter-game-two.vercel.app/",
+      "decision": "owner_confirmed_valid",
+      "acceptance_basis": "owner_confirmed",
+      "date": "2026-10-13",
+      "statement": "Owner explicitly listed this game as already tested and working.",
+      "source": "Direct owner statements in this task",
+      "prior_test": "runs/2026-10-13T041408Z/reports/worker-4/w03-08.json",
+      "note": "Record this owner gameplay confirmation separately from the earlier attempt; it does not change or replace prior gameplay or AI-authorship evidence."
+    },
+    {
+      "game": "NOVA DEFENDER — Last Signal",
+      "playable_url": "https://nova-defender.expo.app/game/index.html",
+      "decision": "owner_confirmed_valid",
+      "acceptance_basis": "owner_confirmed",
+      "date": "2026-10-13",
+      "statement": "Owner confirmed every game played in the observed screen session was successful; Puzzle Time was the explicit exception.",
+      "source": "Direct owner statements in this task",
+      "prior_test": "runs/2026-10-13T041408Z/reports/worker-1/w04-01.json",
+      "note": "Record this owner gameplay confirmation separately from the earlier attempt; it does not change or replace prior gameplay or AI-authorship evidence."
+    },
+    {
+      "game": "Thee Captain’s Blacktide Adventures",
+      "playable_url": "https://gamingwtheecaptain.netlify.app/",
+      "decision": "owner_confirmed_valid",
+      "acceptance_basis": "owner_confirmed",
+      "date": "2026-10-13",
+      "statement": "Owner confirmed every game played in the observed screen session was successful; Puzzle Time was the explicit exception.",
+      "source": "Direct owner statements in this task",
+      "prior_test": "runs/2026-10-13T041408Z/reports/worker-3/w07-04.json",
+      "note": "Record this owner gameplay confirmation separately from the earlier attempt; it does not change or replace prior gameplay or AI-authorship evidence."
+    },
+    {
+      "game": "Patata Parade",
+      "playable_url": "https://parade.patata.party/",
+      "decision": "owner_confirmed_valid",
+      "acceptance_basis": "owner_confirmed",
+      "date": "2026-10-13",
+      "statement": "Owner confirmed every game played in the observed screen session was successful; Puzzle Time was the explicit exception.",
+      "source": "Direct owner statements in this task",
+      "prior_test": "runs/2026-10-13T041408Z/reports/worker-3/w07-06.json",
+      "note": "Record this owner gameplay confirmation separately from the earlier attempt; it does not change or replace prior gameplay or AI-authorship evidence."
+    },
+    {
+      "game": "ECHO TAP",
+      "playable_url": "https://tap.code-hello.com/",
+      "decision": "owner_confirmed_valid",
+      "acceptance_basis": "owner_confirmed",
+      "date": "2026-10-13",
+      "statement": "Owner confirmed every game played in the observed screen session was successful; Puzzle Time was the explicit exception.",
+      "source": "Direct owner statements in this task",
+      "prior_test": "runs/2026-10-13T041408Z/reports/worker-3/w07-07.json",
+      "note": "Record this owner gameplay confirmation separately from the earlier attempt; it does not change or replace prior gameplay or AI-authorship evidence."
+    },
+    {
+      "game": "Poke Triad",
+      "playable_url": "https://poke-triad.vercel.app/",
+      "decision": "owner_confirmed_valid",
+      "acceptance_basis": "owner_confirmed",
+      "date": "2026-10-13",
+      "statement": "Owner confirmed every game played in the observed screen session was successful; Puzzle Time was the explicit exception.",
+      "source": "Direct owner statements in this task",
+      "prior_test": "runs/2026-10-13T041408Z/reports/worker-4/w07-12.json",
+      "note": "Record this owner gameplay confirmation separately from the earlier attempt; it does not change or replace prior gameplay or AI-authorship evidence."
+    },
+    {
+      "game": "Waifu Tavern",
+      "playable_url": "https://waifutavern.xyz/",
+      "decision": "owner_confirmed_valid",
+      "acceptance_basis": "owner_confirmed",
+      "date": "2026-10-13",
+      "statement": "Owner confirmed every game played in the observed screen session was successful; Puzzle Time was the explicit exception.",
+      "source": "Direct owner statements in this task",
+      "prior_test": "runs/2026-10-13T041408Z/reports/worker-2/w09-15.json",
+      "note": "Record this owner gameplay confirmation separately from the earlier attempt; it does not change or replace prior gameplay or AI-authorship evidence."
+    },
+    {
+      "game": "UFO parking",
+      "playable_url": "https://nikitavorontsov.com/lab/ufo-parking/",
+      "decision": "owner_confirmed_valid",
+      "acceptance_basis": "owner_confirmed",
+      "date": "2026-10-13",
+      "statement": "Owner confirmed every game played in the observed screen session was successful; Puzzle Time was the explicit exception.",
+      "source": "Direct owner statements in this task",
+      "prior_test": "runs/2026-10-13T041408Z/reports/worker-3/w04-22.json",
+      "note": "Record this owner gameplay confirmation separately from the earlier attempt; it does not change or replace prior gameplay or AI-authorship evidence."
+    },
+    {
+      "game": "Pelican Rider (鹈鹕骑手)",
+      "playable_url": "https://luoxiaoman.com/pelican-rider/",
+      "decision": "owner_confirmed_valid",
+      "acceptance_basis": "owner_confirmed",
+      "date": "2026-10-13",
+      "statement": "Owner confirmed every game played in the observed screen session was successful; Puzzle Time was the explicit exception.",
+      "source": "Direct owner statements in this task",
+      "prior_test": "runs/2026-10-13T041408Z/reports/worker-3/w07-08.json",
+      "note": "Record this owner gameplay confirmation separately from the earlier attempt; it does not change or replace prior gameplay or AI-authorship evidence."
+    },
+    {
+      "game": "殘軌戰線",
+      "playable_url": "https://orbital-requiem.deonchi.chatgpt.site/",
+      "decision": "owner_confirmed_valid",
+      "acceptance_basis": "owner_confirmed",
+      "date": "2026-10-13",
+      "statement": "Owner confirmed every game played in the observed screen session was successful; Puzzle Time was the explicit exception.",
+      "source": "Direct owner statements in this task",
+      "prior_test": "runs/2026-10-13T041408Z/reports/worker-2/w09-17.json",
+      "note": "Record this owner gameplay confirmation separately from the earlier attempt; it does not change or replace prior gameplay or AI-authorship evidence."
+    },
+    {
+      "game": "Café Rush",
+      "playable_url": "https://endearing-palmier-d824b3.netlify.app/",
+      "decision": "owner_confirmed_valid",
+      "acceptance_basis": "owner_confirmed",
+      "date": "2026-10-13",
+      "statement": "Owner confirmed every game played in the observed screen session was successful; Puzzle Time was the explicit exception.",
+      "source": "Direct owner statements in this task",
+      "prior_test": "runs/2026-10-13T041408Z/reports/worker-2/w09-19.json",
+      "note": "Record this owner gameplay confirmation separately from the earlier attempt; it does not change or replace prior gameplay or AI-authorship evidence."
+    },
+    {
+      "game": "MuX catches Shibu",
+      "playable_url": "https://shibuonsol.net/game/",
+      "decision": "owner_confirmed_valid",
+      "acceptance_basis": "owner_confirmed",
+      "date": "2026-10-13",
+      "statement": "Owner confirmed every game played in the observed screen session was successful; Puzzle Time was the explicit exception.",
+      "source": "Direct owner statements in this task",
+      "prior_test": "runs/2026-10-13T041408Z/reports/worker-2/w09-21.json",
+      "note": "Record this owner gameplay confirmation separately from the earlier attempt; it does not change or replace prior gameplay or AI-authorship evidence."
+    },
+    {
+      "game": "Puzzle Time",
+      "playable_url": "https://puzzletime.io/",
+      "decision": "excluded_by_owner",
+      "date": "2026-10-13",
+      "source": "Direct owner instruction in this task",
+      "statement": "Do not add this game: Google sign-in is required and guest play is unavailable."
     }
-  ]
+  ],
+  "preferences": {
+    "guest_play_required": true,
+    "exclude_mandatory_sign_in": true,
+    "statement": "Games must have a playable unauthenticated guest path. Do not include games that require Google, SSO, or account sign-in for the core loop. Optional sign-in is acceptable only when the core loop works as a guest.",
+    "source": "Direct owner instruction in this task",
+    "date": "2026-10-13"
+  }
 }

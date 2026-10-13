@@ -7,6 +7,27 @@ export type MultiplayerMode = 'Online multiplayer' | 'Local 2-player' | 'Local m
 
 // Evidence and unresolved cases live in docs/category-audit/2026-10-11/.
 export const reviewedCategories: Record<string, CategoryList> = {
+  // October 13 owner-confirmed batch: genres supported by game descriptions and observed play.
+  "bluebell-overdrive": ["Shooter", "Action"],
+  "cafe-rush": ["Simulators", "Casual"],
+  "mux-catches-shibu": ["Arcade"],
+  "super-dreadnought-above-clouds": ["Action"],
+  "backrooms-signal-lost": ["Adventure", "Survival"],
+  "spline-rush": ["Racing"],
+  "lagos-street-football": ["Sports"],
+  "iit-guwahati-campus-3d": ["Adventure", "Simulators"],
+  "play-simi": ["Casual"],
+  "brickbrag": ["Simulators", "Racing"],
+  "devin-vs-the-backlog": ["Shooter", "Arcade"],
+  "nova-defender-last-signal": ["Shooter", "Survival"],
+  "thee-captains-blacktide-adventures": ["Action", "Adventure"],
+  "patata-parade": ["Arcade"],
+  "echo-tap": ["Educational"],
+  "poke-triad": ["Strategy"],
+  "waifu-tavern": ["Casual", "Simulators"],
+  "ufo-parking": ["Arcade"],
+  "pelican-rider": ["Sports", "Arcade"],
+  "orbital-requiem": ["Strategy"],
   // October 13 batch: gameplay-based genres; no unverified human multiplayer modes.
   "neko-neko-baribari": ["Strategy"],
   "junkyard-king-arena": ["Action", "Arcade"],
