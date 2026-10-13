@@ -1,12 +1,13 @@
 {
   "run_id": "2026-10-13T173709Z",
-  "status": "prepared_for_release",
+  "status": "published_and_live_verified",
   "scope": "Owner supplied list; no discovery or GrokBot run",
   "summary": {
     "owner_confirmed": 20,
     "eligible": 20,
     "ai_authorship_held": 0,
-    "excluded_mandatory_sign_in": 1
+    "excluded_mandatory_sign_in": 1,
+    "published": 20
   },
   "games": [
     {
@@ -38,7 +39,7 @@
       "artwork": {
         "selected_option": "A",
         "subject": "anime girl against toy robots in an industrial factory",
-        "asset": "/public/games/oct13-bluebell-overdrive.webp",
+        "asset": "/games/oct13-bluebell-overdrive.webp",
         "sha256": "5d5ccfcc6f998ed8dbc5a7f890af2b6921a4aeed35a46bbe945eef39e18d6e44",
         "bytes": 56586,
         "type": "generated cover",
@@ -74,7 +75,7 @@
       "artwork": {
         "selected_option": "retained",
         "subject": "3D cafe multitasking game",
-        "asset": "/public/games/oct13-cafe-rush.webp",
+        "asset": "/games/oct13-cafe-rush.webp",
         "sha256": "841488e42ac7de6eb693bbca6f1b9949a621cf1d3b96489d0ba16056e6b30727",
         "bytes": 31644,
         "type": "creator OG cover",
@@ -110,7 +111,7 @@
       "artwork": {
         "selected_option": "A",
         "subject": "MuX chasing Shibu in original moon arena",
-        "asset": "/public/games/oct13-mux-catches-shibu.webp",
+        "asset": "/games/oct13-mux-catches-shibu.webp",
         "sha256": "234e0e0795e13536cbbd2a480258fadd78eb4f2ee7640ff359abb9ecc1aa261e",
         "bytes": 56644,
         "type": "generated cover",
@@ -145,7 +146,7 @@
       "artwork": {
         "selected_option": "A",
         "subject": "monochrome airship above clouds",
-        "asset": "/public/games/oct13-super-dreadnought.webp",
+        "asset": "/games/oct13-super-dreadnought.webp",
         "sha256": "994981b49db2b89749118e0dd5137fe0754c30b8abd71e682ea630919a978cdb",
         "bytes": 81716,
         "type": "generated cover"
@@ -179,7 +180,7 @@
       "artwork": {
         "selected_option": "B",
         "subject": "yellow office maze with flashlight explorer",
-        "asset": "/public/games/oct13-backrooms-signal-lost.webp",
+        "asset": "/games/oct13-backrooms-signal-lost.webp",
         "sha256": "38d7a667fdcff5d89b0c29df77a2b3ab96b4f827b0c5680e8b0140a1fd767387",
         "bytes": 29716,
         "type": "generated cover"
@@ -213,7 +214,7 @@
       "artwork": {
         "selected_option": "A",
         "subject": "3D racing circuit",
-        "asset": "/public/games/oct13-spline-rush.webp",
+        "asset": "/games/oct13-spline-rush.webp",
         "sha256": "3e5544fd0a6ff91561bfff1abbfff335c8a95ba1c4f55151d3ba6b2997b509d2",
         "bytes": 54184,
         "type": "generated cover"
@@ -247,7 +248,7 @@
       "artwork": {
         "selected_option": "A",
         "subject": "five-a-side Lagos street football",
-        "asset": "/public/games/oct13-lagos-street-football.webp",
+        "asset": "/games/oct13-lagos-street-football.webp",
         "sha256": "ec3ce09af9b9451a7d10b0030ee489ff86ba4a7819dfd19909cc85cc2da6f167",
         "bytes": 69506,
         "type": "generated cover"
@@ -281,7 +282,7 @@
       "artwork": {
         "selected_option": "B",
         "subject": "3D campus exploration",
-        "asset": "/public/games/oct13-iit-guwahati-campus.webp",
+        "asset": "/games/oct13-iit-guwahati-campus.webp",
         "sha256": "7e80e6ff86afe04ba05a16aad97723ad24f029eafb430799700a39de54a51ed3",
         "bytes": 100446,
         "type": "generated cover"
@@ -315,7 +316,7 @@
       "artwork": {
         "selected_option": "A",
         "subject": "original neighborhood arcade playground",
-        "asset": "/public/games/oct13-play-simi.webp",
+        "asset": "/games/oct13-play-simi.webp",
         "sha256": "433f268623a4a785bdcab944606940996f4993ff42614a897a79cf7f541b2e3b",
         "bytes": 72804,
         "type": "generated cover"
@@ -349,7 +350,7 @@
       "artwork": {
         "selected_option": "B",
         "subject": "brick-built town",
-        "asset": "/public/games/oct13-brickbrag.webp",
+        "asset": "/games/oct13-brickbrag.webp",
         "sha256": "a919fbb37adb0238ed9e1ac4198596059c27d881255a40e469642300b89da78d",
         "bytes": 146440,
         "type": "generated cover"
@@ -383,7 +384,7 @@
       "artwork": {
         "selected_option": "A",
         "subject": "otter versus bugs neon shooter",
-        "asset": "/public/games/oct13-devin-vs-the-backlog.webp",
+        "asset": "/games/oct13-devin-vs-the-backlog.webp",
         "sha256": "a103e5ed04bb3b8f01c63006af476d048c9c13b19faa7cd23d59b29f2d5dfbc7",
         "bytes": 73732,
         "type": "generated cover"
@@ -417,7 +418,7 @@
       "artwork": {
         "selected_option": "A",
         "subject": "space wave shooter",
-        "asset": "/public/games/oct13-nova-defender.webp",
+        "asset": "/games/oct13-nova-defender.webp",
         "sha256": "091270f866dc5050c1951dd56c2cce920fbcef590b7fc4cc522dddaffdb52ead",
         "bytes": 74004,
         "type": "generated cover"
@@ -451,7 +452,7 @@
       "artwork": {
         "selected_option": "B",
         "subject": "pirate ship and kraken",
-        "asset": "/public/games/oct13-blacktide-adventures.webp",
+        "asset": "/games/oct13-blacktide-adventures.webp",
         "sha256": "9ba5ea687f2ed1e1b50a0db613a671438623662728f1a55b0838e5173e39c975",
         "bytes": 68042,
         "type": "generated cover"
@@ -485,7 +486,7 @@
       "artwork": {
         "selected_option": "A",
         "subject": "growing chick parade",
-        "asset": "/public/games/oct13-patata-parade.webp",
+        "asset": "/games/oct13-patata-parade.webp",
         "sha256": "85627ce3bc1bd1069b64c799d5e67a035bc45211189947ce761702267b56f4b9",
         "bytes": 30288,
         "type": "generated cover"
@@ -519,7 +520,7 @@
       "artwork": {
         "selected_option": "A",
         "subject": "black-and-gold code typing",
-        "asset": "/public/games/oct13-echo-tap.webp",
+        "asset": "/games/oct13-echo-tap.webp",
         "sha256": "3db1afd1e1e5af06ffcdcc107731cb16a248d3d07768481009f35b70d46e4310",
         "bytes": 47700,
         "type": "generated cover"
@@ -553,7 +554,7 @@
       "artwork": {
         "selected_option": "B",
         "subject": "elemental creature card duel",
-        "asset": "/public/games/oct13-poke-triad.webp",
+        "asset": "/games/oct13-poke-triad.webp",
         "sha256": "332bbeae52150d3be2e0dea49b7826fa179ecbc0392b137ae7ba6f072f8e691f",
         "bytes": 116920,
         "type": "generated cover"
@@ -587,7 +588,7 @@
       "artwork": {
         "selected_option": "B",
         "subject": "fantasy idle tavern",
-        "asset": "/public/games/oct13-waifu-tavern.webp",
+        "asset": "/games/oct13-waifu-tavern.webp",
         "sha256": "72a21fea07925b3947785019d2972ab5729e0c70edd02dc14c1db01fc1b36db3",
         "bytes": 101092,
         "type": "generated cover"
@@ -621,7 +622,7 @@
       "artwork": {
         "selected_option": "B",
         "subject": "UFO landing pad",
-        "asset": "/public/games/oct13-ufo-parking.webp",
+        "asset": "/games/oct13-ufo-parking.webp",
         "sha256": "4c4406417589c148df93970988f34e7738b9805f9cec512ffaca6e91a8516414",
         "bytes": 45534,
         "type": "generated cover"
@@ -655,7 +656,7 @@
       "artwork": {
         "selected_option": "A",
         "subject": "pelican cycling coastal course",
-        "asset": "/public/games/oct13-pelican-rider.webp",
+        "asset": "/games/oct13-pelican-rider.webp",
         "sha256": "5eaf79761f0845ced351face14bdfd630a2d79da320f1b839b7a1603a327a071",
         "bytes": 62592,
         "type": "generated cover"
@@ -689,7 +690,7 @@
       "artwork": {
         "selected_option": "A",
         "subject": "sci-fi tactical grid",
-        "asset": "/public/games/oct13-orbital-requiem.webp",
+        "asset": "/games/oct13-orbital-requiem.webp",
         "sha256": "dd4cbc163ef0879ef1297634d8c77dee2233cee75ef578e6b24e5eef4de6dc1d",
         "bytes": 80312,
         "type": "generated cover"
@@ -703,5 +704,25 @@
       "playable_url": "https://puzzletime.io/",
       "reason": "Owner reports mandatory Google sign-in with no guest path"
     }
-  ]
+  ],
+  "delivery": {
+    "source_commit": "1eb801d722703aed95a2d6e9b4788bba73f349da",
+    "pull_request": "https://github.com/iporollo/addictinggames.ai/pull/40",
+    "ci": "https://github.com/iporollo/addictinggames.ai/actions/runs/38447265605/job/115468787952",
+    "ci_status": "success",
+    "merge_commit": "8e7b82c1025e2e7700219bfd1894f6c9c34f3c9b",
+    "github_production_deployment_id": 7046819292,
+    "github_production_status": "success",
+    "production_url": "https://addictinggames.ai/#new-games",
+    "live_verification": {
+      "exact_destination_cards": 20,
+      "selected_image_paths": 20,
+      "asset_http_200_and_sha256_match": 20,
+      "loaded_browser_images_natural_width_716": 20,
+      "loaded_browser_images_natural_height_504": 20,
+      "card_object_fit": "cover",
+      "puzzle_time_absent": true,
+      "observed_at_utc": "2026-10-13T18:40:29.719640+00:00"
+    }
+  }
 }
