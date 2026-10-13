@@ -1,13 +1,13 @@
 ---
-name: addictinggames-ai-pipeline
+name: addictinggames-pipeline-pt1
 description: Discover AI-created browser games for AddictingGames.ai, verify gameplay, prepare A/B covers, and release one authorized batch. Use only in the AddictingGames.ai repository.
 ---
 
-# AddictingGames.ai pipeline
+# addictinggames-pipeline-pt1
 
 Use this skill for discovery, gameplay checks, artwork, or a full AddictingGames.ai batch. The production site is `https://addictinggames.ai`; the repository is `iporollo/addictinggames.ai`. Verify the checkout's remote and current `main` before acting. Read `AGENTS.md` and `game-discovery-bot/owner-decisions.json`; owner decisions are authoritative. Deduplicate against current `main`, the live catalog, prior run receipts, and owner decisions. Resume an unfinished run from its records instead of starting a duplicate.
 
-A full-pipeline request authorizes one batch from discovery through commit, push, PR, merge, and production verification. A request for a narrower phase authorizes that phase only; it does not imply publication. Editing or discussing this skill never launches the pipeline.
+A full-pipeline request authorizes one batch from discovery through commit, push, PR, merge, and production verification. User-specified discovery duration and candidate limits override the defaults for that run; persist them before starting and keep one final publication batch. A request for a narrower phase authorizes that phase only; it does not imply publication. Editing or discussing this skill never launches the pipeline.
 
 ## Discover AI-created games
 
