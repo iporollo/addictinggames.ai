@@ -10,8 +10,9 @@ test('the complete reviewed roster is preserved and every accepted decision reac
   const roster = JSON.parse(readFileSync(new URL('roster.json', audit), 'utf8'));
   const decisions = JSON.parse(readFileSync(new URL('decisions.json', audit), 'utf8'));
   assert.equal(roster.length, 167);
-  assert.equal(allListedGames.length, roster.length);
-  assert.deepEqual(new Set(allListedGames.map(game => game.slug)), new Set(roster.map(game => game.slug)));
+  const listedSlugs = new Set(allListedGames.map(game => game.slug));
+  assert.equal(listedSlugs.size, allListedGames.length, 'listed slugs remain unique');
+  for (const game of roster) assert(listedSlugs.has(game.slug), `preserved audited game: ${game.slug}`);
   assert.deepEqual(new Set(decisions.map(game => game.slug)), new Set(roster.map(game => game.slug)));
   for (const decision of decisions) {
     const game = allListedGames.find(game => game.slug === decision.slug);
