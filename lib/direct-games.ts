@@ -14,6 +14,27 @@ export type DirectGame = {
 };
 
 const source: [string, string, string, string, string, string?][] = [
+  // October 13 owner-confirmed guest-play batch; AI authorship verified in release evidence.
+  ["bluebell-overdrive", "Bluebell Overdrive", "Shooter", "Fight toy robots in a 3D factory arena", "https://bluebell-overdrive.masyumaron333.chatgpt.site/", "/games/oct13-bluebell-overdrive.webp"],
+  ["cafe-rush", "Café Rush", "Simulators", "Run a 3D café and juggle orders, service, and timing", "https://endearing-palmier-d824b3.netlify.app/", "/games/oct13-cafe-rush.webp"],
+  ["mux-catches-shibu", "MuX catches Shibu", "Arcade", "Chase Shibu through an arena and build a higher score", "https://shibuonsol.net/game/", "/games/oct13-mux-catches-shibu.webp"],
+  ["super-dreadnought-above-clouds", "超弩級空中戦艦 (Super Dreadnought)", "Action", "Pilot an aerial battleship through combat above the clouds", "https://claude.ai/artifact/KECPs9uKjcCFeosuFjHVVT", "/games/oct13-super-dreadnought.webp"],
+  ["backrooms-signal-lost", "Backrooms — Signal Lost", "Adventure", "Explore a fluorescent maze and survive its eerie levels", "https://backrooms-tau.vercel.app/", "/games/oct13-backrooms-signal-lost.webp"],
+  ["spline-rush", "Spline Rush", "Racing", "Race through 3D circuits in quick race, time trial, or championship", "https://spline-rush.vercel.app/", "/games/oct13-spline-rush.webp"],
+  ["lagos-street-football", "Lagos street football", "Sports", "Play a five-a-side football match on a Lagos street court", "https://street-football.quikdb.net/", "/games/oct13-lagos-street-football.webp"],
+  ["iit-guwahati-campus-3d", "IIT Guwahati campus 3D game", "Adventure", "Explore a 3D campus by walking, cycling, bus, boat, or drone", "https://claude.ai/artifact/XTPN49amJGjd9xE2xgMJFS", "/games/oct13-iit-guwahati-campus.webp"],
+  ["play-simi", "Play Simi", "Casual", "Explore a neighborhood arcade playground and try its quick games", "https://playsimi.danielquek.com/", "/games/oct13-play-simi.webp"],
+  ["brickbrag", "Brickbrag", "Simulators", "Explore a brick-built town with vehicles, building, and races", "https://brickbrag.com/", "/games/oct13-brickbrag.webp"],
+  ["devin-vs-the-backlog", "Devin vs. the Backlog", "Shooter", "Play as an otter and blast bugs in a neon arcade arena", "https://otter-game-two.vercel.app/", "/games/oct13-devin-vs-the-backlog.webp"],
+  ["nova-defender-last-signal", "NOVA DEFENDER — Last Signal", "Shooter", "Defend against enemy waves and choose field refits", "https://nova-defender.expo.app/game/index.html", "/games/oct13-nova-defender.webp"],
+  ["thee-captains-blacktide-adventures", "Thee Captain’s Blacktide Adventures", "Action", "Captain a pirate ship across stormy seas", "https://gamingwtheecaptain.netlify.app/", "/games/oct13-blacktide-adventures.webp"],
+  ["patata-parade", "Patata Parade", "Arcade", "Gather chicks into a growing parade and try to survive", "https://parade.patata.party/", "/games/oct13-patata-parade.webp"],
+  ["echo-tap", "ECHO TAP", "Educational", "Type code to build combos and clear each level", "https://tap.code-hello.com/", "/games/oct13-echo-tap.webp"],
+  ["poke-triad", "Poke Triad", "Strategy", "Place creature cards on a grid and capture rivals with type advantages", "https://poke-triad.vercel.app/", "/games/oct13-poke-triad.webp"],
+  ["waifu-tavern", "Waifu Tavern", "Casual", "Grow a fantasy tavern through an idle production loop", "https://waifutavern.xyz/", "/games/oct13-waifu-tavern.webp"],
+  ["ufo-parking", "UFO parking", "Arcade", "Thrust, drift, and land a UFO on the parking pad", "https://nikitavorontsov.com/lab/ufo-parking/", "/games/oct13-ufo-parking.webp"],
+  ["pelican-rider", "Pelican Rider (鹈鹕骑手)", "Sports", "Ride a bicycle as a pelican and collect fish along the course", "https://luoxiaoman.com/pelican-rider/", "/games/oct13-pelican-rider.webp"],
+  ["orbital-requiem", "殘軌戰線", "Strategy", "Command units across a tactical grid and respond to enemy turns", "https://orbital-requiem.deonchi.chatgpt.site/", "/games/oct13-orbital-requiem.webp"],
   // October 13 AI Game Scout batch. Exact original destinations; direct gameplay verified.
   ["neko-neko-baribari", "ねこねこばりばり", "Strategy", "Scratch to claim territory on a pixel-art cat battle board", "https://claude.ai/artifact/W4TVQjFUoZ7uXbH3AnZern", "/games/oct13-neko-neko-baribari.webp"],
   ["junkyard-king-arena", "Junkyard King Arena", "Action", "Fight through a neon junkyard arena with movement and blade attacks", "https://junkyardking.io/", "/games/oct13-junkyard-king-arena.webp"],
