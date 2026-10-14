@@ -14,6 +14,8 @@ export type DirectGame = {
 };
 
 const source: [string, string, string, string, string, string?][] = [
+  // October 14 Scout campaign batch 4.
+  ["stackkeep", "StackKeep", "Strategy", "Place walls to hold a castle against raids", "https://johnnysuzuki1234.itch.io/stackkeep", "/games/oct14-b4-stackkeep.webp"],
   // October 14 Scout campaign batch 3: guest input/state response verified.
   ["castle-crusher", "Castle Crusher", "Strategy", "Fire limited siege shots to crush castle defenses", "https://jamesrkaye.itch.io/castle-crusher", "/games/oct14-b3-castle-crusher.webp"],
   ["witchs-familiar", "Witch’s Familiar", "Adventure", "Pet a magical familiar in a short trial prototype; keyboard stability varies", "https://netravelr.itch.io/witchs-familiar", "/games/oct14-b3-witchs-familiar.webp"],

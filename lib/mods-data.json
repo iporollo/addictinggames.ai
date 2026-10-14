@@ -1,5 +1,35 @@
 [
   {
+    "id": "antiragebait",
+    "name": "Antiragebait",
+    "game": "Minecraft",
+    "creator": "halfharmless",
+    "profile": "https://modrinth.com/user/halfharmless",
+    "post": "https://modrinth.com/project/antiragebait",
+    "ai_quote": "might be a bit vibecoded hehe",
+    "ai_note": "The official project listing uses a hedged AI-assisted coding claim and does not identify which code was AI-assisted.",
+    "ai_source": "https://modrinth.com/project/antiragebait",
+    "listing": "https://modrinth.com/project/antiragebait",
+    "summary": "Replaces selected profanity in outgoing Minecraft chat.",
+    "changes": "A client-side chat text replacement mod; see the official listing for behavior and supported versions.",
+    "cost": "Price not confirmed",
+    "price_note": "The official Modrinth listing offers a download; no explicit price field was verified.",
+    "platform": "Minecraft · Fabric · client",
+    "version": "Version 1.1.1 · 26.1.2, 26.2",
+    "install": "Review the official Modrinth listing for exact loader and dependencies. No installation or runtime test was performed.",
+    "working_evidence": "No independent successful-use report or in-game test was verified.",
+    "security": "Codex Security Standard completed static scan ec5e0d67-44f9-4edb-a036-33170c12bd25 on the exact official release JAR. SHA-512 7e95098c4253c39828dc06f5e5d6747a746ccf6cb892fad6a3066e8fb5276dab511ec7193056a8bddfde721648f996168103542c159660df590d268d1d6fe327 matched official version metadata; no reportable findings. No runtime installation or chat test was performed.",
+    "warnings": [
+      "The official Modrinth project is Antiragebait, but the release filename is chatfilter-mod-1.1.1.jar and the embedded mod metadata calls it “Chat Filter”; that metadata says it replaces “fuck” with “frick” in outgoing chat. The official release checksum is verified, but the unexpected project/artifact naming and described feature should be clear in details.",
+      "The creator’s AI statement is “might be a bit vibecoded hehe”; the listing does not identify which code was AI-assisted.",
+      "Security review was static only. No runtime chat or loader compatibility test was run."
+    ],
+    "released_at": "2026-07-04T20:35:00.861453Z",
+    "image": "/mods/oct14-b4-antiragebait.webp",
+    "image_source": "https://cdn.modrinth.com/data/eiHmFGYI/0f38f51dfff135b9105568efba33412731b48e3e.jpeg",
+    "image_alt": "Antiragebait official Modrinth icon"
+  },
+  {
     "id": "analytical-combinator",
     "name": "Analytical Combinator",
     "game": "Factorio",
