@@ -19,6 +19,25 @@ Use the existing Grok Bot conversation **AI Game Scout**. Before launching, reco
 
 Find an actual mod/add-on for a named original game with released files or an official listing. A standalone remake, clone, concept-only announcement, or generic mod-writing tool is not a released mod. Search X announcements, creator replies and linked official listings. Deduplicate by base game, mod identity, creator and canonical listing across current records.
 
+Use these 14 distinct X keyword searches as a rotating starting set. They pair mod terms with AI coding language and release destinations without demanding an exact sentence, since creators describe their work differently. Search creator posts and replies, then follow their links to the official listing. Vary the named base game and AI coding tool within each search when results are sparse; keep the 14 intents distinct. A search hit is only a lead, never AI-authorship or working-mod proof.
+
+1. `mod "Claude Code" release`
+2. `mod Codex download`
+3. `mod ChatGPT GitHub`
+4. `mod Gemini coded`
+5. `mod "vibe coded" released`
+6. `mod "AI assisted" source`
+7. `mod "AI wrote" code`
+8. `game addon "Claude Code"`
+9. `Minecraft plugin Codex release`
+10. `Minecraft datapack Claude release`
+11. `Modrinth Claude mod`
+12. `"Nexus Mods" "AI assisted"`
+13. `Thunderstore "vibe coded"`
+14. `"Steam Workshop" ChatGPT mod`
+
+For each hit, identify the creator's X account and the exact mod they say they coded with AI; verify the named base game, released mod files or official listing, current version, and official destination. Exclude posts where AI only powers NPCs, dialogue, art, a generic tool, or another project. Do not count a repost, vague hashtag, modpack, concept, or duplicate as a unique mod. Hold unclear attribution or absent releases with the source link and reason instead of filling the batch with weak matches.
+
 Require specific creator/official evidence that AI helped build this mod's code or gameplay. Tool names qualify when tied to creating this mod. AI behavior/NPC dialogue, AI art alone, hashtags or another project do not establish AI-build authorship. Record the exact attribution excerpt and source; ambiguous evidence is held.
 
 For each potential, record:
@@ -29,7 +48,7 @@ For each potential, record:
 - Source-linked community responses with author/date and short excerpts or faithful summaries. Distinguish enthusiasm from independent reports of successful use; retain crashes, malware reports, incompatibilities and other material complaints.
 - Official source repository, exact revision and release/version, distributed artifact URL/checksum if available, and security-review status.
 
-Scout reports incrementally and stops at the quota/deadline. Missing fields remain missing. Do not invent comments, metrics, accounts, post URLs or images. Preserve an ordered potential queue and per-candidate accepted/held/excluded/duplicate dispositions with reasons. No gameplay testing is required by the owner: verify availability and working-mod evidence through official releases/demonstrations and community reports, while stating that there was no hands-on playtest. A creator's demo and independent confirmation are separate evidence.
+Scout reports incrementally and stops at the owner-specified boundary; when the owner requests a full-duration search, keep searching through the deadline even after the target count is reached and retain overflow separately. Missing fields remain missing. Do not invent comments, metrics, accounts, post URLs or images. Preserve an ordered potential queue and per-candidate accepted/held/excluded/duplicate dispositions with reasons. No gameplay testing is required by the owner: verify availability and working-mod evidence through official releases/demonstrations and community reports, while stating that there was no hands-on playtest. A creator's demo and independent confirmation are separate evidence.
 
 ## Codex Security review
 
