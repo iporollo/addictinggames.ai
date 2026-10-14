@@ -21,7 +21,9 @@
     "working_evidence": "The official discussion contains a comparison question and interest in trying the mod, but no independent report of successful use. No hands-on Factorio test was performed.",
     "community_source": "https://mods.factorio.com/mod/analytical-combinator/discussion/69cabc045e785612dbd4ebd0",
     "security": "The pinned v0.8.31 source was reviewed offline with Codex Security Standard: 24 files, zero reportable findings, partial coverage. Factorio’s handling of malformed imported blueprint tags and the flib dependency were outside this review. The official portal reports SHA1 80206bf720d96f3712d7f024dbe13db52ca2dbad for the release ZIP; the ZIP was not retrieved or independently hashed, so its match to the reviewed source is unverified.",
-    "released_at": "2026-08-04T11:13:25.932Z"
+    "released_at": "2026-08-04T11:13:25.932Z",
+    "image": "/mods/analytical-combinator.webp",
+    "image_alt": "Circuit combinator connected to a busy Factorio factory"
   },
   {
     "id": "pal-insight",
@@ -42,7 +44,9 @@
     "version": "2.6.0 listed",
     "install": "Review compatibility and installation steps on the official mod page. Files were not installed or executed during this review.",
     "working_evidence": "Steam description says tested in single-player and multiplayer untested. Earlier report captured a positive user comment and separate compatibility/crash complaints; these do not establish safety or universal compatibility.",
-    "security": "Exact release file was not inspected by Codex Security; download safety is unverified."
+    "security": "Exact release file was not inspected by Codex Security; download safety is unverified.",
+    "image": "/mods/pal-insight.webp",
+    "image_alt": "Pal and its traits shown beside a player in Palworld"
   },
   {
     "id": "thug-life-sunglasses",
@@ -63,7 +67,9 @@
     "version": "Version not confirmed",
     "install": "Review compatibility and installation steps on the official mod page. Files were not installed or executed during this review.",
     "working_evidence": "Steam reports 495 current subscriptions and 134 favorites; no positive independent use comment was captured. Counts are not use evidence.",
-    "security": "Exact release file was not inspected by Codex Security; download safety is unverified."
+    "security": "Exact release file was not inspected by Codex Security; download safety is unverified.",
+    "image": "/mods/thug-life-sunglasses.webp",
+    "image_alt": "RimWorld colonist wearing dark pixel sunglasses"
   },
   {
     "id": "terrain-safe-extra-camera-zoom",
@@ -84,7 +90,10 @@
     "version": "Version not confirmed",
     "install": "Review compatibility and installation steps on the official mod page. Files were not installed or executed during this review.",
     "working_evidence": "Steam reports 237 subscriptions and 39 favorites; three comments were noted earlier but not inspected for successful use.",
-    "security": "Exact release file was not inspected by Codex Security; download safety is unverified."
+    "security": "Exact release file was not inspected by Codex Security; download safety is unverified.",
+    "image": "/mods/terrain-safe-extra-camera-zoom.webp",
+    "image_alt": "Europa Universalis V city shown from the modded close camera view",
+    "image_source": "https://steamcommunity.com/sharedfiles/filedetails/?id=3802192601"
   },
   {
     "id": "gradual-advancement-of-barbarians",
@@ -105,7 +114,9 @@
     "version": "Version not confirmed",
     "install": "Review compatibility and installation steps on the official mod page. Files were not installed or executed during this review.",
     "working_evidence": "Four subscriptions and two favorites; no independent successful-use excerpt was captured.",
-    "security": "Exact release file was not inspected by Codex Security; download safety is unverified. Steam returned listing metadata but no file URL or nonzero size; a usable payload was not confirmed."
+    "security": "Exact release file was not inspected by Codex Security; download safety is unverified. Steam returned listing metadata but no file URL or nonzero size; a usable payload was not confirmed.",
+    "image": "/mods/gradual-advancement-of-barbarians.webp",
+    "image_alt": "Civilization VI barbarian camp with units from several eras"
   },
   {
     "id": "resources-beneath",
@@ -126,7 +137,9 @@
     "version": "Version not confirmed",
     "install": "Review compatibility and installation steps on the official mod page. Files were not installed or executed during this review.",
     "working_evidence": "Ten subscriptions and three favorites; no independent successful-use excerpt was captured.",
-    "security": "Exact release file was not inspected by Codex Security; download safety is unverified. Steam returned listing metadata but no file URL or nonzero size; a usable payload was not confirmed."
+    "security": "Exact release file was not inspected by Codex Security; download safety is unverified. Steam returned listing metadata but no file URL or nonzero size; a usable payload was not confirmed.",
+    "image": "/mods/resources-beneath.webp",
+    "image_alt": "Civilization VI wonder with resources visible beneath nearby terrain"
   },
   {
     "id": "im-on-it",
@@ -147,7 +160,9 @@
     "version": "Version not confirmed",
     "install": "Review compatibility and installation steps on the official mod page. Files were not installed or executed during this review.",
     "working_evidence": "Two subscriptions and three favorites; no independent successful-use excerpt was captured.",
-    "security": "Exact release file was not inspected by Codex Security; download safety is unverified. Steam returned listing metadata but no file URL or nonzero size; a usable payload was not confirmed."
+    "security": "Exact release file was not inspected by Codex Security; download safety is unverified. Steam returned listing metadata but no file URL or nonzero size; a usable payload was not confirmed.",
+    "image": "/mods/im-on-it.webp",
+    "image_alt": "Civilization VI builder starting a tile improvement"
   },
   {
     "id": "uncertainty",
@@ -168,7 +183,9 @@
     "version": "Version not confirmed",
     "install": "Review compatibility and installation steps on the official mod page. Files were not installed or executed during this review.",
     "working_evidence": "42 subscriptions and 30 favorites; no independent successful-use excerpt was captured.",
-    "security": "Exact release file was not inspected by Codex Security; download safety is unverified."
+    "security": "Exact release file was not inspected by Codex Security; download safety is unverified.",
+    "image": "/mods/uncertainty.webp",
+    "image_alt": "Crusader Kings III ruler studying uncertain character traits in a mirror"
   },
   {
     "id": "storm-before-dawn-anywhere",
@@ -189,7 +206,9 @@
     "version": "Version not confirmed",
     "install": "Review compatibility and installation steps on the official mod page. Files were not installed or executed during this review.",
     "working_evidence": "Creator says it was verified to work; five subscriptions and one favorite. No independent successful-use report was captured.",
-    "security": "Exact release file was not inspected by Codex Security; download safety is unverified."
+    "security": "Exact release file was not inspected by Codex Security; download safety is unverified.",
+    "image": "/mods/storm-before-dawn-anywhere.webp",
+    "image_alt": "Terraria explorer listening to music while moving through a pixel landscape"
   },
   {
     "id": "griffey-30",
@@ -210,7 +229,10 @@
     "version": "1.5.1 listed",
     "install": "Review compatibility and installation steps on the official mod page. Files were not installed or executed during this review.",
     "working_evidence": "Creator reports running whole seasons and playoffs in an emulator; independent successful-use evidence was not verified in the earlier review.",
-    "security": "Exact release file was not inspected by Codex Security; download safety is unverified."
+    "security": "Exact release file was not inspected by Codex Security; download safety is unverified.",
+    "image": "/mods/griffey-30.webp",
+    "image_alt": "Creator image showing the Griffey 30-team expansion game screens",
+    "image_source": "https://daylayown.itch.io/ken-griffey-jr-presents-mlb-the-30-team-expansion"
   },
   {
     "id": "witcher-3-fog-of-war",
@@ -231,7 +253,9 @@
     "version": "Version not confirmed",
     "install": "Review compatibility and installation steps on the official mod page. Files were not installed or executed during this review.",
     "working_evidence": "One positive comment was found, but it did not report successful use. Reports include the map feature not appearing for a user and unresolved compatibility requests for game patch 5.01; a crash report was later retracted after load-order investigation. Current patch compatibility reports remain unresolved.",
-    "security": "Exact release file was not inspected by Codex Security; download safety is unverified."
+    "security": "Exact release file was not inspected by Codex Security; download safety is unverified.",
+    "image": "/mods/witcher-3-fog-of-war.webp",
+    "image_alt": "Witcher world map with a revealed path through fog of war"
   },
   {
     "id": "witchers-path",
@@ -252,7 +276,9 @@
     "version": "Version not confirmed",
     "install": "Review compatibility and installation steps on the official mod page. Files were not installed or executed during this review.",
     "working_evidence": "Two independent posts reported successful use and another praised the idea. Current patch 5.01 compatibility reports, a user feature failure, and conflicting version metadata remain unresolved. Current patch compatibility reports remain unresolved.",
-    "security": "Exact release file was not inspected by Codex Security; download safety is unverified."
+    "security": "Exact release file was not inspected by Codex Security; download safety is unverified.",
+    "image": "/mods/witchers-path.webp",
+    "image_alt": "Witcher traveler following a path across a misty fantasy landscape"
   },
   {
     "id": "opencomposite-nms-vr",
@@ -274,7 +300,9 @@
     "install": "Review compatibility and installation steps on the official mod page. Files were not installed or executed during this review.",
     "working_evidence": "No independent successful-use evidence was present in the reviewed report.",
     "security": "Codex Security reviewed the companion configurator with no reportable findings. Native runtime coverage was partial, a buffer-capacity concern remains unresolved, and the Nexus binary was not assessed. Download safety is unverified.",
-    "repo": "https://github.com/j0ta4p3265-droid/no-mans-sky-vr-controller-tool"
+    "repo": "https://github.com/j0ta4p3265-droid/no-mans-sky-vr-controller-tool",
+    "image": "/mods/opencomposite-nms-vr.webp",
+    "image_alt": "No Man’s Sky alien landscape seen through virtual reality controllers"
   },
   {
     "id": "cyber-combat-arena",
@@ -295,7 +323,9 @@
     "version": "V003 listed",
     "install": "Review compatibility and installation steps on the official mod page. Files were not installed or executed during this review.",
     "working_evidence": "Creator describes the arena and recommends a team; no independent successful-use report or accessible positive comment was verified.",
-    "security": "Exact release file was not inspected by Codex Security; download safety is unverified."
+    "security": "Exact release file was not inspected by Codex Security; download safety is unverified.",
+    "image": "/mods/cyber-combat-arena.webp",
+    "image_alt": "Hytale style block combat arena with multiple fighters"
   },
   {
     "id": "tornado-redemption",
@@ -317,7 +347,9 @@
     "install": "Review compatibility and installation steps on the official mod page. Files were not installed or executed during this review.",
     "working_evidence": "Creator playtests are documented. The supplied independent-use X post could not be verified; no independent successful-use report was established.",
     "security": "Codex Security reviewed 37 source files with no reportable findings. A separate static check of the exact v1.7.3 ASI found no obvious malware indicators, but source-to-binary correspondence and malware-free status remain unproven.",
-    "repo": "https://github.com/mattvideoproductions/TornadoRedemption"
+    "repo": "https://github.com/mattvideoproductions/TornadoRedemption",
+    "image": "/mods/tornado-redemption.webp",
+    "image_alt": "Tornado approaching a frontier town in Red Dead Redemption"
   },
   {
     "id": "aeon-arsenal",
@@ -338,7 +370,9 @@
     "version": "3.0.0 beta listed",
     "install": "Review compatibility and installation steps on the official mod page. Files were not installed or executed during this review.",
     "working_evidence": "Creator describes it as playable; no independent successful-use report was verified. The beta lists known issues and limited dedicated-server testing.",
-    "security": "Exact release file was not inspected by Codex Security; download safety is unverified."
+    "security": "Exact release file was not inspected by Codex Security; download safety is unverified.",
+    "image": "/mods/aeon-arsenal.webp",
+    "image_alt": "Minecraft fighter holding a new fantasy weapon"
   },
   {
     "id": "cosmic-breach",
@@ -360,7 +394,9 @@
     "install": "Review compatibility and installation steps on the official mod page. Files were not installed or executed during this review.",
     "working_evidence": "Creator reports two play sessions totaling about 2.5 hours and specific revisions. Positive third-party comments were found, but none reported installing or playing the mod; independent successful use remains unverified.",
     "security": "Codex Security partially reviewed source and found a low-severity unbounded diagnostic telemetry issue. The release JAR was not matched to reviewed source; download safety is unverified.",
-    "repo": "https://github.com/CalmDownNova/cosmic-breach"
+    "repo": "https://github.com/CalmDownNova/cosmic-breach",
+    "image": "/mods/cosmic-breach.webp",
+    "image_alt": "Minecraft adventurer approaching a portal to a floating sky world"
   },
   {
     "id": "agentmod",
@@ -438,11 +474,12 @@
     "platform": "Windows · DirectX 9 · RTX Remix",
     "version": "Original 2011 release · shim v0.1.6 reported",
     "install": "Use the creator’s exact game-version and RTX Remix setup instructions. The project includes native code and an installer workflow; neither has been executed during research.",
-    "image": "",
+    "image": "/mods/saints-row-rtx.webp",
     "working_evidence": "Creator work-in-progress statement and source are available. Independent working reports and community praise were not verified.",
     "security": "Partial Codex Security source review found one low-severity issue: crafted shader metadata can read outside its buffer and potentially crash the game. Runtime reproduction and release-binary certification were not performed.",
     "cost": "Free",
-    "price_note": "Free · MIT"
+    "price_note": "Free · MIT",
+    "image_alt": "Rainy city street and car with enhanced lighting for Saints Row"
   },
   {
     "id": "high-command",
@@ -488,7 +525,9 @@
     "community_source": "https://www.nexusmods.com/outlast2/mods/64",
     "video": "https://www.youtube.com/watch?v=i4OOvC4Q_Ek",
     "cost": "Free",
-    "price_note": "Free · Nexus listing"
+    "price_note": "Free · Nexus listing",
+    "image": "/mods/o2menu.webp",
+    "image_alt": "Outlast 2 interior scene with an in-game settings menu"
   },
   {
     "id": "thaumcraft-reforged",
@@ -501,7 +540,7 @@
     "summary": "Bring the classic Thaumcraft 3 magic mod to newer versions of Minecraft.",
     "version": "nightly-26.3 / nightly-1.21.1 reported",
     "platform": "Java Edition · NeoForge",
-    "image": "",
+    "image": "/mods/thaumcraft-reforged.webp",
     "security": "Not scanned during this review. Source or distributed-file review is required before installing; no safety claim is made.",
     "repo": "https://github.com/notlikethiss/thaumcraft-reforged",
     "listing": "https://github.com/notlikethiss/thaumcraft-reforged",
@@ -510,7 +549,8 @@
     "working_evidence": "Creator demonstration and public nightly releases are reported; independent positive responses and successful installation were not verified.",
     "cost": "Price not confirmed",
     "price_note": "Public nightly downloads",
-    "original_image_url": "https://pbs.twimg.com/amplify_video_thumb/2106078708700237825/img/xHL2xOamMP9ihxxy.jpg"
+    "original_image_url": "https://pbs.twimg.com/amplify_video_thumb/2106078708700237825/img/xHL2xOamMP9ihxxy.jpg",
+    "image_alt": "Minecraft magic workspace with glowing arcane tools"
   },
   {
     "id": "rocketcraft",
@@ -523,13 +563,14 @@
     "summary": "A creator-announced Rocket League-style experience inside Minecraft.",
     "version": "Not confirmed",
     "platform": "Not confirmed",
-    "image": "",
+    "image": "/mods/rocketcraft.webp",
     "security": "Not scanned during this review. Source or distributed-file review is required before installing; no safety claim is made.",
     "changes": "Described as Rocket League in Minecraft. Exact mechanics, compatibility and an available release could not be validated from the reported sources.",
     "listing": "https://modrinth.com/mod/rocketcraft",
     "cost": "Price not confirmed",
     "price_note": "Price not verified",
-    "install": "A public release and installation instructions have not been confirmed. Follow the creator’s original post for updates."
+    "install": "A public release and installation instructions have not been confirmed. Follow the creator’s original post for updates.",
+    "image_alt": "Blocky car soccer match in a Minecraft arena"
   },
   {
     "id": "skyrim-tnt-bomber",
@@ -542,13 +583,15 @@
     "summary": "A creator-announced Minecraft-style TNT bomber brought into Skyrim.",
     "version": "Not confirmed",
     "platform": "Not confirmed",
-    "image": "",
+    "image": "/mods/skyrim-tnt-bomber.webp",
     "security": "Not scanned during this review. Source or distributed-file review is required before installing; no safety claim is made.",
     "ai_note": "The discovery report attributes the build to Opus 5.5 from the post context.",
     "changes": "Creator describes adding a Minecraft-style TNT bomber to Skyrim. A release, installation steps, game edition and independent working evidence were not found.",
     "cost": "Price not confirmed",
     "price_note": "Price not verified",
-    "install": "A public release and installation instructions have not been confirmed. Follow the creator’s original post for updates."
+    "install": "A public release and installation instructions have not been confirmed. Follow the creator’s original post for updates.",
+    "image_alt": "Creator gameplay frame showing a blocky TNT bomber over Skyrim",
+    "image_source": "https://x.com/Bett0x/status/2108963522411471128"
   },
   {
     "id": "terraria-3d",
@@ -561,12 +604,13 @@
     "summary": "A creator-announced mod that gives Terraria a Minecraft-like 3D direction.",
     "version": "Not confirmed",
     "platform": "Not confirmed",
-    "image": "",
+    "image": "/mods/terraria-3d.webp",
     "security": "Not scanned during this review. Source or distributed-file review is required before installing; no safety claim is made.",
     "changes": "The X post describes a 3D/Minecraft-like Terraria mod made with Claude. The research did not locate the mentioned repository, an official listing or installation instructions.",
     "cost": "Price not confirmed",
     "price_note": "Price not verified",
-    "install": "A public release and installation instructions have not been confirmed. Follow the creator’s original post for updates."
+    "install": "A public release and installation instructions have not been confirmed. Follow the creator’s original post for updates.",
+    "image_alt": "Terraria-inspired three-dimensional block landscape and adventurer"
   },
   {
     "id": "factorio-wood",
@@ -579,11 +623,12 @@
     "summary": "A creator-announced wood-related addition to Factorio.",
     "version": "Not confirmed",
     "platform": "Not confirmed",
-    "image": "",
+    "image": "/mods/factorio-wood.webp",
     "security": "Not scanned during this review. Source or distributed-file review is required before installing; no safety claim is made.",
     "changes": "The creator attributes a Factorio wood mod to Claude. Its precise mechanics, released files and compatible game version were not established in this pass.",
     "cost": "Price not confirmed",
     "price_note": "Price not verified",
-    "install": "A public release and installation instructions have not been confirmed. Follow the creator’s original post for updates."
+    "install": "A public release and installation instructions have not been confirmed. Follow the creator’s original post for updates.",
+    "image_alt": "Factorio factory conveyors carrying wood toward a storage crate"
   }
 ]
