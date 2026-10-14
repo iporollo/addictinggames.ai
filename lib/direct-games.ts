@@ -14,6 +14,9 @@ export type DirectGame = {
 };
 
 const source: [string, string, string, string, string, string?][] = [
+  // October 14 two-hour Scout campaign, batch 5; direct guest play verified.
+  ['vs-crow-poop', 'VS Crow Poop', 'Arcade', 'Dodge falling crow droppings on a timed walk', 'https://vs-karasu-no-fun.roa-ai.chatgpt.site/', '/games/oct14-vs-crow-poop.webp'],
+  ['konk', 'KONK!', 'Sports', 'Flick bottle caps toward the ball in a tabletop football game', 'https://konk.world/', '/games/oct14-konk.webp'],
   // October 14 two-hour Scout campaign, batch 4; direct guest color rounds verified.
   ['dialed-gg', 'Dialed.gg', 'Puzzle', 'Test your color memory and score quick rounds', 'https://dialed.gg/', '/games/oct14-dialed-gg.webp'],
   // October 14 two-hour Scout campaign, batch 2; direct guest play verified.
