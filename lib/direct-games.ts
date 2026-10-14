@@ -14,6 +14,20 @@ export type DirectGame = {
 };
 
 const source: [string, string, string, string, string, string?][] = [
+  // October 14 Scout campaign; guest gameplay and creator-specific AI evidence verified.
+  ['rage-room-2', 'Rage Room 2', 'Arcade', 'Smash bottles and office props to earn cash and chain reactions', 'https://astrocade.com/games/rage-room-2/01M4EPHVTE5F0RGKYTQGMKBZC3', '/games/rage-room-2.webp'],
+  ['pixel-pilot', 'PIXEL PILOT', 'Simulators', 'Learn drone flight controls through altitude and yaw lessons', 'https://dronegame-pied.vercel.app/', '/games/pixel-pilot.webp'],
+  ['moonwort', 'MOONWORT', 'Strategy', 'Compose botanical spells and fight through a moonlit fantasy story', 'https://csaf.itch.io/moonwort', '/games/moonwort.webp'],
+  ['cairnwake', 'CAIRNWAKE', 'Strategy', 'Place your party on a tactical grid and face barrow-road encounters', 'https://csaf.itch.io/cairnwake', '/games/cairnwake.webp'],
+  ['phonos', 'PHONOS', 'Puzzle', 'Operate a tape machine to uncover voices in a mystery recording', 'https://phonos-vrstir.rive.to/', '/games/phonos.webp'],
+  ['haunted-hall', 'Haunted Hall', 'Shooter', 'Aim, fire, and reload to clear spirits from a haunted corridor', 'https://haunted-hall-uo8mh6.rive.to/', '/games/haunted-hall.webp'],
+  ['buckshot-manor', 'Buckshot Manor', 'Shooter', 'Move through a haunted attic and survive pursuing ghosts', 'https://haunted-fps-nms8do.rive.to/', '/games/buckshot-manor.webp'],
+  ['book-of-shadows', 'Book of Shadows', 'Puzzle', 'Use matches and candlelight to uncover a book of shadow riddles', 'https://book-of-shadows-5alywo.rive.to/', '/games/book-of-shadows.webp'],
+  ['underhouse', 'UNDERHOUSE', 'Survival', 'Search a dark basement for a key while managing your light', 'https://underhouse-5mquqm.rive.to/', '/games/underhouse.webp'],
+  ['ghost-customs', 'Ghost Customs', 'Adventure', 'Inspect three ghost passengers and decide who can pass', 'https://ghost-customs-dxqzcp.rive.to/', '/games/ghost-customs.webp'],
+  ['no-lunch-left-behind', 'No Lunch Left Behind', 'Arcade', 'Switch lanes and run toward the rocket through an AI-controlled city', 'https://no-lunch-left-behind.vercel.app/', '/games/no-lunch-left-behind.webp'],
+  ['monday-express', '월요특급 (Monday Express)', 'Shooter', 'Guide a courier through the cloud post office and launch parcel bombs', 'https://monday-express.lunamoth-ryu.chatgpt.site/', '/games/monday-express.webp'],
+  ['mecha-royale', 'Mecha Royale', 'Shooter', 'Pilot a mech through a solo battle tutorial', 'https://www.indie.fun/play/mecha-royale', '/games/mecha-royale.jpg'],
   // October 13 owner-confirmed guest-play batch; AI authorship verified in release evidence.
   ["bluebell-overdrive", "Bluebell Overdrive", "Shooter", "Fight toy robots in a 3D factory arena", "https://bluebell-overdrive.masyumaron333.chatgpt.site/", "/games/oct13-bluebell-overdrive.webp"],
   ["cafe-rush", "Café Rush", "Simulators", "Run a 3D café and juggle orders, service, and timing", "https://endearing-palmier-d824b3.netlify.app/", "/games/oct13-cafe-rush.webp"],
