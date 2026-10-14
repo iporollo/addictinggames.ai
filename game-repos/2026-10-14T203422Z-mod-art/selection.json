@@ -1,0 +1,246 @@
+{
+  "run_id": "2026-10-14T203422Z-mod-art",
+  "description": "24 mod thumbnail selections; raw A/B options and prompts retained in local game-discovery-bot run.",
+  "records": [
+    {
+      "id": "analytical-combinator",
+      "game": "Factorio",
+      "official_source": "https://mods.factorio.com/mod/analytical-combinator",
+      "selection": "b",
+      "selected_public": "/mods/analytical-combinator.webp",
+      "selection_reason": "Chosen for clear mod-specific subject at square card size.",
+      "sha256": "8ac5f691126c8ebec8eeb3d43564e0a307f3e72efc889832e4d3f4330b3e4888",
+      "bytes": 151688
+    },
+    {
+      "id": "pal-insight",
+      "game": "Palworld",
+      "official_source": "https://www.nexusmods.com/palworld/mods/4638",
+      "selection": "a",
+      "selected_public": "/mods/pal-insight.webp",
+      "selection_reason": "Chosen for clear mod-specific subject at square card size.",
+      "sha256": "93c7727ad1c8f702f0294b8747df9b625039eb1fbcb21b6b80d90b7136140f90",
+      "bytes": 74570
+    },
+    {
+      "id": "thug-life-sunglasses",
+      "game": "RimWorld",
+      "official_source": "https://steamcommunity.com/sharedfiles/filedetails/?id=3800854012",
+      "selection": "a",
+      "selected_public": "/mods/thug-life-sunglasses.webp",
+      "selection_reason": "Chosen for clear mod-specific subject at square card size.",
+      "sha256": "c5ffc01c04eea6ae8aa2845de923ed0115f1aace6f806ec2f65b8f1aff9370ea",
+      "bytes": 22540
+    },
+    {
+      "id": "terrain-safe-extra-camera-zoom",
+      "game": "Europa Universalis V",
+      "official_source": "https://steamcommunity.com/sharedfiles/filedetails/?id=3802192601",
+      "selection": "source",
+      "selected_public": "/mods/terrain-safe-extra-camera-zoom.webp",
+      "selection_reason": "Creator image shows the mod in use; selected ahead of generated options.",
+      "sha256": "4096259f3d17860d93338f03d4dbebd3af8399c20cb4c06fd12e73f3d9f05083",
+      "bytes": 73540
+    },
+    {
+      "id": "gradual-advancement-of-barbarians",
+      "game": "Civilization VI",
+      "official_source": "https://steamcommunity.com/sharedfiles/filedetails/?id=3804154438",
+      "selection": "a",
+      "selected_public": "/mods/gradual-advancement-of-barbarians.webp",
+      "selection_reason": "Chosen for clear mod-specific subject at square card size.",
+      "sha256": "7c5b8354bb2bb24498949d9a0ecbf25ef70ca74ee7d762f42f4dc7afb82b897e",
+      "bytes": 113552
+    },
+    {
+      "id": "resources-beneath",
+      "game": "Civilization VI",
+      "official_source": "https://steamcommunity.com/sharedfiles/filedetails/?id=3801535592",
+      "selection": "b",
+      "selected_public": "/mods/resources-beneath.webp",
+      "selection_reason": "Chosen for clear mod-specific subject at square card size.",
+      "sha256": "feb9abf5d42c035370feaf3f785aab0e12dcbaaa8fdea8145b8a851e869374da",
+      "bytes": 139708
+    },
+    {
+      "id": "im-on-it",
+      "game": "Civilization VI",
+      "official_source": "https://steamcommunity.com/sharedfiles/filedetails/?id=3800344627",
+      "selection": "b",
+      "selected_public": "/mods/im-on-it.webp",
+      "selection_reason": "Chosen for clear mod-specific subject at square card size.",
+      "sha256": "f9201e417f02f32ada8e8ddad874ac891219f5daab36ca079577a46f1e68cf6e",
+      "bytes": 109910
+    },
+    {
+      "id": "uncertainty",
+      "game": "Crusader Kings III",
+      "official_source": "https://steamcommunity.com/sharedfiles/filedetails/?id=3800379726",
+      "selection": "a",
+      "selected_public": "/mods/uncertainty.webp",
+      "selection_reason": "Chosen for clear mod-specific subject at square card size.",
+      "sha256": "f3bd908340b5bb50117b5676eb461392b547db98a03bff941338bd889332e36b",
+      "bytes": 68892
+    },
+    {
+      "id": "storm-before-dawn-anywhere",
+      "game": "tModLoader",
+      "official_source": "https://steamcommunity.com/sharedfiles/filedetails/?id=3806055943",
+      "selection": "a",
+      "selected_public": "/mods/storm-before-dawn-anywhere.webp",
+      "selection_reason": "Chosen for clear mod-specific subject at square card size.",
+      "sha256": "2d5901b1ceb22b186b66f4b1aadb940af0ff7aaa76d397315698a240979ededd",
+      "bytes": 65142
+    },
+    {
+      "id": "griffey-30",
+      "game": "Ken Griffey Jr. Presents Major League Baseball",
+      "official_source": "https://daylayown.itch.io/ken-griffey-jr-presents-mlb-the-30-team-expansion",
+      "selection": "source",
+      "selected_public": "/mods/griffey-30.webp",
+      "selection_reason": "Creator image shows the mod in use; selected ahead of generated options.",
+      "sha256": "74f32b3067dfb5ca6a9352a1556b47512d729f0eadeca97a01dc328495c2d508",
+      "bytes": 69972
+    },
+    {
+      "id": "witcher-3-fog-of-war",
+      "game": "The Witcher 3",
+      "official_source": "https://www.nexusmods.com/witcher3/mods/13627",
+      "selection": "b",
+      "selected_public": "/mods/witcher-3-fog-of-war.webp",
+      "selection_reason": "Chosen for clear mod-specific subject at square card size.",
+      "sha256": "96b02a411e145f82a614975c436dec591de3e0b2026a863bad1ad58f3b24ecf8",
+      "bytes": 113268
+    },
+    {
+      "id": "witchers-path",
+      "game": "The Witcher 3",
+      "official_source": "https://www.nexusmods.com/witcher3/mods/13423",
+      "selection": "b",
+      "selected_public": "/mods/witchers-path.webp",
+      "selection_reason": "Chosen for clear mod-specific subject at square card size.",
+      "sha256": "8d098345b481508eaa20142264bac1472fa2874e17c1120f580568889e1c2a93",
+      "bytes": 126716
+    },
+    {
+      "id": "opencomposite-nms-vr",
+      "game": "No Man’s Sky",
+      "official_source": "https://www.nexusmods.com/nomanssky/mods/4363",
+      "selection": "a",
+      "selected_public": "/mods/opencomposite-nms-vr.webp",
+      "selection_reason": "Chosen for clear mod-specific subject at square card size.",
+      "sha256": "c5e00a6b46347ab3426ed86c194cef4af0f8b6adebd8e17bcd3899d36b3515ee",
+      "bytes": 113694
+    },
+    {
+      "id": "cyber-combat-arena",
+      "game": "Hytale",
+      "official_source": "https://www.curseforge.com/hytale/mods/cyber-combat-arena",
+      "selection": "b",
+      "selected_public": "/mods/cyber-combat-arena.webp",
+      "selection_reason": "Chosen for clear mod-specific subject at square card size.",
+      "sha256": "3e5d77c1a63c5a7cfd90d79debde59d268558ba28d42b027598c53aaaffa0e9c",
+      "bytes": 81058
+    },
+    {
+      "id": "tornado-redemption",
+      "game": "Red Dead Redemption 2",
+      "official_source": "https://github.com/mattvideoproductions/TornadoRedemption/releases/tag/v1.7.3",
+      "selection": "b",
+      "selected_public": "/mods/tornado-redemption.webp",
+      "selection_reason": "Chosen for clear mod-specific subject at square card size.",
+      "sha256": "d30edbb74076e9992ce05d56a8da2eb69bd9f1c12ef278f659b594b9c7b6fddb",
+      "bytes": 79098
+    },
+    {
+      "id": "aeon-arsenal",
+      "game": "Minecraft Fabric",
+      "official_source": "https://www.curseforge.com/minecraft/mc-mods/aeon-arsenal",
+      "selection": "a",
+      "selected_public": "/mods/aeon-arsenal.webp",
+      "selection_reason": "Chosen for clear mod-specific subject at square card size.",
+      "sha256": "b07246ca429d447fa1fca91f5ddd24bc1a14cb1df819430592fc9cc4f7ab992d",
+      "bytes": 63304
+    },
+    {
+      "id": "cosmic-breach",
+      "game": "Minecraft NeoForge 1.21.1",
+      "official_source": "https://www.curseforge.com/minecraft/mc-mods/cosmic-breach",
+      "selection": "a",
+      "selected_public": "/mods/cosmic-breach.webp",
+      "selection_reason": "Chosen for clear mod-specific subject at square card size.",
+      "sha256": "eaa2989374eb9e61ca29fdd18f85175e7fc100a02843b2f21950a64eb55c5740",
+      "bytes": 94686
+    },
+    {
+      "id": "saints-row-rtx",
+      "game": "Saints Row: The Third",
+      "official_source": "https://github.com/PurrsianMilkman/Saints-Row-The-Third-RTX-REMIX-compatibility-mod",
+      "selection": "a",
+      "selected_public": "/mods/saints-row-rtx.webp",
+      "selection_reason": "Chosen for clear mod-specific subject at square card size.",
+      "sha256": "cf588ec7c259c3a5aadbb016843a270277b585b414b51e7ba1f884d0fa85fc82",
+      "bytes": 113338
+    },
+    {
+      "id": "o2menu",
+      "game": "Outlast 2",
+      "official_source": "https://www.nexusmods.com/outlast2/mods/64",
+      "selection": "a",
+      "selected_public": "/mods/o2menu.webp",
+      "selection_reason": "Chosen for clear mod-specific subject at square card size.",
+      "sha256": "b5cbe818367a2c8b4b6e3a850d4bf3f3f337eaee69cf18d57f325e47b2bc51ac",
+      "bytes": 40132
+    },
+    {
+      "id": "thaumcraft-reforged",
+      "game": "Minecraft",
+      "official_source": "https://github.com/notlikethiss/thaumcraft-reforged",
+      "selection": "b",
+      "selected_public": "/mods/thaumcraft-reforged.webp",
+      "selection_reason": "Chosen for clear mod-specific subject at square card size.",
+      "sha256": "97ad7c163715e3568520c6afbb4740f381736b845b035cf89f443c0fd465de0d",
+      "bytes": 59218
+    },
+    {
+      "id": "rocketcraft",
+      "game": "Minecraft",
+      "official_source": "https://modrinth.com/mod/rocketcraft",
+      "selection": "b",
+      "selected_public": "/mods/rocketcraft.webp",
+      "selection_reason": "Chosen for clear mod-specific subject at square card size.",
+      "sha256": "e056a1497c374c7290eafd00d5b25615299779fb1028dca8411156a5f5f5e167",
+      "bytes": 103758
+    },
+    {
+      "id": "skyrim-tnt-bomber",
+      "game": "Skyrim",
+      "official_source": "https://x.com/Bett0x/status/2108963522411471128",
+      "selection": "source",
+      "selected_public": "/mods/skyrim-tnt-bomber.webp",
+      "selection_reason": "Creator image shows the mod in use; selected ahead of generated options.",
+      "sha256": "c6ba2853416369ecbdb39c1cf8180110b118aab854a0b3f8660c8b26e378348b",
+      "bytes": 10086
+    },
+    {
+      "id": "terraria-3d",
+      "game": "Terraria",
+      "official_source": "https://x.com/gngweedmlg/status/2106904769398808694",
+      "selection": "a",
+      "selected_public": "/mods/terraria-3d.webp",
+      "selection_reason": "Chosen for clear mod-specific subject at square card size.",
+      "sha256": "6965321b983c6aae36d5774dec8b72e98ef8f55bc40c6062e94ba6bc331c8bf1",
+      "bytes": 80338
+    },
+    {
+      "id": "factorio-wood",
+      "game": "Factorio",
+      "official_source": "https://x.com/RJarded1/status/2105826217601753437",
+      "selection": "b",
+      "selected_public": "/mods/factorio-wood.webp",
+      "selection_reason": "Chosen for clear mod-specific subject at square card size.",
+      "sha256": "cb5ddf73cbdaf7f53174cea8c388eadfce8950dba245a683a32089265faa0fce",
+      "bytes": 156092
+    }
+  ]
+}
