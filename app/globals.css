@@ -79,7 +79,6 @@ h2, h3 { color: var(--heading); }
 .newsletter-fields input, .form-field input, .form-field textarea { background: white; border: 1px solid var(--border); border-radius: 7px; min-height: 46px; width: 100%; padding: 11px 14px; font-size: 14px; color: var(--heading); }
 .newsletter-fields input { flex: 1; min-width: 0; }
 .form-note { font-size: 11px; color: var(--muted); margin-top: 9px; }
-.form-note a { color: var(--blue); text-decoration: underline; }
 .field-error { font-size: 12px; font-weight: 600; color: var(--heading); margin-top: 7px; padding-left: 9px; border-left: 3px solid var(--blue); }
 [aria-invalid="true"] { border-color: var(--heading) !important; }
 .form-success { display: flex; align-items: center; gap: 13px; background: var(--background); border-radius: 8px; padding: 16px; color: var(--heading); }
