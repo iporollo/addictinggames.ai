@@ -400,3 +400,52 @@ h2, h3 { color: var(--heading); }
 @media(min-width:1280px){.section-navigation{margin-right:23%}}
 @media(max-width:1023px){.mods-tile-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.mod-detail-grid{grid-template-columns:1fr}.mod-detail-title h2{font-size:31px}}
 @media(max-width:767px){.section-navigation{justify-content:center;margin:0;gap:20px}.section-navigation a{padding:10px 16px 18px}.section-navigation a[aria-current]:after{bottom:7px}.mods-tools{flex-direction:column;align-items:stretch;gap:12px}.mods-game-filter{justify-content:space-between}.mods-game-filter select{flex:1;max-width:75%}.mods-panel{padding:18px}.mods-tile-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:22px 14px}.mod-card-copy h3{font-size:14px}.mod-card-copy p{font-size:12px}.mods-panel-heading h2{font-size:22px}.mods-panel-heading>a{font-size:12px}.mod-list-row{grid-template-columns:90px minmax(0,1fr);gap:16px}.mod-list-row .mod-view-link{display:none}.mod-list-row .mod-card-copy h3{font-size:17px}.mod-detail-title h2{font-size:29px}.mod-detail-block{padding:20px}}
+
+/* Compact phone layout; desktop geometry remains unchanged. */
+.mod-mobile-price { display: none; }
+@media (max-width: 767px) {
+  .site-header:has(.section-navigation) { margin-bottom: 16px; }
+  .site-header:has(.section-navigation) .brand-link { margin-inline: auto; }
+  .site-header:has(.section-navigation) .brand-logo { padding-block: 12px; }
+  .section-navigation { display: grid; grid-template-columns: 1fr 1fr; max-width: 240px; margin-inline: auto; gap: 0; }
+  .section-navigation a { display: flex; justify-content: center; align-items: center; min-height: 44px; padding: 8px 12px 12px; font-size: 15px; }
+  .section-navigation a[aria-current]:after { bottom: 4px; left: 20px; right: 20px; height: 3px; }
+  .mods-page, .mod-detail-page { padding-inline: 12px; padding-bottom: 28px; }
+  .mods-tools { gap: 10px; margin-bottom: 16px; }
+  .mods-tools .search-field { min-height: 48px; padding: 0 14px; }
+  .mods-tools .search-field input { padding-block: 11px; font-size: 16px; }
+  .mods-game-filter { gap: 12px; font-size: 13px; }
+  .mods-game-filter select { max-width: none; min-width: 0; min-height: 46px; padding: 9px 12px; font-size: 16px; }
+  .mods-layout { gap: 16px; }
+  .mods-panel { padding: 14px; border-radius: 10px; }
+  .mods-panel-heading { gap: 8px; margin-bottom: 14px; min-height: 44px; }
+  .mods-panel-heading h2 { font-size: 21px; line-height: 1.25; }
+  .mods-panel-heading > a { min-height: 44px; font-size: 12px; gap: 5px; }
+  .mods-panel-heading .list-count { margin: 0; font-size: 11px; white-space: nowrap; }
+  .mods-tile-grid { gap: 20px 12px; }
+  .mod-card-copy h3 { margin-top: 8px; line-height: 1.35; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .mod-card-copy p { line-height: 1.45; }
+  .mods-all-rows { gap: 14px; }
+  .mod-list-row { grid-template-columns: 76px minmax(0, 1fr); gap: 12px; padding-bottom: 14px; }
+  .mod-list-row .mod-card-copy h3 { font-size: 15px; margin-top: 0; }
+  .mods-page .back-link, .mod-detail-page .back-link { display: inline-flex; align-items: center; min-height: 44px; font-size: 13px; margin-bottom: 8px; }
+  .mod-detail-title { margin: 8px 0 20px; }
+  .mod-detail-title h2 { font-size: 26px; letter-spacing: -.6px; overflow-wrap: anywhere; }
+  .mod-detail-title p { font-size: 14px; line-height: 1.65; }
+  .mod-mobile-price { display: inline-block; margin-top: 12px; padding: 6px 12px; border-radius: 6px; background: #eff5ff; color: var(--blue); font-size: 14px; font-weight: 700; }
+  .mod-mobile-price[data-price="unknown"] { background: #e9edf2; color: var(--body); }
+  .mod-detail-grid { gap: 0; }
+  .mod-detail-block { padding: 18px; margin-bottom: 14px; border-radius: 10px; }
+  .mod-detail-block h3 { font-size: 18px; }
+  .mod-detail-block blockquote { font-size: 16px; overflow-wrap: anywhere; }
+  .mod-source-links { gap: 4px; }
+  .mod-source-links a { display: flex; align-items: center; min-height: 44px; }
+  .mods-layout .arcade-sidebar { gap: 16px; }
+  .mods-layout .newsletter-fields input { font-size: 16px; }
+}
+@media (max-width: 359px) {
+  .site-header:has(.section-navigation) .brand-logo { flex-wrap: nowrap; gap: 6px; }
+  .site-header:has(.section-navigation) .title-initial { font-size: 32px; line-height: 36px; }
+  .site-header:has(.section-navigation) .title-rest { font-size: 21px; line-height: 28px; }
+  .site-header:has(.section-navigation) .title-ai { margin-left: -4px; }
+}
