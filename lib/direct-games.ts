@@ -14,6 +14,9 @@ export type DirectGame = {
 };
 
 const source: [string, string, string, string, string, string?][] = [
+  // October 14 two-hour Scout campaign, batch 1; direct guest play verified.
+  ['sudoku-for-kids', 'Sudoku for Kids', 'Puzzle', 'Place numbers on a colorful 4×4 Sudoku board', 'https://sudokuforkids.netlify.app/', '/games/oct14-sudoku-for-kids.webp'],
+  ['hcky-io', 'hcky.io', 'Sports', 'Skate, switch players, and play a browser hockey match', 'https://hcky.io/', '/games/oct14-hcky-io.webp'],
   // October 14 owner-confirmed gameplay recheck. Earlier incomplete agent attempts
   // remain in the run receipt; creator-specific AI evidence is recorded separately.
   ['huid-blyat', 'HUID BLYAT!', 'Arcade', 'Generate HUID collisions and avoid traps in a retro terminal game', 'https://izo0x90.github.io/huid-blyat/', '/games/huid-blyat.webp'],

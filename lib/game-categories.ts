@@ -7,6 +7,9 @@ export type MultiplayerMode = 'Online multiplayer' | 'Local 2-player' | 'Local m
 
 // Evidence and unresolved cases live in docs/category-audit/2026-10-11/.
 export const reviewedCategories: Record<string, CategoryList> = {
+  // October 14 two-hour Scout campaign: verified direct guest play.
+  'sudoku-for-kids': ['Puzzle', 'Educational'],
+  'hcky-io': ['Sports'],
   // October 14 Scout campaign: primary genre follows observed guest controls.
   'rage-room-2': ['Arcade', 'Action'],
   'phonos': ['Puzzle', 'Adventure'],
