@@ -14,13 +14,13 @@ This repository's existing Vercel Git integration deploys `main` to the original
 
 ## Newsletter and game submissions
 
-The site newsletter embeds beehiiv form `f4431d85-e203-4680-a3d2-4eb43639b22b` from the AddictingGames.ai publication at https://addictinggames-ai-news.beehiiv.com/. New signups through the visible site form go directly to beehiiv and require email confirmation. The publication is in the beehiiv workspace owned by `slava@cerebralvalley.ai`; its sending address is `addictinggames-ai-news@mail.beehiiv.com` and replies go to `slava@cerebralvalley.ai`. Before relying on newsletter delivery, set the publication's email footer mailing address and verify an authorized test signup and send. Existing Airtable `Waitlist` records are not automatically imported. The legacy `/api/subscribe` route remains for compatibility but is not used by the visible site form.
+The site newsletter form on Games and Mods submits to `/api/subscribe`, which stores signups in the Airtable `Waitlist` table using `AIRTABLE_API_KEY` and `AIRTABLE_BASE` in Vercel. Missing configuration or provider failure shows an error. The separate beehiiv publication is not connected to the visible site form; Airtable records are not automatically imported into beehiiv.
 
 Game submissions continue through `/api/submit-game` to Airtable using `AIRTABLE_API_KEY` and `AIRTABLE_BASE` in Vercel. Missing configuration or provider failure produces an error, never simulated success.
 
 ## Traffic analytics
 
-PostHog is initialized in `instrumentation-client.ts` when both `NEXT_PUBLIC_POSTHOG_PROJECT_TOKEN` and `NEXT_PUBLIC_POSTHOG_HOST` are configured. The integration tracks the initial page view and client-side navigation. The embedded beehiiv form manages signups outside this site's PostHog integration; newsletter signup events are not tracked in PostHog. The site does not send email addresses to PostHog, capture form inputs or clicks, or record sessions.
+PostHog is initialized in `instrumentation-client.ts` when both `NEXT_PUBLIC_POSTHOG_PROJECT_TOKEN` and `NEXT_PUBLIC_POSTHOG_HOST` are configured. The integration tracks the initial page view, client-side navigation, and successful newsletter signups. The site does not send email addresses to PostHog, capture form inputs or clicks, or record sessions.
 
 To configure analytics:
 
