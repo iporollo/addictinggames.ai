@@ -1,0 +1,130 @@
+{
+  "run_id": "2026-10-14T085207Z",
+  "review_window_ended_at_utc": "2026-10-14T22:20:50Z",
+  "status": "review_window_closed_with_unfinished_queue",
+  "production_url": "https://addictinggames.ai",
+  "published_totals": {
+    "games": 118,
+    "mods": 26,
+    "combined": 144
+  },
+  "releases": [
+    {
+      "batch": 1,
+      "counts": {
+        "games": 40,
+        "mods": 10,
+        "combined": 50
+      },
+      "public_receipt": "batch-01.json",
+      "pull_request": "https://github.com/iporollo/addictinggames.ai/pull/59"
+    },
+    {
+      "batch": 2,
+      "counts": {
+        "games": 41,
+        "mods": 9,
+        "combined": 50
+      },
+      "public_receipt": "batch-02.json",
+      "pull_request": "https://github.com/iporollo/addictinggames.ai/pull/60"
+    },
+    {
+      "batch": 3,
+      "counts": {
+        "games": 36,
+        "mods": 6,
+        "combined": 42
+      },
+      "public_receipt": "batch-03.json",
+      "pull_request": "https://github.com/iporollo/addictinggames.ai/pull/61"
+    },
+    {
+      "batch": 4,
+      "counts": {
+        "games": 1,
+        "mods": 1,
+        "combined": 2
+      },
+      "public_receipt": "batch-04.json",
+      "pull_request": "https://github.com/iporollo/addictinggames.ai/pull/63"
+    }
+  ],
+  "skill_update_pull_request": "https://github.com/iporollo/addictinggames.ai/pull/62",
+  "game_review_lanes": {
+    "wave_a": {
+      "assigned": 65,
+      "responsive_gameplay_observed": 46,
+      "other_outcomes": 19
+    },
+    "wave_b": {
+      "assigned": 70,
+      "eligible": 53,
+      "duplicate": 2,
+      "held": 15
+    },
+    "wave_c": {
+      "assigned": 115,
+      "responsive_gameplay_observed": 38,
+      "eligible": 37,
+      "pending_gameplay_tool_blocked": 65,
+      "other_held": 11,
+      "test_inconclusive": 8,
+      "access_blocked": 3,
+      "duplicate": 2,
+      "excluded": 1
+    },
+    "held_game_queue": {
+      "assigned": 300,
+      "eligible_pending_release_dedup": 21,
+      "held_reconfirmed": 4,
+      "static_triage_only_gameplay_untested": 275,
+      "without_queue_url": 153,
+      "with_url_no_gameplay_review": 116,
+      "already_in_main_exact_url": 4,
+      "owner_confirmed_holds_exact_url": 2
+    }
+  },
+  "mod_review_lanes": {
+    "wave_b": {
+      "candidates": 208,
+      "eligible_for_publication": 0,
+      "research_only": 104,
+      "held": 104
+    },
+    "held_mod_queue": {
+      "assigned": 190,
+      "exact_artifact_codex_static_review_completed": 20,
+      "eligible_in_prior_batches_or_batch_4": 17,
+      "partial_reviews_without_clearance": 28,
+      "credential_exposure_candidate_held": 1
+    },
+    "fast_a": {
+      "actual_rows": 44,
+      "new_clearances": 0,
+      "official_download_blocked": 11,
+      "hash_verified_security_pending": 7
+    },
+    "fast_b": {
+      "actual_rows": 67,
+      "new_clearances": 0,
+      "already_cleared_before_pass": 5,
+      "hash_verified_security_pending": 10,
+      "security_finding_candidate_held": 1
+    },
+    "fast_c": {
+      "actual_rows": 23,
+      "new_clearances": 0,
+      "already_published": 6,
+      "remaining_held": 17
+    }
+  },
+  "counting_note": "Lanes and historical held queues overlap; lane counts are not an unduplicated total. Static triage and hash checks are not gameplay or complete security approvals.",
+  "unfinished_review_reasons": [
+    "Gameplay browser tooling returned zero-width screenshots; some Brave controls were blocked by an extension panel. Those attempts are pending or inconclusive, not game failures.",
+    "Some queued games lack a playable URL or a source-verified AI creation claim.",
+    "Many mod artifacts lack a terminal exact-file Codex Security decision; others have authorship, identity, rights, or availability questions."
+  ],
+  "security_note": "Potentially serious mod security concerns were kept held for validation; see local restricted review reports for details. No unresolved artifact was published.",
+  "no_runtime_mod_claim": true
+}
