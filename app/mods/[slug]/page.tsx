@@ -18,7 +18,7 @@ export default async function ModDetail({ params }: { params: Promise<{ slug: st
   const mod = mods.find(mod => mod.id === slug);
   if (!mod) notFound();
   return <><main id="main" className="container mod-detail-page"><Link href="/mods" className="back-link">← Back to New Mods</Link>
-    <div className="mod-detail-title"><span className="eyebrow">{mod.game}</span><h2>{mod.name}</h2><p>{mod.summary}</p></div>
+    <div className="mod-detail-title"><span className="eyebrow">{mod.game}</span><h2>{mod.name}</h2><p>{mod.summary}</p><span className="mod-mobile-price" data-price={mod.cost === 'Free' ? 'free' : 'unknown'}>{mod.cost}</span></div>
     <div className="mod-detail-grid"><div className="mod-detail-content"><ModImage mod={mod} hero /><p className="mod-image-caption">{mod.image ? <SourceLink href={mod.image_source || mod.post}>Creator image source</SourceLink> : 'A gameplay image has not been confirmed.'}</p>
       <section className="mod-detail-block"><h3>What changes in {mod.game}?</h3><p>{mod.changes}</p></section>
       <section className="mod-detail-block"><h3>From the creator</h3><SourceLink href={mod.profile}>{mod.creator}</SourceLink><blockquote>{mod.ai_quote}</blockquote><p className="form-note">{mod.ai_note || 'Creator statement about AI involvement in building the mod.'}</p><div className="mod-source-links"><SourceLink href={mod.post}>Read the original X post</SourceLink>{mod.ai_source && mod.ai_source !== mod.post && <SourceLink href={mod.ai_source}>AI-build statement source</SourceLink>}</div></section>
