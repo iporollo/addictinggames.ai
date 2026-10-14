@@ -1,0 +1,82 @@
+{
+  "run_id": "2026-10-14T085207Z",
+  "batch": 4,
+  "status": "prepared_for_release",
+  "campaign_deadline_utc": "2026-10-14T22:20:50Z",
+  "catalog_baseline": "origin/main 2beadb46aa613d5fbec88f50f8249fb3a7ad5242",
+  "counts": {
+    "games": 1,
+    "mods": 1,
+    "combined": 2
+  },
+  "acceptance": "Game-specific creator AI claim and observed guest input/state response; exact official mod hash and completed bounded Codex Security static review, with public warnings and no runtime claim.",
+  "games": [
+    {
+      "id": "V9-19",
+      "slug": "stackkeep",
+      "title": "StackKeep",
+      "destination": "https://johnnysuzuki1234.itch.io/stackkeep",
+      "ai_authorship": {
+        "status": "source_verified",
+        "quote": "Code and development: OpenAI ChatGPT / Codex assisted with implementation, design iteration, debugging, code-based testing, and Japanese–English translation.",
+        "source_url": "https://johnnysuzuki1234.itch.io/stackkeep",
+        "source_type": "official creator game page AI tools disclosure",
+        "observed_at_utc": "2026-10-14T22:12:01Z"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input_and_response": [
+          {
+            "input": "Started a sample-castle game, selected a Wall reserve part, and placed it at Column 1, floor 5.",
+            "response": "The build displayed Wave 1 / 5 · Build, Roadside raid, six infantry, and Keep 180 / Crew 3/3. After the placement, the accessible board identified Column 1, floor 5 as Wall and the Wall reserve changed from 1 to 0. This confirms an in-game construction input and state response."
+          }
+        ],
+        "source_report": "reports/game-wave-c-fast.json"
+      },
+      "artwork": {
+        "site_asset": "/games/oct14-b4-stackkeep.webp",
+        "source_type": "creator-published cover",
+        "source_url": "https://img.itch.zone/aW1nLzMwNDA3MzQ4LnBuZw==/original/mbHncD.png",
+        "sha256": "c3842bf18050fe13e5ac17af3e101e3b1b03c5c61703d0111834d736b105ba4b"
+      },
+      "warnings": [
+        "The test placement at Column 1, floor 5 displayed the in-game warning “No support”; it was specific to this placement and the build remained interactive."
+      ]
+    }
+  ],
+  "mods": [
+    {
+      "id": "held-356",
+      "slug": "antiragebait",
+      "listing": "https://modrinth.com/project/antiragebait",
+      "ai_authorship": {
+        "quote": "might be a bit vibecoded hehe",
+        "source_url": "https://modrinth.com/project/antiragebait"
+      },
+      "official_release": {
+        "version": "1.1.1",
+        "file": "chatfilter-mod-1.1.1.jar",
+        "sha512": "7e95098c4253c39828dc06f5e5d6747a746ccf6cb892fad6a3066e8fb5276dab511ec7193056a8bddfde721648f996168103542c159660df590d268d1d6fe327",
+        "hash_verified": true
+      },
+      "security_review": {
+        "status": "complete_no_reportable_findings",
+        "scan_ids": [
+          "ec5e0d67-44f9-4edb-a036-33170c12bd25"
+        ],
+        "coverage": "Complete bounded Codex Security Standard static review of the exact official artifact; no reportable findings. No runtime installation or game/server testing.",
+        "runtime_tested": false
+      },
+      "warnings": [
+        "The official Modrinth project is Antiragebait, but the release filename is chatfilter-mod-1.1.1.jar and the embedded mod metadata calls it “Chat Filter”; that metadata says it replaces “fuck” with “frick” in outgoing chat. The official release checksum is verified, but the unexpected project/artifact naming and described feature should be clear in details.",
+        "The creator’s AI statement is “might be a bit vibecoded hehe”; the listing does not identify which code was AI-assisted.",
+        "Security review was static only. No runtime chat or loader compatibility test was run."
+      ],
+      "artwork": {
+        "site_asset": "/mods/oct14-b4-antiragebait.webp",
+        "source_url": "https://cdn.modrinth.com/data/eiHmFGYI/0f38f51dfff135b9105568efba33412731b48e3e.jpeg",
+        "sha256": "25779cb5ee1d1d9e0e57c0cb92913eadf75563aa2efb3f892e214096d3ddd6bb"
+      }
+    }
+  ]
+}
