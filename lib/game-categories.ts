@@ -7,6 +7,7 @@ export type MultiplayerMode = 'Online multiplayer' | 'Local 2-player' | 'Local m
 
 // Evidence and unresolved cases live in docs/category-audit/2026-10-11/.
 export const reviewedCategories: Record<string, CategoryList> = {
+  'dialed-gg': ['Puzzle', 'Casual'],
   // October 14 two-hour Scout campaign, batch 2.
   'einkgames': ['Strategy'],
   'mafia-the-game': ['Strategy'],
