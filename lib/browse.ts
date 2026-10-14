@@ -19,7 +19,7 @@ export function browseGames<T extends { category: string; slug: string }>(games:
   return games.filter(game => gameTags(game).includes(tab));
 }
 
-export function gameRows<T>(games: T[]): T[][] {
-  const size = Math.ceil(games.length / 3);
-  return Array.from({ length: 3 }, (_, row) => games.slice(row * size, (row + 1) * size));
+export function gameRows<T>(games: T[], rowCount = 3): T[][] {
+  const size = Math.ceil(games.length / rowCount);
+  return Array.from({ length: rowCount }, (_, row) => games.slice(row * size, (row + 1) * size));
 }
