@@ -1,0 +1,1543 @@
+{
+  "run_id": "2026-10-14T085207Z",
+  "batch": 2,
+  "status": "prepared_for_release",
+  "campaign_deadline_utc": "2026-10-14T22:20:50Z",
+  "catalog_baseline": "origin/main afbbfea107d0c07d17f3ddccf2bbe352d4621d54",
+  "counts": {
+    "games": 41,
+    "mods": 9,
+    "combined": 50
+  },
+  "acceptance": "Game AI authorship is game-specific and paired with guest in-game input and observed state response. Exact Modrinth mod releases received bounded Codex Security static review, with public detail warnings and no runtime claim.",
+  "games": [
+    {
+      "id": "V1-22",
+      "slug": "night-bandit",
+      "title": "Night Bandit",
+      "destination": "https://jimothythenightbandit.grok.me/",
+      "ai_authorship": {
+        "quote": "Currently working on a Jimothy game with @grok build heres the progress let me know feedback and things to implement in the comments. When completed will run a competition. I built this with Grok — try it out:",
+        "source_url": "https://x.com/ilovemushr37088/status/2097227338446447075",
+        "source_record": "game-wave-a-fast.json",
+        "verification": "verified"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input_and_response": [
+          {
+            "input": "Clicked Steal (no visible response), then pressed W",
+            "response": "Raccoon visibly moved through the 3D mall after W."
+          }
+        ],
+        "source_report": "game-wave-a-fast.json"
+      },
+      "artwork": {
+        "site_asset": "/games/oct14-b2-night-bandit.webp",
+        "source_type": "creator official cover",
+        "source_url": "https://jimothythenightbandit.grok.me/og.jpg",
+        "sha256": "a1983c99e8fbd5b92eb6b3a0036b71ad09be70e2b8e7e286de6829f55b23260a"
+      },
+      "warnings": []
+    },
+    {
+      "id": "V1-23",
+      "slug": "brutal-3",
+      "title": "Brutal 3",
+      "destination": "https://brutal-3-prototype.grok.me/",
+      "ai_authorship": {
+        "quote": "Having perfected the hardcopy I am looking for ways to make my game as cheap as possible. Why not use the last of my GROK Tokens to make my battler? I built this with Grok — try it out.",
+        "source_url": "https://x.com/ragrwrites/status/2096786283700101246",
+        "source_record": "game-wave-a-fast.json",
+        "verification": "verified"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input_and_response": [
+          {
+            "input": "Used generic display name “Scout”; clicked “Place Attack in slot 1”.",
+            "response": "Board label changed to SLOT1 ATTACK and the action control advanced to slot 2."
+          }
+        ],
+        "source_report": "game-wave-a-fast.json"
+      },
+      "artwork": {
+        "site_asset": "/games/oct14-b2-brutal-3.webp",
+        "source_type": "creator official cover",
+        "source_url": "https://brutal-3-prototype.grok.me/og.jpg",
+        "sha256": "62168de02bf813e70370d1046cbf5923606dd2c41823c50e31d39fc2a58a18fa"
+      },
+      "warnings": []
+    },
+    {
+      "id": "V1-25",
+      "slug": "hester-street",
+      "title": "Hester Street",
+      "destination": "https://hesterstreet.grok.me/",
+      "ai_authorship": {
+        "quote": "I built this with Grok — try it out. Try my new pushcart game circa 1910 in NYC! Good Luck!",
+        "source_url": "https://x.com/BeshearsSteven/status/2094213302653985265",
+        "source_record": "game-wave-a-fast.json",
+        "verification": "verified"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input_and_response": [
+          {
+            "input": "Selected food cart; Push Out; Pickle; Serve.",
+            "response": "Take increased 16¢→18¢ and pickle stock fell 8→7."
+          }
+        ],
+        "source_report": "game-wave-a-fast.json"
+      },
+      "artwork": {
+        "site_asset": "/games/oct14-b2-hester-street.webp",
+        "source_type": "creator official cover",
+        "source_url": "https://hesterstreet.grok.me/og.jpg",
+        "sha256": "2cde9b759fe27eeac321bedc12822e8fd22bdc7d30619319719754a22ae52160"
+      },
+      "warnings": []
+    },
+    {
+      "id": "V2-01",
+      "slug": "one-ten",
+      "title": "One-Ten",
+      "destination": "https://110online-sk.grok.me/",
+      "ai_authorship": {
+        "quote": "I built this with Grok — try it out. I actually built it with @grok and @ChatGPT to be fair.",
+        "source_url": "https://x.com/Shado_King_187/status/2101758061803081745",
+        "source_record": "game-wave-a-fast.json",
+        "verification": "verified"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input_and_response": [
+          {
+            "input": "Used generic display name “Tester”; Play against bots; Pass.",
+            "response": "Deal advanced to Niamh bidding."
+          }
+        ],
+        "source_report": "game-wave-a-fast.json"
+      },
+      "artwork": {
+        "site_asset": "/games/oct14-b2-one-ten.webp",
+        "source_type": "creator official cover",
+        "source_url": "https://110online-sk.grok.me/og.jpg",
+        "sha256": "f86ddb539109c4c7ba4dcb907fa459347ea8a53364379d76ecffa04837c3fb7f"
+      },
+      "warnings": []
+    },
+    {
+      "id": "V2-02",
+      "slug": "the-cursed-chart",
+      "title": "The Cursed Chart",
+      "destination": "https://piratewordsearch.grok.me/",
+      "ai_authorship": {
+        "quote": "Arh.hrr.hrr Captain's! Can you solve thee word search in time or walk thee plank as thee Kraken's dinner? Live and play for adventure! I built this with Grok — try it out.",
+        "source_url": "https://x.com/Updownupupright/status/2105466604209176983",
+        "source_record": "game-wave-a-fast.json",
+        "verification": "verified"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input_and_response": [
+          {
+            "input": "Chart voyage; Port o’ Whisper; dragged across CUTTER.",
+            "response": "Word-search advanced 0→1/8, score 0→850, and showed “Doubloon on CUTTER”."
+          }
+        ],
+        "source_report": "game-wave-a-fast.json"
+      },
+      "artwork": {
+        "site_asset": "/games/oct14-b2-the-cursed-chart.webp",
+        "source_type": "creator official cover",
+        "source_url": "https://piratewordsearch.grok.me/og.jpg",
+        "sha256": "3466e0ed170ee17ededade2fa5b0147c8bde279d16dab982ecf33e7406216733"
+      },
+      "warnings": []
+    },
+    {
+      "id": "V3-07",
+      "slug": "yeehaw-roundup",
+      "title": "Yeehaw Roundup",
+      "destination": "https://yeehaw-roundup.vercel.app/",
+      "ai_authorship": {
+        "quote": "highly recommend making a small silly thing while agents are working on your work stuff. i made a lasso throwing game: it’s fun and easy and mindless. exciting what a random idea can do with claude + gpt + vercel in just under an hour!",
+        "source_url": "https://x.com/suhaniashok/status/2055244041932141029",
+        "source_record": "game-wave-a-fast.json",
+        "verification": "verified_from_creator_post"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input_and_response": [
+          {
+            "input": "Dragged lasso across target.",
+            "response": "Throws remaining changed 12→11."
+          }
+        ],
+        "source_report": "game-wave-a-fast.json"
+      },
+      "artwork": {
+        "site_asset": "/games/oct14-b2-yeehaw-roundup.webp",
+        "source_type": "creator official cover",
+        "source_url": "https://yeehaw-roundup.vercel.app/images/og.jpg",
+        "sha256": "c8252ba52a40b1833d9446d29f0be3a0b81d17983a6b344234ffe2b57fcb9c4c"
+      },
+      "warnings": []
+    },
+    {
+      "id": "V3-09",
+      "slug": "zen-ball",
+      "title": "Zen Ball",
+      "destination": "https://itzninjafool.itch.io/zen-ball",
+      "ai_authorship": {
+        "quote": "I made this simple game with Codex. I originally made something similar in rosebud.",
+        "source_url": "https://x.com/itzninjafool/status/2058569030634803677",
+        "source_record": "game-wave-a-fast.json",
+        "verification": "verified_from_creator_post"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input_and_response": [
+          {
+            "input": "Entered generic local nickname “Scout”; started; pointer moved.",
+            "response": "Ball moved outside the glowing ring; score/balance changed from 0 to 415+ and timer advanced."
+          }
+        ],
+        "source_report": "game-wave-a-fast.json"
+      },
+      "artwork": {
+        "site_asset": "/games/oct14-b2-zen-ball.webp",
+        "source_type": "creator official cover",
+        "source_url": "https://img.itch.zone/aW1nLzI3NDQzNzU4LnBuZw==/original/Uc%2Btc6.png",
+        "sha256": "658014b2db0f27c5879ecc296b9fd368bbeec5780212635026e42e0d751e0864"
+      },
+      "warnings": []
+    },
+    {
+      "id": "V5-16",
+      "slug": "ockaty-sja",
+      "title": "Ockaty Sja",
+      "destination": "https://atlas-house.itch.io/ockaty-sja",
+      "ai_authorship": {
+        "quote": "Made with OpenAI Codex / ChatGPT: development collaboration; additional development and writing assistance: Google Gemini; visual development: Midjourney and OpenAI image generation; music by Atlas Archive (Suno).",
+        "source_url": "https://atlas-house.itch.io/ockaty-sja",
+        "source_record": "game-wave-b-fast.json",
+        "verification": "verified"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input_and_response": [
+          {
+            "input": "Selected Festival Path, faced Little Ivan, pressed Space to begin the encounter, chose UPPER SHELL (TIP), then CAREFUL TAP, and pressed Space through POWER and ACCURACY.",
+            "response": "The game transitioned into the active egg-tapping battle, presented combat choices and timing meters, then visibly changed Little Ivan’s shell from 14/14 to 13/14 and the player’s shell from 14/14 to 11/14 during the exchange."
+          }
+        ],
+        "source_report": "game-wave-b-fast.json"
+      },
+      "artwork": {
+        "site_asset": "/games/oct14-b2-ockaty-sja.webp",
+        "source_type": "creator official cover",
+        "source_url": "https://img.itch.zone/aW1nLzI5MDM4OTE0LnBuZw==/original/I5Dmc%2F.png",
+        "sha256": "f76fba23f949a5d2a1e4cae190372f17842de41892a57478edfc4a389bd9b336"
+      },
+      "warnings": []
+    },
+    {
+      "id": "V5-20",
+      "slug": "technical-debt",
+      "title": "Technical Debt",
+      "destination": "https://cult-of-communication.itch.io/technical-debt",
+      "ai_authorship": {
+        "quote": "OpenAI Codex was used for design analysis, programming, testing, balance simulation, and content drafting under human direction and review. OpenAI image generation created the cover, capsule, illustrations and static artwork; Suno generated music/spoken sting; ElevenLabs generated source sound effects, edited by the creator.",
+        "source_url": "https://cult-of-communication.itch.io/technical-debt",
+        "source_record": "game-wave-b-fast.json",
+        "verification": "verified"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input_and_response": [
+          {
+            "input": "Opened the inbox, selected the Vantage One offer, and clicked APPLY & INSTALL TRACKER.",
+            "response": "The game marked the application task complete, changed available card credit from $0/$0 to $0/$2,000, installed PALM Tracker, showed an approval email, and exposed the unemployment-claim task needed before Week 1."
+          }
+        ],
+        "source_report": "game-wave-b-fast.json"
+      },
+      "artwork": {
+        "site_asset": "/games/oct14-b2-technical-debt.webp",
+        "source_type": "creator official cover",
+        "source_url": "https://img.itch.zone/aW1nLzI5MDYzMTI4LnBuZw==/original/H3pdvx.png",
+        "sha256": "c875e43b5323cf56668ceba24d53eed0fc40480724e3c9bebac98f4b633c6a82"
+      },
+      "warnings": [
+        "Content note: fictional financial distress, household conflict, food insecurity, bereavement, and predatory advertising; the creator says the satire targets consumer systems and institutions."
+      ]
+    },
+    {
+      "id": "V5-21",
+      "slug": "dreamseam",
+      "title": "Dreamseam",
+      "destination": "https://daguaroadtrip.itch.io/dreamseam",
+      "ai_authorship": {
+        "quote": "Code, procedural world generation, sky systems, and audio were developed with Claude (Anthropic) as a pair-programming tool under human direction. The cover artwork is AI-generated.",
+        "source_url": "https://daguaroadtrip.itch.io/dreamseam",
+        "source_record": "game-wave-b-fast.json",
+        "verification": "verified"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input_and_response": [
+          {
+            "input": "Selected FIRST DREAM tutorial, continued its prompt, then held D for one second to turn right as instructed.",
+            "response": "Flight visibly banked/turned, speed rose from 25 to 33 m/s, and the climb distance changed from 841 m to 667 m; the world view shifted relative to the player and Ito."
+          }
+        ],
+        "source_report": "game-wave-b-fast.json"
+      },
+      "artwork": {
+        "site_asset": "/games/oct14-b2-dreamseam.webp",
+        "source_type": "creator official cover",
+        "source_url": "https://img.itch.zone/aW1nLzI5MTcyNjU4LnBuZw==/original/gWFz6R.png",
+        "sha256": "6ad430bcbe5c060f53a34274ec4c94ed8c6c64b2c55026a145e20d6edffe4983"
+      },
+      "warnings": []
+    },
+    {
+      "id": "V5-22",
+      "slug": "marble-garble",
+      "title": "Marble Garble",
+      "destination": "https://daniel-bk.itch.io/marble-garble",
+      "ai_authorship": {
+        "quote": "Technical Assistance: Developed in collaboration with Gemini Ai/Claude Ai.",
+        "source_url": "https://daniel-bk.itch.io/marble-garble",
+        "source_record": "game-wave-b-fast.json",
+        "verification": "verified"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input_and_response": [
+          {
+            "input": "Started New Game and held ArrowRight for 700 ms.",
+            "response": "The level registered the movement/collision and transitioned to GAME OVER — VAPORIZED; the state was no longer the title screen and offered R to restart."
+          }
+        ],
+        "source_report": "game-wave-b-fast.json"
+      },
+      "artwork": {
+        "site_asset": "/games/oct14-b2-marble-garble.webp",
+        "source_type": "creator official cover",
+        "source_url": "https://img.itch.zone/aW1nLzI1NjY1Mjg1LnBuZw==/original/S0gE5d.png",
+        "sha256": "32097be3620550966cc2c5c8054b4dbc15fe5c267151055f2b350fbc58bc29eb"
+      },
+      "warnings": [
+        "Game showed “ROTATE YOUR DEVICE / LANDSCAPE MODE REQUIRED” even in the current landscape viewport."
+      ]
+    },
+    {
+      "id": "V5-23",
+      "slug": "cannonball-buddies",
+      "title": "Cannonball Buddies!",
+      "destination": "https://dorim-weaver.itch.io/cannonball-buddies",
+      "ai_authorship": {
+        "quote": "Built solo with OpenAI Codex and OpenAI ImageGen. Codex assisted with JavaScript architecture, gameplay implementation, testing, and iteration; ImageGen created original visual assets under human direction.",
+        "source_url": "https://dorim-weaver.itch.io/cannonball-buddies",
+        "source_record": "game-wave-b-fast.json",
+        "verification": "verified"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input_and_response": [
+          {
+            "input": "Started the dive and dragged the pull handle to set the arc; then pressed Space as prompted in the air.",
+            "response": "Both divers launched into the playfield and the warm-up advanced through its flight stage to the end-of-dive summary, “DOUBLE DISASTER,” with component scoring and DIVE SCORE 0."
+          }
+        ],
+        "source_report": "game-wave-b-fast.json"
+      },
+      "artwork": {
+        "site_asset": "/games/oct14-b2-cannonball-buddies.webp",
+        "source_type": "creator official cover",
+        "source_url": "https://img.itch.zone/aW1nLzI5MTQ0NjM2LnBuZw==/original/36QSL3.png",
+        "sha256": "dbab2fc5b33b98394aa8ea1ea7382ac1feabcc1021334270dd5a8ff5075cfb88"
+      },
+      "warnings": []
+    },
+    {
+      "id": "V5-24",
+      "slug": "sketching-critters",
+      "title": "Sketching Critters",
+      "destination": "https://hf-doodle-studio.itch.io/sketching-critters",
+      "ai_authorship": {
+        "quote": "The implementation was done with AI tools: the code — including every drawing routine and every synthesized sound — was written with Claude. There are no image or audio files; all art and critter calls are generated by code while you play.",
+        "source_url": "https://hf-doodle-studio.itch.io/sketching-critters",
+        "source_record": "game-wave-b-fast.json",
+        "verification": "verified"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input_and_response": [
+          {
+            "input": "Started Sunny Meadow and pressed Space to set the first rhythm anchor; pressed Space again after about 500 ms to echo the beat.",
+            "response": "The critter presented its beat (“Now tap it back!”); the response was evaluated and the HUD changed Missed from 0 to 1 before returning to “Listening for something in the grass…”."
+          }
+        ],
+        "source_report": "game-wave-b-fast.json"
+      },
+      "artwork": {
+        "site_asset": "/games/oct14-b2-sketching-critters.webp",
+        "source_type": "creator official cover",
+        "source_url": "https://img.itch.zone/aW1nLzI4OTk5NTQ4LnBuZw==/original/%2FOxwRV.png",
+        "sha256": "99e7b3c83b8bc705876bbbc106daff8e3bea1cfb9d0999db47e62211da1fa3c7"
+      },
+      "warnings": []
+    },
+    {
+      "id": "V5-25",
+      "slug": "charge-autobattler-itch",
+      "title": "Charge! AutoBattler",
+      "destination": "https://id107.itch.io/charge-autobattler",
+      "ai_authorship": {
+        "quote": "Code written by Claude AI. Music made with Suno. Pictures made with Civai.",
+        "source_url": "https://id107.itch.io/charge-autobattler",
+        "source_record": "game-wave-b-fast.json",
+        "verification": "verified"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input_and_response": [
+          {
+            "input": "In Round 1 Draft Shop, bought Rabble Skirmishers for 2g.",
+            "response": "Gold decreased from 17 to 15, Your Army changed from 0/17 to 1/17, the unit appeared in the army list, and Peasant/Javelin synergies updated."
+          }
+        ],
+        "source_report": "game-wave-b-fast.json"
+      },
+      "artwork": {
+        "site_asset": "/games/oct14-b2-charge-autobattler-itch.webp",
+        "source_type": "creator official cover",
+        "source_url": "https://img.itch.zone/aW1nLzI5MzI2NDU5LnBuZw==/original/rqfQZC.png",
+        "sha256": "3560b6653f0735d219462d6626de75acdb02901aff16a37e4000705b92564cbb"
+      },
+      "warnings": [
+        "Creator describes this as their first “AI SLOP” game upload and notes items/formations were not implemented before the jam deadline."
+      ]
+    },
+    {
+      "id": "V6-01",
+      "slug": "charge-the-coil",
+      "title": "Charge the Coil",
+      "destination": "https://lifthillstudio.itch.io/charge-the-coil",
+      "ai_authorship": {
+        "quote": "Built and iterated with AI-assisted coding and testing.",
+        "source_url": "https://lifthillstudio.itch.io/charge-the-coil",
+        "source_record": "game-wave-b-fast.json",
+        "verification": "verified"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input_and_response": [
+          {
+            "input": "Started a fresh run and clicked the active coil field to time the charge.",
+            "response": "The game changed from active coil play to “TOO LATE // COIL OVERLOAD” and displayed the run score, confirming the timing input was processed."
+          }
+        ],
+        "source_report": "game-wave-b-fast.json"
+      },
+      "artwork": {
+        "site_asset": "/games/oct14-b2-charge-the-coil.webp",
+        "source_type": "creator official cover",
+        "source_url": "https://img.itch.zone/aW1nLzI4OTgzODcyLnBuZw==/original/R82t%2F6.png",
+        "sha256": "d02fea705383e747e673a9130ec4b7f16ad477dde4d9ca77fd5b3c218df3092c"
+      },
+      "warnings": [
+        "Creator recommends headphones; the page notes browsers may wait for the first input before enabling audio."
+      ]
+    },
+    {
+      "id": "V6-02",
+      "slug": "japanimals-bear-brawl",
+      "title": "Japanimals: Bear Brawl",
+      "destination": "https://maddux-studios.itch.io/japanimals-bear-brawl",
+      "ai_authorship": {
+        "quote": "This is a human-made game created with the assistance of generative AI tools .",
+        "source_url": "https://maddux-studios.itch.io/japanimals-bear-brawl",
+        "source_record": "game-wave-b-fast.json",
+        "verification": "verified"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input_and_response": [
+          {
+            "input": "Pressed J (Punch) during match after reaching the arena.",
+            "response": "Player attack animation fired, the bear flashed on hit, and both health bars changed."
+          }
+        ],
+        "source_report": "game-wave-b-fast.json"
+      },
+      "artwork": {
+        "site_asset": "/games/oct14-b2-japanimals-bear-brawl.webp",
+        "source_type": "creator official cover",
+        "source_url": "https://img.itch.zone/aW1nLzI5MzQzOTk2LnBuZw==/original/bhbDNX.png",
+        "sha256": "ab5dca092a491fd759d555de3a3be8187c4ab1324d9d2416c01abe92c03011ff"
+      },
+      "warnings": []
+    },
+    {
+      "id": "V6-03",
+      "slug": "storm-cell",
+      "title": "Storm Cell",
+      "destination": "https://maxlep.itch.io/gamejam-charge",
+      "ai_authorship": {
+        "quote": "Built with Claude Code in Godot 4.7, end to end: the code was written by Claude agents; the human directed, played the builds, and made the calls.",
+        "source_url": "https://maxlep.itch.io/gamejam-charge",
+        "source_record": "game-wave-b-fast.json",
+        "verification": "verified"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input_and_response": [
+          {
+            "input": "Held Space for 1.2 seconds in active Storm Cell gameplay.",
+            "response": "Displayed “OVERCHARGED ×0.20 0.8 grounded”; the score/energy HUD and field reaction changed."
+          }
+        ],
+        "source_report": "game-wave-b-fast.json"
+      },
+      "artwork": {
+        "site_asset": "/games/oct14-b2-storm-cell.webp",
+        "source_type": "creator official cover",
+        "source_url": "https://img.itch.zone/aW1nLzI5MzQ4MzUyLnBuZw==/original/FA%2Brit.png",
+        "sha256": "fca5588e5bf2e0022473ae366de57303ea32b9e85afcc20cf594a36773b35553"
+      },
+      "warnings": []
+    },
+    {
+      "id": "V6-04",
+      "slug": "dungeon-league",
+      "title": "Dungeon League",
+      "destination": "https://norritt42.itch.io/dungeon-league",
+      "ai_authorship": {
+        "quote": "The code and architecture were written by AI; I focused on game design and balancing.",
+        "source_url": "https://norritt42.itch.io/dungeon-league",
+        "source_record": "game-wave-b-fast.json",
+        "verification": "verified"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input_and_response": [
+          {
+            "input": "Clicked the labeled “SLIME PIT - TAP TO SPAWN” gameplay tile.",
+            "response": "Energy rate increased from 0.2/s to 11.1/s, room counter advanced, harvested score rose to 23, and the party moved."
+          }
+        ],
+        "source_report": "game-wave-b-fast.json"
+      },
+      "artwork": {
+        "site_asset": "/games/oct14-b2-dungeon-league.webp",
+        "source_type": "creator official cover",
+        "source_url": "https://img.itch.zone/aW1nLzI5MzQ0MjgyLnBuZw==/original/LajZzM.png",
+        "sha256": "a806d63cd77195346921277ff8939217caad2ae59a3d7d910ffce08adc1c2843"
+      },
+      "warnings": []
+    },
+    {
+      "id": "V6-05",
+      "slug": "zen-garden-itch",
+      "title": "Zen Garden",
+      "destination": "https://orygon.itch.io/zen-garden",
+      "ai_authorship": {
+        "quote": "Made with Deepseek AI in html.",
+        "source_url": "https://orygon.itch.io/zen-garden",
+        "source_record": "game-wave-b-fast.json",
+        "verification": "verified"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input_and_response": [
+          {
+            "input": "Clicked the soil canvas to plant the selected Purple Long seed.",
+            "response": "Seed count changed 0→1 then plant count 0→1; a rooted branching plant appeared on the plot."
+          }
+        ],
+        "source_report": "game-wave-b-fast.json"
+      },
+      "artwork": {
+        "site_asset": "/games/oct14-b2-zen-garden-itch.webp",
+        "source_type": "creator official cover",
+        "source_url": "https://img.itch.zone/aW1nLzI0OTk5MzIzLnBuZw==/original/TKuFc6.png",
+        "sha256": "730458d2b6fcf6972486b9628052c15678a80c3cc2b05883e91c4d8e88041428"
+      },
+      "warnings": []
+    },
+    {
+      "id": "V6-06",
+      "slug": "junkissa-dive",
+      "title": "Junkissa Dive",
+      "destination": "https://sukimastock.itch.io/junkissa-dive",
+      "ai_authorship": {
+        "quote": "I made the game with ChatGPT as my development “buddy,” working together on the code, screen design, and game rules.",
+        "source_url": "https://sukimastock.itch.io/junkissa-dive",
+        "source_record": "game-wave-b-fast.json",
+        "verification": "verified"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input_and_response": [
+          {
+            "input": "Dragged the Cherry topping from its launcher toward the counter.",
+            "response": "The cherry launched with visible trajectory across the café scene; the work ticket remained at 0 yen and five orders left."
+          }
+        ],
+        "source_report": "game-wave-b-fast.json"
+      },
+      "artwork": {
+        "site_asset": "/games/oct14-b2-junkissa-dive.webp",
+        "source_type": "creator official cover",
+        "source_url": "https://img.itch.zone/aW1nLzI5MTUxNDc0LmpwZWc=/original/0g%2F0qJ.jpeg",
+        "sha256": "52a6fc3f448c597b81766fd514e071f6cfe015350e3d2f235a26a51635a148d8"
+      },
+      "warnings": []
+    },
+    {
+      "id": "V6-07",
+      "slug": "krakenbreach",
+      "title": "Krakenbreach",
+      "destination": "https://warrenk0725gmailcom.itch.io/krakenbreach",
+      "ai_authorship": {
+        "quote": "Code was written in C# via GitHub Copilot through a custom chat studio (plain-English → Unity → rebuild).",
+        "source_url": "https://warrenk0725gmailcom.itch.io/krakenbreach",
+        "source_record": "game-wave-b-fast.json",
+        "verification": "verified"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input_and_response": [
+          {
+            "input": "Held Space for one second in active play to dive.",
+            "response": "Depth increased to 005m and remaining hearts changed from 7/7 to 5/7; the player moved down into the ocean field."
+          }
+        ],
+        "source_report": "game-wave-b-fast.json"
+      },
+      "artwork": {
+        "site_asset": "/games/oct14-b2-krakenbreach.webp",
+        "source_type": "creator official cover",
+        "source_url": "https://img.itch.zone/aW1nLzI5MTcxNDcyLnBuZw==/original/NehyBa.png",
+        "sha256": "39d26696652cdf6867ad04cb5584cd2bcd6f340c4d3b663e1c401b25c580fc24"
+      },
+      "warnings": []
+    },
+    {
+      "id": "V6-08",
+      "slug": "pyramid-wars",
+      "title": "Pyramid Wars",
+      "destination": "https://durian-arcade.itch.io/pyramid-wars",
+      "ai_authorship": {
+        "quote": "This was vibe coded using Claude Opus 4.8 with a 20x Pro plan in 3 weeks.",
+        "source_url": "https://durian-arcade.itch.io/pyramid-wars",
+        "source_record": "game-wave-b-fast.json",
+        "verification": "verified"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input_and_response": [
+          {
+            "input": "Selected Towers then clicked a valid open tile near the pyramid.",
+            "response": "A tower appeared on the map, its health bar rendered, and cash fell from $1,028 to $940; the placement range disappeared."
+          }
+        ],
+        "source_report": "game-wave-b-fast.json"
+      },
+      "artwork": {
+        "site_asset": "/games/oct14-b2-pyramid-wars.webp",
+        "source_type": "creator official cover",
+        "source_url": "https://img.itch.zone/aW1nLzI4MTMzMDYyLmpwZw==/original/g%2B3kfL.jpg",
+        "sha256": "1793ddc1efa78e8dff3e3879aff67bf141195a210eb626d6f8b851a1baddd519"
+      },
+      "warnings": [
+        "Official page labels this a demo; campaign levels 1–4 are playable, while levels 5–10 are part of the full version."
+      ]
+    },
+    {
+      "id": "V8-04",
+      "slug": "rutabaga-riot",
+      "title": "Rutabaga Riot",
+      "destination": "https://vvki.itch.io/rutabaga-riot",
+      "ai_authorship": {
+        "quote": "Codex / ChatGPT assisted with code and iteration; OpenAI image generation helped create pixel art and title artwork; Hunyuan supplied the 3D player source model, prepared and animated with Blender. No live AI service or API key is needed to play.",
+        "source_url": "https://vvki.itch.io/rutabaga-riot",
+        "source_record": "game-wave-c-fast.json",
+        "verification": "source_verified"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input_and_response": [
+          {
+            "input": "Player action described in the observed response",
+            "response": "Clicked Play; live Wave 01 / Endless HUD appeared. Held Right for 1 second; game time advanced 00:00→00:01 and enemy wave appeared. Follow-up J input progressed the round to a “Caught by tricksters!” result showing wave 1, 9 kills and 36 candy, proving the active loop/state updates."
+          }
+        ],
+        "source_report": "game-wave-c-fast.json"
+      },
+      "artwork": {
+        "site_asset": "/games/oct14-b2-rutabaga-riot.webp",
+        "source_type": "creator official cover",
+        "source_url": "https://img.itch.zone/aW1nLzMwNzk0MDYzLmpwZw==/original/EpOVsc.jpg",
+        "sha256": "24ae42731f2e8ff7f9cc53a566e7eb45306fb0e1b6d1192075b013a36b38abf8"
+      },
+      "warnings": [
+        "Creator reports heavy boss fights can still stutter; measured performance varies by device, browser and running apps, and stated FPS averages do not guarantee a steady 50 FPS.",
+        "Creator says no live AI service or API key is needed to play."
+      ]
+    },
+    {
+      "id": "V8-05",
+      "slug": "the-dog-ate-my-castle",
+      "title": "The Dog Ate My Castle",
+      "destination": "https://wildmancz.itch.io/the-dog-ate-my-castle-dont-tell-the-teacher",
+      "ai_authorship": {
+        "quote": "The game is completely AI generated, being playtested by a human life-long gamer. Fonts: Caveat and Patrick Hand are the only assets made before the jam. Everything else in the game, including the code, graphics, sounds and text, was created during the jam with AI tools.",
+        "source_url": "https://wildmancz.itch.io/the-dog-ate-my-castle-dont-tell-the-teacher",
+        "source_record": "game-wave-c-fast.json",
+        "verification": "source_verified"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input_and_response": [
+          {
+            "input": "Player action described in the observed response",
+            "response": "Selected Castle Defence → Notebook Margin and started wave 1. The map state advanced from wave 0 to wave 1, the HUD switched to “next wave in 26 s,” coins increased from 150 to 163, and the wave event was shown on the map. This was a gameplay action/state response."
+          }
+        ],
+        "source_report": "game-wave-c-fast.json"
+      },
+      "artwork": {
+        "site_asset": "/games/oct14-b2-the-dog-ate-my-castle.webp",
+        "source_type": "creator official cover",
+        "source_url": "https://img.itch.zone/aW1nLzMwMzMzODkxLnBuZw==/original/hLhHd9.png",
+        "sha256": "68435b3a572d4969f9a8ead3aae12d6a182f22e71d6d657063c0c24a3233d871"
+      },
+      "warnings": [
+        "Two modes are advertised, including Snack Wars; this review only tested solo Castle Defence. No multiplayer behavior claimed."
+      ]
+    },
+    {
+      "id": "V8-07",
+      "slug": "pocket-sparrows",
+      "title": "Pocket Sparrows",
+      "destination": "https://yenrye.itch.io/pocket-sparrows",
+      "ai_authorship": {
+        "quote": "Tools used: Godot 4.7 for development; Cursor for code writing; Google Gemini / Nano Banana for image generation (with Pixel Refiner and GIMP for cleanup); Suno 5.5 for music and SFX.",
+        "source_url": "https://yenrye.itch.io/pocket-sparrows",
+        "source_record": "game-wave-c-fast.json",
+        "verification": "source_verified"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input_and_response": [
+          {
+            "input": "Player action described in the observed response",
+            "response": "Started new game and entered the garden with sparrows, a Bird Joy meter and 10 food pieces. Clicked in the garden near a sparrow; food dropped visibly and inventory decreased 10→9 while the birds moved. This verifies the core feed/game loop responds to input."
+          }
+        ],
+        "source_report": "game-wave-c-fast.json"
+      },
+      "artwork": {
+        "site_asset": "/games/oct14-b2-pocket-sparrows.webp",
+        "source_type": "creator official cover",
+        "source_url": "https://img.itch.zone/aW1nLzI4MDYxNTg4LnBuZw==/original/uh3ExK.png",
+        "sha256": "936fd98c1866385d79da10c402072db9a9fe4ab5ba6294d9f32dac15abc2de9c"
+      },
+      "warnings": []
+    },
+    {
+      "id": "V8-08",
+      "slug": "flute",
+      "title": "FLÛTE!",
+      "destination": "https://zucchinibasketgames.itch.io/flute",
+      "ai_authorship": {
+        "quote": "Code — Claude Code (Opus). The creator says development was heavily AI-assisted and credits Gemini for music, edited in Audacity; the full starting prompt is reproduced in-game under Credits → PROMPTS.",
+        "source_url": "https://zucchinibasketgames.itch.io/flute",
+        "source_record": "game-wave-c-fast.json",
+        "verification": "source_verified"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input_and_response": [
+          {
+            "input": "Player action described in the observed response",
+            "response": "Started Charge, selected level 1 (Deux verres), and started a 30-second round. Clicking the set-down area moved the held bottle to the side and changed its prompt to PICK UP; clicking the bottle picked it up, visibly tilted it, and showed the active target area. The game timer advanced and changed to red as time ran down. These are visible responses to input; the complete pour/even-fill loop was not verified."
+          }
+        ],
+        "source_report": "game-wave-c-fast.json"
+      },
+      "artwork": {
+        "site_asset": "/games/oct14-b2-flute.webp",
+        "source_type": "creator official cover",
+        "source_url": "https://img.itch.zone/aW1nLzI5MTYxODczLnBuZw==/original/x8CeSY.png",
+        "sha256": "b8af9ccf6e04d0ca60e3a7f6cd6427ef35a63456385a5b46a6ffc959f59f7798"
+      },
+      "warnings": [
+        "Creator notes that translations use Google best-guess output, a Reddit contributor, and the creator’s wife’s remembered AP French. Some French/English localization may be imperfect."
+      ]
+    },
+    {
+      "id": "V8-10",
+      "slug": "qweenbound",
+      "title": "QweenBound",
+      "destination": "https://lynxnathan.itch.io/qweenbound",
+      "ai_authorship": {
+        "quote": "Qwen was used throughout the jam as a creative and technical collaborator. Qween, running through a custom Codex harness endpoint and paired with a customized version of OpenGSD, was the primary implementation agent. The creator says the human remained designer, director, and final judge.",
+        "source_url": "https://lynxnathan.itch.io/qweenbound",
+        "source_record": "game-wave-c-fast.json",
+        "verification": "source_verified"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input_and_response": [
+          {
+            "input": "Player action described in the observed response",
+            "response": "Selected the local VS CPU 3v3 mode. Initial match showed Akari at 100 HP and 73/100 MP. Pressed Space to fire the selected attack; the game displayed CRITICAL! -77, reduced Mio Takahashi to 23/100 HP, and reduced Akari MP to 18/100. Turn timer advanced 29→21 seconds. This verifies an attack changes opponent and player state. Online multiplayer rooms were not tested."
+          }
+        ],
+        "source_report": "game-wave-c-fast.json"
+      },
+      "artwork": {
+        "site_asset": "/games/oct14-b2-qweenbound.webp",
+        "source_type": "creator official cover",
+        "source_url": "https://img.itch.zone/aW1nLzI5NzA1NzM5LnBuZw==/original/%2FXI%2BkO.png",
+        "sha256": "b3740dd199e6e9aff800313fa825d7004a347b33a952f308aa0da42a86d97f67"
+      },
+      "warnings": [
+        "Only local CPU play was verified; online rooms/multiplayer were not tested."
+      ]
+    },
+    {
+      "id": "V8-11",
+      "slug": "otterbound",
+      "title": "Otterbound",
+      "destination": "https://csaf.itch.io/otterbound",
+      "ai_authorship": {
+        "quote": "AI disclosure: the code, the in-game skyline paintings and the store graphics are AI-generated, and the written text is AI-authored. Sound and music are procedural synthesis from code, not generative audio.",
+        "source_url": "https://csaf.itch.io/otterbound",
+        "source_record": "game-wave-c-fast.json",
+        "verification": "source_verified"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input_and_response": [
+          {
+            "input": "Player action described in the observed response",
+            "response": "PUSH OFF entered The Shallows at bend 1/12, with 45 fish and 0 stones. Choosing CHARGE advanced the river through a fight; the HUD progressed to bend 2/12, 46 fish and 5 stones, with Slinger Volley marked DOWN. Choosing TIGHT PAWS displayed “The river grants TIGHT PAWS” and the river state advanced to “The river splits ahead.” This verifies input-driven progression, combat/economy, and blessing choice."
+          }
+        ],
+        "source_report": "game-wave-c-fast.json"
+      },
+      "artwork": {
+        "site_asset": "/games/oct14-b2-otterbound.webp",
+        "source_type": "creator official cover",
+        "source_url": "https://img.itch.zone/aW1nLzI5MzEwODE3LnBuZw==/original/%2FSENA2.png",
+        "sha256": "e959cebc85dc1345c93a6e2325453e1fd5446c969148060445eb72b7109bb3f5"
+      },
+      "warnings": [
+        "This short review verified the early run and one combat event; later bosses and full progression were not tested."
+      ]
+    },
+    {
+      "id": "V8-12",
+      "slug": "the-listening-commons",
+      "title": "The Listening Commons",
+      "destination": "https://estona815.itch.io/the-listening-commons",
+      "ai_authorship": {
+        "quote": "OpenAI Codex was a major production tool for character writing, branching event text, complete HTML/CSS/JavaScript implementation, illustrated cover code, and synthesized sound design. The human entrant directed the concept and reviewed the playable result. No account or live AI service is needed to play.",
+        "source_url": "https://estona815.itch.io/the-listening-commons",
+        "source_record": "game-wave-c-fast.json",
+        "verification": "source_verified"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input_and_response": [
+          {
+            "input": "Player action described in the observed response",
+            "response": "On Day 1, allocated two units each to Care House, Repair Hall, Meeting Square and Greenhouse, then opened the assembly. The game changed to “A promise kept,” disabled controls for the resolved turn, displayed the narrative outcome, and updated meters: Human care 58→57, Synthetic care 58→57, Shared trust 54→67, Living reserve 56→50. It recorded both requests met and +8 shared trust before the resolution. This verifies the core allocation/resolve loop."
+          }
+        ],
+        "source_report": "game-wave-c-fast.json"
+      },
+      "artwork": {
+        "site_asset": "/games/oct14-b2-the-listening-commons.webp",
+        "source_type": "creator official cover",
+        "source_url": "https://img.itch.zone/aW1nLzMwMjczNTYyLnBuZw==/original/Vxg%2Bca.png",
+        "sha256": "64becfc3f5258f3d5e1f81f12d9ca0aa4086e5ba764423fd56660c43f6c9c3fd"
+      },
+      "warnings": [
+        "One Day 1 decision was tested; remaining five days and alternate endings were not reviewed."
+      ]
+    },
+    {
+      "id": "held-game-336",
+      "slug": "elemental-sandbox-ai-edition",
+      "title": "Elemental Sandbox AI Edition",
+      "destination": "https://wave-mystic-layer.itch.io/elementalsandboxaiedition",
+      "ai_authorship": {
+        "quote": "HI THIS GAME IS CREATED USING GEMMINI AI PRO AND Z.AI.",
+        "source_url": "https://wave-mystic-layer.itch.io/elementalsandboxaiedition",
+        "source_record": "held-game-fast.json",
+        "verification": "verified"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input_and_response": [
+          {
+            "input": "Guest run: selected sand and dragged over an empty part of the canvas.",
+            "response": "Sand particles appeared on the canvas and fell under simulation."
+          }
+        ],
+        "source_report": "held-game-fast.json"
+      },
+      "artwork": {
+        "site_asset": "/games/oct14-b2-elemental-sandbox-ai-edition.webp",
+        "source_type": "creator official cover",
+        "source_url": "https://img.itch.zone/aW1nLzI1NzI5NjE1LmpwZw==/original/EMIQ%2Fj.jpg",
+        "sha256": "acbd3968a324da4279610a1ae3c453c1c1f737bd808b3533f7b84bf21c415314"
+      },
+      "warnings": []
+    },
+    {
+      "id": "held-game-338",
+      "slug": "the-list-s-champion",
+      "title": "The List's Champion",
+      "destination": "https://felmeric.itch.io/the-lists-champion",
+      "ai_authorship": {
+        "quote": "AI Tool Usage: Claude Code, running Claude Opus 5, made by Anthropic. Used throughout development as a pair programmer: writing and reviewing game code, and arguing out the design. Every commit in the project's history carries it as a co-author.",
+        "source_url": "https://felmeric.itch.io/the-lists-champion",
+        "source_record": "held-game-fast.json",
+        "verification": "verified"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input_and_response": [
+          {
+            "input": "Guest run: selected “Ride the tournament” → “The Squire”; pressed Space as the opponent approached.",
+            "response": "Opponent disappeared after the joust and the crowd cheered."
+          }
+        ],
+        "source_report": "held-game-fast.json"
+      },
+      "artwork": {
+        "site_asset": "/games/oct14-b2-the-list-s-champion.webp",
+        "source_type": "creator official cover",
+        "source_url": "https://img.itch.zone/aW1nLzI5MzMxNjMwLnBuZw==/original/O%2F4S4d.png",
+        "sha256": "fd6746a5efc1dedb3823593e5e9048e238e347252f0422bbcb78bd91288585c2"
+      },
+      "warnings": []
+    },
+    {
+      "id": "held-game-339",
+      "slug": "the-corvane-papers",
+      "title": "The Corvane Papers",
+      "destination": "https://meierottodane.itch.io/the-corvane-papers",
+      "ai_authorship": {
+        "quote": "A meta bureaucracy simulator made entirely with claude, codex and kimi.",
+        "source_url": "https://meierottodane.itch.io/the-corvane-papers",
+        "source_record": "held-game-fast.json",
+        "verification": "verified"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input_and_response": [
+          {
+            "input": "Fresh guest run: clicked “Take up the post”, “Open the gate”, chose “Morning.”, then approved the current matching passport.",
+            "response": "A passenger cleared; the TIN counter changed from £40 to £44."
+          }
+        ],
+        "source_report": "held-game-fast.json"
+      },
+      "artwork": {
+        "site_asset": "/games/oct14-b2-the-corvane-papers.webp",
+        "source_type": "creator official cover",
+        "source_url": "https://img.itch.zone/aW1nLzI4OTgxMDM1LnBuZw==/original/TrXEcY.png",
+        "sha256": "ced58c5bd6cf9ed119f2f733073219227693831f516c590d17174a8ff978dc68"
+      },
+      "warnings": [
+        "The official page describes it as an AI-generated “Papers please” game; note the stated inspiration when evaluating the release."
+      ]
+    },
+    {
+      "id": "held-game-340",
+      "slug": "rogue-memory",
+      "title": "Rogue Memory",
+      "destination": "https://quantumcodemonk.itch.io/rogue-memory",
+      "ai_authorship": {
+        "quote": "Created entirely using Claude AI.",
+        "source_url": "https://quantumcodemonk.itch.io/rogue-memory",
+        "source_record": "held-game-fast.json",
+        "verification": "verified"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input_and_response": [
+          {
+            "input": "Guest run: chose Test difficulty and pressed the in-game ▲ W control.",
+            "response": "Position changed X:6 Y:5 → X:7 Y:5; Fragments changed 0/5 → 1/5; log said “Memory fragment integrated.”"
+          }
+        ],
+        "source_report": "held-game-fast.json"
+      },
+      "artwork": {
+        "site_asset": "/games/oct14-b2-rogue-memory.webp",
+        "source_type": "creator official cover",
+        "source_url": "https://img.itch.zone/aW1nLzI2MTc4Mjk2LnBuZw==/original/tg2CMq.png",
+        "sha256": "be18ea11349cfc4b5c329af808ab47f43fe075d24e36b66f7ab514d6b3cac5b6"
+      },
+      "warnings": []
+    },
+    {
+      "id": "held-game-343",
+      "slug": "sketching-fish",
+      "title": "Sketching Fish",
+      "destination": "https://hf-doodle-studio.itch.io/sketching-fish",
+      "ai_authorship": {
+        "quote": "The code — including every drawing routine — was written with Claude, and the three background tracks were composed with Google Gemini. There are no image files in this game; all the crayon art is drawn by code while you play.",
+        "source_url": "https://hf-doodle-studio.itch.io/sketching-fish",
+        "source_record": "held-game-fast.json",
+        "verification": "verified"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input_and_response": [
+          {
+            "input": "Fresh guest run: clicked Start, then clicked the pond to cast.",
+            "response": "Prompt changed from “Click or press Space to cast!” to “Waiting for a fish…” and the bobber moved into the lake."
+          }
+        ],
+        "source_report": "held-game-fast.json"
+      },
+      "artwork": {
+        "site_asset": "/games/oct14-b2-sketching-fish.webp",
+        "source_type": "creator official cover",
+        "source_url": "https://img.itch.zone/aW1nLzI4ODc4MDYzLmdpZg==/original/38lJbJ.gif",
+        "sha256": "dae7bc3bf0bb9c8d7c62cdf911da009d6bb8b14145abf215f7f6437f24dbab16"
+      },
+      "warnings": []
+    },
+    {
+      "id": "held-game-348",
+      "slug": "mirror-siege",
+      "title": "Mirror Siege",
+      "destination": "https://jxnhalam.itch.io/mirror-siege",
+      "ai_authorship": {
+        "quote": "The project is being developed with an AI-assisted workflow using ChatGPT for game design, balancing, documentation and asset direction, and Codex for implementation, debugging and technical iteration.",
+        "source_url": "https://jxnhalam.itch.io/mirror-siege",
+        "source_record": "held-game-fast.json",
+        "verification": "verified"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input_and_response": [
+          {
+            "input": "Guest run: clicked “Play Map 1”, selected Spearman, dragged it into the blue deployment zone.",
+            "response": "HUD changed from Units 0/160 to 1/160 and showed “Deployed 1 spearman.”"
+          }
+        ],
+        "source_report": "held-game-fast.json"
+      },
+      "artwork": {
+        "site_asset": "/games/oct14-b2-mirror-siege.webp",
+        "source_type": "creator official cover",
+        "source_url": "https://img.itch.zone/aW1nLzI5MTc1NDIwLnBuZw==/original/nWMRtd.png",
+        "sha256": "1472e2acb32a191422bee86193f16c182c4e77e96478dc3de6e017cd5a46fdae"
+      },
+      "warnings": [
+        "Creator labels this an early Web prototype focused on one complete battlefield and its core gameplay loop."
+      ]
+    },
+    {
+      "id": "held-game-450",
+      "slug": "castle-of-fortune",
+      "title": "Castle of Fortune",
+      "destination": "https://exedexes1.itch.io/castle-of-fortune",
+      "ai_authorship": {
+        "quote": "Main Tools used: Rosebud - for the immediate first prototyping Claude - to get out into my general-use credits in my subscription and expand things.",
+        "source_url": "https://exedexes1.itch.io/castle-of-fortune",
+        "source_record": "held-game-fast.json",
+        "verification": "verified"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input_and_response": [
+          {
+            "input": "Guest run: accepted the commission, selected Rocca di Ravaldino, clicked “Build Curtain Walls.”",
+            "response": "World advanced to 1482; fortress defense 20 → 32, Count Lorenzo satisfaction 60 → 66%, reputation +6, gold 40 → 149, with success messages."
+          }
+        ],
+        "source_report": "held-game-fast.json"
+      },
+      "artwork": {
+        "site_asset": "/games/oct14-b2-castle-of-fortune.webp",
+        "source_type": "creator official cover",
+        "source_url": "https://img.itch.zone/aW1nLzMwMzk0ODAwLnBuZw==/original/tILCJO.png",
+        "sha256": "264dea28156fbaddc6ce415d14d3b86eaf00ca41172bf8a4e40d5df977faa348"
+      },
+      "warnings": [
+        "Official page reports status “In development.”"
+      ]
+    },
+    {
+      "id": "held-game-460",
+      "slug": "sixfold-castle",
+      "title": "Sixfold Castle",
+      "destination": "https://nuxusaurora.itch.io/sixfold-castle",
+      "ai_authorship": {
+        "quote": "AI tools used OpenAI Codex Used for design assistance, TypeScript programming, procedural pixel sprites and textures, code-built Three.js geometry, original music and sound synthesis scripts, debugging, and verification. OpenAI ImageGen / ChatGPT image generation Used to create visual references that guided scene and asset development.",
+        "source_url": "https://nuxusaurora.itch.io/sixfold-castle",
+        "source_record": "held-game-fast.json",
+        "verification": "verified"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input_and_response": [
+          {
+            "input": "Started Standard campaign → Start a new watch → Menu > snapped to Castle face → selected an empty plot and confirmed the in-game 10-gold expansion → selected Ballista and confirmed placement for 35 gold.",
+            "response": "Gold changed 140 → 105 after Ballista placement; the Ballista appeared beside the castle, “Done. Your castle has been updated.” appeared, and the tutorial advanced to 4/7 (“Put soldiers on the front line”). Screen also showed Army 3/6 and Core 1200."
+          }
+        ],
+        "source_report": "held-game-fast.json"
+      },
+      "artwork": {
+        "site_asset": "/games/oct14-b2-sixfold-castle.webp",
+        "source_type": "creator official cover",
+        "source_url": "https://img.itch.zone/aW1nLzMwNDA1OTA3LmpwZw==/original/87PJuy.jpg",
+        "sha256": "cdee8069fe95842e2dd97260d2de5e90a7eeb142da3d1ff1348413bfff8a9906"
+      },
+      "warnings": [
+        "Official game page requires WebGL 2 and hardware acceleration.",
+        "Double Boss campaign mode is locked until the Standard campaign is cleared."
+      ]
+    },
+    {
+      "id": "held-game-483",
+      "slug": "my-island-itch",
+      "title": "My Island",
+      "destination": "https://maokoroku.itch.io/my-island",
+      "ai_authorship": {
+        "quote": "Development was heavily AI-assisted, and all of the art and audio are generated procedurally in code — so there are no third-party assets, and nothing to install.",
+        "source_url": "https://maokoroku.itch.io/my-island",
+        "source_record": "held-game-fast.json",
+        "verification": "verified"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input_and_response": [
+          {
+            "input": "Fresh guest run: dismissed Pip’s tutorial, selected Build → Beach Hut → clicked an open tile.",
+            "response": "Beach Hut appeared; coins changed 200 → 140, population 6 → 9, and income 97 → 129/min."
+          }
+        ],
+        "source_report": "held-game-fast.json"
+      },
+      "artwork": {
+        "site_asset": "/games/oct14-b2-my-island-itch.webp",
+        "source_type": "creator official cover",
+        "source_url": "https://img.itch.zone/aW1nLzI3ODkyNzk1LnBuZw==/original/ParE9w.png",
+        "sha256": "46e45bad2908b17f426a19dcb57684c172b7c0d49812585a4dfe762a2e28d57a"
+      },
+      "warnings": []
+    },
+    {
+      "id": "held-game-485",
+      "slug": "the-familiar-dark",
+      "title": "The Familiar Dark",
+      "destination": "https://not-brem.itch.io/the-familiar-dark-an-alderamontico-tale",
+      "ai_authorship": {
+        "quote": "Completely AI Generated other than 2 music tracks (glassworks and river).",
+        "source_url": "https://not-brem.itch.io/the-familiar-dark-an-alderamontico-tale",
+        "source_record": "held-game-fast.json",
+        "verification": "verified"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input_and_response": [
+          {
+            "input": "Guest run: New Game → Scholar → accepted the writ → Examine → selected a map tile.",
+            "response": "The log recorded “You cast Examine! It strikes nothing but air.” and the game advanced into its investigation loop with stats/objective visible."
+          }
+        ],
+        "source_report": "held-game-fast.json"
+      },
+      "artwork": {
+        "site_asset": "/games/oct14-b2-the-familiar-dark.webp",
+        "source_type": "creator official cover",
+        "source_url": "https://img.itch.zone/aW1nLzI4MDA1Njc0LnBuZw==/original/sxxQwH.png",
+        "sha256": "c7ccbc905dab4b207970a37a9306876f34eee4c8cd71674076aebf731ac33b4e"
+      },
+      "warnings": []
+    },
+    {
+      "id": "V4-17",
+      "slug": "icarus-had-it-coming",
+      "title": "Icarus Had It Coming",
+      "destination": "https://michaelparisi.net/icarus",
+      "ai_authorship": {
+        "quote": "I made a game with GPT 6 Astra! It’s Press Your Luck, but with Icarus flying toward the sun!!",
+        "source_url": "https://x.com/MichaelParisi/status/2096681573949304940",
+        "source_record": "game-wave-b-fast.json",
+        "verification": "verified"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input_and_response": [
+          {
+            "input": "Started flight, clicked ONE MORE FLAP, then FLAP NOW.",
+            "response": "Flight changed to 8% toward the sun; 80 points appeared at risk and wax integrity changed from 100% to 88%."
+          }
+        ],
+        "source_report": "game-wave-b-fast.json"
+      },
+      "artwork": {
+        "site_asset": "/games/oct14-b2-icarus-had-it-coming.webp",
+        "source_type": "generated A/B, selected A",
+        "selected_option": "A",
+        "option_a_local": "exec-01d905a4-d5fb-4030-85f5-40ab686a417e.png",
+        "option_b_local": "exec-8ffa6345-fabb-42ce-b530-445650f832c6.png",
+        "prompt_a": "Wax-winged flyer approaching a hot sun above the sea with melting wings",
+        "prompt_b": "Close side view of wax-winged flyer above Mediterranean sea",
+        "sha256": "30f63ac25e666650e2be7a42ce96c2523ab70697517fdac0237c491051de4a29"
+      },
+      "warnings": []
+    },
+    {
+      "id": "V4-23",
+      "slug": "mots-lies",
+      "title": "Mots Liés – 120 niveaux",
+      "destination": "https://mots-lies.netlify.app/",
+      "ai_authorship": {
+        "quote": "J’ai créé un petit jeu avec l’IA, et il est dispo sur ce lien!",
+        "source_url": "https://x.com/JeffDmz62/status/2110301065140695104",
+        "source_record": "game-wave-b-fast.json",
+        "verification": "verified"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input_and_response": [
+          {
+            "input": "Started Level 1, skipped the optional tutorial, and selected COCHON, CHÈVRE, MOUTON, and DINDON.",
+            "response": "The game recognized and removed them as “Animaux de la ferme”; the matching category appeared and the puzzle progress advanced."
+          }
+        ],
+        "source_report": "game-wave-b-fast.json"
+      },
+      "artwork": {
+        "site_asset": "/games/oct14-b2-mots-lies.webp",
+        "source_type": "generated A/B, selected B",
+        "selected_option": "B",
+        "option_a_local": "exec-1b920a57-9d31-4b3b-88c7-f21804670451.png",
+        "option_b_local": "exec-14e5181b-59c3-4860-af7c-b274900ddda7.png",
+        "prompt_a": "Illustrated word-group puzzle board with farm animals and category clusters",
+        "prompt_b": "Paper category clusters linked by colored ribbons",
+        "sha256": "d2fd5d862b32f61a880c7883fd6c1cceee8e1422ad242f3478651f00e3949a82"
+      },
+      "warnings": []
+    }
+  ],
+  "mods": [
+    {
+      "id": "held-255",
+      "slug": "rpg-craft-rebalanced",
+      "listing": "https://modrinth.com/project/rpg-craft-rebalanced",
+      "ai_authorship": {
+        "quote": "Yes, text was made with AI, and it helped me polish my loot curve as well, but i've been working on this pack a long time...",
+        "source_url": "https://modrinth.com/project/rpg-craft-rebalanced"
+      },
+      "official_release": {
+        "version": "1.1",
+        "file": "RPG_Craft.zip",
+        "sha512": "b3a3135eadaabd12dcf82c45adf5a4a455d5c379854c0de5adab0720bb217de05d1a18760513e0173e299feeb82003a8afafd4e979ffbe251b04f0c689976d90",
+        "hash_verified": true
+      },
+      "security_review": {
+        "status": "complete_no_reportable_security_findings",
+        "scan_ids": [
+          "5fd546cb-75c5-4e7a-89b3-22547797038c"
+        ],
+        "coverage": "Complete bounded Codex Security static review of the exact official archive; ZIP integrity and member paths were checked; no reportable findings. No installation or runtime test.",
+        "runtime_tested": false
+      },
+      "warnings": [
+        "The archive registers seven functions in the global tick tag and scans player, dropped-item, mob, and villager entities; server performance at high player/entity counts was not tested.",
+        "The exact release passed offline static Codex Security review, but was not installed or tested in Minecraft. No independent successful-use report was confirmed."
+      ],
+      "artwork": {
+        "site_asset": "/mods/oct14-b2-rpg-craft-rebalanced.webp",
+        "source_type": "official Modrinth gallery",
+        "source_url": "https://cdn.modrinth.com/data/IUUYEl15/images/2ee936993312a6b3aa2a7d6757caf71c686d2846.png"
+      }
+    },
+    {
+      "id": "held-257",
+      "slug": "bta-german-language-pack",
+      "listing": "https://modrinth.com/project/bta-german-language-pack",
+      "ai_authorship": {
+        "quote": "- ​This pack was created using AI translation tools and carefully reviewed and adjusted by hand to fix awkward phrases and errors.",
+        "source_url": "https://modrinth.com/project/bta-german-language-pack"
+      },
+      "official_release": {
+        "version": "8.0.1",
+        "file": "DE_ALT.zip",
+        "sha512": "14a64767d12b16db114d23695a7bbe32f5a4e72c58724ef6701cd43860ac35f1c0d1c4adfb056f51472b7e0aed17f3948770b4fe965c85dfc67cc6e60a2587e3",
+        "hash_verified": true
+      },
+      "security_review": {
+        "status": "complete_no_reportable_findings",
+        "scan_ids": [
+          "2de8f879-6302-4888-8faa-86ea3e77cac1",
+          "4c8a6f27-7c81-4e99-b7d0-c813436f93d2"
+        ],
+        "coverage": "Completed bounded Codex Security static scan; runtime not tested.",
+        "runtime_tested": false
+      },
+      "warnings": [
+        "Creator says the resource pack was made with AI translation tools and carefully reviewed/adjusted by hand. Modrinth identifies the pack as All Rights Reserved; the site record should link to the official listing and must not imply redistribution rights.",
+        "The exact release passed offline static Codex Security review, but was not installed or tested in Minecraft. No independent successful-use report was confirmed."
+      ],
+      "artwork": {
+        "site_asset": "/mods/oct14-b2-bta-german-language-pack.webp",
+        "source_type": "official Modrinth gallery",
+        "source_url": "https://cdn.modrinth.com/data/QyjuFlu6/images/4e8c2f1b4b9bb97909481089d2f4c8b7182fb091.jpeg"
+      }
+    },
+    {
+      "id": "held-258",
+      "slug": "dustydecorationspersonallysinicizationyc",
+      "listing": "https://modrinth.com/project/dustydecorationspersonallysinicizationyc",
+      "ai_authorship": {
+        "quote": "Dusty Decorations V1.13 full Simplified Chinese translation (721/721, 100%) — AI-assisted fan translation",
+        "source_url": "https://modrinth.com/project/dustydecorationspersonallysinicizationyc"
+      },
+      "official_release": {
+        "version": "1.0",
+        "file": "dustydecorations-zh_1.20.1_v1.0.zip",
+        "sha512": "0d588c75b6082264e15ddd7df7449d7fdfad67bf38010c07629fdbe2794533bb11e5b11517170c75e8ae52d1087edaeafd768c496de128d8722679dfce646dde",
+        "hash_verified": true
+      },
+      "security_review": {
+        "status": "complete_no_reportable_findings",
+        "scan_ids": [
+          "2de8f879-6302-4888-8faa-86ea3e77cac1",
+          "4c8a6f27-7c81-4e99-b7d0-c813436f93d2"
+        ],
+        "coverage": "Completed bounded Codex Security static scan; runtime not tested.",
+        "runtime_tested": false
+      },
+      "warnings": [
+        "Creator describes this as an AI-assisted fan translation and credits the original author. Modrinth lists CC BY-NC-SA 4.0 (non-commercial, share-alike); link to the official listing and do not imply permission to redistribute the pack.",
+        "The exact release passed offline static Codex Security review, but was not installed or tested in Minecraft. No independent successful-use report was confirmed."
+      ],
+      "artwork": {
+        "site_asset": null,
+        "source_type": "none",
+        "source_url": null
+      }
+    },
+    {
+      "id": "held-259",
+      "slug": "butcherypersonallysinicizationyc",
+      "listing": "https://modrinth.com/project/butcherypersonallysinicizationyc",
+      "ai_authorship": {
+        "quote": "Full Simplified Chinese translation for Butchery 5.2 (880/880, 100% coverage). Includes items, blocks, advancements, GUI, enchantments, sounds and more. Fan translation, AI-assisted, credit to the original author. For non-commercial use only.",
+        "source_url": "https://modrinth.com/project/butcherypersonallysinicizationyc"
+      },
+      "official_release": {
+        "version": "1.0",
+        "file": "butchery-zh_1.20.1_v1.0.zip",
+        "sha512": "d35f535780178b0a1a4a0707add82d7cf10f781cf973ee52348ba41ab7b338ed79f0aac3ff556e20e171c7d5425b183fbc6df8b774979d37f52843590aba74c6",
+        "hash_verified": true
+      },
+      "security_review": {
+        "status": "complete_no_reportable_findings",
+        "scan_ids": [
+          "2de8f879-6302-4888-8faa-86ea3e77cac1",
+          "4c8a6f27-7c81-4e99-b7d0-c813436f93d2"
+        ],
+        "coverage": "Completed bounded Codex Security static scan; runtime not tested.",
+        "runtime_tested": false
+      },
+      "warnings": [
+        "Creator describes this as an AI-assisted fan translation and credits the original author. Modrinth lists CC BY-NC-SA 4.0 (non-commercial, share-alike); link to the official listing and do not imply permission to redistribute the pack.",
+        "The exact release passed offline static Codex Security review, but was not installed or tested in Minecraft. No independent successful-use report was confirmed."
+      ],
+      "artwork": {
+        "site_asset": null,
+        "source_type": "none",
+        "source_url": null
+      }
+    },
+    {
+      "id": "held-375",
+      "slug": "totem-card-texture-pack",
+      "listing": "https://modrinth.com/project/totem-card-texture-pack",
+      "ai_authorship": {
+        "quote": "**The grass block texture used in the card background was made with the help of AI (ChatGPT)!!!**",
+        "source_url": "https://modrinth.com/project/totem-card-texture-pack"
+      },
+      "official_release": {
+        "version": "1.0",
+        "file": "totem-card.zip",
+        "sha512": "c72889cfe07f336599c008fcd0ca426b6add3322611528ed0ac427a28f946a7b79caf2c231700a78ffac372e15feda409e308279e3aef815a7aad6ac1e20c8bd",
+        "hash_verified": true
+      },
+      "security_review": {
+        "status": "complete_no_reportable_findings",
+        "scan_ids": [
+          "2de8f879-6302-4888-8faa-86ea3e77cac1",
+          "4c8a6f27-7c81-4e99-b7d0-c813436f93d2"
+        ],
+        "coverage": "Completed bounded Codex Security static scan; runtime not tested.",
+        "runtime_tested": false
+      },
+      "warnings": [
+        "The creator identifies only the grass-block texture behind the card as AI-assisted; the rest of the pack is not claimed as AI-created.",
+        "The exact release passed offline static Codex Security review, but was not installed or tested in Minecraft. No independent successful-use report was confirmed."
+      ],
+      "artwork": {
+        "site_asset": "/mods/oct14-b2-totem-card-texture-pack.webp",
+        "source_type": "official Modrinth gallery",
+        "source_url": "https://cdn.modrinth.com/data/7NimHyGb/images/69dfc99449d47815f87e754d37b54d523a228c30.png"
+      }
+    },
+    {
+      "id": "held-391",
+      "slug": "irons-sable-compat",
+      "listing": "https://modrinth.com/project/irons-sable-compat",
+      "ai_authorship": {
+        "quote": "Generated with AI assistance (Claude, Anthropic)",
+        "source_url": "https://modrinth.com/project/irons-sable-compat"
+      },
+      "official_release": {
+        "version": "1.0.5",
+        "file": "ironssablecompat-1.0.5.jar",
+        "sha512": "6b69f6929f8fad620266a755da1ffab1db4bde3d5f608f4a26b448982051b3092fd8f800594538335980c1713d6f200a8f390793e01a59550629cc84f9c4b039",
+        "hash_verified": true
+      },
+      "security_review": {
+        "status": "complete_no_reportable_findings",
+        "scan_ids": [
+          "ec5e0d67-44f9-4edb-a036-33170c12bd25"
+        ],
+        "coverage": "Complete bounded Codex Security Standard static review of the exact official artifact; no reportable findings. No runtime installation or game/server testing.",
+        "runtime_tested": false
+      },
+      "warnings": [
+        "The mod opens Sable’s own storage directory, filters .slvlr region filenames, and passes matching chunks to Sable load methods while resolving portal destinations. This local world-file I/O may add disk and iteration cost in large worlds; runtime performance was not tested.",
+        "This NeoForge release targets Minecraft 1.21.1, requires Iron’s Spells and uses Sable. Runtime compatibility was not tested.",
+        "The exact release passed offline static Codex Security review, but was not installed or tested in Minecraft. No independent successful-use report was confirmed."
+      ],
+      "artwork": {
+        "site_asset": "/mods/oct14-b2-irons-sable-compat.webp",
+        "source_type": "official Modrinth icon",
+        "source_url": "https://cdn.modrinth.com/data/r8EE9HjB/ad200bda4ee146c73d81039ec64590cfc6828bcc.png"
+      }
+    },
+    {
+      "id": "held-393",
+      "slug": "aeronautics-display-link-fix",
+      "listing": "https://modrinth.com/project/aeronautics-display-link-fix",
+      "ai_authorship": {
+        "quote": "- 🧠 **This mod was developed with AI assistance** — some of the code structure and implementation details were AI-generated.",
+        "source_url": "https://modrinth.com/project/aeronautics-display-link-fix"
+      },
+      "official_release": {
+        "version": "v1.3",
+        "file": "aeronautics_display_link_fix-1.3-1.21.1.jar",
+        "sha512": "1a32cf5a2f803518f8766a9d2fdcbf5edab573f47e903dfea473b01c005c30317545f76d3ec312be80cee8cfbaa7d903fa1ec11005a986832a5157d7c0877bda",
+        "hash_verified": true
+      },
+      "security_review": {
+        "status": "complete_no_reportable_findings",
+        "scan_ids": [
+          "ec5e0d67-44f9-4edb-a036-33170c12bd25"
+        ],
+        "coverage": "Complete bounded Codex Security Standard static review of the exact official artifact; no reportable findings. No runtime installation or game/server testing.",
+        "runtime_tested": false
+      },
+      "warnings": [
+        "The JAR’s NeoForge metadata lists NeoForge and Minecraft but does not declare Sable, even though the mixin references Sable’s SubLevelAssemblyHelper API. Users need the compatible Sable/Aeronautics environment; runtime injection and missing-dependency behavior were not tested.",
+        "The mod saves and restores block-entity NBT around Sable assembly transforms. Runtime behavior and compatibility were not tested.",
+        "The exact release passed offline static Codex Security review, but was not installed or tested in Minecraft. No independent successful-use report was confirmed."
+      ],
+      "artwork": {
+        "site_asset": "/mods/oct14-b2-aeronautics-display-link-fix.webp",
+        "source_type": "official Modrinth icon",
+        "source_url": "https://cdn.modrinth.com/data/Cgz0OfnH/e6376ed7c36c4f25e112dbda902997f30cd738af_96.webp"
+      }
+    },
+    {
+      "id": "held-400",
+      "slug": "create-deep-seas-lava-fix",
+      "listing": "https://modrinth.com/project/create-deep-seas-lava-fix",
+      "ai_authorship": {
+        "quote": "> **Note:** This mod was developed with the help of an AI assistant; my own role was primarily that of a tester and director. The full source is provided [here](https://github.com/Diyksfol/create-deep-seas-lava-fix) so anyone — including the Create: Deep Seas authors — may study, reuse, or integrate it.",
+        "source_url": "https://modrinth.com/project/create-deep-seas-lava-fix"
+      },
+      "official_release": {
+        "version": "1.0.1",
+        "file": "submarinefix-1.0.1.jar",
+        "sha512": "e16494197df88afd076f73ea75ad055167e15ec7c343aa3a137df34a3c4bb611f1eb956a37ef2fe3378caa6312eae37e8104335d0e9a4621657a946602c91c0a",
+        "hash_verified": true
+      },
+      "security_review": {
+        "status": "complete_no_reportable_findings",
+        "scan_ids": [
+          "ec5e0d67-44f9-4edb-a036-33170c12bd25"
+        ],
+        "coverage": "Complete bounded Codex Security Standard static review of the exact official artifact; no reportable findings. No runtime installation or game/server testing.",
+        "runtime_tested": false
+      },
+      "warnings": [
+        "The fix is inactive without Create: Deep Seas (`create_submarine`); the JAR treats it as optional and logs that the fix is inactive when absent.",
+        "No runtime damage, client overlay, compatibility, or performance test was run.",
+        "The exact release passed offline static Codex Security review, but was not installed or tested in Minecraft. No independent successful-use report was confirmed."
+      ],
+      "artwork": {
+        "site_asset": "/mods/oct14-b2-create-deep-seas-lava-fix.webp",
+        "source_type": "official Modrinth icon",
+        "source_url": "https://cdn.modrinth.com/data/NgqP2RZb/8f15666b0abc5537d90db0836eafcec704228a6c_96.webp"
+      }
+    },
+    {
+      "id": "MV10-24",
+      "slug": "british-road-sign-fonts",
+      "listing": "https://modrinth.com/resourcepack/british-road-sign-fonts",
+      "ai_authorship": {
+        "quote": "This is a British road sign fonts resource pack created by T123Minecraft (resource pack files packaged and edited by T123Minecraft), with generative AI assistance (code primarily generated by ChatGPT and DeepSeek).",
+        "source_url": "https://modrinth.com/resourcepack/british-road-sign-fonts"
+      },
+      "official_release": {
+        "version": "1.4.0",
+        "file": "British Road Sign Fonts v1.4.0.zip",
+        "sha512": "9194c13f85cdced06d83bf32f86e1ad377498fc43b284e758052be4e37e640e37c3a9fa915c413d9552fe988d1a4e4d2ce49124a569bdca23f5324c62db2dc34",
+        "hash_verified": true
+      },
+      "security_review": {
+        "status": "complete_no_reportable_findings",
+        "scan_ids": [
+          "fb14828f-1258-480d-929c-67b47e3b1e8c"
+        ],
+        "coverage": "Exact Modrinth 1.4.0 ZIP, six TTF SFNT table directories and provider JSON mappings reviewed; no executable/script members. Font hinting tables were not executed or fully sanitizer-tested.",
+        "runtime_tested": false
+      },
+      "warnings": [
+        "Resource-pack artifact was statically inspected; it was not installed or tested in Minecraft. Its six TrueType fonts are parsed by Minecraft, and font-parser behavior was not tested.",
+        "No independent successful-use report was captured during this review.",
+        "To reference these fonts, the creator says JSON text components must set the font field to brsf. The listing/release also identifies optional companion resource packs.",
+        "Codex Security Standard reviewed the exact official release archive with zero reportable findings. It was not installed or rendered in Minecraft; font-parser behavior was not tested."
+      ],
+      "artwork": {
+        "site_asset": "/mods/oct14-b2-british-road-sign-fonts.webp",
+        "source_type": "official Modrinth gallery",
+        "source_url": "https://cdn.modrinth.com/data/V86rbgab/images/0e9de928ad9c70d3e498dcae50504004ba595d6a.png"
+      }
+    }
+  ]
+}
