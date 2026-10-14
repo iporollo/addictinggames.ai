@@ -26,22 +26,22 @@ function ArcadeCard({ game, eager = false }: { game: ListedGame; eager?: boolean
 
 function ScrollingRow({ games, id, label, mobileOnly = false, eager = false }: { games: ListedGame[]; id: string; label: string; mobileOnly?: boolean; eager?: boolean }) {
   const list = useRef<HTMLUListElement>(null);
-  const [edges, setEdges] = useState({ start: true, end: false });
+  const [edges, setEdges] = useState({ start: true, end: true });
   useEffect(() => {
     const element = list.current;
     if (!element) return;
-    const update = () => setEdges({ start: element.scrollLeft <= 1, end: element.scrollLeft + element.clientWidth >= element.scrollWidth - 1 });
+    const update = () => setEdges({ start: element.scrollLeft <= 4, end: element.scrollLeft + element.clientWidth >= element.scrollWidth - 4 });
     const observer = new ResizeObserver(update);
     observer.observe(element);
     element.addEventListener('scroll', update, { passive: true });
     return () => { observer.disconnect(); element.removeEventListener('scroll', update); };
-  }, []);
+  }, [games.length]);
   function scroll(direction: number) {
     const element = list.current;
     if (element) element.scrollBy({ left: direction * element.clientWidth * .8, behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth' });
   }
-  return <div className={`new-games-row${mobileOnly ? ' mobile-games-row' : ''}`}>
-    <div className="row-controls"><span id={`${id}-label`}>{label} · {games.length} games</span><div>
+  return <div className={`new-games-row${mobileOnly ? ' mobile-games-row' : ' scroll-shelf'}`}>
+    <div className="row-controls">{mobileOnly && <span>{label} · {games.length} games</span>}<div>
       <button type="button" aria-label={`Previous ${label} games`} aria-controls={id} disabled={edges.start} onClick={() => scroll(-1)}>←</button>
       <button type="button" aria-label={`Next ${label} games`} aria-controls={id} disabled={edges.end} onClick={() => scroll(1)}>→</button>
     </div></div>
@@ -53,12 +53,12 @@ function ScrollingRow({ games, id, label, mobileOnly = false, eager = false }: {
   </div>;
 }
 
-function ArcadeSection({ id, title, note, games, featured = false, recentEmpty = false, filtering = false, scrolling = false, mobileScrolling = false }: {
-  id: string; title: string; note: string; games: ListedGame[]; featured?: boolean; recentEmpty?: boolean; filtering?: boolean; scrolling?: boolean; mobileScrolling?: boolean;
+function ArcadeSection({ id, title, note, games, featured = false, recentEmpty = false, filtering = false, scrollRows = 0, mobileScrolling = false }: {
+  id: string; title: string; note: string; games: ListedGame[]; featured?: boolean; recentEmpty?: boolean; filtering?: boolean; scrollRows?: number; mobileScrolling?: boolean;
 }) {
   return <section id={id} className="arcade-section" aria-labelledby={`${id}-heading`}>
     <div className="arcade-section-heading"><div><h2 id={`${id}-heading`}>{title}</h2><p>{note}</p></div>{featured && <Link href="/games" className="view-all">View All Games <Icon name="arrow" width={16} /></Link>}</div>
-    {games.length ? scrolling ? <div className="new-games-rows">{gameRows(games).map((row, index) => <ScrollingRow key={index} games={row} id={`new-games-row-${index}`} label={`New Games row ${index + 1}`} />)}</div> : mobileScrolling ? <ScrollingRow games={games} id={`${id}-row`} label={title} mobileOnly eager={featured} /> : <ul className="arcade-grid" aria-label={`${title} games`}>{games.map(game => <li key={game.slug}><ArcadeCard game={game} eager={featured} /></li>)}</ul> : <div className="arcade-empty"><Icon name={recentEmpty ? 'clock' : 'search'} width={26} height={26} /><div><h3>{recentEmpty ? 'Your next favorite starts here' : 'No games found'}</h3><p>{recentEmpty ? 'Play a game and it’ll be waiting here when you return.' : filtering ? 'Try another title, category, or creator.' : 'More games will find their way here.'}</p></div></div>}
+    {games.length ? scrollRows ? <div className="new-games-rows">{gameRows(games, scrollRows).filter(row => row.length).map((row, index) => <ScrollingRow key={index} games={row} id={`${id}-row-${index}`} label={`${title} row ${index + 1}`} />)}</div> : mobileScrolling ? <ScrollingRow games={games} id={`${id}-row`} label={title} mobileOnly eager={featured} /> : <ul className="arcade-grid" aria-label={`${title} games`}>{games.map(game => <li key={game.slug}><ArcadeCard game={game} eager={featured} /></li>)}</ul> : <div className="arcade-empty"><Icon name={recentEmpty ? 'clock' : 'search'} width={26} height={26} /><div><h3>{recentEmpty ? 'Your next favorite starts here' : 'No games found'}</h3><p>{recentEmpty ? 'Play a game and it’ll be waiting here when you return.' : filtering ? 'Try another title, category, or creator.' : 'More games will find their way here.'}</p></div></div>}
   </section>;
 }
 
@@ -80,9 +80,9 @@ export function Arcade() {
     <div className="arcade-layout">
       <div className="arcade-main">
         <ArcadeSection id="featured" title="Featured" note="Five handpicked games to play next." games={filter(featuredPicks)} featured filtering={filtering} mobileScrolling />
-        <ArcadeSection key={query} id="new-games" title="New Games" note="Explore new games. Swipe, use the arrows, or tab through every card." games={filter(newGames)} filtering={filtering} scrolling />
-        <ArcadeSection id="multiplayer" title="Multiplayer" note="Play with friends. Choose online multiplayer or a local two-player match." games={filter(browseGames(allListedGames, 'Multiplayer'))} filtering={filtering} mobileScrolling />
-        <ArcadeSection id="recently-played" title="Recently Played" note="Pick up where you left off. Saved on this browser." games={filter(recent)} recentEmpty={!recent.length} filtering={filtering} mobileScrolling />
+        <ArcadeSection key={query} id="new-games" title="New Games" note="Explore new games. Swipe, use the arrows, or tab through every card." games={filter(newGames)} filtering={filtering} scrollRows={3} />
+        <ArcadeSection id="multiplayer" title="Multiplayer" note="Play with friends. Choose online multiplayer or a local two-player match." games={filter(browseGames(allListedGames, 'Multiplayer'))} filtering={filtering} scrollRows={2} />
+        <ArcadeSection id="recently-played" title="Recently Played" note="Pick up where you left off. Saved on this browser." games={filter(recent)} recentEmpty={!recent.length} filtering={filtering} scrollRows={1} />
         <section className="arcade-section browse-section" aria-labelledby="browse-heading">
           <div className="arcade-section-heading"><div><h2 id="browse-heading">Browse Games</h2><p>Find your kind of game. One game can fit several genres.</p></div></div>
           <div role="tablist" aria-label="Browse games by category" className="browse-tabs">{browseTabs.map((name, index) => <button key={name} type="button" role="tab" id={`tab-${index}`} aria-selected={tab === name} aria-controls="browse-panel" tabIndex={tab === name ? 0 : -1} onClick={() => setTab(name)} onKeyDown={event => {

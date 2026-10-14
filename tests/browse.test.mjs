@@ -12,6 +12,13 @@ test('three rows preserve every entry in order, including uneven and empty lists
   }
 });
 
+test('two scrolling rows preserve every multiplayer entry in order', () => {
+  const games = Array.from({ length: 17 }, (_, id) => ({ slug: `multiplayer-${id}` }));
+  const rows = gameRows(games, 2);
+  assert.equal(rows.length, 2);
+  assert.deepEqual(rows.flat(), games);
+});
+
 test('a verified game can belong to multiple supported categories', () => {
   const battle = { slug: 'battle-peaks', category: 'Strategy' };
   const tower = { slug: 'kindlekeep-td', category: 'Strategy' };
