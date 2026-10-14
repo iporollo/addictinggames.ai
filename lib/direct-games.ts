@@ -14,6 +14,10 @@ export type DirectGame = {
 };
 
 const source: [string, string, string, string, string, string?][] = [
+  // October 14 two-hour Scout campaign, batch 2; direct guest play verified.
+  ['einkgames', 'EinkGames', 'Strategy', 'Play chess on an e-ink-friendly board against the computer', 'https://www.einkgames.com/', '/games/oct14-einkgames.webp'],
+  ['mafia-the-game', 'MAFIA', 'Strategy', 'Join a bot-filled Mafia round and discuss suspicions', 'https://mafiathegame.vercel.app/', '/games/oct14-mafia.webp'],
+  ['steel-walk', '鉄骨わたり STEEL WALK', 'Arcade', 'Balance left and right across a steel beam above the city', 'https://steelwalk.yutaroamano.chatgpt.site/', '/games/oct14-steel-walk.webp'],
   // October 14 two-hour Scout campaign, batch 1; direct guest play verified.
   ['sudoku-for-kids', 'Sudoku for Kids', 'Puzzle', 'Place numbers on a colorful 4×4 Sudoku board', 'https://sudokuforkids.netlify.app/', '/games/oct14-sudoku-for-kids.webp'],
   ['hcky-io', 'hcky.io', 'Sports', 'Skate, switch players, and play a browser hockey match', 'https://hcky.io/', '/games/oct14-hcky-io.webp'],
