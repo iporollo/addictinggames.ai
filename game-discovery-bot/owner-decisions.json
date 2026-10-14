@@ -297,6 +297,126 @@
       "date": "2026-10-13",
       "source": "Direct owner instruction in this task",
       "statement": "Do not add this game: Google sign-in is required and guest play is unavailable."
+    },
+    {
+      "game": "HUID BLYAT!",
+      "playable_url": "https://izo0x90.github.io/huid-blyat/",
+      "decision": "owner_confirmed_working",
+      "acceptance_basis": "owner_statement_gameplay_only",
+      "date": "2026-10-14",
+      "statement": "All of these games work, wtf is the problem here with game testing?",
+      "source": "Direct owner message in this task, referring to the 12 held primary games listed immediately above",
+      "note": "Owner confirms working gameplay. Preserve prior agent test findings separately. This does not verify AI authorship, guest access, exact playable destination or asset rights."
+    },
+    {
+      "game": "SyncPet",
+      "playable_url": "https://syncpet.8bitcanvas.com/",
+      "decision": "owner_confirmed_working",
+      "acceptance_basis": "owner_statement_gameplay_only",
+      "date": "2026-10-14",
+      "statement": "All of these games work, wtf is the problem here with game testing?",
+      "source": "Direct owner message in this task, referring to the 12 held primary games listed immediately above",
+      "note": "Owner confirms working gameplay. Preserve prior agent test findings separately. This does not verify AI authorship, guest access, exact playable destination or asset rights."
+    },
+    {
+      "game": "Sky Runner",
+      "playable_url": "https://graceful-dango-f2e410.netlify.app/",
+      "decision": "owner_confirmed_working",
+      "acceptance_basis": "owner_statement_gameplay_only",
+      "date": "2026-10-14",
+      "statement": "All of these games work, wtf is the problem here with game testing?",
+      "source": "Direct owner message in this task, referring to the 12 held primary games listed immediately above",
+      "note": "Owner confirms working gameplay. Preserve prior agent test findings separately. This does not verify AI authorship, guest access, exact playable destination or asset rights."
+    },
+    {
+      "game": "The Little Prince: Across the Stars",
+      "playable_url": "https://littleprince.dev/",
+      "decision": "owner_confirmed_working",
+      "acceptance_basis": "owner_statement_gameplay_only",
+      "date": "2026-10-14",
+      "statement": "All of these games work, wtf is the problem here with game testing?",
+      "source": "Direct owner message in this task, referring to the 12 held primary games listed immediately above",
+      "note": "Owner confirms working gameplay. Preserve prior agent test findings separately. This does not verify AI authorship, guest access, exact playable destination or asset rights."
+    },
+    {
+      "game": "ODYSSEY: Voyage of the Aegean",
+      "playable_url": "https://odyssey-navy-seven.vercel.app/",
+      "decision": "owner_confirmed_working",
+      "acceptance_basis": "owner_statement_gameplay_only",
+      "date": "2026-10-14",
+      "statement": "All of these games work, wtf is the problem here with game testing?",
+      "source": "Direct owner message in this task, referring to the 12 held primary games listed immediately above",
+      "note": "Owner confirms working gameplay. Preserve prior agent test findings separately. This does not verify AI authorship, guest access, exact playable destination or asset rights."
+    },
+    {
+      "game": "ECLIPSE BLADE",
+      "playable_url": "https://alma.genxmims.org/b/eclipse-blade-saint-knight-anime-sim-2sxh5pia?k=mvgz55ox.5E0QRU7IJQSOwJkp5bZAjc2gegRL7MWH",
+      "decision": "owner_confirmed_working",
+      "acceptance_basis": "owner_statement_gameplay_only",
+      "date": "2026-10-14",
+      "statement": "All of these games work, wtf is the problem here with game testing?",
+      "source": "Direct owner message in this task, referring to the 12 held primary games listed immediately above",
+      "note": "Owner confirms working gameplay. Preserve prior agent test findings separately. This does not verify AI authorship, guest access, exact playable destination or asset rights."
+    },
+    {
+      "game": "LANTERNBOUND",
+      "playable_url": "https://csaf.itch.io/lanternbound",
+      "decision": "owner_confirmed_working",
+      "acceptance_basis": "owner_statement_gameplay_only",
+      "date": "2026-10-14",
+      "statement": "All of these games work, wtf is the problem here with game testing?",
+      "source": "Direct owner message in this task, referring to the 12 held primary games listed immediately above",
+      "note": "Owner confirms working gameplay. Preserve prior agent test findings separately. This does not verify AI authorship, guest access, exact playable destination or asset rights."
+    },
+    {
+      "game": "The Trial of Fear",
+      "playable_url": "https://the-trial-of-fear-k65kcw.rive.to/?fit=layout",
+      "decision": "owner_confirmed_working",
+      "acceptance_basis": "owner_statement_gameplay_only",
+      "date": "2026-10-14",
+      "statement": "All of these games work, wtf is the problem here with game testing?",
+      "source": "Direct owner message in this task, referring to the 12 held primary games listed immediately above",
+      "note": "Owner confirms working gameplay. Preserve prior agent test findings separately. Direct play URL was recovered from the creator's Contra article; AI authorship and rights are reviewed separately."
+    },
+    {
+      "game": "The Last Bellkeeper",
+      "playable_url": "https://tylerdurdeth.github.io/the-last-bellkeeper/",
+      "decision": "owner_confirmed_working",
+      "acceptance_basis": "owner_statement_gameplay_only",
+      "date": "2026-10-14",
+      "statement": "All of these games work, wtf is the problem here with game testing?",
+      "source": "Direct owner message in this task, referring to the 12 held primary games listed immediately above",
+      "note": "Owner confirms working gameplay. Preserve prior agent test findings separately. This does not verify AI authorship, guest access, exact playable destination or asset rights."
+    },
+    {
+      "game": "GrokBlock",
+      "playable_url": "https://grokblock.onrender.com/",
+      "decision": "owner_confirmed_working",
+      "acceptance_basis": "owner_statement_gameplay_only",
+      "date": "2026-10-14",
+      "statement": "All of these games work, wtf is the problem here with game testing?",
+      "source": "Direct owner message in this task, referring to the 12 held primary games listed immediately above",
+      "note": "Owner confirms working gameplay. Preserve prior agent test findings separately. This does not verify AI authorship, guest access, exact playable destination or asset rights."
+    },
+    {
+      "game": "Chip Thief",
+      "playable_url": "https://wefav.com/chip-thief/",
+      "decision": "owner_confirmed_working",
+      "acceptance_basis": "owner_statement_gameplay_only",
+      "date": "2026-10-14",
+      "statement": "All of these games work, wtf is the problem here with game testing?",
+      "source": "Direct owner message in this task, referring to the 12 held primary games listed immediately above",
+      "note": "Owner confirms working gameplay. Preserve prior agent test findings separately. This does not verify AI authorship, guest access, exact playable destination or asset rights."
+    },
+    {
+      "game": "Myanmar Run",
+      "playable_url": "https://myanmar-run.vibeblueprints.dev/",
+      "decision": "owner_confirmed_working",
+      "acceptance_basis": "owner_statement_gameplay_only",
+      "date": "2026-10-14",
+      "statement": "All of these games work, wtf is the problem here with game testing?",
+      "source": "Direct owner message in this task, referring to the 12 held primary games listed immediately above",
+      "note": "Owner confirms working gameplay. Preserve prior agent test findings separately. This does not verify AI authorship, guest access, exact playable destination or asset rights."
     }
   ],
   "preferences": {
