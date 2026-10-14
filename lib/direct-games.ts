@@ -14,6 +14,23 @@ export type DirectGame = {
 };
 
 const source: [string, string, string, string, string, string?][] = [
+  // October 14 held-queue recheck batch 1: creator AI evidence and guest input verified.
+  ["ghost-shift", "Ghost Shift", "Adventure", "Follow a museum ghost story; AI content and mild violence", "https://focaccai.itch.io/ghost-shift", "/games/oct14-r1-ghost-shift.webp"],
+  ["ghostnn", "GhostNN", "Puzzle", "Move between network nodes; mobile controls are untested", "https://failedstalker.itch.io/ghostnn", "/games/oct14-r1-ghostnn.webp"],
+  ["yarn-folk", "Yarn Folk", "Adventure", "Explore a knitted farm; a modern GPU and longer first load may be needed", "https://todd-dillerson.itch.io/yarn-folk", "/games/oct14-r1-yarn-folk.webp"],
+  ["glitch-ben0831", "Glitch", "Adventure", "Explore a strange office; the creator notes an in-game computer setup hint", "https://ben0831.itch.io/glitch", "/games/oct14-r1-glitch.webp"],
+  ["combolade", "COmboLAde", "Action", "Practice fighter attacks in an HTML5 demo; Chromium browser recommended", "https://jonathanneels.itch.io/combolade", "/games/oct14-r1-combolade.webp"],
+  ["wizard-chess-3d", "Wizard Chess 3D", "Strategy", "Play chess against an AI with optional spells; move prompts may briefly pause", "https://wizardchess3d.vercel.app/", "/games/oct14-r1-wizard-chess-3d.webp"],
+  ["lantern-road", "Lantern Road: Deliver the Pumpkin", "Puzzle", "Carry a pumpkin lantern through a short action-puzzle adventure", "https://diandianxuehua.itch.io/lantern-road-deliver-the-pumpkin", "/games/oct14-r1-lantern-road.webp"],
+  ["last-dance-in-helike", "Last Dance in Helike", "Action", "Punch through a short beat-em-up prototype; the build can load slowly", "https://dariuou.itch.io/last-dance-in-helike", "/games/oct14-r1-last-dance-in-helike.webp"],
+  ["jewel-bloom", "Jewel Bloom", "Casual", "Tap crystals to collect rewards in a gem-mining game", "https://nexustide400.itch.io/jewel-bloom", "/games/oct14-r1-jewel-bloom.webp"],
+  ["triangle-keep", "Triangle Keep", "Tower Defense", "Build defenses and protect a king from advancing orcs", "https://jonson-lee.itch.io/triangle-keep", "/games/oct14-r1-triangle-keep.webp"],
+  ["beneath-the-roots", "Beneath the Roots", "Tower Defense", "Dig ant-colony tunnels and defend the queen in an unfinished prototype", "https://matomaster.itch.io/beneath-the-roots-prototype", "/games/oct14-r1-beneath-the-roots.webp"],
+  ["dive-nanocorp", "D.I.V.E.", "Shooter", "Pilot a nano-diver against pathogens in an unfinished bloodstream shooter", "https://lemartinus.itch.io/dive", "/games/oct14-r1-dive.webp"],
+  ["parachute-panic", "Parachute Panic", "Arcade", "Steer a falling parachutist and chase a higher score", "https://duskled.itch.io/parachute-panic", "/games/oct14-r1-parachute-panic.webp"],
+  ["orange-rudy", "Orange Rudy", "Arcade", "Help Grandma Rudy harvest rutabagas on a spinning pumpkin", "https://danielvital3.itch.io/orange-rudy", "/games/oct14-r1-orange-rudy.webp"],
+  ["drug-warz-ai", "Drug Warz AI", "Strategy", "Trade across cities in a mature-themed game about drugs and violence", "https://drugwarz.pages.dev/game/", "/games/oct14-r1-drug-warz-ai.webp"],
+  ["blueline-arcade-hockey", "Blueline: arcade hockey", "Sports", "Play a 5-on-5 hockey match against the CPU; WebGPU performance varies", "https://playblueline.pages.dev/", "/games/oct14-r1-blueline.webp"],
   // October 14 Scout campaign batch 4.
   ["stackkeep", "StackKeep", "Strategy", "Place walls to hold a castle against raids", "https://johnnysuzuki1234.itch.io/stackkeep", "/games/oct14-b4-stackkeep.webp"],
   // October 14 Scout campaign batch 3: guest input/state response verified.
