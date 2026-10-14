@@ -14,6 +14,9 @@ export type DirectGame = {
 };
 
 const source: [string, string, string, string, string, string?][] = [
+  // October 14 two-hour Scout campaign, batch 6; direct guest play verified.
+  ['two-castles', 'Two Castles', 'Strategy', 'Build a barracks and send units across a castle battle lane', 'https://emberbit.itch.io/two-castles', '/games/oct14-two-castles.webp'],
+  ['geeky-clicker', 'Geeky Clicker', 'Casual', 'Click for Ideas and buy upgrades to grow each tap', 'https://artivionia.itch.io/geeky-clicker', '/games/oct14-geeky-clicker.webp'],
   // October 14 two-hour Scout campaign, batch 5; direct guest play verified.
   ['vs-crow-poop', 'VS Crow Poop', 'Arcade', 'Dodge falling crow droppings on a timed walk', 'https://vs-karasu-no-fun.roa-ai.chatgpt.site/', '/games/oct14-vs-crow-poop.webp'],
   ['konk', 'KONK!', 'Sports', 'Flick bottle caps toward the ball in a tabletop football game', 'https://konk.world/', '/games/oct14-konk.webp'],
