@@ -16,6 +16,10 @@ This repository's existing Vercel Git integration deploys `main` to the original
 
 Newsletter and game submissions use the original `/api/subscribe` and `/api/submit-game` endpoints and the existing Airtable configuration: `AIRTABLE_API_KEY` and `AIRTABLE_BASE`, stored only in Vercel. Newsletter addresses go to the `Email` field in the existing `Waitlist` table. There is no newsletter delivery or email notification service in this repository; any external Airtable automations require separate verification. Missing configuration or provider failure produces an error, never simulated success.
 
+## Traffic analytics
+
+PostHog is initialized in `instrumentation-client.ts` when both `NEXT_PUBLIC_POSTHOG_PROJECT_TOKEN` and `NEXT_PUBLIC_POSTHOG_HOST` are configured. Add those values to the production Vercel project and redeploy; use the project's ingestion host, such as `https://us.i.posthog.com` or `https://eu.i.posthog.com`. The project token is public browser configuration, not a secret. The integration tracks page views and a `newsletter_signup` event only after Airtable accepts a subscription. It does not send email addresses to PostHog, capture form inputs or clicks, or record sessions. Keep the token unset in preview environments if preview traffic should stay out of production analytics. Check PostHog Live Events on the deployed site before relying on the dashboard.
+
 Game name, description, game URL, and contact email are required. GitHub repository and Twitter/X handle are optional. Game submissions go to the existing review table `tbl5AUoCl96h5WEMk`. To preserve that schema, the required contact email and optional GitHub URL are appended to `Description`; absent Twitter/X handles omit `Author`. Contact notes are for review only and must be removed before publishing a description. Review records are not automatically published: the public catalog is maintained separately in `lib/catalog.ts`. Submitting a game does not subscribe its contact email to the newsletter.
 
 Automated form tests stub the provider and do not write to Airtable. Do not send test subscriptions or submissions to the production database without explicit approval.

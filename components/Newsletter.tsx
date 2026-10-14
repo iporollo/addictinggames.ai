@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, type FormEvent } from 'react';
+import posthog from 'posthog-js';
 import { Icon } from './Icon';
 
 export function Newsletter({ variant = 'games' }: { variant?: 'games' | 'mods' }) {
@@ -16,6 +17,9 @@ export function Newsletter({ variant = 'games' }: { variant?: 'games' | 'mods' }
       const response = await fetch('/api/subscribe', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ email: email.trim() }) });
       const result = await response.json();
       if (!response.ok || result.success !== true) throw new Error('Subscription unavailable');
+      if (process.env.NEXT_PUBLIC_POSTHOG_PROJECT_TOKEN && process.env.NEXT_PUBLIC_POSTHOG_HOST) {
+        try { posthog.capture('newsletter_signup'); } catch { /* Tracking cannot change the subscription result. */ }
+      }
       setEmail('');
       setState('success');
     } catch {
