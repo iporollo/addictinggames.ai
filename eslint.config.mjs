@@ -5,5 +5,5 @@ import nextTs from 'eslint-config-next/typescript';
 export default defineConfig([
   ...nextVitals,
   ...nextTs,
-  globalIgnores(['.next/**', '.vercel/**', 'next-env.d.ts', 'verification/**']),
+  globalIgnores(['.next/**', '.vercel/**', 'next-env.d.ts', 'verification/**', 'game-discovery-bot/runs/**']),
 ]);

@@ -14,6 +14,20 @@ export type DirectGame = {
 };
 
 const source: [string, string, string, string, string, string?][] = [
+  // October 14 owner-confirmed gameplay recheck. Earlier incomplete agent attempts
+  // remain in the run receipt; creator-specific AI evidence is recorded separately.
+  ['huid-blyat', 'HUID BLYAT!', 'Arcade', 'Generate HUID collisions and avoid traps in a retro terminal game', 'https://izo0x90.github.io/huid-blyat/', '/games/huid-blyat.webp'],
+  ['syncpet', 'SyncPet', 'Simulators', 'Raise a character companion with your own ChatGPT or Gemini API key', 'https://syncpet.8bitcanvas.com/', '/games/syncpet.webp'],
+  ['sky-runner-2026', 'Sky Runner', 'Platformer', 'Jump between platforms, collect coins, and dodge enemies', 'https://graceful-dango-f2e410.netlify.app/', '/games/sky-runner-2026.webp'],
+  ['little-prince-across-stars', 'The Little Prince: Across the Stars', 'Adventure', 'Explore a storybook journey across small worlds', 'https://littleprince.dev/', '/games/little-prince-across-stars.webp'],
+  ['odyssey-aegean', 'ODYSSEY: Voyage of the Aegean', 'Adventure', 'Sail a 3D voyage across the Aegean', 'https://odyssey-navy-seven.vercel.app/', '/games/odyssey-aegean.webp'],
+  ['eclipse-blade', 'ECLIPSE BLADE', 'Action', 'Fight through an anime-inspired sword adventure', 'https://alma.genxmims.org/b/eclipse-blade-saint-knight-anime-sim-2sxh5pia?k=mvgz55ox.5E0QRU7IJQSOwJkp5bZAjc2gegRL7MWH', '/games/eclipse-blade.webp'],
+  ['lanternbound', 'LANTERNBOUND', 'Strategy', 'Travel a moonlit fantasy route with a lantern and party', 'https://csaf.itch.io/lanternbound', '/games/lanternbound.webp'],
+  ['trial-of-fear', 'The Trial of Fear', 'Survival', 'Explore a short first-person horror experience', 'https://the-trial-of-fear-k65kcw.rive.to/?fit=layout', '/games/trial-of-fear.webp'],
+  ['last-bellkeeper', 'The Last Bellkeeper', 'Adventure', 'Use wind and a bell to open the way through a 3D puzzle adventure', 'https://tylerdurdeth.github.io/the-last-bellkeeper/', '/games/last-bellkeeper.webp'],
+  ['grokblock', 'GrokBlock', 'Survival', 'Help villagers by day and defend against zombies each night', 'https://grokblock.onrender.com/', '/games/grokblock.webp'],
+  ['chip-thief', 'Chip Thief', 'Arcade', 'Glide as a seagull, steal chips, and return them to your lamp post', 'https://wefav.com/chip-thief/', '/games/chip-thief.webp'],
+  ['myanmar-run', 'Myanmar Run', 'Arcade', 'Run past landmarks inspired by Bagan, U Bein, and Yangon', 'https://myanmar-run.vibeblueprints.dev/', '/games/myanmar-run.webp'],
   // October 14 Scout campaign; guest gameplay and creator-specific AI evidence verified.
   ['rage-room-2', 'Rage Room 2', 'Arcade', 'Smash bottles and office props to earn cash and chain reactions', 'https://astrocade.com/games/rage-room-2/01M4EPHVTE5F0RGKYTQGMKBZC3', '/games/rage-room-2.webp'],
   ['pixel-pilot', 'PIXEL PILOT', 'Simulators', 'Learn drone flight controls through altitude and yaw lessons', 'https://dronegame-pied.vercel.app/', '/games/pixel-pilot.webp'],

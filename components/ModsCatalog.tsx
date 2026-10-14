@@ -14,6 +14,7 @@ export function ModsCatalog({ all = false }: { all?: boolean }) {
   const items = filterMods(all ? allMods : newMods, query, game);
   return <>
     {all && <Link href="/mods" className="back-link">← Back to New Mods</Link>}
+    <p className="form-note">These are research listings of AI-assisted mods. Check each mod’s file security review before installing; a listing does not certify its download.</p>
     <div className="mods-tools">
       <label className="search-field"><Icon name="search" width={18} /><span className="sr-only">Search mods</span><input type="search" placeholder="Search mods or games" value={query} onChange={event => setQuery(event.target.value)} /></label>
       <label className="mods-game-filter">Game<SelectControl value={game} onChange={event => setGame(event.target.value)}><option value="">All games</option>{modGames.map(name => <option key={name} value={name}>{name}</option>)}</SelectControl></label>
