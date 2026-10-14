@@ -417,6 +417,26 @@
       "statement": "All of these games work, wtf is the problem here with game testing?",
       "source": "Direct owner message in this task, referring to the 12 held primary games listed immediately above",
       "note": "Owner confirms working gameplay. Preserve prior agent test findings separately. This does not verify AI authorship, guest access, exact playable destination or asset rights."
+    },
+    {
+      "game": "photonwrake",
+      "playable_url": "https://photonwrake.vercel.app",
+      "decision": "owner_confirmed_hold",
+      "acceptance_basis": "owner_observed_nonworking",
+      "date": "2026-10-14",
+      "statement": "This game does not work and does not have anything inside of it.",
+      "source": "Direct owner message in this task",
+      "note": "Keep held pending a changed, working exact URL; preserve earlier Scout 404 observation separately."
+    },
+    {
+      "game": "This Is a Game",
+      "playable_url": "https://he-is-risen.itch.io/this-is-a-game",
+      "decision": "owner_confirmed_hold",
+      "acceptance_basis": "owner_observed_nonworking",
+      "date": "2026-10-14",
+      "statement": "This game does not work and does not have anything inside of it.",
+      "source": "Direct owner message in this task",
+      "note": "Keep held pending a changed, working exact URL; AI authorship remains a separate gate."
     }
   ],
   "preferences": {

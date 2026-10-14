@@ -14,6 +14,48 @@ export type DirectGame = {
 };
 
 const source: [string, string, string, string, string, string?][] = [
+  ['marzanna', 'Marzanna', 'Platformer', 'Guide Marzanna across a snowy platform; jam art is being reworked', 'https://atlas-house.itch.io/marzanna', '/games/oct14-marzanna.webp'],
+  ['meowcha', 'Meowcha', 'Platformer', 'Guide a cat-piloted robot; desktop keyboard required', 'https://funkyape.itch.io/meowcha', '/games/oct14-meowcha.webp'],
+  ['volt-nomad', 'VOLT NOMAD', 'Action', 'Charge attacks against a giant armored boss', 'https://tsgamestudio.itch.io/volt-nomad', '/games/oct14-volt-nomad.webp'],
+  ['embercrow', 'EmberCrow', 'Platformer', 'Explore a moonlit Halloween-themed level', 'https://vertex-vision.itch.io/embercrow', '/games/oct14-embercrow.webp'],
+  ['mathjump', 'MathJump', 'Educational', 'Solve arithmetic questions to keep a runner moving', 'https://mathjump.cc/', '/games/oct14-mathjump.webp'],
+  // October 14 Scout campaign: creator art retained after visual crop review.
+  ['dossier-incomplet', 'Dossier Incomplet', 'Casual', 'Navigate a satirical French bureaucracy challenge', 'https://bureaucratiesim.itch.io/dossier-incomplet', '/games/oct14-dossier-incomplet.webp'],
+  ['antipole', 'Antipole', 'Arcade', 'Flip polarity in a one-button arcade run', 'https://csaf.itch.io/antipole', '/games/oct14-antipole.webp'],
+  ['catapult-trip', 'Catapult Trip', 'Platformer', 'Launch through obstacle courses; flashing-light warning', 'https://rosebud.ai/play/catapult-trip', '/games/oct14-catapult-trip.webp'],
+  ['banneret', 'Banneret', 'Strategy', 'Plant a banner to guide a knight across a tactical field', 'https://csaf.itch.io/banneret', '/games/oct14-banneret.webp'],
+  ['wicklight', 'Wicklight', 'Arcade', 'Move a flame through the dark; mouse controls required', 'https://csaf.itch.io/wicklight', '/games/oct14-wicklight.webp'],
+  ['northern-standard-systems', 'Northern Standard Systems', 'Adventure', 'Enter an eerie office and investigate its routines', 'https://atlas-house.itch.io/northern-standard-systems', '/games/oct14-northern-standard-systems.webp'],
+  ['the-magic-pepper', 'The Magic Pepper', 'Strategy', 'Choose cards and events on a spicy quest route', 'https://ice-creeeeam.itch.io/the-magic-pepper', '/games/oct14-the-magic-pepper.webp'],
+  ['tadka', 'Tadka', 'Casual', 'Control the pan heat and cook through a spice challenge', 'https://mdawg74.itch.io/tadka', '/games/oct14-tadka.webp'],
+  ['crawl-critter-crawl', 'Crawl Critter Crawl', 'Arcade', 'Guide a critter through a survival arena', 'https://add-soul.itch.io/crawl-critter-crawl', '/games/oct14-crawl-critter-crawl.webp'],
+  ['crimson-moon-tower-backrooms-prologue', 'Crimson Moon Tower: Backrooms Prologue', 'Survival', 'Explore a surreal first-person backrooms prologue', 'https://brem444.itch.io/crimson-moon-tower-backrooms-prologue', '/games/oct14-crimson-moon-tower-backrooms-prologue.webp'],
+  ['echo-harvest', 'Echo Harvest', 'Casual', 'Move a firefly through a glowing garden', 'https://echoharveststudio.itch.io/echo-harvest', '/games/oct14-echo-harvest.webp'],
+  ['zero-charge', 'Zero Charge', 'Racing', 'Ride through a neon track in this work-in-progress game', 'https://focaccai.itch.io/zero-charge', '/games/oct14-zero-charge.webp'],
+  ['abyssio', 'Abyssio', 'Survival', 'Dive into an underwater survival match', 'https://foumilstudio.itch.io/abyssio', '/games/oct14-abyssio.webp'],
+  ['plugs', 'Plugs', 'Puzzle', 'Move objects around a room to solve a lighting puzzle', 'https://granthaffner.itch.io/plugs', '/games/oct14-plugs.webp'],
+  ['abyss-harvest', 'Abyss Harvest', 'Adventure', 'Swim toward salvage objectives in an in-development demo', 'https://nitch-game.itch.io/abyss-harvest', '/games/oct14-abyss-harvest.webp'],
+  ['pumpkin-by-midnight', 'Pumpkin by Midnight', 'Platformer', 'Jump a pumpkin carriage across midnight gaps', 'https://pixel-pineapple.itch.io/pumpkin-by-midnight', '/games/oct14-pumpkin-by-midnight.webp'],
+  ['regrowth', 'Regrowth', 'Puzzle', 'Run a plant growth simulation to solve a grid puzzle', 'https://quantumcodemonk.itch.io/regrowth', '/games/oct14-regrowth.webp'],
+  ['ufo-alien-game', 'UFO Alien Game', 'Shooter', 'Defend against waves of UFOs with a rotating turret', 'https://technuclue.itch.io/ufo-alien-game', '/games/oct14-ufo-alien-game.webp'],
+  ['trend-dating-sim', 'Trend Dating Sim — Guess Her Type', 'Casual', 'Choose profile reactions and chat replies in a dating game', 'https://jam-ship.itch.io/trend-dating-sim', '/games/oct14-trend-dating-sim.webp'],
+  ['cosmo-sprint', 'Cosmo Sprint', 'Platformer', 'Guide a robot from a crash site toward floating platforms', 'https://ev1lgeneral.itch.io/cosmo-sprint', '/games/oct14-cosmo-sprint.webp'],
+  ['nebel-innsmouth', 'Nebel über Innsmouth', 'Action', 'Explore the first level of a foggy harbor adventure', 'https://moon-wood-zinc-bird.grok.me/', '/games/oct14-nebel-innsmouth.webp'],
+  ['aterschack', 'Återschack', 'Strategy', 'Play chess where captured pieces return to the board', 'https://rechess-by-bosse.grok.me/', '/games/oct14-atershack.webp'],
+  ['aether-bastion', 'Aether Bastion', 'Strategy', 'Place elemental towers to defend a winding road', 'https://my-tower-defense.grok.me/', '/games/oct14-aether-bastion.webp'],
+  ['gilded-draw', 'Gilded Draw', 'Casual', 'Play video poker with virtual credits only', 'https://simple-poker.grok.me/', '/games/oct14-gilded-draw.webp'],
+  ['inkriot', 'INKRIOT', 'Casual', 'Draw prompts on a shared canvas with friends', 'https://inkriot-gamma.vercel.app/', '/games/oct14-inkriot.webp'],
+  ['rainbow-rail-rush', 'Rainbow Rail Rush', 'Arcade', 'Switch train lanes and gather stars in a candy valley', 'https://super-kids-games.vercel.app/', '/games/oct14-rainbow-rail-rush.webp'],
+  ['closing-time', 'Closing Time', 'Simulators', 'Walk the bar floor as a first-person bouncer', 'https://first-person-bouncer.vercel.app/', '/games/oct14-closing-time.webp'],
+  ['finger-soccer', 'Finger Soccer', 'Sports', 'Flick a player disc to move the ball across a small pitch', 'https://fingersoccer.app/', '/games/oct14-finger-soccer.webp'],
+  ['chessmata', 'Chessmata', 'Strategy', 'Play a casual chess match against an AI opponent', 'https://chessmata.metavert.io/', '/games/oct14-chessmata.webp'],
+  ['whack-a-mole-grok', 'Whack-A-Mole', 'Arcade', 'Tap the moles and build your score', 'https://whacka-mole.grok.me/', '/games/oct14-whack-a-mole.webp'],
+  // October 14 backlog reassessment; guest input and state response verified.
+  ['crittertown', 'CritterTown', 'Adventure', 'Explore a shared town as a wandering critter', 'https://wiktor.vip/', '/games/oct14-crittertown.webp'],
+  ['comet-challenge', 'Comet', 'Arcade', 'Steer a comet trail away from black holes', 'https://comet-challenge.grok.me/', '/games/oct14-comet.webp'],
+  ['town-light', 'TOWN LIGHT', 'Adventure', 'Explore a neighborhood and talk with its residents', 'https://town-light.buxtonbycha.workers.dev/', '/games/oct14-town-light.webp'],
+  ['tower-defense-pumpt', 'Tower Defense', 'Strategy', 'Place towers and defend the path against waves', 'https://tower-defense.pumpt.net/', '/games/oct14-tower-defense.webp'],
+  ['no-vacancy', 'NO VACANCY', 'Puzzle', 'Search a strange room and follow its clues', 'https://novacancyhere.vercel.app/', '/games/oct14-no-vacancy.webp'],
   // October 14 two-hour Scout campaign, batch 6; direct guest play verified.
   ['two-castles', 'Two Castles', 'Strategy', 'Build a barracks and send units across a castle battle lane', 'https://emberbit.itch.io/two-castles', '/games/oct14-two-castles.webp'],
   ['geeky-clicker', 'Geeky Clicker', 'Casual', 'Click for Ideas and buy upgrades to grow each tap', 'https://artivionia.itch.io/geeky-clicker', '/games/oct14-geeky-clicker.webp'],
@@ -293,9 +335,18 @@ const source: [string, string, string, string, string, string?][] = [
   ['diablo', 'Diablo', 'Action', 'Explore a browser dungeon port', 'https://johnimril.github.io/diablo_web/', '/games/custom-diablo.webp'],
 ];
 
+const reviewNotes: Record<string, string> = {
+  'marzanna': 'Creator says the jam version artwork is being reworked for consistency.',
+  'meowcha': 'Desktop keyboard required; the creator says this game is not playable on phones or tablets.',
+  'wicklight': 'Mouse controls are required; mobile and touch play were not verified.',
+  'catapult-trip': 'Warning: flashing lights, rapid color changes, and intense visual effects may affect photosensitive players.',
+  'zero-charge': 'Creator labels this game a work in progress.',
+  'abyss-harvest': 'Creator labels this an in-development browser demo and invites bug reports.',
+};
+
 export const directGames: DirectGame[] = source.map(([slug, title, category, shortDescription, externalUrl, imageUrl]) => ({
   slug, title, category, shortDescription,
-  description: `${shortDescription}. Opens on the game's own site and may need time to load.`,
+  description: `${shortDescription}. Opens on the game's own site and may need time to load.${reviewNotes[slug] ? ` ${reviewNotes[slug]}` : ''}`,
   conceptualArtwork: imageUrl?.startsWith('/games/concept-') || undefined,
   imageUrl: imageUrl ?? `/games/direct-${slug}.svg`, externalUrl,
 }));

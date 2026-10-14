@@ -1,0 +1,1298 @@
+{
+  "run_id": "2026-10-14T085207Z",
+  "batch": 1,
+  "status": "prepared_for_release",
+  "campaign_deadline_utc": "2026-10-14T22:20:50Z",
+  "catalog_baseline": "origin/main 6475983a91c5dc0928c7ef8a5410a319501eb46b",
+  "counts": {
+    "games": 40,
+    "mods": 10,
+    "combined": 50
+  },
+  "acceptance": "Game AI authorship is game-specific and paired with guest in-game input and observed state response. Mod research listings distinguish source review, exact released artifact review, and untested runtime; warnings appear on mod details.",
+  "games": [
+    {
+      "slug": "marzanna",
+      "title": "Marzanna",
+      "destination": "https://atlas-house.itch.io/marzanna",
+      "ai_authorship": {
+        "quote": "Built with Claude (Anthropic). Backgrounds & memory paintings — Midjourney and ChatGPT.",
+        "source_url": "https://atlas-house.itch.io/marzanna",
+        "source_record": "game-wave-b-fast.json",
+        "verification": "verified"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input_and_response": [
+          {
+            "input": "Started the level, chose the tutorial prompt, then held ArrowRight for 700 ms in the active level.",
+            "response": "Marzanna visibly moved about 100 px to the right across the snowy platform; the level remained active with the river/terrain scene."
+          }
+        ],
+        "source_report": "game-wave-b-fast.json"
+      },
+      "artwork": {
+        "site_asset": "/games/oct14-marzanna.webp",
+        "source_type": "creator official cover",
+        "source_url": "https://img.itch.zone/aW1nLzMwNjUxMjU4LnBuZw==/original/AfQT6D.png"
+      },
+      "warnings": [
+        "Creator’s official itch.io comment notes the jam version’s art was rushed and is being fully reworked for consistency; this is an artwork-status caveat, not a gameplay error."
+      ]
+    },
+    {
+      "slug": "meowcha",
+      "title": "Meowcha",
+      "destination": "https://funkyape.itch.io/meowcha",
+      "ai_authorship": {
+        "quote": "Made by funkyape with Claude Code (Anthropic). Claude Code wrote the code and the texts, built the levels and drew the pixel art in code; funkyape directed, playtested and decided what stays. Generated with AI: the reference picture for the look (ChatGPT), a few background props, two concept pictures and MAX SUCKTION’s body, and the factory and tower music.",
+        "source_url": "https://funkyape.itch.io/meowcha",
+        "source_record": "game-wave-b-fast.json",
+        "verification": "verified"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input_and_response": [
+          {
+            "input": "Pressed ArrowRight for 500 ms to start, then held ArrowRight for 600 ms in the active level.",
+            "response": "The robot moved visibly about 90 px to the right across the lab floor; level HUD and player controls were active."
+          }
+        ],
+        "source_report": "game-wave-b-fast.json"
+      },
+      "artwork": {
+        "site_asset": "/games/oct14-meowcha.webp",
+        "source_type": "creator official cover",
+        "source_url": "https://img.itch.zone/aW1nLzMwNjUyNTQ3LnBuZw==/original/L36i8z.png"
+      },
+      "warnings": [
+        "Desktop-only browser game; keyboard required. The creator states it is not playable on phones or tablets."
+      ]
+    },
+    {
+      "slug": "volt-nomad",
+      "title": "VOLT NOMAD",
+      "destination": "https://tsgamestudio.itch.io/volt-nomad",
+      "ai_authorship": {
+        "quote": "Created for AI Browser Game Jam 4 through an AI-heavy, human-directed workflow. Game direction, playtesting, selection, and final decisions: Takahiro Saeki. Code, systems design, balancing, UX copy, and production support: OpenAI Codex in collaboration with Takahiro Saeki. Pixel art: PixelLab. Cinematic art: OpenAI image generation. Original music: Suno / neonlament. Engine: Godot 4.6. AI output was not accepted blindly; creator describes repeated human playtesting, asset review/rejection, balance benchmarks, accessibility passes, and implementation changes.",
+        "source_url": "https://tsgamestudio.itch.io/volt-nomad",
+        "source_record": "game-wave-c-fast.json",
+        "verification": "source_verified"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input_and_response": [
+          {
+            "input": "See response for performed input",
+            "response": "Entered the Iron Borer hunt and used Charge Attack once. Charge increased 0→2, boss HP fell from 12,000/12,000 to 11,993/12,000, armor cracks advanced 0/12→1/12, and session timer advanced 00:10→00:16. This is an observed gameplay-state response."
+          }
+        ],
+        "source_report": "game-wave-c-fast.json"
+      },
+      "artwork": {
+        "site_asset": "/games/oct14-volt-nomad.webp",
+        "source_type": "creator official cover",
+        "source_url": "https://img.itch.zone/aW1nLzI5MjIzMjYwLnBuZw==/original/WWGMXH.png"
+      },
+      "warnings": []
+    },
+    {
+      "slug": "embercrow",
+      "title": "EmberCrow",
+      "destination": "https://vertex-vision.itch.io/embercrow",
+      "ai_authorship": {
+        "quote": "Made with: DeepSeek (code), ChatGPT (sprites), Suno AI (music).",
+        "source_url": "https://vertex-vision.itch.io/embercrow",
+        "source_record": "game-wave-c-fast.json",
+        "verification": "source_verified"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input_and_response": [
+          {
+            "input": "See response for performed input",
+            "response": "Selected Play, chose the first pumpkin level, then held Right for 650ms. Character remained in scene while environment scrolled laterally; FPS HUD showed 41.7 then 35.7 as gameplay advanced."
+          }
+        ],
+        "source_report": "game-wave-c-fast.json"
+      },
+      "artwork": {
+        "site_asset": "/games/oct14-embercrow.webp",
+        "source_type": "creator official cover",
+        "source_url": "https://img.itch.zone/aW1nLzMwODE2MDg5LnBuZw==/original/jNnk3%2B.png"
+      },
+      "warnings": []
+    },
+    {
+      "slug": "mathjump",
+      "title": "MathJump",
+      "destination": "https://mathjump.cc/",
+      "ai_authorship": {
+        "quote": "codex 是在是蹬不完了，整了一个小游戏，我体验了一下，感觉还不错。",
+        "source_url": "https://x.com/daydreamer93_/status/2084640457766903978",
+        "source_record": "game-wave-a-fast.json",
+        "verification": "X oEmbed returned creator AI claim; post play link resolved to exact destination"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input_and_response": [
+          {
+            "input": "Started Running in beginner level; entered 6 for 6÷1 and pressed Enter.",
+            "response": "Best score changed 0→76 and next equation was 6−4."
+          }
+        ],
+        "source_report": "game-wave-a-fast.json"
+      },
+      "artwork": {
+        "site_asset": "/games/oct14-mathjump.webp",
+        "source_type": "creator official cover",
+        "source_url": "https://mathjump.cc/assets/brand/mathjump-social-card.png"
+      },
+      "warnings": []
+    },
+    {
+      "slug": "dossier-incomplet",
+      "title": "Dossier Incomplet",
+      "destination": "https://bureaucratiesim.itch.io/dossier-incomplet",
+      "ai_authorship": {
+        "quote": "J’ai également codé avec Claude Code (et un peu codex) un jeu web, satirique des galères administratives.",
+        "source_url": "https://x.com/DossierIncc/status/2073497564431659060",
+        "source_record": "game-wave-b-fast.json",
+        "verification": "verified"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input_and_response": [
+          {
+            "input": "Clicked January challenge “La Résiliation,” started the call, then pressed Q for the displayed rhythm column.",
+            "response": "Game displayed “Frappe hors procédure -2 SM”; score/SM state updated from 100 to 96."
+          }
+        ],
+        "source_report": "game-wave-b-fast.json"
+      },
+      "artwork": {
+        "site_asset": "/games/oct14-dossier-incomplet.webp",
+        "source_type": "creator official cover",
+        "source_url": "https://img.itch.zone/aW1nLzI4MDY5NjYyLnBuZw==/original/udqJcN.png"
+      },
+      "warnings": []
+    },
+    {
+      "slug": "antipole",
+      "title": "Antipole",
+      "destination": "https://csaf.itch.io/antipole",
+      "ai_authorship": {
+        "quote": "Written by an AI agent, and tagged accordingly: code — yes, graphics — yes, text — yes, sounds — no.",
+        "source_url": "https://csaf.itch.io/antipole",
+        "source_record": "game-wave-b-fast.json",
+        "verification": "verified"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input_and_response": [
+          {
+            "input": "Pressed Space to start, then pressed Space once to flip polarity during the run.",
+            "response": "The run responded to polarity input and ended in a DISCHARGED state with score 1 and new best 1; the elapsed run and score changed from 0 to 1."
+          }
+        ],
+        "source_report": "game-wave-b-fast.json"
+      },
+      "artwork": {
+        "site_asset": "/games/oct14-antipole.webp",
+        "source_type": "creator official cover",
+        "source_url": "https://img.itch.zone/aW1nLzI5MjAxNDU0LnBuZw==/original/WTGzZj.png"
+      },
+      "warnings": []
+    },
+    {
+      "slug": "catapult-trip",
+      "title": "Catapult Trip",
+      "destination": "https://rosebud.ai/play/catapult-trip",
+      "ai_authorship": {
+        "quote": "Made with Rosebud AI",
+        "source_url": "https://x.com/Slick___jacket/status/2110053654044512621",
+        "source_record": "game-wave-b-fast.json",
+        "verification": "verified"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input_and_response": [
+          {
+            "input": "Pressed Space to launch the selected character, then pressed Space during play.",
+            "response": "Character launched; the on-screen best progress changed from 0% to 2%."
+          }
+        ],
+        "source_report": "game-wave-b-fast.json"
+      },
+      "artwork": {
+        "site_asset": "/games/oct14-catapult-trip.webp",
+        "source_type": "creator official cover",
+        "source_url": "https://storage.googleapis.com/rosebud_assets_storage/project_preview_images/b3567541-2113-4be8-be50-5f3836b51300-thumbnail.jpg?v=1791910901.996095"
+      },
+      "warnings": [
+        "Game displays a photosensitivity warning: flashing lights, rapid color changes, and intense visual effects may trigger seizures; stop playing if unwell."
+      ]
+    },
+    {
+      "slug": "banneret",
+      "title": "Banneret",
+      "destination": "https://csaf.itch.io/banneret",
+      "ai_authorship": {
+        "quote": "Written by an AI agent, and tagged accordingly: code — yes, graphics — yes, text — yes, sounds — no.",
+        "source_url": "https://csaf.itch.io/banneret",
+        "source_record": "game-wave-b-fast.json",
+        "verification": "verified"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input_and_response": [
+          {
+            "input": "Clicked to start field I, then clicked the central outlined tile to plant the banner.",
+            "response": "The banner appeared on the chosen tile and the knight visibly charged along the row toward it, leaving movement trails; the board updated to show the resolved move."
+          }
+        ],
+        "source_report": "game-wave-b-fast.json"
+      },
+      "artwork": {
+        "site_asset": "/games/oct14-banneret.webp",
+        "source_type": "creator official cover",
+        "source_url": "https://img.itch.zone/aW1nLzI5MzI0NTQ0LnBuZw==/original/%2F6NUS%2F.png"
+      },
+      "warnings": []
+    },
+    {
+      "slug": "wicklight",
+      "title": "Wicklight",
+      "destination": "https://csaf.itch.io/wicklight",
+      "ai_authorship": {
+        "quote": "Built with heavy AI assistance — code, text and cover art — and tagged as such.",
+        "source_url": "https://csaf.itch.io/wicklight",
+        "source_record": "game-wave-b-fast.json",
+        "verification": "verified"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input_and_response": [
+          {
+            "input": "Clicked to light the wick, then dragged the pointer from the flame center toward the right side of the playfield.",
+            "response": "The bright flame visibly moved to follow the pointer, changing the illuminated area and the shadows cast by obstacles; active score and wick meter were present."
+          }
+        ],
+        "source_report": "game-wave-b-fast.json"
+      },
+      "artwork": {
+        "site_asset": "/games/oct14-wicklight.webp",
+        "source_type": "creator official cover",
+        "source_url": "https://img.itch.zone/aW1nLzI5MTk5NjAzLnBuZw==/original/krpeIJ.png"
+      },
+      "warnings": [
+        "Mouse-only controls; mobile/touch usability not assessed."
+      ]
+    },
+    {
+      "slug": "northern-standard-systems",
+      "title": "Northern Standard Systems",
+      "destination": "https://atlas-house.itch.io/northern-standard-systems",
+      "ai_authorship": {
+        "quote": "Made with OpenAI Codex: development collaboration.",
+        "source_url": "https://atlas-house.itch.io/northern-standard-systems",
+        "source_record": "game-wave-b-fast.json",
+        "verification": "verified"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input_and_response": [
+          {
+            "input": "Clicked START, then LOOK DOWN, then CLOCK IN in the game interface.",
+            "response": "The game advanced from an elevator start screen to a clock-in authorization card and then into the opened office elevator/hallway scene with an Exit Elevator action. This confirms interactive narrative state changes; no chapter completion claimed."
+          }
+        ],
+        "source_report": "game-wave-b-fast.json"
+      },
+      "artwork": {
+        "site_asset": "/games/oct14-northern-standard-systems.webp",
+        "source_type": "creator official cover",
+        "source_url": "https://img.itch.zone/aW1nLzMwMzk1NzA2LnBuZw==/original/PTTjFQ.png"
+      },
+      "warnings": []
+    },
+    {
+      "slug": "the-magic-pepper",
+      "title": "The Magic Pepper",
+      "destination": "https://ice-creeeeam.itch.io/the-magic-pepper",
+      "ai_authorship": {
+        "quote": "Code: written with Cursor (AI pair-programming), pure HTML/CSS/JS — no game engine, no build step. Art: AI image generation for all cards, characters, backgrounds. Audio: AI text-to-audio for all music and sound effects. The entire workflow — design, balancing, coding, art, sound — was directed through AI tools.",
+        "source_url": "https://ice-creeeeam.itch.io/the-magic-pepper",
+        "source_record": "game-wave-b-fast.json",
+        "verification": "verified"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input_and_response": [
+          {
+            "input": "Started the quest, selected an available Event map node, pressed Go, then selected “Trade 1 basic attribute card for a function card.”",
+            "response": "The Spice Black-Market Trader choice closed and the event node was marked complete on the route map (“Event ✓”), with the game continuing at “Keep climbing — the BOSS awaits at the top.”"
+          }
+        ],
+        "source_report": "game-wave-b-fast.json"
+      },
+      "artwork": {
+        "site_asset": "/games/oct14-the-magic-pepper.webp",
+        "source_type": "creator official cover",
+        "source_url": "https://img.itch.zone/aW1nLzI5OTc4ODUzLmpwZw==/original/exgaa2.jpg"
+      },
+      "warnings": []
+    },
+    {
+      "slug": "tadka",
+      "title": "Tadka",
+      "destination": "https://mdawg74.itch.io/tadka",
+      "ai_authorship": {
+        "quote": "Built with AI under human direction. Google Gemini (free Nano Banana) generated every image, the karahi, the finished dish, the customers, and the spice shelf, which were then art-directed to one look, keyed to transparency, and composited by hand. The code and the game design were written with Claude.",
+        "source_url": "https://mdawg74.itch.io/tadka",
+        "source_record": "game-wave-b-fast.json",
+        "verification": "verified"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input_and_response": [
+          {
+            "input": "Pressed the in-frame START THE PAN control, then held W for 800 ms as the tutorial instructed to raise the flame.",
+            "response": "The heat gauge visibly rose into the highlighted band, and the tutorial advanced to “In the band. Tap SPACE to drop the spice in.”"
+          }
+        ],
+        "source_report": "game-wave-b-fast.json"
+      },
+      "artwork": {
+        "site_asset": "/games/oct14-tadka.webp",
+        "source_type": "creator official cover",
+        "source_url": "https://img.itch.zone/aW1nLzI5OTUyMTk3LnBuZw==/original/2prAT%2F.png"
+      },
+      "warnings": []
+    },
+    {
+      "slug": "crawl-critter-crawl",
+      "title": "Crawl Critter Crawl",
+      "destination": "https://add-soul.itch.io/crawl-critter-crawl",
+      "ai_authorship": {
+        "quote": "Programming: addSoul in collaboration with Google Gemini Pro",
+        "source_url": "https://add-soul.itch.io/crawl-critter-crawl",
+        "source_record": "game-wave-c-fast.json",
+        "verification": "source_verified"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input_and_response": [
+          {
+            "input": "Clicked PLAY, then pressed Left.",
+            "response": "The blue critter moved from the lower-left area toward the center-left of the arena while the survival timer ran."
+          }
+        ],
+        "source_report": "game-wave-c-fast.json"
+      },
+      "artwork": {
+        "site_asset": "/games/oct14-crawl-critter-crawl.webp",
+        "source_type": "creator official cover",
+        "source_url": "https://img.itch.zone/aW1nLzI2ODE3ODQ3LnBuZw==/original/f0wGtY.png"
+      },
+      "warnings": []
+    },
+    {
+      "slug": "crimson-moon-tower-backrooms-prologue",
+      "title": "Crimson Moon Tower: Backrooms Prologue",
+      "destination": "https://brem444.itch.io/crimson-moon-tower-backrooms-prologue",
+      "ai_authorship": {
+        "quote": "Music was remixed through Suno, models by Tripo, code by ChatGPT and Claude.",
+        "source_url": "https://brem444.itch.io/crimson-moon-tower-backrooms-prologue",
+        "source_record": "game-wave-c-fast.json",
+        "verification": "source_verified"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input_and_response": [
+          {
+            "input": "Clicked NEW GAME, then pressed W.",
+            "response": "The title menu opened into the 3D play scene; after W the character/environment advanced into view."
+          }
+        ],
+        "source_report": "game-wave-c-fast.json"
+      },
+      "artwork": {
+        "site_asset": "/games/oct14-crimson-moon-tower-backrooms-prologue.webp",
+        "source_type": "creator official cover",
+        "source_url": "https://img.itch.zone/aW1nLzI5MjUwMTc1LnBuZw==/original/P7OGDV.png"
+      },
+      "warnings": []
+    },
+    {
+      "slug": "echo-harvest",
+      "title": "Echo Harvest",
+      "destination": "https://echoharveststudio.itch.io/echo-harvest",
+      "ai_authorship": {
+        "quote": "AI DISCLOSURE: OpenAI Codex was used for code, game design, testing, documentation, and packaging.",
+        "source_url": "https://echoharveststudio.itch.io/echo-harvest",
+        "source_record": "game-wave-c-fast.json",
+        "verification": "source_verified"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input_and_response": [
+          {
+            "input": "The itch embed was blank; navigated to the exact creator-provided direct game link. Clicked ENTER THE GARDEN, then moved the mouse to a garden target.",
+            "response": "The direct game loaded guest HUD; the firefly moved to the pointer target, leaving the prior firefly position as an echo trail. HUD timer advanced; three glow remained."
+          }
+        ],
+        "source_report": "game-wave-c-fast.json"
+      },
+      "artwork": {
+        "site_asset": "/games/oct14-echo-harvest.webp",
+        "source_type": "creator official cover",
+        "source_url": "https://img.itch.zone/aW1nLzI5MjYzMDA1LnBuZw==/original/rRugcv.png"
+      },
+      "warnings": []
+    },
+    {
+      "slug": "zero-charge",
+      "title": "Zero Charge",
+      "destination": "https://focaccai.itch.io/zero-charge",
+      "ai_authorship": {
+        "quote": "Code: Claude Opus 5 — all gameplay and systems.",
+        "source_url": "https://focaccai.itch.io/zero-charge",
+        "source_record": "game-wave-c-fast.json",
+        "verification": "source_verified"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input_and_response": [
+          {
+            "input": "Opened the exact embedded HTML game in the reused tab, clicked to start, selected 1 GRID, launched, then pressed D.",
+            "response": "The in-game distance advanced from 336m to 653m; the rider then wrecked against a hazard and the results screen showed 653m as the new best."
+          }
+        ],
+        "source_report": "game-wave-c-fast.json"
+      },
+      "artwork": {
+        "site_asset": "/games/oct14-zero-charge.webp",
+        "source_type": "creator official cover",
+        "source_url": "https://img.itch.zone/aW1nLzI5MzQ0MDI1LnBuZw==/original/l%2B2U5M.png"
+      },
+      "warnings": [
+        "Creator labels the game work in progress."
+      ]
+    },
+    {
+      "slug": "abyssio",
+      "title": "Abyssio",
+      "destination": "https://foumilstudio.itch.io/abyssio",
+      "ai_authorship": {
+        "quote": "FoumilStudio, with Claude (Anthropic).",
+        "source_url": "https://foumilstudio.itch.io/abyssio",
+        "source_record": "game-wave-c-fast.json",
+        "verification": "source_verified"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input_and_response": [
+          {
+            "input": "Clicked PLAY, selected default Small fish, clicked DIVE!, then pressed W (page lists W/S as forward/brake).",
+            "response": "Entered a live underwater match with timer, leaderboard, player health/stamina and depth HUD; after W the viewpoint moved over the terrain while the match timer advanced from 9:56 to 9:51."
+          }
+        ],
+        "source_report": "game-wave-c-fast.json"
+      },
+      "artwork": {
+        "site_asset": "/games/oct14-abyssio.webp",
+        "source_type": "creator official cover",
+        "source_url": "https://img.itch.zone/aW1nLzMwNjIxMjM2LnBuZw==/original/C%2FHwHW.png"
+      },
+      "warnings": []
+    },
+    {
+      "slug": "plugs",
+      "title": "Plugs",
+      "destination": "https://granthaffner.itch.io/plugs",
+      "ai_authorship": {
+        "quote": "Code & pixels — Claude",
+        "source_url": "https://granthaffner.itch.io/plugs",
+        "source_record": "game-wave-c-fast.json",
+        "verification": "source_verified"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input_and_response": [
+          {
+            "input": "Clicked the title screen’s CLICK TO BEGIN, then clicked the floor lamp in Room 1.",
+            "response": "The title screen transitioned to an interactive room; clicking the floor lamp moved it onto the right-hand table. The live room HUD showed LIT 0/4 and FOUND 0/5."
+          }
+        ],
+        "source_report": "game-wave-c-fast.json"
+      },
+      "artwork": {
+        "site_asset": "/games/oct14-plugs.webp",
+        "source_type": "creator official cover",
+        "source_url": "https://img.itch.zone/aW1nLzI5MTY2MzEzLnBuZw==/original/grpWH8.png"
+      },
+      "warnings": []
+    },
+    {
+      "slug": "abyss-harvest",
+      "title": "Abyss Harvest",
+      "destination": "https://nitch-game.itch.io/abyss-harvest",
+      "ai_authorship": {
+        "quote": "AI-assisted development was used for code generation, iteration support, documentation, and Blender scripting.",
+        "source_url": "https://nitch-game.itch.io/abyss-harvest",
+        "source_record": "game-wave-c-fast.json",
+        "verification": "source_verified"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input_and_response": [
+          {
+            "input": "Started the dive, resumed after the game window lost focus, then held W to swim forward for about 1.5 seconds.",
+            "response": "The orange salvage objective distance decreased from 7 m to 4 m; oxygen updated from 115 to 101 during the move. This confirms movement and a changing gameplay objective in the 3D dive."
+          }
+        ],
+        "source_report": "game-wave-c-fast.json"
+      },
+      "artwork": {
+        "site_asset": "/games/oct14-abyss-harvest.webp",
+        "source_type": "creator official cover",
+        "source_url": "https://img.itch.zone/aW1nLzI5MTU4NTQzLnBuZw==/original/7LGgjQ.png"
+      },
+      "warnings": [
+        "Creator identifies this as “an in-development browser demo”; four areas and progression are included, and creator invites feedback/bug reports."
+      ]
+    },
+    {
+      "slug": "pumpkin-by-midnight",
+      "title": "Pumpkin by Midnight",
+      "destination": "https://pixel-pineapple.itch.io/pumpkin-by-midnight",
+      "ai_authorship": {
+        "quote": "How AI was used: code by Claude Code, all art by Nano Banana 2 (Google AI Studio), texts and some sound effects with AI. Directed and play-tested by me.",
+        "source_url": "https://pixel-pineapple.itch.io/pumpkin-by-midnight",
+        "source_record": "game-wave-c-fast.json",
+        "verification": "source_verified"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input_and_response": [
+          {
+            "input": "Selected Night 1, advanced the intro dialogue, then held Space briefly as instructed.",
+            "response": "The carriage jumped and the level scrolled over a gap to the next platform; the game timer advanced from 23:00 to 23:06 and the score changed from 0 to 23."
+          }
+        ],
+        "source_report": "game-wave-c-fast.json"
+      },
+      "artwork": {
+        "site_asset": "/games/oct14-pumpkin-by-midnight.webp",
+        "source_type": "creator official cover",
+        "source_url": "https://img.itch.zone/aW1nLzMwNzgxODQxLnBuZw==/original/P8hdyH.png"
+      },
+      "warnings": []
+    },
+    {
+      "slug": "regrowth",
+      "title": "Regrowth",
+      "destination": "https://quantumcodemonk.itch.io/regrowth",
+      "ai_authorship": {
+        "quote": "Claude was used throughout development: for game design, mechanics, and code.",
+        "source_url": "https://quantumcodemonk.itch.io/regrowth",
+        "source_record": "game-wave-c-fast.json",
+        "verification": "source_verified"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input_and_response": [
+          {
+            "input": "Clicked BEGIN, then ▶ RUN on the first puzzle board.",
+            "response": "The run button switched to PAUSE and vegetation visibly spread from the starting tile across the top three board rows; the cycle resolved with “Out of cycles — reset and try again.” This confirms the puzzle simulation responds to input."
+          }
+        ],
+        "source_report": "game-wave-c-fast.json"
+      },
+      "artwork": {
+        "site_asset": "/games/oct14-regrowth.webp",
+        "source_type": "creator official cover",
+        "source_url": "https://img.itch.zone/aW1nLzI2NTMxOTg0LnBuZw==/original/8ZNl9N.png"
+      },
+      "warnings": []
+    },
+    {
+      "slug": "ufo-alien-game",
+      "title": "UFO Alien Game",
+      "destination": "https://technuclue.itch.io/ufo-alien-game",
+      "ai_authorship": {
+        "quote": "Coding: GitHub Copilot & Claude Code for logic and script generation; Art: ChatGPT for generating custom SVG code art; Music: Suno.",
+        "source_url": "https://technuclue.itch.io/ufo-alien-game",
+        "source_record": "game-wave-c-fast.json",
+        "verification": "source_verified"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input_and_response": [
+          {
+            "input": "See response for performed input",
+            "response": "Started game and pressed Space; tank turret rotated and fired while UFO enemies with health bars appeared; game progressed to a zero-score game-over screen, then restarted into an active field."
+          }
+        ],
+        "source_report": "game-wave-c-fast.json"
+      },
+      "artwork": {
+        "site_asset": "/games/oct14-ufo-alien-game.webp",
+        "source_type": "creator official cover",
+        "source_url": "https://img.itch.zone/aW1nLzI2OTc1NzMyLnBuZw==/original/6TXfdn.png"
+      },
+      "warnings": []
+    },
+    {
+      "slug": "trend-dating-sim",
+      "title": "Trend Dating Sim — Guess Her Type",
+      "destination": "https://jam-ship.itch.io/trend-dating-sim",
+      "ai_authorship": {
+        "quote": "dropped my first AI-built game ... built in ~1 day with Claude Code",
+        "source_url": "https://x.com/pongojam/status/2043428314560290993",
+        "source_record": "review-game-1.json",
+        "verification": "X oEmbed returned creator AI claim; post play link resolved to exact creator page"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input_and_response": [
+          {
+            "input": "Opened the observed direct itch game frame, started a new run, advanced the tutorial, and selected the green heart on Marina's first profile",
+            "response": "The profile advanced to an interactive chat with Marina, three reply choices, Guess Type and Escape controls"
+          }
+        ],
+        "source_report": "parent-iab-gameplay.json"
+      },
+      "artwork": {
+        "site_asset": "/games/oct14-trend-dating-sim.webp",
+        "source_type": "creator official cover",
+        "source_url": "https://img.itch.zone/aW1nLzI2MjA5NTYwLnBuZw==/original/5kKWZh.png"
+      },
+      "warnings": [
+        "Scout receipt says the X handle differs from the itch account name; confirm the creator-to-game link before publishing."
+      ]
+    },
+    {
+      "slug": "cosmo-sprint",
+      "title": "Cosmo Sprint",
+      "destination": "https://ev1lgeneral.itch.io/cosmo-sprint",
+      "ai_authorship": {
+        "quote": "I made a game with Claude Opus 5 - Cosmo Sprint",
+        "source_url": "https://x.com/EV1LGENERAL/status/2083409170426986635",
+        "source_record": "review-game-2.json",
+        "verification": "verified_from_creator_post"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input_and_response": [
+          {
+            "input": "Started game, chose Crash Site, and held W for 850 ms",
+            "response": "3D robot visibly moved from the starting sign toward the green platform"
+          }
+        ],
+        "source_report": "parent-iab-gameplay.json"
+      },
+      "artwork": {
+        "site_asset": "/games/oct14-cosmo-sprint.webp",
+        "source_type": "creator official cover",
+        "source_url": "https://img.itch.zone/aW1nLzI4OTEyODk0LnBuZw==/original/zY5AgT.png"
+      },
+      "warnings": []
+    },
+    {
+      "slug": "nebel-innsmouth",
+      "title": "Nebel über Innsmouth",
+      "destination": "https://moon-wood-zinc-bird.grok.me/",
+      "ai_authorship": {
+        "quote": "The first level of a game I am currently creating with GrokBot.",
+        "source_url": "https://x.com/A_tticus_Finch/status/2104138398457893300",
+        "source_record": "review-game-2.json",
+        "verification": "verified_from_creator_post"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input_and_response": [
+          {
+            "input": "Clicked An Land gehen, then held D for 850 ms",
+            "response": "The player moved right along the harbor pier and camera followed; an E interaction marker appeared by a nearby character"
+          }
+        ],
+        "source_report": "parent-iab-gameplay.json"
+      },
+      "artwork": {
+        "site_asset": "/games/oct14-nebel-innsmouth.webp",
+        "source_type": "generated A/B cover selected in full-pipeline review"
+      },
+      "warnings": [
+        "Creator describes the playable build as the first level of an in-progress game; include that scope limit in details if it remains accurate.",
+        "Creator describes this as first level of an in-progress game"
+      ]
+    },
+    {
+      "slug": "aterschack",
+      "title": "Återschack",
+      "destination": "https://rechess-by-bosse.grok.me/",
+      "ai_authorship": {
+        "quote": "I built this with Grok — try it out",
+        "source_url": "https://x.com/UtanFruktan/status/2103279938677678390",
+        "source_record": "review-game-2.json",
+        "verification": "verified_from_creator_post"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input_and_response": [
+          {
+            "input": "Started Mot datorn then moved white pawn from e2 to e4",
+            "response": "Board turn changed to Motståndarens drag and move list displayed 1. e4"
+          }
+        ],
+        "source_report": "parent-iab-gameplay.json"
+      },
+      "artwork": {
+        "site_asset": "/games/oct14-atershack.webp",
+        "source_type": "generated A/B cover selected in full-pipeline review"
+      },
+      "warnings": []
+    },
+    {
+      "slug": "aether-bastion",
+      "title": "Aether Bastion",
+      "destination": "https://my-tower-defense.grok.me/",
+      "ai_authorship": {
+        "quote": "I built this with Grok — try it out",
+        "source_url": "https://x.com/WorldwideJim/status/2091211965905473895",
+        "source_record": "review-game-2.json",
+        "verification": "verified_from_creator_post"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input_and_response": [
+          {
+            "input": "Started siege, selected Ember Spire and tapped grass beside road",
+            "response": "Ember Spire appeared on map, gold fell from 300 to 245, and tower detail controls appeared"
+          }
+        ],
+        "source_report": "parent-iab-gameplay.json"
+      },
+      "artwork": {
+        "site_asset": "/games/oct14-aether-bastion.webp",
+        "source_type": "generated A/B cover selected in full-pipeline review"
+      },
+      "warnings": []
+    },
+    {
+      "slug": "gilded-draw",
+      "title": "Gilded Draw",
+      "destination": "https://simple-poker.grok.me/",
+      "ai_authorship": {
+        "quote": "I built this with Grok — try it out",
+        "source_url": "https://x.com/jlee99611/status/2105805683840946625",
+        "source_record": "review-game-2.json",
+        "verification": "verified_from_creator_post"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input_and_response": [
+          {
+            "input": "Clicked DEAL then toggled hold on the 9 of spades during the hand",
+            "response": "Five cards appeared, credits fell from 1600 to 1595, and the selected card changed from not held to held"
+          }
+        ],
+        "source_report": "parent-iab-gameplay.json"
+      },
+      "artwork": {
+        "site_asset": "/games/oct14-gilded-draw.webp",
+        "source_type": "generated A/B cover selected in full-pipeline review"
+      },
+      "warnings": [
+        "Scout flags a poker betting UI / simulated gambling; preserve this in public details if published.",
+        "Video poker with simulated betting; details should clearly describe play-money mechanics"
+      ]
+    },
+    {
+      "slug": "inkriot",
+      "title": "INKRIOT",
+      "destination": "https://inkriot-gamma.vercel.app/",
+      "ai_authorship": {
+        "quote": "I built a small multiplayer drawing game using Claude, called InkRiot",
+        "source_url": "https://x.com/m_santoshkumar_/status/2105044579833786860",
+        "source_record": "review-game-1.json",
+        "verification": "verified in prior report"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input_and_response": [
+          {
+            "input": "Turned off site music and effects, created a room, started solo practice, selected BISON, dragged pen across the canvas",
+            "response": "A dark stroke appeared on the previously white drawing canvas during the live round"
+          }
+        ],
+        "source_report": "parent-iab-gameplay.json"
+      },
+      "artwork": {
+        "site_asset": "/games/oct14-inkriot.webp",
+        "source_type": "generated A/B cover selected in full-pipeline review"
+      },
+      "warnings": [
+        "No drawing action or responsive game-state change has been verified. The required public display name was not entered in the prior attempt; no personal data was submitted. Retry with an owner-approved generic game nickname and test one drawing action. A second player is not required if a drawing action itself produces a visible response."
+      ]
+    },
+    {
+      "slug": "rainbow-rail-rush",
+      "title": "Rainbow Rail Rush",
+      "destination": "https://super-kids-games.vercel.app/",
+      "ai_authorship": {
+        "quote": "Here is the train game I made with Codex yesterday with Codex.",
+        "source_url": "https://x.com/RoboAlchemist/status/2048131249500274793",
+        "source_record": "review-game-1.json",
+        "verification": "X oEmbed returned creator AI claim; post play link resolved to exact destination"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input_and_response": [
+          {
+            "input": "Turned off site sound, started Candy Valley ride, clicked Move up during active run",
+            "response": "Train moved from middle lane to upper lane; game displayed Nice switch, score rose from 618 to 2798, and stars rose from 6 to 13 during the run"
+          }
+        ],
+        "source_report": "parent-iab-gameplay.json"
+      },
+      "artwork": {
+        "site_asset": "/games/oct14-rainbow-rail-rush.webp",
+        "source_type": "generated A/B cover selected in full-pipeline review"
+      },
+      "warnings": []
+    },
+    {
+      "slug": "closing-time",
+      "title": "Closing Time",
+      "destination": "https://first-person-bouncer.vercel.app/",
+      "ai_authorship": {
+        "quote": "I am having a blast making games with Claude Sonnet 5.5! So I made this First Person BOUNCER game just for laughs.",
+        "source_url": "https://x.com/chongdashu/status/2104962609745428916",
+        "source_record": "review-game-1.json",
+        "verification": "X oEmbed returned creator AI claim; post play link resolved to exact destination"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input_and_response": [
+          {
+            "input": "Started First Night, clicked to focus, held W for 900 ms during Walk up to Gary tutorial",
+            "response": "The first-person camera moved forward through the bar toward the exit, visibly changing the positions and sizes of room objects"
+          }
+        ],
+        "source_report": "parent-iab-gameplay.json"
+      },
+      "artwork": {
+        "site_asset": "/games/oct14-closing-time.webp",
+        "source_type": "generated A/B cover selected in full-pipeline review"
+      },
+      "warnings": []
+    },
+    {
+      "slug": "finger-soccer",
+      "title": "Finger Soccer",
+      "destination": "https://fingersoccer.app/",
+      "ai_authorship": {
+        "quote": "I built Finger Soccer with Claude Fable",
+        "source_url": "https://x.com/cllctr_15/status/2065048812108841441",
+        "source_record": "review-game-1.json",
+        "verification": "X oEmbed returned creator AI claim; post play link resolved to exact destination"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input_and_response": [
+          {
+            "input": "Dragged a blue player disc at about (531,389) toward the ball at about (616,390)",
+            "response": "The blue disc moved to about (351,389) and the game status changed from Your Turn (Blue) to Ball in play"
+          }
+        ],
+        "source_report": "parent-iab-gameplay.json"
+      },
+      "artwork": {
+        "site_asset": "/games/oct14-finger-soccer.webp",
+        "source_type": "generated A/B cover selected in full-pipeline review"
+      },
+      "warnings": []
+    },
+    {
+      "slug": "chessmata",
+      "title": "Chessmata",
+      "destination": "https://chessmata.metavert.io/",
+      "ai_authorship": {
+        "quote": "Here's the chess game I made over the weekend with @AnthropicAI Claude Code",
+        "source_url": "https://x.com/jradoff/status/2023855502367879584",
+        "source_record": "review-game-1.json",
+        "verification": "X oEmbed returned creator AI claim; post play link resolved to exact destination"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input_and_response": [
+          {
+            "input": "Selected AI Only and White for casual guest matchmaking; after matching chessmata-2ply, switched to 2D, selected a white pawn and moved it from d2 to d4",
+            "response": "Move History displayed 1. d2-d4 e5 after the AI responded; the board and turn state updated"
+          }
+        ],
+        "source_report": "parent-iab-gameplay.json"
+      },
+      "artwork": {
+        "site_asset": "/games/oct14-chessmata.webp",
+        "source_type": "generated A/B cover selected in full-pipeline review"
+      },
+      "warnings": []
+    },
+    {
+      "slug": "whack-a-mole-grok",
+      "title": "Whack-A-Mole",
+      "destination": "https://whacka-mole.grok.me/",
+      "ai_authorship": {
+        "quote": "I built a playable Whack-a-Mole game with Grok Build.",
+        "source_url": "https://x.com/shortsbydaryl/status/2091617840285552730",
+        "source_record": "review-game-2.json",
+        "verification": "verified_from_creator_post"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input_and_response": [
+          {
+            "input": "Muted site audio, clicked Start Game, then clicked a visible mole",
+            "response": "SCORE changed from 0 to 1 during the live round"
+          }
+        ],
+        "source_report": "parent-iab-gameplay.json"
+      },
+      "artwork": {
+        "site_asset": "/games/oct14-whack-a-mole.webp",
+        "source_type": "generated A/B cover selected in full-pipeline review"
+      },
+      "warnings": []
+    },
+    {
+      "slug": "crittertown",
+      "title": "CritterTown",
+      "destination": "https://wiktor.vip/",
+      "ai_authorship": {
+        "quote": "Started making a multiplayer browser game like 4 hours ago with Claude.",
+        "source_url": "https://x.com/QuarzaSiphix/status/2110221634150060352",
+        "source_record": "review-game-1.json",
+        "verification": "verified in prior report"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input_and_response": [
+          {
+            "input": "Held Down for 900 ms from map tile 33,17.",
+            "response": "Map position changed to tile 33,21."
+          },
+          {
+            "input": "Held Right for 900 ms from tile 33,21.",
+            "response": "Map position changed to tile 37,21."
+          }
+        ],
+        "source_report": "review-game-1.json"
+      },
+      "artwork": {
+        "site_asset": "/games/oct14-crittertown.webp",
+        "source_type": "generated A/B cover selected in full-pipeline review"
+      },
+      "warnings": [
+        "Movement is verified, but the Creature Center entrance, critter acquisition, and battle were not verified. This does not block basic gameplay acceptance under the revised rule."
+      ]
+    },
+    {
+      "slug": "comet-challenge",
+      "title": "Comet",
+      "destination": "https://comet-challenge.grok.me/",
+      "ai_authorship": {
+        "quote": "I built this with @grok - try it out",
+        "source_url": "https://x.com/Ninoki111/status/2099876079817126065",
+        "source_record": "review-game-1.json",
+        "verification": "independently verified in prior report"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input_and_response": [
+          {
+            "input": "Pressed Up during an active run.",
+            "response": "Comet head/trail visibly turned from horizontal to vertical."
+          }
+        ],
+        "source_report": "review-game-1.json"
+      },
+      "artwork": {
+        "site_asset": "/games/oct14-comet.webp",
+        "source_type": "generated A/B cover selected in full-pipeline review"
+      },
+      "warnings": [
+        "No star collection, score increase, or tail growth was observed before the run ended at BLACK HOLE. Directional input did respond, which is sufficient for basic gameplay acceptance under the revised rule."
+      ]
+    },
+    {
+      "slug": "town-light",
+      "title": "TOWN LIGHT",
+      "destination": "https://town-light.buxtonbycha.workers.dev/",
+      "ai_authorship": {
+        "quote": "I built a game about Oakland, CA with Claude Fable 5.1",
+        "source_url": "https://x.com/aimagery4info/status/2095360766123884574",
+        "source_record": "review-game-1.json",
+        "verification": "verified in prior report"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input_and_response": [
+          {
+            "input": "Held W for 1000 ms after starting as Nia Brooks.",
+            "response": "Avatar and camera moved down the street; nearby neighbor and wash-location prompts appeared."
+          },
+          {
+            "input": "Moved farther through the street area.",
+            "response": "Displayed area changed to Lake Merritt and the nearby prompt changed to Read plaque."
+          }
+        ],
+        "source_report": "review-game-1.json"
+      },
+      "artwork": {
+        "site_asset": "/games/oct14-town-light.webp",
+        "source_type": "generated A/B cover selected in full-pipeline review"
+      },
+      "warnings": [
+        "Movement and neighbor interactions were verified, but no washing, painting, planting, or trash-pickup action was completed. This does not block basic gameplay acceptance under the revised rule."
+      ]
+    },
+    {
+      "slug": "tower-defense-pumpt",
+      "title": "Tower Defense",
+      "destination": "https://tower-defense.pumpt.net/",
+      "ai_authorship": {
+        "quote": "Evolution of a vibe-coded Tower Defense game in the browser. In the beginning, a lot of coding was done by Haiku 5.5. Later on, I switched to Opus 5.5. Images were created by Codex:",
+        "source_url": "https://x.com/SchellerUlrich/status/2110012660280393886",
+        "source_record": "game-wave-b-fast.json",
+        "verification": "verified"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input_and_response": [
+          {
+            "input": "See response for performed input",
+            "response": "Placed an Arrow tower on a free tile; tower, range circle, and -20 gold response appeared."
+          }
+        ],
+        "source_report": "game-wave-b-fast.json"
+      },
+      "artwork": {
+        "site_asset": "/games/oct14-tower-defense.webp",
+        "source_type": "generated A/B cover selected in full-pipeline review"
+      },
+      "warnings": []
+    },
+    {
+      "slug": "no-vacancy",
+      "title": "NO VACANCY",
+      "destination": "https://novacancyhere.vercel.app/",
+      "ai_authorship": {
+        "quote": "Claude Opus 5.5 can now make games. So, I gave it a shot. Built in 3 days (game and video), with zero game development experience.",
+        "source_url": "https://x.com/lyloomiloo/status/2110202484522406026",
+        "source_record": "game-wave-b-fast.json",
+        "verification": "verified"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input_and_response": [
+          {
+            "input": "See response for performed input",
+            "response": "Creator-linked playable route opened and one gameplay input changed the in-game state; see exact prior report."
+          }
+        ],
+        "source_report": "game-wave-b-fast.json"
+      },
+      "artwork": {
+        "site_asset": "/games/oct14-no-vacancy.webp",
+        "source_type": "generated A/B cover selected in full-pipeline review"
+      },
+      "warnings": []
+    }
+  ],
+  "mods": [
+    {
+      "slug": "the-square",
+      "title": "The Square",
+      "official_listing": "https://mods.factorio.com/mod/the-square",
+      "ai_authorship": {
+        "quote": "Primarily AI-generated using GPT-5.4 with Codex, with human direction, review, and iteration.",
+        "source_url": "https://mods.factorio.com/mod/the-square",
+        "note": "Research listing. This is the creator’s official portal disclosure; the source info.json uses different model-version wording. It is author-declared creation evidence."
+      },
+      "release": "Factorio 2.0 · mod version 0.1.5; Space Age optional",
+      "security_review": "Codex Security Standard reviewed source tag v0.1.5 at commit 2948b1559e3c4ac1eab5b89eb9b942ef303408a6: zero reportable findings across seven reviewed surfaces, partial coverage. The official portal lists the-square_0.1.5.zip with SHA-1 f72865d24d16cbcf8c382cebaafed7a0ae640ecc; the ZIP was not fetched or matched to the source. No malware-free or install-safety claim is made.",
+      "warnings": [
+        "Existing-save risk: when a legacy save has storage.bootstrap and its surface name is absent or fes-bootstrap, migration 0.1.3 destroys every non-character entity on Nauvis before copying the managed square area. Buildings and other world entities outside that area may be lost. Back up saves and read the source migration before considering use.",
+        "The release ZIP was not independently inspected or matched to the reviewed source; security review coverage was partial.",
+        "The author labels this release alpha. Independent successful-use and runtime verification were not established."
+      ],
+      "detail_status": "research listing with stated review limits; not a runtime endorsement"
+    },
+    {
+      "slug": "shoter-belt-planner",
+      "title": "Shoter Belt Planner",
+      "official_listing": "https://mods.factorio.com/mod/ShoterBeltPlanner",
+      "ai_authorship": {
+        "quote": "The code in this mod was largely written by Claude, Anthropic's AI.",
+        "source_url": "https://mods.factorio.com/mod/ShoterBeltPlanner",
+        "note": "Research listing. The official mod page and linked repository attribute most code to Claude. The author directed design and reports testing it in game."
+      },
+      "release": "Factorio 2.0 · mod version 0.2.2; requires flib ≥ 0.16.0",
+      "security_review": "Codex Security Standard reviewed 29 tracked source files at commit 2700dae48174ca060838e385e93da1bd78d72ae0. It found one low-severity conditional packaging issue: build.ps1 could include nonignored hidden local files in a future ZIP. No sensitive file was found in the reviewed tree. The official portal lists ShoterBeltPlanner_0.2.2.zip with SHA-1 b01fb4187e353d16681bf6904e26390c82486b13; the archive was not fetched or matched to source.",
+      "warnings": [
+        "The source build script can package hidden local files, such as a nonignored .env, if a maintainer has them in the working tree when creating a release ZIP. The published ZIP was not inspected, so whether it contains such files is unknown.",
+        "The official release archive was not independently inspected or matched to the reviewed source; download safety is unverified.",
+        "The author labels the mod beta and reports limited real-save testing; independent successful use was not confirmed."
+      ],
+      "detail_status": "research listing with stated review limits; not a runtime endorsement"
+    },
+    {
+      "slug": "second-dawn",
+      "title": "Second Dawn (beta)",
+      "official_listing": "https://mods.factorio.com/mod/second-dawn",
+      "ai_authorship": {
+        "quote": "Made with AI, directed and playtested by a human.",
+        "source_url": "https://mods.factorio.com/mod/second-dawn",
+        "note": "Research listing. This is the creator’s official, mod-specific AI disclosure; it is an author claim, not independent authorship verification."
+      },
+      "release": "Factorio 2.0 · mod version 0.1.10; requires base 2.0.77+; incompatible with Space Age and Space Exploration",
+      "security_review": "Codex Security Standard reviewed the linked v0.1.10 source commit 5663173677c772d2cf760c590153e3168dff1c41 in a curated 566-file text snapshot and found no candidate-specific reportable finding on reviewed surfaces; coverage was partial. The official ZIP request returned HTTP 403, so its bytes were not inspected and source-to-archive equivalence is unknown. This result applies to reviewed source, not the release ZIP; no build or runtime was executed.",
+      "warnings": [
+        "Public beta: the creator lists balance, animations and art as unfinished, and full-route and multiplayer playtests as future work. Saves and balance may change between releases.",
+        "Requires a new map and Factorio 2.0.77+ base game. The official listing says it is incompatible with Space Age and Space Exploration.",
+        "The exact 0.1.10 ZIP could not be retrieved (HTTP 403). Codex Security reviewed linked source at the matching version only, with partial coverage; the ZIP was not security-reviewed or matched to that source. No installation or gameplay test was performed."
+      ],
+      "detail_status": "research listing with stated review limits; not a runtime endorsement"
+    },
+    {
+      "slug": "interpose",
+      "title": "Interpose",
+      "official_listing": "https://mods.factorio.com/mod/interpose",
+      "ai_authorship": {
+        "quote": "Interpose was developed with AI-assisted coding, as a fun exercise: the code was not written by humans.",
+        "source_url": "https://mods.factorio.com/mod/interpose",
+        "note": "Research listing. This is the official creator disclosure for Interpose; it is an author claim, not independent authorship verification."
+      },
+      "release": "Factorio 2.0 · mod version 0.2.3; requires base 2.0.0+",
+      "security_review": "Codex Security Standard reviewed the linked v0.2.3 source tag at commit 11bd7df6be1b8a96f315078529a362b5e76b3013 in a curated 566-file text snapshot and found no candidate-specific reportable finding on reviewed surfaces; coverage was partial. The official ZIP request returned HTTP 403, so its bytes were not inspected and source-to-archive equivalence is unknown. No build or runtime was executed.",
+      "warnings": [
+        "The official documentation says Force build can remove the player’s own buildings inside the selected area. With “CHEAT always force build” enabled, the creator warns those buildings may be destroyed instead of mined or deconstructed.",
+        "The security documentation describes the remote interface as read-only, but reviewed source also exposes build_demo for creating a test scene. Reviewers treated this as a documentation/test-helper mismatch; behavior was not runtime-tested.",
+        "The exact 0.2.3 ZIP could not be retrieved (HTTP 403). Codex Security reviewed linked source only, with partial coverage; the release ZIP was not security-reviewed or matched to the source. No installation or gameplay test was performed."
+      ],
+      "detail_status": "research listing with stated review limits; not a runtime endorsement"
+    },
+    {
+      "slug": "realdeath",
+      "title": "RealDeath (beta)",
+      "official_listing": "https://modrinth.com/mod/realdeath",
+      "ai_authorship": {
+        "quote": "The code was ENTIRELY written by AI. I have ZERO knowledge about how to write code and build minecraft mods.",
+        "source_url": "https://modrinth.com/mod/realdeath",
+        "note": "Research listing. The creator’s AI disclosure is specific to the mod code; the creator says the included audio assets were made without AI. These are author claims, not independent authorship verification."
+      },
+      "release": "Beta 1.0.0-beta.3 · Minecraft 26.1.2 · Fabric Loader 0.19.3+ · Java 25+ · Fabric API; client-side",
+      "security_review": "Codex Security Standard reviewed a curated 566-file text snapshot with partial coverage and no candidate-specific reportable finding on reviewed surfaces. The exact-version Modrinth JAR was downloaded and its SHA-1 matched official metadata; the versioned source was reviewed, but source-to-JAR build equivalence was not established. No mod, build or runtime was executed; this is not a malware-free certification.",
+      "warnings": [
+        "The death effect intentionally turns the screen black and cuts sound before fading in the death screen with windy ambient noise.",
+        "This is a beta release targeting client-side Fabric on Minecraft 26.1.2, Fabric Loader 0.19.3+, Java 25+ and Fabric API. Other combinations are unverified; no installation or in-game test was performed.",
+        "The downloaded JAR hash matches Modrinth metadata, and matching-version source was reviewed with partial coverage. The source-to-JAR build was not reproduced, and no runtime was tested."
+      ],
+      "detail_status": "research listing with stated review limits; not a runtime endorsement"
+    },
+    {
+      "slug": "vivemonkecraft",
+      "title": "ViveMonkeCraft",
+      "official_listing": "https://modrinth.com/mod/vivemonkecraft",
+      "ai_authorship": {
+        "quote": "Claude was heavily used in making of this project ... almost 45%–60% VibeCoded and update Ports are fully done with Claude.",
+        "source_url": "https://modrinth.com/mod/vivemonkecraft",
+        "note": "Research listing. The official creator disclosure describes substantial Claude use; it is an author claim, not independent authorship verification."
+      },
+      "release": "1.1.0.0-26.3 · Minecraft 26.3 · Fabric Loader 0.19.3+ · Fabric API · Vivecraft/PCVR; Mod Menu and Cloth Config optional",
+      "security_review": "Codex Security Standard reviewed matching-version source material in a curated 566-file text snapshot with partial coverage and no candidate-specific reportable finding on reviewed surfaces. The official source and executable JAR hashes were checked against metadata, but source-to-binary equivalence was not established. No mod, build or runtime was executed; no VR test was performed.",
+      "warnings": [
+        "The v1.1.0.0-26.3 metadata and release JAR target Minecraft 26.3 and Vivecraft 1.3.x, while the README still says Minecraft 1.21.4–26.2 and Vivecraft 1.2.x. Confirm compatibility for the exact versions before installing.",
+        "Server requirements conflict: Modrinth metadata marks the release server-required, while the release README/JAR describe client-side use with an optional server companion. Dedicated-server behavior was not tested.",
+        "The core feature requires Vivecraft and VR/PCVR. Tracking, settings and multiplayer compatibility were not tested.",
+        "The official release JAR hash matches Modrinth metadata and its same-version source JAR was scanned with partial coverage; source-to-binary equivalence was not established. No installation or runtime test was performed."
+      ],
+      "detail_status": "research listing with stated review limits; not a runtime endorsement"
+    },
+    {
+      "slug": "attack-particles",
+      "title": "Attack Particles",
+      "official_listing": "https://modrinth.com/mod/attack-particles",
+      "ai_authorship": {
+        "quote": "A Minecraft Mod. Laggy visually cluttered combat particles 😂 AI coded, open source.",
+        "source_url": "https://modrinth.com/mod/attack-particles",
+        "note": "Research listing. This is the creator’s official disclosure that AI coded the project; it is an author claim, not independent authorship verification."
+      },
+      "release": "1.0.0 · Minecraft 1.21.11 · Fabric Loader 0.19.3+ · Java 21+ · Fabric API; client-side",
+      "security_review": "Codex Security Standard reviewed a curated 243-file source snapshot with partial coverage and no candidate-specific reportable finding on reviewed surfaces. The official v1.0.0 source JAR was reviewed, but the Modrinth executable JAR was not proven build-equivalent to that source. No mod, build, installer or runtime was executed.",
+      "warnings": [
+        "The creator warns that combat particles can be laggy and visually clutter the screen. The source emits large particle bursts, but frame-rate impact was not measured.",
+        "The reviewed release targets Fabric on Minecraft 1.21.11, Java 21+ and Fabric API. Compatibility with other versions was not verified.",
+        "Codex Security reviewed the official source JAR with partial coverage, not a proven build-equivalent Modrinth binary. No installation or gameplay test was performed."
+      ],
+      "detail_status": "research listing with stated review limits; not a runtime endorsement"
+    },
+    {
+      "slug": "milometer",
+      "title": "Milometer",
+      "official_listing": "https://modrinth.com/mod/milometer",
+      "ai_authorship": {
+        "quote": "A mod used to track player movement speed and distance, powered by Minimax Agent and Deepseek.",
+        "source_url": "https://modrinth.com/mod/milometer",
+        "note": "Research listing. This is the creator’s official, mod-specific AI disclosure; it is an author claim, not independent authorship verification."
+      },
+      "release": "2.0.0 · Minecraft 1.20.4 · Fabric API required · Cloth Config API required · Mod Menu optional; client-side",
+      "security_review": "Codex Security Standard reviewed a curated 243-file source snapshot with partial coverage and no candidate-specific reportable finding on reviewed surfaces. The exact source tag is version 2.0.0 and the GitHub release JAR hash matches the Modrinth artifact; build reproducibility was not tested. No mod, build, installer or runtime was executed; this is not a malware-free certification.",
+      "warnings": [
+        "The verified version targets Fabric on Minecraft 1.20.4. Compatibility with other versions was not verified; Fabric API and Cloth Config API are required, and Mod Menu is optional.",
+        "Distance is calculated from coordinate changes, so the creator’s listing says /tp teleports also add the straight-line distance between the old and new coordinates.",
+        "Codex Security source coverage was partial. The source tag and official artifact digests match, but build reproducibility and in-game behavior were not tested."
+      ],
+      "detail_status": "research listing with stated review limits; not a runtime endorsement"
+    },
+    {
+      "slug": "various-sable-weights",
+      "title": "Various Sable Weights",
+      "official_listing": "https://modrinth.com/project/various-sable-weights",
+      "ai_authorship": {
+        "quote": "I made a script with a bit of ai help to pull a bunch of mod tags that I could assign weights too ... and then I used ai again to reclassify all of niftyblocks into more categories.",
+        "source_url": "https://modrinth.com/project/various-sable-weights",
+        "note": "Creator disclosure specifically describes AI assistance creating this datapack’s helper script and tag classifications."
+      },
+      "release": "Version 1 · Minecraft 1.21–1.21.1 · Sable required",
+      "security_review": "Codex Security scan 2de8f879-6302-4888-8faa-86ea3e77cac1 completed with zero reportable findings for the exact Modrinth v1 ZIP, whose SHA-512 matched the official version API. Static review parsed 384 JSON files plus metadata; no executable/network/file/process behavior was observed. No Minecraft runtime test was performed; this is not a malware-free certification.",
+      "warnings": [
+        "Requires Sable; the creator says the datapack has no useful effect without it.",
+        "The exact release passed offline static Codex Security review, but it was not installed or tested in Minecraft. No independent successful-use report was confirmed."
+      ],
+      "detail_status": "research listing with stated review limits; not a runtime endorsement"
+    },
+    {
+      "slug": "disable-riptide-during-elytra-flight",
+      "title": "Disable Riptide During Elytra Flight",
+      "official_listing": "https://modrinth.com/project/disable-riptide-during-elytra-flight",
+      "ai_authorship": {
+        "quote": "Code was written with the help of Gemini.",
+        "source_url": "https://modrinth.com/project/disable-riptide-during-elytra-flight",
+        "note": "The creator’s official listing directly attributes the datapack code to Gemini assistance."
+      },
+      "release": "Version 1.0 · Minecraft 1.21.8",
+      "security_review": "Codex Security scan 2de8f879-6302-4888-8faa-86ea3e77cac1 completed with zero reportable security findings for the exact Modrinth v1.0 ZIP, whose SHA-512 matched the official version API. All JSON and function files were inspected. Static review found a likely functionality defect; no runtime test was performed, and this is not a malware-free certification.",
+      "warnings": [
+        "Possible enchantment loss: static review suggests Riptide II may fail to restore after elytra flight because the item modifier stores stored_riptide:s while the enable function checks stored_riptide:2. This was not tested in Minecraft.",
+        "The creator disclaims responsibility for damage to save files or machines. Back up important items and worlds before use.",
+        "The exact release passed offline static Codex Security review, but no in-game test or independent successful-use report was verified."
+      ],
+      "detail_status": "research listing with stated review limits; not a runtime endorsement"
+    }
+  ]
+}

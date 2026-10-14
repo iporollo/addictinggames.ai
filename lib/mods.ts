@@ -6,7 +6,7 @@ export type Mod = {
   summary: string; changes: string; cost: string; price_note: string; platform: string;
   version: string; install: string; image?: string; image_source?: string; image_alt?: string;
   comments?: { author: string; url: string; type: string }[];
-  working_evidence?: string; security: string; community_source?: string;
+  working_evidence?: string; security: string; warnings?: string[]; community_source?: string;
   released_at?: string;
 };
 
