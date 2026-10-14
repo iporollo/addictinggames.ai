@@ -14,6 +14,8 @@ export type DirectGame = {
 };
 
 const source: [string, string, string, string, string, string?][] = [
+  // October 14 two-hour Scout campaign, batch 4; direct guest color rounds verified.
+  ['dialed-gg', 'Dialed.gg', 'Puzzle', 'Test your color memory and score quick rounds', 'https://dialed.gg/', '/games/oct14-dialed-gg.webp'],
   // October 14 two-hour Scout campaign, batch 2; direct guest play verified.
   ['einkgames', 'EinkGames', 'Strategy', 'Play chess on an e-ink-friendly board against the computer', 'https://www.einkgames.com/', '/games/oct14-einkgames.webp'],
   ['mafia-the-game', 'MAFIA', 'Strategy', 'Join a bot-filled Mafia round and discuss suspicions', 'https://mafiathegame.vercel.app/', '/games/oct14-mafia.webp'],
