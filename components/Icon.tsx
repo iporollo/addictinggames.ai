@@ -5,6 +5,7 @@ const paths = {
   plus: 'M12 5v14 M5 12h14',
   left: 'm14 6-6 6 6 6',
   right: 'm10 6 6 6-6 6',
+  down: 'm6 9 6 6 6-6',
   arrow: 'M4 12h16 m-6-6 6 6-6 6',
   back: 'M20 12H4 m6-6-6 6 6 6',
   play: 'm9 5 11 7-11 7Z',
