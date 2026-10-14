@@ -449,3 +449,23 @@ h2, h3 { color: var(--heading); }
   .site-header:has(.section-navigation) .title-rest { font-size: 21px; line-height: 28px; }
   .site-header:has(.section-navigation) .title-ai { margin-left: -4px; }
 }
+
+/* Shared select affordance uses the same rounded stroke as the site's icons. */
+.select-control { display: block; position: relative; min-width: 0; }
+.select-control > select { appearance: none; -webkit-appearance: none; width: 100%; padding-right: 44px; border-radius: 10px; text-overflow: ellipsis; }
+.select-chevron { position: absolute; right: 14px; top: 50%; transform: translateY(-50%); color: var(--muted); pointer-events: none; }
+.select-control:focus-within > select { outline: 3px solid var(--blue); outline-offset: 2px; border-color: var(--blue); }
+.select-control:focus-within .select-chevron { color: var(--blue); }
+.mods-game-filter .select-control { flex: 1; }
+@media (max-width: 767px) {
+  .mods-game-filter .select-control { min-width: 0; }
+  .select-control > select { font-size: 16px; }
+}
+@media (forced-colors: active) {
+  .select-control > select { appearance: auto; -webkit-appearance: auto; padding-right: 12px; }
+  .select-chevron { display: none; }
+}
+/* Filter controls share a baseline, type size and height at every breakpoint. */
+.mods-tools .search-field { min-height: 48px; padding: 0 14px; }
+.mods-tools .search-field input { padding-block: 11px; font-size: 16px; line-height: 24px; }
+.mods-game-filter select { min-height: 48px; padding-block: 10px; font-size: 16px; line-height: 24px; }
