@@ -7,6 +7,20 @@ export type MultiplayerMode = 'Online multiplayer' | 'Local 2-player' | 'Local m
 
 // Evidence and unresolved cases live in docs/category-audit/2026-10-11/.
 export const reviewedCategories: Record<string, CategoryList> = {
+  // October 14 Scout campaign: primary genre follows observed guest controls.
+  'rage-room-2': ['Arcade', 'Action'],
+  'phonos': ['Puzzle', 'Adventure'],
+  'haunted-hall': ['Shooter', 'Survival'],
+  'no-lunch-left-behind': ['Arcade', 'Survival'],
+  'monday-express': ['Shooter', 'Arcade'],
+  'mecha-royale': ['Shooter', 'Action'],
+  'moonwort': ['Strategy', 'Adventure'],
+  'cairnwake': ['Strategy', 'Adventure'],
+  'buckshot-manor': ['Shooter', 'Survival'],
+  'book-of-shadows': ['Puzzle', 'Adventure'],
+  'pixel-pilot': ['Simulators'],
+  'underhouse': ['Survival', 'Adventure'],
+  'ghost-customs': ['Adventure', 'Casual'],
   // October 13 owner-confirmed batch: genres supported by game descriptions and observed play.
   "bluebell-overdrive": ["Shooter", "Action"],
   "cafe-rush": ["Simulators", "Casual"],
