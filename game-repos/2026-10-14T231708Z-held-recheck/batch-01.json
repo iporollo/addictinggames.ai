@@ -1,0 +1,524 @@
+{
+  "run_id": "2026-10-14T231708Z-held-recheck",
+  "batch": 1,
+  "status": "prepared_not_published",
+  "campaign_deadline_utc": "2026-10-15T01:17:08Z",
+  "catalog_baseline": "origin/main 2069ed9fccbe226b8f2c09150c369730f037e589",
+  "counts": {
+    "games": 16,
+    "mods": 0,
+    "combined": 16
+  },
+  "acceptance": "Exact game-specific creator AI evidence and observed unauthenticated game input/state response. Direct guest play verified; site iframe not tested.",
+  "games": [
+    {
+      "id": "held-game-342",
+      "slug": "ghost-shift",
+      "title": "Ghost Shift",
+      "category": "Adventure",
+      "destination": "https://focaccai.itch.io/ghost-shift",
+      "public_description": "Follow a museum ghost story; AI content and mild violence",
+      "ai_authorship": {
+        "quote": "Ghost Shift is our third experiment with AI storytelling and game development. For this game we developed a better iteration process for creating stories with AI tools. The story went through over 10 revision passes with both human and AI feedback. Story Outline & Prose: Claude Sonnet 4.6.",
+        "source_url": "https://focaccai.itch.io/ghost-shift",
+        "source_type": "official itch.io game page, Experimental AI & Tools / AI Models Used",
+        "status": "verified_creator_statement"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input": "Clicked Start Story; clicked the story area once to advance.",
+        "response": "The title screen changed to the museum-story prologue; the next click advanced the narrative text to a subsequent passage.",
+        "access": "Guest HTML5 build, creator-linked direct player URL"
+      },
+      "warnings": [
+        "Creator lists content warning: AI content and mild violence."
+      ],
+      "artwork": {
+        "site_asset": "/games/oct14-r1-ghost-shift.webp",
+        "source_type": "creator_published_cover",
+        "source_url": "https://img.itch.zone/aW1nLzI1OTY2MTYxLnBuZw==/original/w0v6xp.png",
+        "sha256": "98089a8c877fd211bb14cef5bbd1deba3faa3bdd21395df2526a191a04d1a8ad",
+        "dimensions": "716x504"
+      },
+      "source_report": "play_d.json"
+    },
+    {
+      "id": "held-game-337",
+      "slug": "ghostnn",
+      "title": "GhostNN",
+      "category": "Puzzle",
+      "destination": "https://failedstalker.itch.io/ghostnn",
+      "public_description": "Move between network nodes; mobile controls are untested",
+      "ai_authorship": {
+        "quote": "Claude Opus 4.5. I would indicate what we wanted and it would update/make files as needed. I would go through and direct what we wanted, test it, request new features, etc. If there was some (very) minor bugs, I would clean them up as needed. But mostly everything was written from AI.",
+        "source_url": "https://failedstalker.itch.io/ghostnn",
+        "source_type": "official itch.io game page, How This Game Was Made > Coding",
+        "status": "verified_creator_statement"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input": "Entered Level 1, then clicked the directly connected node above the starting node in the creator-linked HTML5 build.",
+        "response": "The player marker moved along the vertical connection to the next node; the HUD changed to Moves: 1 and the timer advanced to 00:01. This is a single core-loop movement check, not a completed level.",
+        "access": "Guest HTML5 build; creator-linked direct player URL"
+      },
+      "warnings": [
+        "Creator says mobile integration/controls have not been tested; camera movement is still janky and the scoring system may need work."
+      ],
+      "artwork": {
+        "site_asset": "/games/oct14-r1-ghostnn.webp",
+        "source_type": "creator_published_cover",
+        "source_url": "https://img.itch.zone/aW1nLzI1OTg5OTYxLnBuZw==/original/WrZfLF.png",
+        "sha256": "b774fb27774f6192a0fea94e5b5c45256b2095989823024f3e8ea020cb77f770",
+        "dimensions": "716x504"
+      },
+      "source_report": "play_d.json"
+    },
+    {
+      "id": "held-game-418",
+      "slug": "yarn-folk",
+      "title": "Yarn Folk",
+      "category": "Adventure",
+      "destination": "https://todd-dillerson.itch.io/yarn-folk",
+      "public_description": "Explore a knitted farm; a modern GPU and longer first load may be needed",
+      "ai_authorship": {
+        "quote": "Generative tools were used offline for knit art and music. Nothing is generated live in the browser, and no third-party AI API runs while you play.",
+        "source_url": "https://todd-dillerson.itch.io/yarn-folk",
+        "source_type": "creator-authored AI disclosure on exact itch.io game page",
+        "status": "verified_creator_game_specific_ai_assisted_asset_creation"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input": "Clicked the title screen START button and held W for about 0.7 seconds in the live world.",
+        "response": "The guest 3D farm loaded. After W, the in-game time advanced from 9:03 AM to 9:10 AM and Grandpa’s interaction prompt appeared: “Farm’s yours now, kid. Moths chewed the yarn lines again — take my trusty rifle, and keep the lights on. PRESS E.” No sign-in was required.",
+        "access": "guest_direct_player"
+      },
+      "warnings": [
+        "Creator says the game needs a decent GPU and modern browser; first load pulls a 3D asset chunk and may take about a minute.",
+        "AI assistance is credited for knit art and music; no code-generation claim is made."
+      ],
+      "artwork": {
+        "site_asset": "/games/oct14-r1-yarn-folk.webp",
+        "source_type": "creator_published_cover",
+        "source_url": "https://img.itch.zone/aW1nLzI5MzYzMjk1LmpwZw==/original/GHmGFf.jpg",
+        "sha256": "7ab8d1c207ac8e39a6bbf2a2cb7a15c47fc27b7f95dc872442824aafe2996b29",
+        "dimensions": "716x504"
+      },
+      "source_report": "play_c.json"
+    },
+    {
+      "id": "held-game-415",
+      "slug": "glitch-ben0831",
+      "title": "Glitch",
+      "category": "Adventure",
+      "destination": "https://ben0831.itch.io/glitch",
+      "public_description": "Explore a strange office; the creator notes an in-game computer setup hint",
+      "ai_authorship": {
+        "quote": "All game assets created using Star (buildwithstar.com), brainstormed with Gemini and ChatGPT. All code written by Star.",
+        "source_url": "https://ben0831.itch.io/glitch",
+        "source_type": "creator-authored description on exact itch.io game page",
+        "status": "verified_creator_game_specific_ai_creation_statement"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input": "Clicked the selected Start menu option, pressed Enter to enter the office scene, then held ArrowLeft for about 0.6 seconds.",
+        "response": "The guest game opened into an office scene. After ArrowLeft, the avatar faced left and the office view shifted horizontally as the character moved; no sign-in was required.",
+        "access": "guest_direct_player"
+      },
+      "warnings": [
+        "Creator notes that players confused by the graphics-card installation can continue by opening the computer file and pressing its icon."
+      ],
+      "artwork": {
+        "site_asset": "/games/oct14-r1-glitch.webp",
+        "source_type": "creator_published_cover",
+        "source_url": "https://img.itch.zone/aW1nLzI5MzQ3OTUxLmpwZWc=/original/l1XZlO.jpeg",
+        "sha256": "bada893aeec89a8ba3967a35292cde069845058a8736a25c31b7e83fafb62c9d",
+        "dimensions": "716x504"
+      },
+      "source_report": "play_c.json"
+    },
+    {
+      "id": "held-game-487",
+      "slug": "combolade",
+      "title": "COmboLAde",
+      "category": "Action",
+      "destination": "https://jonathanneels.itch.io/combolade",
+      "public_description": "Practice fighter attacks in an HTML5 demo; Chromium browser recommended",
+      "ai_authorship": {
+        "quote": "Sprites and in-game text – generated through ChatGPT prompts.",
+        "source_url": "https://jonathanneels.itch.io/combolade",
+        "source_type": "creator-authored game description on exact itch page",
+        "status": "verified_creator_game_specific_ai_confirmation"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input": "Clicked Launch, skipped the intro, then pressed J once in the training-mode fight.",
+        "response": "The two fighters appeared in a live arena; the on-screen Current Input (P1) debug panel changed “attack1” to true immediately after J, confirming the player input was received.",
+        "access": "guest_direct_player"
+      },
+      "warnings": [
+        "Creator says 95 percent of code was human-written; AI use for code was supplemental, while fighter sprites and in-game text were generated through ChatGPT prompts and logo design used DeepAI.",
+        "It is an HTML5 browser fighting demo tied to a fighting engine; the page recommends Chromium-based browsers."
+      ],
+      "artwork": {
+        "site_asset": "/games/oct14-r1-combolade.webp",
+        "source_type": "creator_published_cover",
+        "source_url": "https://img.itch.zone/aW1nLzI4MzA0MTM1LnBuZw==/original/SZzQVu.png",
+        "sha256": "9117eda4217fe5bdd77d5532951220256b2775903b435753de0acf924815f387",
+        "dimensions": "716x504"
+      },
+      "source_report": "play_b.json"
+    },
+    {
+      "id": "held-game-132",
+      "slug": "wizard-chess-3d",
+      "title": "Wizard Chess 3D",
+      "category": "Strategy",
+      "destination": "https://wizardchess3d.vercel.app/",
+      "public_description": "Play chess against an AI with optional spells; move prompts may briefly pause",
+      "ai_authorship": {
+        "quote": "I’m developing Wizard Chess 3D under the name Quiet Gambit, with AI coding assistance.",
+        "source_url": "https://www.reddit.com/r/playtesters/comments/1wauifx/web_wizard_chess_3d_seeking_unpaid_testers_for/",
+        "source_type": "creator Reddit playtest post",
+        "status": "creator_claim_tied_to_exact_game"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input": "Chose Play the AI, selected Easy / No clock / White, started the game, selected a White pawn, then clicked its glowing legal-move dot.",
+        "response": "Move list recorded 1. e4; the AI replied e5 and the turn returned to White. The e4 pawn was selectable afterward and Shield, Freeze, and Swap were enabled. This verifies a responsive playable turn; it is not a full playthrough.",
+        "access": "guest_playable"
+      },
+      "warnings": [
+        "Legacy queue source mapping remains ambiguous relative to Island Builder; the recovered creator post independently ties the exact Wizard Chess 3D title and test URL to AI-assisted development.",
+        "The live document title is misspelled 'Wizzard Chess 3D' (double z), while the visible heading and creator post say 'Wizard Chess'.",
+        "On the first playtest, after e4/e5 the panel displayed 'Your action is resolving…' for about 12 seconds while White's turn was active; selecting the e4 pawn cleared it and enabled spell controls. The repeated playtest returned directly to 'Choose a piece' and enabled spells.",
+        "No official cover image, og:image, or page images were available on the live build; create A/B artwork before publication."
+      ],
+      "artwork": {
+        "site_asset": "/games/oct14-r1-wizard-chess-3d.webp",
+        "source_type": "generated_A_selected",
+        "source_url": null,
+        "sha256": "90bf9a19d959a2aa53c217363268f5a9bc444f9c1f6226059aec58899ba80a6f",
+        "dimensions": "716x504",
+        "ab_review": "A selected; both options were shown inline; exact prompts and option paths in local run artwork/wizard-chess-ab.json"
+      },
+      "source_report": "play_a_recovered.json"
+    },
+    {
+      "id": "held-game-327",
+      "slug": "lantern-road",
+      "title": "Lantern Road: Deliver the Pumpkin",
+      "category": "Puzzle",
+      "destination": "https://diandianxuehua.itch.io/lantern-road-deliver-the-pumpkin",
+      "public_description": "Carry a pumpkin lantern through a short action-puzzle adventure",
+      "ai_authorship": {
+        "quote": "OpenAI Codex assisted with Unity C# implementation, procedural low-poly scene and prop creation, puzzle iteration, localization, and testing.",
+        "source_url": "https://diandianxuehua.itch.io/lantern-road-deliver-the-pumpkin",
+        "source_type": "official itch.io game page",
+        "status": "verified_creator_statement"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input": "Enter to start; E to pick up the pumpkin",
+        "response": "Title screen transitioned into Chapter 01 playable scene on Enter; E moved the character to the pumpkin and changed the on-screen control prompt from pickup to put down/push, confirming a game-state response.",
+        "access": "guest browser build in itch.io embedded HTML5 player"
+      },
+      "warnings": [
+        "Creator page also offers a downloadable build; the HTML5 version was tested."
+      ],
+      "artwork": {
+        "site_asset": "/games/oct14-r1-lantern-road.webp",
+        "source_type": "creator_published_cover",
+        "source_url": "https://img.itch.zone/aW1nLzMwNzg4Njk5LnBuZw==/original/0qX37V.png",
+        "sha256": "afac45829917425e1350c6c4964504f392af49d2c6d97ad7dabbc825934633e3",
+        "dimensions": "716x504"
+      },
+      "source_report": "play_d.json"
+    },
+    {
+      "id": "held-game-414",
+      "slug": "last-dance-in-helike",
+      "title": "Last Dance in Helike",
+      "category": "Action",
+      "destination": "https://dariuou.itch.io/last-dance-in-helike",
+      "public_description": "Punch through a short beat-em-up prototype; the build can load slowly",
+      "ai_authorship": {
+        "quote": "Credits: Beat em Up - Game Template 2D; Synaptic AI Pro; higgsfield.ai; suno.com; Claude",
+        "source_url": "https://dariuou.itch.io/last-dance-in-helike",
+        "source_type": "creator credits on exact itch.io game page",
+        "status": "verified_creator_game_specific_ai_tool_credits"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input": "Pressed Z once after the live encounter loaded; the on-screen control label maps Z to PUNCH.",
+        "response": "Bounded retry on a fresh live scene showed white hit-slash effects immediately after Z; both nearby enemies changed from standing to prone while a third remained standing. This confirms the displayed Z=PUNCH control produced a combat response.",
+        "access": "guest_direct_player"
+      },
+      "warnings": [
+        "Creator says the build is incomplete and takes a while to load."
+      ],
+      "artwork": {
+        "site_asset": "/games/oct14-r1-last-dance-in-helike.webp",
+        "source_type": "creator_published_cover",
+        "source_url": "https://img.itch.zone/aW1nLzI3ODU2MDY3LnBuZw==/original/u9IOSr.png",
+        "sha256": "4a68e152932a114c1798cc7738eff72caf369c5c02724bf43c68eca0146a656b",
+        "dimensions": "716x504"
+      },
+      "source_report": "play_c.json"
+    },
+    {
+      "id": "held-game-071",
+      "slug": "jewel-bloom",
+      "title": "Jewel Bloom",
+      "category": "Casual",
+      "destination": "https://nexustide400.itch.io/jewel-bloom",
+      "public_description": "Tap crystals to collect rewards in a gem-mining game",
+      "ai_authorship": {
+        "quote": "AI Disclosure: AI Assisted, Code, Graphics, Sounds, Text",
+        "source_url": "https://nexustide400.itch.io/jewel-bloom",
+        "source_type": "creator-supplied AI Disclosure on exact itch.io game page",
+        "status": "verified_creator_game_specific_ai_disclosure"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input": "Clicked once on a blue crystal in the game field; no sign-in or account action.",
+        "response": "The guest player rendered the live mining field, explorer, gem nodes, and HUD. A floating +5 reward indicator appeared above the clicked crystal. HUD remained at 0 coins and 0/6 carried gems at capture; the full objective was not played.",
+        "access": "guest_direct_player"
+      },
+      "warnings": [],
+      "artwork": {
+        "site_asset": "/games/oct14-r1-jewel-bloom.webp",
+        "source_type": "creator_published_cover",
+        "source_url": "https://img.itch.zone/aW1nLzMwMjA0MjM2LnBuZw==/original/hXophC.png",
+        "sha256": "71044de168c30d1cef44c3d6f16ccdb0ec79b87b9ce4bda56fa36cde868f928d",
+        "dimensions": "716x504"
+      },
+      "source_report": "play_c.json"
+    },
+    {
+      "id": "held-game-466",
+      "slug": "triangle-keep",
+      "title": "Triangle Keep",
+      "category": "Tower Defense",
+      "destination": "https://jonson-lee.itch.io/triangle-keep",
+      "public_description": "Build defenses and protect a king from advancing orcs",
+      "ai_authorship": {
+        "quote": "Programming: built with OpenAI Codex under human direction.",
+        "source_url": "https://jonson-lee.itch.io/triangle-keep",
+        "source_type": "creator-authored game description on exact itch page",
+        "status": "verified_creator_game_specific_ai_confirmation"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input": "Selected Play, then Build Defenses, then Start Battle for Day 1.",
+        "response": "The live battle screen showed Day 1/10, King HP 32/32, Allies 4, Enemies 8; after Start Battle, defenders and enemies moved around the king and the game displayed “Allies chase through gaps. Orcs stay hostile.”",
+        "access": "guest_direct_player"
+      },
+      "warnings": [
+        "Creator says programming was built with Codex under human direction; AI-generated king and wall art are disclosed separately."
+      ],
+      "artwork": {
+        "site_asset": "/games/oct14-r1-triangle-keep.webp",
+        "source_type": "creator_published_cover",
+        "source_url": "https://img.itch.zone/aW1nLzMwMzk4NjE5LnBuZw==/original/QqVZBR.png",
+        "sha256": "a442866109f9fff3ae2614735d43db81e283fd51062cff15e0159903f008be76",
+        "dimensions": "716x504"
+      },
+      "source_report": "play_b.json"
+    },
+    {
+      "id": "held-game-425",
+      "slug": "beneath-the-roots",
+      "title": "Beneath the Roots",
+      "category": "Tower Defense",
+      "destination": "https://matomaster.itch.io/beneath-the-roots-prototype",
+      "public_description": "Dig ant-colony tunnels and defend the queen in an unfinished prototype",
+      "ai_authorship": {
+        "quote": "This game was made as a Solo Dev project, for the \"AI Browser Game Jam 3\" in roughly 3 days, using heavy support from AI tools.",
+        "source_url": "https://matomaster.itch.io/beneath-the-roots-prototype",
+        "source_type": "creator-authored game description on exact itch page",
+        "status": "verified_creator_game_specific_ai_confirmation"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input": "Selected Dig with G and clicked a dirt tile directly above an existing tunnel at viewport (188, 426); waited about five seconds.",
+        "response": "Tile displayed Dig 52% with a builder busy for 4s; biomass dropped from 50 to 38 and builder availability changed from 1/1 to 0/0. After completion the tile became open tunnel, builder returned to 1/1, and biomass began regenerating (37).",
+        "access": "guest_direct_player"
+      },
+      "warnings": [
+        "Creator labels it a prototype and says many planned functionalities remain unfinished due to time constraints.",
+        "The core test used game resources (50 biomass to dig one tile); one queen, one builder, and a 40-second first-wave timer are present."
+      ],
+      "artwork": {
+        "site_asset": "/games/oct14-r1-beneath-the-roots.webp",
+        "source_type": "creator_published_cover",
+        "source_url": "https://img.itch.zone/aW1nLzI4MDgzMzMwLmpwZw==/original/lJrQjQ.jpg",
+        "sha256": "0079a608935887b113b0eb610f656204846372cae5c7f45bb080a4c570784d6a",
+        "dimensions": "716x504"
+      },
+      "source_report": "play_b.json"
+    },
+    {
+      "id": "held-game-413",
+      "slug": "dive-nanocorp",
+      "title": "D.I.V.E.",
+      "category": "Shooter",
+      "destination": "https://lemartinus.itch.io/dive",
+      "public_description": "Pilot a nano-diver against pathogens in an unfinished bloodstream shooter",
+      "ai_authorship": {
+        "quote": "Therefore, I played along using AI heavily.",
+        "source_url": "https://lemartinus.itch.io/dive",
+        "source_type": "creator-authored AI Statement on exact itch game page",
+        "status": "verified_creator_game_specific_ai_statement"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input": "Selected ANAL CANAL contract, clicked DIVE, then held D for about 0.8 seconds.",
+        "response": "Entered live contract C6643 at Wave 1/2, Depth 1/2, Threats 2, Integrity 100%; D moved the ship right across the canal toward a white blood cell.",
+        "access": "guest_direct_player"
+      },
+      "warnings": [
+        "Creator labels the game a prototype and says many features remain unfinished.",
+        "The game depicts bloodstream pathogens and medical treatment; direct controls include WASD/ZQSD to swim, click to shoot, E for scan charge."
+      ],
+      "artwork": {
+        "site_asset": "/games/oct14-r1-dive.webp",
+        "source_type": "creator_published_cover",
+        "source_url": "https://img.itch.zone/aW1nLzI5MTgyMzQwLnBuZw==/original/Q0Hs4e.png",
+        "sha256": "77eaea643f56b432cbb91da4843ee5be855a88cde0fe6c11327f0135c5ec8b53",
+        "dimensions": "716x504"
+      },
+      "source_report": "play_b.json"
+    },
+    {
+      "id": "held-game-412",
+      "slug": "parachute-panic",
+      "title": "Parachute Panic",
+      "category": "Arcade",
+      "destination": "https://duskled.itch.io/parachute-panic",
+      "public_description": "Steer a falling parachutist and chase a higher score",
+      "ai_authorship": {
+        "quote": "I'm sorry but its my first ever game, i didn't know how to make a game so i had to use ai.",
+        "source_url": "https://duskled.itch.io/parachute-panic",
+        "source_type": "creator comment on exact itch game page",
+        "status": "verified_creator_confirmation_for_this_game"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input": "Clicked Start, then held ArrowRight for about one second.",
+        "response": "Game entered live parachute drop; score changed 124 to 255 and the parachutist moved from center toward the right edge.",
+        "access": "guest_direct_player"
+      },
+      "warnings": [],
+      "artwork": {
+        "site_asset": "/games/oct14-r1-parachute-panic.webp",
+        "source_type": "creator_published_cover",
+        "source_url": "https://img.itch.zone/aW1nLzIxODkxNTMxLmpwZw==/original/2SFhQ%2F.jpg",
+        "sha256": "1de6db6eafda179e9368d1bcb4e67a3141d307458b74c84a9005d7c362f36f22",
+        "dimensions": "716x504"
+      },
+      "source_report": "play_b.json"
+    },
+    {
+      "id": "held-game-328",
+      "slug": "orange-rudy",
+      "title": "Orange Rudy",
+      "category": "Arcade",
+      "destination": "https://danielvital3.itch.io/orange-rudy",
+      "public_description": "Help Grandma Rudy harvest rutabagas on a spinning pumpkin",
+      "ai_authorship": {
+        "quote": "Code: Claude Code (Claude Opus 5.5) wrote the gameplay scripts and shaders. We directed it, playtested in batches, and fed notes back each round.",
+        "source_url": "https://danielvital3.itch.io/orange-rudy",
+        "source_type": "creator itch.io game page",
+        "status": "verified"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input": "Pressed Enter to enter gameplay; held ArrowRight for about 1 second.",
+        "response": "The Grandma Rudy player sprite moved from near the center of the pumpkin to its right side. Score remained 0 and two hearts remained visible.",
+        "access": "guest_playable"
+      },
+      "warnings": [],
+      "artwork": {
+        "site_asset": "/games/oct14-r1-orange-rudy.webp",
+        "source_type": "creator_published_cover",
+        "source_url": "https://img.itch.zone/aW1nLzMwNzc5ODQxLnBuZw==/original/QquSue.png",
+        "sha256": "532441e2febc984fcab0d37269fd5e73289e11d3100552ea77117541da4f90ae",
+        "dimensions": "716x504"
+      },
+      "source_report": "play_a.json"
+    },
+    {
+      "id": "held-game-022",
+      "slug": "drug-warz-ai",
+      "title": "Drug Warz AI",
+      "category": "Strategy",
+      "destination": "https://drugwarz.pages.dev/game/",
+      "public_description": "Trade across cities in a mature-themed game about drugs and violence",
+      "ai_authorship": {
+        "quote": "Claude Code | AI pair programmer. Authored game engine, test suites, simulation harness, map capture pipeline, and coordinate picker tool.",
+        "source_url": "https://github.com/ST215/DrugWarzAI",
+        "source_type": "creator GitHub README, AI-Assisted Development table",
+        "status": "official_repo_verified"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input": "Clicked New Game, selected Classic mode, then clicked Buy for one unit of weed in Atlanta.",
+        "response": "The game displayed Day 1/30, cash $2,000, and carrying 0/100. After Buy, it logged a one-unit purchase for $452; cash fell to $1,548, carrying rose to 1/100, and federal heat rose to 1%. No sign-in required.",
+        "access": "guest_direct_play"
+      },
+      "warnings": [
+        "Contains fictional drug trading, violence, and mature subject matter.",
+        "Creator describes the game as inspired by the 1984 Drug Wars game; no copied assets were established in this bounded review."
+      ],
+      "artwork": {
+        "site_asset": "/games/oct14-r1-drug-warz-ai.webp",
+        "source_type": "creator_published_cover",
+        "source_url": "https://drugwarz.pages.dev/assets/og-image.jpg",
+        "sha256": "a685e02a041b4a81fd3b6e1df9d3b45702081a844d3e1a8d4508a1dd05529ba7",
+        "dimensions": "716x504"
+      },
+      "source_report": "play_parent.json"
+    },
+    {
+      "id": "held-game-002",
+      "slug": "blueline-arcade-hockey",
+      "title": "Blueline: arcade hockey",
+      "category": "Sports",
+      "destination": "https://playblueline.pages.dev/",
+      "public_description": "Play a 5-on-5 hockey match against the CPU; WebGPU performance varies",
+      "ai_authorship": {
+        "quote": "Show HN: I made a hockey web game with Opus 5.5, and Gemini Argon optimized it",
+        "source_url": "https://news.ycombinator.com/item?id=50077567",
+        "source_type": "creator Show HN post linking exact game URL",
+        "status": "creator_post_verified"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input": "Clicked Quick Start, clicked Let's Play, pressed Space to skip the intro, then pressed K at the faceoff.",
+        "response": "The game entered a 5-on-5 hockey match without sign-in. A faceoff appeared, then live play began. The clock advanced from 5:00 to 4:49 and the Iron Range shot count changed from 0 to 1 after the faceoff input. Later the clock reached 4:00 and shots 2. The input was accepted; no full match was played.",
+        "access": "guest_direct_play"
+      },
+      "warnings": [
+        "WebGPU game; performance can depend on browser/GPU."
+      ],
+      "artwork": {
+        "site_asset": "/games/oct14-r1-blueline.webp",
+        "source_type": "creator_published_cover",
+        "source_url": "https://playblueline.pages.dev/card.jpg",
+        "sha256": "a77674e7049f8930eb19caa0ec12056903322192f4c26373f2f75762d5deb094",
+        "dimensions": "716x504"
+      },
+      "source_report": "play_parent.json"
+    }
+  ],
+  "mods": [],
+  "release": {
+    "source_commit": null,
+    "pull_request": null,
+    "pr_checks": null,
+    "merge_commit": null,
+    "production_deployment": null,
+    "deployment_status": "pending",
+    "live_verification": null
+  }
+}
