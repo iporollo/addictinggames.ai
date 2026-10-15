@@ -1,0 +1,181 @@
+{
+  "run_id": "2026-10-14T231708Z-held-recheck",
+  "batch": 4,
+  "status": "prepared_not_published",
+  "campaign_deadline_utc": "2026-10-15T01:17:08Z",
+  "catalog_baseline": "origin/main 4b131372fb7d2106bb23149952c75f0295b32a7e",
+  "counts": {
+    "games": 3,
+    "mods": 1,
+    "combined": 4
+  },
+  "acceptance": "Game-specific creator AI evidence and responsive guest input/state; mod exact official release hash and complete bounded static Codex Security review with two low findings and warnings. No mod runtime test claimed.",
+  "games": [
+    {
+      "id": "held-game-445",
+      "slug": "moo-over-sf",
+      "title": "Moo Over SF",
+      "category": "Arcade",
+      "destination": "https://moo-over-sf.vercel.app/",
+      "public_description": "Start a local cow-and-UFO city round; multiplayer phone controls are optional",
+      "ai_authorship": {
+        "quote": "Built entirely with #ClaudeCode",
+        "source_url": "https://x.com/nitin_sauran/status/2110039106659160539",
+        "source_type": "creator follow-up in the same public X thread as discovery; thread reply links exact game URL",
+        "status": "qualifying_creator_game_specific_ai_development_claim"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input": "Clicked START ROUND from the guest host setup screen; the page also documents WASD + Space / arrows + Enter as a local keyboard control path.",
+        "response": "The title/setup screen changed to the active San Francisco match with 1:00 timer, eight score counters, UFOs and cows. The timer advanced to 0:58 and scores updated as the match ran.",
+        "access": "guest_direct_web_game"
+      },
+      "warnings": [
+        "The game is designed for up to eight players with optional phone controllers; local keyboard controls are documented on the host screen."
+      ],
+      "artwork": {
+        "site_asset": "/games/oct14-r4-moo-over-sf.webp",
+        "source_type": "creator_published_cover",
+        "source_url": "https://moo-over-sf.vercel.app/og.jpg",
+        "sha256": "ccae7af041027dc7e823f8ce3c1a159f43d9fb095bc227c169095e8af7c20c66",
+        "dimensions": "716x504"
+      },
+      "source_report": "play_e.json"
+    },
+    {
+      "id": "held-game-432",
+      "slug": "naija-rush",
+      "title": "Naija Rush",
+      "category": "Racing",
+      "destination": "https://naijarush.com/",
+      "public_description": "Race a car across a Lagos road; the creator separately advertises a real-cash promotion with unverified rules",
+      "ai_authorship": {
+        "quote": "I built a game with AI. No developer. No software engineer. Just me, an idea, and AI. I started building Naija Rush on October 6.",
+        "source_url": "https://ng.linkedin.com/in/chrisanidaba",
+        "source_type": "creator-authored public LinkedIn post naming the exact game",
+        "status": "verified_creator_game_specific_ai_creation_statement"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input": "Entered the test nickname \"AG Test\" for guest play, bought Koro C1 with fictional in-game currency, entered a Lagos race using the displayed fictional ₦6M fee, and pressed W once for about 0.8 seconds. No real payment or account credential was entered.",
+        "response": "The race loaded with the car, track, 8/8 position, timer, and controls. After W, the speed HUD changed from 0 to 31 km/h, confirming acceleration input was accepted. The site showed \"GUEST · SAVE PROGRESS\" and \"Fictional cash. No signup.\" No race finish was claimed.",
+        "access": "guest_direct_browser_game"
+      },
+      "warnings": [
+        "The creator publicly advertises a ₦50,000 real-cash prize for reaching ₦5B in fictional in-game net worth; a later creator post says the first winner was paid and another competition is coming. Prize rules, eligibility, and current promotion status were not verified. The arcade does not offer or administer this prize. The live game itself displayed fictional cash and guest play, with no real-money payment or betting observed."
+      ],
+      "artwork": {
+        "site_asset": "/games/oct14-r4-naija-rush.webp",
+        "source_type": "generated_A_selected",
+        "source_url": null,
+        "sha256": "461362e84404dbb27c0dbc09308c7f0002a8d14c40ab400f2dd4b2a0f1b410ff",
+        "dimensions": "716x504",
+        "ab_review": "Both generated options shown inline; A selected for accurate centered chase-camera view. Exact prompts and source paths in local artwork/naija-rush-ab.json."
+      },
+      "source_report": "play_c.json"
+    },
+    {
+      "id": "held-game-488",
+      "slug": "fist-first-fighting-engine",
+      "title": "Fist First Fighting Engine",
+      "category": "Action",
+      "destination": "https://jonathanneels.itch.io/fist-first-fighting-engine",
+      "public_description": "Move fighters in a training sandbox; commercial reuse has separate creator terms",
+      "ai_authorship": {
+        "quote": "“95% of the code was written by me. I used Claude and DeepSeek here and there to speed up and refine the development process.”",
+        "source_url": "https://jonathanneels.itch.io/fist-first-fighting-engine",
+        "source_type": "official creator itch.io page; Note 3",
+        "status": "verified_creator_statement"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input": "ArrowRight in the loaded training fight",
+        "response": "Player 1 fighter shifted visibly to the right in the active fight; the canvas remained responsive and showed the in-game HUD.",
+        "access": "guest browser build loaded from the official itch.io Run game button (HTML5)"
+      },
+      "warnings": [
+        "Official page describes this as a browser-native fighting engine, with a default Training sandbox; this is an engine/demo experience rather than a named campaign fighter.",
+        "Creator states commercial use requires attribution and a commercial royalty; check terms before any promotional/commercial reuse."
+      ],
+      "artwork": {
+        "site_asset": "/games/oct14-r4-fist-first-fighting-engine.webp",
+        "source_type": "creator_published_cover",
+        "source_url": "https://img.itch.zone/aW1nLzI4MjM5ODM1LnBuZw==/original/0FZD9g.png",
+        "sha256": "8e8f508497c84c6276ba78fc1689532329f58b1dc503fcd162be90c00622d0b5",
+        "dimensions": "716x504"
+      },
+      "source_report": "play_f.json"
+    }
+  ],
+  "mods": [
+    {
+      "id": "held-game-010",
+      "slug": "baznotificationcenter",
+      "title": "BazNotificationCenter",
+      "listing": "https://www.curseforge.com/wow/addons/baznotificationcenter",
+      "release": "https://www.curseforge.com/wow/addons/baznotificationcenter/files/8868696",
+      "ai_authorship": {
+        "quote": "Co-Authored-By: Claude Opus 4.6 (1M context)",
+        "source_url": "https://www.curseforge.com/wow/addons/baznotificationcenter/files/7887932",
+        "scope": "creator v002 changelog credits Claude for this addon; no claim all current v032 code is AI-written"
+      },
+      "official_release": {
+        "version": "032",
+        "file": "BazNotificationCenter-032.zip",
+        "file_id": 8868696,
+        "size_bytes": 131596,
+        "sha256": "1a29d435746928050adce8cd97c7b893c67be9d1904e8f5cb30f3051a6258cbe",
+        "digest_source": "computed from exact official CurseForge CDN ZIP; no publisher checksum exposed"
+      },
+      "security_review": {
+        "status": "completed_pass_with_low_findings",
+        "scan_id": "c5a98fa8-5155-4fcc-8fdd-15d1e7d015f4",
+        "coverage": "complete static review of 68 extracted files",
+        "findings": [
+          {
+            "severity": "low",
+            "confidence": "medium",
+            "title": "Remote notification text is rendered without WoW markup neutralization",
+            "impact": "Accepted whisper formatting can spoof or distort notification presentation; no code-execution path found."
+          },
+          {
+            "severity": "low",
+            "confidence": "high",
+            "title": "Persistent notification history has retention but no per-day size bound",
+            "impact": "Noisy sources can grow local SavedVariables history and increase append/search/persistence costs; age retention is configurable from 1 to 90 days."
+          }
+        ],
+        "excluded": [
+          "BazCore dependency",
+          "WoW runtime behavior",
+          "source-to-release commit/checksum equivalence"
+        ],
+        "runtime_tested": false
+      },
+      "warnings": [
+        "Requires BazCore, a separate addon; CurseForge says its app installs this dependency automatically, while manual users must install it separately.",
+        "Auto Loot is enabled by default and the addon sets the global WoW autoLootDefault CVar to 1. Default settings hide Blizzard’s loot window and loot popups.",
+        "Notification history stores titles, messages, icons, priorities and timestamps locally in SavedVariables for 7 days by default; users may configure 1–90 days and clear it.",
+        "Low-severity static finding: remote whisper formatting is passed to WoW notification text without markup neutralization. It may spoof or distort display; no code-execution path was found, and runtime rendering was not tested.",
+        "Low-severity static finding: retained notification history has no per-day entry or byte limit. Sustained events may enlarge local SavedVariables and slow history or persistence work.",
+        "The exact v032 ZIP passed a complete static scan with the two findings above. BazCore, in-game runtime/compatibility, and source-to-release equivalence were not tested. CurseForge published no checksum on the reviewed page; the displayed SHA-256 is our digest of the official CDN file."
+      ],
+      "artwork": {
+        "site_asset": "/mods/oct14-r4-baznotificationcenter.webp",
+        "source_type": "official_creator_icon",
+        "source_url": "https://bazaddons.com/wp-content/themes/bazaddons/assets/images/icons/baznotificationcenter.png",
+        "sha256": "486fc9354871fb0569a942678e3ff4f14dce37e0124f55601f39be20353edfe0",
+        "dimensions": "768x768"
+      }
+    }
+  ],
+  "release": {
+    "source_commit": null,
+    "pull_request": null,
+    "pr_checks": null,
+    "merge_commit": null,
+    "production_deployment": null,
+    "deployment_status": "pending",
+    "live_verification": null
+  }
+}

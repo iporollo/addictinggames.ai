@@ -14,6 +14,10 @@ export type DirectGame = {
 };
 
 const source: [string, string, string, string, string, string?][] = [
+  // October 15 held-queue recheck batch 4: creator AI evidence and guest input verified.
+  ["moo-over-sf", "Moo Over SF", "Arcade", "Start a local cow-and-UFO city round; multiplayer phone controls are optional", "https://moo-over-sf.vercel.app/", "/games/oct14-r4-moo-over-sf.webp"],
+  ["naija-rush", "Naija Rush", "Racing", "Race a car across a Lagos road; the creator separately advertises a real-cash promotion with unverified rules", "https://naijarush.com/", "/games/oct14-r4-naija-rush.webp"],
+  ["fist-first-fighting-engine", "Fist First Fighting Engine", "Action", "Move fighters in a training sandbox; commercial reuse has separate creator terms", "https://jonathanneels.itch.io/fist-first-fighting-engine", "/games/oct14-r4-fist-first-fighting-engine.webp"],
   // October 15 held-queue recheck batch 3: creator AI evidence and guest input verified.
   ["return-to-castle-hu-nam", "Return To Castle Hu-Nam", "Action", "Fire plasma through an office invasion; early Wolfenstein parody title", "https://exedexes1.itch.io/return-to-castle-hu-nam", "/games/oct14-r3-return-to-castle-hu-nam.webp"],
   ["quantum-foam-dive", "Quantum Foam Dive", "Educational", "Start a passive science dive and watch depth and score rise", "https://exedexes1.itch.io/quantum-foam-dive", "/games/oct14-r3-quantum-foam-dive.webp"],
