@@ -1,7 +1,7 @@
 'use client';
 
 import { useMemo, useSyncExternalStore } from 'react';
-import { playableGames } from './games';
+import { allListedGames } from './games';
 
 const KEY = 'addictinggames:recent:v1';
 const EVENT = 'addictinggames:history-change';
@@ -20,7 +20,7 @@ function readEntries(raw: string): Entry[] {
     return entries.filter((entry): entry is Entry => {
       if (!entry || typeof entry !== 'object' || typeof entry.slug !== 'string' ||
         typeof entry.openedAt !== 'number' || !Number.isFinite(entry.openedAt) ||
-        !playableGames.some(game => game.slug === entry.slug) || seen.has(entry.slug)) return false;
+        !allListedGames.some(game => game.slug === entry.slug) || seen.has(entry.slug)) return false;
       seen.add(entry.slug);
       return true;
     }).sort((a, b) => b.openedAt - a.openedAt).slice(0, 11);
@@ -35,7 +35,7 @@ function write(entries: Entry[]) {
 }
 
 export function recordPlayed(slug: string) {
-  if (!playableGames.some(game => game.slug === slug)) return;
+  if (!allListedGames.some(game => game.slug === slug)) return;
   write([{ slug, openedAt: Date.now() }, ...readEntries(snapshot()).filter(entry => entry.slug !== slug)].slice(0, 11));
 }
 
@@ -56,7 +56,7 @@ function subscribe(notify: () => void) {
 export function useRecentGames() {
   const raw = useSyncExternalStore(subscribe, snapshot, () => '[]');
   return useMemo(() => readEntries(raw).flatMap(entry => {
-    const game = playableGames.find(game => game.slug === entry.slug);
+    const game = allListedGames.find(game => game.slug === entry.slug);
     return game ? [game] : [];
   }), [raw]);
 }
