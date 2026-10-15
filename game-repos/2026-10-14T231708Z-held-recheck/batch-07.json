@@ -1,0 +1,74 @@
+{
+  "run_id": "2026-10-14T231708Z-held-recheck",
+  "batch": 7,
+  "status": "prepared_not_published",
+  "campaign_deadline_utc": "2026-10-15T01:17:08Z",
+  "catalog_baseline": "origin/main 578057385736f0f5be6587a943a22b4987b55fd3",
+  "counts": {
+    "games": 0,
+    "mods": 1,
+    "combined": 1
+  },
+  "acceptance": "Exact creator-project AI statement, official JAR hash, complete Codex Security static scan with zero reportable findings; unresolved license, dependency and runtime limits stated on public mod details.",
+  "games": [],
+  "mods": [
+    {
+      "id": "held-game-096",
+      "slug": "uncapped-windmill-bearing",
+      "title": "Uncapped windmill bearing",
+      "listing": "https://modrinth.com/mod/uncapped-windmill-bearing",
+      "release": "https://cdn.modrinth.com/data/9XZkULyC/versions/fivg73hz/uncappedbearing-1.0.0.jar",
+      "ai_authorship": {
+        "status": "verified_creator_exact_project_statement",
+        "quote": "(this project is vibecoded)",
+        "source_url": "https://modrinth.com/mod/uncapped-windmill-bearing"
+      },
+      "official_release": {
+        "version": "1.0.0",
+        "version_id": "fivg73hz",
+        "url": "https://cdn.modrinth.com/data/9XZkULyC/versions/fivg73hz/uncappedbearing-1.0.0.jar",
+        "size_bytes": 10981,
+        "sha256": "c6a6630f75125021c2fe9f7de28e16bfcc03cb5d9acc8b0af479be925ec8c905",
+        "sha512": "b0aa4d39e529f8fbc63d0082ce3466c452e31f3dbd3775214c7bd11a9e9a359b2e5371194d64f0fd93195cd1ee95748aa9dff0c51b12849d1c39e44620c3c5ea",
+        "official_hash_match": true
+      },
+      "security_review": {
+        "status": "complete_no_reportable_findings_full_static_coverage",
+        "scan_id": "1972e9dd-8680-4095-a013-d91bef44fba9",
+        "snapshot_digest": "codex-security-snapshot/v1:sha256:1a4b8fc822832cedcf27ee8898d5814eb05c9cb80cbde6151c2772e42cabaeba",
+        "findings_count": 0,
+        "runtime_tested": false
+      },
+      "warnings": [
+        "Modrinth project says MIT, exact JAR says All Rights Reserved; license unresolved.",
+        "Create dependency is required by official metadata but omitted from embedded NeoForge dependency declarations.",
+        "Minecraft/NeoForge/Create runtime and gameplay not tested.",
+        "Unused template assets/language keys in JAR."
+      ],
+      "artwork": {
+        "A": "artwork/uncapped-windmill-bearing-A.png",
+        "B": "artwork/uncapped-windmill-bearing-B.png",
+        "selected": "A",
+        "reason": "The central rotor and bearing are more legible at card size; both options are conceptual generated artwork.",
+        "selected_site_asset": "/mods/oct14-r7-uncapped-windmill-bearing.webp",
+        "selected_sha256": "a26d133a69c3378ece0a5e56f468780735ee865b28efc1bbfa8615da9cae0d1c",
+        "dimensions": "768x768",
+        "prompts": [
+          "A: block-built workshop landscape with one prominent oversized windmill rotor on copper/brass/wood bearing; daylight, text-free voxel-inspired illustration.",
+          "B: close-up brass/copper bearing in foreground with giant windmill at sunset; text-free voxel-inspired illustration."
+        ]
+      },
+      "source_report": "mod_parent_review.json",
+      "prior_hold_preserved_in": "mod_recovered.json"
+    }
+  ],
+  "release": {
+    "source_commit": null,
+    "pull_request": null,
+    "pr_checks": null,
+    "merge_commit": null,
+    "production_deployment": null,
+    "deployment_status": "pending",
+    "live_verification": null
+  }
+}

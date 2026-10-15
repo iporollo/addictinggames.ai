@@ -1440,5 +1440,35 @@
     "image": "/mods/oct14-r4-baznotificationcenter.webp",
     "image_source": "https://bazaddons.com/wp-content/themes/bazaddons/assets/images/icons/baznotificationcenter.png",
     "image_alt": "Official BazNotificationCenter bronze bell icon"
+  },
+  {
+    "id": "uncapped-windmill-bearing",
+    "name": "Uncapped windmill bearing",
+    "game": "Minecraft",
+    "creator": "steban1705",
+    "profile": "https://modrinth.com/user/steban1705",
+    "post": "https://modrinth.com/mod/uncapped-windmill-bearing",
+    "ai_quote": "(this project is vibecoded)",
+    "ai_note": "The exact Modrinth project description calls this windmill-bearing mod vibecoded. It does not name the AI tool or describe individual generated files.",
+    "ai_source": "https://modrinth.com/mod/uncapped-windmill-bearing",
+    "listing": "https://modrinth.com/mod/uncapped-windmill-bearing",
+    "summary": "Adds an uncapped windmill bearing for larger Create wind turbines and contraptions.",
+    "changes": "Adds a new windmill-bearing block intended to let Create contraptions exceed the usual 8192 SU limit. The creator describes it as an extension to Create.",
+    "cost": "Price not confirmed",
+    "price_note": "The official Modrinth page offers the release file; no separate price statement was verified.",
+    "platform": "Minecraft Java · NeoForge · client and server",
+    "version": "1.0.0 · Minecraft 1.21.1 · NeoForge · requires Create",
+    "install": "Install the official v1.0.0 JAR from Modrinth for Minecraft 1.21.1 with NeoForge and Create. Modrinth marks Create as required, but the packaged NeoForge dependency metadata omits Create; manual installs without Create may fail. Runtime compatibility was not tested.",
+    "working_evidence": "The official project describes the new bearing and its intended effect. No independent successful-use report or in-game runtime test was verified.",
+    "security": "Codex Security completed scan 1972e9dd-8680-4095-a013-d91bef44fba9 on the exact official v1.0.0 JAR (10,981 bytes; SHA-256 c6a6630f75125021c2fe9f7de28e16bfcc03cb5d9acc8b0af479be925ec8c905; snapshot digest codex-security-snapshot/v1:sha256:1a4b8fc822832cedcf27ee8898d5814eb05c9cb80cbde6151c2772e42cabaeba). All 21 archive entries and all methods in the three class files received static inspection, with zero reportable findings. Minecraft, NeoForge, Create and runtime behavior were outside this scan.",
+    "warnings": [
+      "License metadata conflicts: the Modrinth project says MIT, while the exact JAR declares All Rights Reserved. Treat the license as unresolved and obtain creator clarification before reusing or redistributing the file; this site links to the official release and does not redistribute it.",
+      "Requires Minecraft 1.21.1, NeoForge and the Create mod. Modrinth declares Create as required, but the JAR omits it from embedded NeoForge dependencies; manual installs without Create may fail at class load.",
+      "The exact release passed a complete static Codex Security review with no reportable findings. This does not establish that it runs correctly or is safe under every runtime condition; no Minecraft installation or gameplay test was performed.",
+      "The JAR contains unused examplemod language keys and template assets; these did not produce a security finding."
+    ],
+    "released_at": "2026-06-16T20:17:35.665042Z",
+    "image": "/mods/oct14-r7-uncapped-windmill-bearing.webp",
+    "image_alt": "Illustration of a giant block-built windmill rotor and brass bearing."
   }
 ]
