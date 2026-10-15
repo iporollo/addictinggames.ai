@@ -14,6 +14,13 @@ export type DirectGame = {
 };
 
 const source: [string, string, string, string, string, string?][] = [
+  // October 15 held-queue recheck batch 2: creator AI evidence and guest input verified.
+  ["0808-2018-a", "0808-2018-a", "Adventure", "Uncover a mysterious tower story; flashing lights, loud sounds, horror, violence, and coarse language", "https://buttoncupcake.itch.io/0808-2018-a", "/games/oct14-r2-0808-2018-a.webp"],
+  ["castle-squads", "Castle Squads", "Strategy", "Command castle squads in a practice campaign; stylised blood and fallen soldiers", "https://thecrudeforge.itch.io/castle-squads", "/games/oct14-r2-castle-squads.webp"],
+  ["i-want-that-castle-now", "I want that castle NOW!", "Strategy", "Build a castle in a short tutorial battle; the creator recommends fullscreen", "https://megumih.itch.io/i-want-that-castle-now", "/games/oct14-r2-i-want-that-castle-now.webp"],
+  ["pitwall-f1-racer", "Pitwall - F1 Racer", "Racing", "Manage a fictional racing team and hire drivers; unofficial F1-inspired game", "https://icetraigh.itch.io/pitwall-f1-racer", "/games/oct14-r2-pitwall-f1-racer.webp"],
+  ["a-game-about-making-a-game", "A Game About Making a Game", "Simulators", "Build a game studio and make choices about its next release", "https://jkabz30.itch.io/a-game-about-making-a-game", "/games/oct14-r2-a-game-about-making-a-game.webp"],
+  ["el-laberinto-del-ratoncito-perez", "El Laberinto del Ratoncito Pérez", "Puzzle", "Guide a mouse through a maze to collect teeth", "https://javierferraz.com/ratoncito-perez/", "/games/oct14-r2-ratoncito-perez.webp"],
   // October 14 held-queue recheck batch 1: creator AI evidence and guest input verified.
   ["ghost-shift", "Ghost Shift", "Adventure", "Follow a museum ghost story; AI content and mild violence", "https://focaccai.itch.io/ghost-shift", "/games/oct14-r1-ghost-shift.webp"],
   ["ghostnn", "GhostNN", "Puzzle", "Move between network nodes; mobile controls are untested", "https://failedstalker.itch.io/ghostnn", "/games/oct14-r1-ghostnn.webp"],

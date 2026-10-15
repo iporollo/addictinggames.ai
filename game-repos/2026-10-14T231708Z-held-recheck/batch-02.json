@@ -1,0 +1,255 @@
+{
+  "run_id": "2026-10-14T231708Z-held-recheck",
+  "batch": 2,
+  "status": "prepared_not_published",
+  "campaign_deadline_utc": "2026-10-15T01:17:08Z",
+  "catalog_baseline": "origin/main c79bda522ea54f2a810be9e107d064e40444b12b",
+  "counts": {
+    "games": 6,
+    "mods": 1,
+    "combined": 7
+  },
+  "acceptance": "Game-specific creator AI evidence and responsive guest input/state; exact official mod release hash and complete bounded Codex Security Standard static review with public warnings. Runtime mod testing not claimed.",
+  "games": [
+    {
+      "id": "held-game-419",
+      "slug": "0808-2018-a",
+      "title": "0808-2018-a",
+      "category": "Adventure",
+      "destination": "https://buttoncupcake.itch.io/0808-2018-a",
+      "public_description": "Uncover a mysterious tower story; flashing lights, loud sounds, horror, violence, and coarse language",
+      "ai_authorship": {
+        "quote": "The visuals are post-processed AI generations. The 'robotic' voices are also AI-generated. I DO NOT SEE MYSELF AS FULLY OWNING THE VISUALS/SOUNDS.",
+        "source_url": "https://buttoncupcake.itch.io/0808-2018-a/devlog/1466891/details-on-ai-use-symbolic-imagery",
+        "source_type": "creator-authored game-specific AI-use devlog linked from exact itch.io game page",
+        "status": "verified_creator_game_specific_ai_assisted_asset_creation"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input": "In the guest embed, pressed Enter to complete/proceed through the creator note and disclaimer, clicked Start on the title menu, then pressed Enter to advance the visual-novel dialogue.",
+        "response": "The title menu entered the live Tower scene. Enter produced distinct in-game dialogue: 'Ouch... what happened?', then 'What is this place?', 'Why am I here?', and 'Who am I?' The scene and dialogue rendered without sign-in; advancing dialogue is the visual novel's primary interaction. No ending or later choice branch was played.",
+        "access": "guest_direct_player"
+      },
+      "warnings": [
+        "Creator's in-game disclaimer warns of occasional flashing lights/graphics and loud sounds; violence, horror elements, heavy themes including death, and coarse language; sudden images and loud sounds may feel jump-scare-like. It states no explicit sexual content and no explicit gore apart from blood.",
+        "The creator says the visuals and robotic voices are AI-generated and says they do not fully own those visuals/sounds; treat this as an asset-rights warning and do not assume the original cover art is cleared for reuse."
+      ],
+      "artwork": {
+        "site_asset": "/games/oct14-r2-0808-2018-a.webp",
+        "source_type": "generated_B_selected",
+        "source_url": null,
+        "sha256": "2fbccbb0f5cd0dca459ae58c1d63a6d0de6c91f02e1943f4f881c96f7297347d",
+        "dimensions": "716x504",
+        "ab_review": "Both generated options shown inline; B selected. Exact prompts and paths in local run artwork/0808-2018-a-ab.json."
+      },
+      "source_report": "play_c.json"
+    },
+    {
+      "id": "held-game-469",
+      "slug": "castle-squads",
+      "title": "Castle Squads",
+      "category": "Strategy",
+      "destination": "https://thecrudeforge.itch.io/castle-squads",
+      "public_description": "Command castle squads in a practice campaign; stylised blood and fallen soldiers",
+      "ai_authorship": {
+        "quote": "OpenAI Codex / ChatGPT: AI-assisted programming, planning, text and asset preparation. OpenAI ImageGen: original AI-generated artwork, with editing and compositing. PixelLab: sprite animations finalized using PixelLab; original artwork was AI-assisted illustration. Mureka: AI-generated music, prompted and selected by TheCrudeForge.",
+        "source_url": "https://thecrudeforge.itch.io/castle-squads",
+        "source_type": "creator-authored Credits & tools section on exact itch game page",
+        "status": "verified_creator_game_specific_ai_assisted_programming_art_and_music"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input": "Clicked Start Game on the title menu.",
+        "response": "The player transitioned to Practice 1/24, showing the playable castle battlefield and the tutorial objective “Move Around the Map.” The creator describes controls as mouse/touch, including drag to pan and command placement. A bounded map-drag follow-up in the hidden browser displayed a Resume/Restart Run pause panel, so map movement itself was not confirmed; the title-to-practice transition is the sole gameplay acceptance evidence.",
+        "access": "guest_direct_player"
+      },
+      "warnings": [
+        "Creator content note: stylised blood effects and fallen soldiers.",
+        "The game starts with a 24-step practice tutorial; only the title-to-practice transition was verified. The follow-up background pan attempt opened a Resume/Restart Run panel, so movement was not independently confirmed.",
+        "The creator credits several third-party CC0/CC BY audio assets and a Google Fonts typeface; art/game authorship remains separate from those attribution terms."
+      ],
+      "artwork": {
+        "site_asset": "/games/oct14-r2-castle-squads.webp",
+        "source_type": "creator_published_cover",
+        "source_url": "https://img.itch.zone/aW1nLzMwMzQ4NzM5LnBuZw==/original/JeK1CY.png",
+        "sha256": "3720ab019131b60b3eb75eb01755330e70b031feac1c811e704b8b1195c01fbc",
+        "dimensions": "716x504"
+      },
+      "source_report": "play_b.json"
+    },
+    {
+      "id": "held-game-467",
+      "slug": "i-want-that-castle-now",
+      "title": "I want that castle NOW!",
+      "category": "Strategy",
+      "destination": "https://megumih.itch.io/i-want-that-castle-now",
+      "public_description": "Build a castle in a short tutorial battle; the creator recommends fullscreen",
+      "ai_authorship": {
+        "quote": "AI Tools Used: Claude (Sonnet & Opus both 5.5) & ElevenLabs (Voice).",
+        "source_url": "https://megumih.itch.io/i-want-that-castle-now",
+        "source_type": "creator-authored game page AI Tools Used section",
+        "status": "verified_creator_game_specific_ai_tool_use"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input": "Selected Play against the AI, then dragged the Farm card onto the open center plot in the tutorial match.",
+        "response": "The game entered the live castle-building board. The Farm appeared on the selected plot, the tutorial advanced to Master Tuto 1/19, the timer reached 0:06, and gold changed from 80 to 36.",
+        "access": "guest_direct_player"
+      },
+      "warnings": [
+        "Creator page lists Claude (Sonnet and Opus 5.5) and ElevenLabs (Voice) as game-specific AI tools; only ElevenLabs is explicitly scoped to voice.",
+        "Creator says the game is vertical and recommends fullscreen; controls use mouse or touch, with no keyboard required for play.",
+        "The playtest entered the tutorial and verified a structure placement; tutorial completion and online multiplayer were not tested."
+      ],
+      "artwork": {
+        "site_asset": "/games/oct14-r2-i-want-that-castle-now.webp",
+        "source_type": "creator_published_cover",
+        "source_url": "https://img.itch.zone/aW1nLzMwNDAzODA4LmpwZw==/original/l4NtFr.jpg",
+        "sha256": "25f9d2a696493f4ce8bb1528b0a5d4775f2cb522d504fbc741a87daf2aec20ab",
+        "dimensions": "716x504"
+      },
+      "source_report": "play_b.json"
+    },
+    {
+      "id": "held-game-405",
+      "slug": "pitwall-f1-racer",
+      "title": "Pitwall - F1 Racer",
+      "category": "Racing",
+      "destination": "https://icetraigh.itch.io/pitwall-f1-racer",
+      "public_description": "Manage a fictional racing team and hire drivers; unofficial F1-inspired game",
+      "ai_authorship": {
+        "quote": "AI Disclosure: AI Assisted; Code, Graphics, Sounds, Text.",
+        "source_url": "https://icetraigh.itch.io/pitwall-f1-racer",
+        "source_type": "official itch.io AI Disclosure field for this game",
+        "status": "verified_creator_statement"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input": "Clicked New Game, started the default season, then hired Lila Chen from the driver market.",
+        "response": "The season grid loaded with a $9.6M budget and an empty garage. Hiring Lila Chen produced “Lila Chen signed,” changed the budget to $8.994M, and filled seat 1.",
+        "access": "Guest HTML5 iframe on the official itch page."
+      },
+      "warnings": [
+        "The title references F1; the tested season used fictional teams and drivers. I did not assess brand assets beyond the tested screen or infer official affiliation."
+      ],
+      "artwork": {
+        "site_asset": "/games/oct14-r2-pitwall-f1-racer.webp",
+        "source_type": "creator_published_cover",
+        "source_url": "https://img.itch.zone/aW1nLzMwMDE4MTA3LmpwZw==/original/DujG%2BG.jpg",
+        "sha256": "7bc615a30837e9f586d1eb4ff6946402058f1a5c0fafb1eeb744f87d6d7c0e29",
+        "dimensions": "716x504"
+      },
+      "source_report": "play_d.json"
+    },
+    {
+      "id": "held-game-346",
+      "slug": "a-game-about-making-a-game",
+      "title": "A Game About Making a Game",
+      "category": "Simulators",
+      "destination": "https://jkabz30.itch.io/a-game-about-making-a-game",
+      "public_description": "Build a game studio and make choices about its next release",
+      "ai_authorship": {
+        "quote": "I made this with Claude and it's my first AI - Generated game!",
+        "source_url": "https://jkabz30.itch.io/a-game-about-making-a-game",
+        "source_type": "official itch.io game page",
+        "status": "verified_creator_statement",
+        "quote_type": "excerpt; full creator statement retained in local run evidence"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input": "Selected PC, chose a 2024 start, began the story, named Game 1 'Null's Keyboard', and chose 'Ignore it' at the GameCorp follow event.",
+        "response": "The flow reached the studio management game (Week 1, Game 1 of 3). Submitting the name triggered a GameCorp event with three responses; choosing Ignore it advanced to the genre-selection screen.",
+        "access": "Guest HTML5 build in the creator page iframe."
+      },
+      "warnings": [],
+      "artwork": {
+        "site_asset": "/games/oct14-r2-a-game-about-making-a-game.webp",
+        "source_type": "creator_published_cover",
+        "source_url": "https://img.itch.zone/aW1nLzI2NTc0MzIxLnBuZw==/original/V9AhmE.png",
+        "sha256": "6ee33dbb2b14caea88e5505397b79b368084561689376514fa2a65733b7009c0",
+        "dimensions": "716x504"
+      },
+      "source_report": "play_d.json"
+    },
+    {
+      "id": "held-game-435",
+      "slug": "el-laberinto-del-ratoncito-perez",
+      "title": "El Laberinto del Ratoncito Pérez",
+      "category": "Puzzle",
+      "destination": "https://javierferraz.com/ratoncito-perez/",
+      "public_description": "Guide a mouse through a maze to collect teeth",
+      "ai_authorship": {
+        "quote": "Se me ocurrió pedirle a Claude montar un juego de laberinto donde el ratón tuviera que llegar hasta el diente",
+        "source_url": "https://www.javierferraz.com/juego-de-laberinto-del-ratoncito-perez-con-claude/",
+        "source_type": "creator blog post about the exact game",
+        "status": "verified"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input": "Opened the creator-linked maze without account or name form, held ArrowRight for about 0.5 seconds.",
+        "response": "The mouse avatar moved horizontally along the top corridor from near the left starting corner toward the first vertical wall while level N1, 0/6 teeth, and hearts remained displayed. A prior ArrowDown attempt did not move the avatar because the start path is horizontal.",
+        "access": "guest_direct_play"
+      },
+      "warnings": [],
+      "artwork": {
+        "site_asset": "/games/oct14-r2-ratoncito-perez.webp",
+        "source_type": "creator_published_cover",
+        "source_url": "https://www.javierferraz.com/wp-content/uploads/2026/06/juego-ratoncito-perez.png",
+        "sha256": "7ece232e53897606385817e14f7cea48ff81b8df6fe6470a776417c1311a58dc",
+        "dimensions": "716x504"
+      },
+      "source_report": "play_parent_handoff.json"
+    }
+  ],
+  "mods": [
+    {
+      "id": "held-game-100",
+      "slug": "miikeskii-qol-pack",
+      "title": "miikeskii’s QoL Pack",
+      "listing": "https://thunderstore.io/c/valheim/p/miikeskii/miikeskiis_QoL_Pack/",
+      "release": "https://thunderstore.io/c/valheim/p/miikeskii/miikeskiis_QoL_Pack/v/0.57.1/",
+      "ai_authorship": {
+        "quote": "The code was written by Claude, Anthropic’s AI (the Claude Opus 5 and Opus 5.5 models, working as Claude Code agents), for miikeskii.",
+        "source_url": "https://github.com/MDombkowski/miikeskiis_QoL_Pack#readme"
+      },
+      "official_release": {
+        "version": "0.57.1",
+        "file": "miikeskiis_QoL_Pack-0.57.1.zip",
+        "sha256": "4fa1473b3ebe087a0712d89a8b7545ab3f06bed963eb32f9fe7d03b846f7b7d6",
+        "sha512": "aafe347413797e1770e232ef07dd3345b8f4485da94b7aa66d8f25f32a7f9848896da9ab4c15623f5ba94eff60cd2a4c57b1f68da58973d99decb322b344f0b6",
+        "hash_verified": true
+      },
+      "security_review": {
+        "status": "complete_no_reportable_findings_full_static_coverage",
+        "scan_id": "735ead25-cfa8-428b-ad94-b7628a68adda",
+        "findings_count": 0,
+        "coverage": "complete",
+        "runtime_tested": false
+      },
+      "warnings": [
+        "This is a 28-mod client-side collection. Remove duplicate standalone mods before using the bundled versions; the pack is designed not to require installation on the server or other players.",
+        "Requires Valheim with BepInExPack 5.4.2350 and Jötunn 2.30.2.",
+        "XPortal Map Picker reflects into XPortal 1.2.25, which the package credits as required, but XPortal is absent from the Thunderstore manifest dependency list; the picker may need XPortal installed separately.",
+        "The README documents interactions to consider: shared chest transfer waits until the game releases the chest; other loose-item mods may conflict; another mod scanning all dropped items may freeze on large deposits; crops beneath cage floors die for clients without Bar None.",
+        "The package includes GPL-3.0 and credits copied/adapted and runtime-integrated components. No license finding was identified in this review; retain the included license and credits if redistributing.",
+        "The exact release passed complete static security review, but Valheim installation, compatibility, runtime behavior, and gameplay were not tested."
+      ],
+      "artwork": {
+        "site_asset": "/mods/oct14-r2-miikeskii-qol-pack.webp",
+        "source_type": "official_Thunderstore_icon",
+        "source_url": "https://ccdn.thunderstore.io/live/repository/icons/miikeskii-miikeskiis_QoL_Pack-0.57.1.png",
+        "sha256": "ec6b748ec5bd3f0ab0bfe46f92c99248360dcbdfcb32356603729596359ff163",
+        "dimensions": "768x768"
+      }
+    }
+  ],
+  "release": {
+    "source_commit": null,
+    "pull_request": null,
+    "pr_checks": null,
+    "merge_commit": null,
+    "production_deployment": null,
+    "deployment_status": "pending",
+    "live_verification": null
+  }
+}
