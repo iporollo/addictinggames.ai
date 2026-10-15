@@ -1407,5 +1407,38 @@
     "image": "/mods/oct14-r2-miikeskii-qol-pack.webp",
     "image_source": "https://ccdn.thunderstore.io/live/repository/icons/miikeskii-miikeskiis_QoL_Pack-0.57.1.png",
     "image_alt": "Official QoL icon: a shield-like brown and red emblem above a QoL banner."
+  },
+  {
+    "id": "baznotificationcenter",
+    "name": "BazNotificationCenter",
+    "game": "World of Warcraft",
+    "creator": "Baz4k",
+    "profile": "https://www.curseforge.com/wow/addons/baznotificationcenter",
+    "post": "https://www.curseforge.com/wow/addons/baznotificationcenter/files/8868696",
+    "ai_quote": "Co-Authored-By: Claude Opus 4.6 (1M context)",
+    "ai_note": "The creator’s v002 release note credits Claude on this exact addon; the linked current v032 ZIP was reviewed as a separate exact artifact. The creator did not claim all v032 code was AI-written.",
+    "ai_source": "https://www.curseforge.com/wow/addons/baznotificationcenter/files/7887932",
+    "listing": "https://www.curseforge.com/wow/addons/baznotificationcenter",
+    "repo": "https://github.com/BazAddons/BazNotificationCenter",
+    "summary": "Consolidates WoW Retail loot, quest, auction, mail, and social alerts into configurable toasts and a local history panel.",
+    "changes": "Adds notifications for many WoW events, a toast panel, searchable local history, and settings for alert categories and display behavior.",
+    "cost": "Price not confirmed",
+    "price_note": "The official CurseForge release offers a download; no explicit price field was verified.",
+    "platform": "World of Warcraft Retail · addon",
+    "version": "032 · WoW Retail 12.1.0 · requires BazCore",
+    "install": "Install official v032 from CurseForge with BazCore. The CurseForge app lists automatic BazCore installation; manual users must install it separately. Review default Auto Loot and loot-window settings before enabling. No runtime installation or gameplay test was performed.",
+    "working_evidence": "The official listing describes the addon’s event and notification features. No in-game compatibility or working-use report was verified during this review.",
+    "security": "Codex Security Standard completed scan c5a98fa8-5155-4fcc-8fdd-15d1e7d015f4 on the exact official v032 ZIP (file ID 8868696, 131596 bytes, computed SHA-256 1a29d435746928050adce8cd97c7b893c67be9d1904e8f5cb30f3051a6258cbe). Static coverage of all 68 extracted files was complete, with two low-severity findings: remote whisper markup may spoof notification display (medium confidence), and persistent history has retention but no per-day size cap (high confidence). No high-risk exfiltration or code-execution path was found in this package. The publisher did not expose a checksum; this digest was computed from the official CDN download. BazCore, source-to-release equivalence, and runtime behavior were outside scope.",
+    "warnings": [
+      "Requires BazCore, a separate addon; CurseForge says its app installs this dependency automatically, while manual users must install it separately.",
+      "Auto Loot is enabled by default and the addon sets the global WoW autoLootDefault CVar to 1. Default settings hide Blizzard’s loot window and loot popups.",
+      "Notification history stores titles, messages, icons, priorities and timestamps locally in SavedVariables for 7 days by default; users may configure 1–90 days and clear it.",
+      "Low-severity static finding: remote whisper formatting is passed to WoW notification text without markup neutralization. It may spoof or distort display; no code-execution path was found, and runtime rendering was not tested.",
+      "Low-severity static finding: retained notification history has no per-day entry or byte limit. Sustained events may enlarge local SavedVariables and slow history or persistence work.",
+      "The exact v032 ZIP passed a complete static scan with the two findings above. BazCore, in-game runtime/compatibility, and source-to-release equivalence were not tested. CurseForge published no checksum on the reviewed page; the displayed SHA-256 is our digest of the official CDN file."
+    ],
+    "image": "/mods/oct14-r4-baznotificationcenter.webp",
+    "image_source": "https://bazaddons.com/wp-content/themes/bazaddons/assets/images/icons/baznotificationcenter.png",
+    "image_alt": "Official BazNotificationCenter bronze bell icon"
   }
 ]
