@@ -14,6 +14,13 @@ export type DirectGame = {
 };
 
 const source: [string, string, string, string, string, string?][] = [
+  // October 15 held-queue recheck batch 6: second-pass guest gameplay verified.
+  ["seed-keeper", "Seed Keeper", "Puzzle", "Plan pumpkin parentage and deliveries across three garden puzzles", "https://sloaneharrington.itch.io/seed-keeper", "/games/oct14-r6-seed-keeper.webp"],
+  ["where-morning-breaks", "Where Morning Breaks", "Adventure", "Begin a narrated fantasy story about a young witch and a cat", "https://brokenprevailer.itch.io/where-morning-breaks", "/games/oct14-r6-where-morning-breaks.webp"],
+  ["pocket-dice-hero", "Pocket Dice Hero", "Strategy", "Roll and lock dice to fight through a fantasy dungeon", "https://miraji.itch.io/pocket-dice-hero", "/games/oct14-r6-pocket-dice-hero.webp"],
+  ["castle-rivals", "Castle Rivals", "Strategy", "Fire runes and projectiles in a local castle duel", "https://thanh-nguyen-kim.itch.io/castle-rivals", "/games/oct14-r6-castle-rivals.webp"],
+  ["killingmosquitoe", "KillingMosquitoe", "Arcade", "Swat moving mosquitoes in a short browser game", "https://cyberwaving.itch.io/killingmosquit", "/games/oct14-r6-killingmosquitoe.webp"],
+  ["tainted-blood", "Tainted Blood", "Adventure", "Read a psychological horror visual novel about a haunted family", "https://storytellermeeka.itch.io/tainted-blood", "/games/oct14-r6-tainted-blood.webp"],
   // October 15 held-queue recheck batch 5: creator AI evidence and guest input verified.
   ["tiny-necromancer", "Tiny Necromancer", "Tower Defense", "Fire spells to defend an undead castle through a seven-wave run", "https://dylanh.itch.io/tiny-necromancer", "/games/oct14-r5-tiny-necromancer.webp"],
   ["wubao-eastern-castle-merge", "WUBAO — Eastern Castle Merge", "Puzzle", "Move and merge castle pieces in a portrait game; AI-assisted code, art and text", "https://superannni.itch.io/wubao-eastern-castle-merge", "/games/oct14-r5-wubao-eastern-castle-merge.webp"],
@@ -457,6 +464,12 @@ const source: [string, string, string, string, string, string?][] = [
 ];
 
 const reviewNotes: Record<string, string> = {
+  'seed-keeper': 'Turn-based garden puzzle. The short guest test entered Garden 1 but did not complete the parentage and delivery loop. Creator credits an autonomous AI agent and generative AI for code, writing, and vector graphics.',
+  'where-morning-breaks': 'Unity startup may take time. The short guest test opened the first narrated scene but did not verify later dialogue or story mechanics. Creator credits AI tools for all artwork and ChatGPT for code and story.',
+  'pocket-dice-hero': 'Cartoon fantasy combat. The short guest test reached a live dice turn and rerolled two dice but did not complete the dungeon. The creator warns translations may contain errors and says many visual assets are AI-assisted; no AI code claim was made.',
+  'castle-rivals': 'Medieval artillery destroys castle structures; no blood was seen in the short guest test. The test started a local duel and fired one shot, but did not complete the match. The creator says no accounts or online multiplayer are used.',
+  'killingmosquitoe': 'The creator labels this game in development and plans more features. AI-assisted code is disclosed on the exact game page, while QWEN’s precise role is unspecified. A mouse swat animated in the short test, but no successful hit was recorded.',
+  'tainted-blood': 'Content warning: psychological horror, dynastic murder, family betrayal, body horror, institutional abuse, and misogyny; the creator says there is no sexual content. The short guest test advanced opening dialogue only. Some menu glyphs rendered as empty boxes. The creator credits AI-assisted visual and audio assets, a human-written script, and some Creative Commons audio sources.',
   'castle-crusher': 'The creator says the current release contains only the pagan kingdom.',
   'lantern-keep': 'The creator says this game has no audio.',
   'medieval-motor-club': 'Portrait orientation is recommended. A player reported poor performance on some devices; performance may vary.',
