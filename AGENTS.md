@@ -3,7 +3,7 @@
 ## Product and purpose
 
 AddictingGames.ai is a browser-game arcade focused on games created with AI.
-Players discover games through Featured, New Games, genre browsing, and human multiplayer filters.
+Players discover games through Hot Right Now, New Games, genre browsing, and human multiplayer filters.
 Games either run in the site's restricted player or open the creator's original site.
 The site curates and links games; routine catalog work does not import or execute upstream game source.
 New candidates require explicit, game-specific AI-authorship evidence and gameplay acceptance.
