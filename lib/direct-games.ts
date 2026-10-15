@@ -14,6 +14,12 @@ export type DirectGame = {
 };
 
 const source: [string, string, string, string, string, string?][] = [
+  // October 15 held-queue recheck batch 3: creator AI evidence and guest input verified.
+  ["return-to-castle-hu-nam", "Return To Castle Hu-Nam", "Action", "Fire plasma through an office invasion; early Wolfenstein parody title", "https://exedexes1.itch.io/return-to-castle-hu-nam", "/games/oct14-r3-return-to-castle-hu-nam.webp"],
+  ["quantum-foam-dive", "Quantum Foam Dive", "Educational", "Start a passive science dive and watch depth and score rise", "https://exedexes1.itch.io/quantum-foam-dive", "/games/oct14-r3-quantum-foam-dive.webp"],
+  ["smokestack", "Smokestack", "Arcade", "Drop slabs to build a tower in an AI agent-made game", "https://smokeyai.itch.io/smokestack", "/games/oct14-r3-smokestack.webp"],
+  ["ashen-rampart", "ASHEN RAMPART", "Action", "Defend a dark fantasy rampart; AI-assisted art, sound and voice", "https://haruka-apps-games.itch.io/ashen-rampart", "/games/oct14-r3-ashen-rampart.webp"],
+  ["brainrot-merge", "Brainrot Merge", "Casual", "Drop and merge viral meme characters; third-party character rights unreviewed", "https://mrgabas.itch.io/brainrot-merge", "/games/oct14-r3-brainrot-merge.webp"],
   // October 15 held-queue recheck batch 2: creator AI evidence and guest input verified.
   ["0808-2018-a", "0808-2018-a", "Adventure", "Uncover a mysterious tower story; flashing lights, loud sounds, horror, violence, and coarse language", "https://buttoncupcake.itch.io/0808-2018-a", "/games/oct14-r2-0808-2018-a.webp"],
   ["castle-squads", "Castle Squads", "Strategy", "Command castle squads in a practice campaign; stylised blood and fallen soldiers", "https://thecrudeforge.itch.io/castle-squads", "/games/oct14-r2-castle-squads.webp"],
