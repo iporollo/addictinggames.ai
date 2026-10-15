@@ -1,0 +1,218 @@
+{
+  "run_id": "2026-10-14T231708Z-held-recheck",
+  "batch": 6,
+  "status": "prepared_not_published",
+  "campaign_deadline_utc": "2026-10-15T01:17:08Z",
+  "catalog_baseline": "origin/main 1f0eebaa25950bd40ae2a26050f8b7679dde20c1",
+  "counts": {
+    "games": 6,
+    "mods": 0,
+    "combined": 6
+  },
+  "acceptance": "Game-specific creator AI evidence and responsive guest input/state; warnings and the precise limits of each test retained.",
+  "games": [
+    {
+      "id": "held-game-329",
+      "slug": "seed-keeper",
+      "title": "Seed Keeper",
+      "category": "Puzzle",
+      "destination": "https://sloaneharrington.itch.io/seed-keeper",
+      "public_description": "Plan pumpkin parentage and deliveries across three garden puzzles",
+      "ai_authorship": {
+        "quote": "Code, writing, and original vector graphics were created by Sloane Harrington, an autonomous AI CEO agent, with bounded AI review and a local text model. Technical tests are synthetic, not evidence of human enjoyment. No human creative authorship is claimed. This game was created with generative AI.",
+        "source_url": "https://sloaneharrington.itch.io/seed-keeper",
+        "source_type": "official itch.io game page",
+        "status": "verified_creator_statement"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input": "With temporary focus emulation enabled, clicked at the observed center of the visible “Open the gate” button using CDP pointer input.",
+        "response": "The title/instructions screen changed to “GARDEN 1 OF 3 · DAY 1 OF 2 — The gatehouse.” A playable planning screen appeared with today/tomorrow orders, two grown pumpkins, and interactive rind-parent, mark-parent, and delivery controls. Screenshot visually confirmed the changed state. Focus emulation was disabled immediately after the click/verification.",
+        "access": "Guest direct HTML5 game URL; no account gate"
+      },
+      "warnings": [
+        "Creator credits an autonomous AI agent for code, writing, and original vector graphics; preserve that exact attribution.",
+        "Three-garden puzzle asks players to plan pumpkin rind/mark inheritance and deliveries; full loop not tested."
+      ],
+      "artwork": {
+        "site_asset": "/games/oct14-r6-seed-keeper.webp",
+        "source_type": "creator_published_cover_with_blurred_sides",
+        "source_url": "https://img.itch.zone/aW1nLzMwNzE2OTM3LnBuZw==/original/EWqwIA.png",
+        "sha256": "032052eaaacd5b51c8e4e8ff79e271502e09a7f04d3784ced8dac52c6873c14f",
+        "dimensions": "716x504"
+      },
+      "source_report": "play_rescue_a.json"
+    },
+    {
+      "id": "held-game-345",
+      "slug": "where-morning-breaks",
+      "title": "Where Morning Breaks",
+      "category": "Adventure",
+      "destination": "https://brokenprevailer.itch.io/where-morning-breaks",
+      "public_description": "Begin a narrated fantasy story about a young witch and a cat",
+      "ai_authorship": {
+        "quote": "All assets were created using AI tools and are not original artwork. Code - ChatGPT. Story - ChatGPT.",
+        "source_url": "https://brokenprevailer.itch.io/where-morning-breaks",
+        "source_type": "official itch.io game page",
+        "status": "verified_creator_statement"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input": "After Unity finished loading its title scene, enabled temporary focus emulation and clicked the visible Play button at its observed canvas position (CSS viewport center approximately x=415, y=396).",
+        "response": "The title artwork was replaced by a town scene with a lower-screen “Narrator” panel and story text. This was a visible title-to-intro state transition in the guest build.",
+        "access": "Guest direct Unity HTML5 player"
+      },
+      "warnings": [
+        "Unity HTML5 startup took about 20 seconds before the guest title was ready.",
+        "Creator states AI tools created all assets and were used for code and story; “assets ... are not original artwork.” Preserve the creator’s exact attribution and scope.",
+        "Only the title-to-narrative start transition was verified; later dialogue and core game mechanics remain untested."
+      ],
+      "artwork": {
+        "site_asset": "/games/oct14-r6-where-morning-breaks.webp",
+        "source_type": "creator_published_cover_with_blurred_sides",
+        "source_url": "https://img.itch.zone/aW1nLzI3ODQzMDM4LnBuZw==/original/tEPKln.png",
+        "sha256": "3fa191432f7d5776331c771ab144d5e8e9fd27e36ed22e758310b482452038ab",
+        "dimensions": "716x504"
+      },
+      "source_report": "play_rescue_a.json"
+    },
+    {
+      "id": "held-game-417",
+      "slug": "pocket-dice-hero",
+      "title": "Pocket Dice Hero",
+      "category": "Strategy",
+      "destination": "https://miraji.itch.io/pocket-dice-hero",
+      "public_description": "Roll and lock dice to fight through a fantasy dungeon",
+      "ai_authorship": {
+        "quote": "Many visual assets in the current build are AI-assisted due to limited art resources.",
+        "source_url": "https://miraji.itch.io/pocket-dice-hero",
+        "source_type": "creator-authored description on the exact itch.io game page",
+        "status": "creator_game_specific_ai_visual_contribution_verified"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input": "In the existing agheld_b tab, clicked the centered Play control, selected Classic Mode, clicked Start, chose the Combat path, clicked the highlighted sword item, advanced the tutorial prompt, locked dice 1, 2, and 4 showing 4s, and clicked Roll Dice.",
+        "response": "Entered a live Warrior turn on Floor 1/35 against a Slime (40/40 HP; player 50/50). Initial dice showed 4, 4, 1, 4, 5. After locking the three 4s and rolling, the two unlocked dice changed to 2 and 2 while the locked 4s remained; the tutorial displayed “We're lucky enough to have rolled a Full House... And that's a Full House!” No account or payment gate appeared.",
+        "access": "guest_direct_html_player"
+      },
+      "warnings": [
+        "Creator warns that translations may contain errors.",
+        "Creator describes the AI contribution as visual-asset assistance; do not imply AI-authored game code."
+      ],
+      "artwork": {
+        "site_asset": "/games/oct14-r6-pocket-dice-hero.webp",
+        "source_type": "creator_published_cover_with_blurred_sides",
+        "source_url": "https://img.itch.zone/aW1nLzMwNTE2MzQ2LnBuZw==/original/f2NZVL.png",
+        "sha256": "f3c5d4da736f5de54e851622c7b3c2d7fb4b2a7912592d162d74b45dd9730ca5",
+        "dimensions": "716x504"
+      },
+      "source_report": "play_rescue_b.json"
+    },
+    {
+      "id": "held-game-461",
+      "slug": "castle-rivals",
+      "title": "Castle Rivals",
+      "category": "Strategy",
+      "destination": "https://thanh-nguyen-kim.itch.io/castle-rivals",
+      "public_description": "Fire runes and projectiles in a local castle duel",
+      "ai_authorship": {
+        "quote": "Made with AI. This project use a combination of AI tools and agents such as Gemini to build the initial game idea, ChatGPT for detail Game Design Document, rosebud.ai for the base prototype and Claude for final touch. I test the game and give the AI the implement direction.",
+        "source_url": "https://thanh-nguyen-kim.itch.io/castle-rivals",
+        "source_type": "creator-authored description on the exact itch.io game page",
+        "status": "creator_game_specific_ai_creation_verified"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input": "Used the default “Blue Keep” name and You vs AI match type, clicked Start duel in the modal, then clicked FIRE on the live turn 1/26 screen.",
+        "response": "Guest play entered a live duel with Blue Keep and Rose Keep cores both at 20/20. The first turn showed “TURN 1/26 · YOUR SHOT.” FIRE changed the status to “TURN 1/26 · SHOTS AWAY — Projectile and rune effects are resolving,” with a visible shot arc toward the rival castle. The creator page says there are no accounts or purchases; none were used.",
+        "access": "guest_direct_itch_player"
+      },
+      "warnings": [
+        "Medieval artillery combat destroys castle structures; no blood or graphic violence was visible in the brief turn."
+      ],
+      "artwork": {
+        "site_asset": "/games/oct14-r6-castle-rivals.webp",
+        "source_type": "creator_published_cover_with_blurred_sides",
+        "source_url": "https://img.itch.zone/aW1nLzMwNDAxODY1LnBuZw==/original/NXMMXS.png",
+        "sha256": "befb11da03b79c0c3bd2749ed78b0abaacd2fc8309b36a6171bf15bb8989ba97",
+        "dimensions": "716x504"
+      },
+      "source_report": "play_rescue_b.json"
+    },
+    {
+      "id": "held-game-424",
+      "slug": "killingmosquitoe",
+      "title": "KillingMosquitoe",
+      "category": "Arcade",
+      "destination": "https://cyberwaving.itch.io/killingmosquit",
+      "public_description": "Swat moving mosquitoes in a short browser game",
+      "ai_authorship": {
+        "quote": "AI Disclosure | AI Assisted | Code; Due to the issue of using a mobile phone number for registration, the international version of QWEN cannot be used. Instead, some internal QWEN models in China were employed.",
+        "source_url": "https://cyberwaving.itch.io/killingmosquit",
+        "source_type": "creator-supplied AI Disclosure and creator-authored description on the exact itch.io game page",
+        "status": "verified_creator_game_specific_ai_assisted_code_disclosure"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input": "Opened Run game to launch the browser build, then clicked the live playfield near a visible mosquito once using the creator-described mouse controls.",
+        "response": "The game showed an on-field hand-swat animation and continued running with mosquitoes moving across the scene. HUD showed Health 100/100, Smashed 0, Bitten 0, Money 0; the click did not register as a kill, so no successful hit is claimed.",
+        "access": "guest_direct_player"
+      },
+      "warnings": [
+        "Creator says only about one and a half days remained to complete production and that features and improvements would continue; page status is In development.",
+        "QWEN use is explicit, but the creator does not identify whether it generated or assisted code, graphics, or another part of this game."
+      ],
+      "artwork": {
+        "site_asset": "/games/oct14-r6-killingmosquitoe.webp",
+        "source_type": "creator_published_cover_with_blurred_sides",
+        "source_url": "https://img.itch.zone/aW1nLzI5NzAyMDI1LnBuZw==/original/bblTiP.png",
+        "sha256": "3757cc8b46705e02373bc8cc51301ee2085cd2781e7fa5b46710da18b06b52d4",
+        "dimensions": "716x504"
+      },
+      "source_report": "source_rescue_c.json"
+    },
+    {
+      "id": "held-game-471",
+      "slug": "tainted-blood",
+      "title": "Tainted Blood",
+      "category": "Adventure",
+      "destination": "https://storytellermeeka.itch.io/tainted-blood",
+      "public_description": "Read a psychological horror visual novel about a haunted family",
+      "ai_authorship": {
+        "quote": "AI- and tool-assisted, then hand-finished by me: Backgrounds & character art — generated with Gemini / perchance / app.artificialstudio.ai, then processed by hand: background removal (rembg), AI depth maps for the parallax layers, compositing, colour-grading, and cropping. Audio & ambience — synthesized and edited in Audacity; some elements sourced from freesound.org (Creative Commons). The shipped script is human-written; AI produced raw visual and audio material that I directed, corrected, and assembled.",
+        "source_url": "https://storytellermeeka.itch.io/tainted-blood",
+        "source_type": "creator-authored description on the exact itch.io game page",
+        "status": "creator_game_specific_ai_visual_and_audio_contribution_verified"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input": "Loaded the guest player, selected Start, then pressed Enter once when the menu click did not advance.",
+        "response": "The menu transitioned into the visual-novel story scene: a rainy temple garden appeared with readable dialogue and the narrative controls (Back, History, Skip, Auto, Save, Load, Prefs). A second Enter advanced to a different dialogue passage. This verifies the story is loaded and responsive; no account or payment gate appeared.",
+        "access": "guest_direct_itch_player"
+      },
+      "warnings": [
+        "Psychological horror, dynastic murder, family betrayal, body horror, institutional abuse, and misogyny; the creator says there is no sexual content.",
+        "Visual novel dialogue is readable in the tested scene; some top-right menu glyphs appeared as empty boxes in the observed player rendering.",
+        "Creator says AI contributed visual and audio material; the shipped script is human-written."
+      ],
+      "artwork": {
+        "site_asset": "/games/oct14-r6-tainted-blood.webp",
+        "source_type": "creator_published_cover_with_blurred_sides",
+        "source_url": "https://img.itch.zone/aW1nLzI5OTgxOTA0LmpwZw==/original/KNov7U.jpg",
+        "sha256": "df7044d59ce5c91a366648bf03159ee37661197f2c5ceffe54b9a1e94b091e7b",
+        "dimensions": "716x504"
+      },
+      "source_report": "play_rescue_b.json"
+    }
+  ],
+  "mods": [],
+  "release": {
+    "source_commit": null,
+    "pull_request": null,
+    "pr_checks": null,
+    "merge_commit": null,
+    "production_deployment": null,
+    "deployment_status": "pending",
+    "live_verification": null
+  }
+}

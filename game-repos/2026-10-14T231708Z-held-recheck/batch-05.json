@@ -1,7 +1,7 @@
 {
   "run_id": "2026-10-14T231708Z-held-recheck",
   "batch": 5,
-  "status": "prepared_not_published",
+  "status": "live_verified",
   "campaign_deadline_utc": "2026-10-15T01:17:08Z",
   "catalog_baseline": "origin/main f754156008b47a00988c9d3802e2fd549d848d3f",
   "counts": {
@@ -177,12 +177,18 @@
   ],
   "mods": [],
   "release": {
-    "source_commit": null,
-    "pull_request": null,
-    "pr_checks": null,
-    "merge_commit": null,
-    "production_deployment": null,
-    "deployment_status": "pending",
-    "live_verification": null
+    "source_commit": "568363dabf44cffcc014d559a07637a41494ef39",
+    "pull_request": "https://github.com/iporollo/addictinggames.ai/pull/69",
+    "pr_checks": "GitHub validate and Vercel preview passed",
+    "merge_commit": "1f0eebaa25950bd40ae2a26050f8b7679dde20c1",
+    "merged_at_utc": "2026-10-15T00:44:21Z",
+    "production_deployment": 7080847405,
+    "deployment_status": "success",
+    "live_verification": {
+      "games_listing_http": 200,
+      "game_destinations_and_asset_paths": 5,
+      "game_assets_http_200_sha256_and_716x504": 5,
+      "verified_at_utc": "2026-10-15T00:45:40Z"
+    }
   }
 }
