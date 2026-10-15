@@ -1373,5 +1373,39 @@
     "image": "/mods/oct14-b3-createconnected-and-destroy-compat-fix.webp",
     "image_source": "https://cdn.modrinth.com/data/aMDomE4d/5407338bf86333b03e25114de4118b7d3ae10c9b_96.webp",
     "image_alt": "Сreate:Connected Vessel compat fix official Modrinth icon"
+  },
+  {
+    "id": "miikeskii-qol-pack",
+    "name": "miikeskii’s QoL Pack",
+    "game": "Valheim",
+    "creator": "miikeskii",
+    "profile": "https://thunderstore.io/c/valheim/p/miikeskii/",
+    "post": "https://thunderstore.io/c/valheim/p/miikeskii/miikeskiis_QoL_Pack/v/0.57.1/",
+    "ai_quote": "The code was written by Claude, Anthropic’s AI (the Claude Opus 5 and Opus 5.5 models, working as Claude Code agents), for miikeskii.",
+    "ai_note": "The creator’s repository README identifies Claude Opus 5 and 5.5 as the AI agents used to write the code for this pack. This is the creator’s authorship statement.",
+    "ai_source": "https://github.com/MDombkowski/miikeskiis_QoL_Pack#readme",
+    "listing": "https://thunderstore.io/c/valheim/p/miikeskii/miikeskiis_QoL_Pack/",
+    "repo": "https://github.com/MDombkowski/miikeskiis_QoL_Pack",
+    "summary": "A client-side collection of 28 Valheim quality-of-life mods for chests, building, the map, and inventory.",
+    "changes": "Bundles 28 individually toggleable client-side mods for inventory and chests, building and terrain, map tools, tames, world settings, and interface improvements. The creator says it is client-side, so other players and the server do not need the pack.",
+    "cost": "Price not confirmed",
+    "price_note": "The official Thunderstore page provides a download; it does not state a price.",
+    "platform": "Valheim · BepInEx · PC",
+    "version": "0.57.1 · uploaded October 12, 2026 · requires BepInExPack 5.4.2350 and Jötunn 2.30.2",
+    "install": "Install version 0.57.1 from the official Thunderstore release page using compatible client software such as Thunderstore Mod Manager. This is a client-side pack. It requires BepInExPack 5.4.2350 and Jötunn 2.30.2. The XPortal Map Picker references XPortal 1.2.25, but the package manifest does not declare XPortal. Runtime compatibility and gameplay were not tested.",
+    "working_evidence": "The official listing describes the pack as client-side, with an on/off switch for each included mod. No Valheim installation, compatibility test, or gameplay test was performed.",
+    "security": "Codex Security Standard completed scan 735ead25-cfa8-428b-ad94-b7628a68adda on the exact official 0.57.1 ZIP (SHA-256 4fa1473b3ebe087a0712d89a8b7545ab3f06bed963eb32f9fe7d03b846f7b7d6; snapshot digest codex-security-snapshot/v1:sha256:ec0f051c710a7b7e7f5a64dca13c849c122f805e44ff6fec9670461fbb6e1f2e). Static coverage was complete: 13,322 managed method bodies and 47,860 call references reviewed, with zero reportable findings. Static review does not certify a file as malware-free; no installation or runtime test was performed.",
+    "warnings": [
+      "This is a 28-mod client-side collection. Remove duplicate standalone mods before using the bundled versions; the pack is designed not to require installation on the server or other players.",
+      "Requires Valheim with BepInExPack 5.4.2350 and Jötunn 2.30.2.",
+      "XPortal Map Picker reflects into XPortal 1.2.25, which the package credits as required, but XPortal is absent from the Thunderstore manifest dependency list; the picker may need XPortal installed separately.",
+      "The README documents interactions to consider: shared chest transfer waits until the game releases the chest; other loose-item mods may conflict; another mod scanning all dropped items may freeze on large deposits; crops beneath cage floors die for clients without Bar None.",
+      "The package includes GPL-3.0 and credits copied/adapted and runtime-integrated components. No license finding was identified in this review; retain the included license and credits if redistributing.",
+      "The exact release passed complete static security review, but Valheim installation, compatibility, runtime behavior, and gameplay were not tested."
+    ],
+    "released_at": "2026-10-12",
+    "image": "/mods/oct14-r2-miikeskii-qol-pack.webp",
+    "image_source": "https://ccdn.thunderstore.io/live/repository/icons/miikeskii-miikeskiis_QoL_Pack-0.57.1.png",
+    "image_alt": "Official QoL icon: a shield-like brown and red emblem above a QoL banner."
   }
 ]
