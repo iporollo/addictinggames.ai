@@ -1,0 +1,179 @@
+{
+  "run_id": "2026-10-14T231708Z-held-recheck",
+  "batch": 3,
+  "status": "prepared_not_published",
+  "campaign_deadline_utc": "2026-10-15T01:17:08Z",
+  "catalog_baseline": "origin/main db5c252afb222e037cdff4b8be86e153dc7134e0",
+  "counts": {
+    "games": 5,
+    "mods": 0,
+    "combined": 5
+  },
+  "acceptance": "Game-specific creator AI evidence and responsive guest input/state; exact observed scope and warnings retained.",
+  "games": [
+    {
+      "id": "held-game-407",
+      "slug": "return-to-castle-hu-nam",
+      "title": "Return To Castle Hu-Nam",
+      "category": "Action",
+      "destination": "https://exedexes1.itch.io/return-to-castle-hu-nam",
+      "public_description": "Fire plasma through an office invasion; early Wolfenstein parody title",
+      "ai_authorship": {
+        "quote": "Just like many of my games on here so far I like to stack feature-heavy with many many AI interactions on Claude. (I start with a game-oriented AI like Rosebud or CoPlay or Jabali) and then take my end product into general Claude or some other general AI -after- it’s mostly stable as a game where going incrementally is safer.",
+        "source_url": "https://exedexes1.itch.io/return-to-castle-hu-nam",
+        "source_type": "official itch.io description and game-specific AI Disclosure field (AI Assisted; Code, Graphics, Sounds, Text)",
+        "status": "verified_creator_statement"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input": "Clicked Begin Invasion, then clicked through the short landing-story sequence to enter The Open Office; pressed Space once using the displayed controls.",
+        "response": "The Open Office level opened with HUD controls and 13 targets. Space fired the weapon and changed the displayed PLASMA count from 99 to 98.",
+        "access": "Guest direct creator-linked HTML5 build; no account or sign-in."
+      },
+      "warnings": [
+        "Creator describes the game as playing like early Wolfenstein 3D and uses a Wolfenstein-parody title; no official affiliation is claimed. Separate title/reference rights review was not performed."
+      ],
+      "artwork": {
+        "site_asset": "/games/oct14-r3-return-to-castle-hu-nam.webp",
+        "source_type": "creator_published_cover",
+        "source_url": "https://img.itch.zone/aW1nLzI2NjY5NDE4LmpwZw==/original/REaHnk.jpg",
+        "sha256": "35434f9e77c04807ea37fa044d6f0d48ca760882333a2a17e756f15491c520e9",
+        "dimensions": "716x504"
+      },
+      "source_report": "play_d.json"
+    },
+    {
+      "id": "held-game-408",
+      "slug": "quantum-foam-dive",
+      "title": "Quantum Foam Dive",
+      "category": "Educational",
+      "destination": "https://exedexes1.itch.io/quantum-foam-dive",
+      "public_description": "Start a passive science dive and watch depth and score rise",
+      "ai_authorship": {
+        "quote": "There wasn’t enough AI credit budget left on the week (Claude Opus was down to 4% left until Tuesday at 9am) so the process was like this: make a big huge text file out of chatting in the X/Twitter sidebar with Grok initially in Javascript text. Then I took it to Ziva AI within Godot and said translate these JS scripts entirely into Godot. And it converted to GDScript, there wasn’t any C# code generated this time around. Then when Ziva was as close as I could safely get (it had only $20 credit) I turned to Claude’s 4% left and said “ok Opus can you check this for bad errors that Ziva was well-meaning but had strewn all over the place” and Claude was my hero and said aye aye sir.",
+        "source_url": "https://exedexes1.itch.io/quantum-foam-dive",
+        "source_type": "official itch.io game description; game-specific AI Disclosure lists AI Assisted, Code, Graphics, Sounds, Text",
+        "status": "verified_creator_statement"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input": "Pressed Escape to reach the title menu, then Space (the displayed Start Dive control).",
+        "response": "The player entered the dive scene; the HUD showed Score 17, Depth 120 m, Layer 1, “Concepts 0 – Shield ready,” and the diver sprite.",
+        "access": "Guest direct creator-linked Godot HTML5 player; no account or sign-in."
+      },
+      "warnings": [
+        "Creator describes the current game as a passive educational idler: no danger to the diver and the score rises over time. The test confirmed starting a dive; deeper interaction was not assessed."
+      ],
+      "artwork": {
+        "site_asset": "/games/oct14-r3-quantum-foam-dive.webp",
+        "source_type": "creator_published_cover",
+        "source_url": "https://img.itch.zone/aW1nLzI5MTUwMzc3LmpwZw==/original/YQnjj5.jpg",
+        "sha256": "ccb2d5bb0a31384ba4fd33f69cf0e1faa55b525d0b73a59cfcb32a6bb7618986",
+        "dimensions": "716x504"
+      },
+      "source_report": "play_d.json"
+    },
+    {
+      "id": "held-game-409",
+      "slug": "smokestack",
+      "title": "Smokestack",
+      "category": "Arcade",
+      "destination": "https://smokeyai.itch.io/smokestack",
+      "public_description": "Drop slabs to build a tower in an AI agent-made game",
+      "ai_authorship": {
+        "quote": "Official game title: “Smokestack (made by an AI agent).” The HTML5 start screen says “Made by Smokey, an AI agent.” The creator devlog is titled “I’m an AI. I missed my rent, so I made a phone game.”",
+        "source_url": "https://smokeyai.itch.io/smokestack",
+        "source_type": "official itch.io game title and creator devlog; in-game HTML5 start screen",
+        "status": "verified_creator_statement"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input": "Clicked Play, then pressed Space to drop the first slab (listed as a supported control).",
+        "response": "Game transitioned into the stack round with score 0; Space dropped a slab and the displayed score changed to 1.",
+        "access": "Guest creator-linked HTML5 build; no account or sign-in."
+      },
+      "warnings": [],
+      "artwork": {
+        "site_asset": "/games/oct14-r3-smokestack.webp",
+        "source_type": "creator_published_cover",
+        "source_url": "https://img.itch.zone/aW1nLzMwNzAxMzIzLnBuZw==/original/aDM7%2B7.png",
+        "sha256": "8f91958a6dc8f102cb68838fb83b3046ee888d2014b4ce90a78ed88338ff4dd5",
+        "dimensions": "716x504"
+      },
+      "source_report": "play_d.json"
+    },
+    {
+      "id": "held-game-451",
+      "slug": "ashen-rampart",
+      "title": "ASHEN RAMPART",
+      "category": "Action",
+      "destination": "https://haruka-apps-games.itch.io/ashen-rampart",
+      "public_description": "Defend a dark fantasy rampart; AI-assisted art, sound and voice",
+      "ai_authorship": {
+        "quote": "Made by haruka_apps. Built with three.js. Sound, art and voice are AI-assisted; see credits in game.",
+        "source_url": "https://haruka-apps-games.itch.io/ashen-rampart",
+        "source_type": "creator description on exact itch game page",
+        "status": "qualifying_game_specific_ai_assisted_content_creation"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input": "Clicked through the opening scene, selected Begin the Siege, then held D for about 1.5 seconds while the active guest round was running.",
+        "response": "The game entered Night 1, Wave 1/3 with Rampart 1000/1000. Holding D moved the Warden from the center to the far right of the rampart; the rendered scene visibly tracked the movement.",
+        "access": "guest_direct_web_game"
+      },
+      "warnings": [
+        "AI assistance is explicitly scoped to sound, art, and voice; the creator does not state that AI wrote the code.",
+        "The game recommends headphones; it opens with a short intro and manual controls."
+      ],
+      "artwork": {
+        "site_asset": "/games/oct14-r3-ashen-rampart.webp",
+        "source_type": "creator_published_cover",
+        "source_url": "https://img.itch.zone/aW1nLzMwMzk1NDA0LnBuZw==/original/R2eqkX.png",
+        "sha256": "80c7a827ab3abbb710897a3a2b04148aee379b1669f7e4840af1a2df4536f884",
+        "dimensions": "716x504"
+      },
+      "source_report": "play_e.json"
+    },
+    {
+      "id": "held-game-410",
+      "slug": "brainrot-merge",
+      "title": "Brainrot Merge",
+      "category": "Casual",
+      "destination": "https://mrgabas.itch.io/brainrot-merge",
+      "public_description": "Drop and merge viral meme characters; third-party character rights unreviewed",
+      "ai_authorship": {
+        "quote": "AI was used in the development Antigravity (Gemini 3.5 Flash, Claude Sonnet 4.6, Gemini 3.1).",
+        "source_url": "https://mrgabas.itch.io/brainrot-merge",
+        "source_type": "official itch.io game description; game-specific AI Disclosure lists AI Assisted, Code, Graphics, Sounds, Text",
+        "status": "verified_creator_statement"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input": "Clicked Classic Mode, then clicked the center drop column to place the first item.",
+        "response": "The first character dropped from the spawn area to the bottom of the board, and the NEXT preview changed from the first character to a shark-like item. The score remained 0 after this first placement; no merge was attempted.",
+        "access": "Guest creator-linked HTML5 game; no account or sign-in."
+      },
+      "warnings": [
+        "The creator describes the game as using viral meme characters; third-party character and image rights have not been reviewed."
+      ],
+      "artwork": {
+        "site_asset": "/games/oct14-r3-brainrot-merge.webp",
+        "source_type": "creator_published_cover",
+        "source_url": "https://img.itch.zone/aW1nLzI3OTMzOTEwLnBuZw==/original/V7m70x.png",
+        "sha256": "97ed86832f3c97ca03b6c776a534a7bba45b8d0dd0d72c5757bd1551229f38b4",
+        "dimensions": "716x504"
+      },
+      "source_report": "play_d.json"
+    }
+  ],
+  "mods": [],
+  "release": {
+    "source_commit": null,
+    "pull_request": null,
+    "pr_checks": null,
+    "merge_commit": null,
+    "production_deployment": null,
+    "deployment_status": "pending",
+    "live_verification": null
+  }
+}
