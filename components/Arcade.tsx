@@ -3,7 +3,7 @@
 import { useEffect, useRef, useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { allListedGames, newGames, orderedGames, matchesGame, type ListedGame } from '@/lib/games';
+import { allListedGames, newGames, matchesGame, type ListedGame } from '@/lib/games';
 import { browseGames, browseTabs, gameRows, gameTags, gameModeLabels, type BrowseTab } from '@/lib/browse';
 import { useRecentGames } from '@/lib/history';
 import { Icon } from './Icon';
@@ -11,9 +11,12 @@ import { Newsletter } from './Newsletter';
 import { QuickLinks } from './QuickLinks';
 import { GameLink } from './GameLink';
 
-const featuredPicks = orderedGames([
-  'turbo-kart-gp', 'thermopylae', 'soccar', 'heroes-journey', 'toybox-push',
-]);
+const featuredPicks = [
+  'komiya-interrogation', 'gigacity', 'soccar', 'terra-incognita', 'third-mainland-biker',
+].flatMap(slug => {
+  const game = allListedGames.find(game => game.slug === slug);
+  return game ? [game] : [];
+});
 
 function ArcadeCard({ game, eager = false }: { game: ListedGame; eager?: boolean }) {
   const content = <>
@@ -73,12 +76,12 @@ export function Arcade() {
   return <>
     <div className="arcade-tools">
       <div className="search-field arcade-search"><Icon name="search" /><label className="sr-only" htmlFor="arcade-search">Search Games</label><input id="arcade-search" type="search" placeholder="Search Games" autoComplete="off" maxLength={100} value={query} onChange={event => setQuery(event.target.value)} />{query && <button type="button" className="search-clear" aria-label="Clear search" onClick={() => setQuery('')}><Icon name="close" width={18} /></button>}</div>
-      <nav className="arcade-nav" aria-label="Arcade sections"><a href="#featured">Featured</a><a href="#new-games">New Games</a><a href="#multiplayer">Multiplayer</a></nav>
+      <nav className="arcade-nav" aria-label="Arcade sections"><a href="#featured">Hot Right Now</a><a href="#new-games">New Games</a><a href="#multiplayer">Multiplayer</a></nav>
     </div>
     {filtering && <div className="arcade-search-status" role="status"><p>{count} {count === 1 ? 'game' : 'games'} found for “{query.trim()}”</p><button type="button" className="text-button" onClick={() => setQuery('')}>Clear search <Icon name="close" width={15} /></button></div>}
     <div className="arcade-layout">
       <div className="arcade-main">
-        <ArcadeSection id="featured" title="Featured" note="Five handpicked games to play next." games={filter(featuredPicks)} featured filtering={filtering} mobileScrolling />
+        <ArcadeSection id="featured" title="Hot Right Now" note="Five handpicked games to play next." games={filter(featuredPicks)} featured filtering={filtering} mobileScrolling />
         <ArcadeSection key={query} id="new-games" title="New Games" note="Explore new games. Swipe, use the arrows, or tab through every card." games={filter(newGames)} filtering={filtering} scrollRows={3} />
         <ArcadeSection id="multiplayer" title="Multiplayer" note="Play with friends. Choose online multiplayer or a local two-player match." games={filter(browseGames(allListedGames, 'Multiplayer'))} filtering={filtering} scrollRows={2} />
         <ArcadeSection id="recently-played" title="Recently Played" note="Pick up where you left off. Saved on this browser." games={filter(recent)} recentEmpty={!recent.length} filtering={filtering} scrollRows={1} />
