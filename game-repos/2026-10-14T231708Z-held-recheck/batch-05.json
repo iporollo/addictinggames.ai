@@ -1,0 +1,188 @@
+{
+  "run_id": "2026-10-14T231708Z-held-recheck",
+  "batch": 5,
+  "status": "prepared_not_published",
+  "campaign_deadline_utc": "2026-10-15T01:17:08Z",
+  "catalog_baseline": "origin/main f754156008b47a00988c9d3802e2fd549d848d3f",
+  "counts": {
+    "games": 5,
+    "mods": 0,
+    "combined": 5
+  },
+  "acceptance": "Game-specific creator AI evidence and responsive guest input/state; warnings and the precise limits of each test retained.",
+  "games": [
+    {
+      "id": "held-game-464",
+      "slug": "tiny-necromancer",
+      "title": "Tiny Necromancer",
+      "category": "Tower Defense",
+      "destination": "https://dylanh.itch.io/tiny-necromancer",
+      "public_description": "Fire spells to defend an undead castle through a seven-wave run",
+      "ai_authorship": {
+        "quote": "Made in 48 hours for Slapjam AI · Theme: Castles. Human team: Dylan. Developed with OpenAI Codex (GPT-6 Astra, medium) and Claude Code CLI (Claude Opus 5.5, medium). All art is original procedural drawing, and all sound effects and music are synthesized in code. No asset packs.",
+        "source_url": "https://dylanh.itch.io/tiny-necromancer",
+        "source_type": "Credits section on exact official itch.io game page",
+        "status": "qualifying_creator_game_specific_ai_development_claim"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input": "Clicked PLAY to enter Wave 1, then tapped the visible invading enemy with the mouse (the listed core action: tap an invader to cast Death Bolt).",
+        "response": "The game entered Wave 1/7 with a live castle/room board. On enemy click, a purple projectile appeared and “11” damage showed above the invader; Mana moved from 95 to 88 while the HUD timer advanced (the page specifies Death Bolt costs 8 Mana).",
+        "access": "guest_direct_web_game"
+      },
+      "warnings": [
+        "The game centers on undead necromancy and cartoon castle-siege combat; its creator describes it as an 8–12 minute, seven-wave run.",
+        "The creator credits Codex/Claude Code for development and says original procedural art and synthesized sound/music were used with no asset packs; keep this provenance clear in details.",
+        "Portrait-first/mobile one-thumb design; creator says mouse play also works."
+      ],
+      "artwork": {
+        "site_asset": "/games/oct14-r5-tiny-necromancer.webp",
+        "source_type": "creator_published_cover_with_blurred_sides",
+        "source_url": "https://img.itch.zone/aW1nLzMwMzg3NzY5LnBuZw==/original/S5H3MP.png",
+        "sha256": "efadda5f0ee4c4b2c849856b32854b17a4e8b3fb192b127e1f254ac2715cc3dd",
+        "dimensions": "716x504"
+      },
+      "source_report": "play_e.json"
+    },
+    {
+      "id": "held-game-457",
+      "slug": "wubao-eastern-castle-merge",
+      "title": "WUBAO — Eastern Castle Merge",
+      "category": "Puzzle",
+      "destination": "https://superannni.itch.io/wubao-eastern-castle-merge",
+      "public_description": "Move and merge castle pieces in a portrait game; AI-assisted code, art and text",
+      "ai_authorship": {
+        "quote": "Human Creator — Nini. Concept selection, creative direction, gameplay decisions, art direction, playtesting, iteration, and final submission. ChatGPT by OpenAI was used for brainstorming, game design, writing and English localization, UI and art direction, and visual asset generation. OpenAI Codex was used for programming, implementation, debugging, and building the HTML5 game. WUBAO was created during the Slapjam AI game jam.",
+        "source_url": "https://superannni.itch.io/wubao-eastern-castle-merge",
+        "source_type": "AI & Development Credits section on the exact official itch.io game page",
+        "status": "qualifying_creator_game_specific_ai_development_claim"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input": "With the game running, moved the mouse left across the play field and released to drop the current building, using the stated desktop control.",
+        "response": "The current Refuge Hut visibly tracked the mouse from the center of the play field to a left-of-center position. The live board, current building, Next level indicator, and Score 0 / Best 0 HUD rendered. This verifies responsive guest gameplay input; a first non-matching drop left the score at 0.",
+        "access": "guest_direct_web_game"
+      },
+      "warnings": [
+        "The creator credits ChatGPT for visual asset generation and English localization, and Codex for programming; keep AI attribution and the credited human creator in game details.",
+        "The game is designed primarily for portrait mobile play; the creator documents desktop mouse positioning and drop controls.",
+        "The host automatically pauses when its browser page is hidden; the input check used temporary focus emulation and does not establish background-tab playback."
+      ],
+      "artwork": {
+        "site_asset": "/games/oct14-r5-wubao-eastern-castle-merge.webp",
+        "source_type": "creator_published_portrait_cover_with_blurred_sides",
+        "source_url": "https://img.itch.zone/aW1nLzMwNDA3NDQ1LmpwZw==/original/HlctxC.jpg",
+        "sha256": "954b1c616509d023f48193ab15a800759bde378934418dbe66e7daa68dc91666",
+        "dimensions": "716x504"
+      },
+      "source_report": "play_e.json"
+    },
+    {
+      "id": "held-game-454",
+      "slug": "kings-last-stand",
+      "title": "King’s Last Stand",
+      "category": "Action",
+      "destination": "https://headoverheels.itch.io/kings-last-stand",
+      "public_description": "Defend a king in a fantasy combat prototype; cartoon combat and credited third-party character art",
+      "ai_authorship": {
+        "quote": "Codex / GPT-6 Astra was used to assist with: code architecture, gameplay implementation, balancing, procedural animation systems, tooling and iteration.",
+        "source_url": "https://headoverheels.itch.io/kings-last-stand",
+        "source_type": "creator credits on the exact official itch.io game page",
+        "status": "qualifying_creator_game_specific_ai_development_claim"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input": "Clicked the Play button in the loaded guest web build.",
+        "response": "The title screen changed to active gameplay: HUD appeared with HP 100/100, Level 1 and 0 kills, plus the 00:01 start countdown. A later frame showed the in-game pause state after background focus was released. This proves the guest build starts and enters a live game state; movement was not verified.",
+        "access": "guest_direct_web_game"
+      },
+      "warnings": [
+        "The game uses third-party Fantasy Royals character assets credited to Standout7; preserve that attribution and verify applicable asset license before republishing artwork or code.",
+        "Cartoon fantasy combat is present.",
+        "The successful test only verifies that Play enters the active gameplay state; sustained movement was not verified in the hidden browser tab."
+      ],
+      "artwork": {
+        "site_asset": "/games/oct14-r5-kings-last-stand.webp",
+        "source_type": "creator_published_cover",
+        "source_url": "https://img.itch.zone/aW1nLzMwMzkzNzU0LnBuZw==/original/PJYR4p.png",
+        "sha256": "6d59420595799809ac3fa4065f510e254a154ae6feb9c1562fcac9bde8c89a07",
+        "dimensions": "716x504"
+      },
+      "source_report": "play_e.json"
+    },
+    {
+      "id": "held-game-453",
+      "slug": "vault-of-embers",
+      "title": "Vault of Embers",
+      "category": "Adventure",
+      "destination": "https://haruka-apps-games.itch.io/vault-of-embers",
+      "public_description": "Explore a fantasy dungeon with sword and magic combat; a companion can be revived",
+      "ai_authorship": {
+        "quote": "Generative 3D Enemies powered by Tripo3D: Encounter distinctive dark fantasy monsters featuring custom AI-generated 3D meshes, custom skeletons, and animated locomotion built using Tripo3D. The page also says voice narration is generated with ElevenLabs.",
+        "source_url": "https://haruka-apps-games.itch.io/vault-of-embers",
+        "source_type": "creator-authored description and AI Disclosure on exact itch.io game page",
+        "status": "verified_creator_game_specific_ai_creation_statement"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input": "Clicked the title-screen start control, then “ENTER THE DUNGEON”; after the live 3D scene loaded, pressed W briefly. No login or account action.",
+        "response": "The guest WebGL scene rendered the player and companion, animated particles, movement HUD, minimap, quest objective, and touch controls. After the W input, a visible CHECKPOINT toast appeared in the gameplay HUD. The live level objective instructed the player to cast magic at two glowing ropes to lower the drawbridge; the full objective was not completed.",
+        "access": "guest_direct_itch_webgl_player"
+      },
+      "warnings": [
+        "Fantasy combat uses swords and magic against monsters; the creator describes a companion bleed-out/revive mechanic. No graphic gore was observed during the short starting-area check."
+      ],
+      "artwork": {
+        "site_asset": "/games/oct14-r5-vault-of-embers.webp",
+        "source_type": "creator_published_cover",
+        "source_url": "https://img.itch.zone/aW1nLzMwMzUxMDk5LnBuZw==/original/QSxQf9.png",
+        "sha256": "d6b679b8f05bba792f8a9e75ca803f34f9f75c94f2365590b819864ccf05ca02",
+        "dimensions": "716x504"
+      },
+      "source_report": "play_c.json"
+    },
+    {
+      "id": "held-game-465",
+      "slug": "topple-keep",
+      "title": "Topple Keep",
+      "category": "Action",
+      "destination": "https://guynao.itch.io/topplekeep",
+      "public_description": "Build and fling a pixel-art castle in short competitive matches",
+      "ai_authorship": {
+        "quote": "Game design, direction and playtesting: guynao (Guy Naor). Code and pixel art: Claude Code. Sound effects: made with chirrp, a procedural SFX library (MIT/Apache-2.0). Crowd reactions and war horn: Suno. Music: synthesised in the browser.",
+        "source_url": "https://guynao.itch.io/topplekeep",
+        "source_type": "Credits section on exact official itch.io game page; game is described as made for Slapjam AI, theme Castles",
+        "status": "qualifying_creator_game_specific_ai_development_claim"
+      },
+      "guest_gameplay": {
+        "status": "agent_verified",
+        "input": "Tapped through the title/tutorial start screens, then dragged a wood block from the side rack onto the slingshot as described on the creator page.",
+        "response": "The game transitioned into an active 2:30 match (You 0/9, Foe 0/9). After the drag, the block visibly loaded into the slingshot; timer advanced to 2:27 while the opponent progressed (Foe 3/9).",
+        "access": "guest_direct_web_game"
+      },
+      "warnings": [
+        "Competitive physics castle-brawl includes slingshot attacks and bombs; game is designed around short 2½-minute matches against an opponent.",
+        "Creator credits Claude Code for code and pixel art; Suno for crowd reactions and war horn; browser-synthesized music; chirrp procedural SFX and Press Start 2P font have separate license attributions. Preserve the attribution details in game information.",
+        "The creator describes portrait-first, one-thumb mobile play and says desktop mouse controls also work."
+      ],
+      "artwork": {
+        "site_asset": "/games/oct14-r5-topple-keep.webp",
+        "source_type": "creator_published_cover_with_blurred_sides",
+        "source_url": "https://img.itch.zone/aW1nLzMwMzcxNTM4LnBuZw==/original/LOhU7n.png",
+        "sha256": "f866f290b31a5a9ff9e057b58f72d5a116ac1da19eecb058ecac74e6c4ae6e0e",
+        "dimensions": "716x504"
+      },
+      "source_report": "play_e.json"
+    }
+  ],
+  "mods": [],
+  "release": {
+    "source_commit": null,
+    "pull_request": null,
+    "pr_checks": null,
+    "merge_commit": null,
+    "production_deployment": null,
+    "deployment_status": "pending",
+    "live_verification": null
+  }
+}
