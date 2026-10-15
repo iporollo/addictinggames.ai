@@ -14,6 +14,12 @@ export type DirectGame = {
 };
 
 const source: [string, string, string, string, string, string?][] = [
+  // October 15 held-queue recheck batch 5: creator AI evidence and guest input verified.
+  ["tiny-necromancer", "Tiny Necromancer", "Tower Defense", "Fire spells to defend an undead castle through a seven-wave run", "https://dylanh.itch.io/tiny-necromancer", "/games/oct14-r5-tiny-necromancer.webp"],
+  ["wubao-eastern-castle-merge", "WUBAO — Eastern Castle Merge", "Puzzle", "Move and merge castle pieces in a portrait game; AI-assisted code, art and text", "https://superannni.itch.io/wubao-eastern-castle-merge", "/games/oct14-r5-wubao-eastern-castle-merge.webp"],
+  ["kings-last-stand", "King’s Last Stand", "Action", "Defend a king in a fantasy combat prototype; cartoon combat and credited third-party character art", "https://headoverheels.itch.io/kings-last-stand", "/games/oct14-r5-kings-last-stand.webp"],
+  ["vault-of-embers", "Vault of Embers", "Adventure", "Explore a fantasy dungeon with sword and magic combat; a companion can be revived", "https://haruka-apps-games.itch.io/vault-of-embers", "/games/oct14-r5-vault-of-embers.webp"],
+  ["topple-keep", "Topple Keep", "Action", "Build and fling a pixel-art castle in short competitive matches", "https://guynao.itch.io/topplekeep", "/games/oct14-r5-topple-keep.webp"],
   // October 15 held-queue recheck batch 4: creator AI evidence and guest input verified.
   ["moo-over-sf", "Moo Over SF", "Arcade", "Start a local cow-and-UFO city round; multiplayer phone controls are optional", "https://moo-over-sf.vercel.app/", "/games/oct14-r4-moo-over-sf.webp"],
   ["naija-rush", "Naija Rush", "Racing", "Race a car across a Lagos road; the creator separately advertises a real-cash promotion with unverified rules", "https://naijarush.com/", "/games/oct14-r4-naija-rush.webp"],
@@ -469,6 +475,11 @@ const reviewNotes: Record<string, string> = {
   'catapult-trip': 'Warning: flashing lights, rapid color changes, and intense visual effects may affect photosensitive players.',
   'zero-charge': 'Creator labels this game a work in progress.',
   'abyss-harvest': 'Creator labels this an in-development browser demo and invites bug reports.',
+  'tiny-necromancer': 'Cartoon undead and castle combat. Portrait-first play; the short test reached Wave 1 and cast a spell, but did not complete the seven-wave run. Creator credits Codex and Claude Code for development and says its procedural art and synthesized audio use no asset packs.',
+  'wubao-eastern-castle-merge': 'Designed for portrait mobile play; desktop mouse controls are documented. The creator credits Nini for game direction, ChatGPT for design, writing, localization and visual assets, and Codex for programming.',
+  'kings-last-stand': 'Fantasy combat prototype. The creator credits third-party character art; see the creator page for attribution. The short guest test reached a live level and HUD but did not verify movement or a completed battle.',
+  'vault-of-embers': 'Fantasy sword and magic combat against monsters; the creator describes a companion bleed-out and revive mechanic. The initial guest check did not complete the dungeon objective.',
+  'topple-keep': 'Competitive castle combat includes slingshot attacks and bombs. Creator credits Claude Code for code and pixel art, Suno for crowd audio, chirrp for effects, and browser-synthesized music; see the creator page for full credits and licenses. Initial playtest did not cover launching or a full match.',
 };
 
 export const directGames: DirectGame[] = source.map(([slug, title, category, shortDescription, externalUrl, imageUrl]) => ({
