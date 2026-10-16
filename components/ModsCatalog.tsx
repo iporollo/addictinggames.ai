@@ -7,6 +7,7 @@ import { Newsletter } from './Newsletter';
 import { QuickLinks } from './QuickLinks';
 import { Icon } from './Icon';
 import { SelectControl } from './SelectControl';
+import { formatAddedDate, modAddedDate } from '@/lib/added-dates';
 
 export function ModsCatalog({ all = false }: { all?: boolean }) {
   const [query, setQuery] = useState('');
@@ -21,7 +22,10 @@ export function ModsCatalog({ all = false }: { all?: boolean }) {
     </div>
     <div className="arcade-layout mods-layout"><section className="mods-panel" aria-labelledby="mods-heading">
       <div className="mods-panel-heading"><h2 id="mods-heading">{all ? 'View All Mods' : 'New Mods'}</h2>{all ? <span className="list-count">{items.length} {items.length === 1 ? 'mod' : 'mods'} · A–Z</span> : <Link href="/mods/all">View All Mods <Icon name="arrow" width={17} /></Link>}</div>
-      {items.length ? <div className={all ? 'mods-all-rows' : 'mods-tile-grid'}>{items.map(mod => <Link key={mod.id} href={`/mods/${mod.id}`} className={all ? 'mod-list-row' : 'mod-tile'}><ModImage mod={mod} /><div className="mod-card-copy"><h3>{mod.name}</h3><p>{mod.game}</p></div>{all && <span className="mod-view-link">View mod <Icon name="arrow" width={17} /></span>}</Link>)}</div> : <p className="mods-empty" role="status">No mods match. Try another game or search.</p>}
+      {items.length ? <div className={all ? 'mods-all-rows' : 'mods-tile-grid'}>{items.map(mod => {
+        const added = all ? modAddedDate(mod.id) : undefined;
+        return <Link key={mod.id} href={`/mods/${mod.id}`} className={all ? 'mod-list-row' : 'mod-tile'}><ModImage mod={mod} /><div className="mod-card-copy"><h3>{mod.name}</h3><p>{mod.game}</p></div>{all && <span className="mod-row-actions">{added && <time className="added-date" dateTime={added}>Added: {formatAddedDate(added)}</time>}<span className="mod-view-link">View mod <Icon name="arrow" width={17} /></span></span>}</Link>;
+      })}</div> : <p className="mods-empty" role="status">No mods match. Try another game or search.</p>}
     </section><aside className="arcade-sidebar" aria-label="Mod updates and links"><Newsletter variant="mods" /><QuickLinks variant="mods" /></aside></div>
   </>;
 }
