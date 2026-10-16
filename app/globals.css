@@ -108,6 +108,9 @@ h2, h3 { color: var(--heading); }
 .row-category { font-size: 10px; color: var(--muted); text-transform: uppercase; letter-spacing: .1em; }
 .row-copy h3 { font-size: 18px; line-height: 1.3; margin-top: 4px; }
 .row-copy p { font-size: 13px; color: var(--muted); margin-top: 5px; }
+.all-games-list .added-date, .mods-all-rows .added-date { display: block; color: #4a4a4a; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-size: 11px; line-height: 1.4; font-weight: 400; white-space: nowrap; }
+.all-games-list .row-actions, .mods-all-rows .mod-row-actions { display: flex; flex-direction: column; align-items: flex-end; justify-content: space-between; align-self: stretch; flex-shrink: 0; }
+.all-games-list .row-actions { margin-left: auto; }
 .row-play { margin-left: auto; display: flex; align-items: center; gap: 14px; color: var(--blue); font-size: 13px; font-weight: 600; white-space: nowrap; }
 
 .placeholder-page { padding-top: 55px; }
@@ -481,3 +484,11 @@ h2, h3 { color: var(--heading); }
 .mods-tools .search-field { min-height: 48px; padding: 0 14px; }
 .mods-tools .search-field input { padding-block: 11px; font-size: 16px; line-height: 24px; }
 .mods-game-filter select { min-height: 48px; padding-block: 10px; font-size: 16px; line-height: 24px; }
+@media (max-width: 767px) {
+  .all-games-list .game-row, .mods-all-rows .mod-list-row { position: relative; }
+  .all-games-list .row-copy, .mods-all-rows .mod-card-copy { padding-top: 20px; }
+  .all-games-list .row-actions { min-width: 17px; }
+  .all-games-list .row-actions .added-date { position: absolute; top: 15px; right: 15px; }
+  .mods-all-rows .mod-row-actions { position: absolute; top: 0; right: 0; }
+  .mods-all-rows .mod-view-link { display: none; }
+}
