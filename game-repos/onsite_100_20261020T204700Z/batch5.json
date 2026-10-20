@@ -1,0 +1,150 @@
+{
+  "status": "approved_for_release",
+  "run_id": "onsite_100_20261020T204700Z",
+  "entries": [
+    {
+      "candidate_id": "G-045",
+      "slug": "six-digits",
+      "title": "Six Digits",
+      "url": "https://www.gptgames.dev/games/color_guessing_game.html",
+      "categories": [
+        "Puzzle",
+        "Educational"
+      ],
+      "ai_quote": "Six Digits: the Color Guessing Game remade as a daily paint chip",
+      "ai_source": "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/89cdf598cb83ff96f3081ae1eca6b46dbefd61d0",
+      "ai_scope": "substantial current-version AI remake",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Focused the Hue slider inside the iframe and pressed ArrowRight once. Clicked Stamp inside the iframe.",
+        "response": "The live status region showed Target #1460B6 versus Yours #4ECE38, score 0.4/10, and feedback \u201cToo green, Too grey, Too light.\u201d"
+      },
+      "player_sandbox": "allow-scripts allow-pointer-lock",
+      "artwork_source": "https://www.gptgames.dev/screenshots/screenshot_177.webp",
+      "artwork_path": "public/games/onsite-gptgames-g-045.webp",
+      "caveat": null
+    },
+    {
+      "candidate_id": "G-047",
+      "slug": "color-flood-gptgames",
+      "title": "Color Flood",
+      "url": "https://www.gptgames.dev/games/color_flood.html",
+      "categories": [
+        "Puzzle",
+        "Casual"
+      ],
+      "ai_quote": "Color Flood: remade as a risograph flood puzzle with par, stars, 40 levels and a daily board",
+      "ai_source": "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/5d76a4b2450f9c18ee48a9dedd82b016e8b09edb",
+      "ai_scope": "substantial current-version AI remake",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Clicked the visible button \u201cPink, swallows 2 cells.\u201d inside the iframe.",
+        "response": "Move count changed from 0 to 1; visible status read \u201cPink swallowed 2 cells. Move 1 of 6, par 3.\u201d"
+      },
+      "player_sandbox": "allow-scripts allow-pointer-lock",
+      "artwork_source": "https://www.gptgames.dev/screenshots/screenshot_183.webp",
+      "artwork_path": "public/games/onsite-gptgames-g-047.webp",
+      "caveat": null
+    },
+    {
+      "candidate_id": "G-050",
+      "slug": "bedtime-lights-out",
+      "title": "Bedtime (Lights Out)",
+      "url": "https://www.gptgames.dev/games/lights_out.html",
+      "categories": [
+        "Puzzle",
+        "Casual"
+      ],
+      "ai_quote": "Remake Lights Out as Bedtime: put a street to sleep, one block at a time",
+      "ai_source": "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/3dc650e8bfd965b794222a9a62dca848f59f389b",
+      "ai_scope": "substantial current-version AI remake",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Clicked \u201cWindow 1 on floor 3\u201d inside the iframe.",
+        "response": "The targeted window changed from an unlit state (class w) to illuminated (class w pv on); the rendered house showed that window lit."
+      },
+      "player_sandbox": "allow-scripts allow-pointer-lock",
+      "artwork_source": "https://www.gptgames.dev/screenshots/screenshot_194.webp",
+      "artwork_path": "public/games/onsite-gptgames-g-050.webp",
+      "caveat": null
+    },
+    {
+      "candidate_id": "G-057",
+      "slug": "stack-tower-gptgames",
+      "title": "Stack Tower",
+      "url": "https://www.gptgames.dev/games/stack_tower.html",
+      "categories": [
+        "Arcade",
+        "Casual"
+      ],
+      "ai_quote": "Stack Tower: remade as a climb from dawn to the stars, with a tested cut",
+      "ai_source": "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/57f9dba449fb4b82742670aaf606737e37e7a952",
+      "ai_scope": "substantial current-version AI remake",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Clicked the center of the game canvas twice inside the restricted iframe.",
+        "response": "The score changed from 0 to 1 and then 2; the iframe showed two stacked slabs. Final frame URL remained https://www.gptgames.dev/games/stack_tower.html."
+      },
+      "player_sandbox": "allow-scripts allow-pointer-lock",
+      "artwork_source": "https://www.gptgames.dev/screenshots/screenshot_216.webp",
+      "artwork_path": "public/games/onsite-gptgames-g-057.webp",
+      "caveat": null
+    },
+    {
+      "candidate_id": "G-058",
+      "slug": "glowtide",
+      "title": "Glowtide",
+      "url": "https://www.gptgames.dev/games/chain_reaction.html",
+      "categories": [
+        "Puzzle",
+        "Arcade"
+      ],
+      "ai_quote": "The game is now a single-tap chain puzzle in a dark sea",
+      "ai_source": "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/6d270a23aba7177f874099ffaa5d3da373051fc2",
+      "ai_scope": "substantial current-version AI remake",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Clicked \u201cFree dive\u201d inside the iframe. On the first board, clicked an orange orb; it lit 2 of 3 and the game responded \u201c1 short / You lit 2, the tide needed 3.\u201d Retried and clicked the central orb in the new board.",
+        "response": "The first iframe action produced a visible 2/3 count and failure response. On retry, the chosen orb\u2019s chain reaction reached 3 / CLEAR and displayed \u201cGoal reached.\u201d Final frame URL remained https://www.gptgames.dev/games/chain_reaction.html."
+      },
+      "player_sandbox": "allow-scripts allow-pointer-lock",
+      "artwork_source": "https://www.gptgames.dev/screenshots/screenshot_227.webp",
+      "artwork_path": "public/games/onsite-gptgames-g-058.webp",
+      "caveat": null
+    },
+    {
+      "candidate_id": "G-060",
+      "slug": "tower-of-hanoi-gptgames",
+      "title": "Tower of Hanoi",
+      "url": "https://www.gptgames.dev/games/tower_of_hanoi.html",
+      "categories": [
+        "Puzzle",
+        "Educational"
+      ],
+      "ai_quote": "Remake Tower of Hanoi: a night temple where every disc is a bell and the lantern marks the goal",
+      "ai_source": "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/871837e00d97f102e70c36e2465e43c3b9db3500",
+      "ai_scope": "substantial current-version AI remake",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Clicked the top disc labeled 1, then clicked the empty middle peg inside the iframe.",
+        "response": "The disc moved from the left peg to the middle peg; the move counter changed from 0/7 to 1/7. Final frame URL remained https://www.gptgames.dev/games/tower_of_hanoi.html."
+      },
+      "player_sandbox": "allow-scripts allow-pointer-lock",
+      "artwork_source": "https://www.gptgames.dev/screenshots/screenshot_230.webp",
+      "artwork_path": "public/games/onsite-gptgames-g-060.webp",
+      "caveat": null
+    }
+  ]
+}
