@@ -1,0 +1,206 @@
+{
+  "schema_version": 2,
+  "records": [
+    {
+      "repository_url": "https://github.com/Olivia295/SURGE-for-Oinja",
+      "candidate_ids": [
+        "N-011"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/106",
+          "observed_at_utc": "2026-10-20T21:32:15Z"
+        }
+      ],
+      "commit_sha": "aaf1319799c83289f872fd62fd263e3a5b9d5008",
+      "tag": null,
+      "license": null,
+      "status": "public repository metadata observed 2026-10-20T21:38:42.054716Z"
+    },
+    {
+      "repository_url": "https://github.com/threapchills/MagicCarpetWizard",
+      "candidate_ids": [
+        "N-015"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/threapchills/MagicCarpetWizard",
+          "observed_at_utc": "2026-10-20T21:32:15Z"
+        }
+      ],
+      "commit_sha": "d3854e661e58f5bf16423cba2079845211bd6009",
+      "tag": null,
+      "license": null,
+      "status": "public repository metadata observed 2026-10-20T21:38:42.054716Z"
+    },
+    {
+      "repository_url": "https://github.com/MartinDelophy/awesome-gpt-6-astra",
+      "candidate_ids": [
+        "N-016"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://raw.githubusercontent.com/MartinDelophy/awesome-gpt-6-astra/main/works/thunderfall/README.md",
+          "observed_at_utc": "2026-10-20T21:32:15Z"
+        }
+      ],
+      "commit_sha": "ed10f435bfd298df8f88175c5cdb6405842a0da0",
+      "tag": null,
+      "license": "CC0-1.0",
+      "status": "public repository metadata observed 2026-10-20T21:38:42.054716Z"
+    },
+    {
+      "repository_url": "https://github.com/Hiraeth010/blackwater",
+      "candidate_ids": [
+        "N-021"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://x.com/WoahWurdz/status/2095958882732355908",
+          "observed_at_utc": "2026-10-20T21:32:15Z"
+        }
+      ],
+      "commit_sha": "80e56105690c963e3263d075ade41afce533d44e",
+      "tag": null,
+      "license": "MIT",
+      "status": "public repository metadata observed 2026-10-20T21:38:42.054716Z"
+    },
+    {
+      "repository_url": "https://github.com/yongqixue99-hue/fruit-ninja-dojo",
+      "candidate_ids": [
+        "N-036"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://linux.do/t/topic/2857340",
+          "observed_at_utc": "2026-10-20T21:32:15Z"
+        }
+      ],
+      "commit_sha": null,
+      "tag": null,
+      "license": null,
+      "status": "public repository metadata unresolved: HTTP Error 403: rate limit exceeded"
+    },
+    {
+      "repository_url": "https://github.com/TobiasMue91/tobiasmue91.github.io",
+      "candidate_ids": [
+        "G-001",
+        "G-002",
+        "G-003",
+        "G-004",
+        "G-005",
+        "G-006",
+        "G-007",
+        "G-008",
+        "G-009",
+        "G-010",
+        "G-011",
+        "G-012",
+        "G-013",
+        "G-014",
+        "G-015",
+        "G-016",
+        "G-017",
+        "G-018",
+        "G-019",
+        "G-020",
+        "G-021",
+        "G-022",
+        "G-023",
+        "G-024",
+        "G-025",
+        "G-026",
+        "G-027",
+        "G-028",
+        "G-029",
+        "G-030",
+        "G-031",
+        "G-032",
+        "G-033",
+        "G-034",
+        "G-035",
+        "G-036",
+        "G-037",
+        "G-038",
+        "G-039",
+        "G-040",
+        "G-041",
+        "G-042",
+        "G-043",
+        "G-044",
+        "G-045",
+        "G-046",
+        "G-047",
+        "G-048",
+        "G-049",
+        "G-050",
+        "G-051",
+        "G-052",
+        "G-053",
+        "G-054",
+        "G-055",
+        "G-056",
+        "G-057",
+        "G-058",
+        "G-059",
+        "G-060",
+        "G-061",
+        "G-062",
+        "G-063",
+        "G-064",
+        "G-065",
+        "G-066",
+        "G-067",
+        "G-068",
+        "G-069",
+        "G-070",
+        "G-071",
+        "G-072",
+        "G-073",
+        "G-074",
+        "G-075",
+        "G-076",
+        "G-077",
+        "G-078",
+        "G-079",
+        "G-080",
+        "G-081",
+        "G-082",
+        "G-083",
+        "G-084",
+        "G-085",
+        "G-086",
+        "G-087",
+        "G-088",
+        "G-089",
+        "G-090",
+        "G-091",
+        "G-092",
+        "G-093",
+        "G-094",
+        "G-095",
+        "G-096",
+        "G-097",
+        "G-098",
+        "G-099",
+        "G-100",
+        "G-101",
+        "G-102",
+        "G-103",
+        "G-104",
+        "G-105",
+        "G-106"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/TobiasMue91/tobiasmue91.github.io/blob/main/data/games.json",
+          "observed_at_utc": "2026-10-20T21:23:09Z"
+        }
+      ],
+      "commit_sha": "73b4f81436cf551a5a2d12acdd7758a928465f60",
+      "tag": null,
+      "license": "MIT",
+      "status": "public repository metadata unresolved: HTTP Error 403: rate limit exceeded"
+    }
+  ]
+}

@@ -44,7 +44,7 @@ export function validateCampaign(run, { complete = false, releaseIds = [], check
   require(text(run.run_id), 'run_id required');
   require(run.scope === 'full_pipeline', 'validator requires a full_pipeline campaign; do not expand a narrower authorization');
   const discovery = run.discovery ?? {};
-  require(['timed', 'closed_list'].includes(discovery.mode), 'discovery mode must be timed or closed_list');
+  require(['timed', 'closed_list', 'target_count'].includes(discovery.mode), 'discovery mode must be timed, closed_list, or target_count');
   if (discovery.mode === 'timed') {
     require(Number.isFinite(discovery.duration_minutes) && discovery.duration_minutes > 0, 'positive requested discovery duration required');
     require(utc(discovery.started_at_utc) && utc(discovery.deadline_utc), 'one UTC start and deadline required');
@@ -62,6 +62,20 @@ export function validateCampaign(run, { complete = false, releaseIds = [], check
   } else if (discovery.mode === 'closed_list') {
     evidence(discovery.scope_refs, 'closed list owner scope');
     require(discovery.started_at_utc == null && discovery.deadline_utc == null, 'closed list must not launch Scout');
+  } else if (discovery.mode === 'target_count') {
+    require(Number.isSafeInteger(discovery.target_eligible) && discovery.target_eligible > 0, 'positive owner-requested eligible target required');
+    evidence(discovery.scope_refs, 'target-count owner scope');
+    require(utc(discovery.started_at_utc), 'target-count discovery start required');
+    require(discovery.deadline_utc == null, 'target-count discovery has no inferred deadline');
+    if (discovery.stopped_at_utc != null) {
+      require(utc(discovery.stopped_at_utc), 'invalid target-count stop time');
+      evidence(discovery.stop_ack_refs, 'target-count stop receipt');
+      require(run.candidates.filter(c => c.decision?.publish === 1).length >= discovery.target_eligible, 'target-count discovery stopped before enough eligible games were approved');
+    }
+    if (final) {
+      require(utc(discovery.stopped_at_utc), 'complete target-count campaign requires discovery stop');
+      require(run.candidates.filter(c => c.publication?.status === 'live_verified').length >= discovery.target_eligible, 'complete target-count campaign requires target live verified');
+    }
   }
   const discoveryClosed = discovery.mode === 'closed_list' || utc(discovery.stopped_at_utc);
   if (run.status === 'interrupted') require(text(run.interruption?.reason) && text(run.interruption?.next_action), 'interruption requires fault and recovery action');
