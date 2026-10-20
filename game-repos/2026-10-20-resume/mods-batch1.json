@@ -1,0 +1,1380 @@
+{
+  "status": "approved_prepared",
+  "original_run": "2026-10-20T153255Z",
+  "entries": [
+    {
+      "candidate_id": "A-18",
+      "slug": "summiteer",
+      "title": "Summiteer",
+      "base_game": "Minecraft",
+      "official_destination": "https://github.com/gabmaybelle/summiteer/releases/tag/v0.1.0",
+      "ai_quote": "Made by Gabby with help from Claude, an AI assistant. MIT licence.",
+      "ai_source": "https://github.com/gabmaybelle/summiteer/blob/v0.1.0/README.md",
+      "artifact": {
+        "url": "https://github.com/gabmaybelle/summiteer/releases/download/v0.1.0/summiteer-fabric-0.1.0.jar",
+        "version": "v0.1.0",
+        "sha256": "c908df4702eac9bf9c7374aac612f8e0e9facc207a64f7f140e00ce42df004af"
+      },
+      "security": {
+        "workflow": "Codex Security",
+        "artifact_sha256": "c908df4702eac9bf9c7374aac612f8e0e9facc207a64f7f140e00ce42df004af",
+        "artifact_assessed": true,
+        "blocking_findings": 0,
+        "coverage": "Exact release JAR statically inspected for network, process, persistence, credential and file-boundary behavior. No material security issue found in inspected code. Exact hash bound to the per-artifact assessment table.",
+        "runtime_limits": "Static exact-artifact review only; no installation or gameplay/runtime compatibility test. Source-to-release reproducibility not established. No guarantee of absence of vulnerabilities. "
+      },
+      "warnings": [
+        "Static exact-artifact review only; no installation or gameplay/runtime compatibility test. Source-to-release reproducibility not established. No guarantee of absence of vulnerabilities. "
+      ],
+      "artwork": {
+        "kind": "generated",
+        "generator": "built-in GPT image generator",
+        "selected": "A",
+        "options_shown_inline": true,
+        "prompts": {
+          "A": "Create a square polished arcade mod cover, Blocky Minecraft-style snowy mountain summit and small stone temple, cold weather and climbing clothing; no ropes, anchors or bosses since those are planned not released. Bold close focal subject, central safe crop and clear silhouettes. No text, watermark, logos or UI labels. Faithful illustrative cover, not a claimed gameplay screenshot. Readable at small square card size.",
+          "B": "Create a square polished arcade mod cover, Blocky Minecraft-style snowy mountain summit and small stone temple, cold weather and climbing clothing; no ropes, anchors or bosses since those are planned not released. Distinct wider diagonal composition showing the same factual feature in its environment. No text, watermark, logos or UI labels. Faithful illustrative cover, not a claimed gameplay screenshot. Readable at small square card size."
+        },
+        "selection_reason": "Faithful subject and readable focal composition in existing square mod card.",
+        "published_path": "/games/mod-summiteer.webp",
+        "sha256": "e8e7d36d56d3e15351ea3b2193bb693bc993ab105eef0bd0ea49e3bf2efe67e5"
+      },
+      "adjudication": {
+        "provider": "cursor",
+        "model": "grok-4.7-high",
+        "publish": 1,
+        "evidence_revision": 3
+      }
+    },
+    {
+      "candidate_id": "A-19",
+      "slug": "cozy-core",
+      "title": "Cozy Core",
+      "base_game": "Minecraft",
+      "official_destination": "https://github.com/gabmaybelle/cozy-core/releases/tag/v0.6.0%2B1.21.1",
+      "ai_quote": "Cozy Core is made by Gabby with help from Claude, an AI assistant.",
+      "ai_source": "https://github.com/gabmaybelle/cozy-core/blob/v0.6.0%2B1.21.1/README.md",
+      "artifact": {
+        "url": "https://github.com/gabmaybelle/cozy-core/releases/download/v0.6.0%2B1.21.1/cozy-core-0.6.0%2B1.21.1-fabric.jar",
+        "version": "v0.6.0+1.21.1",
+        "sha256": "1edb7a756c307c65dfbd5a7b9a362f77a69d2158cb78bfac1418d143e7ea8ee7"
+      },
+      "security": {
+        "workflow": "Codex Security",
+        "artifact_sha256": "1edb7a756c307c65dfbd5a7b9a362f77a69d2158cb78bfac1418d143e7ea8ee7",
+        "artifact_assessed": true,
+        "blocking_findings": 0,
+        "coverage": "Exact release JAR statically inspected for network, process, persistence, credential and file-boundary behavior. No material security issue found in inspected code. Exact hash bound to the per-artifact assessment table.",
+        "runtime_limits": "Static exact-artifact review only; no installation or gameplay/runtime compatibility test. Source-to-release reproducibility not established. No guarantee of absence of vulnerabilities. "
+      },
+      "warnings": [
+        "Static exact-artifact review only; no installation or gameplay/runtime compatibility test. Source-to-release reproducibility not established. No guarantee of absence of vulnerabilities. "
+      ],
+      "artwork": {
+        "kind": "retained_creator_art",
+        "source_url": "https://raw.githubusercontent.com/gabmaybelle/cozy-core/v0.6.0%2B1.21.1/art/icon.png",
+        "published_path": "/games/mod-cozy-core.webp",
+        "sha256": "d9e1295f1b62efdead2c6fcfae801ba928191c4f185190baec70f0d95dfedfc4"
+      },
+      "adjudication": {
+        "provider": "cursor",
+        "model": "grok-4.7-high",
+        "publish": 1,
+        "evidence_revision": 3
+      }
+    },
+    {
+      "candidate_id": "A-20",
+      "slug": "not-now-shield",
+      "title": "Not Now, Shield",
+      "base_game": "Minecraft",
+      "official_destination": "https://github.com/gabmaybelle/not-now-shield/releases/tag/v1.3.0%2B1.21.1",
+      "ai_quote": "Not Now, Shield is made by Gabby with help from Claude, an AI assistant.",
+      "ai_source": "https://github.com/gabmaybelle/not-now-shield/blob/v1.3.0%2B1.21.1/README.md",
+      "artifact": {
+        "url": "https://github.com/gabmaybelle/not-now-shield/releases/download/v1.3.0%2B1.21.1/not-now-shield-fabric-1.3.0%2B1.21.1.jar",
+        "version": "v1.3.0+1.21.1",
+        "sha256": "6481ddf49046701def3b912b6229237beed126ecd29e0bb806e9d2ef48808d0e"
+      },
+      "security": {
+        "workflow": "Codex Security",
+        "artifact_sha256": "6481ddf49046701def3b912b6229237beed126ecd29e0bb806e9d2ef48808d0e",
+        "artifact_assessed": true,
+        "blocking_findings": 0,
+        "coverage": "Exact release JAR statically inspected for network, process, persistence, credential and file-boundary behavior. No material security issue found in inspected code. Exact hash bound to the per-artifact assessment table.",
+        "runtime_limits": "Static exact-artifact review only; no installation or gameplay/runtime compatibility test. Source-to-release reproducibility not established. No guarantee of absence of vulnerabilities. "
+      },
+      "warnings": [
+        "Static exact-artifact review only; no installation or gameplay/runtime compatibility test. Source-to-release reproducibility not established. No guarantee of absence of vulnerabilities. "
+      ],
+      "artwork": {
+        "kind": "generated",
+        "generator": "built-in GPT image generator",
+        "selected": "A",
+        "options_shown_inline": true,
+        "prompts": {
+          "A": "Create a square polished arcade mod cover, Minecraft-style close view of an axe stripping bark from an oak log while a lowered wooden shield rests at the edge; functional shield interaction mod. Bold close focal subject, central safe crop and clear silhouettes. No text, watermark, logos or UI labels. Faithful illustrative cover, not a claimed gameplay screenshot. Readable at small square card size.",
+          "B": "Create a square polished arcade mod cover, Minecraft-style close view of an axe stripping bark from an oak log while a lowered wooden shield rests at the edge; functional shield interaction mod. Distinct wider diagonal composition showing the same factual feature in its environment. No text, watermark, logos or UI labels. Faithful illustrative cover, not a claimed gameplay screenshot. Readable at small square card size."
+        },
+        "selection_reason": "Faithful subject and readable focal composition in existing square mod card.",
+        "published_path": "/games/mod-not-now-shield.webp",
+        "sha256": "8fef8627e4f4c44629284f4d13ee6e1997238abe4c5acc27417cf1bf108dfc35"
+      },
+      "adjudication": {
+        "provider": "cursor",
+        "model": "grok-4.7-high",
+        "publish": 1,
+        "evidence_revision": 3
+      }
+    },
+    {
+      "candidate_id": "A-21",
+      "slug": "nightfall-clock",
+      "title": "Nightfall Clock",
+      "base_game": "Minecraft",
+      "official_destination": "https://github.com/gabmaybelle/nightfall-clock/releases/tag/v0.3.1",
+      "ai_quote": "Nightfall Clock is made by Gabby with help from Claude, an AI assistant.",
+      "ai_source": "https://github.com/gabmaybelle/nightfall-clock/blob/v0.3.1/README.md",
+      "artifact": {
+        "url": "https://github.com/gabmaybelle/nightfall-clock/releases/download/v0.3.1/nightfallclock-fabric-0.3.1.jar",
+        "version": "v0.3.1",
+        "sha256": "07fdfa5e2f801048fdbba8858ccab20db4fbf946966e730d1975c3eb74be6cb9"
+      },
+      "security": {
+        "workflow": "Codex Security",
+        "artifact_sha256": "07fdfa5e2f801048fdbba8858ccab20db4fbf946966e730d1975c3eb74be6cb9",
+        "artifact_assessed": true,
+        "blocking_findings": 0,
+        "coverage": "Exact release JAR statically inspected for network, process, persistence, credential and file-boundary behavior. No material security issue found in inspected code. Exact hash bound to the per-artifact assessment table.",
+        "runtime_limits": "Static exact-artifact review only; no installation or gameplay/runtime compatibility test. Source-to-release reproducibility not established. No guarantee of absence of vulnerabilities. "
+      },
+      "warnings": [
+        "- It's client-side only. It works on any server, and the server doesn't need it. - The day number changes at 6:00 AM, the way Minecraft counts days, so 2:00 AM still belongs to the day before.",
+        "Static exact-artifact review only; no installation or gameplay/runtime compatibility test. Source-to-release reproducibility not established. No guarantee of absence of vulnerabilities. "
+      ],
+      "artwork": {
+        "kind": "generated",
+        "generator": "built-in GPT image generator",
+        "selected": "A",
+        "options_shown_inline": true,
+        "prompts": {
+          "A": "Create a square polished arcade mod cover, Minecraft-style blocky homestead at golden sunset with a simple small clock motif, no numbers or text, representing dusk notification. Bold close focal subject, central safe crop and clear silhouettes. No text, watermark, logos or UI labels. Faithful illustrative cover, not a claimed gameplay screenshot. Readable at small square card size.",
+          "B": "Create a square polished arcade mod cover, Minecraft-style blocky homestead at golden sunset with a simple small clock motif, no numbers or text, representing dusk notification. Distinct wider diagonal composition showing the same factual feature in its environment. No text, watermark, logos or UI labels. Faithful illustrative cover, not a claimed gameplay screenshot. Readable at small square card size."
+        },
+        "selection_reason": "Faithful subject and readable focal composition in existing square mod card.",
+        "published_path": "/games/mod-nightfall-clock.webp",
+        "sha256": "c1241e9e29a8d0dca694f50c3385ff109b31652d0e48d623a1beffab787266a3"
+      },
+      "adjudication": {
+        "provider": "cursor",
+        "model": "grok-4.7-high",
+        "publish": 1,
+        "evidence_revision": 3
+      }
+    },
+    {
+      "candidate_id": "A-22",
+      "slug": "pocket-list",
+      "title": "Pocket List",
+      "base_game": "Minecraft",
+      "official_destination": "https://github.com/gabmaybelle/pocket-list/releases/tag/v0.3.0%2B1.21.1",
+      "ai_quote": "Pocket List is made by Gabby with help from Claude, an AI assistant.",
+      "ai_source": "https://github.com/gabmaybelle/pocket-list/blob/v0.3.0%2B1.21.1/README.md",
+      "artifact": {
+        "url": "https://github.com/gabmaybelle/pocket-list/releases/download/v0.3.0%2B1.21.1/pocket-list-fabric-0.3.0%2B1.21.1.jar",
+        "version": "v0.3.0+1.21.1",
+        "sha256": "60711b340d55393ac81f83ac7f05fc41357e869482c39e59b53d44dc29f92b49"
+      },
+      "security": {
+        "workflow": "Codex Security",
+        "artifact_sha256": "60711b340d55393ac81f83ac7f05fc41357e869482c39e59b53d44dc29f92b49",
+        "artifact_assessed": true,
+        "blocking_findings": 0,
+        "coverage": "Exact release JAR statically inspected for network, process, persistence, credential and file-boundary behavior. No material security issue found in inspected code. Exact hash bound to the per-artifact assessment table.",
+        "runtime_limits": "Static exact-artifact review only; no installation or gameplay/runtime compatibility test. Source-to-release reproducibility not established. No guarantee of absence of vulnerabilities. "
+      },
+      "warnings": [
+        "- Items are matched by type. A pinned potion counts any potion, and a pinned enchanted book counts any enchanted book. - Chest memory goes by what was there when you last closed the chest. If a hopper or a friend moves things around, open it again to refresh it.",
+        "Static exact-artifact review only; no installation or gameplay/runtime compatibility test. Source-to-release reproducibility not established. No guarantee of absence of vulnerabilities. "
+      ],
+      "artwork": {
+        "kind": "generated",
+        "generator": "built-in GPT image generator",
+        "selected": "A",
+        "options_shown_inline": true,
+        "prompts": {
+          "A": "Create a square polished arcade mod cover, Minecraft-style oak planks and glass blocks beside a simple checklist of icon-only collected resources, no letters or numbers. Bold close focal subject, central safe crop and clear silhouettes. No text, watermark, logos or UI labels. Faithful illustrative cover, not a claimed gameplay screenshot. Readable at small square card size.",
+          "B": "Create a square polished arcade mod cover, Minecraft-style oak planks and glass blocks beside a simple checklist of icon-only collected resources, no letters or numbers. Distinct wider diagonal composition showing the same factual feature in its environment. No text, watermark, logos or UI labels. Faithful illustrative cover, not a claimed gameplay screenshot. Readable at small square card size."
+        },
+        "selection_reason": "Faithful subject and readable focal composition in existing square mod card.",
+        "published_path": "/games/mod-pocket-list.webp",
+        "sha256": "4da0ebdc594824b7b749709aca2d357f97bee3bb6c8ca2bcd19b2b46870060c7"
+      },
+      "adjudication": {
+        "provider": "cursor",
+        "model": "grok-4.7-high",
+        "publish": 1,
+        "evidence_revision": 3
+      }
+    },
+    {
+      "candidate_id": "A-23",
+      "slug": "hardscrabble",
+      "title": "Hardscrabble",
+      "base_game": "Minecraft",
+      "official_destination": "https://github.com/nogaruki/hardscrabble/releases/tag/v0.1.0-alpha",
+      "ai_quote": "Code, textures, mob models, sounds and documentation were written by Claude (Anthropic's AI, Claude Opus 5.5 through Claude Code), directed, playtested and reviewed by the project owner",
+      "ai_source": "https://github.com/nogaruki/hardscrabble (README.md at HEAD)",
+      "artifact": {
+        "url": "https://github.com/nogaruki/hardscrabble/releases/download/v0.1.0-alpha/hardscrabble-0.1.0-alpha.jar",
+        "version": "v0.1.0-alpha",
+        "sha256": "3e90d58441b2bfd717073913d34bddd16a244157c60a6251d17d7c96f596f9cc"
+      },
+      "security": {
+        "workflow": "Codex Security",
+        "artifact_sha256": "3e90d58441b2bfd717073913d34bddd16a244157c60a6251d17d7c96f596f9cc",
+        "artifact_assessed": true,
+        "blocking_findings": 0,
+        "coverage": "Exact release JAR statically inspected for network, process, persistence, credential and file-boundary behavior. No material security issue found in inspected code. Exact hash bound to the per-artifact assessment table.",
+        "runtime_limits": "Static exact-artifact review only; no installation or gameplay/runtime compatibility test. Source-to-release reproducibility not established. No guarantee of absence of vulnerabilities. "
+      },
+      "warnings": [
+        "The README calls this a 0.1.0-alpha release and says wider testing is still to come. Its installation section still says no released JAR is available and directs users to build from source, while the captured GitHub prerelease record lists a JAR asset; disclose this documentation/release mismatch.",
+        "The README describes Hardscrabble as a clean-room reimplementation inspired by MITE and says it includes no MITE code or assets; it is not affiliated with or endorsed by MITE’s author.",
+        "Static exact-artifact review only; no installation or gameplay/runtime compatibility test. Source-to-release reproducibility not established. No guarantee of absence of vulnerabilities. "
+      ],
+      "artwork": {
+        "kind": "retained_creator_art",
+        "source_url": "https://raw.githubusercontent.com/nogaruki/hardscrabble/v0.1.0-alpha/docs/media/logo.png",
+        "published_path": "/games/mod-hardscrabble.webp",
+        "sha256": "79c8545520bc1a30b61daba23ca8b612fc21089fd358453638fa3b115a09234f"
+      },
+      "adjudication": {
+        "provider": "cursor",
+        "model": "grok-4.7-high",
+        "publish": 1,
+        "evidence_revision": 3
+      }
+    },
+    {
+      "candidate_id": "A-24",
+      "slug": "create-octo-arms",
+      "title": "Create: Octo Arms",
+      "base_game": "Minecraft",
+      "official_destination": "https://github.com/SenDeliver/create-octo-arms/releases/tag/v1.4.0",
+      "ai_quote": "Developed with AI assistance (Claude).",
+      "ai_source": "https://github.com/SenDeliver/create-octo-arms (README.md at HEAD)",
+      "artifact": {
+        "url": "https://github.com/SenDeliver/create-octo-arms/releases/download/v1.4.0/octo-arms-1.4.0%2Bmc1.21.1.jar",
+        "version": "v1.4.0",
+        "sha256": "4e97d689af611895b44189b99a1d2907d934ffca4a5931e43e78223d9dd1ed16"
+      },
+      "security": {
+        "workflow": "Codex Security",
+        "artifact_sha256": "4e97d689af611895b44189b99a1d2907d934ffca4a5931e43e78223d9dd1ed16",
+        "artifact_assessed": true,
+        "blocking_findings": 0,
+        "coverage": "Exact release JAR statically inspected for network, process, persistence, credential and file-boundary behavior. No material security issue found in inspected code. Exact hash bound to the per-artifact assessment table.",
+        "runtime_limits": "Static exact-artifact review only; no installation or gameplay/runtime compatibility test. Source-to-release reproducibility not established. No guarantee of absence of vulnerabilities. "
+      },
+      "warnings": [
+        "Requires Create and NeoForge; README instructs installing the same mod version on client and server. Optional Sable/Create Aeronautics support needs additional dependencies.",
+        "Static exact-artifact review only; no installation or gameplay/runtime compatibility test. Source-to-release reproducibility not established. No guarantee of absence of vulnerabilities. "
+      ],
+      "artwork": {
+        "kind": "retained_creator_art",
+        "source_url": "https://raw.githubusercontent.com/SenDeliver/create-octo-arms/v1.4.0/docs/images/hero-carried-on-tentacles.png",
+        "published_path": "/games/mod-create-octo-arms.webp",
+        "sha256": "4ad8d7011bcb144a0a4ee259e765237e24fccdf60d62719d3089d72884bf8092"
+      },
+      "adjudication": {
+        "provider": "cursor",
+        "model": "grok-4.7-high",
+        "publish": 1,
+        "evidence_revision": 3
+      }
+    },
+    {
+      "candidate_id": "A-86",
+      "slug": "click-debounce",
+      "title": "Click Debounce",
+      "base_game": "Minecraft, Fabric 26.3",
+      "official_destination": "https://github.com/PracticallyDead/click-debounce/releases/tag/v1.1.1",
+      "ai_quote": "The code of this mod was written with substantial help from an AI assistant (Claude), then tested by hand on the affected hardware.",
+      "ai_source": "https://github.com/PracticallyDead/click-debounce/blob/fe5ef158cfe261cb8abeb8d24fcc8fe78e643e2b/README.md",
+      "artifact": {
+        "url": "https://github.com/PracticallyDead/click-debounce/releases/download/v1.1.1/clickdebounce-1.1.1.jar",
+        "version": "v1.1.1",
+        "sha256": "a497c489bacad5578101697e353389ad3bcb60f26f17aa8576e0d18f8ec93d4e"
+      },
+      "security": {
+        "workflow": "Codex Security",
+        "artifact_sha256": "a497c489bacad5578101697e353389ad3bcb60f26f17aa8576e0d18f8ec93d4e",
+        "artifact_assessed": true,
+        "blocking_findings": 0,
+        "coverage": "Exact release JAR statically inspected for network, process, persistence, credential and file-boundary behavior. No material security issue found in inspected code. Exact hash bound to the per-artifact assessment table.",
+        "runtime_limits": "Static exact-artifact review only; no installation or gameplay/runtime compatibility test. Source-to-release reproducibility not established. No guarantee of absence of vulnerabilities. "
+      },
+      "warnings": [
+        "Static exact-artifact review only; no installation or gameplay/runtime compatibility test. Source-to-release reproducibility not established. No guarantee of absence of vulnerabilities. "
+      ],
+      "artwork": {
+        "kind": "generated",
+        "generator": "built-in GPT image generator",
+        "selected": "A",
+        "options_shown_inline": true,
+        "prompts": {
+          "A": "Create a square polished arcade mod cover, Minecraft-style block placement with one clean outlined block and a subtle mouse-click pulse, represents mouse bounce filtering; no superpowers. Bold close focal subject, central safe crop and clear silhouettes. No text, watermark, logos or UI labels. Faithful illustrative cover, not a claimed gameplay screenshot. Readable at small square card size.",
+          "B": "Create a square polished arcade mod cover, Minecraft-style block placement with one clean outlined block and a subtle mouse-click pulse, represents mouse bounce filtering; no superpowers. Distinct wider diagonal composition showing the same factual feature in its environment. No text, watermark, logos or UI labels. Faithful illustrative cover, not a claimed gameplay screenshot. Readable at small square card size."
+        },
+        "selection_reason": "Faithful subject and readable focal composition in existing square mod card.",
+        "published_path": "/games/mod-click-debounce.webp",
+        "sha256": "c29b2692b90b769cd5a1d18dbd679cc71917d1aae4b55fa81c119d1ec162c76e"
+      },
+      "adjudication": {
+        "provider": "cursor",
+        "model": "grok-4.7-high",
+        "publish": 1,
+        "evidence_revision": 3
+      }
+    },
+    {
+      "candidate_id": "A-87",
+      "slug": "completion-tracker",
+      "title": "Completion Tracker (Sammel-Tracker)",
+      "base_game": "Minecraft, Fabric 26.3",
+      "official_destination": "https://github.com/LABrwn/CompletionTracker/releases/tag/v1.0.0",
+      "ai_quote": "Entwickelt mit Hilfe von KI (Claude von Anthropic); Idee, Design und Tests von LABrwn. [Developed with the help of AI (Claude by Anthropic); idea, design and testing by LABrwn.]",
+      "ai_source": "https://github.com/LABrwn/CompletionTracker/blob/b8d4238dfb18ff7f2d5e81e8fac09ab8568bf0c9/README.md",
+      "artifact": {
+        "url": "https://github.com/LABrwn/CompletionTracker/releases/download/v1.0.0/completiontracker-1.0.0%2Bmc26.3.jar",
+        "version": "v1.0.0",
+        "sha256": "3242097e6b07225fc1fd486214a4d2bae95ad3c53a1575f5d84d60c0536d7a07"
+      },
+      "security": {
+        "workflow": "Codex Security",
+        "artifact_sha256": "3242097e6b07225fc1fd486214a4d2bae95ad3c53a1575f5d84d60c0536d7a07",
+        "artifact_assessed": true,
+        "blocking_findings": 0,
+        "coverage": "Exact release JAR statically inspected for network, process, persistence, credential and file-boundary behavior. No material security issue found in inspected code. Exact hash bound to the per-artifact assessment table.",
+        "runtime_limits": "Static exact-artifact review only; no installation or gameplay/runtime compatibility test. Source-to-release reproducibility not established. No guarantee of absence of vulnerabilities. "
+      },
+      "warnings": [
+        "Static exact-artifact review only; no installation or gameplay/runtime compatibility test. Source-to-release reproducibility not established. No guarantee of absence of vulnerabilities. "
+      ],
+      "artwork": {
+        "kind": "generated",
+        "generator": "built-in GPT image generator",
+        "selected": "A",
+        "options_shown_inline": true,
+        "prompts": {
+          "A": "Create a square polished arcade mod cover, Minecraft-style orderly trophy display with collected block items, a mob silhouette and small check symbols, representing collection and advancement tracking. Bold close focal subject, central safe crop and clear silhouettes. No text, watermark, logos or UI labels. Faithful illustrative cover, not a claimed gameplay screenshot. Readable at small square card size.",
+          "B": "Create a square polished arcade mod cover, Minecraft-style orderly trophy display with collected block items, a mob silhouette and small check symbols, representing collection and advancement tracking. Distinct wider diagonal composition showing the same factual feature in its environment. No text, watermark, logos or UI labels. Faithful illustrative cover, not a claimed gameplay screenshot. Readable at small square card size."
+        },
+        "selection_reason": "Faithful subject and readable focal composition in existing square mod card.",
+        "published_path": "/games/mod-completion-tracker.webp",
+        "sha256": "912dcfe691d31f9bc3056c8111a26b390fcf45986fb282d3970ee7038e826211"
+      },
+      "adjudication": {
+        "provider": "cursor",
+        "model": "grok-4.7-high",
+        "publish": 1,
+        "evidence_revision": 3
+      }
+    },
+    {
+      "candidate_id": "A-88",
+      "slug": "mimesismap",
+      "title": "MimesisMap (room-by-room map/minimap, MIMESIS)",
+      "base_game": "MIMESIS, MelonLoader, client-side",
+      "official_destination": "https://github.com/StimDesu/MimesisMap/releases/tag/v1.8.2",
+      "ai_quote": "This mod was made with the help of an AI assistant, Claude by Anthropic: the code, the documentation and the icon.",
+      "ai_source": "https://github.com/StimDesu/MimesisMap/blob/8a94483358c473011bfaf65773b3a508d629158b/README.md",
+      "artifact": {
+        "url": "https://github.com/StimDesu/MimesisMap/releases/download/v1.8.2/MimesisMap-1.8.2.zip",
+        "version": "v1.8.2",
+        "sha256": "59ac4b5d24f9ef00606feb935c273494ff8b010f12bce0bd70cca2b5d9c718c6"
+      },
+      "security": {
+        "workflow": "Codex Security",
+        "artifact_sha256": "59ac4b5d24f9ef00606feb935c273494ff8b010f12bce0bd70cca2b5d9c718c6",
+        "artifact_assessed": true,
+        "blocking_findings": 0,
+        "coverage": "Exact release managed assemblies inspected offline with .NET metadata/IL, including sensitive file/network/process boundaries. No material security issue found in the reviewed methods.",
+        "runtime_limits": "Static exact-artifact review only; no installation or gameplay/runtime compatibility test. Source-to-release reproducibility not established. No guarantee of absence of vulnerabilities. "
+      },
+      "warnings": [
+        "Client-side MIMESIS mod requiring MelonLoader 0.7.x; README states the manual installation route and manager route.",
+        "Static exact-artifact review only; no installation or gameplay/runtime compatibility test. Source-to-release reproducibility not established. No guarantee of absence of vulnerabilities. "
+      ],
+      "artwork": {
+        "kind": "retained_creator_art",
+        "source_url": "https://raw.githubusercontent.com/StimDesu/MimesisMap/8a94483358c473011bfaf65773b3a508d629158b/screenshots/bigmap-ingame.png",
+        "published_path": "/games/mod-mimesismap.webp",
+        "sha256": "f137250f295c6da429aec4641116c4fb7103db2d4f72149aac6040341cfece76"
+      },
+      "adjudication": {
+        "provider": "cursor",
+        "model": "grok-4.7-high",
+        "publish": 1,
+        "evidence_revision": 3
+      }
+    },
+    {
+      "candidate_id": "A-89",
+      "slug": "friendly-turret-coverage",
+      "title": "Friendly Turret Coverage (Star Valor)",
+      "base_game": "Star Valor",
+      "official_destination": "https://github.com/cydergoth/friendly_turret_coverage/releases/tag/v1.1.0",
+      "ai_quote": "This mod's code and documentation were written with the AI coding assistant Claude Code, directed and reviewed by the author.",
+      "ai_source": "https://github.com/cydergoth/friendly_turret_coverage/blob/704686b7de6983cccab0ea6ac3f33bd7dc77cf4f/README.md",
+      "artifact": {
+        "url": "https://github.com/cydergoth/friendly_turret_coverage/releases/download/v1.1.0/FriendlyTurretCoverage-1.1.0.zip",
+        "version": "v1.1.0",
+        "sha256": "89241498bbd1a2b137d853eaa4720d3407575bf417f10b261f8a156c93d35f74"
+      },
+      "security": {
+        "workflow": "Codex Security",
+        "artifact_sha256": "89241498bbd1a2b137d853eaa4720d3407575bf417f10b261f8a156c93d35f74",
+        "artifact_assessed": true,
+        "blocking_findings": 0,
+        "coverage": "Exact release managed assemblies inspected offline with .NET metadata/IL, including sensitive file/network/process boundaries. No material security issue found in the reviewed methods.",
+        "runtime_limits": "Static exact-artifact review only; no installation or gameplay/runtime compatibility test. Source-to-release reproducibility not established. No guarantee of absence of vulnerabilities. "
+      },
+      "warnings": [
+        "Requires BepInEx 5.4.23.2 and Star Valor. README notes the license covers only the mod’s source code; Star Valor and its assets belong to the game developer.",
+        "Static exact-artifact review only; no installation or gameplay/runtime compatibility test. Source-to-release reproducibility not established. No guarantee of absence of vulnerabilities. "
+      ],
+      "artwork": {
+        "kind": "generated",
+        "generator": "built-in GPT image generator",
+        "selected": "A",
+        "options_shown_inline": true,
+        "prompts": {
+          "A": "Create a square polished arcade mod cover, Top-down space station turrets with translucent teal firing arcs ending at weapon range and gaps blocked by asteroids, Star Valor planning overlay; no new weapons. Bold close focal subject, central safe crop and clear silhouettes. No text, watermark, logos or UI labels. Faithful illustrative cover, not a claimed gameplay screenshot. Readable at small square card size.",
+          "B": "Create a square polished arcade mod cover, Top-down space station turrets with translucent teal firing arcs ending at weapon range and gaps blocked by asteroids, Star Valor planning overlay; no new weapons. Distinct wider diagonal composition showing the same factual feature in its environment. No text, watermark, logos or UI labels. Faithful illustrative cover, not a claimed gameplay screenshot. Readable at small square card size."
+        },
+        "selection_reason": "Faithful subject and readable focal composition in existing square mod card.",
+        "published_path": "/games/mod-friendly-turret-coverage.webp",
+        "sha256": "839e55d7beef4b1e32fb547bcc4fc94847c3cc7a31d94c8965d7fc31efd7d97f"
+      },
+      "adjudication": {
+        "provider": "cursor",
+        "model": "grok-4.7-high",
+        "publish": 1,
+        "evidence_revision": 3
+      }
+    },
+    {
+      "candidate_id": "A-90",
+      "slug": "station-transport",
+      "title": "Station Transport (Star Valor)",
+      "base_game": "Star Valor",
+      "official_destination": "https://github.com/cydergoth/station_transport/releases/tag/v0.1.0",
+      "ai_quote": "This mod's code and documentation were written with the AI coding assistant Claude Code, directed and reviewed by the author.",
+      "ai_source": "https://github.com/cydergoth/station_transport/blob/91d7348cc3638138361ec8b47fe0a5dec697f42e/README.md",
+      "artifact": {
+        "url": "https://github.com/cydergoth/station_transport/releases/download/v0.1.0/StationTransport-0.1.0.zip",
+        "version": "v0.1.0",
+        "sha256": "dcc3c67049aa7517127c5bd210920719ac2c62be5d43ede856ecbe1d8b387eb8"
+      },
+      "security": {
+        "workflow": "Codex Security",
+        "artifact_sha256": "dcc3c67049aa7517127c5bd210920719ac2c62be5d43ede856ecbe1d8b387eb8",
+        "artifact_assessed": true,
+        "blocking_findings": 0,
+        "coverage": "Exact release managed assemblies inspected offline with .NET metadata/IL, including sensitive file/network/process boundaries. No material security issue found in the reviewed methods.",
+        "runtime_limits": "Static exact-artifact review only; no installation or gameplay/runtime compatibility test. Source-to-release reproducibility not established. No guarantee of absence of vulnerabilities. "
+      },
+      "warnings": [
+        "README labels v0.1.0 as a pre-release. Requires BepInEx 5.4.23.2 and Star Valor.",
+        "Local save-sidecar mismatch can discard route progress; detail-view warning needed if eventually published.",
+        "Static exact-artifact review only; no installation or gameplay/runtime compatibility test. Source-to-release reproducibility not established. No guarantee of absence of vulnerabilities. "
+      ],
+      "artwork": {
+        "kind": "generated",
+        "generator": "built-in GPT image generator",
+        "selected": "A",
+        "options_shown_inline": true,
+        "prompts": {
+          "A": "Create a square polished arcade mod cover, Small cargo spaceships following a marked trade route between two orbital stations and a jump gate; Star Valor transport management. Bold close focal subject, central safe crop and clear silhouettes. No text, watermark, logos or UI labels. Faithful illustrative cover, not a claimed gameplay screenshot. Readable at small square card size.",
+          "B": "Create a square polished arcade mod cover, Small cargo spaceships following a marked trade route between two orbital stations and a jump gate; Star Valor transport management. Distinct wider diagonal composition showing the same factual feature in its environment. No text, watermark, logos or UI labels. Faithful illustrative cover, not a claimed gameplay screenshot. Readable at small square card size."
+        },
+        "selection_reason": "Faithful subject and readable focal composition in existing square mod card.",
+        "published_path": "/games/mod-station-transport.webp",
+        "sha256": "012a47e5c013fb267f4572ca59d8ceba97739541fe19aef56883b524f6ea38c8"
+      },
+      "adjudication": {
+        "provider": "cursor",
+        "model": "grok-4.7-high",
+        "publish": 1,
+        "evidence_revision": 3
+      }
+    },
+    {
+      "candidate_id": "A-91",
+      "slug": "find-me-clientside",
+      "title": "Find Me Clientside (Forge 1.20.1 item locator)",
+      "base_game": "Minecraft, Forge 1.20.1",
+      "official_destination": "https://github.com/Flurben/find-me-clientside/releases/tag/v1.0.2",
+      "ai_quote": "The code and documentation were substantially generated with Codex; see AI_DISCLOSURE.md.",
+      "ai_source": "https://github.com/Flurben/find-me-clientside/blob/7679ac46cd9bb52afb0e42d84a243540948aa83a/README.md",
+      "artifact": {
+        "url": "https://github.com/Flurben/find-me-clientside/releases/download/v1.0.2/findmeclientside-forge-1.20.1-1.0.2.jar",
+        "version": "v1.0.2",
+        "sha256": "6841880ac65bacfd8cceddcab90886425d0dbb9ad02d3ce36a53ea7a372ed33d"
+      },
+      "security": {
+        "workflow": "Codex Security",
+        "artifact_sha256": "6841880ac65bacfd8cceddcab90886425d0dbb9ad02d3ce36a53ea7a372ed33d",
+        "artifact_assessed": true,
+        "blocking_findings": 0,
+        "coverage": "Exact release JAR statically inspected for network, process, persistence, credential and file-boundary behavior. No material security issue found in inspected code. Exact hash bound to the per-artifact assessment table.",
+        "runtime_limits": "Static exact-artifact review only; no installation or gameplay/runtime compatibility test. Source-to-release reproducibility not established. No guarantee of absence of vulnerabilities. Three supplemental non-code release attachments (two icons and SHA256SUMS.txt) were not retrieved; intended JAR and publishing ZIP were assessed."
+      },
+      "warnings": [
+        "Forge for Minecraft 1.20.1, Forge 47.1+ in the 47.x series. README states it is client-only and requires players to open containers before their contents can be remembered.",
+        "Three supplemental non-code release attachments (two icons and SHA256SUMS.txt) were not retrieved; intended JAR and publishing ZIP were assessed.",
+        "Static exact-artifact review only; no installation or gameplay/runtime compatibility test. Source-to-release reproducibility not established. No guarantee of absence of vulnerabilities. Three supplemental non-code release attachments (two icons and SHA256SUMS.txt) were not retrieved; intended JAR and publishing ZIP were assessed."
+      ],
+      "artwork": {
+        "kind": "retained_creator_art",
+        "source_url": "https://raw.githubusercontent.com/Flurben/find-me-clientside/7679ac46cd9bb52afb0e42d84a243540948aa83a/assets/branding/icon-256.png",
+        "published_path": "/games/mod-find-me-clientside.webp",
+        "sha256": "f91b8f4feeba9125ec2d1c1a06174a0ea2e1334ee2ad9b7b9f2678f632d26345"
+      },
+      "adjudication": {
+        "provider": "cursor",
+        "model": "grok-4.7-high",
+        "publish": 1,
+        "evidence_revision": 3
+      }
+    },
+    {
+      "candidate_id": "A-92",
+      "slug": "dualsense-pad",
+      "title": "DualSense Pad (PS5 DualSense support, My Winter Car)",
+      "base_game": "My Winter Car, MSCLoader",
+      "official_destination": "https://github.com/kerosh/MWC-dualsense/releases/tag/1.0.0",
+      "ai_quote": "AI disclosure: most of the code was written with AI assistance (Claude). The mod says so in its MSCLoader description and its assembly attributes.",
+      "ai_source": "https://github.com/kerosh/MWC-dualsense/blob/2b0187196289a323b9c671ba56044634b49decdf/README.md",
+      "artifact": {
+        "url": "https://github.com/kerosh/MWC-dualsense/releases/download/1.0.0/DualSensePad.dll",
+        "version": "1.0.0",
+        "sha256": "01cfe26991ec183be02526342deeafc0697cdbf671bb14afffc00ff4daefa1cd"
+      },
+      "security": {
+        "workflow": "Codex Security",
+        "artifact_sha256": "01cfe26991ec183be02526342deeafc0697cdbf671bb14afffc00ff4daefa1cd",
+        "artifact_assessed": true,
+        "blocking_findings": 0,
+        "coverage": "Exact release managed assemblies inspected offline with .NET metadata/IL, including sensitive file/network/process boundaries. No material security issue found in the reviewed methods.",
+        "runtime_limits": "Static exact-artifact review only; no installation or gameplay/runtime compatibility test. Source-to-release reproducibility not established. No guarantee of absence of vulnerabilities. "
+      },
+      "warnings": [
+        "Requires My Winter Car and MSCLoader; README lists a recommended setup and known limitations.",
+        "Static exact-artifact review only; no installation or gameplay/runtime compatibility test. Source-to-release reproducibility not established. No guarantee of absence of vulnerabilities. "
+      ],
+      "artwork": {
+        "kind": "generated",
+        "generator": "built-in GPT image generator",
+        "selected": "A",
+        "options_shown_inline": true,
+        "prompts": {
+          "A": "Create a square polished arcade mod cover, White-and-black modern dual-stick controller before a snowy Finnish garage with an old compact car, representing DualSense controller support for My Winter Car. Bold close focal subject, central safe crop and clear silhouettes. No text, watermark, logos or UI labels. Faithful illustrative cover, not a claimed gameplay screenshot. Readable at small square card size.",
+          "B": "Create a square polished arcade mod cover, White-and-black modern dual-stick controller before a snowy Finnish garage with an old compact car, representing DualSense controller support for My Winter Car. Distinct wider diagonal composition showing the same factual feature in its environment. No text, watermark, logos or UI labels. Faithful illustrative cover, not a claimed gameplay screenshot. Readable at small square card size."
+        },
+        "selection_reason": "Faithful subject and readable focal composition in existing square mod card.",
+        "published_path": "/games/mod-dualsense-pad.webp",
+        "sha256": "b852580c80345772f48ef966e2ee0d10992aa95c0f4dcfa87081a114167b7e6e"
+      },
+      "adjudication": {
+        "provider": "cursor",
+        "model": "grok-4.7-high",
+        "publish": 1,
+        "evidence_revision": 3
+      }
+    },
+    {
+      "candidate_id": "A-94",
+      "slug": "prismatic-geodes",
+      "title": "Prismatic Geodes (16-colour amethyst geodes)",
+      "base_game": "Minecraft 26.3",
+      "official_destination": "https://github.com/KalleBoy39/prismatic-geodes/releases/tag/v1.0.0",
+      "ai_quote": "Implementation: developed with extensive assistance from Claude Code, Anthropic's AI coding assistant.",
+      "ai_source": "https://github.com/KalleBoy39/prismatic-geodes/blob/43c85fbb5796f045faea5fdcba6da621f1234bec/README.md",
+      "artifact": {
+        "url": "https://github.com/KalleBoy39/prismatic-geodes/releases/download/v1.0.0/prismatic-geodes-1.0.0%2B26.3.jar",
+        "version": "v1.0.0",
+        "sha256": "96cfe443ea7a980447c603921ab3d4890dd136623210a64dfc2e4adef3a2f51a"
+      },
+      "security": {
+        "workflow": "Codex Security",
+        "artifact_sha256": "96cfe443ea7a980447c603921ab3d4890dd136623210a64dfc2e4adef3a2f51a",
+        "artifact_assessed": true,
+        "blocking_findings": 0,
+        "coverage": "The `/api/verify` route checks POST but no Origin/CSRF control was found. It starts a single job capped at a 64-by-64 chunk rectangle. Browser local-network policy and runtime exploitability were not tested.",
+        "runtime_limits": "Assessment covers the standalone Prismatic Geodes JAR only. The optional Windows locator executable/bundled runtime is NOT cleared. No installation, runtime test or reproducible source-to-release proof."
+      },
+      "warnings": [
+        "Minecraft 26.3. Optional Mini Blocks and the Windows Geode Locator are separate downloads; another mod or datapack that changes minecraft:amethyst_geode may conflict.",
+        "Security review covered only the primary Minecraft JAR. The separate locator ZIP/EXE, bundled runtime and optional Mini Blocks JAR are not covered.",
+        "Low conditional finding in the separate locator: its loopback /api/verify POST has no Origin/CSRF check and may start one bounded verification job if browser local-network policy permits it. Browser reachability and impact were not reproduced.",
+        "Assessment covers the standalone Prismatic Geodes JAR only. The optional Windows locator executable/bundled runtime is NOT cleared. No installation, runtime test or reproducible source-to-release proof."
+      ],
+      "artwork": {
+        "kind": "retained_creator_art",
+        "source_url": "https://raw.githubusercontent.com/KalleBoy39/prismatic-geodes/43c85fbb5796f045faea5fdcba6da621f1234bec/docs/images/prismatic-geodes-cover.png",
+        "published_path": "/games/mod-prismatic-geodes.webp",
+        "sha256": "6357d50f4b38bd4a79455fd222dadd03b15b721efe39557970bb460865c1eb28"
+      },
+      "adjudication": {
+        "provider": "cursor",
+        "model": "grok-4.7-high",
+        "publish": 1,
+        "evidence_revision": 3
+      }
+    },
+    {
+      "candidate_id": "A-95",
+      "slug": "vanilla-map-plus",
+      "title": "Vanilla Map Plus (fullscreen map/minimap from vanilla maps)",
+      "base_game": "Minecraft Forge 1.20.1",
+      "official_destination": "https://github.com/drvaclav/vanilla-map-plus/releases/tag/v1.20.1-1.1.4",
+      "ai_quote": "Made by DrVacLav. The code was written with Claude Code (Anthropic's AI coding agent) and tested in game by the author.",
+      "ai_source": "https://github.com/drvaclav/vanilla-map-plus/blob/d78847428ed4dd62ebbd33aea8461a1741403688/README.md",
+      "artifact": {
+        "url": "https://github.com/drvaclav/vanilla-map-plus/releases/download/v1.20.1-1.1.4/vanillamapplus-forge-1.20.1-1.1.4.jar",
+        "version": "v1.20.1-1.1.4",
+        "sha256": "97bad98a3343a9a87f188fe88fee0d03551e1edf72c2071c857d0fa56aebe432"
+      },
+      "security": {
+        "workflow": "Codex Security",
+        "artifact_sha256": "97bad98a3343a9a87f188fe88fee0d03551e1edf72c2071c857d0fa56aebe432",
+        "artifact_assessed": true,
+        "blocking_findings": 0,
+        "coverage": "Exact release JAR statically inspected for network, process, persistence, credential and file-boundary behavior. No material security issue found in inspected code. Exact hash bound to the per-artifact assessment table.",
+        "runtime_limits": "Static exact-artifact review only; no installation or gameplay/runtime compatibility test. Source-to-release reproducibility not established. No guarantee of absence of vulnerabilities. "
+      },
+      "warnings": [
+        "The release tag targets Minecraft Forge 1.20.1; README also discusses separate releases for newer Minecraft versions.",
+        "Static exact-artifact review only; no installation or gameplay/runtime compatibility test. Source-to-release reproducibility not established. No guarantee of absence of vulnerabilities. "
+      ],
+      "artwork": {
+        "kind": "retained_creator_art",
+        "source_url": "https://raw.githubusercontent.com/drvaclav/vanilla-map-plus/main/logo.png",
+        "published_path": "/games/mod-vanilla-map-plus.webp",
+        "sha256": "b5e066aca9157a4eaebd5ee55ae59d6b1d484f28aa7111be9d4e449e47e2662f"
+      },
+      "adjudication": {
+        "provider": "cursor",
+        "model": "grok-4.7-high",
+        "publish": 1,
+        "evidence_revision": 3
+      }
+    },
+    {
+      "candidate_id": "A-96",
+      "slug": "playable-vessel",
+      "title": "Playable Vessel (play as the Hollow Knight)",
+      "base_game": "Hollow Knight",
+      "official_destination": "https://github.com/Modalicous718/PlayableVessel/releases/tag/PlayableBoss",
+      "ai_quote": "AI-assisted: this mod was designed and written with Claude Code (Anthropic's Claude, Opus) working with the mod's creator, who tested every build in game.",
+      "ai_source": "https://github.com/Modalicous718/PlayableVessel/blob/954d892fcd0927a3c5a790a92c367a8bcd22d176/README.md",
+      "artifact": {
+        "url": "https://github.com/Modalicous718/PlayableVessel/releases/download/PlayableBoss/PlayableVessel-0.5.0-manual-install.zip",
+        "version": "PlayableBoss",
+        "sha256": "fcb0aa29d6c9bdf8ae3c342278d1935442267207c5354d14021912851c18aceb"
+      },
+      "security": {
+        "workflow": "Codex Security",
+        "artifact_sha256": "fcb0aa29d6c9bdf8ae3c342278d1935442267207c5354d14021912851c18aceb",
+        "artifact_assessed": true,
+        "blocking_findings": 0,
+        "coverage": "Adequate bounded risk-directed static review. ZIP fcb0aa29d6c9bdf8ae3c342278d1935442267207c5354d14021912851c18aceb; DLL 8c0c0eda2cd9bfa6f2272e7b6c348639ada83598f7cfc3f1534466bfbc2192a1. Actual IL method/call inventory; direct Initialize, file output callsites, both filename sanitizers, log rotation, ModDir, music cache, BuildLibrary and background repacker reviewed. Writes fixed mod-directory dump/log/MusicLibrary locations; dump names invalid-char sanitized. Cached Unity bundles loaded locally; fixed Modding.UnitySceneRepacker.Repack reflection uses game dataPath, no arbitrary assembly loading or network/process observed. IL-only, no PInvoke/resources/native methods. No material issue in inspected boundaries. Gameplay control logic not exhaustively line reviewed; engine parser, mod API, save behavior, compatibility and runtime performance untested. Evidence artifacts/analysis/A-96-il.txt.",
+        "runtime_limits": "Static review of exact release only. No installation or in-game compatibility testing. No guarantee of absence of vulnerabilities."
+      },
+      "warnings": [
+        "Hollow Knight 1.5.78 and the Modding API are required. README says game content belongs to Team Cherry and the source code is MIT-licensed.",
+        "The GitHub release tag is PlayableBoss; the artifact filename identifies mod version 0.5.0.",
+        "Static review of exact release only. No installation or in-game compatibility testing. No guarantee of absence of vulnerabilities."
+      ],
+      "artwork": {
+        "kind": "generated",
+        "generator": "built-in GPT image generator",
+        "selected": "A",
+        "options_shown_inline": true,
+        "prompts": {
+          "A": "Create a landscape 3:2 polished arcade mod thumbnail. A slender white horned insect knight in flowing dark cloak with long nail sword, elegant hand-painted dark cavern, warm infection glow on one side and cool pale vessel glow on the other. Faithful Hollow Knight mod that maps boss movesets to the player; no invented guns or vehicles. Composition A: a bold close focal subject with clear silhouettes and central safe crop. No text, logos, watermark, menu labels or interface. Illustrative art rather than a false screenshot; faithful subjects, readable small card.",
+          "B": "Create a landscape 3:2 polished arcade mod thumbnail. A slender white horned insect knight in flowing dark cloak with long nail sword, elegant hand-painted dark cavern, warm infection glow on one side and cool pale vessel glow on the other. Faithful Hollow Knight mod that maps boss movesets to the player; no invented guns or vehicles. Composition B: a distinct wider diagonal composition emphasizing the environment and the same factual feature. No text, logos, watermark, menu labels or interface. Illustrative art rather than a false screenshot; faithful subjects, readable small card."
+        },
+        "selection_reason": "Faithful subject and readable focal composition in existing square mod card.",
+        "published_path": "/games/mod-playable-vessel.webp",
+        "sha256": "538890e7c24d5f289eb7fe025e0c9113bd190ceb1b5684fc44cb83d6ccd21013"
+      },
+      "adjudication": {
+        "provider": "cursor",
+        "model": "grok-4.7-high",
+        "publish": 1,
+        "evidence_revision": 3
+      }
+    },
+    {
+      "candidate_id": "A-97",
+      "slug": "motor-sound-configurator",
+      "title": "Motor Sound Configurator (Farming Simulator 25)",
+      "base_game": "Farming Simulator 25, script mod",
+      "official_destination": "https://github.com/emme92/FS25_MotorSoundConfigurator/releases/tag/v1.0.0.0",
+      "ai_quote": "This mod was developed with the help of Claude (AI assistant by Anthropic).",
+      "ai_source": "https://github.com/emme92/FS25_MotorSoundConfigurator/blob/cf3ad95514f8ce10e5265be83ec96f58efd8e71f/README.md",
+      "artifact": {
+        "url": "https://github.com/emme92/FS25_MotorSoundConfigurator/releases/download/v1.0.0.0/FS25_MotorSoundConfigurator.zip",
+        "version": "v1.0.0.0",
+        "sha256": "1c5fc89b71c80d1518bec843a46a110aa5bee6702aec94dc793bc5c94afa6a32"
+      },
+      "security": {
+        "workflow": "Codex Security",
+        "artifact_sha256": "1c5fc89b71c80d1518bec843a46a110aa5bee6702aec94dc793bc5c94afa6a32",
+        "artifact_assessed": true,
+        "blocking_findings": 0,
+        "coverage": "Adequate bounded static artifact assessment for FS25_MotorSoundConfigurator.zip SHA-256 1c5fc89b71c80d1518bec843a46a110aa5bee6702aec94dc793bc5c94afa6a32. Full archive path/symlink check; script-wide sensitive-call and credential survey; traced main.lua lifecycle, Settings.lua:70-95,147-204,243-307 fixed filenames under engine profile/save path, Hooks.lua:136-148 engine save callback, Layers.lua catalog validation/loadSample, console numeric clamping and engine swap. No dynamic code evaluation, network request or process execution found. No material security issue found in reviewed boundaries. Ordinary game API/GUI correctness and runtime compatibility not certified; no execution. Review is risk-directed rather than exhaustive line-by-line coverage.",
+        "runtime_limits": "Static review of exact release only. No installation or in-game compatibility testing. No guarantee of absence of vulnerabilities."
+      },
+      "warnings": [
+        "Farming Simulator 25 for PC/Mac. README says sound/template assets are referenced from the game installation and remain GIANTS Software property; code is GPL v3.",
+        "Static review of exact release only. No installation or in-game compatibility testing. No guarantee of absence of vulnerabilities."
+      ],
+      "artwork": {
+        "kind": "retained_creator_art",
+        "source_url": "https://raw.githubusercontent.com/emme92/FS25_MotorSoundConfigurator/cf3ad95514f8ce10e5265be83ec96f58efd8e71f/assets/icon_preview.png",
+        "published_path": "/games/mod-motor-sound-configurator.webp",
+        "sha256": "d393e715d85c7559bcfdc362442f05ee1f941c78e143c366f679cbcd922580ff"
+      },
+      "adjudication": {
+        "provider": "cursor",
+        "model": "grok-4.7-high",
+        "publish": 1,
+        "evidence_revision": 3
+      }
+    },
+    {
+      "candidate_id": "A-98",
+      "slug": "teleporter-control",
+      "title": "Teleporter Control (Hytale)",
+      "base_game": "Hytale server plugin",
+      "official_destination": "https://github.com/InformalLounge/hytale-teleporter-control/releases/tag/v0.1.0",
+      "ai_quote": "This mod was developed with the help of Claude Code, Anthropic's AI coding assistant.",
+      "ai_source": "https://github.com/InformalLounge/hytale-teleporter-control/blob/20507ed1d80bfd44d0d4bdd89f74fdb77cdf5306/README.md",
+      "artifact": {
+        "url": "https://github.com/InformalLounge/hytale-teleporter-control/releases/download/v0.1.0/TeleporterControl-0.1.0.jar",
+        "version": "v0.1.0",
+        "sha256": "a7cd22a015a22d687589c33b7adfc6922c54158d3bf0af17753654a0cbc05083"
+      },
+      "security": {
+        "workflow": "Codex Security",
+        "artifact_sha256": "a7cd22a015a22d687589c33b7adfc6922c54158d3bf0af17753654a0cbc05083",
+        "artifact_assessed": true,
+        "blocking_findings": 0,
+        "coverage": "Artifact A-98-TeleporterControl-0.1.0.jar; SHA256 a7cd22a015a22d687589c33b7adfc6922c54158d3bf0af17753654a0cbc05083; artifact_assessed=true. Checked: Actual 14 class Java release bytecode, entrypoint/setup, fixed access.json load/backup persistence, source and destination private/public access checks, server UUID permissions, owner claim/reset, UI save revalidation, relinquish event path. No extra bundled executable payload. Outcome: Low conditional stale-admin relinquish finding. Otherwise no material issue found in the reviewed boundaries. Runtime limits: In-process server plugin. Close open mod pages when revoking admin permissions; host page-lifetime behavior untested. Not a remote code execution finding. Evidence: artifacts/analysis/A98-java.txt.",
+        "runtime_limits": "Static exact-artifact review only; no installation or gameplay/runtime compatibility test. Source-to-release reproducibility not established. No guarantee of absence of vulnerabilities. Static review; page lifetime/host-wide closure not exercised."
+      },
+      "warnings": [
+        "Ownership and sharing are stored in access.json; back it up with the world. Moving teleporters with builder tools or prefab paste can lose ownership, and renaming a world resets ownership.",
+        "Low-severity static finding: an already-open admin teleporter page may retain the relinquish action after admin rights are revoked. The page-lifetime behavior was not tested in Hytale.",
+        "The creator says the project was built for its own server; features and priorities follow that server’s needs.",
+        "Static exact-artifact review only; no installation or gameplay/runtime compatibility test. Source-to-release reproducibility not established. No guarantee of absence of vulnerabilities. Static review; page lifetime/host-wide closure not exercised."
+      ],
+      "artwork": {
+        "kind": "generated",
+        "generator": "built-in GPT image generator",
+        "selected": "A",
+        "options_shown_inline": true,
+        "prompts": {
+          "A": "Create a square polished arcade mod cover, Two blocky fantasy teleporters linked by a light trail with simple small lock symbols for private access, representing Hytale teleporter ownership. Bold close focal subject, central safe crop and clear silhouettes. No text, watermark, logos or UI labels. Faithful illustrative cover, not a claimed gameplay screenshot. Readable at small square card size.",
+          "B": "Create a square polished arcade mod cover, Two blocky fantasy teleporters linked by a light trail with simple small lock symbols for private access, representing Hytale teleporter ownership. Distinct wider diagonal composition showing the same factual feature in its environment. No text, watermark, logos or UI labels. Faithful illustrative cover, not a claimed gameplay screenshot. Readable at small square card size."
+        },
+        "selection_reason": "Faithful subject and readable focal composition in existing square mod card.",
+        "published_path": "/games/mod-teleporter-control.webp",
+        "sha256": "be365eef67f7c87bc32e8ad4fef4856181d51e540e270e6eae2910aad86b3b5b"
+      },
+      "adjudication": {
+        "provider": "cursor",
+        "model": "grok-4.7-high",
+        "publish": 1,
+        "evidence_revision": 3
+      }
+    },
+    {
+      "candidate_id": "A-100",
+      "slug": "shadowtrim",
+      "title": "ShadowTrim (Valheim FPS: shorter sun-shadow distance)",
+      "base_game": "Valheim, BepInEx",
+      "official_destination": "https://github.com/tbsj1ga/ShadowTrimValheim/releases/tag/v0.1.0",
+      "ai_quote": "This mod was developed with the help of an AI assistant (Claude by Anthropic)",
+      "ai_source": "https://github.com/tbsj1ga/ShadowTrimValheim/blob/488284be43d87cb20a960691736a962cd77af9f5/README.md",
+      "artifact": {
+        "url": "https://github.com/tbsj1ga/ShadowTrimValheim/releases/download/v0.1.0/ShadowTrim-0.1.0.zip",
+        "version": "v0.1.0",
+        "sha256": "02623a6a1216ad2853307f6cb5d22a1f9ada56368ecb1cd0c5e684d81f164960"
+      },
+      "security": {
+        "workflow": "Codex Security",
+        "artifact_sha256": "02623a6a1216ad2853307f6cb5d22a1f9ada56368ecb1cd0c5e684d81f164960",
+        "artifact_assessed": true,
+        "blocking_findings": 0,
+        "coverage": "ZIP SHA256 02623a6a1216ad2853307f6cb5d22a1f9ada56368ecb1cd0c5e684d81f164960; ShadowTrim.dll SHA256 661f7708832517a0b7b4c1627a646d521ab8fabbbdd77a743e8f062017ae3ee2. All method/external call survey, lifecycle Awake/OnDestroy, config binds and parsing, console benchmarks and renderer/layer mutation traced. No network, process or arbitrary file operations observed; BepInEx configuration and logging expected. Adequate bounded static assessment of exact release bytes; CLR IL-only, no PInvoke, embedded managed resources or native/runtime method implementations. No material issue found in reviewed boundaries. No execution; loader/game API dependencies and compatibility untested. Supplemental analysis contains token-resolved IL; generic TypeSpec owner names are opaque but method names and concrete operations are resolved.",
+        "runtime_limits": "Static review of exact release only. No installation or in-game compatibility testing. No guarantee of absence of vulnerabilities."
+      },
+      "warnings": [
+        "Requires Valheim 1.0.20 and BepInEx 5.4.23.5. README warns that another mod setting the sun’s per-layer shadow distances would overwrite the same values.",
+        "Static review of exact release only. No installation or in-game compatibility testing. No guarantee of absence of vulnerabilities."
+      ],
+      "artwork": {
+        "kind": "generated",
+        "generator": "built-in GPT image generator",
+        "selected": "B",
+        "options_shown_inline": true,
+        "prompts": {
+          "A": "Create a landscape 3:2 polished arcade mod thumbnail. Nordic timber settlement and pine trees in sunlit low-poly fantasy terrain, crisp nearby tree shadows gently fading in the far distance; shadow-distance performance mod. Composition A: a bold close focal subject with clear silhouettes and central safe crop. No text, logos, watermark, menu labels or interface. Illustrative art rather than a false screenshot; faithful subjects, readable small card.",
+          "B": "Create a landscape 3:2 polished arcade mod thumbnail. Nordic timber settlement and pine trees in sunlit low-poly fantasy terrain, crisp nearby tree shadows gently fading in the far distance; shadow-distance performance mod. Composition B: a distinct wider diagonal composition emphasizing the environment and the same factual feature. No text, logos, watermark, menu labels or interface. Illustrative art rather than a false screenshot; faithful subjects, readable small card."
+        },
+        "selection_reason": "Faithful subject and readable focal composition in existing square mod card.",
+        "published_path": "/games/mod-shadowtrim.webp",
+        "sha256": "e2bd8e6f301e68ed4329f1067cd79d4cf871d710d27d6eb8bfeae8e0bb8a05cb"
+      },
+      "adjudication": {
+        "provider": "cursor",
+        "model": "grok-4.7-high",
+        "publish": 1,
+        "evidence_revision": 3
+      }
+    },
+    {
+      "candidate_id": "A-102",
+      "slug": "idlegimballock",
+      "title": "IdleGimbalLock (KSP 1.12)",
+      "base_game": "Kerbal Space Program 1.12",
+      "official_destination": "https://github.com/genyk1p/IdleGimbalLock/releases/tag/v0.1.0",
+      "ai_quote": "This mod was written in collaboration with Claude Code (Anthropic), model Claude Opus 5.5. The code, configs and documentation were generated by the AI; the author defined the idea and requirements, reviewed the design and tested it in game.",
+      "ai_source": "https://github.com/genyk1p/IdleGimbalLock/blob/e9735161765720a3bcc4de7a039133c2639288e9/README.md",
+      "artifact": {
+        "url": "https://github.com/genyk1p/IdleGimbalLock/releases/download/v0.1.0/IdleGimbalLock-0.1.0.zip",
+        "version": "v0.1.0",
+        "sha256": "4801a4d2222029a5ae9f180887c846ef6c28baf996239654012f35dd7b573ec2"
+      },
+      "security": {
+        "workflow": "Codex Security",
+        "artifact_sha256": "4801a4d2222029a5ae9f180887c846ef6c28baf996239654012f35dd7b573ec2",
+        "artifact_assessed": true,
+        "blocking_findings": 0,
+        "coverage": "ZIP SHA256 4801a4d2222029a5ae9f180887c846ef6c28baf996239654012f35dd7b573ec2; DLL SHA256 a5dccfb97b63fddf53c633915d908ea137fdee56d84c2eaf21eb12c991de88f2. All eight method bodies traced: Start patches fixed ModuleGimbal.FixedUpdate, Prefix temporarily locks only idle engine, Finalizer restores changed flag, IsIdle reads engine fields. Logging only, no file/network/process boundary. Adequate bounded static assessment of exact release bytes; CLR IL-only, no PInvoke, embedded managed resources or native/runtime method implementations. No material issue found in reviewed boundaries. No execution; loader/game API dependencies and compatibility untested. Supplemental analysis contains token-resolved IL; generic TypeSpec owner names are opaque but method names and concrete operations are resolved.",
+        "runtime_limits": "Static review of exact release only. No installation or in-game compatibility testing. No guarantee of absence of vulnerabilities."
+      },
+      "warnings": [
+        "Requires KSP 1.12.x and Harmony 2.2.1 or newer.",
+        "Static review of exact release only. No installation or in-game compatibility testing. No guarantee of absence of vulnerabilities."
+      ],
+      "artwork": {
+        "kind": "generated",
+        "generator": "built-in GPT image generator",
+        "selected": "A",
+        "options_shown_inline": true,
+        "prompts": {
+          "A": "Create a landscape 3:2 polished arcade mod thumbnail. Close view of a spacecraft engine nozzle held straight and neutral on an idle rocket above a planet; engine gimbal stability mod, no firing thrust. Composition A: a bold close focal subject with clear silhouettes and central safe crop. No text, logos, watermark, menu labels or interface. Illustrative art rather than a false screenshot; faithful subjects, readable small card.",
+          "B": "Create a landscape 3:2 polished arcade mod thumbnail. Close view of a spacecraft engine nozzle held straight and neutral on an idle rocket above a planet; engine gimbal stability mod, no firing thrust. Composition B: a distinct wider diagonal composition emphasizing the environment and the same factual feature. No text, logos, watermark, menu labels or interface. Illustrative art rather than a false screenshot; faithful subjects, readable small card."
+        },
+        "selection_reason": "Faithful subject and readable focal composition in existing square mod card.",
+        "published_path": "/games/mod-idlegimballock.webp",
+        "sha256": "9ef31ee1dddee9ba0f1a9dc51389ba92c1ebc6d7648864f30717ed8ce8932c36"
+      },
+      "adjudication": {
+        "provider": "cursor",
+        "model": "grok-4.7-high",
+        "publish": 1,
+        "evidence_revision": 3
+      }
+    },
+    {
+      "candidate_id": "A-103",
+      "slug": "transferdropdownfix",
+      "title": "TransferDropdownFix (KSP 1.12)",
+      "base_game": "Kerbal Space Program 1.12",
+      "official_destination": "https://github.com/genyk1p/TransferDropdownFix/releases/tag/v0.1.2",
+      "ai_quote": "This mod was written in collaboration with Claude Code (Anthropic), model Claude Opus 5.5. The code, configs and documentation were generated by the AI; the author defined the idea and requirements, reviewed the design and tested it in game.",
+      "ai_source": "https://github.com/genyk1p/TransferDropdownFix/blob/d5468bfeb6f7d609a16a333983d9dd46db4ef2f7/README.md",
+      "artifact": {
+        "url": "https://github.com/genyk1p/TransferDropdownFix/releases/download/v0.1.2/TransferDropdownFix-0.1.2.zip",
+        "version": "v0.1.2",
+        "sha256": "f1f11b6af87a2a2bff5933ef711a7d0f7043178d75a11e121fc0aff22baa7389"
+      },
+      "security": {
+        "workflow": "Codex Security",
+        "artifact_sha256": "f1f11b6af87a2a2bff5933ef711a7d0f7043178d75a11e121fc0aff22baa7389",
+        "artifact_assessed": true,
+        "blocking_findings": 0,
+        "coverage": "ZIP SHA256 f1f11b6af87a2a2bff5933ef711a7d0f7043178d75a11e121fc0aff22baa7389; DLL SHA256 faa7c19336891dc15dee08d39736bd51e95ff510757bb4a897fb0e098cb3317d. All ten method bodies traced: KonstructionUI detection; fixed ResourceTransferWindow.ShowWindow postfix, fixed TargetA/BDropdown field names; caption verticalOverflow then RefreshShownValue. No file/network/process boundary. Adequate bounded static assessment of exact release bytes; CLR IL-only, no PInvoke, embedded managed resources or native/runtime method implementations. No material issue found in reviewed boundaries. No execution; loader/game API dependencies and compatibility untested. Supplemental analysis contains token-resolved IL; generic TypeSpec owner names are opaque but method names and concrete operations are resolved.",
+        "runtime_limits": "Static review of exact release only. No installation or in-game compatibility testing. No guarantee of absence of vulnerabilities."
+      },
+      "warnings": [
+        "Requires KSP 1.12.x, Konstruction, and Harmony 2.2.1 or newer. README says the project is not affiliated with or endorsed by Umbra Space Industries.",
+        "Static review of exact release only. No installation or in-game compatibility testing. No guarantee of absence of vulnerabilities."
+      ],
+      "artwork": {
+        "kind": "generated",
+        "generator": "built-in GPT image generator",
+        "selected": "A",
+        "options_shown_inline": true,
+        "prompts": {
+          "A": "Create a landscape 3:2 polished arcade mod thumbnail. Two spacecraft cargo modules with different simple colored identification symbols, a small resource-transfer pipe between them; spacecraft vessel-selection interface fix represented without UI text. Composition A: a bold close focal subject with clear silhouettes and central safe crop. No text, logos, watermark, menu labels or interface. Illustrative art rather than a false screenshot; faithful subjects, readable small card.",
+          "B": "Create a landscape 3:2 polished arcade mod thumbnail. Two spacecraft cargo modules with different simple colored identification symbols, a small resource-transfer pipe between them; spacecraft vessel-selection interface fix represented without UI text. Composition B: a distinct wider diagonal composition emphasizing the environment and the same factual feature. No text, logos, watermark, menu labels or interface. Illustrative art rather than a false screenshot; faithful subjects, readable small card."
+        },
+        "selection_reason": "Faithful subject and readable focal composition in existing square mod card.",
+        "published_path": "/games/mod-transferdropdownfix.webp",
+        "sha256": "409a8ccbeb84e243f538572858a8bf3ca32a6c6ef499555d9e237a1af050e3f1"
+      },
+      "adjudication": {
+        "provider": "cursor",
+        "model": "grok-4.7-high",
+        "publish": 1,
+        "evidence_revision": 3
+      }
+    },
+    {
+      "candidate_id": "A-104",
+      "slug": "mechjebtweaks",
+      "title": "MechJebTweaks (KSP 1.12)",
+      "base_game": "Kerbal Space Program 1.12, MechJeb2 add-on",
+      "official_destination": "https://github.com/genyk1p/MechJebTweaks/releases/tag/v0.1.1",
+      "ai_quote": "This mod was written in collaboration with Claude Code (Anthropic), model Claude Opus 5.5. The code, configs and documentation were generated by the AI; the author defined the idea and requirements, reviewed the design and tested it in game.",
+      "ai_source": "https://github.com/genyk1p/MechJebTweaks/blob/33f78492820ef231c89a4ef7ab952eaf40b52ff3/README.md",
+      "artifact": {
+        "url": "https://github.com/genyk1p/MechJebTweaks/releases/download/v0.1.1/MechJebTweaks-0.1.1.zip",
+        "version": "v0.1.1",
+        "sha256": "63357a192e38af1873de6d28a8d8b30a9cb66589f5587db86369deadfe62549f"
+      },
+      "security": {
+        "workflow": "Codex Security",
+        "artifact_sha256": "63357a192e38af1873de6d28a8d8b30a9cb66589f5587db86369deadfe62549f",
+        "artifact_assessed": true,
+        "blocking_findings": 0,
+        "coverage": "Adequate bounded risk-directed static review. ZIP 63357a192e38af1873de6d28a8d8b30a9cb66589f5587db86369deadfe62549f; DLL b1671e8c9fd9cdf42b23e552c0b023fc5046a02e4fc6f4f983b212167af24d4a. Actual IL inventory/external calls, Loader.Start, configuration data, recorder sinks, AutoPhysicsWarp Load/Save and every observed filesystem boundary traced. Only config write path is fixed KSP ApplicationRootPath/GameData/MechJebTweaks/PluginData/AutoPhysicsWarp.cfg, loaded rate checked against Rates array. Telemetry Write delegates to Unity.Debug.Log. Reflection getter fixed to MechJeb Vessel, Harmony patches fixed game methods. IL-only, no PInvoke/resources/native methods, no network/process observed. No material issue in reviewed security boundaries. Flight/landing/autopilot algorithm correctness and save compatibility not certified; no runtime execution. Evidence artifacts/analysis/A-104-MechJebTweaks-0.1.1.zip-il.txt.",
+        "runtime_limits": "Static review of exact release only. No installation or in-game compatibility testing. No guarantee of absence of vulnerabilities."
+      },
+      "warnings": [
+        "Requires KSP 1.12.x, MechJeb2 2.15.3.1 or newer, and Harmony 2.2.1 or newer. README says MechJeb2 own files are not modified.",
+        "Static review of exact release only. No installation or in-game compatibility testing. No guarantee of absence of vulnerabilities."
+      ],
+      "artwork": {
+        "kind": "generated",
+        "generator": "built-in GPT image generator",
+        "selected": "A",
+        "options_shown_inline": true,
+        "prompts": {
+          "A": "Create a landscape 3:2 polished arcade mod thumbnail. Two small realistic space capsules aligned nose to nose for orbital docking above a blue planet, tiny precise maneuvering thrusters. Space autopilot assistance mod. Composition A: a bold close focal subject with clear silhouettes and central safe crop. No text, logos, watermark, menu labels or interface. Illustrative art rather than a false screenshot; faithful subjects, readable small card.",
+          "B": "Create a landscape 3:2 polished arcade mod thumbnail. Two small realistic space capsules aligned nose to nose for orbital docking above a blue planet, tiny precise maneuvering thrusters. Space autopilot assistance mod. Composition B: a distinct wider diagonal composition emphasizing the environment and the same factual feature. No text, logos, watermark, menu labels or interface. Illustrative art rather than a false screenshot; faithful subjects, readable small card."
+        },
+        "selection_reason": "Faithful subject and readable focal composition in existing square mod card.",
+        "published_path": "/games/mod-mechjebtweaks.webp",
+        "sha256": "1ac329df5d848c8cdf2bdb9fd8ef3742a42fc6f68682a8331c35e587b632dbdb"
+      },
+      "adjudication": {
+        "provider": "cursor",
+        "model": "grok-4.7-high",
+        "publish": 1,
+        "evidence_revision": 3
+      }
+    },
+    {
+      "candidate_id": "A-105",
+      "slug": "okc-ring",
+      "title": "OKC Ring (Powerwash Simulator 2 map mod)",
+      "base_game": "PowerWash Simulator 2",
+      "official_destination": "https://github.com/jogalleciez/OKC-Ring/releases/tag/v0.1.0",
+      "ai_quote": "Made with help from Claude Code (Anthropic's Claude), which wrote much of the code, the Blender scripts and the docs alongside the author.",
+      "ai_source": "https://github.com/jogalleciez/OKC-Ring/blob/3eacb295be64f8eef5afb97824605fe925059e03/README.md",
+      "artifact": {
+        "url": "https://github.com/jogalleciez/OKC-Ring/releases/download/v0.1.0/OKC-Ring-v0.1.0.zip",
+        "version": "v0.1.0",
+        "sha256": "11407d79e35dbc51bf682c4f4c265ffbee38b7016967668523214b584f0b9239"
+      },
+      "security": {
+        "workflow": "Codex Security",
+        "artifact_sha256": "11407d79e35dbc51bf682c4f4c265ffbee38b7016967668523214b584f0b9239",
+        "artifact_assessed": true,
+        "blocking_findings": 0,
+        "coverage": "Artifact A-105-OKC-Ring-v0.1.0.zip; SHA256 11407d79e35dbc51bf682c4f4c265ffbee38b7016967668523214b584f0b9239; artifact_assessed=true. Checked: Exact embedded PWS2LevelLoader.dll SHA256739ebb6769b68c5825f65c64202f64220506078febb399c2cece93c4186dc572: all 533 method bodies decoded, sensitive-call routing, Core initialization/command-line/OnUpdate, PackManifest/Discover/BuildContentPack/PollCatalogs, fixed UserData dump path and debug sinks. CLR IL-only, no PInvoke or managed resources. Both actual pack manifests use safe fixed ids and catalog.bin. Actual catalog paths reference only shipped local bundles; settings disable initial catalog updates. Render bundle internals treated as engine data, not execution code. Outcome: No material security issue found for these exact shipped packs and loader. Arbitrary future third-party pack manifests are not included in this assessment. Runtime limits: Requires matching PowerWash Simulator 2 version 1.3.1 and MelonLoader/Unity. Debug flags can dump local game data, invoke cheats, request exit and kill current process after an ignored quit request; only local command-line/debug controls reach these branches. Engine asset parser and runtime compatibility were not executed. Evidence: artifacts/analysis/A105-il.txt.",
+        "runtime_limits": "Static exact-artifact review only; no installation or gameplay/runtime compatibility test. Source-to-release reproducibility not established. No guarantee of absence of vulnerabilities. Static review; no runtime play performed."
+      },
+      "warnings": [
+        "Requires PowerWash Simulator 2 v1.3.1 on Steam and MelonLoader 0.7.x. The README says packs for another game version are skipped; setting IgnoreGameVersion=true is at the user’s own risk.",
+        "Single-player only, per the README.",
+        "The mod depicts a simplified fan-made version of a real Oklahoma City public landmark; the README says it is unofficial and not affiliated with or endorsed by FuturLab.",
+        "Static review; no runtime play performed.",
+        "Static exact-artifact review only; no installation or gameplay/runtime compatibility test. Source-to-release reproducibility not established. No guarantee of absence of vulnerabilities. Static review; no runtime play performed."
+      ],
+      "artwork": {
+        "kind": "generated",
+        "generator": "built-in GPT image generator",
+        "selected": "A",
+        "options_shown_inline": true,
+        "prompts": {
+          "A": "Create a square polished arcade mod cover, A pressure-washer nozzle cleaning grime from a large modern freestanding outdoor screen in an Oklahoma City-inspired plaza; PowerWash Simulator 2 cleaning map. No invented landmarks or readable text. Bold close focal subject, central safe crop and clear silhouettes. No text, watermark, logos or UI labels. Faithful illustrative cover, not a claimed gameplay screenshot. Readable at small square card size.",
+          "B": "Create a square polished arcade mod cover, A pressure-washer nozzle cleaning grime from a large modern freestanding outdoor screen in an Oklahoma City-inspired plaza; PowerWash Simulator 2 cleaning map. No invented landmarks or readable text. Distinct wider diagonal composition showing the same factual feature in its environment. No text, watermark, logos or UI labels. Faithful illustrative cover, not a claimed gameplay screenshot. Readable at small square card size."
+        },
+        "selection_reason": "Faithful subject and readable focal composition in existing square mod card.",
+        "published_path": "/games/mod-okc-ring.webp",
+        "sha256": "59f94687ecfcdc565f69746228809e5b40fd84e5bcc75734db71ecbf05dc825e"
+      },
+      "adjudication": {
+        "provider": "cursor",
+        "model": "grok-4.7-high",
+        "publish": 1,
+        "evidence_revision": 3
+      }
+    },
+    {
+      "candidate_id": "A-108",
+      "slug": "tower-dominion-leak-fix",
+      "title": "Tower Dominion Leak Fix (memory-leak fixes)",
+      "base_game": "Tower Dominion, BepInEx & MelonLoader",
+      "official_destination": "https://github.com/cparedes/tower-dominion-leak-fix/releases/tag/v1.3.0",
+      "ai_quote": "AI-generated: the investigation, code and documentation in this repository were produced with Claude (Anthropic) using Claude Code, directed and play-tested by Ian Paredes.",
+      "ai_source": "https://github.com/cparedes/tower-dominion-leak-fix/blob/15bc1064b064ae6d37fe5549dbd5793c2114a283/README.md",
+      "artifact": {
+        "url": "https://github.com/cparedes/tower-dominion-leak-fix/releases/download/v1.3.0/TowerDominion-LeakFix-1.3.0-melonloader.zip",
+        "version": "v1.3.0",
+        "sha256": "acb71764f263fccca207bf1e3409624a44050b9fe92fad7a4fccf6c92d1b1ad6"
+      },
+      "security": {
+        "workflow": "Codex Security",
+        "artifact_sha256": "acb71764f263fccca207bf1e3409624a44050b9fe92fad7a4fccf6c92d1b1ad6",
+        "artifact_assessed": true,
+        "blocking_findings": 0,
+        "coverage": "Adequately reviewed artifacts: plugins ZIP SHA256 8e6fc1c8aaf25e760e4a7881b98e6cd4dc9f3beefaa4dfed384d1037e768b0c4; melonloader ZIP SHA256 acb71764f263fccca207bf1e3409624a44050b9fe92fad7a4fccf6c92d1b1ad6. All unique bodies for EnemyPool, UnlockCondition, AssetUnloadThrottle, AudioInstance and ManagedDataCache fixes traced; every MelonLoader variant difference reviewed, including Initialize/Update and preference binding. Fixed Harmony patches, engine-object lifetime changes, config and logs; no network/process/arbitrary file behavior. Game memory cleanup assumptions may affect stability. This does NOT cover with-BepInEx ZIP bundled runtime. Adequate bounded static assessment of exact release bytes; CLR IL-only, no PInvoke, embedded managed resources or native/runtime method implementations. No material issue found in reviewed boundaries. No execution; loader/game API dependencies and compatibility untested. Supplemental analysis contains token-resolved IL; generic TypeSpec owner names are opaque but method names and concrete operations are resolved.",
+        "runtime_limits": "Static review of exact release only. No installation or in-game compatibility testing. No guarantee of absence of vulnerabilities."
+      },
+      "warnings": [
+        "Unofficial community mod for Tower Dominion. README says it is not made or endorsed by the named game companies. Release offers different packages for MelonLoader, existing BepInEx, or BepInEx bundled; bundled package redistributes unmodified BepInEx under its own license. Requires one loader only, not both. README explicitly describes it as free.",
+        "Exact reviewed plugins/MelonLoader variants were assessed; the bundled runtime itself remains a separate review limit.",
+        "No code was installed, launched, or executed.",
+        "Static review of exact release only. No installation or in-game compatibility testing. No guarantee of absence of vulnerabilities."
+      ],
+      "artwork": {
+        "kind": "generated",
+        "generator": "built-in GPT image generator",
+        "selected": "A",
+        "options_shown_inline": true,
+        "prompts": {
+          "A": "Create a landscape 3:2 polished arcade mod thumbnail. A stylized medieval tower-defense settlement with tidy stone towers and a calm flowing blue performance pulse; the mod repairs memory and sound stability, does not add weapons or new structures. Avoid implying new gameplay content. Composition A: a bold close focal subject with clear silhouettes and central safe crop. No text, logos, watermark, menu labels or interface. Illustrative art rather than a false screenshot; faithful subjects, readable small card.",
+          "B": "Create a landscape 3:2 polished arcade mod thumbnail. A stylized medieval tower-defense settlement with tidy stone towers and a calm flowing blue performance pulse; the mod repairs memory and sound stability, does not add weapons or new structures. Avoid implying new gameplay content. Composition B: a distinct wider diagonal composition emphasizing the environment and the same factual feature. No text, logos, watermark, menu labels or interface. Illustrative art rather than a false screenshot; faithful subjects, readable small card."
+        },
+        "selection_reason": "Faithful subject and readable focal composition in existing square mod card.",
+        "published_path": "/games/mod-tower-dominion-leak-fix.webp",
+        "sha256": "69bf5724f6eeffe52bdf8e3902d850fc9e29cf234cc50cd74255acdf5cc54ccd"
+      },
+      "adjudication": {
+        "provider": "cursor",
+        "model": "grok-4.7-high",
+        "publish": 1,
+        "evidence_revision": 3
+      }
+    },
+    {
+      "candidate_id": "A-109",
+      "slug": "arisen-s-ledger",
+      "title": "Arisen's Ledger (quest tracker overlay, Dragon's Dogma 2)",
+      "base_game": "Dragon's Dogma 2, REFramework Lua",
+      "official_destination": "https://github.com/whiteyt223/arisens-ledger/releases/tag/v1.0.1",
+      "ai_quote": "This mod was built with substantial help from an AI assistant (Anthropic's Claude). That covers the Lua code, and the research and wording of the walkthrough notes, all directed and play-tested by a human.",
+      "ai_source": "https://github.com/whiteyt223/arisens-ledger/blob/748a8726d91f629055fa1d46b853a62b5174e128/README.md",
+      "artifact": {
+        "url": "https://github.com/whiteyt223/arisens-ledger/releases/download/v1.0.1/ArisensLedger-1.0.1.zip",
+        "version": "v1.0.1",
+        "sha256": "2e9a910d1d0664cd732d2ef26fdaaa65eddb5bea3f07607c3b15c677487afd82"
+      },
+      "security": {
+        "workflow": "Codex Security",
+        "artifact_sha256": "2e9a910d1d0664cd732d2ef26fdaaa65eddb5bea3f07607c3b15c677487afd82",
+        "artifact_assessed": true,
+        "blocking_findings": 0,
+        "coverage": "Adequate bounded static artifact assessment for ArisensLedger-1.0.1.zip SHA-256 2e9a910d1d0664cd732d2ef26fdaaa65eddb5bea3f07607c3b15c677487afd82. Archive containment/no symlink check, all Lua scripts surveyed for sensitive calls/credentials. Fully traced autorun/core/game/util/fonts and token scanning; model/UI/HUD API call classification and settings/guide data boundaries. Fixed module names, json guide load and only observed write json.dump_file(CFG_FILE,cfg), CFG_FILE=arisens_ledger.json at core.lua:11,57. SDK reflection uses game getters, no writable game-state API or arbitrary loader observed. No network, shell or unexplained persistence. Bundled fonts are data; engine parser/runtime correctness untested. No material issue in reviewed boundaries; not exhaustive UI line coverage.",
+        "runtime_limits": "Static review of exact release only. No installation or in-game compatibility testing. No guarantee of absence of vulnerabilities."
+      },
+      "warnings": [
+        "Requires Dragon’s Dogma 2 on PC/Steam and a recent REFramework nightly; the README says Dark Arisen is optional but its quest handling is untested.",
+        "Static review of exact release only. No installation or in-game compatibility testing. No guarantee of absence of vulnerabilities."
+      ],
+      "artwork": {
+        "kind": "generated",
+        "generator": "built-in GPT image generator",
+        "selected": "A",
+        "options_shown_inline": true,
+        "prompts": {
+          "A": "Create a landscape 3:2 polished arcade mod thumbnail. A weathered fantasy quest journal beside a small hourglass and a parchment route map with blank markers, warm medieval adventurer mood. No invented quest characters. Composition A: a bold close focal subject with clear silhouettes and central safe crop. No text, logos, watermark, menu labels or interface. Illustrative art rather than a false screenshot; faithful subjects, readable small card.",
+          "B": "Create a landscape 3:2 polished arcade mod thumbnail. A weathered fantasy quest journal beside a small hourglass and a parchment route map with blank markers, warm medieval adventurer mood. No invented quest characters. Composition B: a distinct wider diagonal composition emphasizing the environment and the same factual feature. No text, logos, watermark, menu labels or interface. Illustrative art rather than a false screenshot; faithful subjects, readable small card."
+        },
+        "selection_reason": "Faithful subject and readable focal composition in existing square mod card.",
+        "published_path": "/games/mod-arisen-s-ledger.webp",
+        "sha256": "9fe707260f192f5110a529271b50d30f4ab1d3220860f64d2f490aba220f5ed4"
+      },
+      "adjudication": {
+        "provider": "cursor",
+        "model": "grok-4.7-high",
+        "publish": 1,
+        "evidence_revision": 3
+      }
+    },
+    {
+      "candidate_id": "A-112",
+      "slug": "super-hexagon-enhanced",
+      "title": "Super Hexagon Enhanced (240-500 FPS, widescreen)",
+      "base_game": "Super Hexagon",
+      "official_destination": "https://github.com/RealGaming1337/Super-Hexagon-Enhanced/releases/tag/v1.0.0",
+      "ai_quote": "AI disclosure: the reverse engineering and the code were done by Claude (Anthropic's AI) working with RealGaming1337, who directed and play-tested it.",
+      "ai_source": "https://github.com/RealGaming1337/Super-Hexagon-Enhanced/blob/c413b335f19a2caf6835679b7f59e7354941e68f/README.md",
+      "artifact": {
+        "url": "https://github.com/RealGaming1337/Super-Hexagon-Enhanced/releases/download/v1.0.0/SHA256SUMS.txt",
+        "version": "v1.0.0",
+        "sha256": "f4f51279a90bcc840c29b26537fb9f97c6df009335246d959173cb70279c8623"
+      },
+      "security": {
+        "workflow": "Codex Security",
+        "artifact_sha256": "f4f51279a90bcc840c29b26537fb9f97c6df009335246d959173cb70279c8623",
+        "artifact_assessed": true,
+        "blocking_findings": 0,
+        "coverage": "Artifact A-112-Super-Hexagon-Enhanced.zip; SHA256 6195a56616d348ffbf255b1818611b9056c17559f501599a55a75d7b88642362; artifact_assessed=true. Checked: ZIP version.dll byte-identical to raw release DLL SHA2561be11e55287d24bca339f4088f0282a42e391065913843ea489954e703b4e2db. Native x86 .text fully decoded through section end. 17 version proxy exports traced to absolute GetSystemDirectoryA/version.dll, DllMain verifies SuperHexagon.exe basename and fixed byte signatures, paths derived from current executable directory with fixed HexFPS.ini/log names, FPS clamp240..500, direct hooks/trampolines use fixed game offsets/signature checks and current-process memory. Empty TLS callback table; no overlay or other executable section. Outcome: No material security issue found in reviewed native load, file and hook boundaries. No network or external process execution in observed imports/call paths. Runtime limits: Version-sensitive local game memory patching; signature mismatches disable affected features, but runtime compatibility/crash freedom not proven. Native dependency/OS implementation outside scope. Evidence: artifacts/analysis/A112-native.txt.",
+        "runtime_limits": "Static exact-artifact review only; no installation or gameplay/runtime compatibility test. Source-to-release reproducibility not established. No guarantee of absence of vulnerabilities. "
+      },
+      "warnings": [
+        "The README supports the Steam Windows 2022 PC build identified by executable timestamp 0x62953532; on another build it says the mod detects a mismatch and leaves the game alone.",
+        "Installation places a version.dll proxy beside the game executable and the mod patches game memory while running. The creator notes some antivirus tools may flag a new unsigned DLL of this kind; no runtime or antivirus behavior was tested here.",
+        "For leaderboard play, the README asks players to follow community rules for modded runs because the game updates more frequently and input response is finer, even though the creator says game speed and score submission remain unchanged.",
+        "Static exact-artifact review only; no installation or gameplay/runtime compatibility test. Source-to-release reproducibility not established. No guarantee of absence of vulnerabilities. "
+      ],
+      "artwork": {
+        "kind": "generated",
+        "generator": "built-in GPT image generator",
+        "selected": "A",
+        "options_shown_inline": true,
+        "prompts": {
+          "A": "Create a square polished arcade mod cover, Abstract Super Hexagon-inspired tiny white triangle navigating rotating angular colored hexagonal walls in a wide composition; sharp neon geometric shapes. Bold close focal subject, central safe crop and clear silhouettes. No text, watermark, logos or UI labels. Faithful illustrative cover, not a claimed gameplay screenshot. Readable at small square card size.",
+          "B": "Create a square polished arcade mod cover, Abstract Super Hexagon-inspired tiny white triangle navigating rotating angular colored hexagonal walls in a wide composition; sharp neon geometric shapes. Distinct wider diagonal composition showing the same factual feature in its environment. No text, watermark, logos or UI labels. Faithful illustrative cover, not a claimed gameplay screenshot. Readable at small square card size."
+        },
+        "selection_reason": "Faithful subject and readable focal composition in existing square mod card.",
+        "published_path": "/games/mod-super-hexagon-enhanced.webp",
+        "sha256": "3767a802602d6ca3b35a3efdacf06baf660c12e611caa7d1993936f8ab4787fa"
+      },
+      "adjudication": {
+        "provider": "cursor",
+        "model": "grok-4.7-high",
+        "publish": 1,
+        "evidence_revision": 3
+      }
+    },
+    {
+      "candidate_id": "H-17",
+      "slug": "nookworks",
+      "title": "Nookworks",
+      "base_game": "Minecraft Java Edition",
+      "official_destination": "https://www.curseforge.com/minecraft/mc-mods/nookworks/files/9267059",
+      "ai_quote": "Nookworks is made with AI (Claude, by Anthropic) under the author's direction: the author decides what goes in, plays it and judges it; the AI writes the code and most of the textures, drawn by the scripts kept here. The poster pictures are AI-made too.",
+      "ai_source": "https://raw.githubusercontent.com/Riftwright/nookworks/HEAD/README.md",
+      "artifact": {
+        "url": "https://www.curseforge.com/api/v1/mods/1712007/files/9267059/download",
+        "version": "1.1.0",
+        "sha256": "8858e9c86795a164f1a9a0ca4d198ec91045fa777572ba5edb853c26dbfb7cbe"
+      },
+      "security": {
+        "workflow": "Codex Security",
+        "artifact_sha256": "8858e9c86795a164f1a9a0ca4d198ec91045fa777572ba5edb853c26dbfb7cbe",
+        "artifact_assessed": true,
+        "blocking_findings": 0,
+        "coverage": "Exact JAR bytecode statically traced. Photo file paths are fixed under world data/nookworks/photos and integer IDs; PhotoPixels caps arrays at 9,216 bytes and author text at 64 bytes. NBT load uses unlimitedHeap; crafted local world NBT was not assessed. No runtime testing.",
+        "runtime_limits": "Static exact-artifact review only; no installation or gameplay/runtime compatibility test. Source-to-release reproducibility not established. No guarantee of absence of vulnerabilities. Unlimited NBT allocation/heap behavior retained as a static operational/security limitation; no Minecraft runtime test."
+      },
+      "warnings": [
+        "Minecraft Java Edition 26.3 / NeoForge. CurseForge listing states no other mod is required; JEI and Jade are optional. README says generated textures and poster pictures include AI-made work.",
+        "Unlimited NBT allocation/heap behavior retained as a static operational/security limitation; no Minecraft runtime test.",
+        "Static exact-artifact review only; no installation or gameplay/runtime compatibility test. Source-to-release reproducibility not established. No guarantee of absence of vulnerabilities. Unlimited NBT allocation/heap behavior retained as a static operational/security limitation; no Minecraft runtime test."
+      ],
+      "artwork": {
+        "kind": "retained_creator_art",
+        "source_url": "https://riftwright.github.io/nookworks-guide/media/g_lane.jpg",
+        "published_path": "/games/mod-nookworks.webp",
+        "sha256": "dfe8355c3148b59fbd54f8c858cfe33b2bd509da61c5b2a44bed33a00b1ed438"
+      },
+      "adjudication": {
+        "provider": "cursor",
+        "model": "grok-4.7-high",
+        "publish": 1,
+        "evidence_revision": 3
+      }
+    },
+    {
+      "candidate_id": "H-94",
+      "slug": "swimgear",
+      "title": "SwimGear",
+      "base_game": "Valheim 1.0.20",
+      "official_destination": "https://thunderstore.io/c/valheim/p/j1gA/SwimGear/",
+      "ai_quote": "This mod was developed with the help of an AI assistant (Claude by Anthropic).",
+      "ai_source": "https://github.com/tbsj1ga/SwimGearValheim/blob/bf302d7b701b4cd5acc8782aeeb9ef0fe3295dbc/README.md",
+      "artifact": {
+        "url": "https://thunderstore.io/package/download/j1gA/SwimGear/0.1.0/",
+        "version": "0.1.0",
+        "sha256": "7f68606f6ce6987f97978a4bd5c5b506e4a1917f1fbe44e5ffdfec13676f958e"
+      },
+      "security": {
+        "workflow": "Codex Security",
+        "artifact_sha256": "7f68606f6ce6987f97978a4bd5c5b506e4a1917f1fbe44e5ffdfec13676f958e",
+        "artifact_assessed": true,
+        "blocking_findings": 0,
+        "coverage": "Exact package SHA-256 7f68606f6ce6987f97978a4bd5c5b506e4a1917f1fbe44e5ffdfec13676f958e; inner SwimGear.dll SHA-256 52e7cdb6b589a082edd4c13b5557d85dcb32bebcbb94288d7c2a4a916dd065a1. All 13 methods parsed without errors; no process, filesystem, registry or network calls observed. Static only.",
+        "runtime_limits": "Static exact-artifact review only; no installation or gameplay/runtime compatibility test. Source-to-release reproducibility not established. No guarantee of absence of vulnerabilities. "
+      },
+      "warnings": [
+        "Valheim 1.0.20 / BepInEx 5.4.23.5; client-side only. README says not to combine with UseEquipmentInWater, WieldEquipmentWhileSwimming, or another mod doing the same.",
+        "Static exact-artifact review only; no installation or gameplay/runtime compatibility test. Source-to-release reproducibility not established. No guarantee of absence of vulnerabilities. "
+      ],
+      "artwork": {
+        "kind": "retained_creator_art",
+        "source_url": "https://ccdn.thunderstore.io/live/repository/icons/j1gA-SwimGear-0.1.0.png",
+        "published_path": "/games/mod-swimgear.webp",
+        "sha256": "2057c6d1efe2c30fbcff4e0f3865742a21846e5500f415651c4f7d98b2499c8e"
+      },
+      "adjudication": {
+        "provider": "cursor",
+        "model": "grok-4.7-high",
+        "publish": 1,
+        "evidence_revision": 3
+      }
+    },
+    {
+      "candidate_id": "H-95",
+      "slug": "chestreach",
+      "title": "ChestReach",
+      "base_game": "Valheim 1.0.20",
+      "official_destination": "https://thunderstore.io/c/valheim/p/j1gA/ChestReach/",
+      "ai_quote": "This mod was developed with the help of an AI assistant (Claude by Anthropic).",
+      "ai_source": "https://github.com/tbsj1ga/ChestReachValheim/blob/79d8394cb731753759774a8a97ea91bba3e85eab/README.md",
+      "artifact": {
+        "url": "https://thunderstore.io/package/download/j1gA/ChestReach/0.1.0/",
+        "version": "0.1.0",
+        "sha256": "bb8d5892cc0d154d45c1ef4853c5021f3058c1500b237e8eb023dd55f591b9bb"
+      },
+      "security": {
+        "workflow": "Codex Security",
+        "artifact_sha256": "bb8d5892cc0d154d45c1ef4853c5021f3058c1500b237e8eb023dd55f591b9bb",
+        "artifact_assessed": true,
+        "blocking_findings": 0,
+        "coverage": "Exact package SHA-256 bb8d5892cc0d154d45c1ef4853c5021f3058c1500b237e8eb023dd55f591b9bb; inner ChestReach.dll SHA-256 adcc2f933e107f9013db42979cb4ac5315b4dbe952102eee6eed2e88df582f73. All 173 methods parsed without errors; no OS process/filesystem/registry/network calls observed. Network references are game/container RPC. Static only.",
+        "runtime_limits": "Static exact-artifact review only; no installation or gameplay/runtime compatibility test. Source-to-release reproducibility not established. No guarantee of absence of vulnerabilities. "
+      },
+      "warnings": [
+        "Valheim 1.0.20 / BepInEx 5.4.23.5. README warns against other craft-from-containers mods that patch the same methods; host/server installation is unnecessary.",
+        "Static exact-artifact review only; no installation or gameplay/runtime compatibility test. Source-to-release reproducibility not established. No guarantee of absence of vulnerabilities. "
+      ],
+      "artwork": {
+        "kind": "retained_creator_art",
+        "source_url": "https://raw.githubusercontent.com/tbsj1ga/ChestReachValheim/main/docs/media/crafting.webp",
+        "published_path": "/games/mod-chestreach.webp",
+        "sha256": "a7c489ee8930ee4f788435ca98f1538b7ea00d554ed52d4bbccf669a835f498b"
+      },
+      "adjudication": {
+        "provider": "cursor",
+        "model": "grok-4.7-high",
+        "publish": 1,
+        "evidence_revision": 3
+      }
+    },
+    {
+      "candidate_id": "H-97",
+      "slug": "vergil-hornet",
+      "title": "Vergil Hornet",
+      "base_game": "Hollow Knight: Silksong (PC)",
+      "official_destination": "https://github.com/Modalicous718/VergilHornet/releases/tag/Mod",
+      "ai_quote": "Built with Claude (Anthropic's AI agent, Claude Code) writing the code, the procedural sprite generator and the ...",
+      "ai_source": "https://github.com/Modalicous718/VergilHornet/blob/e30f24625ff8b94a6f2e366a0afefe3c7a5a506f/README.md",
+      "artifact": {
+        "url": "https://github.com/Modalicous718/VergilHornet/releases/download/Mod/VergilHornet-1.4.0.zip",
+        "version": "Mod",
+        "sha256": "b7ab6e8310175e3dedca64aaf83f5aa0ca1c10826855967d651d3a4735e57eeb"
+      },
+      "security": {
+        "workflow": "Codex Security",
+        "artifact_sha256": "b7ab6e8310175e3dedca64aaf83f5aa0ca1c10826855967d651d3a4735e57eeb",
+        "artifact_assessed": true,
+        "blocking_findings": 0,
+        "coverage": "Exact 292,864-byte managed DLL parsed across 1,190 methods with no IL parse errors. File accesses are local plugin folders; UnityWebRequest is fed file:/// URIs built from local songs. No HTTP literals or OS process/registry/network calls found. Unity image/audio parsers and runtime behavior were not exercised.",
+        "runtime_limits": "Static exact-artifact review only; no installation or gameplay/runtime compatibility test. Source-to-release reproducibility not established. No guarantee of absence of vulnerabilities. "
+      },
+      "warnings": [
+        "Silksong PC, game version 1.0.30000 (creator README listed test environment), BepInEx 5.4.23. README warns that reviving bosses resets that arena room. Fan mod is not affiliated with or endorsed by Team Cherry or Capcom; fan-made derivative sprite sheets are outside the code license.",
+        "Static exact-artifact review only; no installation or gameplay/runtime compatibility test. Source-to-release reproducibility not established. No guarantee of absence of vulnerabilities. "
+      ],
+      "artwork": {
+        "kind": "generated",
+        "generator": "built-in GPT image generator",
+        "selected": "A",
+        "options_shown_inline": true,
+        "prompts": {
+          "A": "Create a square polished arcade mod cover, Hornet, the small white horned-mask insect warrior with red cloak, wielding a slender katana with blue spectral swords in a dark hand-painted silk cavern, representing Vergil combat moveset mod. Bold close focal subject, central safe crop and clear silhouettes. No text, watermark, logos or UI labels. Faithful illustrative cover, not a claimed gameplay screenshot. Readable at small square card size.",
+          "B": "Create a square polished arcade mod cover, Hornet, the small white horned-mask insect warrior with red cloak, wielding a slender katana with blue spectral swords in a dark hand-painted silk cavern, representing Vergil combat moveset mod. Distinct wider diagonal composition showing the same factual feature in its environment. No text, watermark, logos or UI labels. Faithful illustrative cover, not a claimed gameplay screenshot. Readable at small square card size."
+        },
+        "selection_reason": "Faithful subject and readable focal composition in existing square mod card.",
+        "published_path": "/games/mod-vergil-hornet.webp",
+        "sha256": "84ac6eedb5eea516e28598739fbc648f4eb11bfcb2a1bf3323691379e3bd5a57"
+      },
+      "adjudication": {
+        "provider": "cursor",
+        "model": "grok-4.7-high",
+        "publish": 1,
+        "evidence_revision": 3
+      }
+    },
+    {
+      "candidate_id": "H-98",
+      "slug": "tensura-clearer-abilities",
+      "title": "Tensura Clearer Abilities",
+      "base_game": "Minecraft 1.21.1 resource pack for Tensura: Reincarnated and Mysticism",
+      "official_destination": "https://github.com/EmmyAllEars/tensura-clearer-abilities/releases/tag/v1.0.1",
+      "ai_quote": "About 70 were written by Claude (Anthropic) in a working session with Emmy Ringuette. / About 230 were written by Codex (OpenAI) and 24 by a Claude Sonnet subagent ...",
+      "ai_source": "https://github.com/EmmyAllEars/tensura-clearer-abilities/blob/e6f8e56592ab6a931ba5c6c58c4cda006c4807ca/README.md",
+      "artifact": {
+        "url": "https://github.com/EmmyAllEars/tensura-clearer-abilities/releases/download/v1.0.1/Tensura-Clearer-Abilities-1.0.1.zip",
+        "version": "v1.0.1",
+        "sha256": "9eb3e46f6fecaad730f58d5f065e06551d085cdae1a38b45e40a75df3845b767"
+      },
+      "security": {
+        "workflow": "Codex Security",
+        "artifact_sha256": "9eb3e46f6fecaad730f58d5f065e06551d085cdae1a38b45e40a75df3845b767",
+        "artifact_assessed": true,
+        "blocking_findings": 0,
+        "coverage": "SHA-256 9eb3e46f6fecaad730f58d5f065e06551d085cdae1a38b45e40a75df3845b767. Exact archive contains metadata and two JSON language files; JSON parsed, including 350 ability descriptions. No scripts, URLs, click/run commands or executables observed. No runtime rendering.",
+        "runtime_limits": "Static exact-artifact review only; no installation or gameplay/runtime compatibility test. Source-to-release reproducibility not established. No guarantee of absence of vulnerabilities. "
+      },
+      "warnings": [
+        "Minecraft 1.21.1, Tensura: Reincarnated 2.0.1.3 and Mysticism 2.2.1. README says ability numbers were checked against one server’s config and may differ elsewhere; five of 410 abilities are not covered, and named abilities are unfinished in those mod versions.",
+        "Static exact-artifact review only; no installation or gameplay/runtime compatibility test. Source-to-release reproducibility not established. No guarantee of absence of vulnerabilities. "
+      ],
+      "artwork": {
+        "kind": "generated",
+        "generator": "built-in GPT image generator",
+        "selected": "A",
+        "options_shown_inline": true,
+        "prompts": {
+          "A": "Create a square polished arcade mod cover, Minecraft-style spellbook with orderly icon diagrams and abstract blank description panels, representing clearer ability descriptions; do not imply new spells or powers. Bold close focal subject, central safe crop and clear silhouettes. No text, watermark, logos or UI labels. Faithful illustrative cover, not a claimed gameplay screenshot. Readable at small square card size.",
+          "B": "Create a square polished arcade mod cover, Minecraft-style spellbook with orderly icon diagrams and abstract blank description panels, representing clearer ability descriptions; do not imply new spells or powers. Distinct wider diagonal composition showing the same factual feature in its environment. No text, watermark, logos or UI labels. Faithful illustrative cover, not a claimed gameplay screenshot. Readable at small square card size."
+        },
+        "selection_reason": "Faithful subject and readable focal composition in existing square mod card.",
+        "published_path": "/games/mod-tensura-clearer-abilities.webp",
+        "sha256": "7f8bf2dbd23a172b19893696729fa8258421b4e16db98b3c41941edf1f6055b4"
+      },
+      "adjudication": {
+        "provider": "cursor",
+        "model": "grok-4.7-high",
+        "publish": 1,
+        "evidence_revision": 3
+      }
+    }
+  ]
+}

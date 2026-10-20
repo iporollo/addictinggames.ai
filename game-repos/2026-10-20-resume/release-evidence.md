@@ -13,3 +13,11 @@ Validation: Node 22 clean dependency installation, lint, build and typecheck pas
 `source-repositories.json` retains metadata for 75 exposed repositories from the original campaign, including unfinished and duplicate leads. Further recovered repository metadata will be reconciled in subsequent batches. Upstream game/mod source trees and binaries are not redistributed.
 
 Batch 1 is live: PR #80 merged as `2b13d9c6c8038b60d1ae6dc325589e3f665d5e04`; GitHub CI passed and Vercel's Production deployment status records success for that same SHA. Every released destination and exact cover bytes were checked on https://addictinggames.ai, and all nine card crops were inspected in the live browser.
+
+Second recovery batch: [PR83](https://github.com/iporollo/addictinggames.ai/pull/83), merged `12cbb45a76d01ce8311d0ab9efaa016e1d67df87`; CI passed all44 tests, lint, build and typecheck. Production Vercel Git deployment7212228604 matches that SHA and reports success. All32 exact destinations and cover hashes verified live; Unrest card inspected in browser. This brings the resumed campaign to41 published games; remaining gameplay/mod reviews continue.
+
+## Recovered mods: first batch
+
+32 original-run mods passed exact AI/release/artifact checks and independent Grok 4.7 High adjudication. [Per-mod evidence](mods-batch1.json) records official destinations, artifact SHA-256, bounded Codex Security coverage, limits, warnings and artwork. No mods were installed or executed; official downloads remain with their creators.
+
+Prepared on current main `250ebdf2f2d8f2dc8f0a1b14a113ac8aede1a187`. Node 22 dependency install, lint, tests, build and typecheck passed. Campaign release validator passed for all 32 selected IDs. Existing creator covers retained where suitable; both generated alternatives shown before selection and square crops inspected. No game/Hot Right Now changes in this mod-only batch. CI, merge and production verification pending.
