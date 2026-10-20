@@ -1,0 +1,102 @@
+{
+  "status": "approved_for_release",
+  "run_id": "onsite_100_20261020T204700Z",
+  "entries": [
+    {
+      "candidate_id": "G-021",
+      "slug": "monkeytype-clone",
+      "title": "Monkeytype Clone",
+      "url": "https://www.gptgames.dev/games/monkeytype.html",
+      "categories": [
+        "Educational",
+        "Arcade"
+      ],
+      "ai_quote": "The rebuild keeps what it was trying to be, a clone of monkeytype.com",
+      "ai_source": "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/9a9dc54866671c1fd93010bf73785e9ea6cde680",
+      "ai_scope": "substantial current-version AI remake",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Typed the first displayed target word \u201cpublic\u201d followed by a space in #wordsInput.",
+        "response": "\u201c0 wpm\u201d appeared in the game status; the target line advanced/appended words."
+      },
+      "player_sandbox": "allow-scripts allow-pointer-lock",
+      "artwork_source": "https://www.gptgames.dev/screenshots/screenshot_52.webp",
+      "artwork_path": "public/games/onsite-gptgames-g-021.webp",
+      "caveat": null
+    },
+    {
+      "candidate_id": "G-026",
+      "slug": "tells-rock-paper-scissors",
+      "title": "Tells: Rock Paper Scissors Against Six Machines",
+      "url": "https://www.gptgames.dev/games/rock_paper_scissors.html",
+      "categories": [
+        "Strategy",
+        "Casual"
+      ],
+      "ai_quote": "Tells: rock paper scissors rebuilt as a duel with six machines",
+      "ai_source": "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/9338ac9643465a2b259e1019e08f4a5fdea8bb86",
+      "ai_scope": "substantial current-version AI remake",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Clicked \u201cR ROCK\u201d.",
+        "response": "Score changed from \u201cYOU 0 TO 5 0\u201d to \u201cYOU 1 TO 5 0\u201d in the iframe game text."
+      },
+      "player_sandbox": "allow-scripts allow-pointer-lock",
+      "artwork_source": "https://www.gptgames.dev/screenshots/screenshot_13.webp",
+      "artwork_path": "public/games/onsite-gptgames-g-026.webp",
+      "caveat": null
+    },
+    {
+      "candidate_id": "G-033",
+      "slug": "hot-seat",
+      "title": "Hot Seat",
+      "url": "https://www.gptgames.dev/games/who_wants_to_be_a_millionaire.html",
+      "categories": [
+        "Educational",
+        "Casual"
+      ],
+      "ai_quote": "Remake Who Wants to Be a Millionaire as Hot Seat, a banker's desk under one lamp",
+      "ai_source": "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/6457eeeb89f0b4da7ae8b608c141b03953ab2b9d",
+      "ai_scope": "substantial current-version AI remake",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Inside iframe selected B=Carbon dioxide and clicked Stamp it.",
+        "response": "Frame showed PAID, CORRECT, \u201cCorrect. $100.\u201d and $100 on the desk."
+      },
+      "player_sandbox": "allow-scripts allow-pointer-lock",
+      "artwork_source": "https://www.gptgames.dev/screenshots/screenshot_56.webp",
+      "artwork_path": "public/games/onsite-gptgames-g-033.webp",
+      "caveat": "At 856px viewport, the harness iframe clipped the bottom action button; full submit worked after increasing the same page viewport to 1512x1080 (iframe height 778px)."
+    },
+    {
+      "candidate_id": "G-034",
+      "slug": "highlight-word-search",
+      "title": "Highlight: Word Search",
+      "url": "https://www.gptgames.dev/games/word_search.html",
+      "categories": [
+        "Puzzle",
+        "Casual"
+      ],
+      "ai_quote": "Highlight: Word Search rebuilt as a puzzle-book page with a hidden message",
+      "ai_source": "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/a5aac146b28c69b56684da77671dd9db9876cdb1",
+      "ai_scope": "substantial current-version AI remake",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Inside iframe, dragged the visible BERRIES row from .enter index 25 to index 31.",
+        "response": "Game displayed \u201cBERRIES found. 1 of 9.\u201d"
+      },
+      "player_sandbox": "allow-scripts allow-pointer-lock",
+      "artwork_source": "https://www.gptgames.dev/screenshots/screenshot_43.webp",
+      "artwork_path": "public/games/onsite-gptgames-g-034.webp",
+      "caveat": null
+    }
+  ]
+}

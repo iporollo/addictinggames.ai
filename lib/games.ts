@@ -6,6 +6,7 @@ export type PlayableGame = Game & { shortDescription: string; embedUrl: string; 
 export type ListedGame = PlayableGame | DirectGame;
 
 export const newGameSlugs = [
+  'monkeytype-clone', 'tells-rock-paper-scissors', 'hot-seat', 'highlight-word-search',
   'catch-circle', 'crazy-eights', 'point-and-line',
   "2048-gptgames", "kemari", "blackjack", "blind-crest", "vigil-breakout", "checkers-gptgames", "last-words-hangman", "last-smile", "shatter-field", "space-invaders-gptgames", "emoji-horde", "fathom", "pulseforge", "lumenwright", "glyphgate", "selfsame", "jigsaw-gptgames", "menagerie", "fresh-oil", "shopfloor", "blobby-volley", "firefly-jar",
   'surge-for-oinja', 'magic-carpet-wizard', 'thunderfall', 'blackwater', 'flop-club', 'fruit-ninja-dojo',
@@ -29,6 +30,10 @@ const newGameSandbox = 'allow-scripts allow-pointer-lock';
 
 // Only browser-verified games are shipped. Finalized in verification/GAME-REPORT.md.
 export const verifiedEmbeds: Record<string, string> = {
+  'monkeytype-clone': 'https://www.gptgames.dev/games/monkeytype.html',
+  'tells-rock-paper-scissors': 'https://www.gptgames.dev/games/rock_paper_scissors.html',
+  'hot-seat': 'https://www.gptgames.dev/games/who_wants_to_be_a_millionaire.html',
+  'highlight-word-search': 'https://www.gptgames.dev/games/word_search.html',
   'catch-circle': 'https://www.gptgames.dev/games/catchcircle.html',
   'crazy-eights': 'https://www.gptgames.dev/games/crazy_eights.html',
   'point-and-line': 'https://www.gptgames.dev/games/obstacle_dodge.html',
@@ -128,6 +133,10 @@ export const verifiedEmbeds: Record<string, string> = {
 };
 
 const descriptions: Record<string, string> = {
+  'monkeytype-clone': 'Type the words and track your speed.',
+  'tells-rock-paper-scissors': 'Outguess six machine opponents at rock paper scissors.',
+  'hot-seat': 'Answer trivia questions and climb the prize ladder.',
+  'highlight-word-search': 'Find hidden words in a puzzle-book grid.',
   'catch-circle': 'Tap drifting discs before their rings run out.',
   'crazy-eights': 'Match suit or rank and use eights to change suit.',
   'point-and-line': 'Dodge moving shapes and survive as long as you can.',
