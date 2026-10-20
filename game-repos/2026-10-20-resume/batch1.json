@@ -1,5 +1,5 @@
 {
-  "status": "approved_pending_release",
+  "status": "live_verified",
   "original_run": "2026-10-20T153255Z",
   "entries": [
     {
@@ -86,7 +86,7 @@
         "basis": "agent_verified",
         "model": "gpt-6-luna",
         "reasoning": "max",
-        "input": "Clicked the 9\u00d79 Little board choice and then clicked the center grid intersection.",
+        "input": "Clicked the 9×9 Little board choice and then clicked the center grid intersection.",
         "response": "A blue player basketball stone appeared at the selected center intersection, status changed to Bruno is thinking, then opponent peace-sign stone appeared and status returned to Your Turn."
       },
       "artwork_source": "https://raw.githubusercontent.com/adong/gomoku-tt/cbca1bad763e8d794e07bc8f21a734ab1686d07b/docs/screenshot.jpg"
@@ -102,14 +102,14 @@
       ],
       "multiplayer_mode": "Local 2-player",
       "mode_basis": "Creator README describes human players sharing one device; short guest check verifies single-player core only",
-      "ai_quote": "The classic Chinese board game \u6597\u517d\u68cb starring Teddy and Tommy, built with Claude Code from plain JavaScript and Three.js on the shared Claude Games kit.",
+      "ai_quote": "The classic Chinese board game 斗兽棋 starring Teddy and Tommy, built with Claude Code from plain JavaScript and Three.js on the shared Claude Games kit.",
       "ai_source": "https://github.com/adong/jungle-chess-tt/blob/5ddeb18a4d62d29cadfe945886cde8b16b61f420/README.md",
       "gameplay": {
         "basis": "agent_verified",
         "model": "gpt-6-luna",
         "reasoning": "max",
         "input": "Selected Play; clicked blue dog piece and adjacent empty tile.",
-        "response": "Dog moved one square; status changed to BOLT IS THINKING\u2026; orange opponent wolf moved; game returned to YOUR TURN! HUD Undo became enabled."
+        "response": "Dog moved one square; status changed to BOLT IS THINKING…; orange opponent wolf moved; game returned to YOUR TURN! HUD Undo became enabled."
       },
       "artwork_source": "https://raw.githubusercontent.com/adong/jungle-chess-tt/5ddeb18a4d62d29cadfe945886cde8b16b61f420/docs/screenshot.jpg"
     },
@@ -125,7 +125,7 @@
       ],
       "multiplayer_mode": "Local multiplayer",
       "mode_basis": "Creator README describes human players sharing one device; short guest check verifies single-player core only",
-      "ai_quote": "The classic Chinese board game \u98de\u884c\u68cb starring Teddy and Tommy, built with Claude Code from plain JavaScript and Three.js on the shared Claude Games kit.",
+      "ai_quote": "The classic Chinese board game 飞行棋 starring Teddy and Tommy, built with Claude Code from plain JavaScript and Three.js on the shared Claude Games kit.",
       "ai_source": "https://github.com/adong/flying-chess-tt/blob/ac663f31ede51bc62dd8470981bdf7ec9141cb55/README.md",
       "gameplay": {
         "basis": "agent_verified",
@@ -148,14 +148,14 @@
       ],
       "multiplayer_mode": "Local 2-player",
       "mode_basis": "Creator README describes human players sharing one device; short guest check verifies single-player core only",
-      "ai_quote": "It's built with Claude Code from plain JavaScript and Three.js, on the shared Claude Games kit (the blocky boys, their poses, synth sound, the ? keys panel and English / \u4e2d\u6587).",
+      "ai_quote": "It's built with Claude Code from plain JavaScript and Three.js, on the shared Claude Games kit (the blocky boys, their poses, synth sound, the ? keys panel and English / 中文).",
       "ai_source": "https://github.com/adong/word-pop-tt/blob/44b663b1813afbe7d794deff0d21d6743748988f/README.md",
       "gameplay": {
         "basis": "agent_verified",
         "model": "gpt-6-luna",
         "reasoning": "max",
-        "input": "Pressed key Z for the pictured zebra word\u2019s first missing letter.",
-        "response": "Z balloon popped in a burst and a Z animation appeared; first answer slot transitioned from dotted/active empty state to plain filled slot. The game\u2019s help confirms letters pop their matching balloons and word letters are entered in order."
+        "input": "Pressed key Z for the pictured zebra word’s first missing letter.",
+        "response": "Z balloon popped in a burst and a Z animation appeared; first answer slot transitioned from dotted/active empty state to plain filled slot. The game’s help confirms letters pop their matching balloons and word letters are entered in order."
       },
       "artwork_source": "https://raw.githubusercontent.com/adong/word-pop-tt/44b663b1813afbe7d794deff0d21d6743748988f/docs/screenshot.jpg"
     },
@@ -171,7 +171,7 @@
       ],
       "multiplayer_mode": "Local 2-player",
       "mode_basis": "Creator README describes human players sharing one device; short guest check verifies single-player core only",
-      "ai_quote": "It's built with Claude Code from plain JavaScript and Three.js, on the shared Claude Games kit (the blocky Teddy and Tommy, menu portraits, synth sound, the ? keys panel and English / \u4e2d\u6587).",
+      "ai_quote": "It's built with Claude Code from plain JavaScript and Three.js, on the shared Claude Games kit (the blocky Teddy and Tommy, menu portraits, synth sound, the ? keys panel and English / 中文).",
       "ai_source": "https://github.com/adong/spot-tt-animals/blob/5672988375b02ece6e611185bf027a0f451d9142/README.md",
       "gameplay": {
         "basis": "agent_verified",
@@ -221,5 +221,13 @@
       "A-82": 2,
       "A-83": 2
     }
+  },
+  "release": {
+    "pr_url": "https://github.com/iporollo/addictinggames.ai/pull/80",
+    "merge_sha": "2b13d9c6c8038b60d1ae6dc325589e3f665d5e04",
+    "deployment_sha": "2b13d9c6c8038b60d1ae6dc325589e3f665d5e04",
+    "deployment_url": "https://addictinggames-pm43y6gtr-iporollos.vercel.app",
+    "ci_url": "https://github.com/iporollo/addictinggames.ai/actions/runs/39500137029",
+    "live_verification": "All nine exact destinations and matching image bytes present on production; both card ranges visually inspected."
   }
 }

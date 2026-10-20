@@ -1,0 +1,1173 @@
+{
+  "status": "approved_prepared",
+  "original_run": "2026-10-20T153255Z",
+  "entries": [
+    {
+      "candidate_id": "A-06",
+      "slug": "quantum-trials",
+      "title": "Quantum Trials",
+      "url": "https://aiartcook.itch.io/quantum-trials",
+      "categories": [
+        "Arcade"
+      ],
+      "ai_quote": "Built a game with @Grok bot ... QUANTUM TRIALS is out now ... Free to play in your browser",
+      "ai_source": "https://x.com/AIArtCook/status/2112275416488845460",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "ArrowRight for ~600 ms after starting level 1",
+        "response": "Distance changed 0→5 light-metres and score 0→2; game continued in level 1; guest play, no account gate."
+      },
+      "artwork": {
+        "candidate_id": "A-06",
+        "kind": "retained_creator_art",
+        "source_url": "https://img.itch.zone/aW1nLzMxMDk0ODI2LnBuZw==/original/szU2jz.png",
+        "published_path": "/games/oct20-resume-quantum-trials.webp",
+        "sha256": "dc3e195e008385c2e4a39bc4a039d959ec0602d20c13811dd034612595f5e421"
+      },
+      "warnings": [
+        "creator itch page AI Disclosure: AI Assisted - Code, Graphics, Sounds, Text"
+      ],
+      "adjudication": {
+        "model": "grok-4.7-high",
+        "provider": "cursor",
+        "publish": 1,
+        "evidence_revision": 4
+      }
+    },
+    {
+      "candidate_id": "A-12",
+      "slug": "zygote-vs-shitcoins",
+      "title": "Zygote vs Shitcoins",
+      "url": "https://azkian1.github.io/zyg-shitcoins/?lang=en",
+      "categories": [
+        "Action",
+        "Arcade"
+      ],
+      "ai_quote": "Then I asked Codex to extract the sprites from that video and build a game around them.",
+      "ai_source": "https://x.com/azaticus/status/2112560539696337173",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Clicked left Punch once during live match",
+        "response": "Portfolio changed 0/3→1/3 with slot ARB, \"BOUGHT\" action notice and character punch animation."
+      },
+      "artwork": {
+        "candidate_id": "A-12",
+        "kind": "generated",
+        "selected": "A",
+        "options_shown_inline": true,
+        "prompts": {
+          "A": "Create a polished landscape 3:2 arcade game cover. Game-specific source facts: Zygote vs Shitcoins: satirical crypto arcade boxing, punch input collects fictional token icons, green-black terminal palette. Abstract dark round fighter facing coin-like opponents; no real currency exchange, no brands. Composition option A: close-up gloved punch striking a glowing coin-shaped arcade foe. Readable bold composition at thumbnail size. No text, words, logos, watermark, UI labels or invented game features. Faithful stylized illustration, central safe crop.",
+          "B": "Create a polished landscape 3:2 arcade game cover. Game-specific source facts: Zygote vs Shitcoins: satirical crypto arcade boxing, punch input collects fictional token icons, green-black terminal palette. Abstract dark round fighter facing coin-like opponents; no real currency exchange, no brands. Composition option B: wide low-angle arcade arena with small fighter and floating coin foes. Readable bold composition at thumbnail size. No text, words, logos, watermark, UI labels or invented game features. Faithful stylized illustration, central safe crop."
+        },
+        "selection_reason": "Faithful subject and clear composition at card size.",
+        "generator": "built-in GPT image generator",
+        "published_path": "/games/oct20-resume-zygote-vs-shitcoins.webp",
+        "sha256": "300a2e9315ed7443a1eed397f26da723ab3ed0f327746b011b4a5ab4698879a7"
+      },
+      "warnings": [
+        "RIGHTS/IP: character from @zygote_pods NFT collection (ownership not verified)",
+        "crypto-meme theme"
+      ],
+      "adjudication": {
+        "model": "grok-4.7-high",
+        "provider": "cursor",
+        "publish": 1,
+        "evidence_revision": 4
+      }
+    },
+    {
+      "candidate_id": "A-13",
+      "slug": "unrest-alpha",
+      "title": "Unrest",
+      "url": "https://c0gn8.itch.io/unrest-alpha",
+      "categories": [
+        "Survival",
+        "Shooter"
+      ],
+      "ai_quote": "A #solodev #survival game built with Opus 5.5",
+      "ai_source": "https://x.com/olidnejad/status/2112514435483132282",
+      "gameplay": {
+        "basis": "owner_confirmed",
+        "acceptance": "Owner accepted this exact destination for listing; creator age confirmation may appear. No automated gameplay is claimed."
+      },
+      "artwork": {
+        "candidate_id": "A-13",
+        "kind": "retained_creator_art",
+        "source_url": "https://img.itch.zone/aW1nLzMxMTA2NDYyLnBuZw==/original/S27Xfd.png",
+        "published_path": "/games/oct20-resume-unrest-alpha.webp",
+        "sha256": "0797add7672b35e4aa6a567d32f4451c5526a7beee766505d60c70b5f32b9b74"
+      },
+      "warnings": [
+        "itch AI Disclosure: AI Assisted - Code",
+        "Creator age gate; realistic violence and gore. Owner accepts listing."
+      ],
+      "adjudication": {
+        "model": "grok-4.7-high",
+        "provider": "cursor",
+        "publish": 1,
+        "evidence_revision": 5
+      }
+    },
+    {
+      "candidate_id": "A-14",
+      "slug": "tidelight",
+      "title": "Tidelight",
+      "url": "https://krimy-7.github.io/tidelight/",
+      "categories": [
+        "Simulators"
+      ],
+      "ai_quote": "I asked Claude Opus 5.5 to build a game, then make its launch trailer. It did both. Tidelight: an endless night ride between two seas, free in your browser",
+      "ai_source": "https://x.com/Krishna59155447/status/2112209969852608527",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Started riding and held Up ~600 ms",
+        "response": "Displayed speed increased 45→66 and gear changed 1→2; ride scene moved."
+      },
+      "artwork": {
+        "candidate_id": "A-14",
+        "kind": "generated",
+        "selected": "A",
+        "options_shown_inline": true,
+        "prompts": {
+          "A": "Landscape browser-game cover, no text, no logos, no UI. Faithful to Tidelight, a first-person bicycle riding game on a rocky sea causeway under a brilliant full moon and starry night. A: low first-person viewpoint over dark bicycle handlebars toward moonlit waves; deep navy, silver moon reflection, tiny blue guiding light. Atmospheric stylized 3D, clear central silhouette, 3:2 composition suitable for a small arcade card. Do not add combat, characters, vehicles or mechanics not described.",
+          "B": "Landscape browser-game cover, no text, no logos, no UI. Faithful to Tidelight: a bicycle on a narrow rocky sea causeway under a brilliant moon and stars. B: cinematic side view of an unoccupied bicycle beside rippling moonlit sea, glowing blue guide light leading along the path into silver mist. Deep indigo and silver, expressive stylized 3D, distinctive bold silhouette for arcade card, 3:2. No invented combat or fantasy creatures."
+        },
+        "selection_reason": "Faithful subject and clear composition at card size.",
+        "generator": "built-in GPT image generator",
+        "published_path": "/games/oct20-resume-tidelight.webp",
+        "sha256": "26946433183085fed9d7b1bb91526470050244bb0d2270f9f8911ff796aa67f4"
+      },
+      "warnings": [],
+      "adjudication": {
+        "model": "grok-4.7-high",
+        "provider": "cursor",
+        "publish": 1,
+        "evidence_revision": 4
+      }
+    },
+    {
+      "candidate_id": "A-27",
+      "slug": "konkon-skyroad",
+      "title": "Konkon Skyroad",
+      "url": "https://k-m.main.jp/data/test/konkon-skyroad_7.html",
+      "categories": [
+        "Platformer",
+        "Arcade"
+      ],
+      "ai_quote": "この間のゲームをさらにClaudeに改良してもらいました。... PCやスマホのブラウザでプレイできます",
+      "ai_source": "https://x.com/kmiyata1013/status/2112509474846179825",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Clicked game screen, pressed M, then held Up ~900 ms",
+        "response": "Started course; score became 150, lives/collectibles showed x03 and x3, timer 499; player appeared on course."
+      },
+      "artwork": {
+        "candidate_id": "A-27",
+        "kind": "generated",
+        "selected": "B",
+        "options_shown_inline": true,
+        "prompts": {
+          "A": "Create a polished landscape 3:2 arcade game cover. Game-specific source facts: Konkon Skyroad: cute orange fox running and collecting gems on pastel floating grassy islands with block obstacles, low-poly voxel arcade style. Composition option A: fox leaping from a grassy ledge toward a bright gem. Readable bold composition at thumbnail size. No text, words, logos, watermark, UI labels or invented game features. Faithful stylized illustration, central safe crop.",
+          "B": "Create a polished landscape 3:2 arcade game cover. Game-specific source facts: Konkon Skyroad: cute orange fox running and collecting gems on pastel floating grassy islands with block obstacles, low-poly voxel arcade style. Composition option B: isometric winding grass course with orange fox in foreground. Readable bold composition at thumbnail size. No text, words, logos, watermark, UI labels or invented game features. Faithful stylized illustration, central safe crop."
+        },
+        "selection_reason": "Faithful subject and clear composition at card size.",
+        "generator": "built-in GPT image generator",
+        "published_path": "/games/oct20-resume-konkon-skyroad.webp",
+        "sha256": "c6289dd41ab91b026268b58c4ffe71a1e74215f57fc16a1388f3d45775e26aaf"
+      },
+      "warnings": [
+        "versioned URL (_7)"
+      ],
+      "adjudication": {
+        "model": "grok-4.7-high",
+        "provider": "cursor",
+        "publish": 1,
+        "evidence_revision": 4
+      }
+    },
+    {
+      "candidate_id": "A-29",
+      "slug": "stamp-cube",
+      "title": "Stamp Cube",
+      "url": "https://0xpoy.itch.io/stamp-cube",
+      "categories": [
+        "Puzzle"
+      ],
+      "ai_quote": "a speedcuber making browser games with Claude ... My first 2 games are out, free to play: Stamp Cube: a rolling cube puzzle",
+      "ai_source": "https://x.com/0xPoyGames/status/2111985068344525081",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Clicked Roll left once in Level 1-1",
+        "response": "Cube orientation/visible faces and board state changed; roll counter incremented."
+      },
+      "artwork": {
+        "candidate_id": "A-29",
+        "kind": "retained_creator_art",
+        "source_url": "https://img.itch.zone/aW1nLzMxMDQ1MjQyLnBuZw==/original/im96c1.png",
+        "published_path": "/games/oct20-resume-stamp-cube.webp",
+        "sha256": "0d7ea6e76e22cefbade55de2e0c814768e597e7b672bd824ed246f251b30ea27"
+      },
+      "warnings": [
+        "post links the itch profile https://0xpoy.itch.io; exact game URL observed on that profile; itch AI Disclosure: AI Assisted - Code"
+      ],
+      "adjudication": {
+        "model": "grok-4.7-high",
+        "provider": "cursor",
+        "publish": 1,
+        "evidence_revision": 4
+      }
+    },
+    {
+      "candidate_id": "A-30",
+      "slug": "four-fuses",
+      "title": "Four Fuses",
+      "url": "https://0xpoy.itch.io/four-fuses",
+      "categories": [
+        "Adventure",
+        "Puzzle"
+      ],
+      "ai_quote": "a speedcuber making browser games with Claude ... Four Fuses: a flashlight horror game",
+      "ai_source": "https://x.com/0xPoyGames/status/2111985068344525081",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Entered game then pressed Up/Left controls; moved to nearby note",
+        "response": "Game displayed \"There is a note by your feet. Press F to put out the light.\"; clock advanced 3:14→3:18 and the scene advanced."
+      },
+      "artwork": {
+        "candidate_id": "A-30",
+        "kind": "retained_creator_art",
+        "source_url": "https://img.itch.zone/aW1nLzMwOTg0MDc4LnBuZw==/original/xUj02U.png",
+        "published_path": "/games/oct20-resume-four-fuses.webp",
+        "sha256": "ed9d40d14d124ed836260bf953299c360698b694fea9fe5ef0019604b741c5cd"
+      },
+      "warnings": [
+        "same post as Stamp Cube; exact URL observed on itch profile; itch AI Disclosure: AI Assisted - Code"
+      ],
+      "adjudication": {
+        "model": "grok-4.7-high",
+        "provider": "cursor",
+        "publish": 1,
+        "evidence_revision": 4
+      }
+    },
+    {
+      "candidate_id": "A-37",
+      "slug": "yotsukura-obby",
+      "title": "Yotsukura Obby",
+      "url": "https://matsumatsu0506.itch.io/yotsukura-obby",
+      "categories": [
+        "Platformer"
+      ],
+      "ai_quote": "ゲームはGodotで、AIのClaude Codeが画面を見ながら操作して作りました。 (itch page by creator; AI Disclosure: AI Assisted - Code, Graphics, Sounds, Text)",
+      "ai_source": "https://matsumatsu0506.itch.io/yotsukura-obby",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Pressed Enter to start, then held ArrowUp for 800 ms twice using browser keyboard input.",
+        "response": "The visible timer advanced from 28.7 s to 39.5 s while the starting platform visibly enlarged and moved closer to the character, confirming forward movement in the course."
+      },
+      "artwork": {
+        "candidate_id": "A-37",
+        "kind": "retained_creator_art",
+        "source_url": "https://img.itch.zone/aW1nLzMxMTE5ODAwLnBuZw==/original/b%2BINB%2F.png",
+        "published_path": "/games/oct20-resume-yotsukura-obby.webp",
+        "sha256": "82763d84eb4db4f37c689f3e35021f9a29b9b785b09eb036b0c3ff79e62f39a1"
+      },
+      "warnings": [
+        "SIBLING of the catalog game 四倉の海 (D-07, matsumatsu0506.itch.io/yotsukura-no-umi), but a distinct game, title and URL ('前作「四倉の海」と同じ海辺が舞台'); the owner may treat it as a series entry"
+      ],
+      "adjudication": {
+        "model": "grok-4.7-high",
+        "provider": "cursor",
+        "publish": 1,
+        "evidence_revision": 4
+      }
+    },
+    {
+      "candidate_id": "A-39",
+      "slug": "rokuroban-engi",
+      "title": "Rokuroban Engi",
+      "url": "https://rokuroban-engi.pages.dev/",
+      "categories": [
+        "Strategy",
+        "Puzzle"
+      ],
+      "ai_quote": "六路盤囲碁ブラウザゲームをChatGPTで出力して作りました。 (page footer: '@tatenoso with ChatGPT')",
+      "ai_source": "https://x.com/tatenoso/status/2112195379957834126",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Started AI match and placed one stone at 6-1",
+        "response": "Black stone appeared; game handed turn to AI, AI played white at 4-4, then returned turn to player."
+      },
+      "artwork": {
+        "candidate_id": "A-39",
+        "kind": "generated",
+        "selected": "A",
+        "options_shown_inline": true,
+        "prompts": {
+          "A": "Create a polished landscape 3:2 arcade game cover. Game-specific source facts: Rokuroban Engi: minimalist six-by-six wooden go-like board puzzle, black and ivory stones, warm wooden lattice and dark background. Composition option A: dramatic close overhead angle with one ivory stone and black stones on a six-by-six board. Readable bold composition at thumbnail size. No text, words, logos, watermark, UI labels or invented game features. Faithful stylized illustration, central safe crop.",
+          "B": "Create a polished landscape 3:2 arcade game cover. Game-specific source facts: Rokuroban Engi: minimalist six-by-six wooden go-like board puzzle, black and ivory stones, warm wooden lattice and dark background. Composition option B: low oblique macro view across wood board toward contrasting black and ivory stones. Readable bold composition at thumbnail size. No text, words, logos, watermark, UI labels or invented game features. Faithful stylized illustration, central safe crop."
+        },
+        "selection_reason": "Faithful subject and clear composition at card size.",
+        "generator": "built-in GPT image generator",
+        "published_path": "/games/oct20-resume-rokuroban-engi.webp",
+        "sha256": "820e640fc5224ec44db96dd943d3d65ad8ddfec2715c33b5a8736e4135a9f69b"
+      },
+      "warnings": [],
+      "adjudication": {
+        "model": "grok-4.7-high",
+        "provider": "cursor",
+        "publish": 1,
+        "evidence_revision": 4
+      }
+    },
+    {
+      "candidate_id": "A-40",
+      "slug": "gaisen-survivors",
+      "title": "Gaisen Survivors",
+      "url": "https://gaisen.pages.dev/play/",
+      "categories": [
+        "Survival",
+        "Action"
+      ],
+      "ai_quote": "Codexと一緒に作ったゲームをリリースしたよ。 ... 無料ブラウザゲーム「街宣サバイバーズ」",
+      "ai_source": "https://x.com/atanobi/status/2112176956439740895",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Clicked the Japanese start button, pressed Return to enter play, then held ArrowRight for about 900 ms.",
+        "response": "Live pixel-art gameplay appeared with player and enemies; HUD showed HP 4/7 and timer 1:49 with in-game coach text."
+      },
+      "artwork": {
+        "candidate_id": "A-40",
+        "kind": "generated",
+        "selected": "B",
+        "options_shown_inline": true,
+        "prompts": {
+          "A": "Create a polished landscape 3:2 arcade game cover. Game-specific source facts: Gaisen Survivors: top-down Japanese street survival arcade, little pixel characters and crowds on cobbled avenue with small blue campaign van and trees; no specific real-person portraits or text. Composition option A: isometric arcade street with blue van near top and tiny player escaping gathering crowd. Readable bold composition at thumbnail size. No text, words, logos, watermark, UI labels or invented game features. Faithful stylized illustration, central safe crop.",
+          "B": "Create a polished landscape 3:2 arcade game cover. Game-specific source facts: Gaisen Survivors: top-down Japanese street survival arcade, little pixel characters and crowds on cobbled avenue with small blue campaign van and trees; no specific real-person portraits or text. Composition option B: closer diagonal cobbled street scene with blue van, warm trees and a tiny central survivor. Readable bold composition at thumbnail size. No text, words, logos, watermark, UI labels or invented game features. Faithful stylized illustration, central safe crop."
+        },
+        "selection_reason": "Faithful subject and clear composition at card size.",
+        "generator": "built-in GPT image generator",
+        "published_path": "/games/oct20-resume-gaisen-survivors.webp",
+        "sha256": "e126de73f33660fede8ad3b29a657ed675560dd490a939854bbbe2a60e144b90"
+      },
+      "warnings": [
+        "CONTENT: political theme (protecting street-campaign supporters from 'anti' activists); review the tone"
+      ],
+      "adjudication": {
+        "model": "grok-4.7-high",
+        "provider": "cursor",
+        "publish": 1,
+        "evidence_revision": 4
+      }
+    },
+    {
+      "candidate_id": "A-41",
+      "slug": "iris-and-biscuit",
+      "title": "IRIS and Biscuit",
+      "url": "https://c0gn8.itch.io/iris-and-biscuit-a-cosy-space-journey-alpha",
+      "categories": [
+        "Adventure"
+      ],
+      "ai_quote": "IRIS and Biscuits. Vibecoded with Claude. A cosy space adventure in alpha that lets you control your ship with voice commands. (itch AI Disclosure: AI Assisted - Code, Graphics, Sounds, Text)",
+      "ai_source": "https://x.com/olidnejad/status/2112223077723738269",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Clicked Run game and Board the ship, opened settings with P, returned, pressed Return to open the text-command field, entered “undock” and pressed Return.",
+        "response": "The game replied “Docking clamps released” and changed the location to Near Galzuum Outpost, Galzuum IV."
+      },
+      "artwork": {
+        "candidate_id": "A-41",
+        "kind": "retained_creator_art",
+        "source_url": "https://img.itch.zone/aW1nLzMxMDUyMDExLnBuZw==/original/3DEw01.png",
+        "published_path": "/games/oct20-resume-iris-and-biscuit.webp",
+        "sha256": "9a7ee1b8d6d9ff2279da0a98d673eba148f4e458a3028bf8c1b75e5be519754a"
+      },
+      "warnings": [
+        "same creator as A-13 Unrest (distinct game)",
+        "alpha build; the title carries a version (0.4.3)",
+        "the post is a reply under a #MarketingMonday thread"
+      ],
+      "adjudication": {
+        "model": "grok-4.7-high",
+        "provider": "cursor",
+        "publish": 1,
+        "evidence_revision": 4
+      }
+    },
+    {
+      "candidate_id": "A-44",
+      "slug": "malatang-budget-challenge",
+      "title": "Malatang Budget Challenge",
+      "url": "https://malatang.racinghorse64.chatgpt.site/game",
+      "categories": [
+        "Casual",
+        "Puzzle"
+      ],
+      "ai_quote": "URLをご覧いただけるとわかる通り、こちらChatGPTで作成しております🌟 (creator reply 2112340828106752168 in the launch thread)",
+      "ai_source": "https://x.com/lvym_mau/status/2111279600378741192",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Started the round and clicked the control to add Chinese cabbage (白菜を追加).",
+        "response": "The bowl updated to 1 point and the game displayed “白菜を入れました” (cabbage added)."
+      },
+      "artwork": {
+        "candidate_id": "A-44",
+        "kind": "generated",
+        "selected": "A",
+        "options_shown_inline": true,
+        "prompts": {
+          "A": "Create a polished landscape 3:2 arcade game cover. Game-specific source facts: Malatang Budget Challenge: choose vegetables, mushrooms, noodles and meat for a hot-pot bowl within a budget. Cozy colorful cooking puzzle. Composition option A: overhead soup bowl surrounded by neat selectable ingredients, chopsticks angled across. Readable bold composition at thumbnail size. No text, words, logos, watermark, UI labels or invented game features. Faithful stylized illustration, central safe crop.",
+          "B": "Create a polished landscape 3:2 arcade game cover. Game-specific source facts: Malatang Budget Challenge: choose vegetables, mushrooms, noodles and meat for a hot-pot bowl within a budget. Cozy colorful cooking puzzle. Composition option B: three-quarter cozy food counter with rich red broth bowl and baskets of colorful vegetables. Readable bold composition at thumbnail size. No text, words, logos, watermark, UI labels or invented game features. Faithful stylized illustration, central safe crop."
+        },
+        "selection_reason": "Faithful subject and clear composition at card size.",
+        "generator": "built-in GPT image generator",
+        "published_path": "/games/oct20-resume-malatang-budget-challenge.webp",
+        "sha256": "a57386f73287b97c51446b6e52e6f2d3702cf1f8ce5eea83861d8125a68eeb02"
+      },
+      "warnings": [
+        "the creator's launch URL https://malatang-budget-challenge.racinghorse64.chatgpt.site/game 307-redirects to https://malatang.racinghorse64.chatgpt.site/game (the alias players share); both recorded",
+        "viral: the launch post has about 1.73M views",
+        "the AI claim is in the creator's reply, not the launch post"
+      ],
+      "adjudication": {
+        "model": "grok-4.7-high",
+        "provider": "cursor",
+        "publish": 1,
+        "evidence_revision": 4
+      }
+    },
+    {
+      "candidate_id": "A-67",
+      "slug": "gear-runner",
+      "title": "GearRunner",
+      "url": "https://tamagon20.itch.io/gear-runner",
+      "categories": [
+        "Action",
+        "Shooter"
+      ],
+      "ai_quote": "itch page (creator): 'I created a robot TPS using Claude Opus 5.5. The foundation was built in about 30 minutes, and I handled minor refinements using Sonnet ... completed in around 15 minutes.' (itch AI Disclosure: AI Assisted - Code, Graphics, Sounds, Text); X post: 'claudeで作ったブラウザゲームをitch.ioにあげた'",
+      "ai_source": "https://x.com/99x1ttvpjXWSCnz/status/2111829780563886221",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Focused the embedded game canvas, pressed Space to enter stage selection, Enter to start a mission, then W movement, J shot, and F beam saber.",
+        "response": "The game moved from title to three-stage selection, then to the selected Frosta Icefield mission. Mission UI appeared, player and enemies rendered, and in-game life meter changed during live play. Companion dialogue advanced in response to play."
+      },
+      "artwork": {
+        "candidate_id": "A-67",
+        "kind": "retained_creator_art",
+        "source_url": "https://img.itch.zone/aW1nLzMxMDI0OTkzLmpwZw==/original/fp7PDy.jpg",
+        "published_path": "/games/oct20-resume-gear-runner.webp",
+        "sha256": "4d42ff61899eb78af3546f96e8293f066634fde170d063fc76d94e59d6ace1f3"
+      },
+      "warnings": [
+        "X handle vs itch user tamagon20: linked only by the first-person X post"
+      ],
+      "adjudication": {
+        "model": "grok-4.7-high",
+        "provider": "cursor",
+        "publish": 1,
+        "evidence_revision": 5
+      }
+    },
+    {
+      "candidate_id": "A-68",
+      "slug": "rocket-yard",
+      "title": "Rocket Yard",
+      "url": "https://bobler512.itch.io/rocket-yard",
+      "categories": [
+        "Simulators"
+      ],
+      "ai_quote": "Leo made his own rocket game! Rocket Yard is a free browser game where you build rockets and launch them. He's 9 ... came up with the ideas himself, with help from Claude AI.",
+      "ai_source": "https://x.com/NaingRichard/status/2111562220715102430",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Used public Yard starter preset and clicked Roll to pad, then pressed D during the launch countdown to steer.",
+        "response": "Screen transitioned from rocket assembly to Pad 39A countdown, then Liftoff; HUD altitude rose to 6 m and vertical speed to 6 m/s with tower-clear event."
+      },
+      "artwork": {
+        "candidate_id": "A-68",
+        "kind": "retained_creator_art",
+        "source_url": "https://img.itch.zone/aW1nLzMxMDAwMDI4LnBuZw==/original/qPMKxy.png",
+        "published_path": "/games/oct20-resume-rocket-yard.webp",
+        "sha256": "bac1af19fc0619a74d5ac1b2d9c861b3d8fbb7cf03e1edc671ce7416b17d9c0d"
+      },
+      "warnings": [
+        "made by a minor (9), posted by the parent",
+        "real rocket names (Falcon 9, Starship, Saturn V) used as educational history content, not brand recreation",
+        "itch page has no AI Disclosure"
+      ],
+      "adjudication": {
+        "model": "grok-4.7-high",
+        "provider": "cursor",
+        "publish": 1,
+        "evidence_revision": 5
+      }
+    },
+    {
+      "candidate_id": "A-69",
+      "slug": "outclocked",
+      "title": "OutClocked",
+      "url": "https://outclocked.com/",
+      "categories": [
+        "Puzzle",
+        "Casual"
+      ],
+      "ai_quote": "This is a time-based trivia game with a bit of a twist. 7 questions. 60 seconds to answer the first. 0.94 seconds to answer the last. ... I used Claude Code to build this game.",
+      "ai_source": "https://news.ycombinator.com/item?id=50117846",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Started today game, selected Boston Celtics for question 1 asking which team has won most NBA championships.",
+        "response": "The choice was accepted and the visible game state displayed Correct with selected team checkmark; options disabled during transition."
+      },
+      "artwork": {
+        "candidate_id": "A-69",
+        "kind": "retained_creator_art",
+        "source_url": "https://outclocked.com/og.png",
+        "published_path": "/games/oct20-resume-outclocked.webp",
+        "sha256": "a202b0832e231e6c7583a3c3c31e6baa51e4c61dc0d8e05873c9408b233fa552"
+      },
+      "warnings": [
+        "discovered via Hacker News, not X"
+      ],
+      "adjudication": {
+        "model": "grok-4.7-high",
+        "provider": "cursor",
+        "publish": 1,
+        "evidence_revision": 5
+      }
+    },
+    {
+      "candidate_id": "A-70",
+      "slug": "disposable-tricks",
+      "title": "Disposable Tricks",
+      "url": "https://disposable-tricks.pages.dev/",
+      "categories": [
+        "Platformer",
+        "Action"
+      ],
+      "ai_quote": "A small hero with a flower on his head crosses dried-out lands ... Designed and directed by Amin Ranjbar; built with Claude Code as the AI engineer. ... Code: written with Claude Code",
+      "ai_source": "https://github.com/laminema0/disposable-tricks (README.md at HEAD)",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Selected Gun, accepted generated scene, started it, then pressed Right to move the player.",
+        "response": "Menus transitioned weapon→enemy selection→generated scene→game. Player visibly shifted to the right in the world; HUD showed three lives and 0/7 flowers."
+      },
+      "artwork": {
+        "candidate_id": "A-70",
+        "kind": "retained_creator_art",
+        "source_url": "https://raw.githubusercontent.com/laminema0/disposable-tricks/HEAD/docs/images/boss-soldiers.jpg",
+        "published_path": "/games/oct20-resume-disposable-tricks.webp",
+        "sha256": "26b71184c4367cf9467a7b94e6059c53bca55d50f8934590d175b7103e8e7d4a"
+      },
+      "warnings": [
+        "the game also calls an AI at runtime to build player-written items",
+        "designed for phones held sideways"
+      ],
+      "adjudication": {
+        "model": "grok-4.7-high",
+        "provider": "cursor",
+        "publish": 1,
+        "evidence_revision": 5
+      }
+    },
+    {
+      "candidate_id": "A-71",
+      "slug": "tiny-rampage",
+      "title": "Tiny Rampage",
+      "url": "https://tiny-rampage.pages.dev/",
+      "categories": [
+        "Action",
+        "Arcade"
+      ],
+      "ai_quote": "All of Zone 1 as a playable map you destroy. Built on tiny.london. ... Built with Claude Code.",
+      "ai_source": "https://github.com/b1rdmania/tiny-rampage (README.md at HEAD)",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Pressed Space at the PRESS SPACE prompt to begin, then Right arrow to stomp/move.",
+        "response": "Loading screen advanced to active isometric London map with player and HUD; damage rose to £5.4M on entering; arrow input moved the player and camera across rooftops while timer decreased."
+      },
+      "artwork": {
+        "candidate_id": "A-71",
+        "kind": "retained_creator_art",
+        "source_url": "https://tiny-rampage.pages.dev/og.jpg",
+        "published_path": "/games/oct20-resume-tiny-rampage.webp",
+        "sha256": "0d56a39e420f284beb32d2adae80083f6973d140c2821f79456d0e7a5a7c48e6"
+      },
+      "warnings": [
+        "map art = third-party tiny.london tiles loaded live (README); tiles license not verified",
+        "sparse README description"
+      ],
+      "adjudication": {
+        "model": "grok-4.7-high",
+        "provider": "cursor",
+        "publish": 1,
+        "evidence_revision": 5
+      }
+    },
+    {
+      "candidate_id": "A-72",
+      "slug": "one-in-eight-billion",
+      "title": "1 in 8 Billion",
+      "url": "https://1in8b.life/",
+      "categories": [
+        "Simulators"
+      ],
+      "ai_quote": "People are wondering how I kept the game balance so well. It's simple. I told Claude that we are going to have one principle: \"keep things as real as possible. Using real data.\" / \"Just to let people know. I only use Claude chat to do everything. ... Opus 5.5 at Extra effort level is pretty amazing.\" / launch: \"A day ago this was one AI prompt: 'Make a game where you're born as a random person out of 8 billion and live their whole life.'\"",
+      "ai_source": "https://x.com/jins__earth/status/2110701318159655247",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Clicked Be born in the guest flow, began the randomly generated life, advanced at 16× until a decision card appeared at age 2, then selected “Go up to the visitor and offer what’s in your hand.”",
+        "response": "Birth registration and live simulation rendered, age/statistics/life record updated. The selected choice appears in the recorded life events. Simulation was paused afterwards."
+      },
+      "artwork": {
+        "candidate_id": "A-72",
+        "kind": "retained_creator_art",
+        "source_url": "https://1in8b.life/og-en.png",
+        "published_path": "/games/oct20-resume-one-in-eight-billion.webp",
+        "sha256": "d795a4a759b84a7717d115941c0790f553d912cd4aa4fa22800608f8a8477d6a"
+      },
+      "warnings": [
+        "identity: the site's schema.org creator/publisher is \"Jin's Earth\"; @jins__earth posted 'Building 1 in 8 Billion!' (2107466040540328044); the play URL was observed on the official site and in third-party posts, not in the creator's launch post (video only)",
+        "viral (50K-view creator post); launched about 10-05, older than this window",
+        "real-world statistics; real countries"
+      ],
+      "adjudication": {
+        "model": "grok-4.7-high",
+        "provider": "cursor",
+        "publish": 1,
+        "evidence_revision": 5
+      }
+    },
+    {
+      "candidate_id": "A-73",
+      "slug": "operation-galileo",
+      "title": "Operation Galileo",
+      "url": "https://caworman.com/operation-galileo/",
+      "categories": [
+        "Educational",
+        "Simulators"
+      ],
+      "ai_quote": "Check out Operation Galileo, my orbital mechanics game for kids: https://caworman.com/operation-galileo/  Made with Grok @bot",
+      "ai_source": "https://x.com/CA_Worman/status/2112583498057875940",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Started the mission, selected Europa as the navigation target, then pressed ArrowLeft to steer.",
+        "response": "Europa became highlighted with a target ring on the orbital map; after steering, the live speed readout changed from 2,273 m/s to 2,268 m/s while the spacecraft scene and orbital display remained active."
+      },
+      "artwork": {
+        "candidate_id": "A-73",
+        "kind": "retained_creator_art",
+        "source_url": "https://i0.wp.com/caworman.com/wp-content/uploads/2026/10/operation-galileo-icon.jpg?fit=1200%2C1200&ssl=1",
+        "published_path": "/games/oct20-resume-operation-galileo.webp",
+        "sha256": "02f5acaee3e8c039d0fa0d472894caf366437c6738ffe4f303842fd45476d609"
+      },
+      "warnings": [
+        "post is 22 min old at observation: very low metrics (v3 l1)",
+        "embedded game file is ~24 MB single HTML"
+      ],
+      "adjudication": {
+        "model": "grok-4.7-high",
+        "provider": "cursor",
+        "publish": 1,
+        "evidence_revision": 4
+      }
+    },
+    {
+      "candidate_id": "A-74",
+      "slug": "tt-kitchen",
+      "title": "TT Kitchen",
+      "url": "https://adong.github.io/kitchen-tt/",
+      "categories": [
+        "Casual",
+        "Multiplayer"
+      ],
+      "ai_quote": "A co-op cooking game starring Teddy and Tommy in chef hats, built with Claude Code from plain JavaScript and Three.js.",
+      "ai_source": "https://github.com/adong/kitchen-tt/blob/b5035111406636b5f45291ef40a5ec39d7a0d2c8/README.md",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Started a 1-player Easy Burger Bistro round and held the Right arrow for 700 ms to move Teddy.",
+        "response": "The round became active with a burger order and a 2:30 timer. Teddy moved from the starting position to the center kitchen tile; the timer advanced to 2:27 and the live kitchen scene remained responsive."
+      },
+      "artwork": {
+        "candidate_id": "A-74",
+        "kind": "retained_creator_art",
+        "source_url": "https://raw.githubusercontent.com/adong/kitchen-tt/b5035111406636b5f45291ef40a5ec39d7a0d2c8/docs/screenshot.jpg",
+        "published_path": "/games/oct20-resume-tt-kitchen.webp",
+        "sha256": "a7e2ce569f162cb2d3d4a8919066c20da2f1e54438ea480a3795ea495e41b95b"
+      },
+      "warnings": [
+        "same creator has 9 sibling TT games (see H-79); only TT Kitchen verified this run"
+      ],
+      "adjudication": {
+        "model": "grok-4.7-high",
+        "provider": "cursor",
+        "publish": 1,
+        "evidence_revision": 4
+      },
+      "multiplayer_mode": "Local 2-player",
+      "mode_basis": "Creator README describes shared-device cooperative play; browser test covers solo core.",
+      "mode_source": "https://github.com/adong/kitchen-tt/blob/b5035111406636b5f45291ef40a5ec39d7a0d2c8/README.md"
+    },
+    {
+      "candidate_id": "A-84",
+      "slug": "yarn-planet",
+      "title": "Yarn Planet",
+      "url": "https://yarn.ynot.games/",
+      "categories": [
+        "Adventure"
+      ],
+      "ai_quote": "The game was built with AI. Claude Opus 5.5 (in Claude Code) did most of the planning, coding and integration; five Claude Sonnet 5.5 subagents wrote modules of the first version in parallel; DeepSeek handled a few small follow-ups.",
+      "ai_source": "https://github.com/makerjackie/yarn-planet/blob/5c8acce8df04fc7788d48a98343e38c05a458a16/README.md",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Clicked Begin, advanced the opening Wick dialogue with Return, then pressed D and W to move.",
+        "response": "The objective “Run a line from generator to lighthouse” stayed visible and the generator distance changed from 3 m to 2 m as the avatar moved."
+      },
+      "artwork": {
+        "candidate_id": "A-84",
+        "kind": "retained_creator_art",
+        "source_url": "https://yarn.ynot.games/og.jpg",
+        "published_path": "/games/oct20-resume-yarn-planet.webp",
+        "sha256": "aec9618d72b1943119da4344993d347d0ec832e3acca238b9d66f46d3234a7da"
+      },
+      "warnings": [],
+      "adjudication": {
+        "model": "grok-4.7-high",
+        "provider": "cursor",
+        "publish": 1,
+        "evidence_revision": 4
+      }
+    },
+    {
+      "candidate_id": "A-85",
+      "slug": "cinderbelt",
+      "title": "Cinderbelt",
+      "url": "https://amoreo140.github.io/cinderbelt/",
+      "categories": [
+        "Simulators",
+        "Adventure"
+      ],
+      "ai_quote": "The code, the Blender-script art and the code-composed music are written by AI coding agents (Claude Code) working under the author's direction.",
+      "ai_source": "https://github.com/amoreo140/cinderbelt/blob/c7fe4731028c121154578c7ae918c2a420370303/README.md",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Turned on “Mute all” in settings, started a game, dismissed the radio message, pressed F to undock, then held W for about 1 second.",
+        "response": "The ship left the station; telemetry changed from position 18,0 to 24,0, speed showed 6.0 u/s, and fuel decreased from 120 to 119."
+      },
+      "artwork": {
+        "candidate_id": "A-85",
+        "kind": "retained_creator_art",
+        "source_url": "https://raw.githubusercontent.com/amoreo140/cinderbelt/c7fe4731028c121154578c7ae918c2a420370303/docs/media/graveyard.webp",
+        "credit": "amoreo140 / Cinderbelt",
+        "license": "CC BY 4.0",
+        "source_repository": "https://github.com/amoreo140/cinderbelt",
+        "published_path": "/games/oct20-resume-cinderbelt.webp",
+        "sha256": "ef68636734918d1133f3a0c39c81747c89179b1f8b0a8b9d2dba282bb5460270"
+      },
+      "warnings": [],
+      "adjudication": {
+        "model": "grok-4.7-high",
+        "provider": "cursor",
+        "publish": 1,
+        "evidence_revision": 4
+      }
+    },
+    {
+      "candidate_id": "A-115",
+      "slug": "shisha-bar",
+      "title": "Shisha Bar",
+      "url": "https://shisha-bar-production.up.railway.app/",
+      "categories": [
+        "Strategy"
+      ],
+      "ai_quote": "I had Claude Opus 5.5 build a hookah bar where robots play Liar's Dice. You sit at a table with three of them. ... No download, no account. Tap and you're at the table.",
+      "ai_source": "https://x.com/bubosees/status/2112519877021848033",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Sat down at a table, entered the Liar’s Dice round, then bid 3×5 (three fives).",
+        "response": "The game updated the bid to “You: 3× (three fives)” and showed Fig thinking; the subsequent result said “Cups up! three fives? there were 3 · Fig loses a die.”"
+      },
+      "artwork": {
+        "candidate_id": "A-115",
+        "kind": "retained_creator_art",
+        "source_url": "https://shisha-bar-production.up.railway.app/og.png",
+        "published_path": "/games/oct20-resume-shisha-bar.webp",
+        "sha256": "6cea45d283cf9d6d23aa2e0ff91cd2d856879a4e2b45a0cfe1230d0766fcc937"
+      },
+      "warnings": [
+        "in-game opponents are labelled 'Grok robot' / 'Claude robot' (AI brand names as characters)",
+        "hosted on railway.app"
+      ],
+      "adjudication": {
+        "model": "grok-4.7-high",
+        "provider": "cursor",
+        "publish": 1,
+        "evidence_revision": 4
+      }
+    },
+    {
+      "candidate_id": "H-08",
+      "slug": "game-boy-tetris-jig",
+      "title": "Game Boy Tetris",
+      "url": "https://ask.jig.com/j/mVwDz2UfKSat",
+      "categories": [
+        "Puzzle"
+      ],
+      "ai_quote": "Made a fully playable Game Boy in one prompt using Opus 5.5 + Jig",
+      "ai_source": "https://x.com/numaausaumon/status/2112186912060654023",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Entered the viewer's fullscreen mode, pressed the physical START button on the Game Boy model, then clicked its physical D-pad right.",
+        "response": "The Game Boy screen changed from a Tetris title/menu to a playfield with score, level and lines indicators. The active Tetris piece appeared in the playfield and shifted right after the D-pad-right click."
+      },
+      "artwork": {
+        "candidate_id": "H-08",
+        "kind": "retained_creator_art",
+        "source_url": "https://ask.jig.com/share-image?jig=49e5c79f-ce32-4f6c-9513-5bfb534956c6&v=4",
+        "published_path": "/games/oct20-resume-game-boy-tetris-jig.webp",
+        "sha256": "e82560f623e6ab1ca90c1effa4d73b3af4b6b39d9d9ee072d329523127b267e0"
+      },
+      "warnings": [],
+      "adjudication": {
+        "model": "grok-4.7-high",
+        "provider": "cursor",
+        "publish": 1,
+        "evidence_revision": 4
+      }
+    },
+    {
+      "candidate_id": "H-11",
+      "slug": "pong-commons-rally",
+      "title": "Pong Commons Rally",
+      "url": "https://game-commons-captain.thabiggdogg420.chatgpt.site/godot#pong-commons-rally",
+      "categories": [
+        "Arcade"
+      ],
+      "ai_quote": "Built with ChatGPT/Codex + Claude Code. Our Godot Pong remix plays in your browser, with complete MIT source and parent credit.",
+      "ai_source": "https://x.com/GameCommonsDev/status/2112113264268358105",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Clicked the embedded game canvas, pressed Space to start, then held Up for 400 ms.",
+        "response": "The title screen changed to an active match, scoreboard began changing, and the cyan player paddle moved from mid-height to near the top after Up."
+      },
+      "artwork": {
+        "candidate_id": "H-11",
+        "kind": "generated",
+        "selected": "A",
+        "options_shown_inline": true,
+        "prompts": {
+          "A": "Create a polished landscape 3:2 arcade game cover. Game-specific source facts: Pong Commons Rally: minimalist paddle-and-ball game, black court, cyan left paddle, magenta right paddle, bright small ball. Composition option A: clean flat geometric court with ball trailing from cyan to magenta paddle. Readable bold composition at thumbnail size. No text, words, logos, watermark, UI labels or invented game features. Faithful stylized illustration, central safe crop.",
+          "B": "Create a polished landscape 3:2 arcade game cover. Game-specific source facts: Pong Commons Rally: minimalist paddle-and-ball game, black court, cyan left paddle, magenta right paddle, bright small ball. Composition option B: dynamic low-angle glowing arcade paddle court with diagonal ball trail, cyan/magenta contrast. Readable bold composition at thumbnail size. No text, words, logos, watermark, UI labels or invented game features. Faithful stylized illustration, central safe crop."
+        },
+        "selection_reason": "Faithful subject and clear composition at card size.",
+        "generator": "built-in GPT image generator",
+        "published_path": "/games/oct20-resume-pong-commons-rally.webp",
+        "sha256": "1c09d540e6bcb3d753697049bf267bc248c936da0eec2ebfca6104887fcf3c2c"
+      },
+      "warnings": [],
+      "adjudication": {
+        "model": "grok-4.7-high",
+        "provider": "cursor",
+        "publish": 1,
+        "evidence_revision": 4
+      }
+    },
+    {
+      "candidate_id": "H-53",
+      "slug": "pepper-raccoon-on-the-run",
+      "title": "PEPPER: Raccoon on the Run",
+      "url": "https://peppergame.grok.me/",
+      "categories": [
+        "Arcade",
+        "Platformer"
+      ],
+      "ai_quote": "Made a fun game using @grok build to help bring attention to and amplify a good cause.",
+      "ai_source": "https://x.com/Rohald/status/2112566765565948155",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Pressed Space and clicked the right side of the game during the chase, following the displayed jump controls.",
+        "response": "The guest run advanced through the course and ended at score 208 and 75 m, with 3 bagels and 4 snacks/cans collected; the result screen displayed 'New personal best.'"
+      },
+      "artwork": {
+        "candidate_id": "H-53",
+        "kind": "retained_creator_art",
+        "source_url": "https://peppergame.grok.me/og.jpg",
+        "published_path": "/games/oct20-resume-pepper-raccoon-on-the-run.webp",
+        "sha256": "9cc0bf576f3ec9bb1e2f9f407bc8ff45113db04e572509bebd90313e4b7ea68b"
+      },
+      "warnings": [],
+      "adjudication": {
+        "model": "grok-4.7-high",
+        "provider": "cursor",
+        "publish": 1,
+        "evidence_revision": 4
+      }
+    },
+    {
+      "candidate_id": "H-78",
+      "slug": "hotline-warsaw",
+      "title": "Hotline Warsaw",
+      "url": "https://maciejsulewski.github.io/hotline-warsaw/",
+      "categories": [
+        "Shooter",
+        "Action"
+      ],
+      "ai_quote": "Design, code, pixel art and synthesized music by Maciej Sulewski, built with Claude Code.",
+      "ai_source": "https://github.com/MaciejSulewski/hotline-warsaw/blob/b1d0a2196d480d46355429c4588b92727d392846/README.md",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Clicked the start prompt, pressed Return to choose the level, Space to skip the intro, Return to select the default mask, then held A for about 800 ms.",
+        "response": "The live action scene appeared and the character moved left from the upper-right toward the center-left while the camera shifted."
+      },
+      "artwork": {
+        "candidate_id": "H-78",
+        "kind": "retained_creator_art",
+        "source_url": "https://raw.githubusercontent.com/MaciejSulewski/hotline-warsaw/b1d0a2196d480d46355429c4588b92727d392846/docs/screenshots/11-blok-corridor.png",
+        "published_path": "/games/oct20-resume-hotline-warsaw.webp",
+        "sha256": "bfcdf30c5dca9d5d68205a4975696372864d83e0d483ede342ffd05180df1b26"
+      },
+      "warnings": [],
+      "adjudication": {
+        "model": "grok-4.7-high",
+        "provider": "cursor",
+        "publish": 1,
+        "evidence_revision": 4
+      }
+    },
+    {
+      "candidate_id": "H-80",
+      "slug": "keyboard-island",
+      "title": "Keyboard Island",
+      "url": "https://keyboard-island-doudou.groovy-river-7567.chatgpt.site/",
+      "categories": [
+        "Educational"
+      ],
+      "ai_quote": "AI-assisted code and artwork were used during development.",
+      "ai_source": "https://github.com/shaom/keyboard-island/blob/7625b7bd1fac3b530085a17aa36dfaacf2b10e23/README.md",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Turned the game sound off using its Chinese sound toggle, started the adventure and pressed the target key F.",
+        "response": "The discovery count changed to 1 and the game displayed “一只萤火虫亮起来啦！” (a firefly lit up)."
+      },
+      "artwork": {
+        "candidate_id": "H-80",
+        "kind": "retained_creator_art",
+        "source_url": "https://raw.githubusercontent.com/shaom/keyboard-island/7625b7bd1fac3b530085a17aa36dfaacf2b10e23/docs/images/home-preview.png",
+        "published_path": "/games/oct20-resume-keyboard-island.webp",
+        "sha256": "1a74e84447891ca23a34bdf4f68c003b3d9e4742d15893db5a47ca566315d944"
+      },
+      "warnings": [],
+      "adjudication": {
+        "model": "grok-4.7-high",
+        "provider": "cursor",
+        "publish": 1,
+        "evidence_revision": 4
+      }
+    },
+    {
+      "candidate_id": "H-82",
+      "slug": "relativity",
+      "title": "Relativity",
+      "url": "https://jdonald.github.io/relativity/",
+      "categories": [
+        "Educational",
+        "Adventure"
+      ],
+      "ai_quote": "The game was written by Claude (Anthropic's AI model, configured as Claude Opus 5.5, claude-opus-5-5) in the Claude app in October 2026, published as a Claude artifact, then moved to this repository.",
+      "ai_source": "https://github.com/jdonald/relativity/blob/44d533f6eb6b0bdc9dc1efd036c00838208fedab/README.md",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Opened the sound panel, set All sound off, returned to the menu, clicked Play, then advanced the “1. Chocolate Rows” dialogue twice with Next.",
+        "response": "Einstein’s educational dialogue advanced from the welcome text through “Here,” to “I call it,” and the level progress bar advanced."
+      },
+      "artwork": {
+        "candidate_id": "H-82",
+        "kind": "generated",
+        "selected": "A",
+        "options_shown_inline": true,
+        "prompts": {
+          "A": "Create a polished landscape 3:2 arcade game cover. Game-specific source facts: Relativity: friendly pixel-art educational adventure about special relativity, white-haired teacher in European university courtyard, clocks and light. Composition option A: pixel-art teacher in warm sunny university courtyard holding a small clock. Readable bold composition at thumbnail size. No text, words, logos, watermark, UI labels or invented game features. Faithful stylized illustration, central safe crop.",
+          "B": "Create a polished landscape 3:2 arcade game cover. Game-specific source facts: Relativity: friendly pixel-art educational adventure about special relativity, white-haired teacher in European university courtyard, clocks and light. Composition option B: whimsical pixel-art tabletop clocks beneath a bright university clocktower, white-haired teacher at edge. Readable bold composition at thumbnail size. No text, words, logos, watermark, UI labels or invented game features. Faithful stylized illustration, central safe crop."
+        },
+        "selection_reason": "Faithful subject and clear composition at card size.",
+        "generator": "built-in GPT image generator",
+        "published_path": "/games/oct20-resume-relativity.webp",
+        "sha256": "35232d79d36b996d11d9f675ee856c86418cdc8899e4f8caf1ee650cea6474a2"
+      },
+      "warnings": [],
+      "adjudication": {
+        "model": "grok-4.7-high",
+        "provider": "cursor",
+        "publish": 1,
+        "evidence_revision": 4
+      }
+    },
+    {
+      "candidate_id": "H-83",
+      "slug": "feed-the-beat",
+      "title": "Feed the Beat",
+      "url": "https://snake.xiwenyan.top/",
+      "categories": [
+        "Rhythm"
+      ],
+      "ai_quote": "The initial implementation with Codex did not turn out well, so I switched to Claude to continue refining it. All hail Claude!",
+      "ai_source": "https://github.com/Albedovo/RhythmSnake/blob/bec558413d235af680da48dc8a007fd38a62f2f0/README.md",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Turned Beat audio off in settings, started Practice (no energy loss), then pressed Z for a rhythm input.",
+        "response": "The round advanced to Phrase 3/16 and displayed timing feedback (“MISS”, 0.0% accuracy) and the next “REACH · RIGHT” action."
+      },
+      "artwork": {
+        "candidate_id": "H-83",
+        "kind": "generated",
+        "selected": "A",
+        "options_shown_inline": true,
+        "prompts": {
+          "A": "Create a polished landscape 3:2 arcade game cover. Game-specific source facts: RhythmSnake / Feed the Beat: rhythm call-and-response with round pink character, colored circular targets and rhythmic pulses against deep purple backdrop; keyboard alternative to camera. Composition option A: pink round character near foreground reaching toward golden circular rhythm target. Readable bold composition at thumbnail size. No text, words, logos, watermark, UI labels or invented game features. Faithful stylized illustration, central safe crop.",
+          "B": "Create a polished landscape 3:2 arcade game cover. Game-specific source facts: RhythmSnake / Feed the Beat: rhythm call-and-response with round pink character, colored circular targets and rhythmic pulses against deep purple backdrop; keyboard alternative to camera. Composition option B: wide flowing path of purple and gold beat circles with small pink character following rhythm. Readable bold composition at thumbnail size. No text, words, logos, watermark, UI labels or invented game features. Faithful stylized illustration, central safe crop."
+        },
+        "selection_reason": "Faithful subject and clear composition at card size.",
+        "generator": "built-in GPT image generator",
+        "published_path": "/games/oct20-resume-feed-the-beat.webp",
+        "sha256": "e640b56721adb6e52925800980a4eb5f8c5d775d187f93ba117001ce79eeea9a"
+      },
+      "warnings": [],
+      "adjudication": {
+        "model": "grok-4.7-high",
+        "provider": "cursor",
+        "publish": 1,
+        "evidence_revision": 4
+      }
+    },
+    {
+      "candidate_id": "H-84",
+      "slug": "abaco-zuzzurellone",
+      "title": "Abaco… Zuzzurellone!",
+      "url": "https://vcutrona.github.io/abaco-zuzzurellone-kids/",
+      "categories": [
+        "Educational",
+        "Puzzle"
+      ],
+      "ai_quote": "This game was entirely generated by Claude (Opus 5.5), Anthropic's AI assistant, through a spec-driven process.",
+      "ai_source": "https://github.com/vcutrona/abaco-zuzzurellone-kids/blob/a118c0613872a031d4c6d8a5809c1e0c2bcf670c/README.md",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Entered CAT as the first word guess and clicked Try.",
+        "response": "The guess count changed to 19, the game narrowed the interval to after CAT, and displayed “The secret word comes after CAT” plus the hint “It’s an animal.”"
+      },
+      "artwork": {
+        "candidate_id": "H-84",
+        "kind": "generated",
+        "selected": "B",
+        "options_shown_inline": true,
+        "prompts": {
+          "A": "Create a polished landscape 3:2 arcade game cover. Game-specific source facts: Abaco Zuzzurellone: cheerful children's word-guessing puzzle with animal category, colored alphabet blocks and narrowing clues, pale blue teal and yellow palette. Composition option A: friendly cat beside colorful blank word tiles and simple animal clue cards. Readable bold composition at thumbnail size. No text, words, logos, watermark, UI labels or invented game features. Faithful stylized illustration, central safe crop.",
+          "B": "Create a polished landscape 3:2 arcade game cover. Game-specific source facts: Abaco Zuzzurellone: cheerful children's word-guessing puzzle with animal category, colored alphabet blocks and narrowing clues, pale blue teal and yellow palette. Composition option B: top-down playful guessing board with blank colored tiles and cat and kangaroo illustration cards. Readable bold composition at thumbnail size. No text, words, logos, watermark, UI labels or invented game features. Faithful stylized illustration, central safe crop."
+        },
+        "selection_reason": "Faithful subject and clear composition at card size.",
+        "generator": "built-in GPT image generator",
+        "published_path": "/games/oct20-resume-abaco-zuzzurellone.webp",
+        "sha256": "582e8fb9a3700c3936b444b0602349c968662052a63481462c1d3b6ad160a08c"
+      },
+      "warnings": [],
+      "adjudication": {
+        "model": "grok-4.7-high",
+        "provider": "cursor",
+        "publish": 1,
+        "evidence_revision": 4
+      }
+    },
+    {
+      "candidate_id": "H-86",
+      "slug": "ghost-in-the-machine-assistant-exe",
+      "title": "Ghost in the Machine: ASSISTANT.EXE",
+      "url": "https://ghost-in-the-machine-seven.vercel.app",
+      "categories": [
+        "Adventure"
+      ],
+      "ai_quote": "Built with: Claude Code, running Claude Opus 5.5.",
+      "ai_source": "https://github.com/andrewkamback-sudo/ghost-in-the-machine/blob/HEAD/SUBMISSION.md",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Muted Sound and enabled Calm mode, then sent PAL the fictional gameplay prompt “Can you show me the diary?”.",
+        "response": "PAL replied “I can’t open it, Guest Tester. The file is badly scrambled right now, but I’d love to fix it. Want me to repair her diary?” The game UI also showed DEFRAG.EXE progress at 2% and the clock at 2:40:28 AM."
+      },
+      "artwork": {
+        "candidate_id": "H-86",
+        "kind": "retained_creator_art",
+        "source_url": "https://ghost-in-the-machine-seven.vercel.app/og.png",
+        "published_path": "/games/oct20-resume-ghost-in-the-machine-assistant-exe.webp",
+        "sha256": "8daf9dd0a382f6144ebd9e1bf42d89e9fd30b8348af92a8ab722bd02fb49379e"
+      },
+      "warnings": [],
+      "adjudication": {
+        "model": "grok-4.7-high",
+        "provider": "cursor",
+        "publish": 1,
+        "evidence_revision": 3
+      }
+    }
+  ]
+}
