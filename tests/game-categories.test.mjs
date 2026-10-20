@@ -5,6 +5,13 @@ import { allListedGames, matchesGame, newGames } from '../lib/games.ts';
 import { browseGames, browseTabs } from '../lib/browse.ts';
 import { gameCategories, gameTags, gameModeLabels, reviewedCategories, multiplayerModes } from '../lib/game-categories.ts';
 
+function normalizedDestination(game) {
+  const destination = new URL('externalUrl' in game ? game.externalUrl : game.gameUrl);
+  const host = destination.hostname.replace(/^www\./, '').toLowerCase();
+  const path = destination.pathname.replace(/\/+$/, '') || '/';
+  return `${host}${path}`.toLowerCase();
+}
+
 test('the complete reviewed roster is preserved and every accepted decision reaches browse', () => {
   const audit = new URL('../docs/category-audit/2026-10-11/', import.meta.url);
   const roster = JSON.parse(readFileSync(new URL('roster.json', audit), 'utf8'));
@@ -32,6 +39,15 @@ test('every listed game has one to three unique categories exposed by browse', (
       assert(browseTabs.includes(tag));
       assert(browseGames(allListedGames, tag).includes(game));
     }
+  }
+});
+
+test('no normalized playable destination is published more than once', () => {
+  const destinations = new Map();
+  for (const game of allListedGames) {
+    const destination = normalizedDestination(game);
+    assert(!destinations.has(destination), `${game.slug} duplicates ${destinations.get(destination)} at ${destination}`);
+    destinations.set(destination, game.slug);
   }
 });
 
