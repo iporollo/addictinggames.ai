@@ -12,7 +12,7 @@ import { QuickLinks } from './QuickLinks';
 import { GameLink } from './GameLink';
 
 const featuredPicks = [
-  'komiya-interrogation', 'gigacity', 'soccar', 'terra-incognita', 'third-mainland-biker',
+  'backyard-rascals', 'neon-veil', 'kestrel-nights', 'dokidoki-reply', 'rebound-pocket-pinball',
 ].flatMap(slug => {
   const game = allListedGames.find(game => game.slug === slug);
   return game ? [game] : [];
