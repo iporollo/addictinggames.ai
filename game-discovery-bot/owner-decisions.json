@@ -437,6 +437,15 @@
       "statement": "This game does not work and does not have anything inside of it.",
       "source": "Direct owner message in this task",
       "note": "Keep held pending a changed, working exact URL; AI authorship remains a separate gate."
+    },
+    {
+      "game": "Unrest",
+      "playable_url": "https://c0gn8.itch.io/unrest-alpha",
+      "decision": "owner_confirmed_valid",
+      "acceptance_basis": "owner_confirmed",
+      "date": "2026-10-20",
+      "source": "Direct owner message in this project chat",
+      "note": "Owner accepts the exact game and age-confirmation path for listing. Prior automated attempt preserved separately; AI creation independently evidenced."
     }
   ],
   "preferences": {

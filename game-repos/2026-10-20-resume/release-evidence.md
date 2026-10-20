@@ -11,3 +11,5 @@ Creator-provided covers were retained, resized and inspected in the actual New G
 Validation: Node 22 clean dependency installation, lint, build and typecheck passed. The first test pass exposed a malformed source-provenance field in this new receipt; the field was corrected while retaining the retrieval method, and the affected source-receipt test passed. The campaign release validator passed for all nine selected IDs. CI, merged source, production deployment and live verification are tracked separately after release.
 
 `source-repositories.json` retains metadata for 75 exposed repositories from the original campaign, including unfinished and duplicate leads. Further recovered repository metadata will be reconciled in subsequent batches. Upstream game/mod source trees and binaries are not redistributed.
+
+Batch 1 is live: PR #80 merged as `2b13d9c6c8038b60d1ae6dc325589e3f665d5e04`; GitHub CI passed and Vercel's Production deployment status records success for that same SHA. Every released destination and exact cover bytes were checked on https://addictinggames.ai, and all nine card crops were inspected in the live browser.
