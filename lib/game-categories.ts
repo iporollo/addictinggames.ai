@@ -7,6 +7,29 @@ export type MultiplayerMode = 'Online multiplayer' | 'Local 2-player' | 'Local m
 
 // Evidence and unresolved cases live in docs/category-audit/2026-10-11/.
 export const reviewedCategories: Record<string, CategoryList> = {
+  // October 20 AI Game Scout batch: genres follow observed guest play.
+  'wind-path': ['Adventure'],
+  'kestrel-nights': ['Action', 'Adventure'],
+  'frost-train': ['Survival', 'Strategy'],
+  'idle-cheeky-cat': ['Shooter', 'Arcade'],
+  'window-seat': ['Arcade', 'Platformer'],
+  'road-star': ['Arcade'],
+  'backyard-rascals': ['Action', 'Multiplayer', 'Arcade'],
+  'the-empty-throne': ['Adventure'],
+  'dead-tide-last-ferry': ['Shooter', 'Survival', 'Action'],
+  'neon-veil': ['Puzzle', 'Adventure'],
+  'cog-and-ember': ['Adventure'],
+  'rebound-pocket-pinball': ['Arcade'],
+  'yotsukura-no-umi': ['Adventure'],
+  'tsuzuri-no-doukutsu': ['Educational', 'Adventure'],
+  'extermination-tower-defense': ['Tower Defense', 'Strategy'],
+  'dokidoki-reply': ['Casual', 'Adventure'],
+  'gulou': ['Simulators', 'Adventure'],
+  'ricochet': ['Shooter', 'Action'],
+  'mugyeong-night-shift': ['Adventure'],
+  'cortex-pinball': ['Arcade'],
+  '1v1-deathmatch': ['Shooter', 'Action', 'Multiplayer'],
+  'ninfa-europea': ['Sports', 'Simulators'],
   'two-castles': ['Strategy'],
   'geeky-clicker': ['Casual'],
   'vs-crow-poop': ['Arcade', 'Survival'],
@@ -782,6 +805,8 @@ export const reviewedCategories: Record<string, CategoryList> = {
 };
 
 export const multiplayerModes: Record<string, MultiplayerMode> = {
+  "1v1-deathmatch": "Online multiplayer",
+  "backyard-rascals": "Online multiplayer",
   "99-youth-echecs": "Local 2-player",
   "battle-peaks": "Local 2-player",
   "cinder-ring": "Online multiplayer",
