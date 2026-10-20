@@ -7,10 +7,20 @@ import { gameCategories, gameTags, gameModeLabels, reviewedCategories, multiplay
 
 function normalizedDestination(game) {
   const destination = new URL('externalUrl' in game ? game.externalUrl : game.gameUrl);
-  const host = destination.hostname.replace(/^www\./, '').toLowerCase();
-  const path = destination.pathname.replace(/\/+$/, '') || '/';
-  return `${host}${path}`.toLowerCase();
+  // URL canonicalizes host case/default ports. Paths, queries and fragments may
+  // select distinct games; alias/redirect deduplication needs pipeline evidence.
+  return destination.href;
 }
+
+test('destination identity preserves game selectors and case-sensitive paths', () => {
+  const key = externalUrl => normalizedDestination({ externalUrl });
+  assert.equal(key('https://EXAMPLE.com:443/game'), key('https://example.com/game'));
+  for (const suffix of ['?game=one', '?game=two', '#one', '#two', '/']) {
+    assert.notEqual(key(`https://example.com/game${suffix}`), key('https://example.com/game'));
+  }
+  assert.notEqual(key('https://example.com/Game'), key('https://example.com/game'));
+  assert.notEqual(key('https://www.example.com/game'), key('https://example.com/game'));
+});
 
 test('the complete reviewed roster is preserved and every accepted decision reaches browse', () => {
   const audit = new URL('../docs/category-audit/2026-10-11/', import.meta.url);
@@ -42,7 +52,7 @@ test('every listed game has one to three unique categories exposed by browse', (
   }
 });
 
-test('no normalized playable destination is published more than once', () => {
+test('no exact canonical playable destination is published more than once', () => {
   const destinations = new Map();
   for (const game of allListedGames) {
     const destination = normalizedDestination(game);
