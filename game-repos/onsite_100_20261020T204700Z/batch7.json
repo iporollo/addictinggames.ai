@@ -1,0 +1,126 @@
+{
+  "status": "approved_for_release",
+  "run_id": "onsite_100_20261020T204700Z",
+  "entries": [
+    {
+      "candidate_id": "G-072",
+      "slug": "void-gptgames",
+      "title": "VOID",
+      "url": "https://www.gptgames.dev/games/void.html",
+      "categories": [
+        "Arcade",
+        "Action"
+      ],
+      "ai_quote": "Remake VOID as one endless printed street, from a manhole to a galaxy",
+      "ai_source": "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/247ddb4b9e969fd237c032c201046eee11a9f19d",
+      "ai_scope": "Claude-authored changes substantially remake the current game; the evidence does not establish whether the prior historical version was AI-created.",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Clicked Play inside the iframe, then moved the pointer across the live canvas toward a nearby object (ten movement steps).",
+        "response": "Mass changed from 0.80 m to 0.84 m and a +0.3 collection indicator appeared; timer continued running."
+      },
+      "player_sandbox": "allow-scripts allow-pointer-lock",
+      "artwork_source": "https://www.gptgames.dev/screenshots/screenshot_271.webp",
+      "artwork_path": "public/games/onsite-gptgames-g-072.webp",
+      "caveat": null
+    },
+    {
+      "candidate_id": "G-076",
+      "slug": "downhill-dreamer",
+      "title": "Downhill Dreamer",
+      "url": "https://www.gptgames.dev/games/downhill_dreamer.html",
+      "categories": [
+        "Arcade",
+        "Sports"
+      ],
+      "ai_quote": "The terrain, flight and rules now live in a DOM-free",
+      "ai_source": "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/c19d8cdb1741d1a6bf7544a89c47acb13f7aa41f",
+      "ai_scope": "A Claude-authored, AI-attributed physics/chaining redesign materially changes the current game. The cited evidence does not establish AI authorship of the original game version.",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Clicked Take Flight inside the iframe, held Space for about 0.9 seconds, then released.",
+        "response": "Score rose from 73×1 to 124×1 and speed changed from 83 km/h to 89 km/h; the live ride remained on Island 1."
+      },
+      "player_sandbox": "allow-scripts allow-pointer-lock",
+      "artwork_source": "https://www.gptgames.dev/screenshots/screenshot_279.webp",
+      "artwork_path": "public/games/onsite-gptgames-g-076.webp",
+      "caveat": null
+    },
+    {
+      "candidate_id": "G-077",
+      "slug": "timberbound",
+      "title": "Timberbound",
+      "url": "https://www.gptgames.dev/games/timberbound.html",
+      "categories": [
+        "Simulators",
+        "Strategy"
+      ],
+      "ai_quote": "add new incremental wood chucking game created by chatgpt and refined by claude opus 5",
+      "ai_source": "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/07171b63d75c564f0328ad6a1861f31f0160edac",
+      "ai_scope": "The creator-authored commit explicitly says this game was created by ChatGPT and refined by Claude Opus 5.",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Clicked Begin Forestry, then held S for about 1.3 seconds while the canvas had pointer lock.",
+        "response": "The MOSSWICK waypoint distance increased from 32 m to 39 m, showing responsive backward movement."
+      },
+      "player_sandbox": "allow-scripts allow-pointer-lock",
+      "artwork_source": "https://www.gptgames.dev/screenshots/screenshot_282.webp",
+      "artwork_path": "public/games/onsite-gptgames-g-077.webp",
+      "caveat": null
+    },
+    {
+      "candidate_id": "G-078",
+      "slug": "mastermind-gptgames",
+      "title": "Mastermind",
+      "url": "https://www.gptgames.dev/games/mastermind.html",
+      "categories": [
+        "Puzzle",
+        "Strategy"
+      ],
+      "ai_quote": "<meta name=\"author\" content=\"Claude Opus 5 prompted by Tobias Müller\">",
+      "ai_source": "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/3c3691dbd6d0a95b3c36e736589de16d9fcba5dd",
+      "ai_scope": "The first-added game file includes self-reported author metadata naming Claude Opus 5, prompted by the creator; no separate model session record was cited.",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Started without sound inside the iframe, selected Crimson, Amber, Lime, and Aqua, then clicked Lock in.",
+        "response": "The row advanced to ROW 2 · 0/4 PLACED and the board displayed scored feedback for the submitted guess."
+      },
+      "player_sandbox": "allow-scripts allow-pointer-lock",
+      "artwork_source": "https://www.gptgames.dev/screenshots/screenshot_285.webp",
+      "artwork_path": "public/games/onsite-gptgames-g-078.webp",
+      "caveat": null
+    },
+    {
+      "candidate_id": "G-084",
+      "slug": "nine-holes-gptgames",
+      "title": "Nine Holes",
+      "url": "https://www.gptgames.dev/games/nine_holes.html",
+      "categories": [
+        "Sports",
+        "Puzzle"
+      ],
+      "ai_quote": "Add Nine Holes, procedural minigolf with a verified ace on every hole",
+      "ai_source": "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/86e97036e5324c40fe612af9525a0f515b0357b7",
+      "ai_scope": "The initial game-addition commit explicitly credits Claude Opus 5 as co-author and includes a Claude Code session URL.",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Dragged backward from the ball at page point (189,454) to (115,454) inside the iframe and released at 2026-10-20T23:27:35.150Z.",
+        "response": "The live STROKES counter changed from 0 to 1 and the ball moved right, leaving a visible motion trail."
+      },
+      "player_sandbox": "allow-scripts allow-pointer-lock",
+      "artwork_source": "https://www.gptgames.dev/screenshots/screenshot_295.webp",
+      "artwork_path": "public/games/onsite-gptgames-g-084.webp",
+      "caveat": null
+    }
+  ]
+}
