@@ -14,6 +14,16 @@ export type DirectGame = {
 };
 
 const source: [string, string, string, string, string, string?][] = [
+  // October 20 resumed campaign: independent adjudication and Luna Max guest play.
+  ["tt-kart", "TT Kart", "Racing", "Race Teddy and Tommy through colorful kart courses", "https://adong.github.io/kart-tt/", "/games/oct20-resume-tt-kart.webp"],
+  ["tt-mini-golf", "TT Mini Golf", "Sports", "Putt across a playful miniature golf course", "https://adong.github.io/mini-golf-tt/", "/games/oct20-resume-tt-mini-golf.webp"],
+  ["tt-cookie-chase", "TT Cookie Chase", "Arcade", "Collect cookies and dodge rivals in a garden maze", "https://adong.github.io/cookie-chase-tt/", "/games/oct20-resume-tt-cookie-chase.webp"],
+  ["tt-gomoku", "TT Gomoku", "Strategy", "Place stones and build a five-in-a-row winning line", "https://adong.github.io/gomoku-tt/", "/games/oct20-resume-tt-gomoku.webp"],
+  ["tt-jungle-chess", "TT Jungle Chess", "Strategy", "Move animal pieces across a jungle chess board", "https://adong.github.io/jungle-chess-tt/", "/games/oct20-resume-tt-jungle-chess.webp"],
+  ["tt-flying-chess", "TT Flying Chess", "Strategy", "Roll the dice and race colorful planes around the board", "https://adong.github.io/flying-chess-tt/", "/games/oct20-resume-tt-flying-chess.webp"],
+  ["tt-word-pop", "TT Word Pop", "Educational", "Pop letter balloons and practice new words", "https://adong.github.io/word-pop-tt/", "/games/oct20-resume-tt-word-pop.webp"],
+  ["spot-tt-animals", "Spot TT Animals", "Educational", "Scan the farm and count animals through binoculars", "https://adong.github.io/spot-tt-animals/", "/games/oct20-resume-spot-tt-animals.webp"],
+  ["tt-tic-tac-toe", "TT Tic-Tac-Toe", "Puzzle", "Line up three marks or try a spinning-board twist", "https://adong.github.io/tic-tac-toe-tt/", "/games/oct20-resume-tt-tic-tac-toe.webp"],
   // October 20 full-duration Scout run, wave 2: creator AI evidence and guest gameplay verified.
   ["birdieswing-island-run", "BirdieSwing Island Run", "Sports", "Swing through a colorful island golf course", "https://www.birdieswing.com/play", "/games/oct20-birdieswing-island-run.webp"],
   ["3d-jelly-shooter-arcade", "3D Jelly Shooter Arcade", "Shooter", "Blast jelly fruit targets in a bright 3D arcade", "https://argonfruitshooter.netlify.app/", "/games/oct20-jelly-shooter.webp"],

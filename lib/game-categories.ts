@@ -7,6 +7,15 @@ export type MultiplayerMode = 'Online multiplayer' | 'Local 2-player' | 'Local m
 
 // Evidence and unresolved cases live in docs/category-audit/2026-10-11/.
 export const reviewedCategories: Record<string, CategoryList> = {
+  "tt-kart": ["Racing", "Multiplayer"],
+  "tt-mini-golf": ["Sports", "Multiplayer"],
+  "tt-cookie-chase": ["Arcade", "Multiplayer"],
+  "tt-gomoku": ["Strategy", "Puzzle", "Multiplayer"],
+  "tt-jungle-chess": ["Strategy", "Multiplayer"],
+  "tt-flying-chess": ["Strategy", "Casual", "Multiplayer"],
+  "tt-word-pop": ["Educational", "Arcade", "Multiplayer"],
+  "spot-tt-animals": ["Educational", "Puzzle", "Multiplayer"],
+  "tt-tic-tac-toe": ["Puzzle", "Strategy", "Multiplayer"],
   // October 20 full-duration Scout run, wave 2: genres follow observed guest play.
   'birdieswing-island-run': ['Sports', 'Arcade'],
   '3d-jelly-shooter-arcade': ['Shooter', 'Arcade'],
@@ -820,6 +829,15 @@ export const reviewedCategories: Record<string, CategoryList> = {
 };
 
 export const multiplayerModes: Record<string, MultiplayerMode> = {
+  "tt-kart": "Local 2-player",
+  "tt-mini-golf": "Local 2-player",
+  "tt-cookie-chase": "Local 2-player",
+  "tt-gomoku": "Local 2-player",
+  "tt-jungle-chess": "Local 2-player",
+  "tt-flying-chess": "Local multiplayer",
+  "tt-word-pop": "Local 2-player",
+  "spot-tt-animals": "Local 2-player",
+  "tt-tic-tac-toe": "Local 2-player",
   "lost-marbles": "Online multiplayer",
   "1v1-deathmatch": "Online multiplayer",
   "backyard-rascals": "Online multiplayer",
