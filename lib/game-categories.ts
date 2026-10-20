@@ -7,6 +7,12 @@ export type MultiplayerMode = 'Online multiplayer' | 'Local 2-player' | 'Local m
 
 // Evidence and unresolved cases live in docs/category-audit/2026-10-11/.
 export const reviewedCategories: Record<string, CategoryList> = {
+  'six-digits': ['Puzzle', 'Educational'],
+  'color-flood-gptgames': ['Puzzle', 'Casual'],
+  'bedtime-lights-out': ['Puzzle', 'Casual'],
+  'stack-tower-gptgames': ['Arcade', 'Casual'],
+  'glowtide': ['Puzzle', 'Arcade'],
+  'tower-of-hanoi-gptgames': ['Puzzle', 'Educational'],
   'monkeytype-clone': ['Educational', 'Arcade'],
   'tells-rock-paper-scissors': ['Strategy', 'Casual'],
   'hot-seat': ['Educational', 'Casual'],

@@ -6,6 +6,7 @@ export type PlayableGame = Game & { shortDescription: string; embedUrl: string; 
 export type ListedGame = PlayableGame | DirectGame;
 
 export const newGameSlugs = [
+  'six-digits', 'color-flood-gptgames', 'bedtime-lights-out', 'stack-tower-gptgames', 'glowtide', 'tower-of-hanoi-gptgames',
   'monkeytype-clone', 'tells-rock-paper-scissors', 'hot-seat', 'highlight-word-search',
   'catch-circle', 'crazy-eights', 'point-and-line',
   "2048-gptgames", "kemari", "blackjack", "blind-crest", "vigil-breakout", "checkers-gptgames", "last-words-hangman", "last-smile", "shatter-field", "space-invaders-gptgames", "emoji-horde", "fathom", "pulseforge", "lumenwright", "glyphgate", "selfsame", "jigsaw-gptgames", "menagerie", "fresh-oil", "shopfloor", "blobby-volley", "firefly-jar",
@@ -30,6 +31,12 @@ const newGameSandbox = 'allow-scripts allow-pointer-lock';
 
 // Only browser-verified games are shipped. Finalized in verification/GAME-REPORT.md.
 export const verifiedEmbeds: Record<string, string> = {
+  'six-digits': 'https://www.gptgames.dev/games/color_guessing_game.html',
+  'color-flood-gptgames': 'https://www.gptgames.dev/games/color_flood.html',
+  'bedtime-lights-out': 'https://www.gptgames.dev/games/lights_out.html',
+  'stack-tower-gptgames': 'https://www.gptgames.dev/games/stack_tower.html',
+  'glowtide': 'https://www.gptgames.dev/games/chain_reaction.html',
+  'tower-of-hanoi-gptgames': 'https://www.gptgames.dev/games/tower_of_hanoi.html',
   'monkeytype-clone': 'https://www.gptgames.dev/games/monkeytype.html',
   'tells-rock-paper-scissors': 'https://www.gptgames.dev/games/rock_paper_scissors.html',
   'hot-seat': 'https://www.gptgames.dev/games/who_wants_to_be_a_millionaire.html',
@@ -133,6 +140,12 @@ export const verifiedEmbeds: Record<string, string> = {
 };
 
 const descriptions: Record<string, string> = {
+  'six-digits': 'Mix a color by eye and compare it to the target.',
+  'color-flood-gptgames': 'Fill the board with one color in as few moves as possible.',
+  'bedtime-lights-out': 'Turn off the windows to put each block to sleep.',
+  'stack-tower-gptgames': 'Drop moving slabs and stack them as high as you can.',
+  'glowtide': 'Start a chain reaction and light enough orbs to dive deeper.',
+  'tower-of-hanoi-gptgames': 'Move the disc stack to the lantern peg.',
   'monkeytype-clone': 'Type the words and track your speed.',
   'tells-rock-paper-scissors': 'Outguess six machine opponents at rock paper scissors.',
   'hot-seat': 'Answer trivia questions and climb the prize ladder.',
