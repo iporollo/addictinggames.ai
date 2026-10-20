@@ -1,0 +1,508 @@
+{
+  "status": "approved_pending_release",
+  "run_id": "onsite_100_20261020T204700Z",
+  "entries": [
+    {
+      "candidate_id": "G-001",
+      "slug": "2048-gptgames",
+      "title": "2048",
+      "url": "https://www.gptgames.dev/games/2048.html",
+      "categories": [
+        "Puzzle"
+      ],
+      "ai_quote": "2048: a merge rule that holds, tiles that slide, and a game that can end",
+      "ai_source": "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/94b532c153b0ec473b3c12b0374c2bcf5b47b97e",
+      "ai_scope": "substantial current-version AI remake",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Clicked the in-frame board to focus it, then sent ArrowLeft through the test tab.",
+        "response": "The in-frame board went from two visible 2 tiles to three after the move; score remained 0 because no merge occurred. An initial Playwright locator press timed out; focusing the board and using tab keyboard input succeeded."
+      },
+      "player_sandbox": "allow-scripts allow-pointer-lock",
+      "artwork_source": "https://www.gptgames.dev/screenshots/screenshot_0.webp",
+      "artwork_path": "public/games/onsite-gptgames-g-001.webp"
+    },
+    {
+      "candidate_id": "G-002",
+      "slug": "kemari",
+      "title": "Kemari",
+      "url": "https://www.gptgames.dev/games/ball_bouncing.html",
+      "categories": [
+        "Arcade",
+        "Sports"
+      ],
+      "ai_quote": "Remake Ball Bouncing as Kemari: keepie-uppie on a court that turns through the year",
+      "ai_source": "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/d039c67b8537c6968ae3498160569d9a61153a5d",
+      "ai_scope": "substantial current-version AI remake",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Tapped the visible ball at approximately iframe viewport coordinate [874,603], then tapped again while it was airborne.",
+        "response": "After the first tap, the ball rose from the sand and its curved trajectory appeared. A later tap visibly changed the ball's flight. No login or account prompt appeared."
+      },
+      "player_sandbox": "allow-scripts allow-pointer-lock",
+      "artwork_source": "https://www.gptgames.dev/screenshots/screenshot_1.webp",
+      "artwork_path": "public/games/onsite-gptgames-g-002.webp"
+    },
+    {
+      "candidate_id": "G-003",
+      "slug": "blackjack",
+      "title": "Blackjack",
+      "url": "https://www.gptgames.dev/games/blackjack.html",
+      "categories": [
+        "Strategy",
+        "Casual"
+      ],
+      "ai_quote": "Everything around it is new and written from an empty file.",
+      "ai_source": "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/677e5593463c7c7ca5b07c0200b238535a9d5f6c",
+      "ai_scope": "substantial current-version AI remake",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Inside the iframe, clicked Bet $5, then Deal.",
+        "response": "The game dealt a hand totaling 15, showed the cards and $5 stake, and exposed Hit/Stand controls. No account gate appeared."
+      },
+      "player_sandbox": "allow-scripts allow-pointer-lock",
+      "artwork_source": "https://www.gptgames.dev/screenshots/screenshot_48.webp",
+      "artwork_path": "public/games/onsite-gptgames-g-003.webp"
+    },
+    {
+      "candidate_id": "G-004",
+      "slug": "blind-crest",
+      "title": "Blind Crest",
+      "url": "https://www.gptgames.dev/games/blind_crest.html",
+      "categories": [
+        "Racing",
+        "Arcade"
+      ],
+      "ai_quote": "Add Blind Crest — a rally stage you cannot see",
+      "ai_source": "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/10003006400287ffdc9f827decf00609bef2c854",
+      "ai_scope": "game-specific AI creation or alteration",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Clicked Start rally and held Up for about 1.2 seconds inside the iframe.",
+        "response": "Speed rose from 0 to 38 km/h; distance decreased from 2.08 km to 2.07 km and the co-driver note Right 1 appeared."
+      },
+      "player_sandbox": "allow-scripts allow-pointer-lock",
+      "artwork_source": "https://www.gptgames.dev/screenshots/screenshot_302.webp",
+      "artwork_path": "public/games/onsite-gptgames-g-004.webp"
+    },
+    {
+      "candidate_id": "G-005",
+      "slug": "vigil-breakout",
+      "title": "Vigil",
+      "url": "https://www.gptgames.dev/games/breakout.html",
+      "categories": [
+        "Arcade",
+        "Action"
+      ],
+      "ai_quote": "everything around it is new and written from an empty file",
+      "ai_source": "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/68d97b51baae9d5422a3c01cd79ff2e0cdded7ff",
+      "ai_scope": "substantial current-version AI remake",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Clicked the canvas to cast the spark, then dragged the pointer left inside the iframe.",
+        "response": "The iframe game responded to the cast and paddle movement; the score rose from 0 to 31 and stained-glass blocks were broken."
+      },
+      "player_sandbox": "allow-scripts allow-pointer-lock",
+      "artwork_source": "https://www.gptgames.dev/screenshots/screenshot_2.webp",
+      "artwork_path": "public/games/onsite-gptgames-g-005.webp"
+    },
+    {
+      "candidate_id": "G-008",
+      "slug": "checkers-gptgames",
+      "title": "Checkers",
+      "url": "https://www.gptgames.dev/games/checkers.html",
+      "categories": [
+        "Strategy",
+        "Puzzle"
+      ],
+      "ai_quote": "implement a checkers game in vuejs with gpt-35",
+      "ai_source": "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/00f56bbbd35926cad830e3a44b18f205b94a8664",
+      "ai_scope": "game-specific AI creation or alteration",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Started a guest game against Marlow; selected a red piece at approximately [448,495] and moved it to highlighted square [384,432].",
+        "response": "The legal move was accepted and the red piece visibly moved to the destination square inside the iframe."
+      },
+      "player_sandbox": "allow-scripts allow-pointer-lock",
+      "artwork_source": "https://www.gptgames.dev/screenshots/screenshot_59.webp",
+      "artwork_path": "public/games/onsite-gptgames-g-008.webp"
+    },
+    {
+      "candidate_id": "G-019",
+      "slug": "last-words-hangman",
+      "title": "Last Words",
+      "url": "https://www.gptgames.dev/games/hangman.html",
+      "categories": [
+        "Puzzle",
+        "Educational"
+      ],
+      "ai_quote": "everything around it is new and written from an empty file",
+      "ai_source": "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/fbb053edd33d87218570e238858adf0c4fcad2f0",
+      "ai_scope": "substantial current-version AI remake",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Clicked letter E inside the iframe after refreshing the stale accessibility tree.",
+        "response": "The iframe marked E as absent and showed 'No E. five left.'"
+      },
+      "player_sandbox": "allow-scripts allow-pointer-lock",
+      "artwork_source": "https://www.gptgames.dev/screenshots/screenshot_45.webp",
+      "artwork_path": "public/games/onsite-gptgames-g-019.webp"
+    },
+    {
+      "candidate_id": "G-043",
+      "slug": "last-smile",
+      "title": "Last Smile",
+      "url": "https://www.gptgames.dev/games/emoji_horde_survival.html",
+      "categories": [
+        "Survival",
+        "Arcade"
+      ],
+      "ai_quote": "add new claude original: emoji horde survival",
+      "ai_source": "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/eabfd743bff4320dec6694f76b4673d66976a55f",
+      "ai_scope": "game-specific AI creation or alteration",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Started as a guest inside the iframe.; Selected Coffee at the upgrade choice.",
+        "response": "The choice was visibly selected; gameplay resumed, advanced to level 3, and the Coffee icon appeared in the upgrade HUD."
+      },
+      "player_sandbox": "allow-scripts allow-pointer-lock",
+      "artwork_source": "https://www.gptgames.dev/screenshots/screenshot_166.webp",
+      "artwork_path": "public/games/onsite-gptgames-g-043.webp"
+    },
+    {
+      "candidate_id": "G-044",
+      "slug": "shatter-field",
+      "title": "Shatter Field",
+      "url": "https://www.gptgames.dev/games/asteroids_3d.html",
+      "categories": [
+        "Shooter",
+        "Arcade"
+      ],
+      "ai_quote": "Generated with Claude Code",
+      "ai_source": "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/2898f88035e247d43996f6be6e750e8f46bc172b",
+      "ai_scope": "substantial current-version AI remake",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Inside the restricted iframe, dragged from (757,400) to (1170,400), then held click at (757,400) for about 1.2 seconds to fire.",
+        "response": "The iframe HUD score changed from 0 to 20; live asteroids, threat markers, and the firing reticle remained visible in the embedded game."
+      },
+      "player_sandbox": "allow-scripts allow-pointer-lock",
+      "artwork_source": "https://www.gptgames.dev/screenshots/screenshot_171.webp",
+      "artwork_path": "public/games/onsite-gptgames-g-044.webp"
+    },
+    {
+      "candidate_id": "G-049",
+      "slug": "space-invaders-gptgames",
+      "title": "Space Invaders",
+      "url": "https://www.gptgames.dev/games/space_invaders.html",
+      "categories": [
+        "Shooter",
+        "Arcade"
+      ],
+      "ai_quote": "add space invaders (created using Claude Sonnet 4)",
+      "ai_source": "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/2c245316799d08513fe91d6ba6629557c7f495d7",
+      "ai_scope": "game-specific AI creation or alteration",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Focused and started the game by clicking its canvas inside the iframe.; Pressed ArrowLeft and Space.",
+        "response": "The ship visibly moved left from its centered starting position; lives changed from 3 to 2. Score remained 0 in the observed iframe round."
+      },
+      "player_sandbox": "allow-scripts allow-pointer-lock",
+      "artwork_source": "https://www.gptgames.dev/screenshots/screenshot_193.webp",
+      "artwork_path": "public/games/onsite-gptgames-g-049.webp"
+    },
+    {
+      "candidate_id": "G-070",
+      "slug": "emoji-horde",
+      "title": "Emoji Horde",
+      "url": "https://www.gptgames.dev/games/emoji_horde.html",
+      "categories": [
+        "Strategy",
+        "Survival"
+      ],
+      "ai_quote": "the page is rebuilt from an empty file as exactly that",
+      "ai_source": "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/f810ba01d094c2c95c64f61e1266b8b652d00186",
+      "ai_scope": "substantial current-version AI remake",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Clicked Begin inside the iframe.; Clicked the heart control during active play.",
+        "response": "The visible enemy count decreased from 3 to 2 and the target displayed a damage/heart animation."
+      },
+      "player_sandbox": "allow-scripts allow-pointer-lock",
+      "artwork_source": "https://www.gptgames.dev/screenshots/screenshot_265.webp",
+      "artwork_path": "public/games/onsite-gptgames-g-070.webp"
+    },
+    {
+      "candidate_id": "G-073",
+      "slug": "fathom",
+      "title": "Fathom",
+      "url": "https://www.gptgames.dev/games/fathom.html",
+      "categories": [
+        "Educational",
+        "Arcade"
+      ],
+      "ai_quote": "testing Claude Fable 5; add typing game called \"FATHOM\" with a simple zero-shot prompt",
+      "ai_source": "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/c29243e60aa2990edd6f0e3585abe7f20f00d12f",
+      "ai_scope": "game-specific AI creation or alteration",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Entered dive in the game's keyboard field.; Typed zone when it appeared as a specimen label.",
+        "response": "The zone specimen was replaced by No. 2 and depth advanced to 116 fathoms. Two portholes were damaged during the timed round; a previous wrong entry had caused damage, but the successful zone entry captured a specimen."
+      },
+      "player_sandbox": "allow-scripts allow-pointer-lock",
+      "artwork_source": "https://www.gptgames.dev/screenshots/screenshot_274.webp",
+      "artwork_path": "public/games/onsite-gptgames-g-073.webp"
+    },
+    {
+      "candidate_id": "G-079",
+      "slug": "pulseforge",
+      "title": "Pulseforge",
+      "url": "https://www.gptgames.dev/games/pulseforge.html",
+      "categories": [
+        "Rhythm",
+        "Arcade"
+      ],
+      "ai_quote": "Add Pulseforge, a rhythm game that composes its own songs",
+      "ai_source": "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/c77e2686d342db3874651be6badcea06850c2719",
+      "ai_scope": "game-specific AI creation or alteration",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Clicked Play inside the iframe without signing in.; Pressed F for a visible F-lane note; after an earlier mistimed attempt, pressed F again when an F-lane note approached the judgement line.",
+        "response": "The iframe ran a generated Drum & Bass chart (Frozen Dispatch, 172 BPM, F Phrygian, 218 notes). The successful F press increased score from 0 to 203 and accuracy from 0.00% to 0.46%; an earlier missed note was also visibly reported."
+      },
+      "player_sandbox": "allow-scripts allow-pointer-lock",
+      "artwork_source": "https://www.gptgames.dev/screenshots/screenshot_286.webp",
+      "artwork_path": "public/games/onsite-gptgames-g-079.webp"
+    },
+    {
+      "candidate_id": "G-080",
+      "slug": "lumenwright",
+      "title": "Lumenwright",
+      "url": "https://www.gptgames.dev/games/lumenwright.html",
+      "categories": [
+        "Puzzle"
+      ],
+      "ai_quote": "Add Lumenwright, a generated laser puzzle about mixing colour",
+      "ai_source": "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/bd9759ec7eff9326fbd9bdbc84f653afb4e7527e",
+      "ai_scope": "game-specific AI creation or alteration",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Clicked the left mirror inside the iframe.",
+        "response": "The mirror rotated, the beam path changed, and Moves increased from 0 to 1."
+      },
+      "player_sandbox": "allow-scripts allow-pointer-lock",
+      "artwork_source": "https://www.gptgames.dev/screenshots/screenshot_287.webp",
+      "artwork_path": "public/games/onsite-gptgames-g-080.webp"
+    },
+    {
+      "candidate_id": "G-081",
+      "slug": "glyphgate",
+      "title": "Glyphgate",
+      "url": "https://www.gptgames.dev/games/glyphgate.html",
+      "categories": [
+        "Puzzle"
+      ],
+      "ai_quote": "Add Glyphgate, a deduction game about rules you have to discover",
+      "ai_source": "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/2d9239ea42b3a85079290413ae74bfbdb715d16d",
+      "ai_scope": "game-specific AI creation or alteration",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "The first red-circle row duplicated a known example and the game explicitly said no experiment was spent. Cleared it, selected an untested yellow circle, and submitted.",
+        "response": "The gate admitted the yellow-circle row, recorded experiment #1, and reduced remaining candidate laws from 7 to 6."
+      },
+      "player_sandbox": "allow-scripts allow-pointer-lock",
+      "artwork_source": "https://www.gptgames.dev/screenshots/screenshot_288.webp",
+      "artwork_path": "public/games/onsite-gptgames-g-081.webp"
+    },
+    {
+      "candidate_id": "G-082",
+      "slug": "selfsame",
+      "title": "Selfsame",
+      "url": "https://www.gptgames.dev/games/selfsame.html",
+      "categories": [
+        "Puzzle"
+      ],
+      "ai_quote": "Add Selfsame, a puzzle game about cooperating with your past selves",
+      "ai_source": "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/65ef2d9dd9d3057b748fb4dcd9100f81ebefdf01",
+      "ai_scope": "game-specific AI creation or alteration",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Pressed ArrowRight once inside the iframe.",
+        "response": "The player moved one tile and Turns increased from 0/12 to 1/12. The first screenshot during load was blank; after the game start action, the board rendered normally."
+      },
+      "player_sandbox": "allow-scripts allow-pointer-lock",
+      "artwork_source": "https://www.gptgames.dev/screenshots/screenshot_289.webp",
+      "artwork_path": "public/games/onsite-gptgames-g-082.webp"
+    },
+    {
+      "candidate_id": "G-091",
+      "slug": "jigsaw-gptgames",
+      "title": "Jigsaw",
+      "url": "https://www.gptgames.dev/games/jigsaw.html",
+      "categories": [
+        "Puzzle",
+        "Casual"
+      ],
+      "ai_quote": "- step 1 in creating a jigsaw game with gpt-4",
+      "ai_source": "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/e26dab558a1566fe1252800892e81fabdab39eaf",
+      "ai_scope": "game-specific AI creation or alteration",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Inside the harness iframe, selected 12 pieces, started the puzzle, and dragged a loose piece from approximately [393,266] to [590,329].",
+        "response": "The puzzle piece moved inside the iframe board. The group counter remained 0/11; the iframe itself stayed visible and interactive."
+      },
+      "player_sandbox": "allow-scripts allow-pointer-lock",
+      "artwork_source": "https://www.gptgames.dev/screenshots/screenshot_303.webp",
+      "artwork_path": "public/games/onsite-gptgames-g-091.webp"
+    },
+    {
+      "candidate_id": "G-092",
+      "slug": "menagerie",
+      "title": "Menagerie",
+      "url": "https://www.gptgames.dev/games/menagerie.html",
+      "categories": [
+        "Simulators",
+        "Strategy"
+      ],
+      "ai_quote": "Add Menagerie — the hundredth game",
+      "ai_source": "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/5c260d625f2e09fab54eadf058f8d2fed8dca97f",
+      "ai_scope": "game-specific AI creation or alteration",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Clicked Begin, selected Raise, paused at generation 14, then dragged from approximately [950,465] to [950,400].",
+        "response": "With the simulation paused, the ground visibly rose into a ridge beneath the drag path while the generation stayed at 14. This isolates the terrain response from autonomous evolution."
+      },
+      "player_sandbox": "allow-scripts allow-pointer-lock",
+      "artwork_source": "https://www.gptgames.dev/screenshots/screenshot_304.webp",
+      "artwork_path": "public/games/onsite-gptgames-g-092.webp"
+    },
+    {
+      "candidate_id": "G-093",
+      "slug": "fresh-oil",
+      "title": "Fresh Oil",
+      "url": "https://www.gptgames.dev/games/fresh_oil.html",
+      "categories": [
+        "Sports",
+        "Simulators"
+      ],
+      "ai_quote": "Add Fresh Oil — bowling where the lane is the opponent",
+      "ai_source": "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/94846251c50f3acb68b4a22dac113eee8326da83",
+      "ai_scope": "game-specific AI creation or alteration",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Clicked Bowl, then used stand further right and swing the line right; dragged over the ball area from approximately [817,575] to [817,680].",
+        "response": "The game remained interactive in the iframe; aiming advice updated to 'In the pocket, but coming in flat — the corner may stand,' and the ball rendering shifted along the lane. A completed throw or score was not confirmed."
+      },
+      "player_sandbox": "allow-scripts allow-pointer-lock",
+      "artwork_source": "https://www.gptgames.dev/screenshots/screenshot_305.webp",
+      "artwork_path": "public/games/onsite-gptgames-g-093.webp"
+    },
+    {
+      "candidate_id": "G-094",
+      "slug": "shopfloor",
+      "title": "Shopfloor",
+      "url": "https://www.gptgames.dev/games/shopfloor.html",
+      "categories": [
+        "Strategy",
+        "Puzzle"
+      ],
+      "ai_quote": "Shopfloor: a factory that only gets one screen",
+      "ai_source": "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/219923814e42a5ec0a17a0e208120f81e699a930",
+      "ai_scope": "game-specific AI creation or alteration",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Clicked Clock on, then used Belt and dragged across an empty row from approximately [330,450] to [540,450].",
+        "response": "Four directional belt cells appeared, the budget fell from 180 to 172, and the game displayed '4 belts leading nowhere.'"
+      },
+      "player_sandbox": "allow-scripts allow-pointer-lock",
+      "artwork_source": "https://www.gptgames.dev/screenshots/screenshot_306.webp",
+      "artwork_path": "public/games/onsite-gptgames-g-094.webp"
+    },
+    {
+      "candidate_id": "G-096",
+      "slug": "blobby-volley",
+      "title": "Blobby Volley",
+      "url": "https://www.gptgames.dev/games/blobby_volley.html",
+      "categories": [
+        "Sports",
+        "Arcade"
+      ],
+      "ai_quote": "Blobby Volley: the classic, on the original physics constants",
+      "ai_source": "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/5e82ed6ceb2902c33ec58598de2713cd096e5e26",
+      "ai_scope": "game-specific AI creation or alteration",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Resumed play and held A for about 1.2 seconds inside iframe#game.",
+        "response": "The blue player blob visibly shifted left from about screen x=562 to x=500. Score stayed 0–0 during the observed movement; a visible player-controlled position change confirms input response."
+      },
+      "player_sandbox": "allow-scripts allow-pointer-lock",
+      "artwork_source": "https://www.gptgames.dev/screenshots/screenshot_309.webp",
+      "artwork_path": "public/games/onsite-gptgames-g-096.webp"
+    },
+    {
+      "candidate_id": "G-106",
+      "slug": "firefly-jar",
+      "title": "Firefly Jar",
+      "url": "https://www.gptgames.dev/games/firefly_jar.html",
+      "categories": [
+        "Simulators",
+        "Casual"
+      ],
+      "ai_quote": "Add Firefly Jar: a year of catching fireflies, with a lantern tree for a skill tree",
+      "ai_source": "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/e20657c581c550d85f98d3f298f2a2e0aa424b1c",
+      "ai_scope": "game-specific AI creation or alteration",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Clicked Begin the night inside the iframe, then dragged the pointer/jar from [760,420] across a visible firefly at [947,418].",
+        "response": "The HUD increased from 0/6 to 2/6 in the jar; the night advanced to Night and the jar rendered at the drag destination."
+      },
+      "player_sandbox": "allow-scripts allow-pointer-lock",
+      "artwork_source": "https://www.gptgames.dev/screenshots/screenshot_345.webp",
+      "artwork_path": "public/games/onsite-gptgames-g-106.webp"
+    }
+  ]
+}

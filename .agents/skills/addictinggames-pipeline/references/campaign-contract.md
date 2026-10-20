@@ -20,7 +20,7 @@ Top-level fields:
 |---|---|
 | `schema_version`, `scope`, `run_id` | `2`, `full_pipeline`, stable run identifier |
 | `status`, `interruption` | State above; if interrupted, `{reason, next_action}` |
-| `discovery` | For `mode: "timed"`, `{duration_minutes, started_at_utc, deadline_utc, start_ack_refs, stopped_at_utc, stop_ack_refs}`; stop fields null/empty until acknowledged; deadline is exactly start + duration. For `mode: "closed_list"`, use `{scope_refs}` to the exact owner-supplied scope and omit Scout clock/ack fields; never launch Scout. |
+| `discovery` | For `mode: "timed"`, `{duration_minutes, started_at_utc, deadline_utc, start_ack_refs, stopped_at_utc, stop_ack_refs}`; stop fields null/empty until acknowledged; deadline is exactly start + duration. For `mode: "closed_list"`, use `{scope_refs}` to the exact owner-supplied scope and omit Scout clock/ack fields; never launch Scout. For an explicit owner target instead of a duration, use `mode: "target_count"` with `{target_eligible, scope_refs, started_at_utc, stopped_at_utc, stop_ack_refs}` and no inferred deadline; discovery can stop only after that many games are approved, and completion requires that many live-verified publications. |
 | `adjudicator` | `{family: "Grok 4.7 High", provider: "cursor", model_id, preflight_refs}`; actual model ID discovered through local CLI, not guessed |
 | `ordered_candidate_ids` | All candidate IDs exactly once, in assignment order |
 | `supplied_leads` | `[{url, candidate_id}]`, covering every supplied bookmark/lead; empty if none; multiple aliases may map to one candidate |

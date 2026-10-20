@@ -196,6 +196,20 @@ test('closed supplied lists can complete without authorizing Scout discovery', (
   assert.match(errors(r), /must not launch Scout/);
 });
 
+test('owner-requested eligible target stays open until approvals and live verification reach it', () => {
+  const r = campaign([candidate()]);
+  r.status = 'discovering';
+  r.discovery = { mode: 'target_count', target_eligible: 2, scope_refs: ref, started_at_utc: '2026-10-20T15:45:00Z', stopped_at_utc: null };
+  assert.deepEqual(validateCampaign(r), []);
+  r.discovery.stopped_at_utc = '2026-10-20T18:00:00Z'; r.discovery.stop_ack_refs = ref;
+  assert.match(errors(r), /stopped before enough eligible games/);
+  r.candidates.push(candidate('A-02')); r.ordered_candidate_ids.push('A-02'); r.counts = campaignCounts(r.candidates);
+  assert.deepEqual(validateCampaign(r), []);
+  assert.match(errors(r, { complete: true }), /requires target live verified/);
+  r.candidates.forEach(live); r.counts = campaignCounts(r.candidates);
+  assert.deepEqual(validateCampaign(r, { complete: true }), []);
+});
+
 test('explicit cancellation allows truthful interrupted early stop, not completion', () => {
   const r = campaign([pending(candidate())]); r.status = 'interrupted';
   r.interruption = { reason: 'owner cancelled', next_action: 'await explicit resume' };
