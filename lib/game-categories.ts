@@ -7,6 +7,9 @@ export type MultiplayerMode = 'Online multiplayer' | 'Local 2-player' | 'Local m
 
 // Evidence and unresolved cases live in docs/category-audit/2026-10-11/.
 export const reviewedCategories: Record<string, CategoryList> = {
+  'catch-circle': ['Arcade', 'Casual'],
+  'crazy-eights': ['Strategy', 'Casual'],
+  'point-and-line': ['Arcade', 'Action'],
   "quantum-trials": ["Arcade"],
   "zygote-vs-shitcoins": ["Action", "Arcade"],
   "unrest-alpha": ["Survival", "Shooter"],

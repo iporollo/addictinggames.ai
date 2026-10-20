@@ -1,0 +1,75 @@
+{
+  "status": "approved_ready_for_release",
+  "run_id": "onsite_100_20261020T204700Z",
+  "entries": [
+    {
+      "candidate_id": "G-006",
+      "slug": "catch-circle",
+      "title": "Catch Circle",
+      "url": "https://www.gptgames.dev/games/catchcircle.html",
+      "categories": [
+        "Arcade",
+        "Casual"
+      ],
+      "ai_quote": "Catch Circle: remake as a Bauhaus tap game with a tested core",
+      "ai_source": "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/2a001e101220324f9009810bb2ee7a5ddade158c",
+      "ai_scope": "substantial current-version AI remake",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Clicked the playfield to start, then clicked the visible red target disc with a real Playwright mouse click inside the exact game frame.",
+        "response": "HUD score and BEST changed from 0 to 38; streak changed from 0 IN A ROW to 1 IN A ROW."
+      },
+      "player_sandbox": "allow-scripts allow-pointer-lock",
+      "artwork_source": "https://www.gptgames.dev/screenshots/screenshot_3.webp",
+      "artwork_path": "public/games/onsite-gptgames-g-006.webp"
+    },
+    {
+      "candidate_id": "G-010",
+      "slug": "crazy-eights",
+      "title": "Crazy Eights",
+      "url": "https://www.gptgames.dev/games/crazy_eights.html",
+      "categories": [
+        "Strategy",
+        "Casual"
+      ],
+      "ai_quote": "Crazy Eights: remade as a parlour table that takes the colour of the suit in play",
+      "ai_source": "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/dda99501a66587e46dfe466e5ab326415f5ef0bf",
+      "ai_scope": "substantial current-version AI remake",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Clicked the legal eight of spades, then selected spades using the in-game chooser inside the exact game frame.",
+        "response": "The played card left the hand; the visible hand count fell from five cards to four."
+      },
+      "player_sandbox": "allow-scripts allow-pointer-lock",
+      "artwork_source": "https://www.gptgames.dev/screenshots/screenshot_50.webp",
+      "artwork_path": "public/games/onsite-gptgames-g-010.webp"
+    },
+    {
+      "candidate_id": "G-011",
+      "slug": "point-and-line",
+      "title": "point & line",
+      "url": "https://www.gptgames.dev/games/obstacle_dodge.html",
+      "categories": [
+        "Arcade",
+        "Action"
+      ],
+      "ai_quote": "point & line: Dodge the Obstacles remade as a risograph dodge game",
+      "ai_source": "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/55d8b2c74d86cf05299859b003c9eccc954a574d",
+      "ai_scope": "substantial current-version AI remake",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Clicked the playfield and pressed ArrowRight inside the game frame.",
+        "response": "The iframe game left its title/instruction state and the displayed survival score advanced from 0.0 to 0.8."
+      },
+      "player_sandbox": "allow-scripts allow-pointer-lock",
+      "artwork_source": "https://www.gptgames.dev/screenshots/screenshot_6.webp",
+      "artwork_path": "public/games/onsite-gptgames-g-011.webp"
+    }
+  ]
+}
