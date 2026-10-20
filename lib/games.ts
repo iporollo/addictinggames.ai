@@ -6,6 +6,7 @@ export type PlayableGame = Game & { shortDescription: string; embedUrl: string; 
 export type ListedGame = PlayableGame | DirectGame;
 
 export const newGameSlugs = [
+  'catch-circle', 'crazy-eights', 'point-and-line',
   "2048-gptgames", "kemari", "blackjack", "blind-crest", "vigil-breakout", "checkers-gptgames", "last-words-hangman", "last-smile", "shatter-field", "space-invaders-gptgames", "emoji-horde", "fathom", "pulseforge", "lumenwright", "glyphgate", "selfsame", "jigsaw-gptgames", "menagerie", "fresh-oil", "shopfloor", "blobby-volley", "firefly-jar",
   'surge-for-oinja', 'magic-carpet-wizard', 'thunderfall', 'blackwater', 'flop-club', 'fruit-ninja-dojo',
   'color-war', 'night-shift', 'pit-tactics', 'comet-cup', 'pip-the-plant',
@@ -28,6 +29,9 @@ const newGameSandbox = 'allow-scripts allow-pointer-lock';
 
 // Only browser-verified games are shipped. Finalized in verification/GAME-REPORT.md.
 export const verifiedEmbeds: Record<string, string> = {
+  'catch-circle': 'https://www.gptgames.dev/games/catchcircle.html',
+  'crazy-eights': 'https://www.gptgames.dev/games/crazy_eights.html',
+  'point-and-line': 'https://www.gptgames.dev/games/obstacle_dodge.html',
   '2048-gptgames': "https://www.gptgames.dev/games/2048.html",
   'kemari': "https://www.gptgames.dev/games/ball_bouncing.html",
   'blackjack': "https://www.gptgames.dev/games/blackjack.html",
@@ -124,6 +128,9 @@ export const verifiedEmbeds: Record<string, string> = {
 };
 
 const descriptions: Record<string, string> = {
+  'catch-circle': 'Tap drifting discs before their rings run out.',
+  'crazy-eights': 'Match suit or rank and use eights to change suit.',
+  'point-and-line': 'Dodge moving shapes and survive as long as you can.',
   '2048-gptgames': "Slide and merge matching tiles to reach 2048.",
   'kemari': "Keep a bouncing ball aloft with well-timed taps.",
   'blackjack': "Bet, deal, and play a hand at an Art Deco table.",
