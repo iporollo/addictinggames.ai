@@ -1,0 +1,246 @@
+{
+  "status": "approved_for_release",
+  "run_id": "onsite_100_20261020T204700Z",
+  "entries": [
+    {
+      "candidate_id": "G-035",
+      "slug": "alphabet-typing-speed",
+      "title": "Alphabet Typing Speed",
+      "url": "https://www.gptgames.dev/games/alphabet.html",
+      "categories": [
+        "Educational",
+        "Arcade"
+      ],
+      "ai_quote": "Alphabet Typing Speed: remade as a wood-type race from A to Z, with a ghost of your best, a rhythm strip and a fair Daily board",
+      "ai_source": "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/d7ba6c08763c434f7a7a03c2e6e8938cad6fdbed",
+      "ai_scope": "substantial current-version AI remake",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Inside iframe clicked the game body, pressed A, then typed B through Z.",
+        "response": "Game finished the alphabet run in 0.79 seconds and displayed \u201cMASTER PRINTER\u201d and \u201cNew best.\u201d"
+      },
+      "player_sandbox": "allow-scripts allow-pointer-lock",
+      "artwork_source": "https://www.gptgames.dev/screenshots/screenshot_124.webp",
+      "artwork_path": "public/games/onsite-gptgames-g-035.webp",
+      "caveat": null
+    },
+    {
+      "candidate_id": "G-039",
+      "slug": "peel-and-seek",
+      "title": "Peel & Seek",
+      "url": "https://www.gptgames.dev/games/emoji_puzzle_mania.html",
+      "categories": [
+        "Puzzle",
+        "Casual"
+      ],
+      "ai_quote": "add a new game created by claude using a silly prompt",
+      "ai_source": "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/a1ad8cc90708a7780f3d8fbf8b4c55197ea9ecf1",
+      "ai_scope": "AI-created original game",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "In the iframe, clicked the soccer-ball sticker matching the displayed \u26bd target.",
+        "response": "The target changed from \u26bd to \ud83e\udd85, the sticker field rerolled, and the matched soccer-ball sticker appeared as collected."
+      },
+      "player_sandbox": "allow-scripts allow-pointer-lock",
+      "artwork_source": "https://www.gptgames.dev/screenshots/screenshot_134.webp",
+      "artwork_path": "public/games/onsite-gptgames-g-039.webp",
+      "caveat": null
+    },
+    {
+      "candidate_id": "G-040",
+      "slug": "death-by-ai-gptgames",
+      "title": "Death by AI",
+      "url": "https://www.gptgames.dev/games/death_by_ai.html",
+      "categories": [
+        "Adventure",
+        "Casual"
+      ],
+      "ai_quote": "Death by AI: remake as a Grand Guignol theatre with a tested core",
+      "ai_source": "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/e7f67d2ecbb4e432bacab33c6ffb29836ed22235",
+      "ai_scope": "substantial current-version AI remake",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Raised the curtain with an outer-page click, selected Crowbar, filled the plan textarea with \u201cJam the crowbar into the rope and lever it away from my position.\u201d and clicked Risk it.",
+        "response": "The narrator showed SURVIVED, quoted the submitted plan, and returned \u201cYou take one polite step to the left. The piano lands with a chord composers will study for years. You are unplayed.\u201d The iframe displayed the resolved outcome after its countdown."
+      },
+      "player_sandbox": "allow-scripts allow-pointer-lock",
+      "artwork_source": "https://www.gptgames.dev/screenshots/screenshot_144.webp",
+      "artwork_path": "public/games/onsite-gptgames-g-040.webp",
+      "caveat": null
+    },
+    {
+      "candidate_id": "G-042",
+      "slug": "under-the-lamp",
+      "title": "Under the Lamp",
+      "url": "https://www.gptgames.dev/games/mystery_ai.html",
+      "categories": [
+        "Adventure",
+        "Puzzle"
+      ],
+      "ai_quote": "add mystery ai, a game completely envisioned and developed by Claude 3.7",
+      "ai_source": "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/7372cfcf45df5e5ea5e8a8c4cb75c0afbd099087",
+      "ai_scope": "AI-created original game",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Took the case, asked Rosalind \u201cWhere were you at 9:50?\u201d and clicked Ask.",
+        "response": "Rosalind returned the same substantive alibi: \u201cThe drawing room! With Jasper, playing piquet, from nine \u2014 until everyone started shouting.\u201d"
+      },
+      "player_sandbox": "allow-scripts allow-pointer-lock",
+      "artwork_source": "https://www.gptgames.dev/screenshots/screenshot_154.webp",
+      "artwork_path": "public/games/onsite-gptgames-g-042.webp",
+      "caveat": null
+    },
+    {
+      "candidate_id": "G-022",
+      "slug": "tumbler-number-guess",
+      "title": "Tumbler \u2014 Guess the Number",
+      "url": "https://www.gptgames.dev/games/number_guess.html",
+      "categories": [
+        "Puzzle",
+        "Casual"
+      ],
+      "ai_quote": "Tumbler: Guess the Number remade as a safecracking heist",
+      "ai_source": "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/85ae004f31c73ceba118872cd38bd7fc414287c4",
+      "ai_scope": "substantial current-version AI remake",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Started RANDOM HEIST, entered valid one-digit guess 5 in the combination input, and clicked TRY.",
+        "response": "The game entered the active SAFE I 0\u20139 screen and displayed \u201c0 OPENED\u201d plus lower/higher nudge controls; canvas signature changed from ebe774eb5c1a641d to 4cad4aad4d4edd1e. Guess-specific higher/lower feedback was not separately isolated."
+      },
+      "player_sandbox": "allow-scripts allow-pointer-lock",
+      "artwork_source": "https://www.gptgames.dev/screenshots/screenshot_8.webp",
+      "artwork_path": "public/games/onsite-gptgames-g-022.webp",
+      "caveat": "Guess-specific higher/lower feedback not separately isolated."
+    },
+    {
+      "candidate_id": "G-025",
+      "slug": "pong-gptgames",
+      "title": "Pong",
+      "url": "https://www.gptgames.dev/games/pong.html",
+      "categories": [
+        "Sports",
+        "Arcade"
+      ],
+      "ai_quote": "Pong: remade as top-down table tennis against a club ladder",
+      "ai_source": "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/4d69acefe0d748e51b6e892ca208aa299d296367",
+      "ai_scope": "substantial current-version AI remake",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Clicked PLAY PIP, clicked the table canvas, pressed ArrowUp, and moved the paddle pointer.",
+        "response": "The game entered play, the pause control became active, and canvas signature changed b8a9e0f5ab3e58da \u2192 e2f73b5fe1a037d1."
+      },
+      "player_sandbox": "allow-scripts allow-pointer-lock",
+      "artwork_source": "https://www.gptgames.dev/screenshots/screenshot_12.webp",
+      "artwork_path": "public/games/onsite-gptgames-g-025.webp",
+      "caveat": null
+    },
+    {
+      "candidate_id": "G-027",
+      "slug": "simon-says-gptgames",
+      "title": "Simon Says",
+      "url": "https://www.gptgames.dev/games/simon_says.html",
+      "categories": [
+        "Puzzle",
+        "Casual"
+      ],
+      "ai_quote": "Simon Says: remake as a lacquered four-lens device with a tested core",
+      "ai_source": "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/15a12cd9234d1f941784e6856f62209293459aaf",
+      "ai_scope": "substantial current-version AI remake",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Selected Free play, clicked central Start hub, then clicked first SVG color pad after observing a one-step sequence.",
+        "response": "The game advanced to \u201cYOUR TURN / Your turn\u201d; hub aria label changed from \u201cStart a game\u201d to \u201cYOUR TURN\u201d."
+      },
+      "player_sandbox": "allow-scripts allow-pointer-lock",
+      "artwork_source": "https://www.gptgames.dev/screenshots/screenshot_14.webp",
+      "artwork_path": "public/games/onsite-gptgames-g-027.webp",
+      "caveat": null
+    },
+    {
+      "candidate_id": "G-028",
+      "slug": "boogie-woogie-blockdrop",
+      "title": "Boogie Woogie",
+      "url": "https://www.gptgames.dev/games/blockdrop.html",
+      "categories": [
+        "Puzzle",
+        "Arcade"
+      ],
+      "ai_quote": "Boogie Woogie: Blockdrop rebuilt as a falling-block game after Mondrian",
+      "ai_source": "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/cbca3a84abc3a1ae3d9cd5f412d153d721e8213b",
+      "ai_scope": "substantial current-version AI remake",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Clicked PLAY Marathon, clicked playfield, pressed ArrowLeft and Space.",
+        "response": "Gameplay HUD appeared with HOLD, SCORE 34, LEVEL 1 and PAUSE; canvas signature changed e8c6919fa095f49a \u2192 5fd66b29a8ac16d5."
+      },
+      "player_sandbox": "allow-scripts allow-pointer-lock",
+      "artwork_source": "https://www.gptgames.dev/screenshots/screenshot_44.webp",
+      "artwork_path": "public/games/onsite-gptgames-g-028.webp",
+      "caveat": null
+    },
+    {
+      "candidate_id": "G-029",
+      "slug": "margins-tic-tac-toe",
+      "title": "Margins (Tic-Tac-Toe)",
+      "url": "https://www.gptgames.dev/games/tic_tac_toe_mp.html",
+      "categories": [
+        "Strategy",
+        "Casual"
+      ],
+      "ai_quote": "Remake Tic-Tac-Toe as Margins: ink on a notebook page, a match to three",
+      "ai_source": "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/27374c04f56b5d8db333cb82a2ec8757c587b7fc",
+      "ai_scope": "substantial current-version AI remake",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Selected Play the computer and placed a mark in the first grid cell.",
+        "response": "The page moved to the match UI: \u201cYou are X and go first\u201d and \u201cThinking\u2026\u201d appeared, along with the in-game play-again/back controls."
+      },
+      "player_sandbox": "allow-scripts allow-pointer-lock",
+      "artwork_source": "https://www.gptgames.dev/screenshots/screenshot_32.webp",
+      "artwork_path": "public/games/onsite-gptgames-g-029.webp",
+      "caveat": null
+    },
+    {
+      "candidate_id": "G-030",
+      "slug": "departures-time-travel",
+      "title": "Departures \u2014 a time travel agency",
+      "url": "https://www.gptgames.dev/games/time_travel_agency.html",
+      "categories": [
+        "Simulators",
+        "Casual"
+      ],
+      "ai_quote": "Departures: work in progress on the Time Travel Agency remake",
+      "ai_source": "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/eec8c8e6e12b5cdb0f80a8cb151bd70bbed52e4a",
+      "ai_scope": "substantial current-version AI remake",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Clicked the visible DISPATCH +1 control on the 1969 Apollo 11 service.",
+        "response": "The service changed to \u201cBACK IN 0.8s +1\u201d; COLLECT became available. This was a visible state transition; canvas is not used."
+      },
+      "player_sandbox": "allow-scripts allow-pointer-lock",
+      "artwork_source": "https://www.gptgames.dev/screenshots/screenshot_70.webp",
+      "artwork_path": "public/games/onsite-gptgames-g-030.webp",
+      "caveat": null
+    }
+  ]
+}
