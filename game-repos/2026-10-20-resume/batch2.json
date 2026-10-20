@@ -1,5 +1,5 @@
 {
-  "status": "approved_prepared",
+  "status": "live_verified",
   "original_run": "2026-10-20T153255Z",
   "entries": [
     {
@@ -1169,5 +1169,15 @@
         "evidence_revision": 3
       }
     }
-  ]
+  ],
+  "release": {
+    "status": "live_verified",
+    "pr": "https://github.com/iporollo/addictinggames.ai/pull/83",
+    "merge_sha": "12cbb45a76d01ce8311d0ab9efaa016e1d67df87",
+    "deployment_sha": "12cbb45a76d01ce8311d0ab9efaa016e1d67df87",
+    "ci_refs": [
+      "https://github.com/iporollo/addictinggames.ai/actions/runs/39505317101"
+    ],
+    "live_verification": "All 32 exact destinations present in production HTML; all32 cover byte hashes matched committed images. Unrest card observed in browser; selected cover crops inspected."
+  }
 }
