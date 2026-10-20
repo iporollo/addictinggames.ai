@@ -7,6 +7,21 @@ export type MultiplayerMode = 'Online multiplayer' | 'Local 2-player' | 'Local m
 
 // Evidence and unresolved cases live in docs/category-audit/2026-10-11/.
 export const reviewedCategories: Record<string, CategoryList> = {
+  // October 20 full-duration Scout run, wave 2: genres follow observed guest play.
+  'birdieswing-island-run': ['Sports', 'Arcade'],
+  '3d-jelly-shooter-arcade': ['Shooter', 'Arcade'],
+  'monster-forest-survival': ['Survival', 'Action'],
+  'flick-typing': ['Arcade', 'Educational'],
+  'keep-knight': ['Tower Defense', 'Strategy'],
+  'final-stretch': ['Strategy', 'Racing'],
+  'gullivers-travels': ['Adventure'],
+  'starweave': ['Puzzle'],
+  'space-mission': ['Arcade', 'Action'],
+  'ponpoko-catch': ['Arcade'],
+  'castleforged': ['Strategy', 'Action'],
+  // October 20 full-duration Scout run: genres and mode follow observed guest play.
+  'lost-marbles': ['Racing', 'Multiplayer', 'Arcade'],
+  'roadster-rush': ['Racing', 'Arcade'],
   // October 20 AI Game Scout batch: genres follow observed guest play.
   'wind-path': ['Adventure'],
   'kestrel-nights': ['Action', 'Adventure'],
@@ -805,6 +820,7 @@ export const reviewedCategories: Record<string, CategoryList> = {
 };
 
 export const multiplayerModes: Record<string, MultiplayerMode> = {
+  "lost-marbles": "Online multiplayer",
   "1v1-deathmatch": "Online multiplayer",
   "backyard-rascals": "Online multiplayer",
   "99-youth-echecs": "Local 2-player",

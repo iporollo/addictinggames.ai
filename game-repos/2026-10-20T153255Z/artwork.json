@@ -1,0 +1,138 @@
+{
+  "schema_version": 1,
+  "run_id": "2026-10-20T153255Z",
+  "generation_mode": "built-in image_gen",
+  "records": [
+    {
+      "candidate_id": "A-01",
+      "title": "Lost Marbles",
+      "selected_variant": "B",
+      "published_asset_path": "public/games/oct20-lost-marbles.webp",
+      "output": {
+        "width": 1200,
+        "height": 845,
+        "format": "webp"
+      },
+      "prompts": {
+        "A": "Landscape browser-game arcade cover for a multiplayer marble racing game: glossy colorful marbles racing on a surreal floating racetrack above clouds at sunrise; polished stylized 3D key art; no text, logos, trademarks, watermark, or people.",
+        "B": "Landscape browser-game arcade cover for a multiplayer marble racing game: glassy marbles banking around a neon night obstacle course with glowing rails, loops, ramps, sparks, and motion trails; polished stylized 3D arcade key art; no text, logos, trademarks, watermark, or people."
+      },
+      "selection_reason": "Variant B has clearer small-card silhouettes, stronger motion, and a more distinctive arcade-racing read."
+    },
+    {
+      "candidate_id": "A-02",
+      "title": "Roadster Rush",
+      "selected_variant": "A",
+      "published_asset_path": "public/games/oct20-roadster-rush.webp",
+      "output": {
+        "width": 1200,
+        "height": 845,
+        "format": "webp"
+      },
+      "prompts": {
+        "A": "Landscape browser-game arcade cover for a futuristic roadster endless runner: an original generic red flying roadster dodging geometric barriers and collecting energy bolts on an elevated highway through a luminous desert megacity; polished stylized 3D key art; no Tesla cues, brand marks, Subway Surfers characters or styling, text, logos, trademarks, or watermark.",
+        "B": "Landscape browser-game arcade cover for a futuristic flying-car obstacle runner: an original generic silver hover roadster launching over a broken rain-slick neon skyway above a futuristic city; cinematic stylized 3D key art; no Tesla cues, brand marks, Subway Surfers characters or styling, text, logos, trademarks, or watermark."
+      },
+      "selection_reason": "Variant A reads most clearly as an obstacle runner at card size and avoids relying on the source game's third-party visual references."
+    },
+    {
+      "candidate_id": "A-05",
+      "title": "BirdieSwing Island Run",
+      "selected_variant": "A",
+      "published_asset_path": "public/games/oct20-birdieswing-island-run.webp",
+      "output": { "width": 1200, "height": 845, "format": "webp" },
+      "prompt_summary": "Original tropical island golf arcade key art with a clear swing and ball flight; no text, logos, trademarks, or watermark.",
+      "selection_reason": "The island fairway and swing action remain legible at card size."
+    },
+    {
+      "candidate_id": "A-09",
+      "title": "3D Jelly Shooter Arcade",
+      "selected_variant": "A",
+      "published_asset_path": "public/games/oct20-jelly-shooter.webp",
+      "output": { "width": 1200, "height": 845, "format": "webp" },
+      "prompt_summary": "Bright original 3D arcade scene with translucent jelly fruit targets and a generic blaster; no text, logos, trademarks, or watermark.",
+      "selection_reason": "The target silhouettes and shooting action are immediately readable."
+    },
+    {
+      "candidate_id": "A-16",
+      "title": "魔物の森サバイバル",
+      "selected_variant": "A",
+      "published_asset_path": "public/games/oct20-monster-forest-survival.webp",
+      "output": { "width": 1200, "height": 845, "format": "webp" },
+      "prompt_summary": "Original top-down forest survival arena with a lone adventurer surrounded by stylized monsters; no text, logos, trademarks, or watermark.",
+      "selection_reason": "The survival-game loop is clearest in the top-down composition."
+    },
+    {
+      "candidate_id": "A-17",
+      "title": "フリック脳汁タイピング",
+      "selected_variant": "B",
+      "published_asset_path": "public/games/oct20-flick-typing.webp",
+      "output": { "width": 1200, "height": 845, "format": "webp" },
+      "prompt_summary": "Original energetic mobile typing arcade scene with abstract kana tiles and fingertip motion; no readable text, logos, trademarks, or watermark.",
+      "selection_reason": "The thumb gesture and tile layout communicate flick typing without UI imitation."
+    },
+    {
+      "candidate_id": "A-25",
+      "title": "Keep Knight",
+      "selected_variant": "B",
+      "published_asset_path": "public/games/oct20-keep-knight.webp",
+      "output": { "width": 1200, "height": 845, "format": "webp" },
+      "prompt_summary": "Original fantasy tower-defense key art with a small knight guarding a keep behind defensive towers; no text, logos, trademarks, or watermark.",
+      "selection_reason": "The keep, defender, and enemy lanes read cleanly at thumbnail scale."
+    },
+    {
+      "candidate_id": "A-38",
+      "title": "Final Stretch 直線一気",
+      "selected_variant": "A",
+      "published_asset_path": "public/games/oct20-final-stretch.webp",
+      "output": { "width": 1200, "height": 845, "format": "webp" },
+      "prompt_summary": "Original illustrated fictional horse-racing strategy scene focused on a tight final straight; no betting cues, text, logos, trademarks, or watermark.",
+      "selection_reason": "The racing positions are clear while preserving the game's fictional, non-betting framing."
+    },
+    {
+      "candidate_id": "A-46",
+      "title": "Gulliver's Travels",
+      "selected_variant": "A",
+      "published_asset_path": "public/games/oct20-gullivers-travels.webp",
+      "output": { "width": 1200, "height": 845, "format": "webp" },
+      "prompt_summary": "Original storybook island adventure showing a shipwrecked giant among tiny islanders; no text, logos, trademarks, or watermark.",
+      "selection_reason": "The scale contrast and beach setting best match the observed premise."
+    },
+    {
+      "candidate_id": "A-47",
+      "title": "STARWEAVE 星织",
+      "selected_variant": "A",
+      "published_asset_path": "public/games/oct20-starweave.webp",
+      "output": { "width": 1200, "height": 845, "format": "webp" },
+      "prompt_summary": "Minimal original constellation puzzle with luminous stars connected across deep space; no text, logos, trademarks, or watermark.",
+      "selection_reason": "The clean star connections preserve the game's restrained puzzle identity."
+    },
+    {
+      "candidate_id": "A-49",
+      "title": "Space Mission",
+      "selected_variant": "B",
+      "published_asset_path": "public/games/oct20-space-mission.webp",
+      "output": { "width": 1200, "height": 845, "format": "webp" },
+      "prompt_summary": "Original colorful space arcade scene with a small rocket threading glowing rings; no interface icons, text, logos, trademarks, or watermark.",
+      "selection_reason": "The rocket-and-rings objective is clearest and avoids invented UI."
+    },
+    {
+      "candidate_id": "A-52",
+      "title": "ポンポコキャッチ",
+      "selected_variant": "A",
+      "published_asset_path": "public/games/oct20-ponpoko-catch.webp",
+      "output": { "width": 1200, "height": 845, "format": "webp" },
+      "prompt_summary": "Original cheerful tanuki catching falling food in a bright woodland arcade scene; no text, logos, trademarks, or watermark.",
+      "selection_reason": "The daytime composition gives the catch mechanic the strongest silhouette."
+    },
+    {
+      "candidate_id": "A-59",
+      "title": "Castleforged",
+      "selected_variant": "A",
+      "published_asset_path": "public/games/oct20-castleforged.webp",
+      "output": { "width": 1200, "height": 845, "format": "webp" },
+      "prompt_summary": "Original tactical castle-building battlefield with walls, towers, and opposing forces; no text, logos, trademarks, or watermark.",
+      "selection_reason": "The tactical layout emphasizes building and command over spectacle."
+    }
+  ]
+}

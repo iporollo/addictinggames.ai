@@ -1,0 +1,888 @@
+{
+  "schema_version": 1,
+  "run_id": "2026-10-20T153255Z",
+  "wave": 4,
+  "observed_at_utc": "2026-10-20T17:45:08Z",
+  "records": [
+    {
+      "title": "Click Debounce",
+      "kind": "mod",
+      "mod_platform": "mod (Minecraft, Fabric 26.3)",
+      "disposition": "held",
+      "repository_role": "official_source",
+      "repository_url": "https://github.com/PracticallyDead/click-debounce",
+      "repository_discovery_source_urls": [
+        "https://github.com/PracticallyDead/click-debounce/blob/fe5ef158cfe261cb8abeb8d24fcc8fe78e643e2b/README.md",
+        "https://github.com/PracticallyDead/click-debounce/releases/tag/v1.1.1"
+      ],
+      "ai_authorship_evidence_url": "https://github.com/PracticallyDead/click-debounce/blob/fe5ef158cfe261cb8abeb8d24fcc8fe78e643e2b/README.md",
+      "ai_authorship_evidence": "The code of this mod was written with substantial help from an AI assistant (Claude), then tested by hand on the affected hardware.",
+      "ai_authorship_present_at_release_tag": true,
+      "repository_observed_at_utc": "2026-10-20T17:19:31Z",
+      "head_commit_sha": "fe5ef158cfe261cb8abeb8d24fcc8fe78e643e2b",
+      "tag": "v1.1.1",
+      "tag_commit_sha": "fe5ef158cfe261cb8abeb8d24fcc8fe78e643e2b",
+      "license": "CC0-1.0",
+      "release_url": "https://github.com/PracticallyDead/click-debounce/releases/tag/v1.1.1",
+      "release_published_at_utc": "2026-10-17T23:43:23Z",
+      "release_assets": [
+        {
+          "name": "clickdebounce-1.1.1.jar",
+          "url": "https://github.com/PracticallyDead/click-debounce/releases/download/v1.1.1/clickdebounce-1.1.1.jar",
+          "sha256": "a497c489bacad5578101697e353389ad3bcb60f26f17aa8576e0d18f8ec93d4e"
+        }
+      ],
+      "reason": "AI authorship and immutable release evidence verified; held pending independent runtime compatibility and bounded security review."
+    },
+    {
+      "title": "Completion Tracker (Sammel-Tracker)",
+      "kind": "mod",
+      "mod_platform": "mod (Minecraft, Fabric 26.3)",
+      "disposition": "held",
+      "repository_role": "official_source",
+      "repository_url": "https://github.com/LABrwn/CompletionTracker",
+      "repository_discovery_source_urls": [
+        "https://github.com/LABrwn/CompletionTracker/blob/b8d4238dfb18ff7f2d5e81e8fac09ab8568bf0c9/README.md",
+        "https://github.com/LABrwn/CompletionTracker/releases/tag/v1.0.0"
+      ],
+      "ai_authorship_evidence_url": "https://github.com/LABrwn/CompletionTracker/blob/b8d4238dfb18ff7f2d5e81e8fac09ab8568bf0c9/README.md",
+      "ai_authorship_evidence": "Entwickelt mit Hilfe von KI (Claude von Anthropic); Idee, Design und Tests von LABrwn. [Developed with the help of AI (Claude by Anthropic); idea, design and testing by LABrwn.]",
+      "ai_authorship_present_at_release_tag": true,
+      "repository_observed_at_utc": "2026-10-20T17:19:31Z",
+      "head_commit_sha": "b8d4238dfb18ff7f2d5e81e8fac09ab8568bf0c9",
+      "tag": "v1.0.0",
+      "tag_commit_sha": "b8d4238dfb18ff7f2d5e81e8fac09ab8568bf0c9",
+      "license": "MIT",
+      "release_url": "https://github.com/LABrwn/CompletionTracker/releases/tag/v1.0.0",
+      "release_published_at_utc": "2026-10-18T14:28:22Z",
+      "release_assets": [
+        {
+          "name": "completiontracker-1.0.0+mc26.3.jar",
+          "url": "https://github.com/LABrwn/CompletionTracker/releases/download/v1.0.0/completiontracker-1.0.0%2Bmc26.3.jar",
+          "sha256": "3242097e6b07225fc1fd486214a4d2bae95ad3c53a1575f5d84d60c0536d7a07"
+        }
+      ],
+      "reason": "AI authorship and immutable release evidence verified; held pending independent runtime compatibility and bounded security review."
+    },
+    {
+      "title": "MimesisMap (room-by-room map/minimap, MIMESIS)",
+      "kind": "mod",
+      "mod_platform": "mod (MIMESIS, MelonLoader, client-side)",
+      "disposition": "held",
+      "repository_role": "official_source",
+      "repository_url": "https://github.com/StimDesu/MimesisMap",
+      "repository_discovery_source_urls": [
+        "https://github.com/StimDesu/MimesisMap/blob/8a94483358c473011bfaf65773b3a508d629158b/README.md",
+        "https://github.com/StimDesu/MimesisMap/releases/tag/v1.8.2"
+      ],
+      "ai_authorship_evidence_url": "https://github.com/StimDesu/MimesisMap/blob/8a94483358c473011bfaf65773b3a508d629158b/README.md",
+      "ai_authorship_evidence": "This mod was made with the help of an AI assistant, Claude by Anthropic: the code, the documentation and the icon.",
+      "ai_authorship_present_at_release_tag": true,
+      "repository_observed_at_utc": "2026-10-20T17:20:40Z",
+      "head_commit_sha": "8a94483358c473011bfaf65773b3a508d629158b",
+      "tag": "v1.8.2",
+      "tag_commit_sha": "8a94483358c473011bfaf65773b3a508d629158b",
+      "license": "Unlicense",
+      "release_url": "https://github.com/StimDesu/MimesisMap/releases/tag/v1.8.2",
+      "release_published_at_utc": "2026-10-19T20:34:03Z",
+      "release_assets": [
+        {
+          "name": "MimesisMap-1.8.2.zip",
+          "url": "https://github.com/StimDesu/MimesisMap/releases/download/v1.8.2/MimesisMap-1.8.2.zip",
+          "sha256": "59ac4b5d24f9ef00606feb935c273494ff8b010f12bce0bd70cca2b5d9c718c6"
+        },
+        {
+          "name": "MimesisMap.dll",
+          "url": "https://github.com/StimDesu/MimesisMap/releases/download/v1.8.2/MimesisMap.dll",
+          "sha256": "4aaab94efa0a8540d17dd26b56bcd20da87d5ee2eaa55b54aae0c64270d3b5b5"
+        }
+      ],
+      "reason": "AI authorship and immutable release evidence verified; held pending independent runtime compatibility and bounded security review."
+    },
+    {
+      "title": "Friendly Turret Coverage (Star Valor)",
+      "kind": "mod",
+      "mod_platform": "mod (Star Valor)",
+      "disposition": "held",
+      "repository_role": "official_source",
+      "repository_url": "https://github.com/cydergoth/friendly_turret_coverage",
+      "repository_discovery_source_urls": [
+        "https://github.com/cydergoth/friendly_turret_coverage/blob/704686b7de6983cccab0ea6ac3f33bd7dc77cf4f/README.md",
+        "https://github.com/cydergoth/friendly_turret_coverage/releases/tag/v1.1.0"
+      ],
+      "ai_authorship_evidence_url": "https://github.com/cydergoth/friendly_turret_coverage/blob/704686b7de6983cccab0ea6ac3f33bd7dc77cf4f/README.md",
+      "ai_authorship_evidence": "This mod's code and documentation were written with the AI coding assistant Claude Code, directed and reviewed by the author.",
+      "ai_authorship_present_at_release_tag": true,
+      "repository_observed_at_utc": "2026-10-20T17:20:40Z",
+      "head_commit_sha": "704686b7de6983cccab0ea6ac3f33bd7dc77cf4f",
+      "tag": "v1.1.0",
+      "tag_commit_sha": "704686b7de6983cccab0ea6ac3f33bd7dc77cf4f",
+      "license": "MIT",
+      "release_url": "https://github.com/cydergoth/friendly_turret_coverage/releases/tag/v1.1.0",
+      "release_published_at_utc": "2026-10-17T23:42:39Z",
+      "release_assets": [
+        {
+          "name": "FriendlyTurretCoverage-1.1.0.zip",
+          "url": "https://github.com/cydergoth/friendly_turret_coverage/releases/download/v1.1.0/FriendlyTurretCoverage-1.1.0.zip",
+          "sha256": "89241498bbd1a2b137d853eaa4720d3407575bf417f10b261f8a156c93d35f74"
+        }
+      ],
+      "reason": "AI authorship and immutable release evidence verified; held pending independent runtime compatibility and bounded security review."
+    },
+    {
+      "title": "Station Transport (Star Valor)",
+      "kind": "mod",
+      "mod_platform": "mod (Star Valor)",
+      "disposition": "held",
+      "repository_role": "official_source",
+      "repository_url": "https://github.com/cydergoth/station_transport",
+      "repository_discovery_source_urls": [
+        "https://github.com/cydergoth/station_transport/blob/91d7348cc3638138361ec8b47fe0a5dec697f42e/README.md",
+        "https://github.com/cydergoth/station_transport/releases/tag/v0.1.0"
+      ],
+      "ai_authorship_evidence_url": "https://github.com/cydergoth/station_transport/blob/91d7348cc3638138361ec8b47fe0a5dec697f42e/README.md",
+      "ai_authorship_evidence": "This mod's code and documentation were written with the AI coding assistant Claude Code, directed and reviewed by the author.",
+      "ai_authorship_present_at_release_tag": true,
+      "repository_observed_at_utc": "2026-10-20T17:20:40Z",
+      "head_commit_sha": "91d7348cc3638138361ec8b47fe0a5dec697f42e",
+      "tag": "v0.1.0",
+      "tag_commit_sha": "91d7348cc3638138361ec8b47fe0a5dec697f42e",
+      "license": "MIT",
+      "release_url": "https://github.com/cydergoth/station_transport/releases/tag/v0.1.0",
+      "release_published_at_utc": "2026-10-20T02:54:05Z",
+      "release_assets": [
+        {
+          "name": "StationTransport-0.1.0.zip",
+          "url": "https://github.com/cydergoth/station_transport/releases/download/v0.1.0/StationTransport-0.1.0.zip",
+          "sha256": "dcc3c67049aa7517127c5bd210920719ac2c62be5d43ede856ecbe1d8b387eb8"
+        }
+      ],
+      "reason": "AI authorship and immutable release evidence verified; held pending independent runtime compatibility and bounded security review."
+    },
+    {
+      "title": "Find Me Clientside (Forge 1.20.1 item locator)",
+      "kind": "mod",
+      "mod_platform": "mod (Minecraft, Forge 1.20.1)",
+      "disposition": "held",
+      "repository_role": "official_source",
+      "repository_url": "https://github.com/Flurben/find-me-clientside",
+      "repository_discovery_source_urls": [
+        "https://github.com/Flurben/find-me-clientside/blob/7679ac46cd9bb52afb0e42d84a243540948aa83a/README.md",
+        "https://github.com/Flurben/find-me-clientside/releases/tag/v1.0.2"
+      ],
+      "ai_authorship_evidence_url": "https://github.com/Flurben/find-me-clientside/blob/7679ac46cd9bb52afb0e42d84a243540948aa83a/README.md",
+      "ai_authorship_evidence": "The code and documentation were substantially generated with Codex; see AI_DISCLOSURE.md.",
+      "ai_authorship_present_at_release_tag": true,
+      "repository_observed_at_utc": "2026-10-20T17:20:40Z",
+      "head_commit_sha": "7679ac46cd9bb52afb0e42d84a243540948aa83a",
+      "tag": "v1.0.2",
+      "tag_commit_sha": "7679ac46cd9bb52afb0e42d84a243540948aa83a",
+      "license": "CC0-1.0",
+      "release_url": "https://github.com/Flurben/find-me-clientside/releases/tag/v1.0.2",
+      "release_published_at_utc": "2026-10-18T19:15:33Z",
+      "release_assets": [
+        {
+          "name": "findmeclientside-forge-1.20.1-1.0.2.jar",
+          "url": "https://github.com/Flurben/find-me-clientside/releases/download/v1.0.2/findmeclientside-forge-1.20.1-1.0.2.jar",
+          "sha256": "6841880ac65bacfd8cceddcab90886425d0dbb9ad02d3ce36a53ea7a372ed33d"
+        },
+        {
+          "name": "findmeclientside-1.20.1-1.0.2-publishing.zip",
+          "url": "https://github.com/Flurben/find-me-clientside/releases/download/v1.0.2/findmeclientside-1.20.1-1.0.2-publishing.zip",
+          "sha256": "e826a51cabd765405fda9f3dd7b0c034b7a617c2867c5785b8437473cab03253"
+        }
+      ],
+      "reason": "AI authorship and immutable release evidence verified; held pending independent runtime compatibility and bounded security review."
+    },
+    {
+      "title": "DualSense Pad (PS5 DualSense support, My Winter Car)",
+      "kind": "mod",
+      "mod_platform": "mod (My Winter Car, MSCLoader)",
+      "disposition": "held",
+      "repository_role": "official_source",
+      "repository_url": "https://github.com/kerosh/MWC-dualsense",
+      "repository_discovery_source_urls": [
+        "https://github.com/kerosh/MWC-dualsense/blob/2b0187196289a323b9c671ba56044634b49decdf/README.md",
+        "https://github.com/kerosh/MWC-dualsense/releases/tag/1.0.0"
+      ],
+      "ai_authorship_evidence_url": "https://github.com/kerosh/MWC-dualsense/blob/2b0187196289a323b9c671ba56044634b49decdf/README.md",
+      "ai_authorship_evidence": "AI disclosure: most of the code was written with AI assistance (Claude). The mod says so in its MSCLoader description and its assembly attributes.",
+      "ai_authorship_present_at_release_tag": true,
+      "repository_observed_at_utc": "2026-10-20T17:21:24Z",
+      "head_commit_sha": "2b0187196289a323b9c671ba56044634b49decdf",
+      "tag": "1.0.0",
+      "tag_commit_sha": "2b0187196289a323b9c671ba56044634b49decdf",
+      "license": "MIT",
+      "release_url": "https://github.com/kerosh/MWC-dualsense/releases/tag/1.0.0",
+      "release_published_at_utc": "2026-10-18T18:00:40Z",
+      "release_assets": [
+        {
+          "name": "DualSensePad.dll",
+          "url": "https://github.com/kerosh/MWC-dualsense/releases/download/1.0.0/DualSensePad.dll",
+          "sha256": "01cfe26991ec183be02526342deeafc0697cdbf671bb14afffc00ff4daefa1cd"
+        }
+      ],
+      "reason": "AI authorship and immutable release evidence verified; held pending independent runtime compatibility and bounded security review."
+    },
+    {
+      "title": "EnshroudedBaseCap (base FPS cap, Enshrouded)",
+      "kind": "mod",
+      "mod_platform": "mod (Enshrouded, DLSS add-on)",
+      "disposition": "held",
+      "repository_role": "official_source",
+      "repository_url": "https://github.com/Mycellius/EnshroudedFPSCap",
+      "repository_discovery_source_urls": [
+        "https://github.com/Mycellius/EnshroudedFPSCap/blob/49787685a7595625d11755001db3e8b135ccc20d/README.md",
+        "https://github.com/Mycellius/EnshroudedFPSCap/releases/tag/v1.1.0"
+      ],
+      "ai_authorship_evidence_url": "https://github.com/Mycellius/EnshroudedFPSCap/blob/49787685a7595625d11755001db3e8b135ccc20d/README.md",
+      "ai_authorship_evidence": "This project was written with Claude Code, Anthropic's AI coding assistant. The maintainer directed and tested it.",
+      "ai_authorship_present_at_release_tag": true,
+      "repository_observed_at_utc": "2026-10-20T17:21:24Z",
+      "head_commit_sha": "49787685a7595625d11755001db3e8b135ccc20d",
+      "tag": "v1.1.0",
+      "tag_commit_sha": "49787685a7595625d11755001db3e8b135ccc20d",
+      "license": "MIT",
+      "release_url": "https://github.com/Mycellius/EnshroudedFPSCap/releases/tag/v1.1.0",
+      "release_published_at_utc": "2026-10-17T20:59:01Z",
+      "release_assets": [
+        {
+          "name": "EnshroudedBaseCap-v1.1.0.zip",
+          "url": "https://github.com/Mycellius/EnshroudedFPSCap/releases/download/v1.1.0/EnshroudedBaseCap-v1.1.0.zip",
+          "sha256": "3499705e447ced9d317dce828acd9a515e27980ce1695429375411bb890f15ce"
+        }
+      ],
+      "reason": "AI authorship and immutable release evidence verified; held pending independent runtime compatibility and bounded security review."
+    },
+    {
+      "title": "Prismatic Geodes (16-colour amethyst geodes)",
+      "kind": "mod",
+      "mod_platform": "mod (Minecraft 26.3)",
+      "disposition": "held",
+      "repository_role": "official_source",
+      "repository_url": "https://github.com/KalleBoy39/prismatic-geodes",
+      "repository_discovery_source_urls": [
+        "https://github.com/KalleBoy39/prismatic-geodes/blob/43c85fbb5796f045faea5fdcba6da621f1234bec/README.md",
+        "https://github.com/KalleBoy39/prismatic-geodes/releases/tag/v1.0.0"
+      ],
+      "ai_authorship_evidence_url": "https://github.com/KalleBoy39/prismatic-geodes/blob/43c85fbb5796f045faea5fdcba6da621f1234bec/README.md",
+      "ai_authorship_evidence": "Implementation: developed with extensive assistance from Claude Code, Anthropic's AI coding assistant.",
+      "ai_authorship_present_at_release_tag": true,
+      "repository_observed_at_utc": "2026-10-20T17:22:11Z",
+      "head_commit_sha": "43c85fbb5796f045faea5fdcba6da621f1234bec",
+      "tag": "v1.0.0",
+      "tag_commit_sha": "43c85fbb5796f045faea5fdcba6da621f1234bec",
+      "license": "MIT",
+      "release_url": "https://github.com/KalleBoy39/prismatic-geodes/releases/tag/v1.0.0",
+      "release_published_at_utc": "2026-10-15T20:39:24Z",
+      "release_assets": [
+        {
+          "name": "prismatic-geodes-1.0.0+26.3.jar",
+          "url": "https://github.com/KalleBoy39/prismatic-geodes/releases/download/v1.0.0/prismatic-geodes-1.0.0%2B26.3.jar",
+          "sha256": "96cfe443ea7a980447c603921ab3d4890dd136623210a64dfc2e4adef3a2f51a"
+        },
+        {
+          "name": "prismatic-geodes-miniblocks-1.0.0+26.3.jar",
+          "url": "https://github.com/KalleBoy39/prismatic-geodes/releases/download/v1.0.0/prismatic-geodes-miniblocks-1.0.0%2B26.3.jar",
+          "sha256": "12f3eb5fb10321d8c20be15a900b2ce6deb20d45be355814e596e092dceed48d"
+        },
+        {
+          "name": "Prismatic-Geode-Locator-1.0.0-windows-x64.zip",
+          "url": "https://github.com/KalleBoy39/prismatic-geodes/releases/download/v1.0.0/Prismatic-Geode-Locator-1.0.0-windows-x64.zip",
+          "sha256": "30147fb8085829a9b10e789d68f8c6821287dca2a23db4a7aca8fc0bd122d7d1"
+        }
+      ],
+      "reason": "AI authorship and immutable release evidence verified; held pending independent runtime compatibility and bounded security review."
+    },
+    {
+      "title": "Vanilla Map Plus (fullscreen map/minimap from vanilla maps)",
+      "kind": "mod",
+      "mod_platform": "mod (Minecraft Forge 1.20.1)",
+      "disposition": "held",
+      "repository_role": "official_source",
+      "repository_url": "https://github.com/drvaclav/vanilla-map-plus",
+      "repository_discovery_source_urls": [
+        "https://github.com/drvaclav/vanilla-map-plus/blob/d78847428ed4dd62ebbd33aea8461a1741403688/README.md",
+        "https://github.com/drvaclav/vanilla-map-plus/releases/tag/v1.20.1-1.1.4"
+      ],
+      "ai_authorship_evidence_url": "https://github.com/drvaclav/vanilla-map-plus/blob/d78847428ed4dd62ebbd33aea8461a1741403688/README.md",
+      "ai_authorship_evidence": "Made by DrVacLav. The code was written with Claude Code (Anthropic's AI coding agent) and tested in game by the author.",
+      "ai_authorship_present_at_release_tag": true,
+      "repository_observed_at_utc": "2026-10-20T17:22:11Z",
+      "head_commit_sha": "d78847428ed4dd62ebbd33aea8461a1741403688",
+      "tag": "v1.20.1-1.1.4",
+      "tag_commit_sha": "d78847428ed4dd62ebbd33aea8461a1741403688",
+      "license": "MIT",
+      "release_url": "https://github.com/drvaclav/vanilla-map-plus/releases/tag/v1.20.1-1.1.4",
+      "release_published_at_utc": "2026-10-20T12:33:34Z",
+      "release_assets": [
+        {
+          "name": "vanillamapplus-forge-1.20.1-1.1.4.jar",
+          "url": "https://github.com/drvaclav/vanilla-map-plus/releases/download/v1.20.1-1.1.4/vanillamapplus-forge-1.20.1-1.1.4.jar",
+          "sha256": "97bad98a3343a9a87f188fe88fee0d03551e1edf72c2071c857d0fa56aebe432"
+        }
+      ],
+      "reason": "AI authorship and immutable release evidence verified; held pending independent runtime compatibility and bounded security review."
+    },
+    {
+      "title": "Playable Vessel (play as the Hollow Knight)",
+      "kind": "mod",
+      "mod_platform": "mod (Hollow Knight)",
+      "disposition": "held",
+      "repository_role": "official_source",
+      "repository_url": "https://github.com/Modalicous718/PlayableVessel",
+      "repository_discovery_source_urls": [
+        "https://github.com/Modalicous718/PlayableVessel/blob/954d892fcd0927a3c5a790a92c367a8bcd22d176/README.md",
+        "https://github.com/Modalicous718/PlayableVessel/releases/tag/PlayableBoss"
+      ],
+      "ai_authorship_evidence_url": "https://github.com/Modalicous718/PlayableVessel/blob/954d892fcd0927a3c5a790a92c367a8bcd22d176/README.md",
+      "ai_authorship_evidence": "AI-assisted: this mod was designed and written with Claude Code (Anthropic's Claude, Opus) working with the mod's creator, who tested every build in game.",
+      "ai_authorship_present_at_release_tag": true,
+      "repository_observed_at_utc": "2026-10-20T17:22:11Z",
+      "head_commit_sha": "954d892fcd0927a3c5a790a92c367a8bcd22d176",
+      "tag": "PlayableBoss",
+      "tag_commit_sha": "954d892fcd0927a3c5a790a92c367a8bcd22d176",
+      "license": "MISSING: GitHub API none",
+      "release_url": "https://github.com/Modalicous718/PlayableVessel/releases/tag/PlayableBoss",
+      "release_published_at_utc": "2026-10-16T03:33:44Z",
+      "release_assets": [
+        {
+          "name": "PlayableVessel-0.5.0-manual-install.zip",
+          "url": "https://github.com/Modalicous718/PlayableVessel/releases/download/PlayableBoss/PlayableVessel-0.5.0-manual-install.zip",
+          "sha256": "fcb0aa29d6c9bdf8ae3c342278d1935442267207c5354d14021912851c18aceb"
+        }
+      ],
+      "reason": "AI authorship and immutable release evidence verified; held pending independent runtime compatibility and bounded security review."
+    },
+    {
+      "title": "Motor Sound Configurator (Farming Simulator 25)",
+      "kind": "mod",
+      "mod_platform": "mod (Farming Simulator 25, script mod)",
+      "disposition": "held",
+      "repository_role": "official_source",
+      "repository_url": "https://github.com/emme92/FS25_MotorSoundConfigurator",
+      "repository_discovery_source_urls": [
+        "https://github.com/emme92/FS25_MotorSoundConfigurator/blob/cf3ad95514f8ce10e5265be83ec96f58efd8e71f/README.md",
+        "https://github.com/emme92/FS25_MotorSoundConfigurator/releases/tag/v1.0.0.0"
+      ],
+      "ai_authorship_evidence_url": "https://github.com/emme92/FS25_MotorSoundConfigurator/blob/cf3ad95514f8ce10e5265be83ec96f58efd8e71f/README.md",
+      "ai_authorship_evidence": "This mod was developed with the help of Claude (AI assistant by Anthropic).",
+      "ai_authorship_present_at_release_tag": true,
+      "repository_observed_at_utc": "2026-10-20T17:22:50Z",
+      "head_commit_sha": "cf3ad95514f8ce10e5265be83ec96f58efd8e71f",
+      "tag": "v1.0.0.0",
+      "tag_commit_sha": "cf3ad95514f8ce10e5265be83ec96f58efd8e71f",
+      "license": "GPL-3.0",
+      "release_url": "https://github.com/emme92/FS25_MotorSoundConfigurator/releases/tag/v1.0.0.0",
+      "release_published_at_utc": "2026-10-19T14:15:13Z",
+      "release_assets": [
+        {
+          "name": "FS25_MotorSoundConfigurator.zip",
+          "url": "https://github.com/emme92/FS25_MotorSoundConfigurator/releases/download/v1.0.0.0/FS25_MotorSoundConfigurator.zip",
+          "sha256": "1c5fc89b71c80d1518bec843a46a110aa5bee6702aec94dc793bc5c94afa6a32"
+        }
+      ],
+      "reason": "AI authorship and immutable release evidence verified; held pending independent runtime compatibility and bounded security review."
+    },
+    {
+      "title": "Teleporter Control (Hytale)",
+      "kind": "mod",
+      "mod_platform": "mod (Hytale server plugin)",
+      "disposition": "held",
+      "repository_role": "official_source",
+      "repository_url": "https://github.com/InformalLounge/hytale-teleporter-control",
+      "repository_discovery_source_urls": [
+        "https://github.com/InformalLounge/hytale-teleporter-control/blob/20507ed1d80bfd44d0d4bdd89f74fdb77cdf5306/README.md",
+        "https://github.com/InformalLounge/hytale-teleporter-control/releases/tag/v0.1.0"
+      ],
+      "ai_authorship_evidence_url": "https://github.com/InformalLounge/hytale-teleporter-control/blob/20507ed1d80bfd44d0d4bdd89f74fdb77cdf5306/README.md",
+      "ai_authorship_evidence": "This mod was developed with the help of Claude Code, Anthropic's AI coding assistant.",
+      "ai_authorship_present_at_release_tag": true,
+      "repository_observed_at_utc": "2026-10-20T17:22:50Z",
+      "head_commit_sha": "20507ed1d80bfd44d0d4bdd89f74fdb77cdf5306",
+      "tag": "v0.1.0",
+      "tag_commit_sha": "20507ed1d80bfd44d0d4bdd89f74fdb77cdf5306",
+      "license": "MIT",
+      "release_url": "https://github.com/InformalLounge/hytale-teleporter-control/releases/tag/v0.1.0",
+      "release_published_at_utc": "2026-10-15T04:36:15Z",
+      "release_assets": [
+        {
+          "name": "TeleporterControl-0.1.0.jar",
+          "url": "https://github.com/InformalLounge/hytale-teleporter-control/releases/download/v0.1.0/TeleporterControl-0.1.0.jar",
+          "sha256": "a7cd22a015a22d687589c33b7adfc6922c54158d3bf0af17753654a0cbc05083"
+        }
+      ],
+      "reason": "AI authorship and immutable release evidence verified; held pending independent runtime compatibility and bounded security review."
+    },
+    {
+      "title": "Sacked! Your Last Day map editor + themed mod",
+      "kind": "mod",
+      "mod_platform": "mod (Sacked! Your Last Day, map editor + mod patch)",
+      "disposition": "held",
+      "repository_role": "official_source",
+      "repository_url": "https://github.com/gylala999/sacked-map-editor-and-mod",
+      "repository_discovery_source_urls": [
+        "https://github.com/gylala999/sacked-map-editor-and-mod/blob/ed43617198fe09541b5e667be43b943cfa088615/README.md",
+        "https://github.com/gylala999/sacked-map-editor-and-mod/releases/tag/v0.1.0"
+      ],
+      "ai_authorship_evidence_url": "https://github.com/gylala999/sacked-map-editor-and-mod/blob/ed43617198fe09541b5e667be43b943cfa088615/README.md",
+      "ai_authorship_evidence": "A working fan-made map editor and themed mod for Sacked! Your Last Day, built together with Codex. (L3) / Created by gylala999 with Codex. (L109)",
+      "ai_authorship_present_at_release_tag": true,
+      "repository_observed_at_utc": "2026-10-20T17:23:30Z",
+      "head_commit_sha": "ed43617198fe09541b5e667be43b943cfa088615",
+      "tag": "v0.1.0",
+      "tag_commit_sha": "ed43617198fe09541b5e667be43b943cfa088615",
+      "license": "MISSING: GitHub API none",
+      "release_url": "https://github.com/gylala999/sacked-map-editor-and-mod/releases/tag/v0.1.0",
+      "release_published_at_utc": "2026-10-15T06:14:18Z",
+      "release_assets": [
+        {
+          "name": "sacked-map-editor-and-mod-v0.1.0.zip",
+          "url": "https://github.com/gylala999/sacked-map-editor-and-mod/releases/download/v0.1.0/sacked-map-editor-and-mod-v0.1.0.zip",
+          "sha256": "c066fd3c74fe0395a3ffdb16eac55dfba5ea544a4492880649376fd6d8870cdf"
+        }
+      ],
+      "reason": "AI authorship and immutable release evidence verified; held pending independent runtime compatibility and bounded security review."
+    },
+    {
+      "title": "ShadowTrim (Valheim FPS: shorter sun-shadow distance)",
+      "kind": "mod",
+      "mod_platform": "mod (Valheim, BepInEx)",
+      "disposition": "held",
+      "repository_role": "official_source",
+      "repository_url": "https://github.com/tbsj1ga/ShadowTrimValheim",
+      "repository_discovery_source_urls": [
+        "https://github.com/tbsj1ga/ShadowTrimValheim/blob/488284be43d87cb20a960691736a962cd77af9f5/README.md",
+        "https://github.com/tbsj1ga/ShadowTrimValheim/releases/tag/v0.1.0"
+      ],
+      "ai_authorship_evidence_url": "https://github.com/tbsj1ga/ShadowTrimValheim/blob/488284be43d87cb20a960691736a962cd77af9f5/README.md",
+      "ai_authorship_evidence": "This mod was developed with the help of an AI assistant (Claude by Anthropic)",
+      "ai_authorship_present_at_release_tag": true,
+      "repository_observed_at_utc": "2026-10-20T17:24:46Z",
+      "head_commit_sha": "488284be43d87cb20a960691736a962cd77af9f5",
+      "tag": "v0.1.0",
+      "tag_commit_sha": "488284be43d87cb20a960691736a962cd77af9f5",
+      "license": "MIT",
+      "release_url": "https://github.com/tbsj1ga/ShadowTrimValheim/releases/tag/v0.1.0",
+      "release_published_at_utc": "2026-10-17T00:22:01Z",
+      "release_assets": [
+        {
+          "name": "ShadowTrim-0.1.0.zip",
+          "url": "https://github.com/tbsj1ga/ShadowTrimValheim/releases/download/v0.1.0/ShadowTrim-0.1.0.zip",
+          "sha256": "02623a6a1216ad2853307f6cb5d22a1f9ada56368ecb1cd0c5e684d81f164960"
+        }
+      ],
+      "reason": "AI authorship and immutable release evidence verified; held pending independent runtime compatibility and bounded security review."
+    },
+    {
+      "title": "Voxy LOD Gen (distant terrain for Voxy LODs)",
+      "kind": "mod",
+      "mod_platform": "mod (Minecraft 26.2, Voxy add-on)",
+      "disposition": "held",
+      "repository_role": "official_source",
+      "repository_url": "https://github.com/OctoMiku01/Voxy-LOD-Gen",
+      "repository_discovery_source_urls": [
+        "https://github.com/OctoMiku01/Voxy-LOD-Gen/blob/d76be97c8d96bc7303cc55ad8e1b0879953b7e23/README.md",
+        "https://github.com/OctoMiku01/Voxy-LOD-Gen/releases/tag/v0.4.8-26.2"
+      ],
+      "ai_authorship_evidence_url": "https://github.com/OctoMiku01/Voxy-LOD-Gen/blob/d76be97c8d96bc7303cc55ad8e1b0879953b7e23/README.md",
+      "ai_authorship_evidence": "AI disclaimer: The code of this mod was written by AI (Claude, by Anthropic).",
+      "ai_authorship_present_at_release_tag": true,
+      "repository_observed_at_utc": "2026-10-20T17:26:24Z",
+      "head_commit_sha": "d76be97c8d96bc7303cc55ad8e1b0879953b7e23",
+      "tag": "v0.4.8-26.2",
+      "tag_commit_sha": "d76be97c8d96bc7303cc55ad8e1b0879953b7e23",
+      "license": "MIT",
+      "release_url": "https://github.com/OctoMiku01/Voxy-LOD-Gen/releases/tag/v0.4.8-26.2",
+      "release_published_at_utc": "2026-10-19T22:14:32Z",
+      "release_assets": [
+        {
+          "name": "voxy-lodgen-0.4.8+26.2.jar",
+          "url": "https://github.com/OctoMiku01/Voxy-LOD-Gen/releases/download/v0.4.8-26.2/voxy-lodgen-0.4.8%2B26.2.jar",
+          "sha256": "fbf5c645362932ad8e204de255c87bb6d29d3e335e8cff3cddeee56f6f08230f"
+        },
+        {
+          "name": "voxy-lodgen-0.4.8+26.2-sources.jar",
+          "url": "https://github.com/OctoMiku01/Voxy-LOD-Gen/releases/download/v0.4.8-26.2/voxy-lodgen-0.4.8%2B26.2-sources.jar",
+          "sha256": "abd1e00a00f16ed5e84ced2d0b1c526faaf1a53ac1023a7c8fa2de34a4d0a377"
+        }
+      ],
+      "reason": "AI authorship and immutable release evidence verified; held pending independent runtime compatibility and bounded security review."
+    },
+    {
+      "title": "IdleGimbalLock (KSP 1.12)",
+      "kind": "mod",
+      "mod_platform": "mod (Kerbal Space Program 1.12)",
+      "disposition": "held",
+      "repository_role": "official_source",
+      "repository_url": "https://github.com/genyk1p/IdleGimbalLock",
+      "repository_discovery_source_urls": [
+        "https://github.com/genyk1p/IdleGimbalLock/blob/e9735161765720a3bcc4de7a039133c2639288e9/README.md",
+        "https://github.com/genyk1p/IdleGimbalLock/releases/tag/v0.1.0"
+      ],
+      "ai_authorship_evidence_url": "https://github.com/genyk1p/IdleGimbalLock/blob/e9735161765720a3bcc4de7a039133c2639288e9/README.md",
+      "ai_authorship_evidence": "This mod was written in collaboration with Claude Code (Anthropic), model Claude Opus 5.5. The code, configs and documentation were generated by the AI; the author defined the idea and requirements, reviewed the design and tested it in game.",
+      "ai_authorship_present_at_release_tag": true,
+      "repository_observed_at_utc": "2026-10-20T17:27:46Z",
+      "head_commit_sha": "e9735161765720a3bcc4de7a039133c2639288e9",
+      "tag": "v0.1.0",
+      "tag_commit_sha": "e9735161765720a3bcc4de7a039133c2639288e9",
+      "license": "MIT",
+      "release_url": "https://github.com/genyk1p/IdleGimbalLock/releases/tag/v0.1.0",
+      "release_published_at_utc": "2026-10-15T18:24:58Z",
+      "release_assets": [
+        {
+          "name": "IdleGimbalLock-0.1.0.zip",
+          "url": "https://github.com/genyk1p/IdleGimbalLock/releases/download/v0.1.0/IdleGimbalLock-0.1.0.zip",
+          "sha256": "4801a4d2222029a5ae9f180887c846ef6c28baf996239654012f35dd7b573ec2"
+        }
+      ],
+      "reason": "AI authorship and immutable release evidence verified; held pending independent runtime compatibility and bounded security review."
+    },
+    {
+      "title": "TransferDropdownFix (KSP 1.12)",
+      "kind": "mod",
+      "mod_platform": "mod (Kerbal Space Program 1.12)",
+      "disposition": "held",
+      "repository_role": "official_source",
+      "repository_url": "https://github.com/genyk1p/TransferDropdownFix",
+      "repository_discovery_source_urls": [
+        "https://github.com/genyk1p/TransferDropdownFix/blob/d5468bfeb6f7d609a16a333983d9dd46db4ef2f7/README.md",
+        "https://github.com/genyk1p/TransferDropdownFix/releases/tag/v0.1.2"
+      ],
+      "ai_authorship_evidence_url": "https://github.com/genyk1p/TransferDropdownFix/blob/d5468bfeb6f7d609a16a333983d9dd46db4ef2f7/README.md",
+      "ai_authorship_evidence": "This mod was written in collaboration with Claude Code (Anthropic), model Claude Opus 5.5. The code, configs and documentation were generated by the AI; the author defined the idea and requirements, reviewed the design and tested it in game.",
+      "ai_authorship_present_at_release_tag": true,
+      "repository_observed_at_utc": "2026-10-20T17:27:46Z",
+      "head_commit_sha": "d5468bfeb6f7d609a16a333983d9dd46db4ef2f7",
+      "tag": "v0.1.2",
+      "tag_commit_sha": "d5468bfeb6f7d609a16a333983d9dd46db4ef2f7",
+      "license": "NOASSERTION (GitHub API)",
+      "release_url": "https://github.com/genyk1p/TransferDropdownFix/releases/tag/v0.1.2",
+      "release_published_at_utc": "2026-10-16T19:29:22Z",
+      "release_assets": [
+        {
+          "name": "TransferDropdownFix-0.1.2.zip",
+          "url": "https://github.com/genyk1p/TransferDropdownFix/releases/download/v0.1.2/TransferDropdownFix-0.1.2.zip",
+          "sha256": "f1f11b6af87a2a2bff5933ef711a7d0f7043178d75a11e121fc0aff22baa7389"
+        }
+      ],
+      "reason": "AI authorship and immutable release evidence verified; held pending independent runtime compatibility and bounded security review."
+    },
+    {
+      "title": "MechJebTweaks (KSP 1.12)",
+      "kind": "mod",
+      "mod_platform": "mod (Kerbal Space Program 1.12, MechJeb2 add-on)",
+      "disposition": "held",
+      "repository_role": "official_source",
+      "repository_url": "https://github.com/genyk1p/MechJebTweaks",
+      "repository_discovery_source_urls": [
+        "https://github.com/genyk1p/MechJebTweaks/blob/33f78492820ef231c89a4ef7ab952eaf40b52ff3/README.md",
+        "https://github.com/genyk1p/MechJebTweaks/releases/tag/v0.1.1"
+      ],
+      "ai_authorship_evidence_url": "https://github.com/genyk1p/MechJebTweaks/blob/33f78492820ef231c89a4ef7ab952eaf40b52ff3/README.md",
+      "ai_authorship_evidence": "This mod was written in collaboration with Claude Code (Anthropic), model Claude Opus 5.5. The code, configs and documentation were generated by the AI; the author defined the idea and requirements, reviewed the design and tested it in game.",
+      "ai_authorship_present_at_release_tag": true,
+      "repository_observed_at_utc": "2026-10-20T17:27:46Z",
+      "head_commit_sha": "33f78492820ef231c89a4ef7ab952eaf40b52ff3",
+      "tag": "v0.1.1",
+      "tag_commit_sha": "33f78492820ef231c89a4ef7ab952eaf40b52ff3",
+      "license": "NOASSERTION (GitHub API)",
+      "release_url": "https://github.com/genyk1p/MechJebTweaks/releases/tag/v0.1.1",
+      "release_published_at_utc": "2026-10-17T16:52:56Z",
+      "release_assets": [
+        {
+          "name": "MechJebTweaks-0.1.1.zip",
+          "url": "https://github.com/genyk1p/MechJebTweaks/releases/download/v0.1.1/MechJebTweaks-0.1.1.zip",
+          "sha256": "63357a192e38af1873de6d28a8d8b30a9cb66589f5587db86369deadfe62549f"
+        }
+      ],
+      "reason": "AI authorship and immutable release evidence verified; held pending independent runtime compatibility and bounded security review."
+    },
+    {
+      "title": "OKC Ring (Powerwash Simulator 2 map mod)",
+      "kind": "mod",
+      "mod_platform": "mod (PowerWash Simulator 2)",
+      "disposition": "held",
+      "repository_role": "official_source",
+      "repository_url": "https://github.com/jogalleciez/OKC-Ring",
+      "repository_discovery_source_urls": [
+        "https://github.com/jogalleciez/OKC-Ring/blob/3eacb295be64f8eef5afb97824605fe925059e03/README.md",
+        "https://github.com/jogalleciez/OKC-Ring/releases/tag/v0.1.0"
+      ],
+      "ai_authorship_evidence_url": "https://github.com/jogalleciez/OKC-Ring/blob/3eacb295be64f8eef5afb97824605fe925059e03/README.md",
+      "ai_authorship_evidence": "Made with help from Claude Code (Anthropic's Claude), which wrote much of the code, the Blender scripts and the docs alongside the author.",
+      "ai_authorship_present_at_release_tag": true,
+      "repository_observed_at_utc": "2026-10-20T17:27:46Z",
+      "head_commit_sha": "3eacb295be64f8eef5afb97824605fe925059e03",
+      "tag": "v0.1.0",
+      "tag_commit_sha": "3eacb295be64f8eef5afb97824605fe925059e03",
+      "license": "MIT",
+      "release_url": "https://github.com/jogalleciez/OKC-Ring/releases/tag/v0.1.0",
+      "release_published_at_utc": "2026-10-17T16:16:52Z",
+      "release_assets": [
+        {
+          "name": "OKC-Ring-v0.1.0.zip",
+          "url": "https://github.com/jogalleciez/OKC-Ring/releases/download/v0.1.0/OKC-Ring-v0.1.0.zip",
+          "sha256": "11407d79e35dbc51bf682c4f4c265ffbee38b7016967668523214b584f0b9239"
+        }
+      ],
+      "reason": "AI authorship and immutable release evidence verified; held pending independent runtime compatibility and bounded security review."
+    },
+    {
+      "title": "Chassis (vehicle framework, Schedule I)",
+      "kind": "mod",
+      "mod_platform": "mod (Schedule I)",
+      "disposition": "held",
+      "repository_role": "official_source",
+      "repository_url": "https://github.com/DooDesch-Mods/ScheduleOne-Chassis",
+      "repository_discovery_source_urls": [
+        "https://github.com/DooDesch-Mods/ScheduleOne-Chassis/blob/d5ba055feb607d31bc55ce10a79e553e725b56ab/README.md",
+        "https://github.com/DooDesch-Mods/ScheduleOne-Chassis/releases/tag/v1.1.0"
+      ],
+      "ai_authorship_evidence_url": "https://github.com/DooDesch-Mods/ScheduleOne-Chassis/blob/d5ba055feb607d31bc55ce10a79e553e725b56ab/README.md",
+      "ai_authorship_evidence": "This mod is written with help from generative AI tools (Anthropic Claude, OpenAI Codex).",
+      "ai_authorship_present_at_release_tag": true,
+      "repository_observed_at_utc": "2026-10-20T17:27:46Z",
+      "head_commit_sha": "d5ba055feb607d31bc55ce10a79e553e725b56ab",
+      "tag": "v1.1.0",
+      "tag_commit_sha": "d5ba055feb607d31bc55ce10a79e553e725b56ab",
+      "license": "MIT",
+      "release_url": "https://github.com/DooDesch-Mods/ScheduleOne-Chassis/releases/tag/v1.1.0",
+      "release_published_at_utc": "2026-10-20T13:35:06Z",
+      "release_assets": [
+        {
+          "name": "Chassis.dll",
+          "url": "https://github.com/DooDesch-Mods/ScheduleOne-Chassis/releases/download/v1.1.0/Chassis.dll",
+          "sha256": "53d76505150cb335ced0e7cfa85154376d2e6f65e34c649d77af6f6434b78b62"
+        }
+      ],
+      "reason": "AI authorship and immutable release evidence verified; held pending independent runtime compatibility and bounded security review."
+    },
+    {
+      "title": "Castle Story Steam Bridge (Steam P2P multiplayer)",
+      "kind": "mod",
+      "mod_platform": "mod (Castle Story, BepInEx)",
+      "disposition": "held",
+      "repository_role": "official_source",
+      "repository_url": "https://github.com/drago139/CastleStorySteamBridge",
+      "repository_discovery_source_urls": [
+        "https://github.com/drago139/CastleStorySteamBridge/blob/fad645dbbb17726bd94435a4e97318ef1418487a/README.md",
+        "https://github.com/drago139/CastleStorySteamBridge/releases/tag/v0.3.60"
+      ],
+      "ai_authorship_evidence_url": "https://github.com/drago139/CastleStorySteamBridge/blob/fad645dbbb17726bd94435a4e97318ef1418487a/README.md",
+      "ai_authorship_evidence": "Author: gnom. Developed with OpenAI Codex and Claude (Anthropic). Uses BepInEx and HarmonyX.",
+      "ai_authorship_present_at_release_tag": true,
+      "repository_observed_at_utc": "2026-10-20T17:27:46Z",
+      "head_commit_sha": "fad645dbbb17726bd94435a4e97318ef1418487a",
+      "tag": "v0.3.60",
+      "tag_commit_sha": "fad645dbbb17726bd94435a4e97318ef1418487a",
+      "license": "NOASSERTION (GitHub API)",
+      "release_url": "https://github.com/drago139/CastleStorySteamBridge/releases/tag/v0.3.60",
+      "release_published_at_utc": "2026-10-18T18:22:11Z",
+      "release_assets": [
+        {
+          "name": "CastleStory-SteamBridge-0.3.60.zip",
+          "url": "https://github.com/drago139/CastleStorySteamBridge/releases/download/v0.3.60/CastleStory-SteamBridge-0.3.60.zip",
+          "sha256": "8c03cc8b6b7a705d9ae35079a91b2ca5ef3bd540900aa10d3d7aac77b9b64d21"
+        }
+      ],
+      "reason": "AI authorship and immutable release evidence verified; held pending independent runtime compatibility and bounded security review."
+    },
+    {
+      "title": "Tower Dominion Leak Fix (memory-leak fixes)",
+      "kind": "mod",
+      "mod_platform": "mod (Tower Dominion, BepInEx & MelonLoader)",
+      "disposition": "held",
+      "repository_role": "official_source",
+      "repository_url": "https://github.com/cparedes/tower-dominion-leak-fix",
+      "repository_discovery_source_urls": [
+        "https://github.com/cparedes/tower-dominion-leak-fix/blob/15bc1064b064ae6d37fe5549dbd5793c2114a283/README.md",
+        "https://github.com/cparedes/tower-dominion-leak-fix/releases/tag/v1.3.0"
+      ],
+      "ai_authorship_evidence_url": "https://github.com/cparedes/tower-dominion-leak-fix/blob/15bc1064b064ae6d37fe5549dbd5793c2114a283/README.md",
+      "ai_authorship_evidence": "AI-generated: the investigation, code and documentation in this repository were produced with Claude (Anthropic) using Claude Code, directed and play-tested by Ian Paredes.",
+      "ai_authorship_present_at_release_tag": true,
+      "repository_observed_at_utc": "2026-10-20T17:27:46Z",
+      "head_commit_sha": "15bc1064b064ae6d37fe5549dbd5793c2114a283",
+      "tag": "v1.3.0",
+      "tag_commit_sha": "15bc1064b064ae6d37fe5549dbd5793c2114a283",
+      "license": "MIT",
+      "release_url": "https://github.com/cparedes/tower-dominion-leak-fix/releases/tag/v1.3.0",
+      "release_published_at_utc": "2026-10-15T20:44:39Z",
+      "release_assets": [
+        {
+          "name": "TowerDominion-LeakFix-1.3.0-plugins.zip",
+          "url": "https://github.com/cparedes/tower-dominion-leak-fix/releases/download/v1.3.0/TowerDominion-LeakFix-1.3.0-plugins.zip",
+          "sha256": "8e6fc1c8aaf25e760e4a7881b98e6cd4dc9f3beefaa4dfed384d1037e768b0c4"
+        },
+        {
+          "name": "TowerDominion-LeakFix-1.3.0-melonloader.zip",
+          "url": "https://github.com/cparedes/tower-dominion-leak-fix/releases/download/v1.3.0/TowerDominion-LeakFix-1.3.0-melonloader.zip",
+          "sha256": "acb71764f263fccca207bf1e3409624a44050b9fe92fad7a4fccf6c92d1b1ad6"
+        },
+        {
+          "name": "TowerDominion-LeakFix-1.3.0-with-BepInEx.zip",
+          "url": "https://github.com/cparedes/tower-dominion-leak-fix/releases/download/v1.3.0/TowerDominion-LeakFix-1.3.0-with-BepInEx.zip",
+          "sha256": "7f02fee54941606a6f40acd587efeaf049f40ef19518c2e74a4ff8be5a5d89dd"
+        }
+      ],
+      "reason": "AI authorship and immutable release evidence verified; held pending independent runtime compatibility and bounded security review."
+    },
+    {
+      "title": "Arisen's Ledger (quest tracker overlay, Dragon's Dogma 2)",
+      "kind": "mod",
+      "mod_platform": "mod (Dragon's Dogma 2, REFramework Lua)",
+      "disposition": "held",
+      "repository_role": "official_source",
+      "repository_url": "https://github.com/whiteyt223/arisens-ledger",
+      "repository_discovery_source_urls": [
+        "https://github.com/whiteyt223/arisens-ledger/blob/748a8726d91f629055fa1d46b853a62b5174e128/README.md",
+        "https://github.com/whiteyt223/arisens-ledger/releases/tag/v1.0.1"
+      ],
+      "ai_authorship_evidence_url": "https://github.com/whiteyt223/arisens-ledger/blob/748a8726d91f629055fa1d46b853a62b5174e128/README.md",
+      "ai_authorship_evidence": "This mod was built with substantial help from an AI assistant (Anthropic's Claude). That covers the Lua code, and the research and wording of the walkthrough notes, all directed and play-tested by a human.",
+      "ai_authorship_present_at_release_tag": true,
+      "repository_observed_at_utc": "2026-10-20T17:28:53Z",
+      "head_commit_sha": "748a8726d91f629055fa1d46b853a62b5174e128",
+      "tag": "v1.0.1",
+      "tag_commit_sha": "748a8726d91f629055fa1d46b853a62b5174e128",
+      "license": "NOASSERTION (GitHub API)",
+      "release_url": "https://github.com/whiteyt223/arisens-ledger/releases/tag/v1.0.1",
+      "release_published_at_utc": "2026-10-17T17:47:41Z",
+      "release_assets": [
+        {
+          "name": "ArisensLedger-1.0.1.zip",
+          "url": "https://github.com/whiteyt223/arisens-ledger/releases/download/v1.0.1/ArisensLedger-1.0.1.zip",
+          "sha256": "2e9a910d1d0664cd732d2ef26fdaaa65eddb5bea3f07607c3b15c677487afd82"
+        }
+      ],
+      "reason": "AI authorship and immutable release evidence verified; held pending independent runtime compatibility and bounded security review."
+    },
+    {
+      "title": "Rewind Together (co-op for Retro Rewind - Video Store Simulator)",
+      "kind": "mod",
+      "mod_platform": "mod (Retro Rewind - Video Store Simulator, co-op multiplayer)",
+      "disposition": "held",
+      "repository_role": "official_source",
+      "repository_url": "https://github.com/Geckomacabre/RewindTogether",
+      "repository_discovery_source_urls": [
+        "https://github.com/Geckomacabre/RewindTogether/blob/6cc58dcfc397a2cd4bb83c0982b78a140c431143/README.md",
+        "https://github.com/Geckomacabre/RewindTogether/releases/tag/v1.9.2"
+      ],
+      "ai_authorship_evidence_url": "https://github.com/Geckomacabre/RewindTogether/blob/6cc58dcfc397a2cd4bb83c0982b78a140c431143/README.md",
+      "ai_authorship_evidence": "Rewind Together: built by the Rewind Together team with heavy help from Claude (Anthropic) through Claude Code. Most of the code, the reverse engineering and the testing were done by an AI agent working on the team's own copy of the game.",
+      "ai_authorship_present_at_release_tag": true,
+      "repository_observed_at_utc": "2026-10-20T17:28:53Z",
+      "head_commit_sha": "6cc58dcfc397a2cd4bb83c0982b78a140c431143",
+      "tag": "v1.9.2",
+      "tag_commit_sha": "6cc58dcfc397a2cd4bb83c0982b78a140c431143",
+      "license": "NOASSERTION (GitHub API)",
+      "release_url": "https://github.com/Geckomacabre/RewindTogether/releases/tag/v1.9.2",
+      "release_published_at_utc": "2026-10-16T19:42:48Z",
+      "release_assets": [
+        {
+          "name": "RewindTogether-1.9.2.zip",
+          "url": "https://github.com/Geckomacabre/RewindTogether/releases/download/v1.9.2/RewindTogether-1.9.2.zip",
+          "sha256": "e873820814fbe94f3e583a11581a570bee8b3f221f44b6531c9765ed8e7c76cc"
+        }
+      ],
+      "reason": "AI authorship and immutable release evidence verified; held pending independent runtime compatibility and bounded security review."
+    },
+    {
+      "title": "TLOU2 Viewmodel (first-person arms/gun viewmodel, The Last of Us Part II)",
+      "kind": "mod",
+      "mod_platform": "mod (The Last of Us Part II PC)",
+      "disposition": "held",
+      "repository_role": "official_source",
+      "repository_url": "https://github.com/Awperati/tlou2-viewmodel",
+      "repository_discovery_source_urls": [
+        "https://github.com/Awperati/tlou2-viewmodel/blob/e895a75afc8cdab396005e316cf36a1e756583f4/README.md",
+        "https://github.com/Awperati/tlou2-viewmodel/releases/tag/v1.0.0"
+      ],
+      "ai_authorship_evidence_url": "https://github.com/Awperati/tlou2-viewmodel/blob/e895a75afc8cdab396005e316cf36a1e756583f4/README.md",
+      "ai_authorship_evidence": "Built with the help of AI (Claude Code by Anthropic): the reverse engineering, the code and the tests.",
+      "ai_authorship_present_at_release_tag": true,
+      "repository_observed_at_utc": "2026-10-20T17:29:37Z",
+      "head_commit_sha": "e895a75afc8cdab396005e316cf36a1e756583f4",
+      "tag": "v1.0.0",
+      "tag_commit_sha": "e895a75afc8cdab396005e316cf36a1e756583f4",
+      "license": "MIT",
+      "release_url": "https://github.com/Awperati/tlou2-viewmodel/releases/tag/v1.0.0",
+      "release_published_at_utc": "2026-10-20T11:10:11Z",
+      "release_assets": [
+        {
+          "name": "TLOU2Viewmodel-1.0.0.zip",
+          "url": "https://github.com/Awperati/tlou2-viewmodel/releases/download/v1.0.0/TLOU2Viewmodel-1.0.0.zip",
+          "sha256": "4c3c2d5e40d6a58d699038415fe075cee5b460a970719da801b36467de3e500f"
+        }
+      ],
+      "reason": "AI authorship and immutable release evidence verified; held pending independent runtime compatibility and bounded security review."
+    },
+    {
+      "title": "Super Hexagon Enhanced (240-500 FPS, widescreen)",
+      "kind": "mod",
+      "mod_platform": "mod (Super Hexagon, Steam; version.dll proxy)",
+      "disposition": "held",
+      "repository_role": "official_source",
+      "repository_url": "https://github.com/RealGaming1337/Super-Hexagon-Enhanced",
+      "repository_discovery_source_urls": [
+        "https://github.com/RealGaming1337/Super-Hexagon-Enhanced/blob/c413b335f19a2caf6835679b7f59e7354941e68f/README.md",
+        "https://github.com/RealGaming1337/Super-Hexagon-Enhanced/releases/tag/v1.0.0"
+      ],
+      "ai_authorship_evidence_url": "https://github.com/RealGaming1337/Super-Hexagon-Enhanced/blob/c413b335f19a2caf6835679b7f59e7354941e68f/README.md",
+      "ai_authorship_evidence": "AI disclosure: the reverse engineering and the code were done by Claude (Anthropic's AI) working with RealGaming1337, who directed and play-tested it.",
+      "ai_authorship_present_at_release_tag": true,
+      "repository_observed_at_utc": "2026-10-20T17:29:37Z",
+      "head_commit_sha": "c413b335f19a2caf6835679b7f59e7354941e68f",
+      "tag": "v1.0.0",
+      "tag_commit_sha": "c413b335f19a2caf6835679b7f59e7354941e68f",
+      "license": "NOASSERTION (GitHub API)",
+      "release_url": "https://github.com/RealGaming1337/Super-Hexagon-Enhanced/releases/tag/v1.0.0",
+      "release_published_at_utc": "2026-10-16T02:47:02Z",
+      "release_assets": [
+        {
+          "name": "Super-Hexagon-Enhanced.zip",
+          "url": "https://github.com/RealGaming1337/Super-Hexagon-Enhanced/releases/download/v1.0.0/Super-Hexagon-Enhanced.zip",
+          "sha256": "6195a56616d348ffbf255b1818611b9056c17559f501599a55a75d7b88642362"
+        },
+        {
+          "name": "version.dll",
+          "url": "https://github.com/RealGaming1337/Super-Hexagon-Enhanced/releases/download/v1.0.0/version.dll",
+          "sha256": "1be11e55287d24bca339f4088f0282a42e391065913843ea489954e703b4e2db"
+        }
+      ],
+      "reason": "AI authorship and immutable release evidence verified; held pending independent runtime compatibility and bounded security review."
+    },
+    {
+      "title": "Easy Language Packs (G1R Deluxe)",
+      "kind": "mod",
+      "mod_platform": "mod (G1R Deluxe)",
+      "disposition": "held",
+      "repository_role": "official_source",
+      "repository_url": "https://github.com/kakhonn/g1r-easy-language-packs",
+      "repository_discovery_source_urls": [
+        "https://github.com/kakhonn/g1r-easy-language-packs/blob/84d891a24f2595121ccbf26909228e1dce08a4ae/README.md",
+        "https://github.com/kakhonn/g1r-easy-language-packs/releases/tag/v1.3.1"
+      ],
+      "ai_authorship_evidence_url": "https://github.com/kakhonn/g1r-easy-language-packs/blob/84d891a24f2595121ccbf26909228e1dce08a4ae/README.md",
+      "ai_authorship_evidence": "This is a vibe-coded project, written with Claude (Anthropic's AI).",
+      "ai_authorship_present_at_release_tag": true,
+      "repository_observed_at_utc": "2026-10-20T17:30:15Z",
+      "head_commit_sha": "84d891a24f2595121ccbf26909228e1dce08a4ae",
+      "tag": "v1.3.1",
+      "tag_commit_sha": "84d891a24f2595121ccbf26909228e1dce08a4ae",
+      "license": "GPL-3.0",
+      "release_url": "https://github.com/kakhonn/g1r-easy-language-packs/releases/tag/v1.3.1",
+      "release_published_at_utc": "2026-10-20T14:39:46Z",
+      "release_assets": [
+        {
+          "name": "easy_language_packs-1.3.1.zip",
+          "url": "https://github.com/kakhonn/g1r-easy-language-packs/releases/download/v1.3.1/easy_language_packs-1.3.1.zip",
+          "sha256": "43a5f83ec304053603ce8babf17aee5752b8f3fef53182faeef3eea25ef6422e"
+        }
+      ],
+      "reason": "AI authorship and immutable release evidence verified; held pending independent runtime compatibility and bounded security review."
+    }
+  ]
+}

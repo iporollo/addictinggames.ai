@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "run_id": "2026-10-20T134949Z",
+  "records": [
+    {
+      "candidate_id": "M-01",
+      "title": "Vertical Cut",
+      "kind": "mod",
+      "disposition": "held",
+      "repository_url": "https://github.com/Knito58/vertical-cut",
+      "repository_observed_at_utc": "2026-10-20T14:09:00Z",
+      "release_url": "https://github.com/Knito58/vertical-cut/releases/tag/v1.0.1",
+      "release_asset_url": "https://github.com/Knito58/vertical-cut/releases/download/v1.0.1/vertical-cut-1.0.1.jar",
+      "tag": "v1.0.1",
+      "commit_sha": "f27c57bc8ca06966542e6371991ebc729254a68e",
+      "artifact_filename": "vertical-cut-1.0.1.jar",
+      "artifact_sha256": "0c9d4060b498e463f5d78f55662173a2cbad453d10b8e290538064b5f2c8e0d6",
+      "license": "MIT",
+      "repository_discovery_source_url": "https://github.com/Knito58/vertical-cut",
+      "hold_reason": "No independent working report or live client/server reproduction; bounded static review is not security clearance."
+    },
+    {
+      "candidate_id": "M-02",
+      "title": "Duskbound",
+      "kind": "mod",
+      "disposition": "held",
+      "repository_url": "https://github.com/LeifItToAI/duskbound",
+      "repository_observed_at_utc": "2026-10-20T14:09:00Z",
+      "release_url": "https://github.com/LeifItToAI/duskbound/releases/tag/v1.0.2",
+      "release_asset_url": "https://github.com/LeifItToAI/duskbound/releases/download/v1.0.2/duskbound-1.0.2%2Bmc26.2.jar",
+      "tag": "v1.0.2",
+      "commit_sha": "0784735ecbedf20ac8aff58ba2ac1941b458e3d6",
+      "artifact_filename": "duskbound-1.0.2+mc26.2.jar",
+      "artifact_sha256": "19f01c6e0c88bdbd72341422d532fde6f10c2bddf775c473338acde4af3b7827",
+      "license": "All-Rights-Reserved",
+      "repository_discovery_source_url": "https://github.com/LeifItToAI/duskbound",
+      "hold_reason": "No screenshots or independent working report; tagged repository exposes no reviewable source beyond README; partial static review cannot clear the JAR."
+    },
+    {
+      "candidate_id": "M-03",
+      "title": "Alan's Modpack",
+      "kind": "mod",
+      "disposition": "held",
+      "repository_url": "https://github.com/Alan13121/Alans-Modpack",
+      "repository_observed_at_utc": "2026-10-20T14:13:00Z",
+      "release_url": "https://github.com/Alan13121/Alans-Modpack/releases/tag/v1.4.0",
+      "release_asset_url": "https://github.com/Alan13121/Alans-Modpack/releases/download/v1.4.0/alans-modpack-1.4.0.mrpack",
+      "tag": "v1.4.0",
+      "commit_sha": "e6bb8f9c60f3f044571f7056753f1888c6771423",
+      "artifact_filename": "alans-modpack-1.4.0.mrpack",
+      "artifact_sha256": "eec7c31349a72bb457098a17d5d4b96799446bc4752358fbeb0e69557b7017c6",
+      "license": null,
+      "repository_discovery_source_url": "https://github.com/Alan13121/Alans-Modpack",
+      "hold_reason": "Insufficient game-specific AI-authorship evidence, no gameplay screenshots or independent working report, and a medium/high-confidence CWE-862 authorization gap."
+    }
+  ]
+}

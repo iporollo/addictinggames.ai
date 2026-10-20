@@ -1,0 +1,560 @@
+{
+  "schema_version": 1,
+  "run_id": "2026-10-20T153255Z",
+  "observed_at_utc": "2026-10-20T17:27:00Z",
+  "records": [
+    {
+      "title": "BCD",
+      "kind": "runtime",
+      "disposition": "excluded",
+      "repository_role": "official_source",
+      "repository_url": "https://github.com/thebcd69/bcd-games",
+      "repository_discovery_source_urls": [
+        "https://x.com/Forhanvv/status/2112257753192558800"
+      ],
+      "head_commit_sha": "84a83d2862518278aac2257f22148a7c71442a6e",
+      "tag": "v0.1.574",
+      "tag_commit_sha": "24ba5b8d2b7797e641cfbeb041d7dcc89b3b8947",
+      "license": "GPL-3.0",
+      "release_url": "https://github.com/thebcd69/bcd-games/releases/tag/v0.1.574",
+      "release_published_at_utc": "2026-10-19T16:05:03Z",
+      "release_assets": [
+        {
+          "name": "BCD-source.tar.xz",
+          "url": "https://github.com/thebcd69/bcd-games/releases/download/v0.1.574/BCD-source.tar.xz",
+          "size_bytes": 124211364,
+          "sha256": "d9ba8f452ba8de0dcb0ed071c81825c59ff0bb75aecf3e4e938912b2e6af615a"
+        },
+        {
+          "name": "BCD.ipa",
+          "url": "https://github.com/thebcd69/bcd-games/releases/download/v0.1.574/BCD.ipa",
+          "size_bytes": 164679993,
+          "sha256": "133aed59403559dc361e2c7e691ea8159c2578452bd1b628ab262f01ae7bcab5"
+        }
+      ],
+      "reason": "Native iOS runtime for commercial games, not a browser game or mod; no project-specific AI-authorship evidence."
+    },
+    {
+      "title": "MacNativeGames",
+      "kind": "runtime",
+      "disposition": "excluded",
+      "repository_role": "official_source",
+      "repository_url": "https://github.com/ly05010419/MacNativeGames",
+      "repository_discovery_source_urls": [
+        "https://x.com/0x0SojalSec/status/2111833062325805316",
+        "https://x.com/liyong2077/status/2111751050000769517"
+      ],
+      "head_commit_sha": "c5d86710dde242827a4c91143ff6f8f3420b3d81",
+      "tag": null,
+      "tag_commit_sha": null,
+      "license": "MIT",
+      "release_url": null,
+      "release_assets": [],
+      "reason": "Native macOS Nintendo game runtime, not a browser game; repository AI-tool wording is build advice rather than project authorship."
+    },
+    {
+      "title": "NPCTalk",
+      "kind": "mod_tool",
+      "disposition": "held",
+      "repository_role": "official_source",
+      "repository_url": "https://github.com/christos-antono/NPCTalk",
+      "repository_discovery_source_urls": [
+        "https://x.com/universalmodhq/status/2111026512057254236"
+      ],
+      "head_commit_sha": "59635ceb8ee010599c3caf9d9d1ee1aa114af91d",
+      "tag": null,
+      "tag_commit_sha": null,
+      "license": "MIT",
+      "release_url": null,
+      "release_assets": [],
+      "reason": "No tagged public artifact yet; cloned GTA V character voices also require a rights warning."
+    },
+    {
+      "title": "BBSC",
+      "kind": "mod",
+      "disposition": "held",
+      "repository_role": "official_source",
+      "repository_url": "https://github.com/CLSAMG22/BBSC",
+      "repository_discovery_source_urls": [
+        "https://x.com/Pirat_Nation/status/2110174498901373206"
+      ],
+      "head_commit_sha": "315f76c38b1ca5843b082f93f47927a9193ad94a",
+      "tag": "v0.0.1_items",
+      "tag_commit_sha": "315f76c38b1ca5843b082f93f47927a9193ad94a",
+      "license": "GPL-2.0",
+      "release_url": "https://github.com/CLSAMG22/BBSC/releases/tag/v0.0.1_items",
+      "release_published_at_utc": "2026-10-17T12:16:43Z",
+      "release_assets": [
+        {
+          "name": "BBSC-0.0.1-BBport-fork.zip",
+          "url": "https://github.com/CLSAMG22/BBSC/releases/download/v0.0.1_items/BBSC-0.0.1-BBport-fork.zip",
+          "size_bytes": 98440931,
+          "sha256": "4631a1ac5a3419b8fce44fcb9e1d13c9440c6958bf4710b43380456c09b1102a"
+        },
+        {
+          "name": "BBSC-0.0.1-Play.zip",
+          "url": "https://github.com/CLSAMG22/BBSC/releases/download/v0.0.1_items/BBSC-0.0.1-Play.zip",
+          "size_bytes": 61162255,
+          "sha256": "a2409e3ae012eed8227cc0db399bd873941bb9e67d3933bf32db07fbec2336d2"
+        }
+      ],
+      "reason": "Release and repository verified, but no creator AI-authorship statement was found."
+    },
+    {
+      "title": "DroidDeck",
+      "kind": "runtime",
+      "disposition": "excluded",
+      "repository_role": "official_source",
+      "repository_url": "https://github.com/Droid-Deck/DroidDeck",
+      "repository_discovery_source_urls": [
+        "https://x.com/Pirat_Nation/status/2109554666568917296"
+      ],
+      "head_commit_sha": "61254786e6a6d59e19b4d24230c7aec4d3f7070d",
+      "tag": "0.5.0",
+      "tag_commit_sha": "3c5e95afa8a18f5d70538ce025f80697a693a86a",
+      "license": "GPL-3.0",
+      "release_url": "https://github.com/Droid-Deck/DroidDeck/releases/tag/0.5.0",
+      "release_published_at_utc": "2026-10-18T15:39:08Z",
+      "release_assets": [
+        {
+          "name": "DroidDeck-0.5.0.apk",
+          "url": "https://github.com/Droid-Deck/DroidDeck/releases/download/0.5.0/DroidDeck-0.5.0.apk",
+          "size_bytes": 105925476,
+          "sha256": "ab6a53e41b6fa715bd3f9048ada53d22d8535ad2978d97943d723cf60fa430b1"
+        },
+        {
+          "name": "SHA256SUMS.txt",
+          "url": "https://github.com/Droid-Deck/DroidDeck/releases/download/0.5.0/SHA256SUMS.txt",
+          "size_bytes": 364,
+          "sha256": "8103eb64c5e54a460e4b9024e11dac47eb6f3b4d968ee6696e1f2642ac9a8fb1"
+        }
+      ],
+      "reason": "Android runtime rather than a browser game or mod; no project-specific AI-authorship evidence."
+    },
+    {
+      "title": "San Theft Auto",
+      "kind": "game",
+      "disposition": "duplicate",
+      "repository_role": "official_source",
+      "repository_url": "https://github.com/naderkhalil/santheftauto",
+      "repository_discovery_source_urls": [
+        "https://x.com/NaderLikeLadder/status/2108984110131941656"
+      ],
+      "head_commit_sha": "9b4efafbbfe01c074b010ae4341cdb9205b33bcf",
+      "tag": null,
+      "tag_commit_sha": null,
+      "license": "Apache-2.0",
+      "release_url": null,
+      "release_assets": [],
+      "reason": "Exact candidate identity already exists in a prior run receipt."
+    },
+    {
+      "title": "Halo OpenCE",
+      "kind": "native_port",
+      "disposition": "excluded",
+      "repository_role": "official_source",
+      "repository_url": "https://github.com/OpenCommunityEdition/OpenCE",
+      "repository_discovery_source_urls": [
+        "https://x.com/BE4T_37/status/2107478563947762134"
+      ],
+      "head_commit_sha": "9662f0f6cb60746444bee9549e4271e387fdc659",
+      "tag": "build-244",
+      "tag_commit_sha": "6ec42856d73e258e5a8c7e9cd19161f46d89d0e4",
+      "license": "AGPL-3.0",
+      "release_url": "https://github.com/OpenCommunityEdition/OpenCE/releases/tag/build-244",
+      "release_published_at_utc": "2026-10-19T14:36:28Z",
+      "release_assets": [
+        {
+          "name": "halo-web-release.zip",
+          "url": "https://github.com/OpenCommunityEdition/OpenCE/releases/download/build-244/halo-web-release.zip",
+          "size_bytes": 11477275,
+          "sha256": "3ab9c7e59c960fb90c520a36bc5359ae2bf0406911dd8eb2b7abf43b7a089fb7"
+        }
+      ],
+      "reason": "Native commercial-game port with no project-specific AI-authorship claim."
+    },
+    {
+      "title": "Math of the Wild",
+      "kind": "interactive_explainer",
+      "disposition": "duplicate",
+      "repository_role": "linked_content_source_only",
+      "repository_url": "https://github.com/openai/math",
+      "repository_discovery_source_urls": [
+        "https://www.mts.now/mathofthewild/",
+        "https://x.com/TetraspaceWest/status/2107946112866742718"
+      ],
+      "head_commit_sha": null,
+      "tag": null,
+      "tag_commit_sha": null,
+      "license": null,
+      "release_url": null,
+      "release_assets": [],
+      "reason": "Exact destination already exists in the catalog as terra-incognita. The page links this repository as content source; it is not verified as the interactive application's code repository."
+    },
+    {
+      "title": "Summiteer",
+      "kind": "mod",
+      "disposition": "held",
+      "repository_role": "official_source",
+      "repository_url": "https://github.com/gabmaybelle/summiteer",
+      "repository_discovery_source_urls": ["https://github.com/gabmaybelle/summiteer/releases/tag/v0.1.0"],
+      "ai_authorship_evidence_url": "https://github.com/gabmaybelle/summiteer/blob/f17d93c74143f10e4696b57e798ea467f5451129/README.md#L44",
+      "ai_authorship_evidence": "Made by Gabby with help from Claude, an AI assistant.",
+      "head_commit_sha": "f17d93c74143f10e4696b57e798ea467f5451129",
+      "tag": "v0.1.0",
+      "tag_commit_sha": "f17d93c74143f10e4696b57e798ea467f5451129",
+      "license": "MIT",
+      "release_url": "https://github.com/gabmaybelle/summiteer/releases/tag/v0.1.0",
+      "release_published_at_utc": "2026-10-20T09:35:04Z",
+      "release_assets": [
+        {"name":"summiteer-fabric-0.1.0.jar","url":"https://github.com/gabmaybelle/summiteer/releases/download/v0.1.0/summiteer-fabric-0.1.0.jar","size_bytes":82071,"sha256":"c908df4702eac9bf9c7374aac612f8e0e9facc207a64f7f140e00ce42df004af"},
+        {"name":"summiteer-neoforge-0.1.0.jar","url":"https://github.com/gabmaybelle/summiteer/releases/download/v0.1.0/summiteer-neoforge-0.1.0.jar","size_bytes":89663,"sha256":"0af2646cf09924a1c2d29854fcd272057c3d0a06e52fcfddad120354e2080d9a"}
+      ],
+      "reason": "Creator README contains a project-specific AI claim and an exact release exists, but there is no independent working report or completed bounded security review."
+    },
+    {
+      "title": "Cozy Core",
+      "kind": "mod",
+      "disposition": "held",
+      "repository_role": "official_source",
+      "repository_url": "https://github.com/gabmaybelle/cozy-core",
+      "repository_discovery_source_urls": ["https://github.com/gabmaybelle/cozy-core/releases/tag/v0.6.0%2B1.21.1"],
+      "ai_authorship_evidence_url": "https://github.com/gabmaybelle/cozy-core/blob/7fdce6c1a6cc8f0bcdd4927855a7fecac7805b85/README.md#L88",
+      "ai_authorship_evidence": "Cozy Core is made by Gabby with help from Claude, an AI assistant.",
+      "head_commit_sha": "520d6864148dae3153f49418d879e73600573237",
+      "tag": "v0.6.0+1.21.1",
+      "tag_commit_sha": "7fdce6c1a6cc8f0bcdd4927855a7fecac7805b85",
+      "license": "MIT",
+      "release_url": "https://github.com/gabmaybelle/cozy-core/releases/tag/v0.6.0%2B1.21.1",
+      "release_published_at_utc": "2026-10-19T22:49:42Z",
+      "release_assets": [
+        {"name":"cozy-core-0.6.0+1.21.1-fabric.jar","url":"https://github.com/gabmaybelle/cozy-core/releases/download/v0.6.0%2B1.21.1/cozy-core-0.6.0%2B1.21.1-fabric.jar","size_bytes":844346,"sha256":"1edb7a756c307c65dfbd5a7b9a362f77a69d2158cb78bfac1418d143e7ea8ee7"},
+        {"name":"cozy-core-0.6.0+1.21.1-neoforge.jar","url":"https://github.com/gabmaybelle/cozy-core/releases/download/v0.6.0%2B1.21.1/cozy-core-0.6.0%2B1.21.1-neoforge.jar","size_bytes":823644,"sha256":"970b2c8d7c238a23b75ca60bca13bf77a4aaf966288187275c43b44a953c7d40"},
+        {"name":"cozy-core-0.6.0+1.21.1.zip","url":"https://github.com/gabmaybelle/cozy-core/releases/download/v0.6.0%2B1.21.1/cozy-core-0.6.0%2B1.21.1.zip","size_bytes":129495,"sha256":"a44aba0b8c453750065ccc66d9ab5f1dbe733769acf4d0a846c73b7e0f8691b7"}
+      ],
+      "reason": "Creator README contains a project-specific AI claim and an exact release exists, but there is no independent working report or completed bounded security review."
+    },
+    {
+      "title": "Not Now, Shield",
+      "kind": "mod",
+      "disposition": "held",
+      "repository_role": "official_source",
+      "repository_url": "https://github.com/gabmaybelle/not-now-shield",
+      "repository_discovery_source_urls": ["https://github.com/gabmaybelle/not-now-shield/releases/tag/v1.3.0%2B1.21.1"],
+      "ai_authorship_evidence_url": "https://github.com/gabmaybelle/not-now-shield/blob/370ebd69eaa545ca97457d811e7fa29edb7956b5/README.md#L69",
+      "ai_authorship_evidence": "Not Now, Shield is made by Gabby with help from Claude, an AI assistant.",
+      "head_commit_sha": "955653564e4ea756ea9e23318dcc0b6a0681fcc3",
+      "tag": "v1.3.0+1.21.1",
+      "tag_commit_sha": "370ebd69eaa545ca97457d811e7fa29edb7956b5",
+      "license": "MIT",
+      "release_url": "https://github.com/gabmaybelle/not-now-shield/releases/tag/v1.3.0%2B1.21.1",
+      "release_published_at_utc": "2026-10-17T02:42:15Z",
+      "release_assets": [
+        {"name":"not-now-shield-fabric-1.3.0+1.21.1.jar","url":"https://github.com/gabmaybelle/not-now-shield/releases/download/v1.3.0%2B1.21.1/not-now-shield-fabric-1.3.0%2B1.21.1.jar","size_bytes":6627,"sha256":"6481ddf49046701def3b912b6229237beed126ecd29e0bb806e9d2ef48808d0e"},
+        {"name":"not-now-shield-neoforge-1.3.0+1.21.1.jar","url":"https://github.com/gabmaybelle/not-now-shield/releases/download/v1.3.0%2B1.21.1/not-now-shield-neoforge-1.3.0%2B1.21.1.jar","size_bytes":6270,"sha256":"4b737be80e626644ec88ee669f9ce4ed9b9065d32916e82818e9a5450ebe22b0"}
+      ],
+      "reason": "Creator README contains a project-specific AI claim and an exact release exists, but there is no independent working report or completed bounded security review."
+    },
+    {
+      "title": "Nightfall Clock",
+      "kind": "mod",
+      "disposition": "held",
+      "repository_role": "official_source",
+      "repository_url": "https://github.com/gabmaybelle/nightfall-clock",
+      "repository_discovery_source_urls": ["https://github.com/gabmaybelle/nightfall-clock/releases/tag/v0.3.1"],
+      "ai_authorship_evidence_url": "https://github.com/gabmaybelle/nightfall-clock/blob/fda011b3096d4e810003219a5ec160df4acb5db3/README.md#L69",
+      "ai_authorship_evidence": "Nightfall Clock is made by Gabby with help from Claude, an AI assistant.",
+      "head_commit_sha": "9f9ed02643996d441756daed34f2f2b7c2efb2e0",
+      "tag": "v0.3.1",
+      "tag_commit_sha": "fda011b3096d4e810003219a5ec160df4acb5db3",
+      "license": "MIT",
+      "release_url": "https://github.com/gabmaybelle/nightfall-clock/releases/tag/v0.3.1",
+      "release_published_at_utc": "2026-10-16T21:57:33Z",
+      "release_assets": [
+        {"name":"nightfallclock-fabric-0.3.1.jar","url":"https://github.com/gabmaybelle/nightfall-clock/releases/download/v0.3.1/nightfallclock-fabric-0.3.1.jar","size_bytes":26923,"sha256":"07fdfa5e2f801048fdbba8858ccab20db4fbf946966e730d1975c3eb74be6cb9"},
+        {"name":"nightfallclock-neoforge-0.3.1.jar","url":"https://github.com/gabmaybelle/nightfall-clock/releases/download/v0.3.1/nightfallclock-neoforge-0.3.1.jar","size_bytes":26035,"sha256":"703de5a3f6f3b62b248c32038787c58137aa609264e50da4cd89b539ac7a0b53"}
+      ],
+      "reason": "Creator README contains a project-specific AI claim and an exact release exists, but there is no independent working report or completed bounded security review."
+    },
+    {
+      "title": "Pocket List",
+      "kind": "mod",
+      "disposition": "held",
+      "repository_role": "official_source",
+      "repository_url": "https://github.com/gabmaybelle/pocket-list",
+      "repository_discovery_source_urls": ["https://github.com/gabmaybelle/pocket-list/releases/tag/v0.3.0%2B1.21.1"],
+      "ai_authorship_evidence_url": "https://github.com/gabmaybelle/pocket-list/blob/84aff7dd74486d59ff9c20d2004f907ceb04a094/README.md#L100",
+      "ai_authorship_evidence": "Pocket List is made by Gabby with help from Claude, an AI assistant.",
+      "head_commit_sha": "c92a493ee2c15e206ab739be7349500f6013f7ce",
+      "tag": "v0.3.0+1.21.1",
+      "tag_commit_sha": "84aff7dd74486d59ff9c20d2004f907ceb04a094",
+      "license": "MIT",
+      "release_url": "https://github.com/gabmaybelle/pocket-list/releases/tag/v0.3.0%2B1.21.1",
+      "release_published_at_utc": "2026-10-17T08:55:43Z",
+      "release_assets": [
+        {"name":"pocket-list-fabric-0.3.0+1.21.1.jar","url":"https://github.com/gabmaybelle/pocket-list/releases/download/v0.3.0%2B1.21.1/pocket-list-fabric-0.3.0%2B1.21.1.jar","size_bytes":100066,"sha256":"60711b340d55393ac81f83ac7f05fc41357e869482c39e59b53d44dc29f92b49"},
+        {"name":"pocket-list-neoforge-0.3.0+1.21.1.jar","url":"https://github.com/gabmaybelle/pocket-list/releases/download/v0.3.0%2B1.21.1/pocket-list-neoforge-0.3.0%2B1.21.1.jar","size_bytes":99644,"sha256":"1fa99156e0e7da27ce1303ef8c1f02aea25169f32957ab3a09df469912de7551"}
+      ],
+      "reason": "Creator README contains a project-specific AI claim and an exact release exists, but there is no independent working report or completed bounded security review."
+    },
+    {
+      "title": "Hardscrabble",
+      "kind": "mod",
+      "disposition": "held",
+      "repository_role": "official_source",
+      "repository_url": "https://github.com/nogaruki/hardscrabble",
+      "repository_discovery_source_urls": ["https://github.com/nogaruki/hardscrabble/releases/tag/v0.1.0-alpha"],
+      "ai_authorship_evidence_url": "https://github.com/nogaruki/hardscrabble/blob/54ed1c04df408656a5eefcb9ce96fa52963e3b28/README.md#L518-L519",
+      "ai_authorship_evidence": "Exact release-tag README says code, textures, mob models, sounds, and documentation were written by Claude Opus 5.5 through Claude Code under owner direction.",
+      "head_commit_sha": "54ed1c04df408656a5eefcb9ce96fa52963e3b28",
+      "tag": "v0.1.0-alpha",
+      "tag_commit_sha": "54ed1c04df408656a5eefcb9ce96fa52963e3b28",
+      "license": "LGPL-3.0",
+      "release_url": "https://github.com/nogaruki/hardscrabble/releases/tag/v0.1.0-alpha",
+      "release_published_at_utc": "2026-10-19T12:45:19Z",
+      "release_assets": [{"name":"hardscrabble-0.1.0-alpha.jar","url":"https://github.com/nogaruki/hardscrabble/releases/download/v0.1.0-alpha/hardscrabble-0.1.0-alpha.jar","size_bytes":2464818,"sha256":"3e90d58441b2bfd717073913d34bddd16a244157c60a6251d17d7c96f596f9cc"}],
+      "reason": "The exact prerelease tag contains a project-specific Claude authorship statement. Publication remains held for independent working proof, artifact-to-source verification, and completed bounded security/runtime review."
+    },
+    {
+      "title": "Create: Octo Arms",
+      "kind": "mod",
+      "disposition": "held",
+      "repository_role": "official_source",
+      "repository_url": "https://github.com/SenDeliver/create-octo-arms",
+      "repository_discovery_source_urls": ["https://github.com/SenDeliver/create-octo-arms/releases/tag/v1.4.0"],
+      "ai_authorship_evidence_url": "https://github.com/SenDeliver/create-octo-arms/blob/691b605b79fd446c663d7068b80e6006722643f8/README.md#L235",
+      "ai_authorship_evidence": "Exact release-tag README says the project was developed with AI assistance from Claude.",
+      "head_commit_sha": "691b605b79fd446c663d7068b80e6006722643f8",
+      "tag": "v1.4.0",
+      "tag_commit_sha": "691b605b79fd446c663d7068b80e6006722643f8",
+      "license": "MIT",
+      "release_url": "https://github.com/SenDeliver/create-octo-arms/releases/tag/v1.4.0",
+      "release_published_at_utc": "2026-10-20T15:58:27Z",
+      "release_assets": [{"name":"octo-arms-1.4.0+mc1.21.1.jar","url":"https://github.com/SenDeliver/create-octo-arms/releases/download/v1.4.0/octo-arms-1.4.0%2Bmc1.21.1.jar","size_bytes":297568,"sha256":"4e97d689af611895b44189b99a1d2907d934ffca4a5931e43e78223d9dd1ed16"}],
+      "reason": "The exact release tag contains a project-specific Claude authorship statement. Publication remains held for independent working proof, artifact-to-source verification, and completed bounded security/runtime review."
+    },
+    {
+      "title": "NieR:Automata Archipelago Hook",
+      "kind": "mod",
+      "disposition": "held",
+      "repository_role": "official_source",
+      "repository_url": "https://github.com/Naokyoo/NieR_Archipelago_Hook",
+      "repository_discovery_source_urls": ["https://github.com/Naokyoo/NieR_Archipelago_Hook/releases/tag/v0.1.0-prebeta"],
+      "ai_authorship_evidence_url": "https://github.com/Naokyoo/NieR_Archipelago_Hook/blob/434c37ff35c426847b9f98e8f48e8ee429f141c3/README.md#L164-L176",
+      "ai_authorship_evidence": "The v0.1.1-prebeta release commit README says the project was made mainly with Claude through Claude Code and describes AI-assisted reverse engineering and code.",
+      "release_tag_ai_authorship_evidence_url": "https://github.com/Naokyoo/NieR_Archipelago_Hook/blob/434c37ff35c426847b9f98e8f48e8ee429f141c3/README.md#L164-L176",
+      "head_commit_sha": "434c37ff35c426847b9f98e8f48e8ee429f141c3",
+      "tag": "v0.1.1-prebeta",
+      "tag_commit_sha": "434c37ff35c426847b9f98e8f48e8ee429f141c3",
+      "license": "MIT",
+      "release_url": "https://github.com/Naokyoo/NieR_Archipelago_Hook/releases/tag/v0.1.1-prebeta",
+      "release_published_at_utc": "2026-10-20T16:36:36Z",
+      "release_assets": [{"name":"NieR-Automata-Archipelago-0.1.1-prebeta.zip","url":"https://github.com/Naokyoo/NieR_Archipelago_Hook/releases/download/v0.1.1-prebeta/NieR-Automata-Archipelago-0.1.1-prebeta.zip","size_bytes":12066144,"sha256":"f2424b94cd583f1431b1eaee434b06d697134b84f2e239bf9a90eefee3714e77"}],
+      "reason": "The exact v0.1.1 prerelease has project-specific Claude authorship evidence, but the source contains an automatic wss-to-ws fallback that can expose the Archipelago slot password; no independent working report exists and commercial NieR IP requires a rights warning."
+    },
+    {
+      "title": "Tales of Eternia Water's Edition",
+      "kind": "mod",
+      "disposition": "held",
+      "repository_role": "official_source",
+      "repository_url": "https://github.com/Water130/tales-of-eternia-waters-edition",
+      "repository_discovery_source_urls": ["https://github.com/Water130/tales-of-eternia-waters-edition/releases/tag/v0.12.13-test"],
+      "ai_authorship_evidence_url": "https://github.com/Water130/tales-of-eternia-waters-edition/blob/e91fe6008fa20a0b1764b535dd5b4dd364b9b414/README.md#L57-L61",
+      "ai_authorship_evidence": "The exact release README says all mod code was written by AI, but does not identify which AI tool wrote this project; Codex and Claude are mentioned only as examples of the creator's usual workflow.",
+      "head_commit_sha": "e91fe6008fa20a0b1764b535dd5b4dd364b9b414",
+      "tag": "v0.12.13-test",
+      "tag_commit_sha": "e91fe6008fa20a0b1764b535dd5b4dd364b9b414",
+      "license": null,
+      "release_url": "https://github.com/Water130/tales-of-eternia-waters-edition/releases/tag/v0.12.13-test",
+      "release_published_at_utc": "2026-10-20T16:10:50Z",
+      "release_assets": [
+        {"name":"Tales-of-Eternia-Waters-Edition-0.12.13-Easy-Install.sha256","url":"https://github.com/Water130/tales-of-eternia-waters-edition/releases/download/v0.12.13-test/Tales-of-Eternia-Waters-Edition-0.12.13-Easy-Install.sha256","size_bytes":124,"sha256":"c602d32e4574992789328e1a1ed1336f326039dae96aa3288fd1ea495cabb777"},
+        {"name":"Tales-of-Eternia-Waters-Edition-0.12.13-Easy-Install.zip","url":"https://github.com/Water130/tales-of-eternia-waters-edition/releases/download/v0.12.13-test/Tales-of-Eternia-Waters-Edition-0.12.13-Easy-Install.zip","size_bytes":2527024,"sha256":"d932803471e268a80f5829200a4c744a4b18eee26a408cd7b9da09a1d1d0a273"}
+      ],
+      "reason": "Held at authorship qualification because the exact project claim does not name its AI tool. There is also no license, independent working report, or completed bounded security review; commercial Tales of Eternia IP requires a rights warning."
+    },
+    {
+      "title": "STARWEAVE",
+      "kind": "game",
+      "disposition": "eligible",
+      "repository_role": "official_source",
+      "repository_url": "https://github.com/secondmax/STARWEAVE",
+      "repository_discovery_source_urls": [
+        "https://secondmax.github.io/STARWEAVE/",
+        "https://x.com/second_max_ok/status/2112460297793613837"
+      ],
+      "head_commit_sha": "6d099ca20d32d81597f05debdb9ee919751ac2af",
+      "tag": null,
+      "tag_commit_sha": null,
+      "license": null,
+      "release_url": null,
+      "release_assets": [],
+      "reason": "Official public source behind the creator-hosted GitHub Pages game. Direct guest gameplay passed; the repository has no license or tagged release."
+    },
+    {
+      "title": "Disposable Tricks",
+      "kind": "game",
+      "disposition": "held",
+      "repository_role": "official_source",
+      "repository_url": "https://github.com/laminema0/disposable-tricks",
+      "repository_discovery_source_urls": ["https://disposable-tricks.pages.dev/"],
+      "head_commit_sha": "48661998b8f8464b2a344d17e51683901d2fec44",
+      "tag": null,
+      "tag_commit_sha": null,
+      "license": null,
+      "release_url": null,
+      "release_assets": [],
+      "reason": "README identifies Claude Code as the AI engineer. Held pending gameplay verification; repository has no license or tagged release."
+    },
+    {
+      "title": "Tiny Rampage",
+      "kind": "game",
+      "disposition": "held",
+      "repository_role": "official_source",
+      "repository_url": "https://github.com/b1rdmania/tiny-rampage",
+      "repository_discovery_source_urls": ["https://tiny-rampage.pages.dev/"],
+      "head_commit_sha": "32e73b384d4f1f99248ef62a06975f093700f672",
+      "tag": null,
+      "tag_commit_sha": null,
+      "license": "MIT",
+      "release_url": null,
+      "release_assets": [],
+      "reason": "README says the game was built with Claude Code. Held pending gameplay and third-party map-tile rights verification."
+    },
+    {
+      "title": "TT Kitchen",
+      "kind": "game",
+      "disposition": "held",
+      "repository_role": "official_source",
+      "repository_url": "https://github.com/adong/kitchen-tt",
+      "repository_discovery_source_urls": ["https://adong.github.io/kitchen-tt/"],
+      "head_commit_sha": "b5035111406636b5f45291ef40a5ec39d7a0d2c8",
+      "tag": null,
+      "tag_commit_sha": null,
+      "license": null,
+      "release_url": null,
+      "release_assets": [],
+      "reason": "README says the game was built with Claude Code. Held pending gameplay verification; repository has no license or tagged release."
+    },
+    {
+      "title": "TT Kart",
+      "kind": "game",
+      "disposition": "held",
+      "repository_role": "official_source",
+      "repository_url": "https://github.com/adong/kart-tt",
+      "repository_discovery_source_urls": ["https://adong.github.io/kart-tt/"],
+      "head_commit_sha": "2a17664a3334bf3f53971012baa8be18446b5a09",
+      "tag": null, "tag_commit_sha": null, "license": null, "release_url": null, "release_assets": [],
+      "reason": "README says the game was built with Claude Code. Held pending gameplay verification; repository has no license or tagged release."
+    },
+    {
+      "title": "TT Mini Golf",
+      "kind": "game",
+      "disposition": "held",
+      "repository_role": "official_source",
+      "repository_url": "https://github.com/adong/mini-golf-tt",
+      "repository_discovery_source_urls": ["https://adong.github.io/mini-golf-tt/"],
+      "head_commit_sha": "2274bcdf7cfedac147ae922a3d078e3a421b28f3",
+      "tag": null, "tag_commit_sha": null, "license": null, "release_url": null, "release_assets": [],
+      "reason": "README says the game was built with Claude Code. Held pending gameplay verification; repository has no license or tagged release."
+    },
+    {
+      "title": "TT Cookie Chase",
+      "kind": "game",
+      "disposition": "held",
+      "repository_role": "official_source",
+      "repository_url": "https://github.com/adong/cookie-chase-tt",
+      "repository_discovery_source_urls": ["https://adong.github.io/cookie-chase-tt/"],
+      "head_commit_sha": "e01e86124a139569a10c929aeee7e91c42250e81",
+      "tag": null, "tag_commit_sha": null, "license": null, "release_url": null, "release_assets": [],
+      "reason": "README says the game was built with Claude Code. Held pending gameplay verification; repository has no license or tagged release."
+    },
+    {
+      "title": "TT Gomoku",
+      "kind": "game",
+      "disposition": "held",
+      "repository_role": "official_source",
+      "repository_url": "https://github.com/adong/gomoku-tt",
+      "repository_discovery_source_urls": ["https://adong.github.io/gomoku-tt/"],
+      "head_commit_sha": "cbca1bad763e8d794e07bc8f21a734ab1686d07b",
+      "tag": null, "tag_commit_sha": null, "license": null, "release_url": null, "release_assets": [],
+      "reason": "README says the game was built with Claude Code. Held pending gameplay verification; repository has no license or tagged release."
+    },
+    {
+      "title": "TT Jungle Chess",
+      "kind": "game",
+      "disposition": "held",
+      "repository_role": "official_source",
+      "repository_url": "https://github.com/adong/jungle-chess-tt",
+      "repository_discovery_source_urls": ["https://adong.github.io/jungle-chess-tt/"],
+      "head_commit_sha": "5ddeb18a4d62d29cadfe945886cde8b16b61f420",
+      "tag": null, "tag_commit_sha": null, "license": null, "release_url": null, "release_assets": [],
+      "reason": "README says the game was built with Claude Code. Held pending gameplay verification; repository has no license or tagged release."
+    },
+    {
+      "title": "TT Flying Chess",
+      "kind": "game",
+      "disposition": "held",
+      "repository_role": "official_source",
+      "repository_url": "https://github.com/adong/flying-chess-tt",
+      "repository_discovery_source_urls": ["https://adong.github.io/flying-chess-tt/"],
+      "head_commit_sha": "ac663f31ede51bc62dd8470981bdf7ec9141cb55",
+      "tag": null, "tag_commit_sha": null, "license": null, "release_url": null, "release_assets": [],
+      "reason": "README says the game was built with Claude Code. Held pending gameplay verification; repository has no license or tagged release."
+    },
+    {
+      "title": "TT Word Pop",
+      "kind": "game",
+      "disposition": "held",
+      "repository_role": "official_source",
+      "repository_url": "https://github.com/adong/word-pop-tt",
+      "repository_discovery_source_urls": ["https://adong.github.io/word-pop-tt/"],
+      "head_commit_sha": "44b663b1813afbe7d794deff0d21d6743748988f",
+      "tag": null, "tag_commit_sha": null, "license": null, "release_url": null, "release_assets": [],
+      "reason": "README says the game was built with Claude Code. Held pending gameplay verification; repository has no license or tagged release."
+    },
+    {
+      "title": "Spot TT Animals",
+      "kind": "game",
+      "disposition": "held",
+      "repository_role": "official_source",
+      "repository_url": "https://github.com/adong/spot-tt-animals",
+      "repository_discovery_source_urls": ["https://adong.github.io/spot-tt-animals/"],
+      "head_commit_sha": "5672988375b02ece6e611185bf027a0f451d9142",
+      "tag": null, "tag_commit_sha": null, "license": null, "release_url": null, "release_assets": [],
+      "reason": "README says the game was built with Claude Code. Held pending gameplay verification; repository has no license or tagged release."
+    },
+    {
+      "title": "TT Tic-Tac-Toe",
+      "kind": "game",
+      "disposition": "held",
+      "repository_role": "official_source",
+      "repository_url": "https://github.com/adong/tic-tac-toe-tt",
+      "repository_discovery_source_urls": ["https://adong.github.io/tic-tac-toe-tt/"],
+      "head_commit_sha": "a471f109388b76558f973d08d22f9f678b2fdbad",
+      "tag": null, "tag_commit_sha": null, "license": null, "release_url": null, "release_assets": [],
+      "reason": "README says the game was built with Claude Code. Held pending gameplay verification; repository has no license or tagged release."
+    },
+    {
+      "title": "Yarn Planet 毛线星球",
+      "kind": "game",
+      "disposition": "held",
+      "repository_role": "official_source",
+      "repository_url": "https://github.com/makerjackie/yarn-planet",
+      "repository_discovery_source_urls": ["https://yarn.ynot.games/"],
+      "head_commit_sha": "5c8acce8df04fc7788d48a98343e38c05a458a16",
+      "tag": "v1.0.0",
+      "tag_commit_sha": "db7e4f0f68ab886f6329bb17189f4816610737ca",
+      "license": "MIT",
+      "release_url": "https://github.com/makerjackie/yarn-planet/releases/tag/v1.0.0",
+      "release_published_at_utc": "2026-10-20T05:59:59Z",
+      "release_assets": [
+        {"name":"cover-en.jpg","url":"https://github.com/makerjackie/yarn-planet/releases/download/v1.0.0/cover-en.jpg","size_bytes":356985,"sha256":"f15e0691cc51e40bb55d7f86e37a4ff27f2ac7714bc12dccbbd12005aa8b487b"},
+        {"name":"cover-zh.jpg","url":"https://github.com/makerjackie/yarn-planet/releases/download/v1.0.0/cover-zh.jpg","size_bytes":383558,"sha256":"312e6bcb809d5f2a14f67f56e9c2d930a62498e13f0f35b0f6a6fd484ef68230"},
+        {"name":"yarn-planet-promo-en.mp4","url":"https://github.com/makerjackie/yarn-planet/releases/download/v1.0.0/yarn-planet-promo-en.mp4","size_bytes":14323744,"sha256":"7b638eaa3227af369857d6951fbb16165696624de703be5063f325ea8f9bd6b7"},
+        {"name":"yarn-planet-promo-zh.mp4","url":"https://github.com/makerjackie/yarn-planet/releases/download/v1.0.0/yarn-planet-promo-zh.mp4","size_bytes":14336418,"sha256":"685a2397f01725551c7c6edb1a5f44650d82bfd38eff681bf4224912f61107ae"}
+      ],
+      "reason": "README says Claude Opus 5.5 did most planning, coding, and integration. Git tag v1.0.0 peels to the recorded immutable commit; its GitHub release contains two covers and two promo videos with API-provided digests, not a separate playable binary. Held pending gameplay verification."
+    }
+  ]
+}

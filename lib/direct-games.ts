@@ -14,6 +14,21 @@ export type DirectGame = {
 };
 
 const source: [string, string, string, string, string, string?][] = [
+  // October 20 full-duration Scout run, wave 2: creator AI evidence and guest gameplay verified.
+  ["birdieswing-island-run", "BirdieSwing Island Run", "Sports", "Swing through a colorful island golf course", "https://www.birdieswing.com/play", "/games/oct20-birdieswing-island-run.webp"],
+  ["3d-jelly-shooter-arcade", "3D Jelly Shooter Arcade", "Shooter", "Blast jelly fruit targets in a bright 3D arcade", "https://argonfruitshooter.netlify.app/", "/games/oct20-jelly-shooter.webp"],
+  ["monster-forest-survival", "魔物の森サバイバル", "Survival", "Survive waves of monsters in a forest arena", "https://tuyotanjp.github.io/vampire-like-shooter/", "/games/oct20-monster-forest-survival.webp"],
+  ["flick-typing", "フリック脳汁タイピング", "Arcade", "Type Japanese prompts with quick flick inputs", "https://dopa-typing.vercel.app/", "/games/oct20-flick-typing.webp"],
+  ["keep-knight", "Keep Knight", "Tower Defense", "Place defenses and protect a fantasy keep", "https://viggle.ai/games/keep-knight/", "/games/oct20-keep-knight.webp"],
+  ["final-stretch", "Final Stretch 直線一気", "Strategy", "Choose movement cards in a fictional horse race", "https://jutsushi-tamaki.itch.io/chokusen-ikki", "/games/oct20-final-stretch.webp"],
+  ["gullivers-travels", "Gulliver's Travels", "Adventure", "Explore a storybook island as the shipwrecked Gulliver", "https://gulliver.defiabell.com/", "/games/oct20-gullivers-travels.webp"],
+  ["starweave", "STARWEAVE 星织", "Puzzle", "Connect stars and shape glowing constellations", "https://secondmax.github.io/STARWEAVE/", "/games/oct20-starweave.webp"],
+  ["space-mission", "Space Mission", "Arcade", "Pilot a rocket through rings on a space mission", "https://space-game-deploy.vercel.app/", "/games/oct20-space-mission.webp"],
+  ["ponpoko-catch", "ポンポコキャッチ", "Arcade", "Catch falling food with a cheerful tanuki", "https://ponpoko-catch.netlify.app/", "/games/oct20-ponpoko-catch.webp"],
+  ["castleforged", "Castleforged", "Strategy", "Build a castle and command forces against an AI", "https://castleforged.itch.io/castleforged", "/games/oct20-castleforged.webp"],
+  // October 20 AI Game Scout full-duration run: owner bookmarks re-qualified and guest gameplay verified.
+  ["lost-marbles", "Lost Marbles", "Racing", "Race a marble through a live multiplayer obstacle course", "https://meticulai.com/games/lost-marbles/", "/games/oct20-lost-marbles.webp"],
+  ["roadster-rush", "Roadster Rush", "Racing", "Fly a futuristic roadster through highway obstacles", "https://roadster-rush.ai.studio/", "/games/oct20-roadster-rush.webp"],
   // October 20 AI Game Scout batch: creator AI evidence and meaningful guest input verified.
   ["wind-path", "Wind Path", "Adventure", "Explore a lantern-lit shrine path and seek three shrines", "https://lowkyfooldev.github.io/wind-path/", "/games/oct20-wind-path.webp"],
   ["kestrel-nights", "Kestrel Nights", "Action", "Swing and fly through a neon city", "https://hasib-kestrel-nights.netlify.app/", "/games/oct20-kestrel-nights.webp"],
@@ -487,6 +502,19 @@ const source: [string, string, string, string, string, string?][] = [
 ];
 
 const reviewNotes: Record<string, string> = {
+  'birdieswing-island-run': 'The short guest test muted with the in-player control, started Island Run, reached the tee, and advanced the swing prompt into its target/impact timing cues; a shot landing or completed hole was not confirmed. Sharing a daily challenge is not treated as live multiplayer.',
+  '3d-jelly-shooter-arcade': 'The short guest test verified responsive shooting in the creator-hosted 3D arcade but did not complete a run.',
+  'monster-forest-survival': 'The short guest test muted with the in-player control, entered Wave 1, and verified movement in the rendered forest arena. The run reached GAME OVER after 27 seconds with 13 kills; autonomous attacks and timer progress are not attributed solely to the movement input.',
+  'flick-typing': 'Japanese flick-typing game. The short guest test verified a responsive typing round but did not complete an extended session.',
+  'keep-knight': 'Fantasy tower-defense combat. The short guest test verified responsive defense interaction but did not complete the battle.',
+  'final-stretch': 'Fictional horse-racing strategy with no betting. The short guest test muted commentary and effects, played one movement card in solo mode, and advanced to Round 2; it did not complete the race. Advertised server-based online rooms were not tested.',
+  'gullivers-travels': 'The short guest test set in-game volume to zero, entered the beach scene, and verified a responsive Space input; it did not complete the escape. No source repository or license was exposed in the tested page.',
+  'starweave': 'The short guest test verified responsive constellation-puzzle interaction but did not complete the game. The official public repository is retained in the release evidence and has no declared license or tagged release.',
+  'space-mission': 'The short guest test verified responsive single-player rocket play but did not complete the mission. Advertised co-op was not tested.',
+  'ponpoko-catch': 'The short guest test verified responsive catch-game play but did not complete an extended run.',
+  'castleforged': 'Fantasy castle combat against AI. The short guest test verified responsive tactical play but did not complete the match; AI opposition is not human multiplayer.',
+  'lost-marbles': 'Live multiplayer marble race. The short guest test entered Quick Play without an account, reached a 50-marble race, and verified steering with a rank change from 49th to 48th; it did not complete the race. In-player radio was disabled and master volume was set to zero before play. The creator says Claude built bot-behavior controls and helped make the mobile game.',
+  'roadster-rush': 'The short guest test started without an account and verified acceleration through changing score and distance state before a normal collision. In-player sound was muted before play. The game uses the Tesla Roadster name, and the creator says styles and copy were taken from Tesla’s website; those rights were not independently verified.',
   'wind-path': 'The short guest test dismissed a pointer-lock notice, moved through the world, and reached the live shrine objective; it did not complete all three shrines. The creator credits Claude Code, Unity, and Blender.',
   'kestrel-nights': 'The short guest test verified responsive swing-and-flight movement but did not complete a route. The creator compares the movement style to Spider-Man; no Marvel assets were observed in the tested presentation.',
   'frost-train': 'The short guest test started a new run and deployed the mech, reaching live train objectives and HUD state; it did not complete the survival run.',
