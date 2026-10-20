@@ -7,6 +7,16 @@ export type MultiplayerMode = 'Online multiplayer' | 'Local 2-player' | 'Local m
 
 // Evidence and unresolved cases live in docs/category-audit/2026-10-11/.
 export const reviewedCategories: Record<string, CategoryList> = {
+  'tumbler-number-guess': ['Puzzle', 'Casual'],
+  'pong-gptgames': ['Sports', 'Arcade'],
+  'simon-says-gptgames': ['Puzzle', 'Casual'],
+  'boogie-woogie-blockdrop': ['Puzzle', 'Arcade'],
+  'margins-tic-tac-toe': ['Strategy', 'Casual'],
+  'departures-time-travel': ['Simulators', 'Casual'],
+  'alphabet-typing-speed': ['Educational', 'Arcade'],
+  'peel-and-seek': ['Puzzle', 'Casual'],
+  'death-by-ai-gptgames': ['Adventure', 'Casual'],
+  'under-the-lamp': ['Adventure', 'Puzzle'],
   'six-digits': ['Puzzle', 'Educational'],
   'color-flood-gptgames': ['Puzzle', 'Casual'],
   'bedtime-lights-out': ['Puzzle', 'Casual'],

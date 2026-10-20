@@ -6,6 +6,8 @@ export type PlayableGame = Game & { shortDescription: string; embedUrl: string; 
 export type ListedGame = PlayableGame | DirectGame;
 
 export const newGameSlugs = [
+  'tumbler-number-guess', 'pong-gptgames', 'simon-says-gptgames', 'boogie-woogie-blockdrop', 'margins-tic-tac-toe', 'departures-time-travel',
+  'alphabet-typing-speed', 'peel-and-seek', 'death-by-ai-gptgames', 'under-the-lamp',
   'six-digits', 'color-flood-gptgames', 'bedtime-lights-out', 'stack-tower-gptgames', 'glowtide', 'tower-of-hanoi-gptgames',
   'monkeytype-clone', 'tells-rock-paper-scissors', 'hot-seat', 'highlight-word-search',
   'catch-circle', 'crazy-eights', 'point-and-line',
@@ -31,6 +33,16 @@ const newGameSandbox = 'allow-scripts allow-pointer-lock';
 
 // Only browser-verified games are shipped. Finalized in verification/GAME-REPORT.md.
 export const verifiedEmbeds: Record<string, string> = {
+  'tumbler-number-guess': 'https://www.gptgames.dev/games/number_guess.html',
+  'pong-gptgames': 'https://www.gptgames.dev/games/pong.html',
+  'simon-says-gptgames': 'https://www.gptgames.dev/games/simon_says.html',
+  'boogie-woogie-blockdrop': 'https://www.gptgames.dev/games/blockdrop.html',
+  'margins-tic-tac-toe': 'https://www.gptgames.dev/games/tic_tac_toe_mp.html',
+  'departures-time-travel': 'https://www.gptgames.dev/games/time_travel_agency.html',
+  'alphabet-typing-speed': 'https://www.gptgames.dev/games/alphabet.html',
+  'peel-and-seek': 'https://www.gptgames.dev/games/emoji_puzzle_mania.html',
+  'death-by-ai-gptgames': 'https://www.gptgames.dev/games/death_by_ai.html',
+  'under-the-lamp': 'https://www.gptgames.dev/games/mystery_ai.html',
   'six-digits': 'https://www.gptgames.dev/games/color_guessing_game.html',
   'color-flood-gptgames': 'https://www.gptgames.dev/games/color_flood.html',
   'bedtime-lights-out': 'https://www.gptgames.dev/games/lights_out.html',
@@ -140,6 +152,16 @@ export const verifiedEmbeds: Record<string, string> = {
 };
 
 const descriptions: Record<string, string> = {
+  'tumbler-number-guess': 'Guess each safe combination.',
+  'pong-gptgames': 'Play table tennis against a computer opponent.',
+  'simon-says-gptgames': 'Repeat the sequence on the four colored lenses.',
+  'boogie-woogie-blockdrop': 'Drop blocks and clear lines.',
+  'margins-tic-tac-toe': 'Play tic-tac-toe on a notebook page.',
+  'departures-time-travel': 'Dispatch trips and collect returns.',
+  'alphabet-typing-speed': 'Type A to Z as quickly as you can.',
+  'peel-and-seek': 'Find the sticker that matches the target.',
+  'death-by-ai-gptgames': 'Write an escape plan and see whether you survive.',
+  'under-the-lamp': 'Ask suspects questions and solve the case.',
   'six-digits': 'Mix a color by eye and compare it to the target.',
   'color-flood-gptgames': 'Fill the board with one color in as few moves as possible.',
   'bedtime-lights-out': 'Turn off the windows to put each block to sleep.',
