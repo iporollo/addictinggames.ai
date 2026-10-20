@@ -6,6 +6,7 @@ export type PlayableGame = Game & { shortDescription: string; embedUrl: string; 
 export type ListedGame = PlayableGame | DirectGame;
 
 export const newGameSlugs = [
+  'void-gptgames', 'downhill-dreamer', 'timberbound', 'mastermind-gptgames', 'nine-holes-gptgames',
   'tumbler-number-guess', 'pong-gptgames', 'simon-says-gptgames', 'boogie-woogie-blockdrop', 'margins-tic-tac-toe', 'departures-time-travel',
   'alphabet-typing-speed', 'peel-and-seek', 'death-by-ai-gptgames', 'under-the-lamp',
   'six-digits', 'color-flood-gptgames', 'bedtime-lights-out', 'stack-tower-gptgames', 'glowtide', 'tower-of-hanoi-gptgames',
@@ -33,6 +34,11 @@ const newGameSandbox = 'allow-scripts allow-pointer-lock';
 
 // Only browser-verified games are shipped. Finalized in verification/GAME-REPORT.md.
 export const verifiedEmbeds: Record<string, string> = {
+  'void-gptgames': 'https://www.gptgames.dev/games/void.html',
+  'downhill-dreamer': 'https://www.gptgames.dev/games/downhill_dreamer.html',
+  'timberbound': 'https://www.gptgames.dev/games/timberbound.html',
+  'mastermind-gptgames': 'https://www.gptgames.dev/games/mastermind.html',
+  'nine-holes-gptgames': 'https://www.gptgames.dev/games/nine_holes.html',
   'tumbler-number-guess': 'https://www.gptgames.dev/games/number_guess.html',
   'pong-gptgames': 'https://www.gptgames.dev/games/pong.html',
   'simon-says-gptgames': 'https://www.gptgames.dev/games/simon_says.html',
@@ -152,6 +158,11 @@ export const verifiedEmbeds: Record<string, string> = {
 };
 
 const descriptions: Record<string, string> = {
+  'void-gptgames': "Swallow the street and grow.",
+  'downhill-dreamer': "Dive, release, and soar.",
+  'timberbound': "Chop, haul, and upgrade.",
+  'mastermind-gptgames': "Crack the hidden color code.",
+  'nine-holes-gptgames': "Putt through nine changing holes.",
   'tumbler-number-guess': 'Guess each safe combination.',
   'pong-gptgames': 'Play table tennis against a computer opponent.',
   'simon-says-gptgames': 'Repeat the sequence on the four colored lenses.',
