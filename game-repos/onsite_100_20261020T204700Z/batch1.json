@@ -1,0 +1,122 @@
+{
+  "status": "approved_pending_release",
+  "run_id": "onsite_100_20261020T204700Z",
+  "entries": [
+    {
+      "candidate_id": "N-011",
+      "slug": "surge-for-oinja",
+      "title": "SURGE for Oinja",
+      "url": "https://oinja-game.vercel.app/",
+      "ai_quote": "I developed SURGE for Oinja iteratively with GPT-6 Astra in Codex.",
+      "ai_source": "https://github.com/MartinDelophy/awesome-gpt-6-astra/issues/106",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Pressed Return on Enter Old Harbor Workshop, then held W for about two seconds.",
+        "response": "The 3D run started and continued inside the iframe. HUD showed 240/240 health, 12 kills, 27% Sync, +22 shield, and a 7 m map-support prompt after movement."
+      },
+      "player_sandbox": "allow-scripts allow-pointer-lock",
+      "artwork_source": "https://raw.githubusercontent.com/MartinDelophy/awesome-gpt-6-astra/main/assets/screenshots/surge-for-oinja/cover.png",
+      "artwork_path": "public/games/onsite-surge-for-oinja.webp",
+      "warnings": [
+        "The game remains playable in the restricted player, but reports that settings and run progress cannot be saved there."
+      ]
+    },
+    {
+      "candidate_id": "N-015",
+      "slug": "magic-carpet-wizard",
+      "title": "Magic Carpet Wizard — A Thousand Skies",
+      "url": "https://threapchills.github.io/MagicCarpetWizard/",
+      "ai_quote": "Video Game made with GPT 6 Astra",
+      "ai_source": "https://github.com/threapchills/MagicCarpetWizard",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Pressed 1 to cast Fireball and held D to steer for about 800 ms.",
+        "response": "The HUD changed from 16 to 265 points, distance from 2553 m to 2356 m, and speed from 150 to 193 km/h; the Fireball effect message appeared."
+      },
+      "player_sandbox": "allow-scripts allow-pointer-lock",
+      "artwork_source": "https://raw.githubusercontent.com/MartinDelophy/awesome-gpt-6-astra/main/assets/screenshots/magic-carpet/gameplay.jpg",
+      "artwork_path": "public/games/onsite-magic-carpet.webp",
+      "warnings": []
+    },
+    {
+      "candidate_id": "N-016",
+      "slug": "thunderfall",
+      "title": "THUNDERFALL / 雷霆战机 · 天穹远征",
+      "url": "https://thunderfall.vercel.app/",
+      "ai_quote": "用户在创作对话中声明使用 GPT-6 Astra ultra",
+      "ai_source": "https://raw.githubusercontent.com/MartinDelophy/awesome-gpt-6-astra/main/works/thunderfall/README.md",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Held D for about 1000 ms to move while the game auto-fired.",
+        "response": "The ship moved to the right; score changed from 0 to 300, timer from 00:00 to 00:05, and overdrive charge reached 25%."
+      },
+      "player_sandbox": "allow-scripts allow-pointer-lock",
+      "artwork_source": "https://raw.githubusercontent.com/MartinDelophy/awesome-gpt-6-astra/main/assets/screenshots/thunderfall/gameplay.jpg",
+      "artwork_path": "public/games/onsite-thunderfall.webp",
+      "warnings": []
+    },
+    {
+      "candidate_id": "N-021",
+      "slug": "blackwater",
+      "title": "BLACKWATER · Silent Harbor",
+      "url": "https://blackwater-roan.vercel.app/",
+      "ai_quote": "MY FIRST GAME OUTPUT WITH GPT-6 ASTRA IT ONE-SHOTTED THIS CALL OF DUTY GAME IN 30 MINUTES!!!",
+      "ai_source": "https://x.com/WoahWurdz/status/2095958882732355908",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "['Clicked BEGIN OPERATION.', 'Pressed Q and W.', 'Clicked the game scene to fire.']",
+        "response": "The iframe reached OPERATION LIVE; HUD showed the operation active and ammo fell from 30 to 29."
+      },
+      "player_sandbox": "allow-scripts allow-pointer-lock",
+      "artwork_source": "https://raw.githubusercontent.com/MartinDelophy/awesome-gpt-6-astra/main/assets/screenshots/blackwater/gameplay.jpg",
+      "artwork_path": "public/games/onsite-blackwater.webp",
+      "warnings": []
+    },
+    {
+      "candidate_id": "N-025",
+      "slug": "flop-club",
+      "title": "FLOP CLUB",
+      "url": "https://bubucn.com/ai-model-evals/flop-club/game/index.html",
+      "ai_quote": "Made with GPT-6-ASTRA. The HTML demo is hosted by Bubu Studio and runs directly in your browser.",
+      "ai_source": "https://bubucn.com/en/ai-model-evals/flop-club",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Clicked “Take the leap” and pressed Space for 1 second inside the iframe.",
+        "response": "The embedded game showed altitude 10.4 / airtime 0.09s, then displayed the score 55 result panel and “SIDE QUEST COMPLETE”."
+      },
+      "player_sandbox": "allow-scripts allow-pointer-lock",
+      "artwork_source": "https://raw.githubusercontent.com/MartinDelophy/awesome-gpt-6-astra/main/assets/screenshots/flop-club/gameplay.jpg",
+      "artwork_path": "public/games/onsite-flop-club.webp",
+      "warnings": []
+    },
+    {
+      "candidate_id": "N-036",
+      "slug": "fruit-ninja-dojo",
+      "title": "水果忍者 · 再来一刀 / Fruit Ninja Dojo",
+      "url": "https://fruit-ninja-dojo-20260905.yongqixue666.chatgpt.site/",
+      "ai_quote": "一句话生成的，帮我复刻一个水果忍者游戏",
+      "ai_source": "https://linux.do/t/topic/2857340",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "['Started Arcade mode in the iframe.', 'Dragged horizontally across fruit in the active game.']",
+        "response": "The iframe reached the active Arcade game. After the horizontal swipe, score rose from 0 to 2, best score became 2, combo/heat progress rose from 0 to 2/20, and fruit halves/juice appeared."
+      },
+      "player_sandbox": "allow-scripts allow-pointer-lock",
+      "artwork_source": "https://raw.githubusercontent.com/MartinDelophy/awesome-gpt-6-astra/main/assets/screenshots/fruit-ninja-dojo/gameplay.jpg",
+      "artwork_path": "public/games/onsite-fruit-ninja-dojo.webp",
+      "warnings": []
+    }
+  ]
+}

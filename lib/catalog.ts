@@ -8,6 +8,7 @@ export interface Game {
   slug: string;
   imageUrl: string;
   author: string;
+  authorUrl?: string;
   gameUrl: string;
 }
 
@@ -697,4 +698,10 @@ export const games: Game[] = [
     category: 'Simulation', slug: 'pip-the-plant', imageUrl: '/games/custom-pip-the-plant.webp',
     author: 'micoolcho', gameUrl: 'https://legendary-faloodeh-080537.netlify.app/games/pip-the-plant/index.html',
   },
+  { id: '72', title: "SURGE for Oinja", description: "Survive a futuristic arena and build your next run.", category: 'Action', slug: 'surge-for-oinja', imageUrl: '/games/onsite-surge-for-oinja.webp', author: "Olivia295", authorUrl: "https://github.com/Olivia295", gameUrl: "https://oinja-game.vercel.app/" },
+  { id: '73', title: "Magic Carpet Wizard", description: "Steer a flying carpet and cast spells across the sky.", category: 'Arcade', slug: 'magic-carpet-wizard', imageUrl: '/games/onsite-magic-carpet.webp', author: "threapchills", authorUrl: "https://github.com/threapchills", gameUrl: "https://threapchills.github.io/MagicCarpetWizard/" },
+  { id: '74', title: "THUNDERFALL", description: "Pilot a fighter through a vertical bullet storm.", category: 'Shooter', slug: 'thunderfall', imageUrl: '/games/onsite-thunderfall.webp', author: "jackroc", authorUrl: "https://github.com/jackroc", gameUrl: "https://thunderfall.vercel.app/" },
+  { id: '75', title: "BLACKWATER", description: "Enter a nighttime first-person harbor operation.", category: 'Shooter', slug: 'blackwater', imageUrl: '/games/onsite-blackwater.webp', author: "WoahWurdz", authorUrl: "https://x.com/WoahWurdz", gameUrl: "https://blackwater-roan.vercel.app/" },
+  { id: '76', title: "FLOP CLUB", description: "Leap, flip, and land for a high score.", category: 'Sports', slug: 'flop-club', imageUrl: '/games/onsite-flop-club.webp', author: "Bubu Studio", authorUrl: "https://bubucn.com/en/ai-model-evals/flop-club", gameUrl: "https://bubucn.com/ai-model-evals/flop-club/game/index.html" },
+  { id: '77', title: "Fruit Ninja Dojo", description: "Slice fruit and build a combo in the dojo.", category: 'Arcade', slug: 'fruit-ninja-dojo', imageUrl: '/games/onsite-fruit-ninja-dojo.webp', author: "yongqixue99-hue", authorUrl: "https://github.com/yongqixue99-hue", gameUrl: "https://fruit-ninja-dojo-20260905.yongqixue666.chatgpt.site/" },
 ];

@@ -7,6 +7,12 @@ export type MultiplayerMode = 'Online multiplayer' | 'Local 2-player' | 'Local m
 
 // Evidence and unresolved cases live in docs/category-audit/2026-10-11/.
 export const reviewedCategories: Record<string, CategoryList> = {
+  'surge-for-oinja': ['Action', 'Shooter'],
+  'magic-carpet-wizard': ['Arcade', 'Action'],
+  'thunderfall': ['Shooter', 'Arcade'],
+  'blackwater': ['Shooter', 'Action'],
+  'flop-club': ['Sports', 'Arcade'],
+  'fruit-ninja-dojo': ['Arcade', 'Action'],
   "tt-kart": ["Racing", "Multiplayer"],
   "tt-mini-golf": ["Sports", "Multiplayer"],
   "tt-cookie-chase": ["Arcade", "Multiplayer"],

@@ -6,6 +6,7 @@ export type PlayableGame = Game & { shortDescription: string; embedUrl: string; 
 export type ListedGame = PlayableGame | DirectGame;
 
 export const newGameSlugs = [
+  'surge-for-oinja', 'magic-carpet-wizard', 'thunderfall', 'blackwater', 'flop-club', 'fruit-ninja-dojo',
   'color-war', 'night-shift', 'pit-tactics', 'comet-cup', 'pip-the-plant',
   'toadstool-crossing', 'doge-rally', 'toybox-push', 'lantern-isle', 'foundry',
   'turbo-kart-gp', 'gigacity', 'terra-incognita', 'rajyam', 'pulse',
@@ -26,6 +27,12 @@ const newGameSandbox = 'allow-scripts allow-pointer-lock';
 
 // Only browser-verified games are shipped. Finalized in verification/GAME-REPORT.md.
 export const verifiedEmbeds: Record<string, string> = {
+  'surge-for-oinja': "https://oinja-game.vercel.app/",
+  'magic-carpet-wizard': "https://threapchills.github.io/MagicCarpetWizard/",
+  'thunderfall': "https://thunderfall.vercel.app/",
+  'blackwater': "https://blackwater-roan.vercel.app/",
+  'flop-club': "https://bubucn.com/ai-model-evals/flop-club/game/index.html",
+  'fruit-ninja-dojo': "https://fruit-ninja-dojo-20260905.yongqixue666.chatgpt.site/",
   'color-war': 'https://solider10.github.io/colorwar/',
   'night-shift': 'https://games.jimmychandra.com/games/night_shift/',
   'pit-tactics': 'https://www.scenario.com/explorations/pit-tactics/',
@@ -94,6 +101,12 @@ export const verifiedEmbeds: Record<string, string> = {
 };
 
 const descriptions: Record<string, string> = {
+  'surge-for-oinja': "Survive a futuristic arena and build your next run.",
+  'magic-carpet-wizard': "Steer a flying carpet and cast spells across the sky.",
+  'thunderfall': "Pilot a fighter through a vertical bullet storm.",
+  'blackwater': "Enter a nighttime first-person harbor operation.",
+  'flop-club': "Leap, flip, and land for a high score.",
+  'fruit-ninja-dojo': "Slice fruit and build a combo in the dojo.",
   'color-war': 'Capture the board one tile at a time',
   'night-shift': 'Push crates through a 3D factory',
   'pit-tactics': 'Lead a squad through a mining-pit battle',
