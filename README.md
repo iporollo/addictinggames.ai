@@ -2,7 +2,7 @@
 
 The official arcade portal at https://addictinggames.ai. One design, one canonical catalog, verified players, and browser-local play history. The former comparison URLs `/version-a` and `/version-b` permanently redirect to the homepage; the comparison UI and alternate layout are removed.
 
-Agents: start with [AGENTS.md](AGENTS.md) for project scope and the repository-local [AI Game Scout pipeline skill](.agents/skills/addictinggames-pipeline-pt1/SKILL.md).
+Agents: start with [AGENTS.md](AGENTS.md) for project scope and the repository-local [AI Game Scout pipeline skill](.agents/skills/addictinggames-pipeline/SKILL.md). The [campaign contract](.agents/skills/addictinggames-pipeline/references/campaign-contract.md) defines current acceptance and completion checks. Owner-specified durations govern discovery; remaining verification and approved publication continue afterward. Tool failures cannot deny candidates. Historical batch reports below preserve past observations, not current acceptance policy.
 
 ## Development
 

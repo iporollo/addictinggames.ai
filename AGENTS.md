@@ -6,7 +6,9 @@ AddictingGames.ai is a browser-game arcade focused on games created with AI.
 Players discover games through Hot Right Now, New Games, genre browsing, and human multiplayer filters.
 Games either run in the site's restricted player or open the creator's original site.
 The site curates and links games; routine catalog work does not import or execute upstream game source.
-New candidates require explicit, game-specific AI-authorship evidence and gameplay acceptance.
+New browser-game candidates require explicit, game-specific AI-creation evidence and responsive guest gameplay (or exact owner confirmation).
+A named AI model and subjective quality threshold are not required. Rights/franchise/likeness concerns are warnings, not automatic denials for linking.
+Mods require an actual public release, exact artifact identity/hash and adequate artifact security review; independent positive user reports are optional.
 Do not retroactively remove existing games unless the owner requests an audit or removal.
 
 ## Production and repository
@@ -24,19 +26,25 @@ Do not retroactively remove existing games unless the owner requests an audit or
 - Research or update specific games, artwork, categories, human multiplayer modes, and site behavior within the request.
 - Diagnose availability and review evidence without treating discovery, successful builds, or screenshots as gameplay proof.
 
-## Workspace pipeline skills
+## Workspace pipeline skill
 
-Use [addictinggames-pipeline-pt1](.agents/skills/addictinggames-pipeline-pt1/SKILL.md) for the pipeline or an explicitly requested subset.
+Use [addictinggames-pipeline](.agents/skills/addictinggames-pipeline/SKILL.md) for the pipeline or an explicitly requested subset.
 The skill combines discovery, testing, A/B artwork, and release instructions; it is specific to this repository.
-Defaults: 25 new candidates or 60 minutes of discovery, five GPT-6 Luna workers with max reasoning, one final release.
+Use the owner-specified discovery duration; ask if absent. No inferred candidate/publication quota.
+Discovery closes at its deadline; verification and approved batch publication continue until the queue is resolved.
+Use five GPT-6 Luna Max gameplay workers, Codex Security for exact mod artifacts, and independent Grok 4.7 High adjudication through Cursor CLI.
+Tool/browser failures require recovery or a resumable campaign interruption, never a candidate denial.
+Final decisions are 1/0 after evidence resolution; completion also requires every approved entry to be live verified.
+The shared [campaign contract](.agents/skills/addictinggames-pipeline/references/campaign-contract.md) and validator enforce evidence, queue, receipt and completion checks.
+Tesla Roadster games have a catalog-wide maximum of five; existing entries consume slots. Do not automatically remove existing entries.
 Browser cap: five pipeline tabs total, one reused tab per tester; the parent uses a freed slot.
 Show generated A/B choices; the agent selects during full pipeline runs, while standalone artwork requests use owner selection.
 A full-pipeline request authorizes publication; explaining or editing the skill does not start a run.
-For modifications to existing games, use [addictinggames-pipeline-pt2](.agents/skills/addictinggames-pipeline-pt2/SKILL.md). Mods use `lib/mods-data.json`, `lib/mods.ts`, `app/mods/` and `components/ModsCatalog.tsx`; source review does not certify release files.
+The same skill covers modifications to existing games through its [mod review reference](.agents/skills/addictinggames-pipeline/references/mod-review.md). Mods use `lib/mods-data.json`, `lib/mods.ts`, `app/mods/` and `components/ModsCatalog.tsx`; source review does not certify release files.
 
 ## Sources of truth
 
-- `game-discovery-bot/owner-decisions.json`: owner exclusions, identity corrections, and gameplay confirmations. Preserve previous test findings separately.
+- `game-discovery-bot/owner-decisions.json`: owner exclusions, identity corrections, and gameplay confirmations. Preserve previous test findings separately. Historical agent holds are not owner exclusions or current policy.
 - `game-discovery-bot/runs/`: local resumable runs and raw evidence; commit concise public release evidence under `game-repos/<run-id>/`.
 - `lib/catalog.ts`, `lib/direct-games.ts`, `lib/games.ts`: embedded catalog, direct destinations, and listing/verification gates.
 - `lib/game-categories.ts`, `docs/GAME-CATEGORIES.md`: genres and separately evidenced human multiplayer modes.
