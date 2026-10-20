@@ -1,0 +1,974 @@
+{
+  "schema_version": 2,
+  "records": [
+    {
+      "repository_url": "https://github.com/gabmaybelle/summiteer",
+      "candidate_ids": [
+        "A-18"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/gabmaybelle/summiteer",
+          "observed_at_utc": "2026-10-20T16:02:00Z",
+          "retrieval_method": "GitHub repository search (cursor-github search_repositories) + README"
+        }
+      ]
+    },
+    {
+      "repository_url": "https://github.com/gabmaybelle/cozy-core",
+      "candidate_ids": [
+        "A-19"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/gabmaybelle/cozy-core",
+          "observed_at_utc": "2026-10-20T16:02:00Z",
+          "retrieval_method": "GitHub repository search (cursor-github search_repositories) + README"
+        }
+      ]
+    },
+    {
+      "repository_url": "https://github.com/gabmaybelle/not-now-shield",
+      "candidate_ids": [
+        "A-20"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/gabmaybelle/not-now-shield",
+          "observed_at_utc": "2026-10-20T16:02:00Z",
+          "retrieval_method": "GitHub repository search (cursor-github search_repositories) + README"
+        }
+      ]
+    },
+    {
+      "repository_url": "https://github.com/gabmaybelle/nightfall-clock",
+      "candidate_ids": [
+        "A-21"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/gabmaybelle/nightfall-clock",
+          "observed_at_utc": "2026-10-20T16:02:00Z",
+          "retrieval_method": "GitHub repository search (cursor-github search_repositories) + README"
+        }
+      ]
+    },
+    {
+      "repository_url": "https://github.com/gabmaybelle/pocket-list",
+      "candidate_ids": [
+        "A-22"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/gabmaybelle/pocket-list",
+          "observed_at_utc": "2026-10-20T16:02:00Z",
+          "retrieval_method": "GitHub repository search (cursor-github search_repositories) + README"
+        }
+      ]
+    },
+    {
+      "repository_url": "https://github.com/nogaruki/hardscrabble",
+      "candidate_ids": [
+        "A-23"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/nogaruki/hardscrabble",
+          "observed_at_utc": "2026-10-20T16:02:00Z",
+          "retrieval_method": "GitHub repository search (cursor-github search_repositories) + README"
+        }
+      ]
+    },
+    {
+      "repository_url": "https://github.com/SenDeliver/create-octo-arms",
+      "candidate_ids": [
+        "A-24"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/SenDeliver/create-octo-arms",
+          "observed_at_utc": "2026-10-20T16:02:00Z",
+          "retrieval_method": "GitHub repository search (cursor-github search_repositories) + README"
+        }
+      ]
+    },
+    {
+      "repository_url": "https://github.com/Naokyoo/NieR_Archipelago_Hook",
+      "candidate_ids": [
+        "A-42"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/Naokyoo/NieR_Archipelago_Hook",
+          "observed_at_utc": "2026-10-20T16:13:00Z",
+          "retrieval_method": "GitHub repository search (cursor-github search_repositories, in:readme) + README"
+        }
+      ]
+    },
+    {
+      "repository_url": "https://github.com/laminema0/disposable-tricks",
+      "candidate_ids": [
+        "A-70"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/laminema0/disposable-tricks",
+          "observed_at_utc": "2026-10-20T16:51:08Z",
+          "retrieval_method": "cursor-github search_repositories (homepage field = play URL; README links the same URL)"
+        }
+      ]
+    },
+    {
+      "repository_url": "https://github.com/b1rdmania/tiny-rampage",
+      "candidate_ids": [
+        "A-71"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/b1rdmania/tiny-rampage",
+          "observed_at_utc": "2026-10-20T16:51:08Z",
+          "retrieval_method": "cursor-github search_repositories (homepage field = play URL; README links the same URL)"
+        }
+      ]
+    },
+    {
+      "repository_url": "https://github.com/adong/kitchen-tt",
+      "candidate_ids": [
+        "A-74"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/adong/kitchen-tt",
+          "observed_at_utc": "2026-10-20T17:00:05Z",
+          "retrieval_method": "GitHub search API (repo homepage field = https://adong.github.io/kitchen-tt/)"
+        }
+      ]
+    },
+    {
+      "repository_url": "https://github.com/adong/kart-tt",
+      "candidate_ids": [
+        "A-75"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/adong/kart-tt",
+          "observed_at_utc": "2026-10-20T17:00:35Z",
+          "retrieval_method": "GitHub search API result (homepage field)"
+        }
+      ]
+    },
+    {
+      "repository_url": "https://github.com/adong/mini-golf-tt",
+      "candidate_ids": [
+        "A-76"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/adong/mini-golf-tt",
+          "observed_at_utc": "2026-10-20T17:00:35Z",
+          "retrieval_method": "GitHub search API result (homepage field)"
+        }
+      ]
+    },
+    {
+      "repository_url": "https://github.com/adong/cookie-chase-tt",
+      "candidate_ids": [
+        "A-77"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/adong/cookie-chase-tt",
+          "observed_at_utc": "2026-10-20T17:00:35Z",
+          "retrieval_method": "GitHub search API result (homepage field)"
+        }
+      ]
+    },
+    {
+      "repository_url": "https://github.com/adong/gomoku-tt",
+      "candidate_ids": [
+        "A-78"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/adong/gomoku-tt",
+          "observed_at_utc": "2026-10-20T17:00:35Z",
+          "retrieval_method": "GitHub search API result (homepage field)"
+        }
+      ]
+    },
+    {
+      "repository_url": "https://github.com/adong/jungle-chess-tt",
+      "candidate_ids": [
+        "A-79"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/adong/jungle-chess-tt",
+          "observed_at_utc": "2026-10-20T17:00:35Z",
+          "retrieval_method": "GitHub search API result (homepage field)"
+        }
+      ]
+    },
+    {
+      "repository_url": "https://github.com/adong/flying-chess-tt",
+      "candidate_ids": [
+        "A-80"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/adong/flying-chess-tt",
+          "observed_at_utc": "2026-10-20T17:00:35Z",
+          "retrieval_method": "GitHub search API result (homepage field)"
+        }
+      ]
+    },
+    {
+      "repository_url": "https://github.com/adong/word-pop-tt",
+      "candidate_ids": [
+        "A-81"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/adong/word-pop-tt",
+          "observed_at_utc": "2026-10-20T17:00:35Z",
+          "retrieval_method": "GitHub search API result (homepage field)"
+        }
+      ]
+    },
+    {
+      "repository_url": "https://github.com/adong/spot-tt-animals",
+      "candidate_ids": [
+        "A-82"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/adong/spot-tt-animals",
+          "observed_at_utc": "2026-10-20T17:00:35Z",
+          "retrieval_method": "GitHub search API result (homepage field)"
+        }
+      ]
+    },
+    {
+      "repository_url": "https://github.com/adong/tic-tac-toe-tt",
+      "candidate_ids": [
+        "A-83"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/adong/tic-tac-toe-tt",
+          "observed_at_utc": "2026-10-20T17:02:15Z",
+          "retrieval_method": "GitHub search API result (homepage field)"
+        }
+      ]
+    },
+    {
+      "repository_url": "https://github.com/makerjackie/yarn-planet",
+      "candidate_ids": [
+        "A-84"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/makerjackie/yarn-planet",
+          "observed_at_utc": "2026-10-20T17:08:25Z",
+          "retrieval_method": "GitHub search API (homepage field = https://yarn.ynot.games/)"
+        }
+      ]
+    },
+    {
+      "repository_url": "https://github.com/amoreo140/cinderbelt",
+      "candidate_ids": [
+        "A-85"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/amoreo140/cinderbelt",
+          "observed_at_utc": "2026-10-20T17:17:10Z",
+          "retrieval_method": "GitHub search API (homepage field)"
+        }
+      ]
+    },
+    {
+      "repository_url": "https://github.com/PracticallyDead/click-debounce",
+      "candidate_ids": [
+        "A-86"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/PracticallyDead/click-debounce",
+          "observed_at_utc": "2026-10-20T17:19:31Z",
+          "retrieval_method": "GitHub repository search (cursor-github search_repositories)"
+        }
+      ]
+    },
+    {
+      "repository_url": "https://github.com/LABrwn/CompletionTracker",
+      "candidate_ids": [
+        "A-87"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/LABrwn/CompletionTracker",
+          "observed_at_utc": "2026-10-20T17:19:31Z",
+          "retrieval_method": "GitHub repository search (cursor-github search_repositories)"
+        }
+      ]
+    },
+    {
+      "repository_url": "https://github.com/StimDesu/MimesisMap",
+      "candidate_ids": [
+        "A-88"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/StimDesu/MimesisMap",
+          "observed_at_utc": "2026-10-20T17:20:40Z",
+          "retrieval_method": "GitHub repository search (cursor-github search_repositories)"
+        }
+      ]
+    },
+    {
+      "repository_url": "https://github.com/cydergoth/friendly_turret_coverage",
+      "candidate_ids": [
+        "A-89"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/cydergoth/friendly_turret_coverage",
+          "observed_at_utc": "2026-10-20T17:20:40Z",
+          "retrieval_method": "GitHub repository search (cursor-github search_repositories)"
+        }
+      ]
+    },
+    {
+      "repository_url": "https://github.com/cydergoth/station_transport",
+      "candidate_ids": [
+        "A-90"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/cydergoth/station_transport",
+          "observed_at_utc": "2026-10-20T17:20:40Z",
+          "retrieval_method": "GitHub repository search (cursor-github search_repositories)"
+        }
+      ]
+    },
+    {
+      "repository_url": "https://github.com/Flurben/find-me-clientside",
+      "candidate_ids": [
+        "A-91"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/Flurben/find-me-clientside",
+          "observed_at_utc": "2026-10-20T17:20:40Z",
+          "retrieval_method": "GitHub repository search (cursor-github search_repositories)"
+        }
+      ]
+    },
+    {
+      "repository_url": "https://github.com/kerosh/MWC-dualsense",
+      "candidate_ids": [
+        "A-92"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/kerosh/MWC-dualsense",
+          "observed_at_utc": "2026-10-20T17:21:24Z",
+          "retrieval_method": "GitHub repository search (cursor-github search_repositories)"
+        }
+      ]
+    },
+    {
+      "repository_url": "https://github.com/Mycellius/EnshroudedFPSCap",
+      "candidate_ids": [
+        "A-93"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/Mycellius/EnshroudedFPSCap",
+          "observed_at_utc": "2026-10-20T17:21:24Z",
+          "retrieval_method": "GitHub repository search (cursor-github search_repositories)"
+        }
+      ]
+    },
+    {
+      "repository_url": "https://github.com/KalleBoy39/prismatic-geodes",
+      "candidate_ids": [
+        "A-94"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/KalleBoy39/prismatic-geodes",
+          "observed_at_utc": "2026-10-20T17:22:11Z",
+          "retrieval_method": "GitHub repository search (cursor-github search_repositories)"
+        }
+      ]
+    },
+    {
+      "repository_url": "https://github.com/drvaclav/vanilla-map-plus",
+      "candidate_ids": [
+        "A-95"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/drvaclav/vanilla-map-plus",
+          "observed_at_utc": "2026-10-20T17:22:11Z",
+          "retrieval_method": "GitHub repository search (cursor-github search_repositories)"
+        }
+      ]
+    },
+    {
+      "repository_url": "https://github.com/Modalicous718/PlayableVessel",
+      "candidate_ids": [
+        "A-96"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/Modalicous718/PlayableVessel",
+          "observed_at_utc": "2026-10-20T17:22:11Z",
+          "retrieval_method": "GitHub repository search (cursor-github search_repositories)"
+        }
+      ]
+    },
+    {
+      "repository_url": "https://github.com/emme92/FS25_MotorSoundConfigurator",
+      "candidate_ids": [
+        "A-97"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/emme92/FS25_MotorSoundConfigurator",
+          "observed_at_utc": "2026-10-20T17:22:50Z",
+          "retrieval_method": "GitHub repository search (cursor-github search_repositories)"
+        }
+      ]
+    },
+    {
+      "repository_url": "https://github.com/InformalLounge/hytale-teleporter-control",
+      "candidate_ids": [
+        "A-98"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/InformalLounge/hytale-teleporter-control",
+          "observed_at_utc": "2026-10-20T17:22:50Z",
+          "retrieval_method": "GitHub repository search (cursor-github search_repositories)"
+        }
+      ]
+    },
+    {
+      "repository_url": "https://github.com/gylala999/sacked-map-editor-and-mod",
+      "candidate_ids": [
+        "A-99"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/gylala999/sacked-map-editor-and-mod",
+          "observed_at_utc": "2026-10-20T17:23:30Z",
+          "retrieval_method": "GitHub repository search (cursor-github search_repositories)"
+        }
+      ]
+    },
+    {
+      "repository_url": "https://github.com/tbsj1ga/ShadowTrimValheim",
+      "candidate_ids": [
+        "A-100"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/tbsj1ga/ShadowTrimValheim",
+          "observed_at_utc": "2026-10-20T17:24:46Z",
+          "retrieval_method": "GitHub repository search (cursor-github search_repositories)"
+        }
+      ]
+    },
+    {
+      "repository_url": "https://github.com/OctoMiku01/Voxy-LOD-Gen",
+      "candidate_ids": [
+        "A-101"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/OctoMiku01/Voxy-LOD-Gen",
+          "observed_at_utc": "2026-10-20T17:26:24Z",
+          "retrieval_method": "GitHub repository search (cursor-github search_repositories)"
+        }
+      ]
+    },
+    {
+      "repository_url": "https://github.com/genyk1p/IdleGimbalLock",
+      "candidate_ids": [
+        "A-102"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/genyk1p/IdleGimbalLock",
+          "observed_at_utc": "2026-10-20T17:27:46Z",
+          "retrieval_method": "GitHub repository search (cursor-github search_repositories)"
+        }
+      ]
+    },
+    {
+      "repository_url": "https://github.com/genyk1p/TransferDropdownFix",
+      "candidate_ids": [
+        "A-103"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/genyk1p/TransferDropdownFix",
+          "observed_at_utc": "2026-10-20T17:27:46Z",
+          "retrieval_method": "GitHub repository search (cursor-github search_repositories)"
+        }
+      ]
+    },
+    {
+      "repository_url": "https://github.com/genyk1p/MechJebTweaks",
+      "candidate_ids": [
+        "A-104"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/genyk1p/MechJebTweaks",
+          "observed_at_utc": "2026-10-20T17:27:46Z",
+          "retrieval_method": "GitHub repository search (cursor-github search_repositories)"
+        }
+      ]
+    },
+    {
+      "repository_url": "https://github.com/jogalleciez/OKC-Ring",
+      "candidate_ids": [
+        "A-105"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/jogalleciez/OKC-Ring",
+          "observed_at_utc": "2026-10-20T17:27:46Z",
+          "retrieval_method": "GitHub repository search (cursor-github search_repositories)"
+        }
+      ]
+    },
+    {
+      "repository_url": "https://github.com/DooDesch-Mods/ScheduleOne-Chassis",
+      "candidate_ids": [
+        "A-106"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/DooDesch-Mods/ScheduleOne-Chassis",
+          "observed_at_utc": "2026-10-20T17:27:46Z",
+          "retrieval_method": "GitHub repository search (cursor-github search_repositories)"
+        }
+      ]
+    },
+    {
+      "repository_url": "https://github.com/drago139/CastleStorySteamBridge",
+      "candidate_ids": [
+        "A-107"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/drago139/CastleStorySteamBridge",
+          "observed_at_utc": "2026-10-20T17:27:46Z",
+          "retrieval_method": "GitHub repository search (cursor-github search_repositories)"
+        }
+      ]
+    },
+    {
+      "repository_url": "https://github.com/cparedes/tower-dominion-leak-fix",
+      "candidate_ids": [
+        "A-108"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/cparedes/tower-dominion-leak-fix",
+          "observed_at_utc": "2026-10-20T17:27:46Z",
+          "retrieval_method": "GitHub repository search (cursor-github search_repositories)"
+        }
+      ]
+    },
+    {
+      "repository_url": "https://github.com/whiteyt223/arisens-ledger",
+      "candidate_ids": [
+        "A-109"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/whiteyt223/arisens-ledger",
+          "observed_at_utc": "2026-10-20T17:28:53Z",
+          "retrieval_method": "GitHub repository search (cursor-github search_repositories)"
+        }
+      ]
+    },
+    {
+      "repository_url": "https://github.com/Geckomacabre/RewindTogether",
+      "candidate_ids": [
+        "A-110"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/Geckomacabre/RewindTogether",
+          "observed_at_utc": "2026-10-20T17:28:53Z",
+          "retrieval_method": "GitHub repository search (cursor-github search_repositories)"
+        }
+      ]
+    },
+    {
+      "repository_url": "https://github.com/Awperati/tlou2-viewmodel",
+      "candidate_ids": [
+        "A-111"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/Awperati/tlou2-viewmodel",
+          "observed_at_utc": "2026-10-20T17:29:37Z",
+          "retrieval_method": "GitHub repository search (cursor-github search_repositories)"
+        }
+      ]
+    },
+    {
+      "repository_url": "https://github.com/RealGaming1337/Super-Hexagon-Enhanced",
+      "candidate_ids": [
+        "A-112"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/RealGaming1337/Super-Hexagon-Enhanced",
+          "observed_at_utc": "2026-10-20T17:29:37Z",
+          "retrieval_method": "GitHub repository search (cursor-github search_repositories)"
+        }
+      ]
+    },
+    {
+      "repository_url": "https://github.com/kakhonn/g1r-easy-language-packs",
+      "candidate_ids": [
+        "A-113"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/kakhonn/g1r-easy-language-packs",
+          "observed_at_utc": "2026-10-20T17:30:15Z",
+          "retrieval_method": "GitHub repository search (cursor-github search_repositories)"
+        }
+      ]
+    },
+    {
+      "repository_url": "https://github.com/christos-antono/NPCTalk",
+      "candidate_ids": [
+        "H-03"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://x.com/universalmodhq/status/2111026512057254236",
+          "observed_at_utc": "2026-10-20T15:50:00Z"
+        }
+      ],
+      "original_repository_url": "http://github.com/christos-antono/NPCTalk",
+      "redirect_verified_at_utc": "2026-10-20T21:23:17.354806+00:00"
+    },
+    {
+      "repository_url": "https://github.com/Classmg22/BBSC",
+      "candidate_ids": [
+        "H-04"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://x.com/Pirat_Nation/status/2110174498901373206",
+          "observed_at_utc": "2026-10-20T15:50:30Z"
+        }
+      ]
+    },
+    {
+      "repository_url": "https://github.com/SpacePlushy/Minecraft-mods",
+      "candidate_ids": [
+        "H-09"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/SpacePlushy/Minecraft-mods",
+          "observed_at_utc": "2026-10-20T20:45:48.111928Z",
+          "retrieval_method": "GitHub repository search"
+        }
+      ]
+    },
+    {
+      "repository_url": "https://github.com/Water130/tales-of-eternia-waters-edition",
+      "candidate_ids": [
+        "H-75"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/Water130/tales-of-eternia-waters-edition",
+          "observed_at_utc": "2026-10-20T16:13:00Z",
+          "retrieval_method": "GitHub repository search (cursor-github search_repositories, in:readme) + README"
+        }
+      ]
+    },
+    {
+      "repository_url": "https://github.com/MaciejSulewski/hotline-warsaw",
+      "candidate_ids": [
+        "H-78"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/MaciejSulewski/hotline-warsaw",
+          "observed_at_utc": "2026-10-20T17:00:05Z",
+          "retrieval_method": "GitHub search API"
+        }
+      ]
+    },
+    {
+      "repository_url": "https://github.com/shaom/keyboard-island",
+      "candidate_ids": [
+        "H-80"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/shaom/keyboard-island",
+          "observed_at_utc": "2026-10-20T17:01:14Z",
+          "retrieval_method": "GitHub search API (homepage field) + README line 6 'Play the hosted demo'"
+        }
+      ]
+    },
+    {
+      "repository_url": "https://github.com/gabrielamidon8-sys/DeclAIre-ZombieCity",
+      "candidate_ids": [
+        "H-81"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/gabrielamidon8-sys/DeclAIre-ZombieCity",
+          "observed_at_utc": "2026-10-20T17:01:52Z",
+          "retrieval_method": "GitHub search API; play URL taken from README line 9 (not inferred)"
+        }
+      ]
+    },
+    {
+      "repository_url": "https://github.com/jdonald/relativity",
+      "candidate_ids": [
+        "H-82"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/jdonald/relativity",
+          "observed_at_utc": "2026-10-20T17:03:56Z",
+          "retrieval_method": "GitHub search API; play URL from README line 10 'Play it:' (not inferred)"
+        }
+      ]
+    },
+    {
+      "repository_url": "https://github.com/Albedovo/RhythmSnake",
+      "candidate_ids": [
+        "H-83"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/Albedovo/RhythmSnake",
+          "observed_at_utc": "2026-10-20T17:06:26Z",
+          "retrieval_method": "GitHub search API; play URL from README line 11"
+        }
+      ]
+    },
+    {
+      "repository_url": "https://github.com/vcutrona/abaco-zuzzurellone-kids",
+      "candidate_ids": [
+        "H-84"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/vcutrona/abaco-zuzzurellone-kids",
+          "observed_at_utc": "2026-10-20T17:08:25Z",
+          "retrieval_method": "GitHub search API (homepage field)"
+        }
+      ]
+    },
+    {
+      "repository_url": "https://github.com/andrewkamback-sudo/ghost-in-the-machine",
+      "candidate_ids": [
+        "H-86"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/andrewkamback-sudo/ghost-in-the-machine",
+          "observed_at_utc": "2026-10-20T17:08:47Z",
+          "retrieval_method": "GitHub search API (homepage field)"
+        }
+      ]
+    },
+    {
+      "repository_url": "https://github.com/lelelilo-studios/gamedev-showcase",
+      "candidate_ids": [
+        "H-87"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/lelelilo-studios/gamedev-showcase",
+          "observed_at_utc": "2026-10-20T17:08:47Z",
+          "retrieval_method": "GitHub search API (homepage field) + README line 4"
+        }
+      ]
+    },
+    {
+      "repository_url": "https://github.com/gmogd125-cloud/observed",
+      "candidate_ids": [
+        "H-89"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/gmogd125-cloud/observed/releases/tag/v0.1.4",
+          "observed_at_utc": "2026-10-20T17:19:31Z"
+        }
+      ]
+    },
+    {
+      "repository_url": "https://github.com/CowboyBingus/FoliagePassThrough",
+      "candidate_ids": [
+        "H-91"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/CowboyBingus/FoliagePassThrough/blob/e3b08cc37acea974e9c0050e31791ab018ded62d/README.md",
+          "observed_at_utc": "2026-10-20T17:21:24Z"
+        }
+      ]
+    },
+    {
+      "repository_url": "https://github.com/GittaOnTheTrack/reese-reskate",
+      "candidate_ids": [
+        "H-92"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/GittaOnTheTrack/reese-reskate/blob/799e771adaea8e76b71e8b25c7bc6f7307cd654b/README.md",
+          "observed_at_utc": "2026-10-20T17:23:30Z"
+        }
+      ]
+    },
+    {
+      "repository_url": "https://github.com/andrice90/dh2-coop",
+      "candidate_ids": [
+        "H-93"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/andrice90/dh2-coop/blob/417e38d6ded556f136cbe44b3d873d37e2c33322/README.md",
+          "observed_at_utc": "2026-10-20T17:23:59Z"
+        }
+      ]
+    },
+    {
+      "repository_url": "https://github.com/tbsj1ga/SwimGearValheim",
+      "candidate_ids": [
+        "H-94"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/tbsj1ga/SwimGearValheim/blob/bf302d7b701b4cd5acc8782aeeb9ef0fe3295dbc/README.md",
+          "observed_at_utc": "2026-10-20T17:24:46Z"
+        }
+      ]
+    },
+    {
+      "repository_url": "https://github.com/tbsj1ga/ChestReachValheim",
+      "candidate_ids": [
+        "H-95"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/tbsj1ga/ChestReachValheim/blob/79d8394cb731753759774a8a97ea91bba3e85eab/README.md",
+          "observed_at_utc": "2026-10-20T17:24:46Z"
+        }
+      ]
+    },
+    {
+      "repository_url": "https://github.com/Leonxlnx/athenaion",
+      "candidate_ids": [
+        "H-96"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/Leonxlnx/athenaion",
+          "observed_at_utc": "2026-10-20T17:25:02Z",
+          "retrieval_method": "GitHub search API"
+        }
+      ]
+    },
+    {
+      "repository_url": "https://github.com/Modalicous718/VergilHornet",
+      "candidate_ids": [
+        "H-97"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/Modalicous718/VergilHornet/blob/e30f24625ff8b94a6f2e366a0afefe3c7a5a506f/README.md",
+          "observed_at_utc": "2026-10-20T17:27:46Z"
+        }
+      ]
+    },
+    {
+      "repository_url": "https://github.com/EmmyAllEars/tensura-clearer-abilities",
+      "candidate_ids": [
+        "H-98"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/EmmyAllEars/tensura-clearer-abilities",
+          "observed_at_utc": "2026-10-20T17:30:15Z",
+          "retrieval_method": "GitHub repository search (cursor-github search_repositories)"
+        }
+      ]
+    },
+    {
+      "repository_url": "https://github.com/thebcd69/bcd-games",
+      "candidate_ids": [
+        "E-01"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://x.com/Forhanvv/status/2112257753192558800",
+          "observed_at_utc": "2026-10-20T15:50:00Z"
+        }
+      ]
+    },
+    {
+      "repository_url": "https://github.com/ly05010419/MacNativeGames",
+      "candidate_ids": [
+        "E-03",
+        "E-04"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://x.com/0x0SojalSec/status/2111833062325805316",
+          "observed_at_utc": "2026-10-20T15:50:00Z"
+        },
+        {
+          "url": "https://x.com/liyong2077/status/2111751050000769517",
+          "observed_at_utc": "2026-10-20T15:50:00Z"
+        }
+      ]
+    },
+    {
+      "repository_url": "https://github.com/Droid-Deck/DroidDeck",
+      "candidate_ids": [
+        "E-05"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://x.com/Pirat_Nation/status/2109554666568917296",
+          "observed_at_utc": "2026-10-20T15:50:30Z"
+        }
+      ]
+    },
+    {
+      "repository_url": "https://github.com/OpenCommunityEdition/OpenCE",
+      "candidate_ids": [
+        "E-08"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://x.com/BE4T_37/status/2107478566246269368 (t.co resolved)",
+          "observed_at_utc": "2026-10-20T15:50:30Z"
+        }
+      ]
+    }
+  ]
+}

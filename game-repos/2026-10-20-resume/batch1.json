@@ -1,0 +1,225 @@
+{
+  "status": "approved_pending_release",
+  "original_run": "2026-10-20T153255Z",
+  "entries": [
+    {
+      "candidate_id": "A-75",
+      "slug": "tt-kart",
+      "title": "TT Kart",
+      "url": "https://adong.github.io/kart-tt/",
+      "categories": [
+        "Racing",
+        "Multiplayer"
+      ],
+      "multiplayer_mode": "Local 2-player",
+      "mode_basis": "Creator README describes human players sharing one device; short guest check verifies single-player core only",
+      "ai_quote": "A 3D kart racer for the boys, built with Claude Code from plain JavaScript and Three.js on the shared Claude Games kit.",
+      "ai_source": "https://github.com/adong/kart-tt/blob/2a17664a3334bf3f53971012baa8be18446b5a09/README.md",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Selected 1 PLAYER, selected default driver/course and pressed GO; then pressed ArrowUp and ArrowLeft on page body.",
+        "response": "Race began; elapsed timer advanced from 0:00.0 to 0:05.2; player kart changed on-screen position relative to track/rivals and position indicator improved from 7th to 5th. Lap HUD visible."
+      },
+      "artwork_source": "https://raw.githubusercontent.com/adong/kart-tt/2a17664a3334bf3f53971012baa8be18446b5a09/docs/screenshot.jpg"
+    },
+    {
+      "candidate_id": "A-76",
+      "slug": "tt-mini-golf",
+      "title": "TT Mini Golf",
+      "url": "https://adong.github.io/mini-golf-tt/",
+      "categories": [
+        "Sports",
+        "Multiplayer"
+      ],
+      "multiplayer_mode": "Local 2-player",
+      "mode_basis": "Creator README describes human players sharing one device; short guest check verifies single-player core only",
+      "ai_quote": "It's built with Claude Code from plain JavaScript and Three.js, in the same style as Metro Surfer and the other Teddy & Tommy games.",
+      "ai_source": "https://github.com/adong/mini-golf-tt/blob/2274bcdf7cfedac147ae922a3d078e3a421b28f3/README.md",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Muted via in-game checkbox then clicked Play; dragged backward from ball toward bottom of canvas to putt.",
+        "response": "HUD advanced from TEDDY 0 to TEDDY 1 strokes and golfer/ball moved on the first hole. Current HUD shows Hole 1 / 9."
+      },
+      "artwork_source": "https://raw.githubusercontent.com/adong/mini-golf-tt/2274bcdf7cfedac147ae922a3d078e3a421b28f3/docs/screenshot.jpg"
+    },
+    {
+      "candidate_id": "A-77",
+      "slug": "tt-cookie-chase",
+      "title": "TT Cookie Chase",
+      "url": "https://adong.github.io/cookie-chase-tt/",
+      "categories": [
+        "Arcade",
+        "Multiplayer"
+      ],
+      "multiplayer_mode": "Local 2-player",
+      "mode_basis": "Creator README describes human players sharing one device; short guest check verifies single-player core only",
+      "ai_quote": "A maze-chase game starring Teddy and Tommy, built with Claude Code from plain JavaScript and Three.js on the shared Claude Games kit.",
+      "ai_source": "https://github.com/adong/cookie-chase-tt/blob/e01e86124a139569a10c929aeee7e91c42250e81/README.md",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Clicked 1 PLAYER, LETS GO; pressed ArrowUp then ArrowRight on page body.",
+        "response": "Gameplay maze rendered; arrow input moved Teddy from start position near (640,492) to visibly shifted position near (654,493). HUD, lives, maze and cookies are visible."
+      },
+      "artwork_source": "https://raw.githubusercontent.com/adong/cookie-chase-tt/e01e86124a139569a10c929aeee7e91c42250e81/docs/screenshot.jpg"
+    },
+    {
+      "candidate_id": "A-78",
+      "slug": "tt-gomoku",
+      "title": "TT Gomoku",
+      "url": "https://adong.github.io/gomoku-tt/",
+      "categories": [
+        "Strategy",
+        "Puzzle",
+        "Multiplayer"
+      ],
+      "multiplayer_mode": "Local 2-player",
+      "mode_basis": "Creator README describes human players sharing one device; short guest check verifies single-player core only",
+      "ai_quote": "A gomoku game starring Teddy and Tommy, built with Claude Code from plain JavaScript and Three.js on the shared Claude Games kit.",
+      "ai_source": "https://github.com/adong/gomoku-tt/blob/cbca1bad763e8d794e07bc8f21a734ab1686d07b/README.md",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Clicked the 9\u00d79 Little board choice and then clicked the center grid intersection.",
+        "response": "A blue player basketball stone appeared at the selected center intersection, status changed to Bruno is thinking, then opponent peace-sign stone appeared and status returned to Your Turn."
+      },
+      "artwork_source": "https://raw.githubusercontent.com/adong/gomoku-tt/cbca1bad763e8d794e07bc8f21a734ab1686d07b/docs/screenshot.jpg"
+    },
+    {
+      "candidate_id": "A-79",
+      "slug": "tt-jungle-chess",
+      "title": "TT Jungle Chess",
+      "url": "https://adong.github.io/jungle-chess-tt/",
+      "categories": [
+        "Strategy",
+        "Multiplayer"
+      ],
+      "multiplayer_mode": "Local 2-player",
+      "mode_basis": "Creator README describes human players sharing one device; short guest check verifies single-player core only",
+      "ai_quote": "The classic Chinese board game \u6597\u517d\u68cb starring Teddy and Tommy, built with Claude Code from plain JavaScript and Three.js on the shared Claude Games kit.",
+      "ai_source": "https://github.com/adong/jungle-chess-tt/blob/5ddeb18a4d62d29cadfe945886cde8b16b61f420/README.md",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Selected Play; clicked blue dog piece and adjacent empty tile.",
+        "response": "Dog moved one square; status changed to BOLT IS THINKING\u2026; orange opponent wolf moved; game returned to YOUR TURN! HUD Undo became enabled."
+      },
+      "artwork_source": "https://raw.githubusercontent.com/adong/jungle-chess-tt/5ddeb18a4d62d29cadfe945886cde8b16b61f420/docs/screenshot.jpg"
+    },
+    {
+      "candidate_id": "A-80",
+      "slug": "tt-flying-chess",
+      "title": "TT Flying Chess",
+      "url": "https://adong.github.io/flying-chess-tt/",
+      "categories": [
+        "Strategy",
+        "Casual",
+        "Multiplayer"
+      ],
+      "multiplayer_mode": "Local multiplayer",
+      "mode_basis": "Creator README describes human players sharing one device; short guest check verifies single-player core only",
+      "ai_quote": "The classic Chinese board game \u98de\u884c\u68cb starring Teddy and Tommy, built with Claude Code from plain JavaScript and Three.js on the shared Claude Games kit.",
+      "ai_source": "https://github.com/adong/flying-chess-tt/blob/ac663f31ede51bc62dd8470981bdf7ec9141cb55/README.md",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Clicked the central die when HUD said TOMMY: TAP THE DIE!",
+        "response": "Die visibly rolled and landed on a face; HUD advanced to TEDDY: TAP THE DIE! Score panels and active-turn marker updated."
+      },
+      "artwork_source": "https://raw.githubusercontent.com/adong/flying-chess-tt/ac663f31ede51bc62dd8470981bdf7ec9141cb55/docs/screenshot.jpg"
+    },
+    {
+      "candidate_id": "A-81",
+      "slug": "tt-word-pop",
+      "title": "TT Word Pop",
+      "url": "https://adong.github.io/word-pop-tt/",
+      "categories": [
+        "Educational",
+        "Arcade",
+        "Multiplayer"
+      ],
+      "multiplayer_mode": "Local 2-player",
+      "mode_basis": "Creator README describes human players sharing one device; short guest check verifies single-player core only",
+      "ai_quote": "It's built with Claude Code from plain JavaScript and Three.js, on the shared Claude Games kit (the blocky boys, their poses, synth sound, the ? keys panel and English / \u4e2d\u6587).",
+      "ai_source": "https://github.com/adong/word-pop-tt/blob/44b663b1813afbe7d794deff0d21d6743748988f/README.md",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Pressed key Z for the pictured zebra word\u2019s first missing letter.",
+        "response": "Z balloon popped in a burst and a Z animation appeared; first answer slot transitioned from dotted/active empty state to plain filled slot. The game\u2019s help confirms letters pop their matching balloons and word letters are entered in order."
+      },
+      "artwork_source": "https://raw.githubusercontent.com/adong/word-pop-tt/44b663b1813afbe7d794deff0d21d6743748988f/docs/screenshot.jpg"
+    },
+    {
+      "candidate_id": "A-82",
+      "slug": "spot-tt-animals",
+      "title": "Spot TT Animals",
+      "url": "https://adong.github.io/spot-tt-animals/",
+      "categories": [
+        "Educational",
+        "Puzzle",
+        "Multiplayer"
+      ],
+      "multiplayer_mode": "Local 2-player",
+      "mode_basis": "Creator README describes human players sharing one device; short guest check verifies single-player core only",
+      "ai_quote": "It's built with Claude Code from plain JavaScript and Three.js, on the shared Claude Games kit (the blocky Teddy and Tommy, menu portraits, synth sound, the ? keys panel and English / \u4e2d\u6587).",
+      "ai_source": "https://github.com/adong/spot-tt-animals/blob/5672988375b02ece6e611185bf027a0f451d9142/README.md",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Entered EASY day mode, counted the rooster scene, clicked Ready, then answered 10.",
+        "response": "Round 1 result displayed 10 roosters, answer 10, Correct; computer counted 2 correctly, and result declared Both Right: A Draw. Score remains 0-0, next round enabled."
+      },
+      "artwork_source": "https://raw.githubusercontent.com/adong/spot-tt-animals/5672988375b02ece6e611185bf027a0f451d9142/docs/screenshot.jpg"
+    },
+    {
+      "candidate_id": "A-83",
+      "slug": "tt-tic-tac-toe",
+      "title": "TT Tic-Tac-Toe",
+      "url": "https://adong.github.io/tic-tac-toe-tt/",
+      "categories": [
+        "Puzzle",
+        "Strategy",
+        "Multiplayer"
+      ],
+      "multiplayer_mode": "Local 2-player",
+      "mode_basis": "Creator README describes human players sharing one device; short guest check verifies single-player core only",
+      "ai_quote": "A chunky tic-tac-toe game starring Teddy and Tommy, built with Claude Code from plain JavaScript and Three.js on the shared Claude Games kit.",
+      "ai_source": "https://github.com/adong/tic-tac-toe-tt/blob/a471f109388b76558f973d08d22f9f678b2fdbad/README.md",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Clicked center square on the board.",
+        "response": "Blue X appeared in center; status changed to Bruno is thinking, orange O appeared in top-right square, and status returned to Your Turn."
+      },
+      "artwork_source": "https://raw.githubusercontent.com/adong/tic-tac-toe-tt/a471f109388b76558f973d08d22f9f678b2fdbad/docs/screenshot.jpg"
+    }
+  ],
+  "independent_review": {
+    "model": "grok-4.7-high",
+    "provider": "Cursor CLI read-only ask",
+    "result": "9 publish; 0 missing-work requests",
+    "evidence_revisions": {
+      "A-75": 3,
+      "A-76": 3,
+      "A-77": 3,
+      "A-78": 3,
+      "A-79": 3,
+      "A-80": 3,
+      "A-81": 2,
+      "A-82": 2,
+      "A-83": 2
+    }
+  }
+}
