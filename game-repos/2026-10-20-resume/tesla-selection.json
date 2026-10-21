@@ -1,0 +1,360 @@
+{
+  "selection_at_utc": "2026-10-21T02:53:42.487233Z",
+  "existing_catalog_ids": [
+    "plaid-circuit",
+    "roadster-rush",
+    "road-star"
+  ],
+  "new_selected_ids": [
+    "H-27",
+    "H-40"
+  ],
+  "catalog_total_after_release": 5,
+  "ranking_rule": "Strongest game-linked X post: views descending, sum of likes/reposts/replies/quotes descending, numeric post ID ascending. Complete selection-pass snapshots for all 19 unique contenders.",
+  "metrics_provider": "FxTwitter public X mirror",
+  "independent_adjudicator": "Grok 4.7 High through Cursor CLI",
+  "ranked": [
+    {
+      "rank": 1,
+      "candidate_id": "H-27",
+      "title": "Tesla Roadster ramp simulation (tesla-ramp)",
+      "url": "https://tesla-ramp.vercel.app/",
+      "metrics": {
+        "post_id": "2111313462987231519",
+        "source_url": "https://x.com/rauchg/status/2111313462987231519",
+        "views": 155915,
+        "likes": 2405,
+        "reposts": 105,
+        "replies": 243,
+        "quotes": 37,
+        "observed_at_utc": "2026-10-21T02:39:31.049Z"
+      },
+      "publish": 1,
+      "reason": null
+    },
+    {
+      "rank": 2,
+      "candidate_id": "H-40",
+      "title": "Roadster Stunt Arena (Tesla Roadster League)",
+      "url": "https://www.aymeric.dev/roadster",
+      "metrics": {
+        "post_id": "2111519266898169925",
+        "source_url": "https://x.com/aymericrabot/status/2111519266898169925",
+        "views": 100090,
+        "likes": 736,
+        "reposts": 86,
+        "replies": 47,
+        "quotes": 14,
+        "observed_at_utc": "2026-10-21T02:39:31.637Z"
+      },
+      "publish": 1,
+      "reason": null
+    },
+    {
+      "rank": 3,
+      "candidate_id": "H-34",
+      "title": "Roadster Hours",
+      "url": "https://app.usecrayon.ai/play/0394c9e9-577c-4bfa-8baa-68860a3612fb",
+      "metrics": {
+        "post_id": "2111987727067652561",
+        "source_url": "https://x.com/aniketjart/status/2111987727067652561",
+        "views": 33561,
+        "likes": 412,
+        "reposts": 26,
+        "replies": 44,
+        "quotes": 3,
+        "observed_at_utc": "2026-10-21T02:39:31.276Z"
+      },
+      "publish": 0,
+      "reason": "tesla_limit"
+    },
+    {
+      "rank": 4,
+      "candidate_id": "H-33",
+      "title": "Tesla Roadster game (Claude artifact)",
+      "url": "https://claude.ai/artifact/U2aPJpwKLNWVgAttFf1vzJ",
+      "metrics": {
+        "post_id": "2112198585731440753",
+        "source_url": "https://x.com/edwinarbus/status/2112198585731440753",
+        "views": 24145,
+        "likes": 558,
+        "reposts": 37,
+        "replies": 51,
+        "quotes": 6,
+        "observed_at_utc": "2026-10-21T02:39:31.188Z"
+      },
+      "publish": 0,
+      "reason": "tesla_limit"
+    },
+    {
+      "rank": 5,
+      "candidate_id": "H-45",
+      "title": "Outrun — the new Roadster",
+      "url": "https://roadster-sandy.vercel.app/",
+      "metrics": {
+        "post_id": "2111609842184130875",
+        "source_url": "https://x.com/viktoroddy/status/2111609842184130875",
+        "views": 10172,
+        "likes": 137,
+        "reposts": 10,
+        "replies": 16,
+        "quotes": 0,
+        "observed_at_utc": "2026-10-21T02:39:31.855Z"
+      },
+      "publish": 0,
+      "reason": "tesla_limit"
+    },
+    {
+      "rank": 6,
+      "candidate_id": "H-44",
+      "title": "Tesla Roadster Sandbox",
+      "url": "https://app.usecrayon.ai/play/8329de71-bfdc-4352-86d6-a5b8dabc30a8",
+      "metrics": {
+        "post_id": "2112006131593974188",
+        "source_url": "https://x.com/TusharXo/status/2112006131593974188",
+        "views": 1246,
+        "likes": 15,
+        "reposts": 1,
+        "replies": 5,
+        "quotes": 1,
+        "observed_at_utc": "2026-10-21T02:39:31.799Z"
+      },
+      "publish": 0,
+      "reason": "tesla_limit"
+    },
+    {
+      "rank": 7,
+      "candidate_id": "H-43",
+      "title": "Fly Roadster",
+      "url": "https://www.flyroadster.space/",
+      "metrics": {
+        "post_id": "2111774280149299490",
+        "source_url": "https://x.com/soulcastor3/status/2111774280149299490",
+        "views": 753,
+        "likes": 22,
+        "reposts": 0,
+        "replies": 2,
+        "quotes": 0,
+        "observed_at_utc": "2026-10-21T02:39:31.778Z"
+      },
+      "publish": 0,
+      "reason": "tesla_limit"
+    },
+    {
+      "rank": 8,
+      "candidate_id": "D-16",
+      "title": "ROADSTER (updated)",
+      "url": "https://falcon-light-cherry-wood.grok.me/",
+      "metrics": {
+        "post_id": "2112266528917778488",
+        "source_url": "https://x.com/TeslaTakesOver/status/2112266528917778488",
+        "views": 510,
+        "likes": 11,
+        "reposts": 0,
+        "replies": 3,
+        "quotes": 0,
+        "observed_at_utc": "2026-10-21T02:39:31.049Z"
+      },
+      "publish": 0,
+      "reason": "tesla_limit"
+    },
+    {
+      "rank": 9,
+      "candidate_id": "H-46",
+      "title": "Roadster Flight",
+      "url": "https://flytheroadster.com/",
+      "metrics": {
+        "post_id": "2111298243560870153",
+        "source_url": "https://x.com/_jnic/status/2111298243560870153",
+        "views": 384,
+        "likes": 0,
+        "reposts": 1,
+        "replies": 2,
+        "quotes": 1,
+        "observed_at_utc": "2026-10-21T02:39:31.925Z"
+      },
+      "publish": 0,
+      "reason": "tesla_limit"
+    },
+    {
+      "rank": 10,
+      "candidate_id": "H-39",
+      "title": "Roadster City",
+      "url": "https://roadster-city-828894090822.europe-west1.run.app/",
+      "metrics": {
+        "post_id": "2111524782688596019",
+        "source_url": "https://x.com/M_Tylicki/status/2111524782688596019",
+        "views": 326,
+        "likes": 2,
+        "reposts": 0,
+        "replies": 0,
+        "quotes": 0,
+        "observed_at_utc": "2026-10-21T02:39:31.601Z"
+      },
+      "publish": 0,
+      "reason": "tesla_limit"
+    },
+    {
+      "rank": 11,
+      "candidate_id": "H-38",
+      "title": "Roadster C-Ramp",
+      "url": "https://tesla-roadster-game.vercel.app/",
+      "metrics": {
+        "post_id": "2111372401628021018",
+        "source_url": "https://x.com/davidwin94/status/2111372401628021018",
+        "views": 226,
+        "likes": 4,
+        "reposts": 0,
+        "replies": 3,
+        "quotes": 0,
+        "observed_at_utc": "2026-10-21T02:39:31.460Z"
+      },
+      "publish": 0,
+      "reason": "tesla_limit"
+    },
+    {
+      "rank": 12,
+      "candidate_id": "H-47",
+      "title": "Tesla Roadster Simulator (Gemini share)",
+      "url": "https://share.gemini.google/mda6eAyncxYv",
+      "metrics": {
+        "post_id": "2111601514594877947",
+        "source_url": "https://x.com/rafapozzi/status/2111601514594877947",
+        "views": 92,
+        "likes": 0,
+        "reposts": 0,
+        "replies": 1,
+        "quotes": 1,
+        "observed_at_utc": "2026-10-21T02:39:31.939Z"
+      },
+      "publish": 0,
+      "reason": "tesla_limit"
+    },
+    {
+      "rank": 13,
+      "candidate_id": "D-14",
+      "title": "Thrust Trials (Claude Code build)",
+      "url": "https://thrust-trials.apsolut.dev/claude/",
+      "metrics": {
+        "post_id": "2112281162856944123",
+        "source_url": "https://x.com/apsolut/status/2112281162856944123",
+        "views": 89,
+        "likes": 4,
+        "reposts": 0,
+        "replies": 8,
+        "quotes": 0,
+        "observed_at_utc": "2026-10-21T02:39:32.027Z"
+      },
+      "publish": 0,
+      "reason": "tesla_limit"
+    },
+    {
+      "rank": 14,
+      "candidate_id": "H-41",
+      "title": "Sky Roadster",
+      "url": "https://sky-roadster.vercel.app/",
+      "metrics": {
+        "post_id": "2111743835563065424",
+        "source_url": "https://x.com/moajayjeong/status/2111743835563065424",
+        "views": 53,
+        "likes": 5,
+        "reposts": 3,
+        "replies": 3,
+        "quotes": 0,
+        "observed_at_utc": "2026-10-21T02:39:31.680Z"
+      },
+      "publish": 0,
+      "reason": "tesla_limit"
+    },
+    {
+      "rank": 15,
+      "candidate_id": "H-35",
+      "title": "CGT Rocket X Racer",
+      "url": "https://www.cgt.monster/x/",
+      "metrics": {
+        "post_id": "2112516504650694657",
+        "source_url": "https://x.com/JinghangCn/status/2112516504650694657",
+        "views": 50,
+        "likes": 1,
+        "reposts": 0,
+        "replies": 0,
+        "quotes": 0,
+        "observed_at_utc": "2026-10-21T02:39:31.291Z"
+      },
+      "publish": 0,
+      "reason": "tesla_limit"
+    },
+    {
+      "rank": 16,
+      "candidate_id": "H-36",
+      "title": "Flappy Car 像素飞车",
+      "url": "https://flappy-car.xiaoke.ai/",
+      "metrics": {
+        "post_id": "2112488267560206500",
+        "source_url": "https://x.com/liuzhao_666/status/2112488267560206500",
+        "views": 20,
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "quotes": 0,
+        "observed_at_utc": "2026-10-21T02:39:31.367Z"
+      },
+      "publish": 0,
+      "reason": "tesla_limit"
+    },
+    {
+      "rank": 17,
+      "candidate_id": "H-37",
+      "title": "SKY RUSH / 空轨狂飙",
+      "url": "https://pfjgg3.kicp.fun/",
+      "metrics": {
+        "post_id": "2111485458199064968",
+        "source_url": "https://x.com/jojo76156103/status/2111485458199064968",
+        "views": 10,
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "quotes": 0,
+        "observed_at_utc": "2026-10-21T02:39:31.438Z"
+      },
+      "publish": 0,
+      "reason": "tesla_limit"
+    },
+    {
+      "rank": 18,
+      "candidate_id": "H-42",
+      "title": "ROADSTAR: Fly Over Traffic",
+      "url": "https://roadstar.viosu.com/",
+      "metrics": {
+        "post_id": "2111910329538240640",
+        "source_url": "https://x.com/imVidushan/status/2111910329538240640",
+        "views": 5,
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "quotes": 0,
+        "observed_at_utc": "2026-10-21T02:39:31.748Z"
+      },
+      "publish": 0,
+      "reason": "tesla_limit"
+    },
+    {
+      "rank": 19,
+      "candidate_id": "H-69",
+      "title": "Flying Roadster simulator (flyingcar.pet)",
+      "url": "https://flyingcar.pet/",
+      "metrics": {
+        "post_id": "2111933514363076691",
+        "source_url": "https://x.com/closetheloopdev/status/2111933514363076691",
+        "views": 3,
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "quotes": 0,
+        "observed_at_utc": "2026-10-21T02:39:31.948Z"
+      },
+      "publish": 0,
+      "reason": "tesla_limit"
+    }
+  ]
+}

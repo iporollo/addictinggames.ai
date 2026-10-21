@@ -224,3 +224,32 @@ test('browser games cannot be denied under mod artifact requirements', () => {
   const c = deny(candidate(), 'no_public_release', 'release', [attempt('release', 'fail', 'worker', '1'), attempt('release', 'fail', 'worker', '2')]);
   assert.match(errors(campaign([c])), /applies only to mods/);
 });
+
+test('declined artifact assistance requires an explicit owner binary instruction and actual access gate', () => {
+  const c = deny(candidate(), 'owner_declined_review_access', 'artifact_access', [attempt('artifact_access', 'fail')]);
+  c.kind = 'mod';
+  Object.assign(c.gates.artifact_access, { owner_statement_refs: ref, official_release_url: 'https://example.test/release', observed_barrier: 'authentication_required', required_owner_action_declined: true, owner_requires_binary_without_manual_download: true });
+  assert.deepEqual(validateCampaign(campaign([c])), []);
+  c.gates.artifact_access.owner_requires_binary_without_manual_download = false;
+  assert.match(errors(campaign([c])), /explicit owner refusal/);
+  c.gates.artifact_access.owner_requires_binary_without_manual_download = true;
+  c.attempts[0].result = 'tool_failure';
+  assert.match(errors(campaign([c])), /actual official download access barrier/);
+  c.attempts[0].result = 'fail'; c.kind = 'game';
+  assert.match(errors(campaign([c])), /applies only to mods/);
+});
+
+test('verified Tesla winner is not blocked by lower-ranked untested competitor, but unknown metrics still block', () => {
+  const a = candidate('A'); const b = candidate('B');
+  for (const [i, c] of [a, b].entries()) {
+    c.tesla_roadster = true;
+    c.tesla_metrics = { post_id: String(i + 100), source_url: 'https://x.com/creator/status/100', observed_at_utc: '2026-10-20T17:46:00Z', views: 20 - i, likes: 1, reposts: 0, replies: 0, quotes: 0, evidence_refs: ref };
+  }
+  deny(b, 'tesla_limit', 'tesla'); b.gates.guest = { status: 'pending' }; b.gates.gameplay = { status: 'pending' }; b.attempts = [];
+  const r = campaign([a, b]); r.tesla.existing_catalog_ids = ['old1', 'old2', 'old3', 'old4']; r.tesla.finalized = true;
+  assert.deepEqual(validateCampaign(r), []);
+  b.tesla_metrics.views = 21;
+  assert.match(errors(r), /does not match popularity ranking/);
+  b.tesla_metrics.views = null;
+  assert.match(errors(r), /complete Tesla popularity snapshot required/);
+});
