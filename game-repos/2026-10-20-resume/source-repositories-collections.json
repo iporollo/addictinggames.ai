@@ -32,8 +32,64 @@
       "tag": null,
       "license": null,
       "status": "Official README observed at the pinned commit URL. The existing recovery receipt does not record a tag or license."
+    },
+    {
+      "repository_url": "https://github.com/snuri00/ps2-web-recomp",
+      "candidate_ids": [
+        "E-02"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://nfsunderground2.site/",
+          "observed_at_utc": "2026-10-21T00:35:19Z"
+        }
+      ],
+      "commit_sha": "6526f4803d98e10de50bea3af104a4d26e9df033",
+      "license": "MIT",
+      "status": "Generic PS2 WebAssembly recompilation engine, not game-specific NFSU2 source. Original E-02 identity remains unlinked; this is related recovery evidence, not attribution."
+    },
+    {
+      "repository_url": "https://github.com/th0mk/nfsu2-web",
+      "candidate_ids": [
+        "E-02"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/th0mk/nfsu2-web",
+          "observed_at_utc": "2026-10-21T00:35:19Z"
+        }
+      ],
+      "commit_sha": "d77eeaf91ee2c3f7b7bb9e422aeb0839d5f83860",
+      "license": "MIT",
+      "status": "Distinct NFSU2 browser port mapped to nfsu2.xyz by first-party repository metadata. Original E-02 identity remains unlinked; this is related recovery evidence, not attribution."
     }
   ],
   "proposal_only": true,
-  "source": "D-02 existing child-source recovery receipts"
+  "source": "D-02 existing child-source recovery receipts",
+  "related_repository_mentions": [
+    {
+      "repository_url": "https://github.com/snuri00/psp-web-recomp",
+      "source": "Sibling link in PS2 Web Recomp README.",
+      "relation": "Related PSP tooling; no evidence it is E-02 source.",
+      "status": "not independently assessed"
+    },
+    {
+      "repository_url": "https://github.com/N64Recomp/N64Recomp",
+      "source": "Method/lineage reference in th0mk README.",
+      "relation": "Not identified as E-02 source.",
+      "status": "not independently assessed"
+    },
+    {
+      "repository_url": "https://github.com/hedge-dev/XenonRecomp",
+      "source": "Method/lineage reference in th0mk README.",
+      "relation": "Not identified as E-02 source.",
+      "status": "not independently assessed"
+    },
+    {
+      "repository_url": "https://github.com/WebAssembly/wasi-sdk",
+      "source": "Build-tool link in th0mk README.",
+      "relation": "Build dependency, not E-02 source.",
+      "status": "not independently assessed"
+    }
+  ]
 }
