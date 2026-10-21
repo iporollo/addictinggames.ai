@@ -12,6 +12,7 @@ export const reviewedCategories: Record<string, CategoryList> = {
   'strata-sand-world': ['Simulators', 'Casual'],
   'alibi-two-player': ['Puzzle', 'Casual', 'Multiplayer'],
   'procession-deckbuilder': ['Strategy', 'Adventure'],
+  'interactive-buddy-lab': ['Simulators', 'Casual'],
   'void-gptgames': ['Arcade', 'Action'],
   'downhill-dreamer': ['Arcade', 'Sports'],
   'timberbound': ['Simulators', 'Strategy'],
