@@ -174,6 +174,57 @@
       "commit_sha": null,
       "tag": null,
       "license": null
+    },
+    {
+      "repository_url": "https://github.com/kem0x/RepsiMan",
+      "candidate_ids": [
+        "D-02-34"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://tildes.net/~games/1v9e/pepsiman_recompiled_webport",
+          "observed_at_utc": "2026-10-21T01:24:36.830029Z"
+        }
+      ],
+      "commit_sha": null,
+      "tag": null,
+      "license": null,
+      "status": "Third-party source discussion exposes this as the Pepsiman repository. GitHub README lookup returned 404; existence, exact creator linkage, commit and license remain unverified. Not AI-creation proof."
+    },
+    {
+      "repository_url": "https://github.com/CLSAMG22/BBSC",
+      "candidate_ids": [
+        "H-04"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/CLSAMG22/BBSC/releases/tag/v0.0.1_items",
+          "observed_at_utc": "2026-10-20T20:43:31.155449Z"
+        },
+        {
+          "url": "https://api.github.com/repos/CLSAMG22/BBSC/git/refs/tags/v0.0.1_items",
+          "observed_at_utc": "2026-10-21T01:26:01.990586Z"
+        }
+      ],
+      "commit_sha": null,
+      "tag": "v0.0.1_items",
+      "license": null,
+      "status": "Official release assets retained with exact hashes. GitHub tag reference independently resolves v0.0.1_items to the recorded commit. License metadata unresolved.",
+      "release_assets": [
+        {
+          "name": "BBSC-0.0.1-BBport-fork.zip",
+          "url": "https://github.com/CLSAMG22/BBSC/releases/download/v0.0.1_items/BBSC-0.0.1-BBport-fork.zip",
+          "sha256": "4631a1ac5a3419b8fce44fcb9e1d13c9440c6958bf4710b43380456c09b1102a",
+          "observed_at_utc": "2026-10-20T20:43:31.155449+00:00"
+        },
+        {
+          "name": "BBSC-0.0.1-Play.zip",
+          "url": "https://github.com/CLSAMG22/BBSC/releases/download/v0.0.1_items/BBSC-0.0.1-Play.zip",
+          "sha256": "a2409e3ae012eed8227cc0db399bd873941bb9e67d3933bf32db07fbec2336d2",
+          "observed_at_utc": "2026-10-20T20:43:31.155449+00:00"
+        }
+      ],
+      "tag_commit_sha": "315f76c38b1ca5843b082f93f47927a9193ad94a"
     }
   ],
   "proposal_only": true,
