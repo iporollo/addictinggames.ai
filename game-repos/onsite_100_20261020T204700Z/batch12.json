@@ -1,0 +1,658 @@
+{
+  "status": "approved_for_release",
+  "run_id": "onsite_100_20261020T204700Z",
+  "entries": [
+    {
+      "candidate_id": "G-007",
+      "slug": "dusk-cat",
+      "title": "Dusk",
+      "description": "Set a moving prey toy on a phone or tablet for your cat to pounce on.",
+      "category": "Simulators",
+      "url": "https://www.gptgames.dev/games/animals.html",
+      "artwork_path": "public/games/onsite-gptgames-g-007.webp",
+      "ai_quote": "The mouse's eyes, ears, nose and whiskers were turned on their own ... The head is now its own shape inside the turned group.",
+      "ai_source": "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/dc26f46d203ee9e904354fd550efdb1678fc2ca2",
+      "ai_attribution": "Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+      "source_receipt": "game-discovery-bot/runs/onsite_100_20261020T204700Z/reports/gptgames-evidence-c.json#G-007",
+      "current_file_history": {
+        "creator_main_sha": "73b4f81436cf551a5a2d12acdd7758a928465f60",
+        "served_git_blob": "4029cb06dc2adc2ec5788c441d22c80287afa412",
+        "creator_main_git_blob": "4029cb06dc2adc2ec5788c441d22c80287afa412"
+      },
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "direct_input": "Started the hunt and clicked the game canvas at (900,650).",
+        "direct_response": "The cat and hunt scene rendered; a circular ripple with particles appeared at the clicked location. The catch counter remained 0, so no catch is claimed.",
+        "iframe_input": "Repeated the hunt start and canvas click inside the exact site sandbox.",
+        "iframe_response": "The cat and scene rendered in the site player and the clicked location showed a ripple with particles. Catch counter remained 0.",
+        "evidence_ref": "game-discovery-bot/runs/onsite_100_20261020T204700Z/reports/wave16-gameplay.json#G-007"
+      },
+      "player_sandbox": "allow-scripts allow-pointer-lock",
+      "artwork_source": "https://www.gptgames.dev/screenshots/screenshot_4.webp",
+      "artwork_provenance_ref": "game-discovery-bot/runs/onsite_100_20261020T204700Z/reports/batch12-artwork-provenance.json#G-007"
+    },
+    {
+      "candidate_id": "G-009",
+      "slug": "connect-four-gptgames",
+      "title": "Connect Four",
+      "description": "Drop discs into the grid and connect four before the computer.",
+      "category": "Strategy",
+      "url": "https://www.gptgames.dev/games/connect_four.html",
+      "artwork_path": "public/games/onsite-gptgames-g-009.webp",
+      "ai_quote": "getAIMove now runs negamax with alpha-beta",
+      "ai_source": "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/ca94727ecc3c6d7b504585c6c787ee0b1fe65fea",
+      "ai_attribution": "claude",
+      "source_receipt": "game-discovery-bot/runs/onsite_100_20261020T204700Z/reports/gptgames-evidence-rest-c.json#G-009",
+      "current_file_history": {
+        "creator_main_sha": "73b4f81436cf551a5a2d12acdd7758a928465f60",
+        "served_git_blob": "4de6c974aa835d0aa855c6e8cba1981d28af0559",
+        "creator_main_git_blob": "4de6c974aa835d0aa855c6e8cba1981d28af0559"
+      },
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "direct_input": "Clicked the bottom cell in column 1 in a fresh guest game.",
+        "direct_response": "The Red counter appeared; the computer placed a Yellow counter in the center column, visibly showing both moves.",
+        "iframe_input": "Clicked the visible game board through the iframe once near its center.",
+        "iframe_response": "The Red counter appeared in the selected column; the computer then placed a Yellow counter. Both responses were visible on the board inside the restricted frame.",
+        "evidence_ref": "game-discovery-bot/runs/onsite_100_20261020T204700Z/reports/wave19-gameplay.json#G-009"
+      },
+      "player_sandbox": "allow-scripts allow-pointer-lock",
+      "artwork_source": "https://www.gptgames.dev/screenshots/screenshot_5.webp",
+      "artwork_provenance_ref": "game-discovery-bot/runs/onsite_100_20261020T204700Z/reports/batch12-artwork-provenance.json#G-009"
+    },
+    {
+      "candidate_id": "G-012",
+      "slug": "squiggle-doodle",
+      "title": "Squiggle",
+      "description": "Turn the daily dotted squiggle into a drawing of your own.",
+      "category": "Casual",
+      "url": "https://www.gptgames.dev/games/doodling.html",
+      "artwork_path": "public/games/onsite-gptgames-g-012.webp",
+      "ai_quote": "Squiggle: Doodling rebuilt as a tear-off pad with a squiggle a day",
+      "ai_source": "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/ad124e5a211816f20066d47dd51d70c92663244e",
+      "ai_attribution": "claude",
+      "source_receipt": "game-discovery-bot/runs/onsite_100_20261020T204700Z/reports/gptgames-evidence-rest-c.json#G-012",
+      "current_file_history": {
+        "creator_main_sha": "73b4f81436cf551a5a2d12acdd7758a928465f60",
+        "served_git_blob": "f0fb7b2817cf4b18e5fe97722bcbc0dbf91efade",
+        "creator_main_git_blob": "f0fb7b2817cf4b18e5fe97722bcbc0dbf91efade"
+      },
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "direct_input": "In a fresh guest session, mouse-pressed on the drawing canvas around (590,370), dragged through (760,420) and (870,335), then released.",
+        "direct_response": "A new dark stroke appeared on the paper; the Undo control changed from disabled to enabled.",
+        "iframe_input": "On the AddictingGames player page, dragged inside the restricted game frame from local (550,280) through (710,350) to (850,270), then released.",
+        "iframe_response": "The same drawing interaction produced a visible dark stroke in the embedded game; Undo changed from disabled to enabled.",
+        "evidence_ref": "game-discovery-bot/runs/onsite_100_20261020T204700Z/reports/wave17-gameplay.json#G-012"
+      },
+      "player_sandbox": "allow-scripts allow-pointer-lock",
+      "artwork_source": "https://www.gptgames.dev/screenshots/screenshot_7.webp",
+      "artwork_provenance_ref": "game-discovery-bot/runs/onsite_100_20261020T204700Z/reports/batch12-artwork-provenance.json#G-012"
+    },
+    {
+      "candidate_id": "G-016",
+      "slug": "saltline-fishing",
+      "title": "Saltline",
+      "description": "Cast a line and reel in fish from a coastal scene.",
+      "category": "Simulators",
+      "url": "https://www.gptgames.dev/games/fishing.html",
+      "artwork_path": "public/games/onsite-gptgames-g-016.webp",
+      "ai_quote": "Saltline: the fishing game remade as float fishing in a bay, dawn to night (work in progress)",
+      "ai_source": "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/5397b70c5f33c86bd850982f8f3566bdd1c04182",
+      "ai_attribution": "claude",
+      "source_receipt": "game-discovery-bot/runs/onsite_100_20261020T204700Z/reports/gptgames-evidence-rest-c.json#G-016",
+      "current_file_history": {
+        "creator_main_sha": "73b4f81436cf551a5a2d12acdd7758a928465f60",
+        "served_git_blob": "1abe30846e3913acc502582258eb20e4e31f3187",
+        "creator_main_git_blob": "1abe30846e3913acc502582258eb20e4e31f3187"
+      },
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "direct_input": "In a fresh guest session, dragged across the water from about (640,480) to (850,400) to cast.",
+        "direct_response": "The title overlay disappeared; the rod extended and the line and bobber appeared in the water. The HUD remained at 0 coins and 0/21 logbook entries; no catch is claimed.",
+        "iframe_input": "Dragged inside the restricted frame from local (640,400) to (850,350), following the on-screen “drag to cast” instruction.",
+        "iframe_response": "The title overlay disappeared; the rod extended and a line, bobber and hook appeared in the water. The HUD remained at 0 coins and 0/21 logbook entries; no catch is claimed.",
+        "evidence_ref": "game-discovery-bot/runs/onsite_100_20261020T204700Z/reports/wave17-gameplay.json#G-016"
+      },
+      "player_sandbox": "allow-scripts allow-pointer-lock",
+      "artwork_source": "https://www.gptgames.dev/screenshots/screenshot_34.webp",
+      "artwork_provenance_ref": "game-discovery-bot/runs/onsite_100_20261020T204700Z/reports/batch12-artwork-provenance.json#G-016"
+    },
+    {
+      "candidate_id": "G-017",
+      "slug": "fugue-flappy",
+      "title": "Fugue",
+      "description": "Time each flap to pass through an endless course.",
+      "category": "Arcade",
+      "url": "https://www.gptgames.dev/games/flappy_bird.html",
+      "artwork_path": "public/games/onsite-gptgames-g-017.webp",
+      "ai_quote": "Flappy Bird -> Fugue: remade as a flight through a pipe organ, where every gap sounds a note",
+      "ai_source": "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/98d529f1934b8f2a515a0633d13c28ffeb2a65ba",
+      "ai_attribution": "claude",
+      "source_receipt": "game-discovery-bot/runs/onsite_100_20261020T204700Z/reports/gptgames-evidence-rest-c.json#G-017",
+      "current_file_history": {
+        "creator_main_sha": "73b4f81436cf551a5a2d12acdd7758a928465f60",
+        "served_git_blob": "d8860cf95a2d026d54d283b57f3f5195b3a3a886",
+        "creator_main_git_blob": "d8860cf95a2d026d54d283b57f3f5195b3a3a886"
+      },
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "direct_input": "Clicked the game canvas around (400,400) to start, then tapped Space twice.",
+        "direct_response": "The title cleared into an active flight scene with moving organ pipes; after the Space taps the bird was visibly higher (roughly y=360 to y=320 in the captured view). No score increase is claimed.",
+        "iframe_input": "Clicked the game canvas inside the restricted frame around local (400,300) to start, then pressed Space during the run.",
+        "iframe_response": "The title cleared into active flight with the bird and organ pipes visible; the short run then reached the “Fly again” end overlay with score 0. This is a title→run→end input-response check; no score or obstacle-clear claim is made.",
+        "evidence_ref": "game-discovery-bot/runs/onsite_100_20261020T204700Z/reports/wave17-gameplay.json#G-017"
+      },
+      "player_sandbox": "allow-scripts allow-pointer-lock",
+      "artwork_source": "https://www.gptgames.dev/screenshots/screenshot_33.webp",
+      "artwork_provenance_ref": "game-discovery-bot/runs/onsite_100_20261020T204700Z/reports/batch12-artwork-provenance.json#G-017"
+    },
+    {
+      "candidate_id": "G-018",
+      "slug": "frog-crossing-gptgames",
+      "title": "Frog Crossing",
+      "description": "Hop across traffic and water to reach the far bank.",
+      "category": "Arcade",
+      "url": "https://www.gptgames.dev/games/frogger.html",
+      "artwork_path": "public/games/onsite-gptgames-g-018.webp",
+      "ai_quote": "Frog Crossing: remake Frogger as a rainy-night crossing to the pond",
+      "ai_source": "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/82140c12c42ca7a7c9d6652b2a40d7575d927217",
+      "ai_attribution": "claude",
+      "source_receipt": "game-discovery-bot/runs/onsite_100_20261020T204700Z/reports/gptgames-evidence-rest-c.json#G-018",
+      "current_file_history": {
+        "creator_main_sha": "73b4f81436cf551a5a2d12acdd7758a928465f60",
+        "served_git_blob": "664f687e17263123c5f8cd3d129466f349166c71",
+        "creator_main_git_blob": "664f687e17263123c5f8cd3d129466f349166c71"
+      },
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "direct_input": "Pressed ArrowUp on the title screen showing “PRESS ↑ TO HOP”.",
+        "direct_response": "The title screen gave way to active play and the displayed score changed from 0 to 8.",
+        "iframe_input": "Clicked the frog/game area inside the restricted frame to focus/start, then pressed ArrowUp.",
+        "iframe_response": "The title screen gave way to active crossing gameplay and the displayed score changed from 0 to 18.",
+        "evidence_ref": "game-discovery-bot/runs/onsite_100_20261020T204700Z/reports/wave17-gameplay.json#G-018"
+      },
+      "player_sandbox": "allow-scripts allow-pointer-lock",
+      "artwork_source": "https://www.gptgames.dev/screenshots/screenshot_58.webp",
+      "artwork_provenance_ref": "game-discovery-bot/runs/onsite_100_20261020T204700Z/reports/batch12-artwork-provenance.json#G-018"
+    },
+    {
+      "candidate_id": "G-031",
+      "slug": "regatta-typing",
+      "title": "Regatta",
+      "description": "Type words quickly to keep your boat moving.",
+      "category": "Puzzle",
+      "url": "https://www.gptgames.dev/games/typing_game.html",
+      "artwork_path": "public/games/onsite-gptgames-g-031.webp",
+      "ai_quote": "Regatta: the typing game remade as a race on the river",
+      "ai_source": "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/1b952a1176eb2b0ec7d2b29ec0a3711c5dd54654",
+      "ai_attribution": "claude",
+      "source_receipt": "game-discovery-bot/runs/onsite_100_20261020T204700Z/reports/gptgames-evidence-rest-c.json#G-031",
+      "current_file_history": {
+        "creator_main_sha": "73b4f81436cf551a5a2d12acdd7758a928465f60",
+        "served_git_blob": "86ff70ad47b4b1f434797b934897cb85dfc334c4",
+        "creator_main_git_blob": "86ff70ad47b4b1f434797b934897cb85dfc334c4"
+      },
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "direct_input": "Typed “The finish” into the race text field in a fresh guest session.",
+        "direct_response": "The passage advanced to “The finish”; boats moved and the live counter showed “1.6s behind Swift · 26 wpm.”",
+        "iframe_input": "Typed the first ten characters, “If you wan”, of the newly displayed passage inside the restricted frame.",
+        "iframe_response": "The typed characters appeared in the passage, the cursor advanced, and the boats moved.",
+        "evidence_ref": "game-discovery-bot/runs/onsite_100_20261020T204700Z/reports/wave18-gameplay.json#G-031"
+      },
+      "player_sandbox": "allow-scripts allow-pointer-lock",
+      "artwork_source": "https://www.gptgames.dev/screenshots/screenshot_18.webp",
+      "artwork_provenance_ref": "game-discovery-bot/runs/onsite_100_20261020T204700Z/reports/batch12-artwork-provenance.json#G-031"
+    },
+    {
+      "candidate_id": "G-032",
+      "slug": "prickle-patch",
+      "title": "Prickle Patch",
+      "description": "Tap the popping hedgehogs before time runs out.",
+      "category": "Arcade",
+      "url": "https://www.gptgames.dev/games/whac.html",
+      "artwork_path": "public/games/onsite-gptgames-g-032.webp",
+      "ai_quote": "games/whac.html is written from an empty file.",
+      "ai_source": "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/c4d168da115a0613db236d29fe59b145329a65fe",
+      "ai_attribution": "claude",
+      "source_receipt": "game-discovery-bot/runs/onsite_100_20261020T204700Z/reports/gptgames-evidence-sweep-c.json#G-032",
+      "current_file_history": {
+        "creator_main_sha": "73b4f81436cf551a5a2d12acdd7758a928465f60",
+        "served_git_blob": "2e8824bfa258958891cb09368ccdcc7d1e2904a6",
+        "creator_main_git_blob": "2e8824bfa258958891cb09368ccdcc7d1e2904a6"
+      },
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "direct_input": "Clicked the live hedgehog target using the visible game area.",
+        "direct_response": "The score increased from 0 to 150, boops from 0 to 1, and stings stayed at 0.",
+        "iframe_input": "Clicked the live hedgehog target through the restricted frame.",
+        "iframe_response": "The score increased from 0 to 106, boops from 0 to 1, and stings stayed at 0; the pop-up showed +106.",
+        "evidence_ref": "game-discovery-bot/runs/onsite_100_20261020T204700Z/reports/wave18-gameplay.json#G-032"
+      },
+      "player_sandbox": "allow-scripts allow-pointer-lock",
+      "artwork_source": "https://www.gptgames.dev/screenshots/screenshot_19.webp",
+      "artwork_provenance_ref": "game-discovery-bot/runs/onsite_100_20261020T204700Z/reports/batch12-artwork-provenance.json#G-032"
+    },
+    {
+      "candidate_id": "G-036",
+      "slug": "suika-gptgames",
+      "title": "Suika",
+      "description": "Drop and merge fruits to make larger ones without overflowing.",
+      "category": "Puzzle",
+      "url": "https://www.gptgames.dev/games/suika.html",
+      "artwork_path": "public/games/onsite-gptgames-g-036.webp",
+      "ai_quote": "A new page from an empty file.",
+      "ai_source": "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/c9df08c12019af2f0dd091dcd862f06657d3ab13",
+      "ai_attribution": "claude",
+      "source_receipt": "game-discovery-bot/runs/onsite_100_20261020T204700Z/reports/gptgames-evidence-sweep-c.json#G-036",
+      "current_file_history": {
+        "creator_main_sha": "73b4f81436cf551a5a2d12acdd7758a928465f60",
+        "served_git_blob": "0cd7c3ff455474a3d1d1d28c0f6201b56af99299",
+        "creator_main_git_blob": "0cd7c3ff455474a3d1d1d28c0f6201b56af99299"
+      },
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "direct_input": "Clicked inside the jar to drop the current fruit.",
+        "direct_response": "The fruit fell into the jar, and the next fruit appeared. Score remained 0; no merge or points are claimed.",
+        "iframe_input": "Clicked inside the restricted jar to drop the current fruit.",
+        "iframe_response": "A fruit appeared at the jar base, the next fruit changed, and the score remained 0. No merge or points are claimed.",
+        "evidence_ref": "game-discovery-bot/runs/onsite_100_20261020T204700Z/reports/wave18-gameplay.json#G-036"
+      },
+      "player_sandbox": "allow-scripts allow-pointer-lock",
+      "artwork_source": "https://www.gptgames.dev/screenshots/screenshot_125.webp",
+      "artwork_provenance_ref": "game-discovery-bot/runs/onsite_100_20261020T204700Z/reports/batch12-artwork-provenance.json#G-036"
+    },
+    {
+      "candidate_id": "G-074",
+      "slug": "skyline-stacker",
+      "title": "SKYLINE",
+      "description": "Drop sliding blocks to raise a skyscraper and chain perfect landings.",
+      "category": "Arcade",
+      "url": "https://www.gptgames.dev/games/skyline.html",
+      "artwork_path": "public/games/onsite-gptgames-g-074.webp",
+      "ai_quote": "- another round of improvements, this time by claude fable 5",
+      "ai_source": "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/b5b890bcf014f1e2a91a00abe12f5a3bd4db8c58",
+      "ai_attribution": "Creator commit message explicitly attributes the game-file improvements to Claude Fable 5",
+      "source_receipt": "game-discovery-bot/runs/onsite_100_20261020T204700Z/reports/g074-ai-current-file.json#G-074",
+      "current_file_history": {
+        "creator_main_sha": "73b4f81436cf551a5a2d12acdd7758a928465f60",
+        "served_git_blob": "e28774aa2c6ee86bd6a29ab2f0068baf80c2b60a",
+        "creator_main_git_blob": "e28774aa2c6ee86bd6a29ab2f0068baf80c2b60a"
+      },
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "direct_input": "In an anonymous guest page, clicked START BUILDING, skipped the tutorial, then pressed the documented Space key to drop the sliding block.",
+        "direct_response": "The visible floor counter advanced from FLR 1 to FLR 2 and the BRICKS readout advanced from 0 to 1.1, confirming the block dropped and landed in active gameplay.",
+        "iframe_input": "Clicked START BUILDING in the embedded game and pressed Space to drop the sliding block.",
+        "iframe_response": "Inside the restricted iframe, the visible floor counter advanced from FLR 1 to FLR 2 and BRICKS advanced from 0 to 1.1 after the Space input.",
+        "evidence_ref": "game-discovery-bot/runs/onsite_100_20261020T204700Z/reports/wave19-gameplay.json#G-074"
+      },
+      "player_sandbox": "allow-scripts allow-pointer-lock",
+      "artwork_source": "https://www.gptgames.dev/screenshots/screenshot_277.webp",
+      "artwork_provenance_ref": "game-discovery-bot/runs/onsite_100_20261020T204700Z/reports/batch12-artwork-provenance.json#G-074"
+    },
+    {
+      "candidate_id": "G-059",
+      "slug": "tesserae-nonogram",
+      "title": "Tesserae",
+      "description": "Fill the grid using number clues to reveal a picture.",
+      "category": "Puzzle",
+      "url": "https://www.gptgames.dev/games/nonogram.html",
+      "artwork_path": "public/games/onsite-gptgames-g-059.webp",
+      "ai_quote": "Nonogram: remake as Tesserae, a mosaic wall where the picture turns to glaze",
+      "ai_source": "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/d81b15c448edf85911e662c79693638cf51ba02f",
+      "ai_attribution": "claude",
+      "source_receipt": "game-discovery-bot/runs/onsite_100_20261020T204700Z/reports/gptgames-evidence-rest-c.json#G-059",
+      "current_file_history": {
+        "creator_main_sha": "73b4f81436cf551a5a2d12acdd7758a928465f60",
+        "served_git_blob": "f48685b53dbc92a2d1921575d36af5d20676c53f",
+        "creator_main_git_blob": "f48685b53dbc92a2d1921575d36af5d20676c53f"
+      },
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "direct_input": "In the selected 5x5 heart nonogram, clicked one empty tile while Lay mode was active.",
+        "direct_response": "Filled-cell counter changed from 0/16 to 1/16; tile visibly changed state.",
+        "iframe_input": "Inside the restricted iframe, clicked one empty tile in the selected 5x5 heart puzzle while Lay mode was active.",
+        "iframe_response": "Filled-cell counter changed from 0/16 to 1/16; tile visibly changed state.",
+        "evidence_ref": "game-discovery-bot/runs/onsite_100_20261020T204700Z/reports/wave11-gameplay.json#G-059"
+      },
+      "player_sandbox": "allow-scripts allow-pointer-lock",
+      "artwork_source": "https://www.gptgames.dev/screenshots/screenshot_228.webp",
+      "artwork_provenance_ref": "game-discovery-bot/runs/onsite_100_20261020T204700Z/reports/batch12-artwork-provenance.json#G-059"
+    },
+    {
+      "candidate_id": "G-061",
+      "slug": "freecell-gptgames",
+      "title": "FreeCell",
+      "description": "Sort cards into foundations using four free cells.",
+      "category": "Puzzle",
+      "url": "https://www.gptgames.dev/games/freecell.html",
+      "artwork_path": "public/games/onsite-gptgames-g-061.webp",
+      "ai_quote": "FreeCell remade: every deal winnable, daily deal, tap-to-move, hint",
+      "ai_source": "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/2ef2d10d825d5957f18bee20cc57ea5db964fe48",
+      "ai_attribution": "claude",
+      "source_receipt": "game-discovery-bot/runs/onsite_100_20261020T204700Z/reports/gptgames-evidence-rest-c.json#G-061",
+      "current_file_history": {
+        "creator_main_sha": "73b4f81436cf551a5a2d12acdd7758a928465f60",
+        "served_git_blob": "8c9b8fd9ef0ae7d180569966e73c21a2b6004e26",
+        "creator_main_git_blob": "8c9b8fd9ef0ae7d180569966e73c21a2b6004e26"
+      },
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "direct_input": "Tapped the exposed bottom card (3 of hearts) in column 2.",
+        "direct_response": "The card moved onto a legal black 4 in column 1; the tableau visibly changed and Undo became enabled. Deal No. 1330 remained guest-playable.",
+        "iframe_input": "Tapped the exposed cards at the bottom of columns 1 and 2 in the iframe.",
+        "iframe_response": "The tableau visibly changed: 4 of clubs and 3 of hearts moved into a legal alternating-color descending stack in column 8; Undo became enabled.",
+        "evidence_ref": "game-discovery-bot/runs/onsite_100_20261020T204700Z/reports/wave11-gameplay.json#G-061"
+      },
+      "player_sandbox": "allow-scripts allow-pointer-lock",
+      "artwork_source": "https://www.gptgames.dev/screenshots/screenshot_231.webp",
+      "artwork_provenance_ref": "game-discovery-bot/runs/onsite_100_20261020T204700Z/reports/batch12-artwork-provenance.json#G-061"
+    },
+    {
+      "candidate_id": "G-062",
+      "slug": "lanternfall-webcraft",
+      "title": "Lanternfall",
+      "description": "Explore and build in a blocky world after dark.",
+      "category": "Adventure",
+      "url": "https://www.gptgames.dev/games/webcraft.html",
+      "artwork_path": "public/games/onsite-gptgames-g-062.webp",
+      "ai_quote": "Lanternfall: remake WebCraft as a lantern-lit voxel world",
+      "ai_source": "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/d94bf4079bb92bbc35ec85d18a11ec5a8b8b718e",
+      "ai_attribution": "claude",
+      "source_receipt": "game-discovery-bot/runs/onsite_100_20261020T204700Z/reports/gptgames-evidence-rest-c.json#G-062",
+      "current_file_history": {
+        "creator_main_sha": "73b4f81436cf551a5a2d12acdd7758a928465f60",
+        "served_git_blob": "8ef1ba5c9716bdbd9808d8a298a628373eab2f14",
+        "creator_main_git_blob": "8ef1ba5c9716bdbd9808d8a298a628373eab2f14"
+      },
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "direct_input": "Clicked BEGIN, then dragged the mouse while the game was active to use the tutorial-directed look control.",
+        "direct_response": "The view rotated from the shoreline/ocean toward the forest; the tutorial advanced from \"Move the mouse to look\" to the WASD movement prompt.",
+        "iframe_input": "Inside the iframe, clicked BEGIN and dragged the mouse to use the tutorial-directed look control.",
+        "iframe_response": "The game started and the view rotated from the initial direction to a forest view; the WASD movement prompt was visible. Pointer-lock look works with the exact sandbox including allow-pointer-lock.",
+        "evidence_ref": "game-discovery-bot/runs/onsite_100_20261020T204700Z/reports/wave11-gameplay.json#G-062"
+      },
+      "player_sandbox": "allow-scripts allow-pointer-lock",
+      "artwork_source": "https://www.gptgames.dev/screenshots/screenshot_232.webp",
+      "artwork_provenance_ref": "game-discovery-bot/runs/onsite_100_20261020T204700Z/reports/batch12-artwork-provenance.json#G-062"
+    },
+    {
+      "candidate_id": "G-063",
+      "slug": "void-runner-gptgames",
+      "title": "Void Runner",
+      "description": "Jump over obstacles and push your score higher.",
+      "category": "Arcade",
+      "url": "https://www.gptgames.dev/games/void_runner.html",
+      "artwork_path": "public/games/onsite-gptgames-g-063.webp",
+      "ai_quote": "Void Runner: remade as a runner on one thin line of light",
+      "ai_source": "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/88a746d18a9b86cd063eeed86227ea037dd77d44",
+      "ai_attribution": "claude",
+      "source_receipt": "game-discovery-bot/runs/onsite_100_20261020T204700Z/reports/gptgames-evidence-rest-c.json#G-063",
+      "current_file_history": {
+        "creator_main_sha": "73b4f81436cf551a5a2d12acdd7758a928465f60",
+        "served_git_blob": "6c8db5063eff1eb58dc2c5f4268d66be298b4792",
+        "creator_main_git_blob": "6c8db5063eff1eb58dc2c5f4268d66be298b4792"
+      },
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "direct_input": "Started a daily run and clicked the playfield to jump.",
+        "direct_response": "Run state changed from grounded (y=0, jumps=0) to airborne (y=2.3385, vy=8.33, jumps=1); displayed score advanced to 2.",
+        "iframe_input": "Inside the iframe, started a daily run and clicked the playfield to jump.",
+        "iframe_response": "Run state changed from grounded (y=0, jumps=0) to airborne (y=2.3385, vy=8.33, jumps=1); displayed score advanced to 2.",
+        "evidence_ref": "game-discovery-bot/runs/onsite_100_20261020T204700Z/reports/wave11-gameplay.json#G-063"
+      },
+      "player_sandbox": "allow-scripts allow-pointer-lock",
+      "artwork_source": "https://www.gptgames.dev/screenshots/screenshot_244.webp",
+      "artwork_provenance_ref": "game-discovery-bot/runs/onsite_100_20261020T204700Z/reports/batch12-artwork-provenance.json#G-063"
+    },
+    {
+      "candidate_id": "G-065",
+      "slug": "two-truths-a-lie",
+      "title": "Two Truths & a Lie",
+      "description": "Read three statements and pick the one that is false.",
+      "category": "Casual",
+      "url": "https://www.gptgames.dev/games/two_truths_one_lie.html",
+      "artwork_path": "public/games/onsite-gptgames-g-065.webp",
+      "ai_quote": "Remake Two Truths & a Lie as a case file: typed index cards, a stamp that lands",
+      "ai_source": "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/9cf62a74e34eab785cc1c95ba66347ef4887d0c2",
+      "ai_attribution": "claude",
+      "source_receipt": "game-discovery-bot/runs/onsite_100_20261020T204700Z/reports/gptgames-evidence-rest-c.json#G-065",
+      "current_file_history": {
+        "creator_main_sha": "73b4f81436cf551a5a2d12acdd7758a928465f60",
+        "served_git_blob": "5cb7053e9c75152e33a9ec367063bc097c32d7f7",
+        "creator_main_git_blob": "5cb7053e9c75152e33a9ec367063bc097c32d7f7"
+      },
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "direct_input": "Opened today’s case and selected statement B, “Greenland is about as big as Africa.”",
+        "direct_response": "The page marked B as the lie, displayed “Caught. You found the lie.”, revealed A and C as true, and advanced the case progress indicator.",
+        "iframe_input": "Opened today’s case inside the restricted frame and selected statement B, “Greenland is about as big as Africa.”",
+        "iframe_response": "The frame marked B as the lie and showed “Caught. You found the lie.” with A and C marked true.",
+        "evidence_ref": "game-discovery-bot/runs/onsite_100_20261020T204700Z/reports/wave12-gameplay.json#G-065"
+      },
+      "player_sandbox": "allow-scripts allow-pointer-lock",
+      "artwork_source": "https://www.gptgames.dev/screenshots/screenshot_250.webp",
+      "artwork_provenance_ref": "game-discovery-bot/runs/onsite_100_20261020T204700Z/reports/batch12-artwork-provenance.json#G-065"
+    },
+    {
+      "candidate_id": "G-066",
+      "slug": "qix-gptgames",
+      "title": "QIX",
+      "description": "Draw lines across the arena to claim territory.",
+      "category": "Arcade",
+      "url": "https://www.gptgames.dev/games/qix.html",
+      "artwork_path": "public/games/onsite-gptgames-g-066.webp",
+      "ai_quote": "QIX remade as a painting: every claim reveals a landscape (work in progress)",
+      "ai_source": "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/779584e16515356505b1bcdff79456410db13667",
+      "ai_attribution": "claude",
+      "source_receipt": "game-discovery-bot/runs/onsite_100_20261020T204700Z/reports/gptgames-evidence-rest-c.json#G-066",
+      "current_file_history": {
+        "creator_main_sha": "73b4f81436cf551a5a2d12acdd7758a928465f60",
+        "served_git_blob": "a8b0ca501ea855b5b297b14f3bbdeb101e0c8f8d",
+        "creator_main_git_blob": "a8b0ca501ea855b5b297b14f3bbdeb101e0c8f8d"
+      },
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "direct_input": "In the anonymous guest page, pressed Tab until PLAY was focused and Enter to start; then used a real mouse drag from the lower edge upward and held the pointer for about 2.6 seconds.",
+        "direct_response": "The live CLAIMED readout rose from 0% to 50%; the score rose from 0 to 20,100 and a large +51% / +19,600 territory award appeared. The visible board showed the newly claimed vertical region.",
+        "iframe_input": "Clicked the visible PLAY button in the iframe, then used a real mouse drag from the lower board edge upward and held the pointer for about 2.7 seconds.",
+        "iframe_response": "Inside the restricted iframe, the live CLAIMED readout rose from 0% to 50% and score rose from 0 to 19,750; the board visibly displayed the newly claimed territory.",
+        "evidence_ref": "game-discovery-bot/runs/onsite_100_20261020T204700Z/reports/wave19-gameplay.json#G-066"
+      },
+      "player_sandbox": "allow-scripts allow-pointer-lock",
+      "artwork_source": "https://www.gptgames.dev/screenshots/screenshot_251.webp",
+      "artwork_provenance_ref": "game-discovery-bot/runs/onsite_100_20261020T204700Z/reports/batch12-artwork-provenance.json#G-066"
+    },
+    {
+      "candidate_id": "G-067",
+      "slug": "word-rain-gptgames",
+      "title": "WORD RAIN",
+      "description": "Type falling words before they reach the bottom.",
+      "category": "Puzzle",
+      "url": "https://www.gptgames.dev/games/word_rain.html",
+      "artwork_path": "public/games/onsite-gptgames-g-067.webp",
+      "ai_quote": "Word Rain: remake as a night-town typing defence",
+      "ai_source": "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/6640f9ff6deffc64cc24b9041c58ebee3e9af875",
+      "ai_attribution": "claude",
+      "source_receipt": "game-discovery-bot/runs/onsite_100_20261020T204700Z/reports/gptgames-evidence-rest-c.json#G-067",
+      "current_file_history": {
+        "creator_main_sha": "73b4f81436cf551a5a2d12acdd7758a928465f60",
+        "served_git_blob": "ab8c5a5bc6c5a4982e31009307517cc06b6adfc5",
+        "creator_main_git_blob": "ab8c5a5bc6c5a4982e31009307517cc06b6adfc5"
+      },
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "direct_input": "Started a night and typed “rain” for the falling word.",
+        "direct_response": "The word disappeared after keyboard input and the visible star score rose from 0 to 20.",
+        "iframe_input": "Started a night, paused at the game’s “Rain, held” prompt, resumed, and typed “rain”.",
+        "iframe_response": "The restricted game continued accepting keyboard input and the visible score rose from 0 to 60 while new words appeared.",
+        "evidence_ref": "game-discovery-bot/runs/onsite_100_20261020T204700Z/reports/wave12-gameplay.json#G-067"
+      },
+      "player_sandbox": "allow-scripts allow-pointer-lock",
+      "artwork_source": "https://www.gptgames.dev/screenshots/screenshot_258.webp",
+      "artwork_provenance_ref": "game-discovery-bot/runs/onsite_100_20261020T204700Z/reports/batch12-artwork-provenance.json#G-067"
+    },
+    {
+      "candidate_id": "G-069",
+      "slug": "rubiks-cube-gptgames",
+      "title": "Rubik's Cube",
+      "description": "Rotate the cube and solve its colors face by face.",
+      "category": "Puzzle",
+      "url": "https://www.gptgames.dev/games/rubiks_cube.html",
+      "artwork_path": "public/games/onsite-gptgames-g-069.webp",
+      "ai_quote": "Rubik's Cube: remade as a studio-table cube you turn with your thumb",
+      "ai_source": "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/8671e6d737424e182a0f11160ff66b0ee540e0c8",
+      "ai_attribution": "claude",
+      "source_receipt": "game-discovery-bot/runs/onsite_100_20261020T204700Z/reports/gptgames-evidence-rest-c.json#G-069",
+      "current_file_history": {
+        "creator_main_sha": "73b4f81436cf551a5a2d12acdd7758a928465f60",
+        "served_git_blob": "6ad257c422d693d7ea84817b84240e685b5e25ec",
+        "creator_main_git_blob": "6ad257c422d693d7ea84817b84240e685b5e25ec"
+      },
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "direct_input": "Started the Easy scramble and dragged an exposed cube face using pointer input.",
+        "direct_response": "The first touch started the timer; the face layer rotated, the sticker arrangement changed, and the visible move count changed from 0 to 1.",
+        "iframe_input": "Started the Easy scramble inside the restricted frame and dragged an exposed face using pointer input.",
+        "iframe_response": "The frame accepted the drag; the cube layer rotated, the stickers changed, and the visible move count changed from 0 to 1.",
+        "evidence_ref": "game-discovery-bot/runs/onsite_100_20261020T204700Z/reports/wave12-gameplay.json#G-069"
+      },
+      "player_sandbox": "allow-scripts allow-pointer-lock",
+      "artwork_source": "https://www.gptgames.dev/screenshots/screenshot_264.webp",
+      "artwork_provenance_ref": "game-discovery-bot/runs/onsite_100_20261020T204700Z/reports/batch12-artwork-provenance.json#G-069"
+    },
+    {
+      "candidate_id": "G-099",
+      "slug": "pingu-throw",
+      "title": "Pingu Throw",
+      "description": "Launch a penguin and try to beat your best distance.",
+      "category": "Arcade",
+      "url": "https://www.gptgames.dev/games/pingu_throw.html",
+      "artwork_path": "public/games/onsite-gptgames-g-099.webp",
+      "ai_quote": "Add Pingu Throw, the Yetisports 1 classic",
+      "ai_source": "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/85a87a2bb5f8f54d9878bc367615e382330347b8",
+      "ai_attribution": "claude",
+      "source_receipt": "game-discovery-bot/runs/onsite_100_20261020T204700Z/reports/gptgames-evidence-sweep-c.json#G-099",
+      "current_file_history": {
+        "creator_main_sha": "73b4f81436cf551a5a2d12acdd7758a928465f60",
+        "served_git_blob": "2bf0630d91832961fe0f3f85f440b6721e1518a2",
+        "creator_main_git_blob": "2bf0630d91832961fe0f3f85f440b6721e1518a2"
+      },
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "direct_input": "Clicked TAP TO DROP, then tapped again about 1.28 seconds later to swing. An earlier 0.6 second attempt gave explicit 693 ms early feedback; the later timing launched the throw.",
+        "direct_response": "The penguin visibly launched and the distance meter reached 58.1m in the direct guest page. The earlier timing miss was separately recorded as game feedback; the successful later two-tap sequence changed game state.",
+        "iframe_input": "Clicked TAP TO DROP within the restricted frame, waited about 1.28 seconds, then clicked again to swing.",
+        "iframe_response": "The penguin visibly launched in the sandboxed frame and the distance meter reached 32.1m while airborne.",
+        "evidence_ref": "game-discovery-bot/runs/onsite_100_20261020T204700Z/reports/wave13-gameplay.json#G-099"
+      },
+      "player_sandbox": "allow-scripts allow-pointer-lock",
+      "artwork_source": "https://www.gptgames.dev/screenshots/screenshot_312.webp",
+      "artwork_provenance_ref": "game-discovery-bot/runs/onsite_100_20261020T204700Z/reports/batch12-artwork-provenance.json#G-099"
+    },
+    {
+      "candidate_id": "G-068",
+      "slug": "push-mine-gptgames",
+      "title": "Push Mine",
+      "description": "Tap to swing your pickaxe and dig deeper through the mine.",
+      "category": "Arcade",
+      "url": "https://www.gptgames.dev/games/push_mine.html",
+      "artwork_path": "public/games/onsite-gptgames-g-068.webp",
+      "ai_quote": "Push Mine: magma and crystal rules, a journal, the Deep Heart, descend again",
+      "ai_source": "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/d5a728ea16c93d93bf5b8a6048d4800231d7fe78",
+      "ai_attribution": "Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+      "source_receipt": "game-discovery-bot/runs/onsite_100_20261020T204700Z/reports/gptgames-evidence-c.json#G-068",
+      "current_file_history": {
+        "creator_main_sha": "73b4f81436cf551a5a2d12acdd7758a928465f60",
+        "served_git_blob": "ec08a2ef31d1d46808762ba61d36e12b25c85f63",
+        "creator_main_git_blob": "ec08a2ef31d1d46808762ba61d36e12b25c85f63"
+      },
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "direct_input": "Clicked Start digging, chose the visible “No camera, one arm, or just trying? Tap mode” option, held the pointer on the playfield until the down-phase bar filled, then released for one push-up cycle. No camera or microphone permission was granted.",
+        "direct_response": "The on-screen HUD changed from 0m / 0 reps to 1m / 1 rep after one hold-and-release cycle. This verifies the game’s explicit camera-free tap mode.",
+        "iframe_input": "In the exact restricted iframe, clicked Start digging, chose Tap mode, held the pointer on the playfield until the down-phase bar filled, then released. No camera or microphone permission was granted.",
+        "iframe_response": "Inside the sandbox, the HUD changed from 0m / 0 reps to 1m / 1 rep after one hold-and-release cycle. document.referrer was empty.",
+        "evidence_ref": "game-discovery-bot/runs/onsite_100_20261020T204700Z/reports/wave20-gameplay.json#G-068"
+      },
+      "player_sandbox": "allow-scripts allow-pointer-lock",
+      "artwork_source": "https://www.gptgames.dev/screenshots/screenshot_259.webp",
+      "artwork_provenance_ref": "game-discovery-bot/runs/onsite_100_20261020T204700Z/reports/batch12-artwork-provenance.json#G-068"
+    },
+    {
+      "candidate_id": "G-087",
+      "slug": "hummingbird-gptgames",
+      "title": "Hummingbird",
+      "description": "Guide a little bird along a flower vine with your mouse.",
+      "category": "Casual",
+      "url": "https://www.gptgames.dev/games/hummingbird.html",
+      "artwork_path": "public/games/onsite-gptgames-g-087.webp",
+      "ai_quote": "Add Hummingbird — a game you play by humming",
+      "ai_source": "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/41a3add59cde0227e4640339b9f2ae266986344b",
+      "ai_attribution": "claude",
+      "source_receipt": "game-discovery-bot/runs/onsite_100_20261020T204700Z/reports/gptgames-evidence-sweep-c.json#G-087",
+      "current_file_history": {
+        "creator_main_sha": "73b4f81436cf551a5a2d12acdd7758a928465f60",
+        "served_git_blob": "744ad38591303502cea8610d4c6838f5de6a6ffb",
+        "creator_main_git_blob": "744ad38591303502cea8610d4c6838f5de6a6ffb"
+      },
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "direct_input": "Selected “No mic — fly with the mouse”, clicked “Off we go”, and waited 6.5 seconds through the full 3→2→1 countdown. A first pointer move dismissed the game’s “…move the mouse…” start cue; the before-steer screenshot was taken only after that cue disappeared and active play was visible. With active play underway, moved the pointer from the lower playfield (52% x, 72% y) to the upper-right playfield (78% x, 24% y), then waited 1.3 seconds before the after-steer screenshot.",
+        "direct_response": "Both screenshots are after the countdown and start cue. The bird changed from the lower playfield (about y=645) before the tested steering move to the upper playfield (about y=220) afterward. Flower counter remained 0 during this direct capture.",
+        "iframe_input": "Selected “No mic — fly with the mouse”, clicked “Off we go”, and waited 6.5 seconds through the full 3→2→1 countdown. A first pointer move dismissed the game’s “…move the mouse…” start cue; the before-steer screenshot was taken only after that cue disappeared and active play was visible. With active play underway, moved the pointer from the lower playfield (52% x, 72% y) to the upper-right playfield (78% x, 24% y), then waited 1.3 seconds before the after-steer screenshot.",
+        "iframe_response": "Both screenshots are after the countdown and start cue. The bird changed from the lower playfield (about y=568) before the tested steering move to the upper playfield (about y=260) afterward; flower counter advanced 0→1 during this iframe play.",
+        "evidence_ref": "game-discovery-bot/runs/onsite_100_20261020T204700Z/reports/wave20-gameplay.json#G-087",
+        "focused_retest_ref": "game-discovery-bot/runs/onsite_100_20261020T204700Z/reports/wave20-gameplay.json#G-087.active_play_steering_retest"
+      },
+      "player_sandbox": "allow-scripts allow-pointer-lock",
+      "artwork_source": "https://www.gptgames.dev/screenshots/screenshot_298.webp",
+      "artwork_provenance_ref": "game-discovery-bot/runs/onsite_100_20261020T204700Z/reports/batch12-artwork-provenance.json#G-087"
+    }
+  ]
+}

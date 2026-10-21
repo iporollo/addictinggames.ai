@@ -6,6 +6,7 @@ export type PlayableGame = Game & { shortDescription: string; embedUrl: string; 
 export type ListedGame = PlayableGame | DirectGame;
 
 export const newGameSlugs = [
+  "dusk-cat", "connect-four-gptgames", "squiggle-doodle", "saltline-fishing", "fugue-flappy", "frog-crossing-gptgames", "regatta-typing", "prickle-patch", "suika-gptgames", "skyline-stacker", "tesserae-nonogram", "freecell-gptgames", "lanternfall-webcraft", "void-runner-gptgames", "two-truths-a-lie", "qix-gptgames", "word-rain-gptgames", "rubiks-cube-gptgames", "pingu-throw", "push-mine-gptgames", "hummingbird-gptgames",
   'three-gates-tower-defense', 'eight-ball-pool-gptgames', 'liquid-war-gptgames', 'kurve-gptgames',
   'backgammon-gptgames',
   'scatter-maze', 'peg-fever', 'worms-artillery-gptgames', 'tilt-maze-gptgames', 'five-rungs', 'bubble-break-gptgames',
@@ -39,6 +40,27 @@ const newGameSandbox = 'allow-scripts allow-pointer-lock';
 
 // Only browser-verified games are shipped. Finalized in verification/GAME-REPORT.md.
 export const verifiedEmbeds: Record<string, string> = {
+  "dusk-cat": "https://www.gptgames.dev/games/animals.html",
+  "connect-four-gptgames": "https://www.gptgames.dev/games/connect_four.html",
+  "squiggle-doodle": "https://www.gptgames.dev/games/doodling.html",
+  "saltline-fishing": "https://www.gptgames.dev/games/fishing.html",
+  "fugue-flappy": "https://www.gptgames.dev/games/flappy_bird.html",
+  "frog-crossing-gptgames": "https://www.gptgames.dev/games/frogger.html",
+  "regatta-typing": "https://www.gptgames.dev/games/typing_game.html",
+  "prickle-patch": "https://www.gptgames.dev/games/whac.html",
+  "suika-gptgames": "https://www.gptgames.dev/games/suika.html",
+  "skyline-stacker": "https://www.gptgames.dev/games/skyline.html",
+  "tesserae-nonogram": "https://www.gptgames.dev/games/nonogram.html",
+  "freecell-gptgames": "https://www.gptgames.dev/games/freecell.html",
+  "lanternfall-webcraft": "https://www.gptgames.dev/games/webcraft.html",
+  "void-runner-gptgames": "https://www.gptgames.dev/games/void_runner.html",
+  "two-truths-a-lie": "https://www.gptgames.dev/games/two_truths_one_lie.html",
+  "qix-gptgames": "https://www.gptgames.dev/games/qix.html",
+  "word-rain-gptgames": "https://www.gptgames.dev/games/word_rain.html",
+  "rubiks-cube-gptgames": "https://www.gptgames.dev/games/rubiks_cube.html",
+  "pingu-throw": "https://www.gptgames.dev/games/pingu_throw.html",
+  "push-mine-gptgames": "https://www.gptgames.dev/games/push_mine.html",
+  "hummingbird-gptgames": "https://www.gptgames.dev/games/hummingbird.html",
   'three-gates-tower-defense': 'https://www.gptgames.dev/games/mini_tower_defense.html',
   'eight-ball-pool-gptgames': 'https://www.gptgames.dev/games/8-ball.html',
   'liquid-war-gptgames': 'https://www.gptgames.dev/games/liquid_war.html',
@@ -187,6 +209,27 @@ export const verifiedEmbeds: Record<string, string> = {
 };
 
 const descriptions: Record<string, string> = {
+  "dusk-cat": "Let your cat chase moving prey",
+  "connect-four-gptgames": "Connect four discs before the computer",
+  "squiggle-doodle": "Draw from a daily squiggle",
+  "saltline-fishing": "Cast and reel in fish",
+  "fugue-flappy": "Flap through an endless course",
+  "frog-crossing-gptgames": "Hop across traffic and water",
+  "regatta-typing": "Type words to race your boat",
+  "prickle-patch": "Tap hedgehogs before time runs out",
+  "suika-gptgames": "Merge falling fruit",
+  "skyline-stacker": "Stack blocks to raise a skyscraper",
+  "tesserae-nonogram": "Solve a picture grid",
+  "freecell-gptgames": "Sort cards into foundations",
+  "lanternfall-webcraft": "Explore a blocky world",
+  "void-runner-gptgames": "Jump through an endless run",
+  "two-truths-a-lie": "Spot the lie",
+  "qix-gptgames": "Cut paths to claim territory",
+  "word-rain-gptgames": "Type falling words",
+  "rubiks-cube-gptgames": "Solve a rotating cube",
+  "pingu-throw": "Launch for distance",
+  "push-mine-gptgames": "Tap to dig through the mine",
+  "hummingbird-gptgames": "Guide a bird through flowers",
   'three-gates-tower-defense': 'Place defenses across three gates',
   'eight-ball-pool-gptgames': 'Sink balls against the computer',
   'liquid-war-gptgames': 'Guide your army by moving the cursor',
