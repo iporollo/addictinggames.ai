@@ -6,6 +6,7 @@ export type PlayableGame = Game & { shortDescription: string; embedUrl: string; 
 export type ListedGame = PlayableGame | DirectGame;
 
 export const newGameSlugs = [
+    'moodswing-match-three', 'ludo-gptgames', 'yacht-yahtzee', 'patience-solitaire', 'lights-on-missile-command', 'reversi-gptgames',
     'escapement-pinball', 'everywhere-rule', 'strata-sand-world', 'alibi-two-player', 'procession-deckbuilder', 'interactive-buddy-lab',
   'void-gptgames', 'downhill-dreamer', 'timberbound', 'mastermind-gptgames', 'nine-holes-gptgames',
   'tumbler-number-guess', 'pong-gptgames', 'simon-says-gptgames', 'boogie-woogie-blockdrop', 'margins-tic-tac-toe', 'departures-time-travel',
@@ -35,6 +36,13 @@ const newGameSandbox = 'allow-scripts allow-pointer-lock';
 
 // Only browser-verified games are shipped. Finalized in verification/GAME-REPORT.md.
 export const verifiedEmbeds: Record<string, string> = {
+  'moodswing-match-three': 'https://www.gptgames.dev/games/emoji_match_three.html',
+  'ludo-gptgames': 'https://www.gptgames.dev/games/ludo.html',
+  'yacht-yahtzee': 'https://www.gptgames.dev/games/yahtzee.html',
+  'patience-solitaire': 'https://www.gptgames.dev/games/solitaire.html',
+  'lights-on-missile-command': 'https://www.gptgames.dev/games/missile_command.html',
+  'reversi-gptgames': 'https://www.gptgames.dev/games/reversi.html',
+
   'escapement-pinball': 'https://www.gptgames.dev/games/escapement.html',
   'everywhere-rule': 'https://www.gptgames.dev/games/everywhere.html',
   'strata-sand-world': 'https://www.gptgames.dev/games/strata.html',
@@ -165,6 +173,13 @@ export const verifiedEmbeds: Record<string, string> = {
 };
 
 const descriptions: Record<string, string> = {
+  'moodswing-match-three': "Swap mood tiles in a match-three board.",
+  'ludo-gptgames': "Roll and race your Ludo pawns.",
+  'yacht-yahtzee': "Roll dice and fill a Yacht score card.",
+  'patience-solitaire': "Play a winnable game of Klondike solitaire.",
+  'lights-on-missile-command': "Protect cities with aimed interceptors.",
+  'reversi-gptgames': "Flip pieces and outplay a computer opponent.",
+
   'escapement-pinball': "Build a clock through pinball.",
   'everywhere-rule': "Write one rule for every maze.",
   'strata-sand-world': "Sculpt a falling-sand world.",

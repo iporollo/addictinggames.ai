@@ -1,0 +1,233 @@
+{
+  "status": "approved_for_release",
+  "run_id": "onsite_100_20261020T204700Z",
+  "entries": [
+    {
+      "candidate_id": "G-046",
+      "slug": "moodswing-match-three",
+      "title": "Moodswing",
+      "url": "https://www.gptgames.dev/games/emoji_match_three.html",
+      "categories": [
+        "Puzzle",
+        "Casual"
+      ],
+      "ai_quote": "Moodswing: Emoji Match 3 remade as a match-3 where the pieces are moods",
+      "ai_source": "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/10f86361fd2ff68e36c40998d480d106a8fafc3d",
+      "ai_attribution": "Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+      "current_file_history": {
+        "creator_main_sha": "73b4f81436cf551a5a2d12acdd7758a928465f60",
+        "served_git_blob": "2af5593957cfb11c465160e019e459018f0c8629",
+        "creator_main_git_blob": "2af5593957cfb11c465160e019e459018f0c8629",
+        "file_change_commit_urls_newest_first": [
+          "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/10f86361fd2ff68e36c40998d480d106a8fafc3d",
+          "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/019409376dd7d58a6374827d8d4d938d1aa80f64"
+        ]
+      },
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "direct_input": "Started level 1 and swapped an adjacent heart and green tile.",
+        "direct_response": "Moves changed 20→19; score changed 0→90 and the board reconfigured.",
+        "iframe_input": "Started level 1 and swapped an adjacent heart and green tile inside the restricted frame.",
+        "iframe_response": "Moves changed 20→19; score changed 0→90.",
+        "evidence_ref": "game-discovery-bot/runs/onsite_100_20261020T204700Z/reports/wave10-c-gameplay.json#G-046"
+      },
+      "player_sandbox": "allow-scripts allow-pointer-lock",
+      "artwork_source": "https://www.gptgames.dev/screenshots/screenshot_179.webp",
+      "artwork_path": "public/games/onsite-gptgames-g-046.webp",
+      "caveat": null
+    },
+    {
+      "candidate_id": "G-048",
+      "slug": "ludo-gptgames",
+      "title": "Ludo",
+      "url": "https://www.gptgames.dev/games/ludo.html",
+      "categories": [
+        "Strategy",
+        "Casual"
+      ],
+      "ai_quote": "Ludo: remade on a block-printed cotton board with turned wooden pawns",
+      "ai_source": "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/211a1e22078af8f12d1e2521737346a7d2a632cd",
+      "ai_attribution": "Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+      "current_file_history": {
+        "creator_main_sha": "73b4f81436cf551a5a2d12acdd7758a928465f60",
+        "served_git_blob": "a92792c41af7cd9c9dadbddc0377e5d08184251e",
+        "creator_main_git_blob": "a92792c41af7cd9c9dadbddc0377e5d08184251e",
+        "file_change_commit_urls_newest_first": [
+          "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/211a1e22078af8f12d1e2521737346a7d2a632cd",
+          "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/1946ac9e79a7e336bb6aec59376ed2505f0f669f",
+          "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/9cf84704c9d833e70d7174183e1ad322045fc6e5"
+        ]
+      },
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "direct_input": "Clicked the visible die to roll; an unstable locator timed out during animation, then the real coordinate click completed.",
+        "direct_response": "Die face changed 6→3; turn remained yours because no pawn was eligible to leave without a six.",
+        "iframe_input": "Clicked the visible die inside the restricted frame.",
+        "iframe_response": "Die face changed 6→5; the game continued to show Your turn.",
+        "evidence_ref": "game-discovery-bot/runs/onsite_100_20261020T204700Z/reports/wave10-c-gameplay.json#G-048"
+      },
+      "player_sandbox": "allow-scripts allow-pointer-lock",
+      "artwork_source": "https://www.gptgames.dev/screenshots/screenshot_192.webp",
+      "artwork_path": "public/games/onsite-gptgames-g-048.webp",
+      "caveat": null
+    },
+    {
+      "candidate_id": "G-051",
+      "slug": "yacht-yahtzee",
+      "title": "Yacht (Yahtzee)",
+      "url": "https://www.gptgames.dev/games/yahtzee.html",
+      "categories": [
+        "Casual",
+        "Strategy"
+      ],
+      "ai_quote": "Remake Yahtzee as Yacht: a night on deck, a score pad in pencil, a Skipper on the same dice",
+      "ai_source": "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/d8541deb3c359ebd6fa128accaac2cc7bd73bbaa",
+      "ai_attribution": "Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+      "current_file_history": {
+        "creator_main_sha": "73b4f81436cf551a5a2d12acdd7758a928465f60",
+        "served_git_blob": "67088f55013b2e56f8e248b86e8da99ae4816667",
+        "creator_main_git_blob": "67088f55013b2e56f8e248b86e8da99ae4816667",
+        "file_change_commit_urls_newest_first": [
+          "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/f6d707a24d27c90bae020dd6f4fc9c62999396f4",
+          "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/d8541deb3c359ebd6fa128accaac2cc7bd73bbaa",
+          "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/5baf5e0c8150b3c8c3d13ad4b082c07e270466eb",
+          "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/6ac4fa074c25814c43e63a1fa0072485235a0c83",
+          "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/3721c55078b18b6d2bb1326c7ff521a6bf973fab",
+          "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/68557cfac634761195d52e902cb70a1f616f8d93",
+          "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/dd0252a27b217cd5c8ffcd95a2ef3023d7fde65f"
+        ]
+      },
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "direct_input": "Rolled five dice, selected Threes, then confirmed that category.",
+        "direct_response": "Turn advanced 1→2; Threes and YOU score changed 0→6; Skipper score was 25.",
+        "iframe_input": "Rolled five dice, selected Threes, and confirmed the category inside the restricted frame.",
+        "iframe_response": "Turn advanced 1→2; YOU score changed 0→6; Skipper score was 25.",
+        "evidence_ref": "game-discovery-bot/runs/onsite_100_20261020T204700Z/reports/wave10-c-gameplay.json#G-051"
+      },
+      "player_sandbox": "allow-scripts allow-pointer-lock",
+      "artwork_source": "https://www.gptgames.dev/screenshots/screenshot_195.webp",
+      "artwork_path": "public/games/onsite-gptgames-g-051.webp",
+      "caveat": null
+    },
+    {
+      "candidate_id": "G-052",
+      "slug": "patience-solitaire",
+      "title": "Patience",
+      "url": "https://www.gptgames.dev/games/solitaire.html",
+      "categories": [
+        "Puzzle",
+        "Casual"
+      ],
+      "ai_quote": "Remake Solitaire as Patience: Klondike at a lamp-lit table, every deal winnable",
+      "ai_source": "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/931e51db7c4da0d790698fb8e43be2600d50cf90",
+      "ai_attribution": "Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+      "current_file_history": {
+        "creator_main_sha": "73b4f81436cf551a5a2d12acdd7758a928465f60",
+        "served_git_blob": "7ac0d9e713f529de607f23e8b76081e192707742",
+        "creator_main_git_blob": "7ac0d9e713f529de607f23e8b76081e192707742",
+        "file_change_commit_urls_newest_first": [
+          "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/931e51db7c4da0d790698fb8e43be2600d50cf90",
+          "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/f6ea038a718ea9ff077319bcfc815f96ea830279",
+          "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/0ded59832a4ad5e22c1ef8a457462b9b70041749",
+          "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/a5cd287942349b3f03e14dc03e6dd9d16c875c25",
+          "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/00b6f655080310a63ca6a2b0bc4695a3ba3b96ce"
+        ]
+      },
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "direct_input": "Clicked the stock pile.",
+        "direct_response": "Move counter changed 0→1 and a 4♦ appeared face up in waste.",
+        "iframe_input": "Clicked the stock pile inside the restricted frame.",
+        "iframe_response": "Move counter changed 0→1 and a 7♦ appeared face up in waste.",
+        "evidence_ref": "game-discovery-bot/runs/onsite_100_20261020T204700Z/reports/wave10-c-gameplay.json#G-052"
+      },
+      "player_sandbox": "allow-scripts allow-pointer-lock",
+      "artwork_source": "https://www.gptgames.dev/screenshots/screenshot_197.webp",
+      "artwork_path": "public/games/onsite-gptgames-g-052.webp",
+      "caveat": null
+    },
+    {
+      "candidate_id": "G-053",
+      "slug": "lights-on-missile-command",
+      "title": "Lights On (Missile Command)",
+      "url": "https://www.gptgames.dev/games/missile_command.html",
+      "categories": [
+        "Arcade",
+        "Shooter"
+      ],
+      "ai_quote": "Remake Missile Command as Lights On: six harbour cities, and their windows are the lives",
+      "ai_source": "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/52cdc95fcbe308e42fc7b2cc89032bd57536ad81",
+      "ai_attribution": "Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+      "current_file_history": {
+        "creator_main_sha": "73b4f81436cf551a5a2d12acdd7758a928465f60",
+        "served_git_blob": "1b3d863bcc5d2855a9d0380dd3eb637ab205b557",
+        "creator_main_git_blob": "1b3d863bcc5d2855a9d0380dd3eb637ab205b557",
+        "file_change_commit_urls_newest_first": [
+          "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/d2ce7969acb210ad5277da16a989a9ee771967fe",
+          "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/52cdc95fcbe308e42fc7b2cc89032bd57536ad81",
+          "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/8b4c60137a8c4d5db6648ad92b781b0b4b0dc150",
+          "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/73f3e392da035c107084ddb59d7708fcd92a24aa"
+        ]
+      },
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "direct_input": "Clicked the sky to start round 1, then clicked aim point (820,370) to launch an interceptor.",
+        "direct_response": "A bright interceptor blast ring appeared at the aim point. Wave 1 remained active; score was 0. The screenshot also shows enemy impacts during the brief interval.",
+        "iframe_input": "Clicked the sky to start round 1, then clicked aim point (820,370) inside the restricted frame.",
+        "iframe_response": "A bright interceptor blast ring appeared at the aim point; wave 1 remained active and score stayed 0.",
+        "evidence_ref": "game-discovery-bot/runs/onsite_100_20261020T204700Z/reports/wave10-c-gameplay.json#G-053"
+      },
+      "player_sandbox": "allow-scripts allow-pointer-lock",
+      "artwork_source": "https://www.gptgames.dev/screenshots/screenshot_198.webp",
+      "artwork_path": "public/games/onsite-gptgames-g-053.webp",
+      "caveat": null
+    },
+    {
+      "candidate_id": "G-054",
+      "slug": "reversi-gptgames",
+      "title": "Reversi",
+      "url": "https://www.gptgames.dev/games/reversi.html",
+      "categories": [
+        "Strategy",
+        "Puzzle"
+      ],
+      "ai_quote": "Reversi: remake as a Victorian parlour board with three opponents that play to their names",
+      "ai_source": "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/26983908249974235507a55eae09d9e6861a1a30",
+      "ai_attribution": "Co-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>",
+      "current_file_history": {
+        "creator_main_sha": "73b4f81436cf551a5a2d12acdd7758a928465f60",
+        "served_git_blob": "9ef68090a6bddc26efa6181e6c9e7b4e7111b347",
+        "creator_main_git_blob": "9ef68090a6bddc26efa6181e6c9e7b4e7111b347",
+        "file_change_commit_urls_newest_first": [
+          "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/26983908249974235507a55eae09d9e6861a1a30",
+          "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/18211440af3d1bf17687ff3841df6a390ce2c4c1"
+        ]
+      },
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "direct_input": "Selected Apprentice and placed a legal black counter at the opening move marker.",
+        "direct_response": "YOU changed 2→4, Apprentice remained 2, and the game returned to Your move.",
+        "iframe_input": "Selected Apprentice and placed a legal black counter at the opening move marker inside the restricted frame.",
+        "iframe_response": "YOU changed 2→4; Apprentice changed 2→1 after its reply; status returned to Your move.",
+        "evidence_ref": "game-discovery-bot/runs/onsite_100_20261020T204700Z/reports/wave10-c-gameplay.json#G-054"
+      },
+      "player_sandbox": "allow-scripts allow-pointer-lock",
+      "artwork_source": "https://www.gptgames.dev/screenshots/screenshot_209.webp",
+      "artwork_path": "public/games/onsite-gptgames-g-054.webp",
+      "caveat": null
+    }
+  ]
+}
