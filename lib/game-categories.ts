@@ -7,6 +7,11 @@ export type MultiplayerMode = 'Online multiplayer' | 'Local 2-player' | 'Local m
 
 // Evidence and unresolved cases live in docs/category-audit/2026-10-11/.
 export const reviewedCategories: Record<string, CategoryList> = {
+  'escapement-pinball': ['Arcade', 'Sports'],
+  'everywhere-rule': ['Puzzle', 'Strategy'],
+  'strata-sand-world': ['Simulators', 'Casual'],
+  'alibi-two-player': ['Puzzle', 'Casual', 'Multiplayer'],
+  'procession-deckbuilder': ['Strategy', 'Adventure'],
   'void-gptgames': ['Arcade', 'Action'],
   'downhill-dreamer': ['Arcade', 'Sports'],
   'timberbound': ['Simulators', 'Strategy'],
@@ -917,6 +922,7 @@ export const reviewedCategories: Record<string, CategoryList> = {
 };
 
 export const multiplayerModes: Record<string, MultiplayerMode> = {
+  'alibi-two-player': 'Local 2-player',
   "tt-kitchen": "Local 2-player",
   "tt-kart": "Local 2-player",
   "tt-mini-golf": "Local 2-player",

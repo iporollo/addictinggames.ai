@@ -6,6 +6,7 @@ export type PlayableGame = Game & { shortDescription: string; embedUrl: string; 
 export type ListedGame = PlayableGame | DirectGame;
 
 export const newGameSlugs = [
+    'escapement-pinball', 'everywhere-rule', 'strata-sand-world', 'alibi-two-player', 'procession-deckbuilder',
   'void-gptgames', 'downhill-dreamer', 'timberbound', 'mastermind-gptgames', 'nine-holes-gptgames',
   'tumbler-number-guess', 'pong-gptgames', 'simon-says-gptgames', 'boogie-woogie-blockdrop', 'margins-tic-tac-toe', 'departures-time-travel',
   'alphabet-typing-speed', 'peel-and-seek', 'death-by-ai-gptgames', 'under-the-lamp',
@@ -34,6 +35,11 @@ const newGameSandbox = 'allow-scripts allow-pointer-lock';
 
 // Only browser-verified games are shipped. Finalized in verification/GAME-REPORT.md.
 export const verifiedEmbeds: Record<string, string> = {
+  'escapement-pinball': 'https://www.gptgames.dev/games/escapement.html',
+  'everywhere-rule': 'https://www.gptgames.dev/games/everywhere.html',
+  'strata-sand-world': 'https://www.gptgames.dev/games/strata.html',
+  'alibi-two-player': 'https://www.gptgames.dev/games/alibi.html',
+  'procession-deckbuilder': 'https://www.gptgames.dev/games/procession.html',
   'void-gptgames': 'https://www.gptgames.dev/games/void.html',
   'downhill-dreamer': 'https://www.gptgames.dev/games/downhill_dreamer.html',
   'timberbound': 'https://www.gptgames.dev/games/timberbound.html',
@@ -158,6 +164,11 @@ export const verifiedEmbeds: Record<string, string> = {
 };
 
 const descriptions: Record<string, string> = {
+  'escapement-pinball': "Build a clock through pinball.",
+  'everywhere-rule': "Write one rule for every maze.",
+  'strata-sand-world': "Sculpt a falling-sand world.",
+  'alibi-two-player': "Compare stories with a friend.",
+  'procession-deckbuilder': "Play cards through a procession.",
   'void-gptgames': "Swallow the street and grow.",
   'downhill-dreamer': "Dive, release, and soar.",
   'timberbound': "Chop, haul, and upgrade.",
