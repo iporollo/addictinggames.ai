@@ -166,11 +166,11 @@
       ],
       "discovery_sources": [
         {
-          "url": "game-discovery-bot/runs/2026-10-20-resume/reports/source-recovery2/D-02.json#items/8",
-          "observed_at_utc": "2026-10-21T01:09:16Z"
+          "url": "https://github.com/RetroPortingToolKit/psxrecomp",
+          "observed_at_utc": "2026-10-21T01:17:04.524490Z"
         }
       ],
-      "status": "Previously surfaced as recompiler tooling; its AI/Claude description applies to that framework/prototype, not this exact Pepsiman port.",
+      "status": "Related recompiler repository independently verified during recovery. Creator or exact Pepsiman linkage is unconfirmed; earlier raw source reference did not expose this repository.",
       "commit_sha": null,
       "tag": null,
       "license": null
