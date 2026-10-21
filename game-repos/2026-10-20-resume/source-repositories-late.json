@@ -1,0 +1,187 @@
+{
+  "schema_version": 2,
+  "records": [
+    {
+      "repository_url": "https://github.com/AtomicChatRepo/MinecraftKirinGunMod",
+      "candidate_ids": [
+        "H-05"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/AtomicChatRepo/MinecraftKirinGunMod",
+          "observed_at_utc": "2026-10-20T23:45:06Z",
+          "retrieval_method": "Direct public repository check recorded in final-unresolved-recovery/recovery.json"
+        },
+        {
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1w5ftqe/fable_51_made_a_minecraft_mod_for_20/",
+          "observed_at_utc": "2026-10-20T23:45:06Z",
+          "retrieval_method": "Creator attribution and direct repository link recorded in final-unresolved-recovery/recovery.json"
+        },
+        {
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1w5ftqe/fable_51_made_a_minecraft_mod_for_20/",
+          "observed_at_utc": "2026-10-21T00:16:54Z"
+        }
+      ],
+      "commit_sha": "8f5ec18f1b0ebe57f8f54433fa710b4fcd719537",
+      "tag_commit_sha": "8f5ec18f1b0ebe57f8f54433fa710b4fcd719537",
+      "tag": "v1.0.0",
+      "release_tags": [
+        {
+          "tag": "v1.0.0",
+          "release_url": "https://github.com/AtomicChatRepo/MinecraftKirinGunMod/releases/tag/v1.0.0",
+          "observed_at_utc": null,
+          "tag_commit_sha": "8f5ec18f1b0ebe57f8f54433fa710b4fcd719537",
+          "published_at_utc": "2026-09-02T15:16:58Z"
+        }
+      ],
+      "license": null,
+      "license_observations": [],
+      "release_assets": [
+        {
+          "name": "kirin-1.0.0.jar",
+          "url": "https://github.com/AtomicChatRepo/MinecraftKirinGunMod/releases/download/v1.0.0/kirin-1.0.0.jar",
+          "sha256": "7a3459f90eede6f6763e26ae949901a7f361cc83aef66b8c5a1e6389f8c6e827",
+          "observed_at_utc": null,
+          "publisher_digest_match": true
+        }
+      ],
+      "source_statuses": [
+        "Late creator-linked source repository retained; exact v1.0.0 release asset and publisher digest are recorded in existing H-05 artifact-review evidence."
+      ],
+      "status": "Source revision and v1.0.0 tag commit both resolve to 8f5ec18f1b0ebe57f8f54433fa710b4fcd719537 in the captured repository/release pages. License was not recorded.",
+      "metadata_notes": [
+        "The creator attribution report states that the Reddit page was read directly on 2026-10-21 UTC but records no time for the later release/API capture; release asset observation time is therefore null rather than inferred.",
+        "The release API reports v1.0.0 published at 2026-09-02T15:16:58Z and the asset SHA-256 matches the downloaded JAR. Earlier recovery notes said no package had been located in that pass; the later official release/API capture supersedes that absence observation."
+      ],
+      "repository_role": "mod_source",
+      "game_source": false
+    },
+    {
+      "repository_url": "https://github.com/Riftwright/nookworks",
+      "candidate_ids": [
+        "H-17"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/Riftwright/nookworks",
+          "observed_at_utc": "2026-10-20T16:11Z",
+          "retrieval_method": "Legacy-index repository search result"
+        },
+        {
+          "url": "https://www.curseforge.com/minecraft/mc-mods/nookworks",
+          "observed_at_utc": "2026-10-20T20:50:12.144897+00:00",
+          "retrieval_method": "Official CurseForge listing capture; its Source on GitHub link points to this repository"
+        }
+      ],
+      "commit_sha": null,
+      "tag_commit_sha": null,
+      "tag": null,
+      "release_tags": [],
+      "license": "MIT",
+      "license_observations": [
+        "MIT (README and repository metadata in legacy-index)"
+      ],
+      "release_assets": [],
+      "source_statuses": [
+        "The source repository has no release tag/commit pin in the saved legacy record; the mod release is separately hosted on CurseForge."
+      ],
+      "status": "Repository HEAD and tag commit SHA unresolved; no GitHub release/tag metadata recorded.",
+      "metadata_notes": [
+        "A separate official CurseForge file page is https://www.curseforge.com/minecraft/mc-mods/nookworks/files/9267059 (v1.1.0); the associated artifact SHA-256 is 8858e9c86795a164f1a9a0ca4d198ec91045fa777572ba5edb853c26dbfb7cbe. This is not a GitHub repository release asset."
+      ],
+      "repository_role": "mod_source",
+      "game_source": false
+    },
+    {
+      "repository_url": "https://github.com/BroZYTnikkkk/pacific-drive-coop",
+      "candidate_ids": [
+        "H-18"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/BroZYTnikkkk/pacific-drive-coop",
+          "observed_at_utc": "2026-10-20T16:12Z",
+          "retrieval_method": "Legacy-index repository search result"
+        }
+      ],
+      "commit_sha": null,
+      "tag_commit_sha": null,
+      "tag": null,
+      "release_tags": [],
+      "license": "MIT",
+      "license_observations": [
+        "MIT (search metadata in legacy-index)"
+      ],
+      "release_assets": [],
+      "source_statuses": [
+        "Recorded GitHub release lookup returned an empty list; public artifact was not observed in the mods-3 review."
+      ],
+      "status": "Repository commit and tag unresolved; no GitHub release recorded in the legacy lookup.",
+      "metadata_notes": [
+        "The saved README identifies this as a research prototype and links separate lab notes/playbook repositories; those links do not change this candidate repository identity."
+      ],
+      "repository_role": "mod_source",
+      "game_source": false
+    },
+    {
+      "repository_url": "https://github.com/itstwoam/AoE-QoL",
+      "candidate_ids": [
+        "H-19"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/itstwoam/AoE-QoL",
+          "observed_at_utc": "2026-10-20T16:12Z",
+          "retrieval_method": "Legacy-index repository search result"
+        }
+      ],
+      "commit_sha": null,
+      "tag_commit_sha": null,
+      "tag": null,
+      "release_tags": [],
+      "license": "NOASSERTION",
+      "license_observations": [
+        "NOASSERTION (legacy-index GitHub metadata)"
+      ],
+      "release_assets": [],
+      "source_statuses": [
+        "Recorded GitHub release lookup returned an empty list; README directs users to an unresolved CurseForge listing, so this source receipt does not assert there is no external release."
+      ],
+      "status": "Repository commit and tag unresolved; no GitHub release recorded in the legacy lookup.",
+      "metadata_notes": [],
+      "repository_role": "mod_source",
+      "game_source": false
+    },
+    {
+      "repository_url": "https://github.com/creativityrebranded-cpu/Vehicle-Mod-Overhaul-WIP",
+      "candidate_ids": [
+        "H-20"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/creativityrebranded-cpu/Vehicle-Mod-Overhaul-WIP",
+          "observed_at_utc": "2026-10-20T16:12Z",
+          "retrieval_method": "Legacy-index repository search result"
+        }
+      ],
+      "commit_sha": null,
+      "tag_commit_sha": null,
+      "tag": null,
+      "release_tags": [],
+      "license": null,
+      "license_observations": [
+        "Legacy-index reports no license."
+      ],
+      "release_assets": [],
+      "source_statuses": [
+        "Saved README labels the project WIP; recorded GitHub releases/tags were empty. This repository link is retained regardless of candidate disposition."
+      ],
+      "status": "Repository commit, tag, and license unresolved; no GitHub release recorded in the legacy lookup.",
+      "metadata_notes": [
+        "No license was exposed in the saved legacy metadata; represented as null."
+      ],
+      "repository_role": "mod_source",
+      "game_source": false
+    }
+  ]
+}

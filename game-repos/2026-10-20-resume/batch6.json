@@ -1,0 +1,68 @@
+{
+  "original_run": "2026-10-20T153255Z",
+  "status": "approved_prepared",
+  "entries": [
+    {
+      "candidate_id": "H-12",
+      "slug": "gill-beast",
+      "title": "Gill Beast",
+      "url": "https://gill-beast.pages.dev/",
+      "categories": [
+        "Simulators",
+        "Casual"
+      ],
+      "ai_quote": "Made with @claudeai Opus 5.5",
+      "ai_source": "https://x.com/Alan98271285/status/2112020664773423552",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "On the exact public page, clicked the creature, checked/toggled Chomp!, enabled Walk it around, pressed W, and clicked near the head as the page instructs.",
+        "response": "The creature changed pose and opened its jaw after direct input; the Chomp! control became checked. The exact page responds to guest input. No objective, score, round, challenge, win/loss, or progression was visible."
+      },
+      "artwork": {
+        "kind": "retained_gameplay_capture",
+        "source_url": "https://gill-beast.pages.dev/",
+        "published_path": "/games/oct20-resume-gill-beast.webp",
+        "sha256": "dda5684a9c9999005bca0c990f9e63919b693d957631ff7c66e8083dec58faa7"
+      },
+      "adjudication": {
+        "model": "grok-4.7-high",
+        "publish": 1,
+        "evidence_revision": 2
+      }
+    },
+    {
+      "candidate_id": "H-05",
+      "slug": "kirin",
+      "title": "Kirin",
+      "official_destination": "https://github.com/AtomicChatRepo/MinecraftKirinGunMod/releases/tag/v1.0.0",
+      "ai_quote": "Anthropic just dropped Fable 5.1, so I decided to build a Minecraft mod with it.",
+      "ai_source": "https://www.reddit.com/r/ClaudeAI/comments/1w5ftqe/fable_51_made_a_minecraft_mod_for_20/",
+      "artifact": {
+        "url": "https://github.com/AtomicChatRepo/MinecraftKirinGunMod/releases/download/v1.0.0/kirin-1.0.0.jar",
+        "version": "v1.0.0",
+        "sha256": "7a3459f90eede6f6763e26ae949901a7f361cc83aef66b8c5a1e6389f8c6e827"
+      },
+      "security": "Codex Security Standard scan 6a9e7d26-c0cd-41a5-a7ba-b5e0de16b836 assessed the exact official v1.0.0 JAR (SHA-256 7a3459f90eede6f6763e26ae949901a7f361cc83aef66b8c5a1e6389f8c6e827) offline. Coverage was complete for the static artifact scope and produced zero reportable findings. Static review observed a marker-gated client QA harness that checks $HOME/kirinmod/AUTOTEST and can send in-game test actions/request screenshots if the file exists. No mod code was installed, launched, executed or built. Minecraft/Fabric runtime behavior and source-to-release correspondence remain unverified; this is not a malware-free certification.",
+      "warnings": [
+        "Security review was static-only. The exact release JAR was assessed, but no Minecraft/Fabric runtime behavior or source-to-release binary correspondence was verified.",
+        "The strike can create fire/lava, debris and crater effects that change the affected Minecraft world area; consider a backup or disposable world. No save-impact/runtime test was performed.",
+        "The JAR contains a marker-gated client QA harness: if $HOME/kirinmod/AUTOTEST exists, it can automate in-game test actions and request screenshots. The behavior was not runtime-tested.",
+        "The creator describes the mod as Naruto-inspired. Franchise/licensing status was not assessed.",
+        "No independent successful-use report was verified; the only described test is the creator’s own account."
+      ],
+      "artwork": {
+        "kind": "retained_creator_preview",
+        "source_url": "https://github.com/AtomicChatRepo/MinecraftKirinGunMod/blob/8f5ec18f1b0ebe57f8f54433fa710b4fcd719537/tools/dragon/preview_head.png",
+        "published_path": "/games/oct20-resume-kirin.webp",
+        "sha256": "2d3a37729ffc3c08f696469360b95a741d3ffaf5806dd557ad6be476bd1f4b27"
+      },
+      "adjudication": {
+        "model": "grok-4.7-high",
+        "publish": 1,
+        "evidence_revision": 2
+      }
+    }
+  ]
+}
