@@ -60,6 +60,11 @@ export const reviewedCategories: Record<string, CategoryList> = {
   "the-ninth-floor-night-porter": ["Adventure"],
   "pelican-island-ride-deepseek": ["Simulators", "Arcade"],
   "pelican-island-ride-gemini": ["Simulators", "Arcade"],
+  'escapement-pinball': ['Arcade', 'Sports'],
+  'everywhere-rule': ['Puzzle', 'Strategy'],
+  'strata-sand-world': ['Simulators', 'Casual'],
+  'alibi-two-player': ['Puzzle', 'Casual', 'Multiplayer'],
+  'procession-deckbuilder': ['Strategy', 'Adventure'],
   'void-gptgames': ['Arcade', 'Action'],
   'downhill-dreamer': ['Arcade', 'Sports'],
   'timberbound': ['Simulators', 'Strategy'],
@@ -971,6 +976,7 @@ export const reviewedCategories: Record<string, CategoryList> = {
 
 export const multiplayerModes: Record<string, MultiplayerMode> = {
   "murder-mystery-tmc": "Online multiplayer",
+  'alibi-two-player': 'Local 2-player',
   "tt-kitchen": "Local 2-player",
   "tt-kart": "Local 2-player",
   "tt-mini-golf": "Local 2-player",

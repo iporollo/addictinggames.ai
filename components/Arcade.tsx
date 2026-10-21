@@ -12,7 +12,7 @@ import { QuickLinks } from './QuickLinks';
 import { GameLink } from './GameLink';
 
 const featuredPicks = [
-  'backyard-rascals', 'neon-veil', 'kestrel-nights', 'dokidoki-reply', 'rebound-pocket-pinball',
+  'backyard-rascals', 'neon-veil', 'aestra-the-last-wish', 'jelly-shift', 'pelican-island-ride-deepseek',
 ].flatMap(slug => {
   const game = allListedGames.find(game => game.slug === slug);
   return game ? [game] : [];
