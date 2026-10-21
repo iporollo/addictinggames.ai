@@ -1,0 +1,442 @@
+{
+  "status": "approved_for_release",
+  "run_id": "onsite_100_20261020T204700Z",
+  "entries": [
+    {
+      "candidate_id": "G-055",
+      "slug": "three-gates-tower-defense",
+      "title": "Three Gates",
+      "url": "https://www.gptgames.dev/games/mini_tower_defense.html",
+      "categories": [
+        "Strategy",
+        "Tower Defense"
+      ],
+      "ai_quote": "Tower defense: rebuild it as Three Gates, a game you can lose and have to read",
+      "ai_source": "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/d5796763fd994dc71060e6899441c513dd646c19",
+      "ai_attribution": "Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+      "current_file_history": {
+        "creator_main_sha": "73b4f81436cf551a5a2d12acdd7758a928465f60",
+        "served_git_blob": "ffccad315197f3377c867f15826c0180b4c0ca73",
+        "creator_main_git_blob": "ffccad315197f3377c867f15826c0180b4c0ca73",
+        "file_change_commit_urls_newest_first": [
+          "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/d5796763fd994dc71060e6899441c513dd646c19",
+          "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/f14aabffe989de627129d10ea417308a926d1bac"
+        ]
+      },
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "direct_input": "Dismissed the game tutorial with Build, selected Gun, then clicked a clear grass tile at viewport (420,350).",
+        "direct_response": "Starting funds changed $160 to $120, and a Gun tower appeared on the map.",
+        "iframe_input": "Inside iframe, dismissed tutorial, selected Gun, and clicked the same clear grass tile.",
+        "iframe_response": "Starting funds changed $160 to $120, and a Gun tower appeared on the map.",
+        "evidence_ref": "game-discovery-bot/runs/onsite_100_20261020T204700Z/reports/wave11-gameplay.json#G-055"
+      },
+      "player_sandbox": "allow-scripts allow-pointer-lock",
+      "artwork_source": "https://www.gptgames.dev/screenshots/screenshot_213.webp",
+      "artwork_path": "public/games/onsite-gptgames-g-055.webp",
+      "caveat": null,
+      "artwork_provenance_ref": "game-discovery-bot/runs/onsite_100_20261020T204700Z/reports/batch11-artwork-provenance.json#G-055"
+    },
+    {
+      "candidate_id": "G-056",
+      "slug": "eight-ball-pool-gptgames",
+      "title": "8-Ball Pool Game",
+      "url": "https://www.gptgames.dev/games/8-ball.html",
+      "categories": [
+        "Sports"
+      ],
+      "ai_quote": "<meta name=\"author\" content=\"Claude 4.1 Opus prompted by Tobias Müller\">",
+      "ai_source": "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/42d5662fafb06181e9421d3d29d7e97dbe70aad2",
+      "ai_attribution": "<meta name=\"author\" content=\"Claude 4.1 Opus prompted by Tobias Müller\">",
+      "current_file_history": {
+        "creator_main_sha": "73b4f81436cf551a5a2d12acdd7758a928465f60",
+        "served_git_blob": "dda4e100c1097bf0d5f30afc3cf7120bf1fb559b",
+        "creator_main_git_blob": "dda4e100c1097bf0d5f30afc3cf7120bf1fb559b",
+        "file_change_commit_urls_newest_first": [
+          "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/70db28ae940db754a643af330eefe8767595c865",
+          "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/42d5662fafb06181e9421d3d29d7e97dbe70aad2"
+        ]
+      },
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "direct_input": "Selected The Regular and aimed at the rack, then dragged to set power and released to break.",
+        "direct_response": "The rack balls spread; turn/status changed from “You break” to “Your shot”, and the table status changed to “Table open — sink any ball to claim a group.”",
+        "iframe_input": "Inside iframe, selected The Regular, aimed at the rack, dragged to set power and released to break.",
+        "iframe_response": "The rack balls spread; turn/status changed to “Your shot” and the table remained open.",
+        "evidence_ref": "game-discovery-bot/runs/onsite_100_20261020T204700Z/reports/wave11-gameplay.json#G-056"
+      },
+      "player_sandbox": "allow-scripts allow-pointer-lock",
+      "artwork_source": "https://www.gptgames.dev/screenshots/screenshot_215.webp",
+      "artwork_path": "public/games/onsite-gptgames-g-056.webp",
+      "caveat": null,
+      "artwork_provenance_ref": "game-discovery-bot/runs/onsite_100_20261020T204700Z/reports/batch11-artwork-provenance.json#G-056"
+    },
+    {
+      "candidate_id": "G-064",
+      "slug": "backgammon-gptgames",
+      "title": "Backgammon",
+      "url": "https://www.gptgames.dev/games/backgammon.html",
+      "categories": [
+        "Strategy"
+      ],
+      "ai_quote": "Backgammon: remake as a lacquered travelling board with a tested core (work in progress)",
+      "ai_source": "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/9c9e1d0ccffe54e9491beb9679e27c2665a553f2",
+      "ai_attribution": "Co-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>",
+      "current_file_history": {
+        "creator_main_sha": "73b4f81436cf551a5a2d12acdd7758a928465f60",
+        "served_git_blob": "9f2bc058d1a7238cc32f757ea3d1a98c1752c05e",
+        "creator_main_git_blob": "9f2bc058d1a7238cc32f757ea3d1a98c1752c05e",
+        "file_change_commit_urls_newest_first": [
+          "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/bae87341c5b84cbba9859ee1c21caeffb8c7eafd",
+          "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/1fff166f14d988356082515be0eccbd878e9d0b1",
+          "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/8b1335051a3b8a8384c5851ee439983e9f46d7fc",
+          "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/9c9e1d0ccffe54e9491beb9679e27c2665a553f2",
+          "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/d7fda7ee314233b944cc9edaf42dec86b18451d0"
+        ]
+      },
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "direct_input": "Clicked Play the computer, selected a glowing ivory checker at point 24, then clicked its highlighted 6-point destination.",
+        "direct_response": "The move animation completed and You's pip count changed from 167 to 161.",
+        "iframe_input": "Clicked Play the computer, selected the glowing ivory checker at point 24 inside the frame, then clicked its highlighted 6-point destination.",
+        "iframe_response": "The restricted frame accepted both pointer inputs, animated the move and changed You's pip count from 167 to 161.",
+        "evidence_ref": "game-discovery-bot/runs/onsite_100_20261020T204700Z/reports/wave12-gameplay.json#G-064"
+      },
+      "player_sandbox": "allow-scripts allow-pointer-lock",
+      "artwork_source": "https://www.gptgames.dev/screenshots/screenshot_245.webp",
+      "artwork_path": "public/games/onsite-gptgames-g-064.webp",
+      "caveat": null,
+      "artwork_provenance_ref": "game-discovery-bot/runs/onsite_100_20261020T204700Z/reports/batch11-artwork-provenance.json#G-064"
+    },
+    {
+      "candidate_id": "G-086",
+      "slug": "scatter-maze",
+      "title": "Scatter — Pac-Man with the ghost AI made visible",
+      "url": "https://www.gptgames.dev/games/scatter.html",
+      "categories": [
+        "Arcade"
+      ],
+      "ai_quote": "Add Scatter — a faithful maze chase with the ghost AI made visible",
+      "ai_source": "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/cbf2a4ced4387550726ee9112c4c6f2748adebd8",
+      "ai_attribution": "Claude account authored the cited game-file commit",
+      "current_file_history": {
+        "creator_main_sha": "73b4f81436cf551a5a2d12acdd7758a928465f60",
+        "served_git_blob": "3149b7414c099b2583b1b1ceaf9f14b5d3d6846c",
+        "creator_main_git_blob": "3149b7414c099b2583b1b1ceaf9f14b5d3d6846c",
+        "file_change_commit_urls_newest_first": [
+          "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/864b70ec9fc3f26ca5026f54a49f0a92cf3b7e24",
+          "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/cbf2a4ced4387550726ee9112c4c6f2748adebd8"
+        ]
+      },
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "direct_input": "Pressed Space to start, then ArrowRight to move through the maze.",
+        "direct_response": "Score changed 0→10; best changed 0→10; the player advanced with lives remaining.",
+        "iframe_input": "Retested through the repository restricted-player preview on a localhost HTTP parent page. Focused the iframe by clicking a blank player margin, pressed Space, waited through READY, then pressed ArrowRight.",
+        "iframe_response": "Score changed 0→70 and best changed 0→70; the visible Scatter timer moved from 7.0s to 6.1s. The score change is observed within the exact restricted sandbox.",
+        "evidence_ref": "game-discovery-bot/runs/onsite_100_20261020T204700Z/reports/wave13-gameplay.json#G-086"
+      },
+      "player_sandbox": "allow-scripts allow-pointer-lock",
+      "artwork_source": "https://www.gptgames.dev/screenshots/screenshot_297.webp",
+      "artwork_path": "public/games/onsite-gptgames-g-086.webp",
+      "caveat": null,
+      "artwork_provenance_ref": "game-discovery-bot/runs/onsite_100_20261020T204700Z/reports/batch11-artwork-provenance.json#G-086"
+    },
+    {
+      "candidate_id": "G-095",
+      "slug": "liquid-war-gptgames",
+      "title": "Liquid War — an army that follows your cursor",
+      "url": "https://www.gptgames.dev/games/liquid_war.html",
+      "categories": [
+        "Strategy"
+      ],
+      "ai_quote": "Liquid War: an army that follows your cursor",
+      "ai_source": "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/6d6cac1cb249810e19b884191d7a7e31b667bd09",
+      "ai_attribution": "Claude account authored the cited game-file commit",
+      "current_file_history": {
+        "creator_main_sha": "73b4f81436cf551a5a2d12acdd7758a928465f60",
+        "served_git_blob": "fd651f6ca907f336be0a802b5d70812cae21d209",
+        "creator_main_git_blob": "fd651f6ca907f336be0a802b5d70812cae21d209",
+        "file_change_commit_urls_newest_first": [
+          "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/c2339625accf4698da90ce4424104dfaea0d27f1",
+          "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/5e7176ceb8c1f8fffbe329120f27e8fc469c5623",
+          "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/6d6cac1cb249810e19b884191d7a7e31b667bd09"
+        ]
+      },
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "direct_input": "Clicked Fight to start a skirmish, then moved the cursor across the battlefield.",
+        "direct_response": "Player army count changed 2017→2290 and share changed 32%→52%.",
+        "iframe_input": "Retested through the repository restricted-player preview on localhost HTTP. Used Tab navigation to focus the visible Fight button, pressed Enter, then moved the cursor to upper-left and lower-right areas inside the iframe.",
+        "iframe_response": "The settings overlay closed and battlefield became visible. After cursor movement, the visible player cursor marker followed to the lower-right point (about x=1094, y=556 in the 1250×578 iframe). Player count/share moved 2067 / 32% before play to 2373 / 52% on entering the skirmish; share remained 52% during the two short cursor moves. This is a visible in-game input response inside the exact restricted frame.",
+        "evidence_ref": "game-discovery-bot/runs/onsite_100_20261020T204700Z/reports/wave13-gameplay.json#G-095"
+      },
+      "player_sandbox": "allow-scripts allow-pointer-lock",
+      "artwork_source": "https://www.gptgames.dev/screenshots/screenshot_308.webp",
+      "artwork_path": "public/games/onsite-gptgames-g-095.webp",
+      "caveat": null,
+      "artwork_provenance_ref": "game-discovery-bot/runs/onsite_100_20261020T204700Z/reports/batch11-artwork-provenance.json#G-095"
+    },
+    {
+      "candidate_id": "G-100",
+      "slug": "peg-fever",
+      "title": "Peg Fever",
+      "url": "https://www.gptgames.dev/games/peggle.html",
+      "categories": [
+        "Arcade"
+      ],
+      "ai_quote": "Add Peg Fever, the peg-dropping classic, on the original's numbers",
+      "ai_source": "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/e57985f49d2c7e101538289dbd8e16d392677846",
+      "ai_attribution": "Claude account authored the cited game-file commit",
+      "current_file_history": {
+        "creator_main_sha": "73b4f81436cf551a5a2d12acdd7758a928465f60",
+        "served_git_blob": "3dcd2d8febde1da9f95bb9e7e6807d73276341b3",
+        "creator_main_git_blob": "3dcd2d8febde1da9f95bb9e7e6807d73276341b3",
+        "file_change_commit_urls_newest_first": [
+          "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/850bdf3f69581f14256bae1b5e1f5b2c96a28447",
+          "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/a9a298599c4e77681c06e2dc5fe99cd8ee5c20cc",
+          "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/e57985f49d2c7e101538289dbd8e16d392677846"
+        ]
+      },
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "direct_input": "Clicked PLAY, moved the pointer to about 53% of the board width, then clicked to drop the ball.",
+        "direct_response": "Score 0→1,560 and balls 25→24; the ball cleared pegs and the board updated.",
+        "iframe_input": "Clicked PLAY, aimed and clicked inside the restricted frame.",
+        "iframe_response": "Score 0→1,000 and balls 25→23; pegs cleared and the score/board updated.",
+        "evidence_ref": "game-discovery-bot/runs/onsite_100_20261020T204700Z/reports/wave14-gameplay.json#G-100"
+      },
+      "player_sandbox": "allow-scripts allow-pointer-lock",
+      "artwork_source": "https://www.gptgames.dev/screenshots/screenshot_313.webp",
+      "artwork_path": "public/games/onsite-gptgames-g-100.webp",
+      "caveat": null,
+      "artwork_provenance_ref": "game-discovery-bot/runs/onsite_100_20261020T204700Z/reports/batch11-artwork-provenance.json#G-100"
+    },
+    {
+      "candidate_id": "G-101",
+      "slug": "worms-artillery-gptgames",
+      "title": "Worms",
+      "url": "https://www.gptgames.dev/games/worms.html",
+      "categories": [
+        "Strategy"
+      ],
+      "ai_quote": "Add Worms: turn-based artillery on pixel-destructible terrain",
+      "ai_source": "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/1fc3a4fcdad41f65c0613899d7618065d1721336",
+      "ai_attribution": "Claude account authored the cited game-file commit",
+      "current_file_history": {
+        "creator_main_sha": "73b4f81436cf551a5a2d12acdd7758a928465f60",
+        "served_git_blob": "1111567c455326d3139b0f05515192346543523e",
+        "creator_main_git_blob": "1111567c455326d3139b0f05515192346543523e",
+        "file_change_commit_urls_newest_first": [
+          "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/009bdcd74d2563c47c0d44cf8220da794a0c1b38",
+          "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/b382ba28557005d7db6fbf361a0d73b5d60de26c",
+          "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/1fc3a4fcdad41f65c0613899d7618065d1721336"
+        ]
+      },
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "direct_input": "Started a guest match, held ArrowRight for 1.5s, tapped ArrowUp to aim and pressed Space to fire.",
+        "direct_response": "The active red worm moved right; the terrain changed where the shot landed. Red health remained 400; the turn timer advanced.",
+        "iframe_input": "Started a guest match in the restricted frame, held ArrowRight for 1.5s, tapped ArrowUp and pressed Space.",
+        "iframe_response": "The red health indicator changed 400→388; the active match and terrain remained responsive.",
+        "evidence_ref": "game-discovery-bot/runs/onsite_100_20261020T204700Z/reports/wave14-gameplay.json#G-101"
+      },
+      "player_sandbox": "allow-scripts allow-pointer-lock",
+      "artwork_source": "https://www.gptgames.dev/screenshots/screenshot_314.webp",
+      "artwork_path": "public/games/onsite-gptgames-g-101.webp",
+      "caveat": null,
+      "artwork_provenance_ref": "game-discovery-bot/runs/onsite_100_20261020T204700Z/reports/batch11-artwork-provenance.json#G-101"
+    },
+    {
+      "candidate_id": "G-102",
+      "slug": "kurve-gptgames",
+      "title": "Kurve",
+      "url": "https://www.gptgames.dev/games/kurve.html",
+      "categories": [
+        "Arcade"
+      ],
+      "ai_quote": "Add Kurve — Achtung, die Kurve! (Zatacka, 1995) for up to six players",
+      "ai_source": "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/f2873f5414f16415be703cb1da6b464ad1d34066",
+      "ai_attribution": "Claude account authored the cited game-file commit",
+      "current_file_history": {
+        "creator_main_sha": "73b4f81436cf551a5a2d12acdd7758a928465f60",
+        "served_git_blob": "5ead4c8c921e733df074ecdc9f5b92c9272557c0",
+        "creator_main_git_blob": "5ead4c8c921e733df074ecdc9f5b92c9272557c0",
+        "file_change_commit_urls_newest_first": [
+          "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/f2873f5414f16415be703cb1da6b464ad1d34066"
+        ]
+      },
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "direct_input": "Pressed Q to join, clicked Start (Space), then tapped X and Y to steer.",
+        "direct_response": "Solo-practice round started with a red trail; X/Y input visibly bent the trail while score remained 0.",
+        "iframe_input": "Clicked the game canvas to join Cyan, clicked Start (Space), then pressed ] and [ to steer the sixth player.",
+        "iframe_response": "Solo-practice round started with a cyan trail; bracket inputs visibly changed its direction while score remained 0.",
+        "evidence_ref": "game-discovery-bot/runs/onsite_100_20261020T204700Z/reports/wave14-gameplay.json#G-102"
+      },
+      "player_sandbox": "allow-scripts allow-pointer-lock",
+      "artwork_source": "https://www.gptgames.dev/screenshots/screenshot_315.webp",
+      "artwork_path": "public/games/onsite-gptgames-g-102.webp",
+      "caveat": null,
+      "artwork_provenance_ref": "game-discovery-bot/runs/onsite_100_20261020T204700Z/reports/batch11-artwork-provenance.json#G-102"
+    },
+    {
+      "candidate_id": "G-103",
+      "slug": "tilt-maze-gptgames",
+      "title": "Tilt Maze",
+      "url": "https://www.gptgames.dev/games/tilt_maze.html",
+      "categories": [
+        "Arcade"
+      ],
+      "ai_quote": "Add Tilt Maze: the wooden labyrinth, tilted with the device",
+      "ai_source": "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/21d0718c69086e7b799600f389b630dd79eba70e",
+      "ai_attribution": "Claude account authored the cited game-file commit",
+      "current_file_history": {
+        "creator_main_sha": "73b4f81436cf551a5a2d12acdd7758a928465f60",
+        "served_git_blob": "baf59d39b833fc4be8ba5f66a8b0c6f33726d192",
+        "creator_main_git_blob": "baf59d39b833fc4be8ba5f66a8b0c6f33726d192",
+        "file_change_commit_urls_newest_first": [
+          "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/03ac95bd50d8a798aa5cce7ef166cf1571e29bea",
+          "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/35d4f48f5ed6363cf31cd2bdb5222ed241e38ce5",
+          "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/21d0718c69086e7b799600f389b630dd79eba70e"
+        ]
+      },
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "direct_input": "Clicked Start course, held ArrowRight for 0.8s, then ArrowDown for 0.8s.",
+        "direct_response": "Ball visibly moved from upper-left to mid-left; timer 0.98→3.18, falls remained 0.",
+        "iframe_input": "Started course inside the restricted frame and held ArrowRight then ArrowDown.",
+        "iframe_response": "Ball moved, fell into a hole and reset; Falls changed 0→1, timer 0.98→3.18.",
+        "evidence_ref": "game-discovery-bot/runs/onsite_100_20261020T204700Z/reports/wave14-gameplay.json#G-103"
+      },
+      "player_sandbox": "allow-scripts allow-pointer-lock",
+      "artwork_source": "https://www.gptgames.dev/screenshots/screenshot_316.webp",
+      "artwork_path": "public/games/onsite-gptgames-g-103.webp",
+      "caveat": null,
+      "artwork_provenance_ref": "game-discovery-bot/runs/onsite_100_20261020T204700Z/reports/batch11-artwork-provenance.json#G-103"
+    },
+    {
+      "candidate_id": "G-104",
+      "slug": "five-rungs",
+      "title": "Five Rungs",
+      "url": "https://www.gptgames.dev/games/five_rungs.html",
+      "categories": [
+        "Puzzle"
+      ],
+      "ai_quote": "Add Five Rungs: five daily puzzles from the date, with an archive",
+      "ai_source": "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/9ef4aeab9aeb6a691a41e2d0c1e4c759be03a8f9",
+      "ai_attribution": "Claude account authored the cited game-file commit",
+      "current_file_history": {
+        "creator_main_sha": "73b4f81436cf551a5a2d12acdd7758a928465f60",
+        "served_git_blob": "c8ce00d097785d200051a222415b6211af67f990",
+        "creator_main_git_blob": "c8ce00d097785d200051a222415b6211af67f990",
+        "file_change_commit_urls_newest_first": [
+          "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/604583177f5db605ed543f8dd8f19fb4d1d7decd",
+          "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/cbfbc9fb39f6a20362fd341fe7b5427a047a0536",
+          "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/9ef4aeab9aeb6a691a41e2d0c1e4c759be03a8f9"
+        ]
+      },
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "direct_input": "Opened the Rungs word-ladder puzzle; clicked virtual keyboard F, A, T, E, then ENTER to submit FATE.",
+        "direct_response": "The game reduced tries left from 5 to 4 and showed: “A word, and one letter away — but the chain does not go through it.” The puzzle remains interactive.",
+        "iframe_input": "Repeated the same puzzle launch and virtual F-A-T-E-ENTER submission in the exact site sandbox.",
+        "iframe_response": "Tries left changed 5 to 4; the same specific in-game chain validation message appeared. Screenshot shows active game UI inside the site page.",
+        "evidence_ref": "game-discovery-bot/runs/onsite_100_20261020T204700Z/reports/wave15-gameplay.json#G-104"
+      },
+      "player_sandbox": "allow-scripts allow-pointer-lock",
+      "artwork_source": "https://www.gptgames.dev/screenshots/screenshot_340.webp",
+      "artwork_path": "public/games/onsite-gptgames-g-104.webp",
+      "caveat": null,
+      "artwork_provenance_ref": "game-discovery-bot/runs/onsite_100_20261020T204700Z/reports/batch11-artwork-provenance.json#G-104"
+    },
+    {
+      "candidate_id": "G-105",
+      "slug": "bubble-break-gptgames",
+      "title": "Bubble Break — a bubble wrap incremental",
+      "url": "https://www.gptgames.dev/games/bubble_break.html",
+      "categories": [
+        "Casual"
+      ],
+      "ai_quote": "Bubble Break: work in progress on the full Luftpolster game",
+      "ai_source": "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/aba51f09c1eebc28353ac859feeb8a23ab9ab6d0",
+      "ai_attribution": "Claude account authored the cited game-file commit",
+      "current_file_history": {
+        "creator_main_sha": "73b4f81436cf551a5a2d12acdd7758a928465f60",
+        "served_git_blob": "bf57c4cce80b1174a7ab076fdb476ad5d1fde56c",
+        "creator_main_git_blob": "bf57c4cce80b1174a7ab076fdb476ad5d1fde56c",
+        "file_change_commit_urls_newest_first": [
+          "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/f44af542ab9954496b9f797be12972480e2889c6",
+          "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/b74bb0cc114ee85ac27644e9d656ae7499b53031",
+          "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/440fce00773668c35e2d3815e6eb4eb54db22eae",
+          "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/77b765e30e8b1d1b36065d05f3e92b6fe3270f21",
+          "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/ae5bb822db21c58016c2cfdd7a651494a70243ae",
+          "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/b4e365525b3c226af603f9cfebd07e396d68f2b0",
+          "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/2b8a8ce24c54c8139ca626607a19ef2f93ad9676",
+          "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/ab4ef20b81045c7bcfe35934dd472bbc3c05e335",
+          "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/25a999761452d8b3c382e9b03fcc7dc245d52dd3",
+          "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/e316f2cf928a5340255f3268827df946c2fd7ad6",
+          "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/8a809327c8d5363f105e249a06cce07c8d4db1d1",
+          "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/eb695fa34a9086b24bb01c1dfd46d27cf96076f2",
+          "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/24a57d287d911392d7408169dc08ddf62fb2b1f1",
+          "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/1a08c8f6887ad3ec8344683ab4fc47142577015f",
+          "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/87d1ed29bccb2a8ffe28f3fbde728d22665f8e2b",
+          "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/7f539ca323a102901460d7ddeb5e2b5b971446c1",
+          "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/d76561dae5bd6ebfcde51cb26d2773d3333c01d6",
+          "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/30bf22176da95dbaae729bae95f43caa99fc9b9a",
+          "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/e3593c99eff087f7360b6f053d89e730e72c0b70",
+          "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/d47373eb2153592fb55a577c410411d290189487",
+          "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/c81c4c7dfb1d16946ae2d61dc9f27e8ec2e5ce57",
+          "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/bdd84eb10c657d076f8deedfb146815771e45807",
+          "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/f47b2e532721c0d7ef810c13a58dc03dca568025",
+          "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/0fd93a19bfad44a03ebab00ee099abead0654980",
+          "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/1d5d9f14289cdf1add2ef427c53bfd4c584d2980",
+          "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/f427dc89efe002a25fc6442111960b237905de1e",
+          "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/816fdf6edbc9c1a393be1b096f2b4d1e7a2dcf53",
+          "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/bd9502d283c19eef06ed0af535d32cfa31d53833",
+          "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/6c81050a8da43ed8124dbce187d4a86b09751a9d",
+          "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/4044f8ae3f0a1196634303f4d1cf7fbe91f5e7f3",
+          "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/120454f02260008ec3fb2a9d10873901e2d7a11e",
+          "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/6e73e2790e72ab3c7ec97da309b46cc9a0977c1e",
+          "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/22625c8dfce5624dc2f93fa6ddc07985b566ebb3",
+          "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/aba51f09c1eebc28353ac859feeb8a23ab9ab6d0"
+        ]
+      },
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "direct_input": "Clicked START BREAK, then clicked a bubble at the center of the visible game canvas.",
+        "direct_response": "Plopps changed from 0 to 1; the timer continued and the bubble visibly collapsed.",
+        "iframe_input": "Clicked START BREAK, then clicked a bubble at the center of the visible game canvas inside the exact site sandbox.",
+        "iframe_response": "Plopps changed from 0 to 1; the timer continued and clicked bubble visibly collapsed.",
+        "evidence_ref": "game-discovery-bot/runs/onsite_100_20261020T204700Z/reports/wave15-gameplay.json#G-105"
+      },
+      "player_sandbox": "allow-scripts allow-pointer-lock",
+      "artwork_source": "https://www.gptgames.dev/screenshots/screenshot_344.webp",
+      "artwork_path": "public/games/onsite-gptgames-g-105.webp",
+      "caveat": null,
+      "artwork_provenance_ref": "game-discovery-bot/runs/onsite_100_20261020T204700Z/reports/batch11-artwork-provenance.json#G-105"
+    }
+  ]
+}

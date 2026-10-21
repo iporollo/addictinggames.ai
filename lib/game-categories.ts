@@ -8,6 +8,17 @@ export type MultiplayerMode = 'Online multiplayer' | 'Local 2-player' | 'Local m
 // Evidence and unresolved cases live in docs/category-audit/2026-10-11/.
 export const reviewedCategories: Record<string, CategoryList> = {
   "gill-beast": ["Simulators", "Casual"],
+  'three-gates-tower-defense': ['Strategy', 'Tower Defense'],
+  'eight-ball-pool-gptgames': ['Sports'],
+  'liquid-war-gptgames': ['Strategy'],
+  'kurve-gptgames': ['Arcade'],
+  'backgammon-gptgames': ['Strategy'],
+  'scatter-maze': ['Arcade'],
+  'peg-fever': ['Arcade'],
+  'worms-artillery-gptgames': ['Strategy'],
+  'tilt-maze-gptgames': ['Arcade'],
+  'five-rungs': ['Puzzle'],
+  'bubble-break-gptgames': ['Casual'],
   "velox": ["Simulators"],
   "yaoyao-lingxian": ["Arcade"],
   "travel-dominoes": ["Strategy", "Puzzle"],
