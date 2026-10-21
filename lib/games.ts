@@ -6,6 +6,9 @@ export type PlayableGame = Game & { shortDescription: string; embedUrl: string; 
 export type ListedGame = PlayableGame | DirectGame;
 
 export const newGameSlugs = [
+  'three-gates-tower-defense', 'eight-ball-pool-gptgames', 'liquid-war-gptgames', 'kurve-gptgames',
+  'backgammon-gptgames',
+  'scatter-maze', 'peg-fever', 'worms-artillery-gptgames', 'tilt-maze-gptgames', 'five-rungs', 'bubble-break-gptgames',
     'moodswing-match-three', 'ludo-gptgames', 'yacht-yahtzee', 'patience-solitaire', 'lights-on-missile-command', 'reversi-gptgames',
     'escapement-pinball', 'everywhere-rule', 'strata-sand-world', 'alibi-two-player', 'procession-deckbuilder', 'interactive-buddy-lab',
   'void-gptgames', 'downhill-dreamer', 'timberbound', 'mastermind-gptgames', 'nine-holes-gptgames',
@@ -36,6 +39,17 @@ const newGameSandbox = 'allow-scripts allow-pointer-lock';
 
 // Only browser-verified games are shipped. Finalized in verification/GAME-REPORT.md.
 export const verifiedEmbeds: Record<string, string> = {
+  'three-gates-tower-defense': 'https://www.gptgames.dev/games/mini_tower_defense.html',
+  'eight-ball-pool-gptgames': 'https://www.gptgames.dev/games/8-ball.html',
+  'liquid-war-gptgames': 'https://www.gptgames.dev/games/liquid_war.html',
+  'kurve-gptgames': 'https://www.gptgames.dev/games/kurve.html',
+  'backgammon-gptgames': 'https://www.gptgames.dev/games/backgammon.html',
+  'scatter-maze': 'https://www.gptgames.dev/games/scatter.html',
+  'peg-fever': 'https://www.gptgames.dev/games/peggle.html',
+  'worms-artillery-gptgames': 'https://www.gptgames.dev/games/worms.html',
+  'tilt-maze-gptgames': 'https://www.gptgames.dev/games/tilt_maze.html',
+  'five-rungs': 'https://www.gptgames.dev/games/five_rungs.html',
+  'bubble-break-gptgames': 'https://www.gptgames.dev/games/bubble_break.html',
   'moodswing-match-three': 'https://www.gptgames.dev/games/emoji_match_three.html',
   'ludo-gptgames': 'https://www.gptgames.dev/games/ludo.html',
   'yacht-yahtzee': 'https://www.gptgames.dev/games/yahtzee.html',
@@ -173,6 +187,18 @@ export const verifiedEmbeds: Record<string, string> = {
 };
 
 const descriptions: Record<string, string> = {
+  'three-gates-tower-defense': 'Place defenses across three gates',
+  'eight-ball-pool-gptgames': 'Sink balls against the computer',
+  'liquid-war-gptgames': 'Guide your army by moving the cursor',
+  'kurve-gptgames': 'Bend your trail to survive',
+  'backgammon-gptgames': 'Race your checkers around the board',
+  'scatter-maze': 'Score in a visible-ghost maze',
+  'peg-fever': 'Clear the orange pegs',
+  'worms-artillery-gptgames': 'Aim across changing terrain',
+  'tilt-maze-gptgames': 'Guide the ball past each hole',
+  'five-rungs': 'Solve five daily puzzles',
+  'bubble-break-gptgames': 'Pop bubbles and buy upgrades',
+
   'moodswing-match-three': "Swap mood tiles in a match-three board.",
   'ludo-gptgames': "Roll and race your Ludo pawns.",
   'yacht-yahtzee': "Roll dice and fill a Yacht score card.",
