@@ -1,0 +1,177 @@
+{
+  "status": "approved_for_release",
+  "run_id": "onsite_100_20261020T204700Z",
+  "entries": [
+    {
+      "candidate_id": "G-083",
+      "slug": "escapement-pinball",
+      "title": "Escapement",
+      "url": "https://www.gptgames.dev/games/escapement.html",
+      "categories": [
+        "Arcade",
+        "Sports"
+      ],
+      "ai_quote": "Add Escapement, a pinball machine that builds a clock",
+      "ai_source": "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/1ef0bb698ee5a8cdc8ea5b4e95b34202233d9ae1",
+      "ai_scope": "The official creator repository records this exact game file added by Claude <noreply@anthropic.com>. Every later change to the file is also authored by Claude, and the currently served game bytes match the creator main file at 73b4f81436cf551a5a2d12acdd7758a928465f60.",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Clicked Insert coin, plunged with Space, then held both flippers.",
+        "response": "Plunge and flipper key holds visibly advanced the table. Score reached 7,660 and mainspring reached 4/18."
+      },
+      "player_sandbox": "allow-scripts allow-pointer-lock",
+      "artwork_source": "https://www.gptgames.dev/screenshots/screenshot_291.webp",
+      "artwork_path": "public/games/onsite-gptgames-g-083.webp",
+      "caveat": null,
+      "current_file_history": {
+        "creator_main_sha": "73b4f81436cf551a5a2d12acdd7758a928465f60",
+        "served_git_blob": "acf2f8be25ada70b7dbc5e3695b5ffd6051c99f9",
+        "creator_main_git_blob": "acf2f8be25ada70b7dbc5e3695b5ffd6051c99f9",
+        "file_change_commit_urls_newest_first": [
+          "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/d1bb5d44be5e9826041a604acc42796527e68bcf",
+          "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/84ba1e4576d5eca241af1f702a365eeb8fb0aa21",
+          "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/1ef0bb698ee5a8cdc8ea5b4e95b34202233d9ae1"
+        ]
+      }
+    },
+    {
+      "candidate_id": "G-085",
+      "slug": "everywhere-rule",
+      "title": "Everywhere",
+      "url": "https://www.gptgames.dev/games/everywhere.html",
+      "categories": [
+        "Puzzle",
+        "Strategy"
+      ],
+      "ai_quote": "Add Everywhere — a programming game where one rulebook must solve every maze",
+      "ai_source": "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/c3587759ff35599693682acd0c462a5c4ca49908",
+      "ai_scope": "The official creator repository records this exact game file added by Claude <noreply@anthropic.com>. Every later change to the file is also authored by Claude, and the currently served game bytes match the creator main file at 73b4f81436cf551a5a2d12acdd7758a928465f60.",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Added the always-step-forward rule, then ran the rule through the maze set.",
+        "response": "Adding the rule “always → step forward” and running it produced the game result “All 60 — your rule holds everywhere”; 60/60 mazes solved."
+      },
+      "player_sandbox": "allow-scripts allow-pointer-lock",
+      "artwork_source": "https://www.gptgames.dev/screenshots/screenshot_296.webp",
+      "artwork_path": "public/games/onsite-gptgames-g-085.webp",
+      "caveat": null,
+      "current_file_history": {
+        "creator_main_sha": "73b4f81436cf551a5a2d12acdd7758a928465f60",
+        "served_git_blob": "3ecaacb2872cf9cba45a21bcaf3deb3b69b3b97c",
+        "creator_main_git_blob": "3ecaacb2872cf9cba45a21bcaf3deb3b69b3b97c",
+        "file_change_commit_urls_newest_first": [
+          "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/efc1e9e417f4627ccc84d4c9e3c768b23d7ebbf5",
+          "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/7c68239b94e7f7ddf9980f2ae3429a3132947ba2",
+          "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/c3587759ff35599693682acd0c462a5c4ca49908"
+        ]
+      }
+    },
+    {
+      "candidate_id": "G-088",
+      "slug": "strata-sand-world",
+      "title": "Strata",
+      "url": "https://www.gptgames.dev/games/strata.html",
+      "categories": [
+        "Simulators",
+        "Casual"
+      ],
+      "ai_quote": "Add Strata — a falling-sand world whose materials you have to discover",
+      "ai_source": "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/9d8dbbec771563624d37d4456450d8ea5cf6ab16",
+      "ai_scope": "The official creator repository records this exact game file added by Claude <noreply@anthropic.com>. Every later change to the file is also authored by Claude, and the currently served game bytes match the creator main file at 73b4f81436cf551a5a2d12acdd7758a928465f60.",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Dragged the sand brush across the world canvas.",
+        "response": "Dragging the sand tool visibly displaced terrain into a raised mound and cutout in both direct and restricted iframe screenshots; canvas signatures changed. Frame had a generated seed query after load."
+      },
+      "player_sandbox": "allow-scripts allow-pointer-lock",
+      "artwork_source": "https://www.gptgames.dev/screenshots/screenshot_299.webp",
+      "artwork_path": "public/games/onsite-gptgames-g-088.webp",
+      "caveat": null,
+      "current_file_history": {
+        "creator_main_sha": "73b4f81436cf551a5a2d12acdd7758a928465f60",
+        "served_git_blob": "9a605a7d0c98b8f97c59ea359ea3c01dd2d709c4",
+        "creator_main_git_blob": "9a605a7d0c98b8f97c59ea359ea3c01dd2d709c4",
+        "file_change_commit_urls_newest_first": [
+          "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/30b682602e9b0399b965beba0e47ef6a68dece88",
+          "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/1d1eb0720f4f306924cc55f1ad74762229b02e72",
+          "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/d19887cb94b401b68295d6e5aedbfbde4d2e2b2e",
+          "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/9d8dbbec771563624d37d4456450d8ea5cf6ab16"
+        ]
+      }
+    },
+    {
+      "candidate_id": "G-089",
+      "slug": "alibi-two-player",
+      "title": "Alibi",
+      "url": "https://www.gptgames.dev/games/alibi.html",
+      "categories": [
+        "Puzzle",
+        "Casual",
+        "Multiplayer"
+      ],
+      "ai_quote": "Add Alibi — a game for two people and one phone",
+      "ai_source": "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/d916e47e57ae66ec3ef4cfd3de310167712b4548",
+      "ai_scope": "The official creator repository records this exact game file added by Claude <noreply@anthropic.com>. Every later change to the file is also authored by Claude, and the currently served game bytes match the creator main file at 73b4f81436cf551a5a2d12acdd7758a928465f60.",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Entered two local nicknames, began the interview, agreed to the story, and selected an answer.",
+        "response": "Entered two local nicknames, started the interview, agreed to the story, handed the phone to player one, and selected an answer. The UI advanced to “Question 1 Bo — Hand it over.”"
+      },
+      "player_sandbox": "allow-scripts allow-pointer-lock",
+      "artwork_source": "https://www.gptgames.dev/screenshots/screenshot_300.webp",
+      "artwork_path": "public/games/onsite-gptgames-g-089.webp",
+      "caveat": null,
+      "current_file_history": {
+        "creator_main_sha": "73b4f81436cf551a5a2d12acdd7758a928465f60",
+        "served_git_blob": "53dc701de3ded1e1e741d088d8fe825bca370bc3",
+        "creator_main_git_blob": "53dc701de3ded1e1e741d088d8fe825bca370bc3",
+        "file_change_commit_urls_newest_first": [
+          "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/d916e47e57ae66ec3ef4cfd3de310167712b4548"
+        ]
+      }
+    },
+    {
+      "candidate_id": "G-090",
+      "slug": "procession-deckbuilder",
+      "title": "Procession",
+      "url": "https://www.gptgames.dev/games/procession.html",
+      "categories": [
+        "Strategy",
+        "Adventure"
+      ],
+      "ai_quote": "Add Procession — a deck-builder whose deck never shuffles",
+      "ai_source": "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/4d160842a038bb9b6d99585d83b488e8e4103afd",
+      "ai_scope": "The official creator repository records this exact game file added by Claude <noreply@anthropic.com>. Every later change to the file is also authored by Claude, and the currently served game bytes match the creator main file at 73b4f81436cf551a5a2d12acdd7758a928465f60.",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Started the deck run and played Strike with key 1.",
+        "response": "Started the run and played Strike with key 1. The state displayed “You play Strike” and Husk at 49 HP."
+      },
+      "player_sandbox": "allow-scripts allow-pointer-lock",
+      "artwork_source": "https://www.gptgames.dev/screenshots/screenshot_301.webp",
+      "artwork_path": "public/games/onsite-gptgames-g-090.webp",
+      "caveat": null,
+      "current_file_history": {
+        "creator_main_sha": "73b4f81436cf551a5a2d12acdd7758a928465f60",
+        "served_git_blob": "a9f5aae88a39d1a2c28cc7111806b0041ec4a24b",
+        "creator_main_git_blob": "a9f5aae88a39d1a2c28cc7111806b0041ec4a24b",
+        "file_change_commit_urls_newest_first": [
+          "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/30dde71ed7d1d9605706dc0d2299a183d6aded67",
+          "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/8b2aa8016d3661ccdfa8aa410bfd56335d010da3",
+          "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/e2685a7a1e4fd335b4b158e99882ced4748965a8",
+          "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/4d160842a038bb9b6d99585d83b488e8e4103afd"
+        ]
+      }
+    }
+  ]
+}
