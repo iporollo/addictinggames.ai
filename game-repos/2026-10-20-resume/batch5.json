@@ -1,0 +1,246 @@
+{
+  "status": "approved_prepared",
+  "original_run": "2026-10-20T153255Z",
+  "entries": [
+    {
+      "candidate_id": "H-48",
+      "slug": "velox",
+      "title": "VELOX",
+      "url": "https://v3l0x.grok.me/",
+      "categories": [
+        "Simulators"
+      ],
+      "ai_quote": "made a game from grok try it out?",
+      "ai_source": "https://x.com/Xnfinti/status/2112033172875816986",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Held W for about 1.6 seconds, then pressed F for about 0.5 seconds to begin the transform/takeoff sequence.",
+        "response": "W changed the HUD from 0 to 68 km/h (best 71 km/h) and moved the car along the road. F changed the HUD from Road mode to Transform, showing 15 km/h and altitude 2 m; the vehicle visibly shifted into its transforming state."
+      },
+      "warnings": [],
+      "artwork": {
+        "kind": "retained_creator_art",
+        "source_url": "https://v3l0x.grok.me/og.jpg",
+        "published_path": "/games/oct20-resume-velox.webp",
+        "sha256": "77033ecb7ff9260b18cae933ac9b7166ebc3a44f26702e72193a6805e8a4798d"
+      },
+      "adjudication": {
+        "provider": "cursor",
+        "model": "grok-4.7-high",
+        "publish": 1,
+        "evidence_revision": 4
+      }
+    },
+    {
+      "candidate_id": "H-49",
+      "slug": "yaoyao-lingxian",
+      "title": "遥遥领先 (Yaoyao Lingxian) pixel flight runner",
+      "url": "https://wanghh100.github.io/yaoyaolingxian/",
+      "categories": [
+        "Arcade"
+      ],
+      "ai_quote": "Made a game with Grok.",
+      "ai_source": "https://x.com/whh1125/status/2112393803994898891",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Pressed Space for about 0.5 seconds.",
+        "response": "The car visibly rose with thruster trails; the air reserve changed from 2.0 seconds to 1.4 seconds and the score advanced from 00000 to 00005. The game continued to display an ERR_INTERNET_DISCONNECTED hint below the play area, but the local game responded to input."
+      },
+      "warnings": [],
+      "artwork": {
+        "kind": "generated",
+        "selection": "A",
+        "prompts": {
+          "A": "Create a horizontal pixel-art cover for a one-button flight runner: a small white car with blue thruster trails rising between simple sky obstacles, with a tiny air-reserve meter motif and open sky. Match a retro runner; no text or logos. Center composition to survive square crop.",
+          "B": "Create a horizontal retro pixel scene of a compact flying car banking upward above a cloud line, with a few geometric obstacle gates and a clear descent path. Keep original pixel art, with no words or brand marks. Center composition to survive square crop."
+        },
+        "both_options_shown_inline": true,
+        "published_path": "/games/oct20-resume-yaoyao-lingxian.webp",
+        "sha256": "370c22399d83c249fc6df285bc271107ee2b5e610959e1640acd7549ae7b3e78"
+      },
+      "adjudication": {
+        "provider": "cursor",
+        "model": "grok-4.7-high",
+        "publish": 1,
+        "evidence_revision": 4
+      }
+    },
+    {
+      "candidate_id": "H-51",
+      "slug": "travel-dominoes",
+      "title": "Travel Dominoes",
+      "url": "https://traveldom-3yrg8uwm.manus.game/",
+      "categories": [
+        "Strategy",
+        "Puzzle"
+      ],
+      "ai_quote": "Made this game with Manus AI. Beat my score?",
+      "ai_source": "https://x.com/biggilfoot/status/2112544397686415710",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Started a match. After the computer played a double-3, selected the matching 5-3 tile, selected Left end, and clicked Confirm Move.",
+        "response": "The board visibly placed 5-3 connected to the double-3, displayed “You play 5-3,” changed the hand count from 7 to 6, and passed the turn to the computer."
+      },
+      "warnings": [
+        "post also contains a Manus referral/invite link"
+      ],
+      "artwork": {
+        "kind": "retained_creator_art",
+        "source_url": "https://traveldom-3yrg8uwm.manus.game/share/bf3457907b9bd1ce9ed0e54460fe7313f02a022d5286f9ab70da457604cc3df6.png",
+        "published_path": "/games/oct20-resume-travel-dominoes.webp",
+        "sha256": "42ab74c291769e2ace9cad43b32669f61e6f20196a108651a320c027d4e5cbcb"
+      },
+      "adjudication": {
+        "provider": "cursor",
+        "model": "grok-4.7-high",
+        "publish": 1,
+        "evidence_revision": 3
+      }
+    },
+    {
+      "candidate_id": "H-52",
+      "slug": "no-taco",
+      "title": "No Taco? (\"IS THAT A TACO?\")",
+      "url": "https://dune-clear-rapid-garden.grok.me/",
+      "categories": [
+        "Arcade",
+        "Casual"
+      ],
+      "ai_quote": "IS THAT A TACO? 🌮 ... Made with Grok & Suno",
+      "ai_source": "https://x.com/foxmr507/status/2112561980125135310",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "On a retry from the visible Run it back control, pressed Right in response to the visible taco-direction instruction.",
+        "response": "The round advanced and registered one correct decision: SCORE 100 and Eaten / dodged 1 / 0. The game later reached its three-wrong terminal screen at 4 / 50; the verified 100-point response and one correct decision remain visible there."
+      },
+      "warnings": [],
+      "artwork": {
+        "kind": "retained_creator_art",
+        "source_url": "https://dune-clear-rapid-garden.grok.me/og.jpg",
+        "published_path": "/games/oct20-resume-no-taco.webp",
+        "sha256": "36749d4a29af0bea8a55bc8c1f43b4aca2ab98049ca2059025b028640fd68cc0"
+      },
+      "adjudication": {
+        "provider": "cursor",
+        "model": "grok-4.7-high",
+        "publish": 1,
+        "evidence_revision": 3
+      }
+    },
+    {
+      "candidate_id": "H-64",
+      "slug": "circix-rewired",
+      "title": "Circix: Rewired",
+      "url": "https://kinorogames.itch.io/circix-rewired",
+      "categories": [
+        "Puzzle"
+      ],
+      "ai_quote": "AI Disclosure | AI Assisted | Code, Graphics",
+      "ai_source": "https://kinorogames.itch.io/circix-rewired",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Started the campaign; skipped the tutorial to expose the 3×3 puzzle; clicked the in-game Use hint control. Also tried clicking/dragging visible puzzle nodes through the nested game viewport using observed full-screen, frame-relative, and scaled coordinates.",
+        "response": "The in-game hint control visibly drew a purple connection from powered node 1 to adjacent node 2 and recorded the hint as used while the HUD remained Chapter 1, Level 1. Manual node selection/drag attempts did not visibly alter the puzzle; nested-canvas coordinates were not reliably delivered."
+      },
+      "warnings": [],
+      "artwork": {
+        "kind": "retained_creator_art",
+        "source_url": "https://img.itch.zone/aW1nLzMxMTAzNjc4LnBuZw==/original/9%2BiTgP.png",
+        "published_path": "/games/oct20-resume-circix-rewired.webp",
+        "sha256": "689279bda01e9ebe2ed2be9f31f51b170c9c6593bb93f814dec7ef797bee4ae4"
+      },
+      "adjudication": {
+        "provider": "cursor",
+        "model": "grok-4.7-high",
+        "publish": 1,
+        "evidence_revision": 4
+      }
+    },
+    {
+      "candidate_id": "D-15",
+      "slug": "solo-crafting",
+      "title": "Solo Crafting",
+      "url": "https://solo-crafting.vercel.app/",
+      "categories": [
+        "Adventure",
+        "Action"
+      ],
+      "ai_quote": "Claude Code built it in 3 days: Three.js, combat, bosses, a shadow army, multiplayer. No game engine.",
+      "ai_source": "https://x.com/ismail1009AI/status/2112286600658862584",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Clicked the game canvas to focus controls, then held W for about 1.2 seconds toward the visible gate.",
+        "response": "The guest entered the 3D town scene with 200/200 HP, 100/100 MP, and the daily quest HUD. After W movement, Travel (blocks) updated from 0 / 2000 to 7 / 2000."
+      },
+      "warnings": [
+        "RIGHTS: 'Solo Leveling' (trademarked anime/manhwa IP) named as the theme ('Solo Leveling, in the style of Minecraft'); style-similar Minecraft"
+      ],
+      "artwork": {
+        "kind": "generated",
+        "selection": "B",
+        "prompts": {
+          "A": "Create a horizontal cover for a block-style fantasy exploration game: an original cloaked hunter entering a small cubic town through a gate, with a simple quest marker and distant tower. No recognizable franchise characters, logos, or text. Center composition to survive square crop.",
+          "B": "Create a horizontal original voxel-inspired fantasy scene for a browser RPG: a guest adventurer walking from a town square toward a stone gate, with a restrained health-and-mana HUD motif. No recognizable franchise elements, lettering, or logos. Center composition to survive square crop."
+        },
+        "both_options_shown_inline": true,
+        "published_path": "/games/oct20-resume-solo-crafting.webp",
+        "sha256": "048126349573ed3d2b5572849326957a213b67a6f22db3c8f6f36def4c911097"
+      },
+      "adjudication": {
+        "provider": "cursor",
+        "model": "grok-4.7-high",
+        "publish": 1,
+        "evidence_revision": 3
+      }
+    },
+    {
+      "candidate_id": "D-18",
+      "slug": "bolt-pit",
+      "title": "Bolt Pit",
+      "url": "https://www.crazygames.com/game/bolt-pit",
+      "categories": [
+        "Action",
+        "Shooter",
+        "Arcade"
+      ],
+      "ai_quote": "my first web game, built with Claude Code, went live on CrazyGames today. Bolt Pit is a Three.js arena shooter.",
+      "ai_source": "https://x.com/froessell/status/2110671824279179694",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Dismissed the controller-detected overlay, clicked the visible game start prompt, then held W for about 1.2 seconds.",
+        "response": "The active arena showed a 0:04 timer, 3 KO, 3× STREAK, active character/enemy animation, and 3/3 hearts."
+      },
+      "warnings": [
+        "creator seen in priors only as 'froessell six games' (no play URLs), not this game",
+        "Basic Launch test on CrazyGames until Nov 5",
+        "surfaced via curator @sara_kumodeck 2111800522965762241 (mirror, not counted)"
+      ],
+      "artwork": {
+        "kind": "retained_creator_art",
+        "source_url": "https://imgs.crazygames.com/bolt-pit_16x9/20261016075230/bolt-pit_16x9-cover.png?metadata=none&quality=100&width=1200&height=630&fit=crop",
+        "published_path": "/games/oct20-resume-bolt-pit.webp",
+        "sha256": "3c4d7f6dce1faec34568b6e836d3912329ccfcc83b9573016035bd66e1308045"
+      },
+      "adjudication": {
+        "provider": "cursor",
+        "model": "grok-4.7-high",
+        "publish": 1,
+        "evidence_revision": 3
+      }
+    }
+  ]
+}
