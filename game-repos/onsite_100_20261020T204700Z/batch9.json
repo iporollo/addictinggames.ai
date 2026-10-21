@@ -1,0 +1,36 @@
+{
+  "status": "approved_for_release",
+  "run_id": "onsite_100_20261020T204700Z",
+  "entries": [
+    {
+      "candidate_id": "G-071",
+      "slug": "interactive-buddy-lab",
+      "title": "Interactive Buddy",
+      "url": "https://www.gptgames.dev/games/interactive_buddy.html",
+      "categories": [
+        "Simulators",
+        "Casual"
+      ],
+      "ai_quote": "Interactive Buddy: remade as a crash-test lab with a standing dummy, ten tools and a wall that keeps your best launch",
+      "ai_source": "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/7214c800cd6e4632a96e2cecb4792d0e3ce0d0d5",
+      "ai_followup_source": "https://github.com/TobiasMue91/tobiasmue91.github.io/commit/71a980e582d2451ed4abc3c70bcca5fab04b0279",
+      "current_file_history": {
+        "creator_main_sha": "73b4f81436cf551a5a2d12acdd7758a928465f60",
+        "served_git_blob": "20c461d9bd03702b7855070925d170de5bf0eacf",
+        "served_matches_creator_main": true
+      },
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Clicked Buddy inside the restricted iframe with the default Glove tool.",
+        "response": "Visible +$10 and 11.5 kN impact; Cash changed from $0 to $10.",
+        "evidence_ref": "game-discovery-bot/runs/onsite_100_20261020T204700Z/reports/g071-retest-c.json"
+      },
+      "player_sandbox": "allow-scripts allow-pointer-lock",
+      "artwork_source": "https://www.gptgames.dev/screenshots/screenshot_270.webp",
+      "artwork_path": "public/games/onsite-gptgames-g-071.webp",
+      "caveat": "Recreation of a Flash classic; catalog policy records this as a warning."
+    }
+  ]
+}
