@@ -1,0 +1,67 @@
+{
+  "observed_at_utc": "2026-10-21T00:41:01.861396+00:00",
+  "merge_sha": "11cb32ad674ef65af3731927454abc57e494825f",
+  "deployment_id": 7214618974,
+  "checks": [
+    {
+      "candidate_id": "H-48",
+      "slug": "velox",
+      "cover_status": 200,
+      "image_hash_matches": true,
+      "destination_present": true,
+      "title_present": true
+    },
+    {
+      "candidate_id": "H-49",
+      "slug": "yaoyao-lingxian",
+      "cover_status": 200,
+      "image_hash_matches": true,
+      "destination_present": true,
+      "title_present": true
+    },
+    {
+      "candidate_id": "H-51",
+      "slug": "travel-dominoes",
+      "cover_status": 200,
+      "image_hash_matches": true,
+      "destination_present": true,
+      "title_present": true
+    },
+    {
+      "candidate_id": "H-52",
+      "slug": "no-taco",
+      "cover_status": 200,
+      "image_hash_matches": true,
+      "destination_present": true,
+      "title_present": true
+    },
+    {
+      "candidate_id": "H-64",
+      "slug": "circix-rewired",
+      "cover_status": 200,
+      "image_hash_matches": true,
+      "destination_present": true,
+      "title_present": true
+    },
+    {
+      "candidate_id": "D-15",
+      "slug": "solo-crafting",
+      "cover_status": 200,
+      "image_hash_matches": true,
+      "destination_present": true,
+      "title_present": true
+    },
+    {
+      "candidate_id": "D-18",
+      "slug": "bolt-pit",
+      "cover_status": 200,
+      "image_hash_matches": true,
+      "destination_present": true,
+      "title_present": true
+    }
+  ],
+  "pr_url": "https://github.com/iporollo/addictinggames.ai/pull/94",
+  "deployment_sha": "11cb32ad674ef65af3731927454abc57e494825f",
+  "ci": "Node22 lint, 44 tests, build and typecheck passed locally; GitHub validate passed.",
+  "visual": "Production New Games row inspected in browser; new cards render with covers. All seven live destination/title and cover-hash checks passed."
+}

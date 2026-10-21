@@ -2581,5 +2581,36 @@
     "released_at": "2026-10-20T06:29:43Z",
     "security": "Codex Security static review 175d4371-7662-4679-ad10-65f613fdf15a covered JittneySpear-Reese_The_Red_Dog-0.1.2.zip (SHA-256 d8f615aa74a44140698127df3e9f390742c62c7d816de7d05a6f3448d7b3ab13). Archive structure and recognizable executable/script members were checked; no archive/path issue was identified. Opaque CAS/TOC content and ReSkate’s parser/runtime were not assessed; no code was run.",
     "image_source": "https://raw.githubusercontent.com/GittaOnTheTrack/reese-reskate/v0.1.2/media/Reese_Skating_Plaza_Promo_1280x720.jpg"
+  },
+  {
+    "id": "kirin",
+    "name": "Kirin",
+    "game": "Minecraft Java Edition",
+    "creator": "u/Fun-Meaning-6474 (Reddit; official repository and release under AtomicChatRepo)",
+    "profile": "https://www.reddit.com/user/Fun-Meaning-6474/",
+    "post": "https://www.reddit.com/r/ClaudeAI/comments/1w5ftqe/fable_51_made_a_minecraft_mod_for_20/",
+    "ai_quote": "Anthropic just dropped Fable 5.1, so I decided to build a Minecraft mod with it.",
+    "ai_note": "The creator’s first-person post links the exact AtomicChatRepo project and says Fable 5.1 was used to build this mod. The post attributes reference-video analysis, the dragon and weapon models/textures, and later visual fixes to Fable; this is mod-specific creation evidence, not a third-party inference.",
+    "ai_source": "https://www.reddit.com/r/ClaudeAI/comments/1w5ftqe/fable_51_made_a_minecraft_mod_for_20/",
+    "listing": "https://github.com/AtomicChatRepo/MinecraftKirinGunMod/releases/tag/v1.0.0",
+    "repo": "https://github.com/AtomicChatRepo/MinecraftKirinGunMod/tree/v1.0.0",
+    "summary": "Adds a Kirin lightning-dragon rifle effect to Minecraft Java Edition.",
+    "changes": "The creator describes a custom Kirin lightning-dragon weapon. The exact v1.0.0 JAR contains rifle, dragon and effects classes; static review observed in-game lightning, fire, lava, debris and crater behavior. Exact gameplay behavior was not independently tested.",
+    "cost": "Free",
+    "price_note": "The creator says the mod is free and provides a public GitHub release with a direct JAR download.",
+    "platform": "Minecraft Java Edition · Fabric",
+    "version": "Mod v1.0.0 · Minecraft 1.21.1 · Fabric Loader ≥0.15.0 · Fabric API required · Java ≥21",
+    "install": "The official release says to drop the JAR into the mods folder. The embedded metadata requires Minecraft 1.21.1, Fabric Loader ≥0.15.0, Fabric API and Java ≥21. Review loader/dependency compatibility before installation; this review did not install or run the mod.",
+    "working_evidence": "The creator says they launched Minecraft to try the mod and used gameplay footage to request fixes. No independent successful-use report or independent gameplay test was verified.",
+    "security": "Codex Security Standard scan 6a9e7d26-c0cd-41a5-a7ba-b5e0de16b836 assessed the exact official v1.0.0 JAR (SHA-256 7a3459f90eede6f6763e26ae949901a7f361cc83aef66b8c5a1e6389f8c6e827) offline. Coverage was complete for the static artifact scope and produced zero reportable findings. Static review observed a marker-gated client QA harness that checks $HOME/kirinmod/AUTOTEST and can send in-game test actions/request screenshots if the file exists. No mod code was installed, launched, executed or built. Minecraft/Fabric runtime behavior and source-to-release correspondence remain unverified; this is not a malware-free certification.",
+    "warnings": [
+      "Security review was static-only. The exact release JAR was assessed, but no Minecraft/Fabric runtime behavior or source-to-release binary correspondence was verified.",
+      "The strike can create fire/lava, debris and crater effects that change the affected Minecraft world area; consider a backup or disposable world. No save-impact/runtime test was performed.",
+      "The JAR contains a marker-gated client QA harness: if $HOME/kirinmod/AUTOTEST exists, it can automate in-game test actions and request screenshots. The behavior was not runtime-tested.",
+      "The creator describes the mod as Naruto-inspired. Franchise/licensing status was not assessed.",
+      "No independent successful-use report was verified; the only described test is the creator’s own account."
+    ],
+    "released_at": "2026-09-02T15:16:58Z",
+    "image": "/games/oct20-resume-kirin.webp"
   }
 ]

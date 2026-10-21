@@ -14,6 +14,7 @@ export type DirectGame = {
 };
 
 const source: [string, string, string, string, string, string?][] = [
+  ["gill-beast", "Gill Beast", "Simulators", "Walk a toothy 3D creature and make it chomp", "https://gill-beast.pages.dev/", "/games/oct20-resume-gill-beast.webp"],
   ["velox", "VELOX", "Simulators", "Drive a stainless GT through Larkridge, transform, and take the skyway flight route.", "https://v3l0x.grok.me/", "/games/oct20-resume-velox.webp"],
   ["yaoyao-lingxian", "遥遥领先 (Yaoyao Lingxian) pixel flight runner", "Arcade", "A pixel-art flight runner: hold to rise and release to descend while the air reserve and score change.", "https://wanghh100.github.io/yaoyaolingxian/", "/games/oct20-resume-yaoyao-lingxian.webp"],
   ["travel-dominoes", "Travel Dominoes", "Strategy", "Play double-six dominoes against the computer or in local two-player mode; the exact guest test confirmed a legal move changed the board and hand.", "https://traveldom-3yrg8uwm.manus.game/", "/games/oct20-resume-travel-dominoes.webp"],
