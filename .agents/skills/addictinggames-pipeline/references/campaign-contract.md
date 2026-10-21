@@ -8,6 +8,8 @@ Use one schema-v2 `game-discovery-bot/runs/<run-id>/run.json` as the authoritati
 
 `status`: `discovering`, `draining`, `interrupted`, `complete`. Only a full-pipeline request uses this completion contract. Narrow phase requests retain phase-specific receipts and do not claim full-campaign completion. Owner cancellation is an interrupted campaign with `discovery.owner_cancel_refs` pointing to the explicit instruction; an evidenced early stop is allowed only for that interrupted checkpoint, never full completion; do not use cancellation to silently produce candidate denials.
 
+When new evidence supersedes a gate assessment, replace its active assessment coherently and preserve the old assessment in history. Do not change only `status` to pass while leaving an earlier failure rationale as the current conclusion. Preserve the underlying attempts and increment the evidence revision before re-adjudication.
+
 `decision.publish`: null during work; final 1/0 after Grok adjudication. `publication.status`: `not_started`, `releasing`, `failed`, `live_verified`. A deployment failure changes publication only. Infrastructure outages preserve pending decisions with an owner and next action; they never exhaust a candidate into 0.
 
 ## Required shape
@@ -59,6 +61,7 @@ Every 0 needs independent adjudication, a failed gate and evidence. Never choose
 | `observed_game_failure` | `gameplay` | Three functioning-tool failed observations, at least two workers; no tool-failure attempt counts |
 | `security_blocker` | `security` | Completed review with a material evidence-backed finding |
 | `security_coverage_insufficient` | `security` | Exact obtained artifact/hash, initial review and targeted follow-up; inability to adequately assess that artifact, not unavailable tools |
+| `owner_declined_review_access` | `artifact_access` | Mod only: observed official download authentication barrier, explicit owner refusal of the required manual assistance and request for a binary decision. Record `owner_statement_refs`, `official_release_url`, `observed_barrier: "authentication_required"`, `required_owner_action_declined: true`, and `owner_requires_binary_without_manual_download: true`, plus an actual failed access check. Means not publishable without the required review; never claims unsafe, unreleased, or broken. |
 | `tesla_limit` | `tesla` | Full catalog inventory or completed eligibility/popularity ranking |
 | `tesla_metrics_unavailable` | `metrics` | Two completed retrieval checks establish unavailable metrics; unavailable tools remain pending |
 
@@ -68,7 +71,7 @@ Warnings, missing assignment, discovery deadline, missing mute control and unava
 
 For eligible Tesla candidates that compete for remaining slots, record `tesla_metrics: {post_id, source_url, observed_at_utc, views, likes, reposts, replies, quotes, evidence_refs}` from the strongest game-linked post. Counts must be complete nonnegative integers. Views first, interaction sum second, numeric post ID ascending for ties; candidate ID only breaks an otherwise identical record tie. Save all source snapshots in evidence; the supervisor/Grok verifies that the strongest post was chosen. No arbitrary date window applies here; Hot Right Now retains its own 30-day rule.
 
-Finalize only after discovery stops and every potential competitor is resolved. A lower-ranked but otherwise eligible game gets `tesla_limit`; that is a selection outcome, not a playability claim. If the catalog is full, no gameplay/metric collection is necessary solely to justify the capacity denial. If overfull, preserve existing entries and report it; no new admissions. Missing tools cannot remove a competitor just to finalize ranking.
+Finalize after discovery stops and every potential competitor has either an evidenced independent exclusion or complete ranking evidence. Verify guest gameplay for the highest-ranked candidates until all remaining slots have qualified winners. A lower-ranked candidate can then receive `tesla_limit` without completing gameplay: its measured position cannot displace a verified winner. Retain its gameplay as pending/unverified; the capacity decision does not assert playability. Do not omit a competitor with unknown identity, classification or metrics, or deny one because its browser failed. If the catalog is full, no gameplay/metric collection is necessary solely to justify capacity denial. If overfull, preserve existing entries and report it; no new admissions.
 
 ## Source receipts and commands
 

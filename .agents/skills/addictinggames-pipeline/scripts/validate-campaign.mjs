@@ -12,6 +12,7 @@ const reasons = {
   ai_unverified: 'ai', identity_unresolved: 'identity', no_public_release: 'release',
   guest_access_required: 'guest', observed_game_failure: 'gameplay',
   security_blocker: 'security', security_coverage_insufficient: 'security',
+  owner_declined_review_access: 'artifact_access',
   tesla_limit: 'tesla', tesla_metrics_unavailable: 'metrics',
 };
 const minimumAttempts = { ai_unverified: 2, identity_unresolved: 2, no_public_release: 2,
@@ -167,7 +168,7 @@ export function validateCampaign(run, { complete = false, releaseIds = [], check
     if (d.publish === 0) {
       const gateName = reasons[d.reason];
       require(Boolean(gateName), `${label}: unsupported denial reason (tool failures and warnings cannot deny)`);
-      if (['no_public_release', 'security_blocker', 'security_coverage_insufficient'].includes(d.reason)) require(c.kind === 'mod', `${label}: artifact review/release denial applies only to mods`);
+      if (['no_public_release', 'security_blocker', 'security_coverage_insufficient', 'owner_declined_review_access'].includes(d.reason)) require(c.kind === 'mod', `${label}: artifact review/release denial applies only to mods`);
       if (['observed_game_failure', 'guest_access_required'].includes(d.reason)) require(c.kind === 'game', `${label}: browser gameplay/access denial applies only to games`);
       require(gates[gateName]?.status === 'fail', `${label}: denial must identify a failed requirement`);
       if (d.reason === 'duplicate') require(text(gates.dedup?.match), `${label}: duplicate needs published identity or canonical candidate match`);
@@ -178,6 +179,12 @@ export function validateCampaign(run, { complete = false, releaseIds = [], check
       if (d.reason === 'observed_game_failure') require(new Set(attempts.map(a => a.worker)).size >= 2, `${label}: gameplay failure requires a second worker`);
       if (['guest_access_required', 'security_blocker', 'out_of_scope'].includes(d.reason)) require(attempts.length > 0, `${label}: actual failed check required`);
       if (d.reason === 'security_coverage_insufficient') require(text(c.artifact?.url) && /^[a-f0-9]{64}$/.test(c.artifact?.sha256 ?? ''), `${label}: coverage denial requires an obtained exact artifact, not a tool outage`);
+      if (d.reason === 'owner_declined_review_access') {
+        const access = gates.artifact_access ?? {};
+        evidence(access.owner_statement_refs, `${label} explicit owner access decision`);
+        require(access.owner_requires_binary_without_manual_download === true && access.required_owner_action_declined === true, `${label}: explicit owner refusal and binary instruction required`);
+        require(access.observed_barrier === 'authentication_required' && text(access.official_release_url) && attempts.length > 0, `${label}: actual official download access barrier required, not a tool outage`);
+      }
       if (d.reason === 'tesla_limit') require(c.tesla_roadster && (slots === 0 || tesla.finalized === true), `${label}: Tesla denial requires full inventory or final ranking`);
       if (d.reason === 'tesla_metrics_unavailable') require(c.tesla_roadster, `${label}: metrics cannot deny an ordinary game`);
     }
@@ -201,7 +208,8 @@ export function validateCampaign(run, { complete = false, releaseIds = [], check
       const m = c.tesla_metrics ?? {};
       require(['views', 'likes', 'reposts', 'replies', 'quotes'].every(k => Number.isSafeInteger(m[k]) && m[k] >= 0) && /^\d+$/.test(m.post_id ?? '') && utc(m.observed_at_utc) && text(m.source_url), `${c.id}: complete Tesla popularity snapshot required`);
       evidence(m.evidence_refs, `${c.id} Tesla metrics`);
-      require(['identity', 'ai', 'guest', 'gameplay', 'dedup', 'owner'].every(k => c.gates?.[k]?.status === 'pass'), `${c.id}: ranked Tesla must qualify`);
+      require(['identity', 'ai', 'dedup', 'owner'].every(k => c.gates?.[k]?.status === 'pass'), `${c.id}: ranked Tesla identity and source gates must qualify`);
+      if (c.decision?.publish === 1) require(['guest', 'gameplay'].every(k => c.gates?.[k]?.status === 'pass'), `${c.id}: selected Tesla must have verified guest gameplay`);
     }
     if (!errors.some(e => /Tesla popularity/.test(e))) {
       const interactions = c => ['likes', 'reposts', 'replies', 'quotes'].reduce((n, k) => n + c.tesla_metrics[k], 0);
