@@ -67,6 +67,13 @@ export const reviewedCategories: Record<string, CategoryList> = {
   "the-ninth-floor-night-porter": ["Adventure"],
   "pelican-island-ride-deepseek": ["Simulators", "Arcade"],
   "pelican-island-ride-gemini": ["Simulators", "Arcade"],
+  'moodswing-match-three': ['Puzzle', 'Casual'],
+  'ludo-gptgames': ['Strategy', 'Casual'],
+  'yacht-yahtzee': ['Casual', 'Strategy'],
+  'patience-solitaire': ['Puzzle', 'Casual'],
+  'lights-on-missile-command': ['Arcade', 'Shooter'],
+  'reversi-gptgames': ['Strategy', 'Puzzle'],
+
   'escapement-pinball': ['Arcade', 'Sports'],
   'everywhere-rule': ['Puzzle', 'Strategy'],
   'strata-sand-world': ['Simulators', 'Casual'],
