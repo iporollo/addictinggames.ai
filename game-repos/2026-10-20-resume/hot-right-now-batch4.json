@@ -1,0 +1,466 @@
+{
+  "utc_day": "2026-10-21",
+  "ranking_formula": "sqrt(views * (likes + reposts + replies + quotes))",
+  "window_days": 30,
+  "weekly_slots_retained": [
+    "backyard-rascals",
+    "neon-veil"
+  ],
+  "weekly_basis": "Prior October 20 release refreshed weekly slots in this UTC week.",
+  "daily_slots": [
+    "aestra-the-last-wish",
+    "jelly-shift",
+    "pelican-island-ride-deepseek"
+  ],
+  "ranked_candidates": [
+    {
+      "candidate_id": "H-58",
+      "slug": "aestra-the-last-wish",
+      "post_id": "2110750857528803516",
+      "post_url": "https://x.com/M__Houser/status/2110750857528803516",
+      "metrics": {
+        "views": 44952,
+        "likes": 737,
+        "retweets": 33,
+        "replies": 85,
+        "quotes": 7
+      },
+      "score": 6224.839275033533,
+      "observed_at_utc": "2026-10-21T00:13:54.304304+00:00",
+      "retrieval_source": "https://api.fxtwitter.com/status/2110750857528803516"
+    },
+    {
+      "candidate_id": "H-29",
+      "slug": "jelly-shift",
+      "post_id": "2111498666116800763",
+      "post_url": "https://x.com/usecrayon/status/2111498666116800763",
+      "metrics": {
+        "views": 1514,
+        "likes": 43,
+        "retweets": 5,
+        "replies": 14,
+        "quotes": 0
+      },
+      "score": 306.3788504450005,
+      "observed_at_utc": "2026-10-21T00:13:54.842643+00:00",
+      "retrieval_source": "https://api.fxtwitter.com/status/2111498666116800763"
+    },
+    {
+      "candidate_id": "H-59-01",
+      "slug": "pelican-island-ride-deepseek",
+      "post_id": "2111748028273209758",
+      "post_url": "https://x.com/nieerai_dev/status/2111748028273209758",
+      "metrics": {
+        "views": 1752,
+        "likes": 16,
+        "retweets": 3,
+        "replies": 16,
+        "quotes": 14
+      },
+      "score": 292.9982935103889,
+      "observed_at_utc": "2026-10-21T00:13:54.728730+00:00",
+      "retrieval_source": "https://api.fxtwitter.com/status/2111748028273209758"
+    },
+    {
+      "candidate_id": "H-59-02",
+      "slug": "pelican-island-ride-gemini",
+      "post_id": "2111748028273209758",
+      "post_url": "https://x.com/nieerai_dev/status/2111748028273209758",
+      "metrics": {
+        "views": 1752,
+        "likes": 16,
+        "retweets": 3,
+        "replies": 16,
+        "quotes": 14
+      },
+      "score": 292.9982935103889,
+      "observed_at_utc": "2026-10-21T00:13:54.728730+00:00",
+      "retrieval_source": "https://api.fxtwitter.com/status/2111748028273209758"
+    },
+    {
+      "candidate_id": "H-61",
+      "slug": "open-terraria",
+      "post_id": "2112208652014940664",
+      "post_url": "https://x.com/ai_fengshou/status/2112208652014940664",
+      "metrics": {
+        "views": 662,
+        "likes": 4,
+        "retweets": 0,
+        "replies": 2,
+        "quotes": 0
+      },
+      "score": 63.02380502635492,
+      "observed_at_utc": "2026-10-21T00:13:54.640600+00:00",
+      "retrieval_source": "https://api.fxtwitter.com/status/2112208652014940664"
+    },
+    {
+      "candidate_id": "H-57",
+      "slug": "sakurazuki-no-liberty",
+      "post_id": "2112491717257797961",
+      "post_url": "https://x.com/kureakurea01/status/2112491717257797961",
+      "metrics": {
+        "views": 663,
+        "likes": 3,
+        "retweets": 0,
+        "replies": 2,
+        "quotes": 0
+      },
+      "score": 57.57603668193913,
+      "observed_at_utc": "2026-10-21T00:13:54.981752+00:00",
+      "retrieval_source": "https://api.fxtwitter.com/status/2112491717257797961"
+    },
+    {
+      "candidate_id": "H-60",
+      "slug": "poolrooms-upside-down-dream",
+      "post_id": "2111607702480973963",
+      "post_url": "https://x.com/SharkDemonYa/status/2111607702480973963",
+      "metrics": {
+        "views": 142,
+        "likes": 10,
+        "retweets": 2,
+        "replies": 1,
+        "quotes": 0
+      },
+      "score": 42.96510211788167,
+      "observed_at_utc": "2026-10-21T00:13:55.123690+00:00",
+      "retrieval_source": "https://api.fxtwitter.com/status/2111607702480973963"
+    },
+    {
+      "candidate_id": "H-15",
+      "slug": "pokemon-life-one-in-151",
+      "post_id": "2112488503150035333",
+      "post_url": "https://x.com/wyigSmGfinW86k4/status/2112488503150035333",
+      "metrics": {
+        "views": 299,
+        "likes": 2,
+        "retweets": 0,
+        "replies": 1,
+        "quotes": 0
+      },
+      "score": 29.949958263743873,
+      "observed_at_utc": "2026-10-21T00:13:54.989325+00:00",
+      "retrieval_source": "https://api.fxtwitter.com/status/2112488503150035333"
+    },
+    {
+      "candidate_id": "H-50",
+      "slug": "grokbutt-escape-the-server",
+      "post_id": "2112017632945988050",
+      "post_url": "https://x.com/krog_420/status/2112017632945988050",
+      "metrics": {
+        "views": 191,
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 1
+      },
+      "score": 13.820274961085254,
+      "observed_at_utc": "2026-10-21T00:13:54.776014+00:00",
+      "retrieval_source": "https://api.fxtwitter.com/status/2112017632945988050"
+    },
+    {
+      "candidate_id": "D-13",
+      "slug": "clawdopolis",
+      "post_id": "2112184716036108573",
+      "post_url": "https://x.com/AngzPanesar/status/2112184716036108573",
+      "metrics": {
+        "views": 35,
+        "likes": 1,
+        "retweets": 1,
+        "replies": 2,
+        "quotes": 1
+      },
+      "score": 13.228756555322953,
+      "observed_at_utc": "2026-10-21T00:13:54.587596+00:00",
+      "retrieval_source": "https://api.fxtwitter.com/status/2112184716036108573"
+    },
+    {
+      "candidate_id": "H-25",
+      "slug": "color-sorter",
+      "post_id": "2111366637693919706",
+      "post_url": "https://x.com/Dnal_Yen_Sid/status/2111366637693919706",
+      "metrics": {
+        "views": 145,
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0
+      },
+      "score": 12.041594578792296,
+      "observed_at_utc": "2026-10-21T00:13:54.486838+00:00",
+      "retrieval_source": "https://api.fxtwitter.com/status/2111366637693919706"
+    },
+    {
+      "candidate_id": "H-30",
+      "slug": "water-sort",
+      "post_id": "2111977998081540380",
+      "post_url": "https://x.com/ned4short/status/2111977998081540380",
+      "metrics": {
+        "views": 17,
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0
+      },
+      "score": 4.123105625617661,
+      "observed_at_utc": "2026-10-21T00:13:54.517658+00:00",
+      "retrieval_source": "https://api.fxtwitter.com/status/2111977998081540380"
+    },
+    {
+      "candidate_id": "H-99",
+      "slug": "groklet-terrarium",
+      "post_id": "2112566011929248072",
+      "post_url": "https://x.com/Stnkq/status/2112566011929248072",
+      "metrics": {
+        "views": 16,
+        "likes": 0,
+        "retweets": 0,
+        "replies": 1,
+        "quotes": 0
+      },
+      "score": 4.0,
+      "observed_at_utc": "2026-10-21T00:13:54.663583+00:00",
+      "retrieval_source": "https://api.fxtwitter.com/status/2112566011929248072"
+    },
+    {
+      "candidate_id": "H-32",
+      "slug": "gilded-rite",
+      "post_id": "2111510533900009561",
+      "post_url": "https://x.com/Slick___jacket/status/2111510533900009561",
+      "metrics": {
+        "views": 14,
+        "likes": 0,
+        "retweets": 1,
+        "replies": 0,
+        "quotes": 0
+      },
+      "score": 3.7416573867739413,
+      "observed_at_utc": "2026-10-21T00:13:55.016266+00:00",
+      "retrieval_source": "https://api.fxtwitter.com/status/2111510533900009561"
+    },
+    {
+      "candidate_id": "H-55",
+      "slug": "glenrow",
+      "post_id": "2112204026347450573",
+      "post_url": "https://x.com/marygerdt/status/2112204026347450573",
+      "metrics": {
+        "views": 10,
+        "likes": 0,
+        "retweets": 0,
+        "replies": 1,
+        "quotes": 0
+      },
+      "score": 3.1622776601683795,
+      "observed_at_utc": "2026-10-21T00:13:54.540470+00:00",
+      "retrieval_source": "https://api.fxtwitter.com/status/2112204026347450573"
+    },
+    {
+      "candidate_id": "H-31",
+      "slug": "ash-queen-s-forge",
+      "post_id": "2111613337578484107",
+      "post_url": "https://x.com/Slick___jacket/status/2111613337578484107",
+      "metrics": {
+        "views": 15,
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0
+      },
+      "score": 0.0,
+      "observed_at_utc": "2026-10-21T00:13:54.854757+00:00",
+      "retrieval_source": "https://api.fxtwitter.com/status/2111613337578484107"
+    },
+    {
+      "candidate_id": "H-10",
+      "slug": "locked-down",
+      "post_id": "2112144913253249487",
+      "post_url": "https://x.com/zuzkaveres17/status/2112144913253249487",
+      "metrics": {
+        "views": 5,
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0
+      },
+      "score": 0.0,
+      "observed_at_utc": "2026-10-21T00:13:55.081197+00:00",
+      "retrieval_source": "https://api.fxtwitter.com/status/2112144913253249487"
+    },
+    {
+      "candidate_id": "H-14",
+      "slug": "chinchiro",
+      "post_id": "2112173991876235709",
+      "post_url": "https://x.com/ai_maker_lab/status/2112173991876235709",
+      "metrics": {
+        "views": 59,
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0
+      },
+      "score": 0.0,
+      "observed_at_utc": "2026-10-21T00:13:54.666696+00:00",
+      "retrieval_source": "https://api.fxtwitter.com/status/2112173991876235709"
+    },
+    {
+      "candidate_id": "H-16-01",
+      "slug": "claude-slot-machine",
+      "post_id": "2112230049109758319",
+      "post_url": "https://x.com/sgates/status/2112230049109758319",
+      "metrics": {
+        "views": 13,
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0
+      },
+      "score": 0.0,
+      "observed_at_utc": "2026-10-21T00:13:54.297520+00:00",
+      "retrieval_source": "https://api.fxtwitter.com/status/2112230049109758319"
+    },
+    {
+      "candidate_id": "H-16-02",
+      "slug": "codex-slot-machine",
+      "post_id": "2112230049109758319",
+      "post_url": "https://x.com/sgates/status/2112230049109758319",
+      "metrics": {
+        "views": 13,
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0
+      },
+      "score": 0.0,
+      "observed_at_utc": "2026-10-21T00:13:54.297520+00:00",
+      "retrieval_source": "https://api.fxtwitter.com/status/2112230049109758319"
+    },
+    {
+      "candidate_id": "H-16-03",
+      "slug": "grok-slot-machine",
+      "post_id": "2112230049109758319",
+      "post_url": "https://x.com/sgates/status/2112230049109758319",
+      "metrics": {
+        "views": 13,
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0
+      },
+      "score": 0.0,
+      "observed_at_utc": "2026-10-21T00:13:54.297520+00:00",
+      "retrieval_source": "https://api.fxtwitter.com/status/2112230049109758319"
+    },
+    {
+      "candidate_id": "H-16-04",
+      "slug": "gemini-slot-machine",
+      "post_id": "2112230049109758319",
+      "post_url": "https://x.com/sgates/status/2112230049109758319",
+      "metrics": {
+        "views": 13,
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0
+      },
+      "score": 0.0,
+      "observed_at_utc": "2026-10-21T00:13:54.297520+00:00",
+      "retrieval_source": "https://api.fxtwitter.com/status/2112230049109758319"
+    },
+    {
+      "candidate_id": "H-54",
+      "slug": "the-dungeon-of-doom",
+      "post_id": "2112366985329983607",
+      "post_url": "https://x.com/nil0bject/status/2112366985329983607",
+      "metrics": {
+        "views": 13,
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0
+      },
+      "score": 0.0,
+      "observed_at_utc": "2026-10-21T00:13:54.337485+00:00",
+      "retrieval_source": "https://api.fxtwitter.com/status/2112366985329983607"
+    },
+    {
+      "candidate_id": "H-24",
+      "slug": "as-aventuras-de-flavio-bolsonaro-hipotetico",
+      "post_id": "2112390599710011443",
+      "post_url": "https://x.com/LivreMolde/status/2112390599710011443",
+      "metrics": {
+        "views": 12,
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0
+      },
+      "score": 0.0,
+      "observed_at_utc": "2026-10-21T00:13:54.300897+00:00",
+      "retrieval_source": "https://api.fxtwitter.com/status/2112390599710011443"
+    },
+    {
+      "candidate_id": "H-23",
+      "slug": "boiling-milk-dont-let-it-spill",
+      "post_id": "2112404553299886378",
+      "post_url": "https://x.com/practicalboy4/status/2112404553299886378",
+      "metrics": {
+        "views": 4,
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0
+      },
+      "score": 0.0,
+      "observed_at_utc": "2026-10-21T00:13:54.874256+00:00",
+      "retrieval_source": "https://api.fxtwitter.com/status/2112404553299886378"
+    },
+    {
+      "candidate_id": "H-13",
+      "slug": "tile-twins",
+      "post_id": "2112468876504207416",
+      "post_url": "https://x.com/PlatoEvolved/status/2112468876504207416",
+      "metrics": {
+        "views": 29,
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0
+      },
+      "score": 0.0,
+      "observed_at_utc": "2026-10-21T00:13:54.446870+00:00",
+      "retrieval_source": "https://api.fxtwitter.com/status/2112468876504207416"
+    },
+    {
+      "candidate_id": "H-88",
+      "slug": "daytrader",
+      "post_id": "2112588822458302940",
+      "post_url": "https://x.com/likofis/status/2112588822458302940",
+      "metrics": {
+        "views": 19,
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0
+      },
+      "score": 0.0,
+      "observed_at_utc": "2026-10-21T00:13:54.340701+00:00",
+      "retrieval_source": "https://api.fxtwitter.com/status/2112588822458302940"
+    },
+    {
+      "candidate_id": "H-100",
+      "slug": "drift-balance",
+      "post_id": "2112591641236111396",
+      "post_url": "https://x.com/DecisionMAi/status/2112591641236111396",
+      "metrics": {
+        "views": 1,
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0
+      },
+      "score": 0.0,
+      "observed_at_utc": "2026-10-21T00:13:54.678625+00:00",
+      "retrieval_source": "https://api.fxtwitter.com/status/2112591641236111396"
+    }
+  ],
+  "missing_metrics": "Unknown values excluded from shelf ranking, never candidate publication."
+}

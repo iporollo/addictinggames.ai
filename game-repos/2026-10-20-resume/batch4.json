@@ -1,0 +1,2044 @@
+{
+  "status": "approved_prepared",
+  "original_run": "2026-10-20T153255Z",
+  "entries": [
+    {
+      "candidate_id": "H-10",
+      "slug": "locked-down",
+      "title": "Locked Down",
+      "url": "https://light-civic-acre-fleet.grok.me/",
+      "categories": [
+        "Puzzle",
+        "Adventure"
+      ],
+      "ai_quote": "I built this game with Grok — try it out:",
+      "ai_source": "https://x.com/zuzkaveres17/status/2112144913253249487",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Clicked New game; checked Mute; clicked Window to inspect it, selected Take, then clicked Window to take the loose bar.",
+        "response": "The game changed the text from the intro to a window description, then responded “You wrench the bar free. It rings like a bell in the smoke. Bent Bar is in your inventory.” The score changed from 0/100 to 10/100 and the inventory listed Bent Bar."
+      },
+      "warnings": [],
+      "artwork": {
+        "kind": "retained_creator_art",
+        "source_url": "https://light-civic-acre-fleet.grok.me/og.jpg",
+        "published_path": "/games/oct20-resume-locked-down.webp",
+        "sha256": "95599688dcb7e56a75518e34462e60bff5cb6918de8bf6b94a51a855e8c92b8b"
+      },
+      "adjudication": {
+        "provider": "cursor",
+        "model": "grok-4.7-high",
+        "publish": 1,
+        "evidence_revision": 6
+      }
+    },
+    {
+      "candidate_id": "H-13",
+      "slug": "tile-twins",
+      "title": "Tile Twins",
+      "url": "https://www.gudarcade.com/game/tile-twins",
+      "categories": [
+        "Puzzle",
+        "Arcade"
+      ],
+      "ai_quote": "I'm building a new puzzle game, Tile Twins, and had a fun \"DISCOssion\" with ChatGPT Codex while developing.",
+      "ai_source": "https://x.com/PlatoEvolved/status/2112468876504207416",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "In Round 2, selected row 1, column 1 on the player canvas during the MIRROR challenge.",
+        "response": "The selected cell became active; the round counter changed to 1/4 tiles, score and coin counts each changed from 0 to 1, and the timer continued."
+      },
+      "warnings": [],
+      "artwork": {
+        "kind": "retained_creator_art",
+        "source_url": "https://www.gudarcade.com/game/tile-twins/opengraph-image?c6fecb6944bc9133",
+        "published_path": "/games/oct20-resume-tile-twins.webp",
+        "sha256": "51af96616262cedd42bab08725c206ae527bcbe8b1b8e29df51668fe63c6f938"
+      },
+      "adjudication": {
+        "provider": "cursor",
+        "model": "grok-4.7-high",
+        "publish": 1,
+        "evidence_revision": 4
+      }
+    },
+    {
+      "candidate_id": "H-14",
+      "slug": "chinchiro",
+      "title": "チンチロ (Chinchiro)",
+      "url": "https://claude.ai/artifact/DmZDEwHMv6PoMMxBZMLkLX",
+      "categories": [
+        "Strategy",
+        "Casual"
+      ],
+      "ai_quote": "root 2112173929167274155: '大学生がAI初心者のまま、初めてゲームを作ってみました🎲 コードは1行も書いていません。... #初心者 #Claude'",
+      "ai_source": "https://x.com/ai_maker_lab/status/2112173991876235709",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Selected the lowest in-game wager (100 of 1,000 local credits), pressed 勝負 (play), then pressed 振る (roll) on the player's turn.",
+        "response": "The CPU dice rolled and showed a 4-high result. The player dice then rolled to 5-4-3; the game labeled it 目なし (no role), displayed the reroll prompt, and enabled the 振り直す button."
+      },
+      "warnings": [],
+      "artwork": {
+        "kind": "generated",
+        "generator": "built-in GPT image generator",
+        "selected": "A",
+        "options_shown_inline": true,
+        "prompts": {
+          "A": "Create a horizontal cover for a three-dice Chinchiro game: three dice on a wooden table, a player cup and a rival cup, with a clean Japanese game-night atmosphere. No text, logos, currency symbols, or platform branding. Faithful browser-game catalog cover, readable square center crop, polished illustrative art, no captions or invented mechanics.",
+          "B": "Create a bright, simple game illustration of a three-dice-versus-CPU round, showing dice, a small wager marker, and a reroll cup on a tabletop. No words, logos, or real-money imagery. Faithful browser-game catalog cover, readable square center crop, polished illustrative art, no captions or invented mechanics."
+        },
+        "selection_reason": "Faithful subject and clear focal composition in the existing card crop.",
+        "published_path": "/games/oct20-resume-chinchiro.webp",
+        "sha256": "d40bec57d238d381681df8182b43678f4ce567745d4d61addb89c20b3b86b47c"
+      },
+      "adjudication": {
+        "provider": "cursor",
+        "model": "grok-4.7-high",
+        "publish": 1,
+        "evidence_revision": 5
+      }
+    },
+    {
+      "candidate_id": "H-15",
+      "slug": "pokemon-life-one-in-151",
+      "title": "151分の1〜あなただけのポケモン生〜",
+      "url": "https://fastidious-squirrel-25c0b3.netlify.app/",
+      "categories": [
+        "Adventure"
+      ],
+      "ai_quote": "ポケモンになって人生を送るゲームをチャットgptで作ってみました！",
+      "ai_source": "https://x.com/wyigSmGfinW86k4/status/2112488503150035333",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Pressed the draw button, started the adventure, then chose the non-combat rest option at the wild encounter.",
+        "response": "A Shellder Lv.1 was assigned, Event 2 presented a wild encounter with a choice of battle, escape or rest, and the rest action advanced to Event 3 with motivation increasing from 80 to 90."
+      },
+      "warnings": [],
+      "artwork": {
+        "kind": "generated",
+        "generator": "built-in GPT image generator",
+        "selected": "B",
+        "options_shown_inline": true,
+        "prompts": {
+          "A": "Create a horizontal cover for a creature-raising event adventure: a small blue shell creature beside a choice card and a path into a bright forest. Use original creature design, with no franchise marks, names, or logos. Faithful browser-game catalog cover, readable square center crop, polished illustrative art, no captions or invented mechanics.",
+          "B": "Create a horizontal illustrated creature-training adventure scene with a tiny shelled companion, a wild encounter in the distance, and a calm rest choice represented by a camp clearing. No text or franchise logos. Faithful browser-game catalog cover, readable square center crop, polished illustrative art, no captions or invented mechanics."
+        },
+        "selection_reason": "Faithful subject and clear focal composition in the existing card crop.",
+        "published_path": "/games/oct20-resume-pokemon-life-one-in-151.webp",
+        "sha256": "86bef73ae5aaa47460dc62691316b34d8e4df7db5f48be139085c4bbde47d3aa"
+      },
+      "adjudication": {
+        "provider": "cursor",
+        "model": "grok-4.7-high",
+        "publish": 1,
+        "evidence_revision": 5
+      }
+    },
+    {
+      "candidate_id": "H-23",
+      "slug": "boiling-milk-dont-let-it-spill",
+      "title": "Boiling Milk — Don’t Let It Spill!",
+      "url": "https://raw.githack.com/Ajeet-iitk/Boiling-Milk1/main/boiling-milk.html",
+      "categories": [
+        "Arcade",
+        "Casual"
+      ],
+      "ai_quote": "Check out this fun game ... Made using DeepSeek v4.1 Flash",
+      "ai_source": "https://x.com/practicalboy4/status/2112404553299886378",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Started cooking and held Space for one second to blow on the milk.",
+        "response": "During the active round, score increased from 72 to 170, the heat gauge fell from 58% to 54%, the milk gauge rose from 34% to 44%, and the blow energy decreased to 66%."
+      },
+      "warnings": [],
+      "artwork": {
+        "kind": "generated",
+        "generator": "built-in GPT image generator",
+        "selected": "B",
+        "options_shown_inline": true,
+        "prompts": {
+          "A": "Create a horizontal arcade-game cover showing a saucepan of milk rising toward the rim while a player blows to cool it; include a simple heat gauge motif without readable text. No logos or platform branding. Faithful browser-game catalog cover, readable square center crop, polished illustrative art, no captions or invented mechanics.",
+          "B": "Create a playful horizontal illustration of a boiling-milk reflex challenge: bubbling pot, visible steam, and a small fan or puff of air keeping the spill in check. No words, labels, or logos. Faithful browser-game catalog cover, readable square center crop, polished illustrative art, no captions or invented mechanics."
+        },
+        "selection_reason": "Faithful subject and clear focal composition in the existing card crop.",
+        "published_path": "/games/oct20-resume-boiling-milk-dont-let-it-spill.webp",
+        "sha256": "9aea29b2f5d7e6248459a44f58b0ccbbc4f6940d934055c9a4dd7e557237e5c2"
+      },
+      "adjudication": {
+        "provider": "cursor",
+        "model": "grok-4.7-high",
+        "publish": 1,
+        "evidence_revision": 5
+      }
+    },
+    {
+      "candidate_id": "H-24",
+      "slug": "as-aventuras-de-flavio-bolsonaro-hipotetico",
+      "title": "As Aventuras de Flávio Bolsonaro Hipotético",
+      "url": "https://bolsonarogame.com.br/",
+      "categories": [
+        "Action"
+      ],
+      "ai_quote": "olha o jogo que estou desenvolvendo. ... Fiz tudo com o Codex.",
+      "ai_source": "https://x.com/direitagames/status/2112390599710011443",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Held the opening-scene advance control for 1.3 seconds to enter gameplay, then pressed J once (the documented attack key).",
+        "response": "The game showed an active Rio de Janeiro street-fighting scene with a score/lives HUD. After J, the HUD changed from 2 to 0 remaining strikes and from 3 to 2 lives; the screenshot shows the resulting end screen."
+      },
+      "warnings": [],
+      "artwork": {
+        "kind": "retained_creator_art",
+        "source_url": "https://bolsonarogame.com.br/assets/capa-social-url-20261019.png",
+        "published_path": "/games/oct20-resume-as-aventuras-de-flavio-bolsonaro-hipotetico.webp",
+        "sha256": "9d91b61f3478830a2a060f225d9c760eac7384e0646a26d838472a4ebd8017ba"
+      },
+      "adjudication": {
+        "provider": "cursor",
+        "model": "grok-4.7-high",
+        "publish": 1,
+        "evidence_revision": 5
+      }
+    },
+    {
+      "candidate_id": "H-25",
+      "slug": "color-sorter",
+      "title": "Color Sorter",
+      "url": "https://ogel-prog.github.io/color-sorter/",
+      "categories": [
+        "Puzzle",
+        "Casual"
+      ],
+      "ai_quote": "Xでたまに見かける色並べゲームをアプリ化してみた。 プロンプト作成5分、Claude開発2分、調整10分",
+      "ai_source": "https://x.com/Dnal_Yen_Sid/status/2111366637693919706",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Selected the top green tile in the second stack and placed it in the empty first tube.",
+        "response": "The green tile moved into the empty tube, the second stack lost its top tile, and MOVE COUNT changed from 0 to 1."
+      },
+      "warnings": [],
+      "artwork": {
+        "kind": "retained_creator_art",
+        "source_url": "https://ogel-prog.github.io/color-sorter/images/ogp.png",
+        "published_path": "/games/oct20-resume-color-sorter.webp",
+        "sha256": "66b0322967f96a70f7e643ee3dbf061c99c75f6fb3a7f2f276dd32758629cd2a"
+      },
+      "adjudication": {
+        "provider": "cursor",
+        "model": "grok-4.7-high",
+        "publish": 1,
+        "evidence_revision": 5
+      }
+    },
+    {
+      "candidate_id": "H-29",
+      "slug": "jelly-shift",
+      "title": "Jelly Shift",
+      "url": "https://app.usecrayon.ai/play/b840287e-3317-4b74-85a3-d3cd05f43b34",
+      "categories": [
+        "Puzzle"
+      ],
+      "ai_quote": "Today on Crayon: Jelly Shift ... Built with Crayon Pro + GPT-6 Astra",
+      "ai_source": "https://x.com/usecrayon/status/2111498666116800763",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Used ArrowRight to select a rotatable board tile, then clicked the accessible Rotate right control.",
+        "response": "The selected island visibly rotated/lifted, the status changed to Ready, and the turn controls became disabled after the move. This confirms a responsive game action; the Guide button remained disabled, so level completion was not tested."
+      },
+      "warnings": [],
+      "artwork": {
+        "kind": "retained_creator_art",
+        "source_url": "https://gamebuilderapi-thumbnailbucket3bc05c46-njaxbgcn5duh.s3.ap-south-1.amazonaws.com/b840287e-3317-4b74-85a3-d3cd05f43b34/1792249178030-hero.jpg",
+        "published_path": "/games/oct20-resume-jelly-shift.webp",
+        "sha256": "48bc381bb0481050caaa5a6cf78e04e99fe069c7208adcc86f914d23f95985a2"
+      },
+      "adjudication": {
+        "provider": "cursor",
+        "model": "grok-4.7-high",
+        "publish": 1,
+        "evidence_revision": 5
+      }
+    },
+    {
+      "candidate_id": "H-30",
+      "slug": "water-sort",
+      "title": "Water Sort",
+      "url": "https://watersort.grok.me/water/play/1",
+      "categories": [
+        "Puzzle",
+        "Casual"
+      ],
+      "ai_quote": "I built this fun game with Grok — try it out:",
+      "ai_source": "https://x.com/ned4short/status/2111977998081540380",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Selected Tube 1, then Tube 3 to pour the matching upper layer into the empty tube.",
+        "response": "The move counter advanced from 0 to 1 and the visible tube contents changed: Tube 1 retained two coral layers while Tube 3 received the teal layers. Undo and Restart became enabled; 0 tubes complete remained shown."
+      },
+      "warnings": [],
+      "artwork": {
+        "kind": "retained_creator_art",
+        "source_url": "https://watersort.grok.me/og.jpg",
+        "published_path": "/games/oct20-resume-water-sort.webp",
+        "sha256": "8e8b7c0f6e0255086895fd7b161fdab4f9fcf0cb77af69945dbbf155c8d85198"
+      },
+      "adjudication": {
+        "provider": "cursor",
+        "model": "grok-4.7-high",
+        "publish": 1,
+        "evidence_revision": 5
+      }
+    },
+    {
+      "candidate_id": "H-31",
+      "slug": "ash-queen-s-forge",
+      "title": "Ash Queen's Forge",
+      "url": "https://hill-oasis-rose-comet.grok.me/",
+      "categories": [
+        "Action"
+      ],
+      "ai_quote": "I built this with Grok — try it out: ... its a game give it a go if you want to its a lil boss fight game",
+      "ai_source": "https://x.com/Slick___jacket/status/2111613337578484107",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Pressed D (the displayed move-right control) for 700 ms to approach the boss; later pressed J (displayed slash control) once at close range.",
+        "response": "The player moved from the left side toward the boss and the encounter timer advanced. The HUD showed SYS.INTEGRITY loss and a 16 damage number after the approach, confirming active movement and hit response. No win or boss defeat was observed."
+      },
+      "warnings": [],
+      "artwork": {
+        "kind": "retained_creator_art",
+        "source_url": "https://hill-oasis-rose-comet.grok.me/og.jpg",
+        "published_path": "/games/oct20-resume-ash-queen-s-forge.webp",
+        "sha256": "99fe428a40fb3b8e37895148032898862006803a308fe96eb7a63045a408c72e"
+      },
+      "adjudication": {
+        "provider": "cursor",
+        "model": "grok-4.7-high",
+        "publish": 1,
+        "evidence_revision": 5
+      }
+    },
+    {
+      "candidate_id": "H-32",
+      "slug": "gilded-rite",
+      "title": "Gilded Rite",
+      "url": "https://fair-topaz-brook-birch.grok.me/",
+      "categories": [
+        "Arcade",
+        "Casual"
+      ],
+      "ai_quote": "I built this with Grok — try it out: ... its a fun lil game for sure",
+      "ai_source": "https://x.com/Slick___jacket/status/2111510533900009561",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Held ArrowLeft for 800 ms to slide the saucer, following the displayed objective and movement behavior.",
+        "response": "The saucer moved from the center toward the left side of the cloth. The Snow meter advanced from 11 to 59 while the score remained 0 and lives remained 3, confirming the game loop and movement response. No catch or completion was observed."
+      },
+      "warnings": [],
+      "artwork": {
+        "kind": "retained_creator_art",
+        "source_url": "https://fair-topaz-brook-birch.grok.me/og.jpg",
+        "published_path": "/games/oct20-resume-gilded-rite.webp",
+        "sha256": "44df72b76c4f8875587f7db209b19798a3c04d8e4542d8a240135a33fab44779"
+      },
+      "adjudication": {
+        "provider": "cursor",
+        "model": "grok-4.7-high",
+        "publish": 1,
+        "evidence_revision": 5
+      }
+    },
+    {
+      "candidate_id": "H-50",
+      "slug": "grokbutt-escape-the-server",
+      "title": "GROKBUTT: Escape the Server",
+      "url": "https://krog4206941.github.io/grokbutt-game/",
+      "categories": [
+        "Action",
+        "Arcade"
+      ],
+      "ai_quote": "Use Grok @bot I said 'make the butt the weapon.' It designed, coded and shipped this game.",
+      "ai_source": "https://x.com/krog_420/status/2112017632945988050",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Clicked the game image to start/focus; pressed M to mute; held W for 700 ms, pressed Space, held D for 700 ms, then ArrowRight for 900 ms.",
+        "response": "The canvas entered live Room 1/7, Wave 1/3 with a health HUD and active field. Later it displayed a CROPPED OUT result screen for reaching stage 1/7, score 0, 0 enemies butted, and a 0:16 run. The speaker icon showed muted after M. This repeats the prior pass and recovers local screenshots; the earlier worker’s per-input response notes remain the primary attribution for positions/health changing after controls."
+      },
+      "warnings": [
+        "crude humor"
+      ],
+      "artwork": {
+        "kind": "retained_creator_art",
+        "source_url": "https://krog4206941.github.io/grokbutt-game/card.png",
+        "published_path": "/games/oct20-resume-grokbutt-escape-the-server.webp",
+        "sha256": "ef4799e81493fa4cad015a8b8284a365cc39ba05dbf2ecdc7383d75d0b391205"
+      },
+      "adjudication": {
+        "provider": "cursor",
+        "model": "grok-4.7-high",
+        "publish": 1,
+        "evidence_revision": 4
+      }
+    },
+    {
+      "candidate_id": "H-54",
+      "slug": "the-dungeon-of-doom",
+      "title": "The Dungeon of Doom",
+      "url": "https://dungeons.grok.me/doom",
+      "categories": [
+        "Adventure",
+        "Strategy"
+      ],
+      "ai_quote": "I built a retro game dungeon with Grok — try it out:",
+      "ai_source": "https://x.com/nil0bject/status/2112366985329983607",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Pressed ArrowRight and ArrowUp, and clicked a floor tile in the map.",
+        "response": "The game displayed the dungeon grid, character, staircase, level and health/food bars; after directional input the map view updated around the character. Gameplay is turn-based and canvas-rendered, so no text status was exposed for movement."
+      },
+      "warnings": [
+        "a modified Grok share template; the post itself describes the game ('retro game dungeon') and links its exact URL"
+      ],
+      "artwork": {
+        "kind": "generated",
+        "generator": "built-in GPT image generator",
+        "selected": "A",
+        "options_shown_inline": true,
+        "prompts": {
+          "A": "Create a horizontal cover for a turn-based retro dungeon crawler: a small knight on a tile grid facing a lit staircase below ground, with a distant orb suggesting the goal and a modest health-and-food HUD motif. Keep it original, with no logos, lettering, or copied 1980s game art. Polished browser-game catalog cover, clear square center crop, no captions.",
+          "B": "Create a horizontal pixel-art dungeon exploration cover showing a knight descending a stone staircase toward a glowing orb and a route back upward. Use a restrained retro palette and original shapes; no text, logos, or franchise references. Polished browser-game catalog cover, clear square center crop, no captions."
+        },
+        "selection_reason": "Faithful subject and clear focal composition in the existing card crop.",
+        "published_path": "/games/oct20-resume-the-dungeon-of-doom.webp",
+        "sha256": "07e3b01cf059d3dddee7f6bf938a3b808f6cf19cdf3fcc24355c891caed31135"
+      },
+      "adjudication": {
+        "provider": "cursor",
+        "model": "grok-4.7-high",
+        "publish": 1,
+        "evidence_revision": 5
+      }
+    },
+    {
+      "candidate_id": "H-55",
+      "slug": "glenrow",
+      "title": "Glenrow",
+      "url": "https://fleet-lilac-light-ruby.grok.me/",
+      "categories": [
+        "Puzzle"
+      ],
+      "ai_quote": "Oh my, @grok and I tweaked the game. Building an app is a blast with grok",
+      "ai_source": "https://x.com/marygerdt/status/2112204026347450573",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Selected the single-cell blue Cat box at row 4, column 6.",
+        "response": "The cell changed to 'Cat placed', the game announced 'Cat appears', and Undo became available."
+      },
+      "warnings": [
+        "claim is brief ('@grok and I tweaked the game')"
+      ],
+      "artwork": {
+        "kind": "retained_creator_art",
+        "source_url": "https://fleet-lilac-light-ruby.grok.me/og.jpg",
+        "published_path": "/games/oct20-resume-glenrow.webp",
+        "sha256": "632f3e196ef9d7ea826160ec735005fd256454df58cba5ec4c11fd2ad17b0041"
+      },
+      "adjudication": {
+        "provider": "cursor",
+        "model": "grok-4.7-high",
+        "publish": 1,
+        "evidence_revision": 5
+      }
+    },
+    {
+      "candidate_id": "H-56",
+      "slug": "mostly-peaceful-shopkeeper",
+      "title": "Mostly Peaceful Shopkeeper",
+      "url": "https://claude.ai/artifact/Pb6nhYSiv12b11vayatAt8",
+      "categories": [
+        "Survival",
+        "Simulators"
+      ],
+      "ai_quote": "Made a game with Claude: Mostly Peaceful Shopkeeper 🏪🔥 ... Free in your browser",
+      "ai_source": "https://x.com/carl_boor/status/2112577734891163793",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Pressed W for 1000 ms with the active game focused, moving the shopkeeper toward an opening. Later tried holding Space, but did not verify a successful board-up or fire-extinguish action.",
+        "response": "The screenshot captures the shopkeeper visibly moved forward from the starting position and the in-world prompt 'No planks. Get some from the pile.' appeared. The HUD showed Night 1, health 100, stock and back-pile counts."
+      },
+      "warnings": [
+        "CONTENT: politically charged satire (riot/looters/firebombs; the title echoes the 'mostly peaceful' meme); review the tone",
+        "posted 16:12Z, very fresh, low metrics"
+      ],
+      "artwork": {
+        "kind": "generated",
+        "generator": "built-in GPT image generator",
+        "selected": "A",
+        "options_shown_inline": true,
+        "prompts": {
+          "A": "Create a horizontal cover for a night-shift shopkeeper game: a small store interior, a shopkeeper near a stack of boards, and a quiet nighttime window. No readable text, logos, or platform branding. Faithful browser-game catalog cover, readable square center crop, polished illustrative art, no captions or invented mechanics.",
+          "B": "Create a horizontal game illustration of a shopkeeper preparing a store for the night, with supply crates, a plank pile, and a calm but watchful atmosphere. No words, logos, or combat gore. Faithful browser-game catalog cover, readable square center crop, polished illustrative art, no captions or invented mechanics."
+        },
+        "selection_reason": "Faithful subject and clear focal composition in the existing card crop.",
+        "published_path": "/games/oct20-resume-mostly-peaceful-shopkeeper.webp",
+        "sha256": "6937f6e568ac221088b07079b83737a7a70d1c787de724179c82fceabb731e7e"
+      },
+      "adjudication": {
+        "provider": "cursor",
+        "model": "grok-4.7-high",
+        "publish": 1,
+        "evidence_revision": 5
+      }
+    },
+    {
+      "candidate_id": "H-57",
+      "slug": "sakurazuki-no-liberty",
+      "title": "桜月のリバティ (Sakurazuki no Liberty)",
+      "url": "https://claude.ai/artifact/HDLTz4T1s3sgVRPQa1qZjF",
+      "categories": [
+        "Shooter",
+        "Action"
+      ],
+      "ai_quote": "桜月のリバティ、クレアのゲーム、新作です。Claudeで作成した横スクロールゲームです。制作時間はシナリオ、構想、システム、イラスト作成含めて10時間程度です。",
+      "ai_source": "https://x.com/kureakurea01/status/2112491717257797961",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Sent ArrowRight and Z to enter the level, then X (displayed 8-direction shot control).",
+        "response": "The game transitioned to an action stage showing the player on a platform, a blue enemy, and an orange shot effect in front of it."
+      },
+      "warnings": [
+        "creator seen in priors with a DIFFERENT game (claude.ai/artifact/lp4pddbygyfnttu6evsrdj, Minecraft/Resident Evil-style minigame); this is a new title and URL"
+      ],
+      "artwork": {
+        "kind": "generated",
+        "generator": "built-in GPT image generator",
+        "selected": "B",
+        "options_shown_inline": true,
+        "prompts": {
+          "A": "Create a horizontal side-scrolling action-game cover: a small hero on a platform, a blue enemy ahead, and an orange eight-direction shot effect. No text, logos, or platform branding. Faithful browser-game catalog cover, readable square center crop, polished illustrative art, no captions or invented mechanics.",
+          "B": "Create a horizontal pixel-art action scene with a platforming hero firing a bright projectile toward a blue foe, against a moonlit Japanese-inspired stage. No lettering or franchise marks. Faithful browser-game catalog cover, readable square center crop, polished illustrative art, no captions or invented mechanics."
+        },
+        "selection_reason": "Faithful subject and clear focal composition in the existing card crop.",
+        "published_path": "/games/oct20-resume-sakurazuki-no-liberty.webp",
+        "sha256": "331e615ae23466f500ce2d0008360740c92c859059a41d3dc0f6cf988adcd9d8"
+      },
+      "adjudication": {
+        "provider": "cursor",
+        "model": "grok-4.7-high",
+        "publish": 1,
+        "evidence_revision": 5
+      }
+    },
+    {
+      "candidate_id": "H-58",
+      "slug": "aestra-the-last-wish",
+      "title": "Aestra: The Last Wish",
+      "url": "https://tesana.com/game/aestra-the-last-wish",
+      "categories": [
+        "Adventure",
+        "Action"
+      ],
+      "ai_quote": "Built with Claude Opus 5.5 & @TesanaAI ... play for free in your broswer!",
+      "ai_source": "https://x.com/M__Houser/status/2110750857528803516",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Pressed D for 1200 ms to move through Millbrook, then pressed E at the visible [E] Talk to Young Ned prompt.",
+        "response": "The world HUD showed Guest, Level 1 and 106/106 health. Movement brought Young Ned into interaction range; pressing E opened a dialogue panel labeled Young Ned with the line 'If you wish on a falling star, it falls on YOU.' and a Farewell option."
+      },
+      "warnings": [
+        "the play link is in the creator's self-reply 2110750994569302275",
+        "Tesana hosts the game, does the multiplayer and makes the assets ('@TesanaAI creates all assets and handles the multiplayer. I just prompted.')",
+        "posted 10-15 (5 days old), about 44.9K views, 17,000+ players claimed"
+      ],
+      "artwork": {
+        "kind": "retained_creator_art",
+        "source_url": "https://tesana.com/cdn-cgi/image/width=1200,height=630,fit=cover,format=jpeg,quality=85/https://cdn.tesana.ai/one-tap/media/game_posters/2026/10/06/Aestra__Den_sista_onskan.png",
+        "published_path": "/games/oct20-resume-aestra-the-last-wish.webp",
+        "sha256": "fd65f6824a91215b6458c61ca74de4c58f0554d13face0675b7bc2e80b1ac898"
+      },
+      "adjudication": {
+        "provider": "cursor",
+        "model": "grok-4.7-high",
+        "publish": 1,
+        "evidence_revision": 5
+      }
+    },
+    {
+      "candidate_id": "H-60",
+      "slug": "poolrooms-upside-down-dream",
+      "title": "POOLROOMS: Upside-Down Dream",
+      "url": "https://pogglo.net/play/poolrooms-upside-down/?lang=en",
+      "categories": [
+        "Adventure"
+      ],
+      "ai_quote": "I made a new dreamcore / vaporwave game with Opus 5.5 @ClaudeDevs + three.js @threejs. The video was filmed by Opus 5.5 too. Play it in your browser:",
+      "ai_source": "https://x.com/SharkDemonYa/status/2111607702480973963",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Clicked the visible resume target and pressed W for 1800 ms in the direct game view, following the displayed WASD movement controls.",
+        "response": "The view moved forward from the pool-deck starting position toward the ladder and pool. The on-screen timer advanced to 0:01 while the game displayed the pool environment and movement instructions."
+      },
+      "warnings": [],
+      "artwork": {
+        "kind": "retained_creator_art",
+        "source_url": "https://img.pogglo.com/covers/poolrooms-upside-down?v=83185eb8a2355b55",
+        "published_path": "/games/oct20-resume-poolrooms-upside-down-dream.webp",
+        "sha256": "e056f1a73aade1414c641fa272c46a8309a5adce7cae074beca7bdcc0767ccb9"
+      },
+      "adjudication": {
+        "provider": "cursor",
+        "model": "grok-4.7-high",
+        "publish": 1,
+        "evidence_revision": 5
+      }
+    },
+    {
+      "candidate_id": "H-61",
+      "slug": "open-terraria",
+      "title": "Open-Terraria",
+      "url": "https://sandboxworld.online/",
+      "categories": [
+        "Adventure",
+        "Survival"
+      ],
+      "ai_quote": "一个完全开放的 Terraria 1.4.5.8，历经70天，总消耗1238亿Tokens，其中GLM-5.3贡献477亿，GLM-5.3-Flash贡献761亿，使用Claude Code作为Vibe Coding工具。",
+      "ai_source": "https://github.com/SandboxWorldOnline/Open-Terraria/blob/main/README.md",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Pressed D for 1500 ms in the active game to move right.",
+        "response": "The character moved across the terrain while the camera scrolled right, revealing more trees and ground. The HUD showed the character, hotbar and hearts in the loaded world."
+      },
+      "warnings": [],
+      "artwork": {
+        "kind": "generated",
+        "generator": "built-in GPT image generator",
+        "selected": "A",
+        "options_shown_inline": true,
+        "prompts": {
+          "A": "Create a horizontal cover for an original side-view pixel sandbox: a lone explorer crossing green woodland, blocky soil and trees, with small heart and hotbar motifs. Avoid Terraria characters, names, and logos. Faithful browser-game catalog cover, readable square center crop, polished illustrative art, no captions or invented mechanics.",
+          "B": "Create a horizontal pixel-art sandbox scene with an original adventurer moving through a forested block world, visible terrain layers and simple survival HUD motifs; no franchise branding or text. Faithful browser-game catalog cover, readable square center crop, polished illustrative art, no captions or invented mechanics."
+        },
+        "selection_reason": "Faithful subject and clear focal composition in the existing card crop.",
+        "published_path": "/games/oct20-resume-open-terraria.webp",
+        "sha256": "a9254f712681f85139be531e161c93626006682237b5c42efae1d043960740a4"
+      },
+      "adjudication": {
+        "provider": "cursor",
+        "model": "grok-4.7-high",
+        "publish": 1,
+        "evidence_revision": 4
+      }
+    },
+    {
+      "candidate_id": "H-62",
+      "slug": "jev-cards",
+      "title": "Jev Cards",
+      "url": "https://jevcards.com/",
+      "categories": [
+        "Puzzle",
+        "Casual"
+      ],
+      "ai_quote": "Disclaimer: I ran Jev through both TypeSafe and Opper, and made the cards through Opper’s vision models and Claude Code.",
+      "ai_source": "https://news.ycombinator.com/item?id=50167617",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Selected the visually inferred answer B on the first red-line illusion card.",
+        "response": "The game displayed a prominent RIGHT result and highlighted the selected B line; this was the first card of the 10-card sprint."
+      },
+      "warnings": [],
+      "artwork": {
+        "kind": "retained_creator_art",
+        "source_url": "https://jevcards.com/og.png",
+        "published_path": "/games/oct20-resume-jev-cards.webp",
+        "sha256": "c937c2dfb00f15c5811ebb9cfc0d93d65591748d9214c1d8013b24999d44ae2a"
+      },
+      "adjudication": {
+        "provider": "cursor",
+        "model": "grok-4.7-high",
+        "publish": 1,
+        "evidence_revision": 4
+      }
+    },
+    {
+      "candidate_id": "H-63",
+      "slug": "project-megapop",
+      "title": "PROJECT MEGAPOP",
+      "url": "https://waldtier.itch.io/megapop",
+      "categories": [
+        "Simulators",
+        "Strategy"
+      ],
+      "ai_quote": "AI Disclosure | AI Assisted | Code",
+      "ai_source": "https://waldtier.itch.io/megapop",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Selected Raise Land, then clicked the starting town in the game view as directed by the tutorial.",
+        "response": "The world showed the town tooltip 'Mudhollow · 282 people', with terrain height, fertility and territory details. The game also showed the selected power’s cost and instructions. This confirms the town/map interaction responds; the click did not establish that land was raised."
+      },
+      "warnings": [],
+      "artwork": {
+        "kind": "retained_creator_art",
+        "source_url": "https://img.itch.zone/aW1nLzMwODg5NzAzLnBuZw==/original/h8lkwb.png",
+        "published_path": "/games/oct20-resume-project-megapop.webp",
+        "sha256": "70646e6ffddc55698363dcca615056276cb33bb3d2569d1a270777f569697c4c"
+      },
+      "adjudication": {
+        "provider": "cursor",
+        "model": "grok-4.7-high",
+        "publish": 1,
+        "evidence_revision": 4
+      }
+    },
+    {
+      "candidate_id": "H-65",
+      "slug": "golden-axe-street-fighter",
+      "title": "Golden Axe Street Fighter",
+      "url": "https://golden-axe-sf.atomic14.com/",
+      "categories": [
+        "Action"
+      ],
+      "ai_quote": "I’ve been messing around porting arcade game using Claude. It’s surprisingly easy to point Claude at an arcade ROM and get a reasonable result. This is more of a mashup.",
+      "ai_source": "https://news.ycombinator.com/item?id=50153686",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Pressed D to move toward Cilius and J to attack, following the displayed controls.",
+        "response": "The fight entered Battle 1 and the fighters moved and fought. The screenshot shows Ax knocked down with reduced health, Cilius standing and the round timer at 61, confirming visible gameplay response."
+      },
+      "warnings": [],
+      "artwork": {
+        "kind": "generated",
+        "generator": "built-in GPT image generator",
+        "selected": "B",
+        "options_shown_inline": true,
+        "prompts": {
+          "A": "Create a horizontal 16-bit arcade fighting-game cover with two original fantasy fighters facing off in a stone arena, one armored and one agile. No recognizable franchise characters, names, or logos. Faithful browser-game catalog cover, readable square center crop, polished illustrative art, no captions or invented mechanics.",
+          "B": "Create a horizontal pixel-art duel scene with two original combatants trading blows, a simple arena backdrop, and classic arcade energy. Avoid existing game characters, text, and logos. Faithful browser-game catalog cover, readable square center crop, polished illustrative art, no captions or invented mechanics."
+        },
+        "selection_reason": "Faithful subject and clear focal composition in the existing card crop.",
+        "published_path": "/games/oct20-resume-golden-axe-street-fighter.webp",
+        "sha256": "efc7fbd29737b8d7f3516ebb0529c75d29aea9fefa2bc31e0ae9673604ffe44e"
+      },
+      "adjudication": {
+        "provider": "cursor",
+        "model": "grok-4.7-high",
+        "publish": 1,
+        "evidence_revision": 4
+      }
+    },
+    {
+      "candidate_id": "H-67",
+      "slug": "tiny-trains",
+      "title": "Tiny Trains",
+      "url": "https://claude.ai/artifact/BVkB3o83k2AuJhoaGqMeUy",
+      "categories": [
+        "Strategy",
+        "Puzzle"
+      ],
+      "ai_quote": "Making Games with my 4 year old son and Claude",
+      "ai_source": "https://news.ycombinator.com/item?id=50122838",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Clicked the visible Switch A control for the Valley Fork.",
+        "response": "The switch immediately changed from Valley Fork to Mountain, the game time advanced from 06:00 to 11:07, and the board reported a new train joining at Genève."
+      },
+      "warnings": [],
+      "artwork": {
+        "kind": "generated",
+        "generator": "built-in GPT image generator",
+        "selected": "B",
+        "options_shown_inline": true,
+        "prompts": {
+          "A": "Create a horizontal railway-routing game cover with a tiny train at a fork, two diverging tracks, a route switch, and a small station map. No text, logos, or platform branding. Faithful browser-game catalog cover, readable square center crop, polished illustrative art, no captions or invented mechanics.",
+          "B": "Create a clean horizontal illustration of a miniature rail network with a switch set between two routes and a train approaching a station; use a playful strategy-puzzle look without words or logos. Faithful browser-game catalog cover, readable square center crop, polished illustrative art, no captions or invented mechanics."
+        },
+        "selection_reason": "Faithful subject and clear focal composition in the existing card crop.",
+        "published_path": "/games/oct20-resume-tiny-trains.webp",
+        "sha256": "0a9681801224dcdba4ec4cc728105ee80ba1a349df2b7fb029fcdf2b6a10dac3"
+      },
+      "adjudication": {
+        "provider": "cursor",
+        "model": "grok-4.7-high",
+        "publish": 1,
+        "evidence_revision": 4
+      }
+    },
+    {
+      "candidate_id": "H-68",
+      "slug": "rilemon-beta",
+      "title": "リレモン (Rilemon) β",
+      "url": "https://unityroom.com/games/rilemon",
+      "categories": [
+        "Racing",
+        "Strategy"
+      ],
+      "ai_quote": "開発・画像制作に生成AIを使用しています。",
+      "ai_source": "https://unityroom.com/games/rilemon",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Started the 360 m Flare race and clicked the in-race output control once while it was running.",
+        "response": "The race completed with a visible result screen: 3rd of 4 in 37.62 seconds, +15 XP for Flare, and speed increased from level 0 to 1."
+      },
+      "warnings": [],
+      "artwork": {
+        "kind": "retained_creator_art",
+        "source_url": "https://os-worker.unityroom.com/unityroom_production/icon/355567/icon_20261020_212542.gif?h=1792499142",
+        "published_path": "/games/oct20-resume-rilemon-beta.webp",
+        "sha256": "6c5a6dd5fa758a1f9365b1b0ea6824b0b86a382f2ed38e420086b8ab00bce366"
+      },
+      "adjudication": {
+        "provider": "cursor",
+        "model": "grok-4.7-high",
+        "publish": 1,
+        "evidence_revision": 5
+      }
+    },
+    {
+      "candidate_id": "H-71",
+      "slug": "murder-mystery-tmc",
+      "title": "Murder Mystery",
+      "url": "https://moddingcommunity.com/murder-mystery/play",
+      "categories": [
+        "Action",
+        "Multiplayer"
+      ],
+      "ai_quote": "This project, along with every asset it is built on, was built initially with Claude Code.",
+      "ai_source": "https://github.com/zees-games/game-murder-mystery#readme",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Focused the game canvas and held W for about 1.2 seconds.",
+        "response": "The first-person view moved from the starting doorway to a different wall/corner while the round timer counted down (27 seconds remaining); HUD showed 7 alive and 1 murderer."
+      },
+      "warnings": [],
+      "artwork": {
+        "kind": "retained_creator_art",
+        "source_url": "https://zeesgames.com/og/murder-mystery.jpg",
+        "published_path": "/games/oct20-resume-murder-mystery-tmc.webp",
+        "sha256": "1ddab40608f65ea8788b0a4702a13ae15d0e10483d778255c6c8118915de0be0"
+      },
+      "adjudication": {
+        "provider": "cursor",
+        "model": "grok-4.7-high",
+        "publish": 1,
+        "evidence_revision": 4
+      },
+      "multiplayer_mode": "Online multiplayer",
+      "mode_basis": "Creator page and repository document browser client/server multiplayer; the observed guest test was solo.",
+      "mode_source": "https://moddingcommunity.com/murder-mystery/"
+    },
+    {
+      "candidate_id": "H-72",
+      "slug": "cini-ustasi-round2-godot",
+      "title": "Çini Ustası (Round 2 Godot)",
+      "url": "https://furkiozknn.github.io/cini-ustasi-godot/",
+      "categories": [
+        "Puzzle"
+      ],
+      "ai_quote": "Çini Ustası, a 3D Iznik tile puzzle remade in Godot 4 by Claude Fable 5.1. Claude Game Arena round 2.",
+      "ai_source": "https://github.com/Furkiozknn/cini-ustasi-godot#readme",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Clicked the top-left tile once, following the displayed rule that tapping a tile rotates it 90 degrees.",
+        "response": "The tile visibly rotated; the HUD changed from 0 to 1 move and the matching-edge count changed from 2/24 to 1/24."
+      },
+      "warnings": [],
+      "artwork": {
+        "kind": "generated",
+        "generator": "built-in GPT image generator",
+        "selected": "A",
+        "options_shown_inline": true,
+        "prompts": {
+          "A": "Create a horizontal cover for an Iznik ceramic tile puzzle: a patterned blue-and-white tile board with one tile rotated out of alignment, set in a warm tile workshop. No text, logos, or platform branding. Faithful browser-game catalog cover, readable square center crop, polished illustrative art, no captions or invented mechanics.",
+          "B": "Create a horizontal game illustration of hand-painted geometric ceramic tiles being rotated to complete a connected pattern; keep the palette inspired by Iznik pottery, with no words or logos. Faithful browser-game catalog cover, readable square center crop, polished illustrative art, no captions or invented mechanics."
+        },
+        "selection_reason": "Faithful subject and clear focal composition in the existing card crop.",
+        "published_path": "/games/oct20-resume-cini-ustasi-round2-godot.webp",
+        "sha256": "6ea1e1daf769684508f97fe4dee437db1e7f8eea17c17e4e8a0123268bb480aa"
+      },
+      "adjudication": {
+        "provider": "cursor",
+        "model": "grok-4.7-high",
+        "publish": 1,
+        "evidence_revision": 4
+      }
+    },
+    {
+      "candidate_id": "H-88",
+      "slug": "daytrader",
+      "title": "Daytrader",
+      "url": "https://daytrader.grok.me/",
+      "categories": [
+        "Simulators",
+        "Strategy"
+      ],
+      "ai_quote": "I built this trading game with Grok — try it out: https://daytrader.grok.me",
+      "ai_source": "https://x.com/likofis/status/2112588822458302940",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Selected the default Long side and Go long for the default 25% stake at 1× leverage.",
+        "response": "The game advanced to candle 2, showed the Nex price chart, and updated the in-game bankroll and position (last order Long Nex 1×, -120.25)."
+      },
+      "warnings": [],
+      "artwork": {
+        "kind": "retained_creator_art",
+        "source_url": "https://daytrader.grok.me/og.jpg",
+        "published_path": "/games/oct20-resume-daytrader.webp",
+        "sha256": "63d48fd9418f1d8ac5b2e865661012b12c5f62cc131a21bd6c0a58ea2975383e"
+      },
+      "adjudication": {
+        "provider": "cursor",
+        "model": "grok-4.7-high",
+        "publish": 1,
+        "evidence_revision": 4
+      }
+    },
+    {
+      "candidate_id": "H-99",
+      "slug": "groklet-terrarium",
+      "title": "Groklet Terrarium",
+      "url": "https://sky-gym-3xbb6.ship.place/",
+      "categories": [
+        "Simulators",
+        "Casual"
+      ],
+      "ai_quote": "@Grok Bots just shipped a playable ecology diorama prototype. ... Not a fully evolving world yet - just a living prototype you can poke.",
+      "ai_source": "https://x.com/Stnkq/status/2112566011929248072",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Clicked the visible “☄ meteor” control.",
+        "response": "The game reported “sd 0 @9.7 · meteor · crater at (6,2)”; the terrarium showed the meteor impact/crater and moss rose from 71% to 73%."
+      },
+      "warnings": [],
+      "artwork": {
+        "kind": "generated",
+        "generator": "built-in GPT image generator",
+        "selected": "A",
+        "options_shown_inline": true,
+        "prompts": {
+          "A": "Create a horizontal pixel-art terrarium cover: a small mossy ecosystem in a glass-like diorama with a fresh meteor crater and tiny plants around it. No text, logos, or platform branding. Faithful browser-game catalog cover, readable square center crop, polished illustrative art, no captions or invented mechanics.",
+          "B": "Create a horizontal pixel-art ecology diorama with a crater, moss patches, and a few tiny living elements, emphasizing a small simulated world rather than a generic landscape. No words or logos. Faithful browser-game catalog cover, readable square center crop, polished illustrative art, no captions or invented mechanics."
+        },
+        "selection_reason": "Faithful subject and clear focal composition in the existing card crop.",
+        "published_path": "/games/oct20-resume-groklet-terrarium.webp",
+        "sha256": "f08151ec34c42f9ebaeae92c1c57a3a471a08dcf0c956da724c989c6caa0b83d"
+      },
+      "adjudication": {
+        "provider": "cursor",
+        "model": "grok-4.7-high",
+        "publish": 1,
+        "evidence_revision": 4
+      }
+    },
+    {
+      "candidate_id": "H-100",
+      "slug": "drift-balance",
+      "title": "Drift Balance",
+      "url": "https://qaimos.co.uk/drift/play/",
+      "categories": [
+        "Simulators",
+        "Arcade"
+      ],
+      "ai_quote": "I asked Claude Opus 5.5 to help me make a game. [X] hours later, Drift exists. Try it and post your score 👇",
+      "ai_source": "https://x.com/DecisionMAi/status/2112591641236111396",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Used the visible left/right steering controls and held the DRIFT control during the driving segment.",
+        "response": "The car and track perspective changed as the steering controls were used, moving the car from grass back onto the asphalt; speed visibly increased to 98 km/h and the coin counter reached 8. Score remained 0, so no drift points or objective completion are claimed."
+      },
+      "warnings": [],
+      "artwork": {
+        "kind": "generated",
+        "generator": "built-in GPT image generator",
+        "selected": "B",
+        "options_shown_inline": true,
+        "prompts": {
+          "A": "Create a horizontal cover for a drift-driving game: a compact sports car sliding from a grass verge back onto a stadium circuit, tire marks visible. Avoid brand badges, text, and logos. Faithful browser-game catalog cover, readable square center crop, polished illustrative art, no captions or invented mechanics.",
+          "B": "Create a horizontal arcade driving scene focused on a car balancing a drift through a stadium curve, with asphalt, grass edge, and a simple speed-gauge motif. No readable text or vehicle branding. Faithful browser-game catalog cover, readable square center crop, polished illustrative art, no captions or invented mechanics."
+        },
+        "selection_reason": "Faithful subject and clear focal composition in the existing card crop.",
+        "published_path": "/games/oct20-resume-drift-balance.webp",
+        "sha256": "82e1492928da3c6189608ea140c7e43cbf5a568c2b5d8078908b477dc7c719ec"
+      },
+      "adjudication": {
+        "provider": "cursor",
+        "model": "grok-4.7-high",
+        "publish": 1,
+        "evidence_revision": 4
+      }
+    },
+    {
+      "candidate_id": "D-13",
+      "slug": "clawdopolis",
+      "title": "Clawdopolis",
+      "url": "https://clawdopolis.com/",
+      "categories": [
+        "Simulators",
+        "Adventure"
+      ],
+      "ai_quote": "Making a 3D game with Claude is now as easy as AI art was a year ago! Tools: Claude Opus 5.5 + Blender + Three.js + Cloudflare! Claude: code + tests",
+      "ai_source": "https://x.com/AngzPanesar/status/2112184716036108573",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Pressed W for about 900 ms after guest play began.",
+        "response": "The game displayed “Welcome to Clawdopolis, Guest!”, added 50 tickets and the “Home Sweet Home” achievement; after W, the active task prompt changed to “Hang a photo or painting,” a Happy Halloween toast appeared, and a new stall notification became visible."
+      },
+      "warnings": [],
+      "artwork": {
+        "kind": "generated",
+        "generator": "built-in GPT image generator",
+        "selected": "B",
+        "options_shown_inline": true,
+        "prompts": {
+          "A": "Create a horizontal cover grounded in a town-life game: a generic guest character near a home, a small decoration task, and nearby market stalls. No readable text, logos, or platform branding. Faithful browser-game catalog cover, readable square center crop, polished illustrative art, no captions or invented mechanics.",
+          "B": "Create a horizontal isometric town-life game scene with a home, a simple portrait-hanging task cue, and a stall notification represented visually without text. No logos or identifiable people. Faithful browser-game catalog cover, readable square center crop, polished illustrative art, no captions or invented mechanics."
+        },
+        "selection_reason": "Faithful subject and clear focal composition in the existing card crop.",
+        "published_path": "/games/oct20-resume-clawdopolis.webp",
+        "sha256": "4baa04a48f3dbaa37b96801199c57a25288ca2e3a51885f2f48f498ec5496f17"
+      },
+      "adjudication": {
+        "provider": "cursor",
+        "model": "grok-4.7-high",
+        "publish": 1,
+        "evidence_revision": 4
+      }
+    },
+    {
+      "candidate_id": "H-16-01",
+      "slug": "claude-slot-machine",
+      "title": "Claude Slot Machine",
+      "url": "https://stozo04.github.io/Claude-Slot-Machine/",
+      "categories": [
+        "Arcade",
+        "Casual"
+      ],
+      "ai_quote": "Same prompt, four AIs: @AnthropicAI, @ChatGPT, @xai and @GeminiApp each built their own slot machine. Same game, very different results.",
+      "ai_source": "https://x.com/sgates/status/2112230049109758319",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Clicked Spin once at a $20 total virtual bet.",
+        "response": "Animated reels resolved, the $20 virtual balance was deducted, session P/L updated, and the no-win result remained visible."
+      },
+      "warnings": [],
+      "artwork": {
+        "kind": "generated",
+        "generator": "built-in GPT image generator",
+        "selected": "A",
+        "options_shown_inline": true,
+        "prompts": {
+          "A": "Create a horizontal cover for a fictional play-money slot machine: five glowing reels with abstract fruit and geometric symbols, a virtual-credit meter, and a polished neon arcade cabinet. No real currency, casino branding, words, or logos. Faithful browser-game catalog cover, readable square center crop, polished illustrative art, no captions or invented mechanics.",
+          "B": "Create a horizontal game illustration of animated slot reels settling on colorful abstract symbols, with a clearly fictional arcade-credit motif. No real-money cues, readable text, or platform logos. Faithful browser-game catalog cover, readable square center crop, polished illustrative art, no captions or invented mechanics."
+        },
+        "selection_reason": "Faithful subject and clear focal composition in the existing card crop.",
+        "published_path": "/games/oct20-resume-claude-slot-machine.webp",
+        "sha256": "c2c8a5942e36b40b46f02b4b0b2c2d85d93af6fcecfd819ddaf256fcb151ddf0"
+      },
+      "adjudication": {
+        "provider": "cursor",
+        "model": "grok-4.7-high",
+        "publish": 1,
+        "evidence_revision": 5
+      }
+    },
+    {
+      "candidate_id": "H-16-02",
+      "slug": "codex-slot-machine",
+      "title": "Codex Slot Machine",
+      "url": "https://stozo04.github.io/Codex-Slot-Machine/",
+      "categories": [
+        "Arcade",
+        "Casual"
+      ],
+      "ai_quote": "Same prompt, four AIs: @AnthropicAI, @ChatGPT, @xai and @GeminiApp each built their own slot machine. Same game, very different results.",
+      "ai_source": "https://x.com/sgates/status/2112230049109758319",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Selected the smallest $100 virtual-credit balance and triggered one spin at a $20 total bet.",
+        "response": "The five-reel result and updated session totals were visible after the spin completed; sound was muted via the in-game button."
+      },
+      "warnings": [],
+      "artwork": {
+        "kind": "generated",
+        "generator": "built-in GPT image generator",
+        "selected": "A",
+        "options_shown_inline": true,
+        "prompts": {
+          "A": "Create a horizontal cover for a fictional play-money slot machine: five crisp reels with abstract symbols, a bright arcade cabinet, and a small virtual-credit counter. No real currency, readable text, or logos. Faithful browser-game catalog cover, readable square center crop, polished illustrative art, no captions or invented mechanics.",
+          "B": "Create a horizontal futuristic arcade slot-machine illustration with vivid reel symbols and a simulated-credit display, clearly fictional and non-monetary. No casino brands, words, or platform logos. Faithful browser-game catalog cover, readable square center crop, polished illustrative art, no captions or invented mechanics."
+        },
+        "selection_reason": "Faithful subject and clear focal composition in the existing card crop.",
+        "published_path": "/games/oct20-resume-codex-slot-machine.webp",
+        "sha256": "184c97e914edc6f7903bf7f2717a457a4a25d99b8c03e367de999e033422a8bc"
+      },
+      "adjudication": {
+        "provider": "cursor",
+        "model": "grok-4.7-high",
+        "publish": 1,
+        "evidence_revision": 3
+      }
+    },
+    {
+      "candidate_id": "H-16-03",
+      "slug": "grok-slot-machine",
+      "title": "Grok Slot Machine",
+      "url": "https://stozo04.github.io/grok-slot-machine/",
+      "categories": [
+        "Arcade",
+        "Casual"
+      ],
+      "ai_quote": "Same prompt, four AIs: @AnthropicAI, @ChatGPT, @xai and @GeminiApp each built their own slot machine. Same game, very different results.",
+      "ai_source": "https://x.com/sgates/status/2112230049109758319",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Added $100 in virtual credits and pressed Spin once at the $20 total bet.",
+        "response": "The winning-lines panel, reel symbols, win message and updated balance/session totals were visible after the spin resolved."
+      },
+      "warnings": [],
+      "artwork": {
+        "kind": "generated",
+        "generator": "built-in GPT image generator",
+        "selected": "A",
+        "options_shown_inline": true,
+        "prompts": {
+          "A": "Create a horizontal cover for a fictional play-money slot machine: animated reels with abstract matching symbols, colorful winning-line accents, and a virtual-credit meter. No real-money imagery, text, or logos. Faithful browser-game catalog cover, readable square center crop, polished illustrative art, no captions or invented mechanics.",
+          "B": "Create a horizontal neon arcade illustration focused on five slot reels and a virtual balance display, using original geometric symbols only. No casino branding, readable text, or platform logos. Faithful browser-game catalog cover, readable square center crop, polished illustrative art, no captions or invented mechanics."
+        },
+        "selection_reason": "Faithful subject and clear focal composition in the existing card crop.",
+        "published_path": "/games/oct20-resume-grok-slot-machine.webp",
+        "sha256": "87adb26e737b772bfe8e0b824dfffef4296a79b9b61abd6043dd6869590fbb2c"
+      },
+      "adjudication": {
+        "provider": "cursor",
+        "model": "grok-4.7-high",
+        "publish": 1,
+        "evidence_revision": 3
+      }
+    },
+    {
+      "candidate_id": "H-16-04",
+      "slug": "gemini-slot-machine",
+      "title": "Gemini Slot Machine",
+      "url": "https://stozo04.github.io/Gemini-Slot-Machine/",
+      "categories": [
+        "Arcade",
+        "Casual"
+      ],
+      "ai_quote": "Same prompt, four AIs: @AnthropicAI, @ChatGPT, @xai and @GeminiApp each built their own slot machine. Same game, very different results.",
+      "ai_source": "https://x.com/sgates/status/2112230049109758319",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Triggered one spin at the default $20 total wager using the displayed $1 denomination and 1× multiplier.",
+        "response": "Reels settled, the Spin control re-enabled, and the updated virtual balance/session net remained visible."
+      },
+      "warnings": [],
+      "artwork": {
+        "kind": "generated",
+        "generator": "built-in GPT image generator",
+        "selected": "A",
+        "options_shown_inline": true,
+        "prompts": {
+          "A": "Create a horizontal cover for a fictional play-money slot game with five animated reels, bright abstract symbols, and a simulated-credit balance. No real currency, readable text, or logos. Faithful browser-game catalog cover, readable square center crop, polished illustrative art, no captions or invented mechanics.",
+          "B": "Create a horizontal futuristic arcade slot-machine scene with clean colorful reels, subtle glow, and a virtual-credit motif. No casino marks, words, or platform branding. Faithful browser-game catalog cover, readable square center crop, polished illustrative art, no captions or invented mechanics."
+        },
+        "selection_reason": "Faithful subject and clear focal composition in the existing card crop.",
+        "published_path": "/games/oct20-resume-gemini-slot-machine.webp",
+        "sha256": "d7cf3e1cc1c963c54955a186b823ea4315e56d1cb293b342f55150f7c32730da"
+      },
+      "adjudication": {
+        "provider": "cursor",
+        "model": "grok-4.7-high",
+        "publish": 1,
+        "evidence_revision": 3
+      }
+    },
+    {
+      "candidate_id": "H-85-01",
+      "slug": "hisar-fortress-defense-round-1",
+      "title": "Hisar: Fortress Defense (Round 1)",
+      "url": "https://furkiozknn.github.io/kale-savunmasi/",
+      "categories": [
+        "Tower Defense",
+        "Strategy"
+      ],
+      "ai_quote": "Each game here was made by a different Claude model from a single prompt. All eight are playable in the browser on desktop and mobile.",
+      "ai_source": "https://github.com/Furkiozknn/claude-game-arena#readme",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Clicked Play, selected a stone build pad, and chose Archer Tower.",
+        "response": "Tower, build confirmation, updated gold and fortress status were visible."
+      },
+      "warnings": [],
+      "artwork": {
+        "kind": "retained_creator_art",
+        "source_url": "https://furkiozknn.github.io/kale-savunmasi/docs/closeup.png",
+        "published_path": "/games/oct20-resume-hisar-fortress-defense-round-1.webp",
+        "sha256": "43177c7b527b58ee0bfaa708396779d340889f0333a9101701c30d9f8f0bb890"
+      },
+      "adjudication": {
+        "provider": "cursor",
+        "model": "grok-4.7-high",
+        "publish": 1,
+        "evidence_revision": 3
+      }
+    },
+    {
+      "candidate_id": "H-85-02",
+      "slug": "cay-ocag-tea-house-rush-round-1",
+      "title": "Çay Ocağı: Tea House Rush (Round 1)",
+      "url": "https://furkiozknn.github.io/cay-ocagi/",
+      "categories": [
+        "Simulators",
+        "Casual"
+      ],
+      "ai_quote": "Each game here was made by a different Claude model from a single prompt. All eight are playable in the browser on desktop and mobile.",
+      "ai_source": "https://github.com/Furkiozknn/claude-game-arena#readme",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Pressed Start game and Start the day, selected Tea to brew, clicked the visible tea station to collect a cup, then clicked a table.",
+        "response": "Station inventory, tray contents, customer order bubbles, day timer and angry counter visibly changed in response to play inputs."
+      },
+      "warnings": [],
+      "artwork": {
+        "kind": "retained_creator_art",
+        "source_url": "https://furkiozknn.github.io/cay-ocagi/docs/busy_d6_en.png",
+        "published_path": "/games/oct20-resume-cay-ocag-tea-house-rush-round-1.webp",
+        "sha256": "baccee28f26421f6d334903008c75fddd53069f943094cc527069fb64c102e8b"
+      },
+      "adjudication": {
+        "provider": "cursor",
+        "model": "grok-4.7-high",
+        "publish": 1,
+        "evidence_revision": 3
+      }
+    },
+    {
+      "candidate_id": "H-85-03",
+      "slug": "cini-ustas-iznik-tile-puzzle-round-1",
+      "title": "Çini Ustası: Iznik Tile Puzzle (Round 1)",
+      "url": "https://furkiozknn.github.io/cini-ustasi/",
+      "categories": [
+        "Puzzle"
+      ],
+      "ai_quote": "Each game here was made by a different Claude model from a single prompt. All eight are playable in the browser on desktop and mobile.",
+      "ai_source": "https://github.com/Furkiozknn/claude-game-arena#readme",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Clicked Start on the puzzle instructions, then clicked the top-left tile once to rotate it 90 degrees.",
+        "response": "Tile artwork orientation changed and the Moves and Edges counters updated on screen."
+      },
+      "warnings": [],
+      "artwork": {
+        "kind": "retained_creator_art",
+        "source_url": "https://furkiozknn.github.io/cini-ustasi/docs/chapter3-level22-wall.png",
+        "published_path": "/games/oct20-resume-cini-ustas-iznik-tile-puzzle-round-1.webp",
+        "sha256": "1bbda900a506dc44a8ef5ac8934dfbba120b338ef5f76dcf2cba84b159b63edb"
+      },
+      "adjudication": {
+        "provider": "cursor",
+        "model": "grok-4.7-high",
+        "publish": 1,
+        "evidence_revision": 3
+      }
+    },
+    {
+      "candidate_id": "H-85-04",
+      "slug": "mart-seagull-run-round-1",
+      "title": "Martı: Seagull Run (Round 1)",
+      "url": "https://furkiozknn.github.io/marti/",
+      "categories": [
+        "Arcade",
+        "Action"
+      ],
+      "ai_quote": "Each game here was made by a different Claude model from a single prompt. All eight are playable in the browser on desktop and mobile.",
+      "ai_source": "https://github.com/Furkiozknn/claude-game-arena#readme",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Pressed Start, then X to mute, then Right and Up to steer during the flight.",
+        "response": "Distance, score, and the golden-simit bonus notice changed while the bird and Bosphorus scene advanced in real time."
+      },
+      "warnings": [],
+      "artwork": {
+        "kind": "retained_creator_art",
+        "source_url": "https://furkiozknn.github.io/marti/docs/bridge.png",
+        "published_path": "/games/oct20-resume-mart-seagull-run-round-1.webp",
+        "sha256": "a34d4399a346ffb14d469539a52c35c1bada5db04e128bee6994fa2a45126e51"
+      },
+      "adjudication": {
+        "provider": "cursor",
+        "model": "grok-4.7-high",
+        "publish": 1,
+        "evidence_revision": 3
+      }
+    },
+    {
+      "candidate_id": "H-85-05",
+      "slug": "hisar-fortress-defense-round-2-godot",
+      "title": "Hisar: Fortress Defense (Round 2 Godot)",
+      "url": "https://furkiozknn.github.io/hisar-godot/",
+      "categories": [
+        "Tower Defense",
+        "Strategy"
+      ],
+      "ai_quote": "Each game here was made by a different Claude model from a single prompt. All eight are playable in the browser on desktop and mobile.",
+      "ai_source": "https://github.com/Furkiozknn/claude-game-arena#readme",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Clicked Play, muted the speaker, selected a stone pad, then selected Archer Tower in the build menu.",
+        "response": "A tower appeared beside the road; gold updated and a build confirmation toast appeared."
+      },
+      "warnings": [],
+      "artwork": {
+        "kind": "generated",
+        "generator": "built-in GPT image generator",
+        "selected": "B",
+        "options_shown_inline": true,
+        "prompts": {
+          "A": "Create a horizontal low-poly tower-defense cover: a seaside stone fortress with a newly built archer tower overlooking a winding approach. No text, logos, or platform branding. Faithful browser-game catalog cover, readable square center crop, polished illustrative art, no captions or invented mechanics.",
+          "B": "Create a horizontal game scene of a low-poly coastal fortress, defensive tower, and calm pre-wave battlefield, matching the observed tower-building gameplay. No words or logos. Faithful browser-game catalog cover, readable square center crop, polished illustrative art, no captions or invented mechanics."
+        },
+        "selection_reason": "Faithful subject and clear focal composition in the existing card crop.",
+        "published_path": "/games/oct20-resume-hisar-fortress-defense-round-2-godot.webp",
+        "sha256": "d6accca21b353689f7d0e287eabe66882057e30f2413643f2112f111dac6e0b5"
+      },
+      "adjudication": {
+        "provider": "cursor",
+        "model": "grok-4.7-high",
+        "publish": 1,
+        "evidence_revision": 3
+      }
+    },
+    {
+      "candidate_id": "H-85-06",
+      "slug": "cay-ocag-tea-house-rush-round-2-godot",
+      "title": "Çay Ocağı: Tea House Rush (Round 2 Godot)",
+      "url": "https://furkiozknn.github.io/cay-ocagi-godot/",
+      "categories": [
+        "Simulators",
+        "Casual"
+      ],
+      "ai_quote": "Each game here was made by a different Claude model from a single prompt. All eight are playable in the browser on desktop and mobile.",
+      "ai_source": "https://github.com/Furkiozknn/claude-game-arena#readme",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Started the day, muted effects and music, selected Tea, clicked the visible tea station to collect cups, then clicked the green customer table twice to serve.",
+        "response": "Tea tray and stock changed; coin, happy, and angry counters updated. One customer left angry during the short attempt, so the service round was mixed rather than successful overall."
+      },
+      "warnings": [],
+      "artwork": {
+        "kind": "generated",
+        "generator": "built-in GPT image generator",
+        "selected": "A",
+        "options_shown_inline": true,
+        "prompts": {
+          "A": "Create a horizontal cover for a small Istanbul tea-house service game: tea glasses on a tray, a busy outdoor table, and a welcoming neighborhood café. No text, logos, or platform branding. Faithful browser-game catalog cover, readable square center crop, polished illustrative art, no captions or invented mechanics.",
+          "B": "Create a horizontal low-poly tea-house scene with a server carrying tea to customers beside a compact tea station; no readable menu text, logos, or branding. Faithful browser-game catalog cover, readable square center crop, polished illustrative art, no captions or invented mechanics."
+        },
+        "selection_reason": "Faithful subject and clear focal composition in the existing card crop.",
+        "published_path": "/games/oct20-resume-cay-ocag-tea-house-rush-round-2-godot.webp",
+        "sha256": "fb7616ee0f1732be3e745ee0e1576f2400bf9d635ed7f6210c8ce5896f222022"
+      },
+      "adjudication": {
+        "provider": "cursor",
+        "model": "grok-4.7-high",
+        "publish": 1,
+        "evidence_revision": 3
+      }
+    },
+    {
+      "candidate_id": "H-85-08",
+      "slug": "mart-seagull-run-round-2-godot",
+      "title": "Martı: Seagull Run (Round 2 Godot)",
+      "url": "https://furkiozknn.github.io/marti-godot/",
+      "categories": [
+        "Arcade",
+        "Action"
+      ],
+      "ai_quote": "Each game here was made by a different Claude model from a single prompt. All eight are playable in the browser on desktop and mobile.",
+      "ai_source": "https://github.com/Furkiozknn/claude-game-arena#readme",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Pressed L to switch to English, M and X to mute, clicked Start, then pressed Right, Up, and Space during the flight.",
+        "response": "Score, distance, and the game scene changed after keyboard input; a hit notification appeared. The top controls showed sound and music muted."
+      },
+      "warnings": [],
+      "artwork": {
+        "kind": "generated",
+        "generator": "built-in GPT image generator",
+        "selected": "B",
+        "options_shown_inline": true,
+        "prompts": {
+          "A": "Create a horizontal cover for a 3D seagull flight game above the Bosphorus: a gull passing a bridge cable with ferries and a simit below. No text, logos, or platform branding. Faithful browser-game catalog cover, readable square center crop, polished illustrative art, no captions or invented mechanics.",
+          "B": "Create a horizontal game illustration of a seagull banking over Istanbul water toward a ferry, with bridge cables and a few collectable simit shapes. No words or logos. Faithful browser-game catalog cover, readable square center crop, polished illustrative art, no captions or invented mechanics."
+        },
+        "selection_reason": "Faithful subject and clear focal composition in the existing card crop.",
+        "published_path": "/games/oct20-resume-mart-seagull-run-round-2-godot.webp",
+        "sha256": "3a488b02b755b1250d36d4b5fd9341f2d69b552bd69fde4fedd785c07da692ae"
+      },
+      "adjudication": {
+        "provider": "cursor",
+        "model": "grok-4.7-high",
+        "publish": 1,
+        "evidence_revision": 3
+      }
+    },
+    {
+      "candidate_id": "H-87-01",
+      "slug": "hold-the-cold",
+      "title": "Hold the Cold",
+      "url": "https://lelelilo-studios.github.io/gamedev-showcase/showcases/01-claude-code-game-studios/",
+      "categories": [
+        "Survival",
+        "Strategy"
+      ],
+      "ai_quote": "One Claude Code session (Claude Opus 5.5) chose the tools, wrote a brief for each game and ran ten builder agents in parallel, one game each.",
+      "ai_source": "https://github.com/lelelilo-studios/gamedev-showcase#readme",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Started the shift, held Left to walk, clicked the visible Bay A area, held S to climb down, held Space to work at the bay, then paused.",
+        "response": "Player position, clock, accession count, fuel gauge, bay temperatures, and shift-log warnings all updated. The run paused with its state visible."
+      },
+      "warnings": [],
+      "artwork": {
+        "kind": "retained_creator_art",
+        "source_url": "https://lelelilo-studios.github.io/gamedev-showcase/thumbs/01-claude-code-game-studios.webp",
+        "published_path": "/games/oct20-resume-hold-the-cold.webp",
+        "sha256": "6a8c1027654b9f55cecac0d364549edf18bbaee7d1dca194eb151de63ea69863"
+      },
+      "adjudication": {
+        "provider": "cursor",
+        "model": "grok-4.7-high",
+        "publish": 1,
+        "evidence_revision": 3
+      }
+    },
+    {
+      "candidate_id": "H-87-02",
+      "slug": "hedge-witch",
+      "title": "Hedge Witch",
+      "url": "https://lelelilo-studios.github.io/gamedev-showcase/showcases/02-mengto-game-skills/",
+      "categories": [
+        "Tower Defense",
+        "Strategy"
+      ],
+      "ai_quote": "One Claude Code session (Claude Opus 5.5) chose the tools, wrote a brief for each game and ran ten builder agents in parallel, one game each.",
+      "ai_source": "https://github.com/lelelilo-studios/gamedev-showcase#readme",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Clicked 'light the lantern', selected Ember, then left-clicked the garden path near a visible plant/slug area to place the Ember seed.",
+        "response": "Targeting feedback, red herb-status outlines, and the warning toast appeared while the night remained active."
+      },
+      "warnings": [],
+      "artwork": {
+        "kind": "retained_creator_art",
+        "source_url": "https://lelelilo-studios.github.io/gamedev-showcase/thumbs/02-mengto-game-skills.webp",
+        "published_path": "/games/oct20-resume-hedge-witch.webp",
+        "sha256": "7494283bba53e28762e795886af11089dd07b635c0fd563739d5cc910c456d54"
+      },
+      "adjudication": {
+        "provider": "cursor",
+        "model": "grok-4.7-high",
+        "publish": 1,
+        "evidence_revision": 3
+      }
+    },
+    {
+      "candidate_id": "H-87-03",
+      "slug": "harbour-crane",
+      "title": "Harbour Crane",
+      "url": "https://lelelilo-studios.github.io/gamedev-showcase/showcases/03-joltphysics/",
+      "categories": [
+        "Simulators",
+        "Strategy"
+      ],
+      "ai_quote": "One Claude Code session (Claude Opus 5.5) chose the tools, wrote a brief for each game and ran ten builder agents in parallel, one game each.",
+      "ai_source": "https://github.com/lelelilo-studios/gamedev-showcase#readme",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Started the shift, pressed M to mute, and held D briefly to slew the jib clockwise.",
+        "response": "Crane orientation/list, tide countdown, and wind state changed on screen; sound control displayed muted."
+      },
+      "warnings": [],
+      "artwork": {
+        "kind": "retained_creator_art",
+        "source_url": "https://lelelilo-studios.github.io/gamedev-showcase/thumbs/03-joltphysics.webp",
+        "published_path": "/games/oct20-resume-harbour-crane.webp",
+        "sha256": "a8ace6c3e5ef7489ab3acf5e03b5ac23bfd2fb1d078199935ef33cd7ebef7aac"
+      },
+      "adjudication": {
+        "provider": "cursor",
+        "model": "grok-4.7-high",
+        "publish": 1,
+        "evidence_revision": 3
+      }
+    },
+    {
+      "candidate_id": "H-87-04",
+      "slug": "seconds-day",
+      "title": "Seconds Day",
+      "url": "https://lelelilo-studios.github.io/gamedev-showcase/showcases/04-three-pinata/",
+      "categories": [
+        "Arcade"
+      ],
+      "ai_quote": "One Claude Code session (Claude Opus 5.5) chose the tools, wrote a brief for each game and ran ten builder agents in parallel, one game each.",
+      "ai_source": "https://github.com/lelelilo-studios/gamedev-showcase#readme",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Began Round I, dragged from the basket once (the game asked to pull back further), then held Up and pressed Space to aim and throw.",
+        "response": "The game provided explicit drag feedback, displayed an aimed trajectory, and consumed a ball after Space was pressed."
+      },
+      "warnings": [],
+      "artwork": {
+        "kind": "retained_creator_art",
+        "source_url": "https://lelelilo-studios.github.io/gamedev-showcase/thumbs/04-three-pinata.webp",
+        "published_path": "/games/oct20-resume-seconds-day.webp",
+        "sha256": "ea799a6c9270d7c2439cd00a5b6f1281c8fe7cc6a87f1ecad4fe97f8969801af"
+      },
+      "adjudication": {
+        "provider": "cursor",
+        "model": "grok-4.7-high",
+        "publish": 1,
+        "evidence_revision": 3
+      }
+    },
+    {
+      "candidate_id": "H-87-05",
+      "slug": "bucket-brigade",
+      "title": "Bucket Brigade",
+      "url": "https://lelelilo-studios.github.io/gamedev-showcase/showcases/05-fire-pro/",
+      "categories": [
+        "Simulators",
+        "Strategy"
+      ],
+      "ai_quote": "One Claude Code session (Claude Opus 5.5) chose the tools, wrote a brief for each game and ran ten builder agents in parallel, one game each.",
+      "ai_source": "https://github.com/lelelilo-studios/gamedev-showcase#readme",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Started the night, clicked the Bakery roof to aim, then alternated A and D on the hand pump.",
+        "response": "Fire animation, time, fire-status counts, pump input highlight, and pressure reading changed on screen; sound control showed muted."
+      },
+      "warnings": [],
+      "artwork": {
+        "kind": "retained_creator_art",
+        "source_url": "https://lelelilo-studios.github.io/gamedev-showcase/thumbs/05-fire-pro.webp",
+        "published_path": "/games/oct20-resume-bucket-brigade.webp",
+        "sha256": "1b278e6aed24316dde106dcbd0da92a74cef62ce122a403efcc7c156b18532f6"
+      },
+      "adjudication": {
+        "provider": "cursor",
+        "model": "grok-4.7-high",
+        "publish": 1,
+        "evidence_revision": 3
+      }
+    },
+    {
+      "candidate_id": "H-87-06",
+      "slug": "sheepdog-trials",
+      "title": "Sheepdog Trials",
+      "url": "https://lelelilo-studios.github.io/gamedev-showcase/showcases/06-recastnavigation/",
+      "categories": [
+        "Sports",
+        "Simulators"
+      ],
+      "ai_quote": "One Claude Code session (Claude Opus 5.5) chose the tools, wrote a brief for each game and ran ten builder agents in parallel, one game each.",
+      "ai_source": "https://github.com/lelelilo-studios/gamedev-showcase#readme",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Pressed Up while Course I was active to move the dog/handler through the field.",
+        "response": "The timed course remained active and the field view moved after keyboard input; the mute icon was visible."
+      },
+      "warnings": [],
+      "artwork": {
+        "kind": "retained_creator_art",
+        "source_url": "https://lelelilo-studios.github.io/gamedev-showcase/thumbs/06-recastnavigation.webp",
+        "published_path": "/games/oct20-resume-sheepdog-trials.webp",
+        "sha256": "78f75bdc0ecadead557323f2edcb0fc3375b608abfb0843196ab99473dc7db7d"
+      },
+      "adjudication": {
+        "provider": "cursor",
+        "model": "grok-4.7-high",
+        "publish": 1,
+        "evidence_revision": 3
+      }
+    },
+    {
+      "candidate_id": "H-87-07",
+      "slug": "patchwork-isles",
+      "title": "Patchwork Isles",
+      "url": "https://lelelilo-studios.github.io/gamedev-showcase/showcases/07-wavefunctioncollapse/",
+      "categories": [
+        "Simulators",
+        "Adventure"
+      ],
+      "ai_quote": "One Claude Code session (Claude Opus 5.5) chose the tools, wrote a brief for each game and ran ten builder agents in parallel, one game each.",
+      "ai_source": "https://github.com/lelelilo-studios/gamedev-showcase#readme",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Muted sound, clicked Set sail, clicked the sea east of the starting port to set a course, then pressed Up to raise the sail from half to full.",
+        "response": "The vessel moved on the chart, the day counter advanced, and the sail-status label changed in response to controls. Sound displayed muted."
+      },
+      "warnings": [],
+      "artwork": {
+        "kind": "retained_creator_art",
+        "source_url": "https://lelelilo-studios.github.io/gamedev-showcase/thumbs/07-wavefunctioncollapse.webp",
+        "published_path": "/games/oct20-resume-patchwork-isles.webp",
+        "sha256": "cd9b23c185e696f20c7015e0a9e5d7a76c3eb5a6c6779dad1c8a6e603b8fb9d4"
+      },
+      "adjudication": {
+        "provider": "cursor",
+        "model": "grok-4.7-high",
+        "publish": 1,
+        "evidence_revision": 3
+      }
+    },
+    {
+      "candidate_id": "H-87-08",
+      "slug": "brushwork",
+      "title": "Brushwork",
+      "url": "https://lelelilo-studios.github.io/gamedev-showcase/showcases/08-manifold/",
+      "categories": [
+        "Puzzle",
+        "Adventure"
+      ],
+      "ai_quote": "One Claude Code session (Claude Opus 5.5) chose the tools, wrote a brief for each game and ran ten builder agents in parallel, one game each.",
+      "ai_source": "https://github.com/lelelilo-studios/gamedev-showcase#readme",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Pressed X to switch the selected Box to SUB, clicked the wall face to stamp, selected WALK/P, and held W to walk toward the tower.",
+        "response": "The boolean edit changed the readout and level geometry; walk mode and its timer responded to movement controls. Sound remained muted."
+      },
+      "warnings": [],
+      "artwork": {
+        "kind": "retained_creator_art",
+        "source_url": "https://lelelilo-studios.github.io/gamedev-showcase/thumbs/08-manifold.webp",
+        "published_path": "/games/oct20-resume-brushwork.webp",
+        "sha256": "1f719e77f4da1184430be50f1f26ad7b1573228a5f11f5903e31878cbe6aa897"
+      },
+      "adjudication": {
+        "provider": "cursor",
+        "model": "grok-4.7-high",
+        "publish": 1,
+        "evidence_revision": 3
+      }
+    },
+    {
+      "candidate_id": "H-87-09",
+      "slug": "draw-distance",
+      "title": "Draw Distance",
+      "url": "https://lelelilo-studios.github.io/gamedev-showcase/showcases/09-meshoptimizer/",
+      "categories": [
+        "Simulators",
+        "Arcade"
+      ],
+      "ai_quote": "One Claude Code session (Claude Opus 5.5) chose the tools, wrote a brief for each game and ran ten builder agents in parallel, one game each.",
+      "ai_source": "https://github.com/lelelilo-studios/gamedev-showcase#readme",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Pressed M to mute, started the flight, held Right to bank, then pressed L to tint trees by level of detail.",
+        "response": "Glider attitude/valley view and altitude changed after steering; the forest switched to distinct LOD tint colors and the triangle-savings panel updated."
+      },
+      "warnings": [],
+      "artwork": {
+        "kind": "retained_creator_art",
+        "source_url": "https://lelelilo-studios.github.io/gamedev-showcase/thumbs/09-meshoptimizer.webp",
+        "published_path": "/games/oct20-resume-draw-distance.webp",
+        "sha256": "4df32716d3af19fe91f3dde1ab1e9b83cef34f99bbc049f26a2c6f596fd8e914"
+      },
+      "adjudication": {
+        "provider": "cursor",
+        "model": "grok-4.7-high",
+        "publish": 1,
+        "evidence_revision": 3
+      }
+    },
+    {
+      "candidate_id": "H-87-10",
+      "slug": "the-ninth-floor-night-porter",
+      "title": "The Ninth-Floor Night Porter",
+      "url": "https://lelelilo-studios.github.io/gamedev-showcase/showcases/10-inkjs/",
+      "categories": [
+        "Adventure"
+      ],
+      "ai_quote": "One Claude Code session (Claude Opus 5.5) chose the tools, wrote a brief for each game and ran ten builder agents in parallel, one game each.",
+      "ai_source": "https://github.com/lelelilo-studios/gamedev-showcase#readme",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Selected 'Take the torch', then chose 'Go at once' when room 901 rang.",
+        "response": "Inventory, bell-board status, corridor clock, notebook state, narrative text, and available choices updated visibly in response to story decisions."
+      },
+      "warnings": [],
+      "artwork": {
+        "kind": "retained_creator_art",
+        "source_url": "https://lelelilo-studios.github.io/gamedev-showcase/thumbs/10-inkjs.webp",
+        "published_path": "/games/oct20-resume-the-ninth-floor-night-porter.webp",
+        "sha256": "79faf145bfa449e91c74a7bb8358f8e0cc6b674ae189f78c6c98c4426b601cd1"
+      },
+      "adjudication": {
+        "provider": "cursor",
+        "model": "grok-4.7-high",
+        "publish": 1,
+        "evidence_revision": 3
+      }
+    },
+    {
+      "candidate_id": "H-59-01",
+      "slug": "pelican-island-ride-deepseek",
+      "title": "Pelican Island Ride — DeepSeek",
+      "url": "https://deepseek-1017-tess.aildnc.com/",
+      "categories": [
+        "Simulators",
+        "Arcade"
+      ],
+      "ai_quote": "我用 deepseek-v4.1-Flash-1017 和 gemini-4-argon用相同的提示词分别做了一个鹈鹕自行车3D游戏 ... 在线游玩地址： DeepSeek：... Gemini: https://gemini-4-argon-test.aildnc.com/",
+      "ai_source": "https://x.com/nieerai_dev/status/2111748028273209758",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Focused the active game by sending W for 1800 ms to the current page after an element-targeted attempt failed before sending any input.",
+        "response": "The game HUD changed from score 0, goldfish 0 and speed 0 to score 100, one goldfish, combo 1 and 75 km/h. The pelican visibly advanced along the pier into the world."
+      },
+      "warnings": [],
+      "artwork": {
+        "kind": "generated",
+        "generator": "built-in GPT image generator",
+        "selected": "A",
+        "options_shown_inline": true,
+        "prompts": {
+          "A": "Create a horizontal cheerful 3D-game cover of an original pelican riding a bicycle along a sunny tropical island pier, with a few golden fish collectibles and a translucent speed ring ahead. Ground the scene in the observed free-roam bicycle game; no text, logos, or real brands. Polished browser-game catalog cover, clear square center crop, no captions.",
+          "B": "Create a horizontal bright island cycling scene for an original 3D game: a pelican pedaling across a coastal path, water and palms in the distance, goldfish pickups and a jellyfish-shaped boost ring. No words, platform marks, or borrowed characters. Polished browser-game catalog cover, clear square center crop, no captions."
+        },
+        "selection_reason": "Faithful subject and clear focal composition in the existing card crop.",
+        "published_path": "/games/oct20-resume-pelican-island-ride-deepseek.webp",
+        "sha256": "fc754f8bd5a3a5681acb4adc5b8947ad397a367f709c8a385440053155b0f149"
+      },
+      "adjudication": {
+        "provider": "cursor",
+        "model": "grok-4.7-high",
+        "publish": 1,
+        "evidence_revision": 2
+      }
+    },
+    {
+      "candidate_id": "H-59-02",
+      "slug": "pelican-island-ride-gemini",
+      "title": "Pelican Island Ride — Gemini",
+      "url": "https://gemini-4-argon-test.aildnc.com/",
+      "categories": [
+        "Simulators",
+        "Arcade"
+      ],
+      "ai_quote": "我用 deepseek-v4.1-Flash-1017 和 gemini-4-argon用相同的提示词分别做了一个鹈鹕自行车3D游戏 ... 在线游玩地址： DeepSeek：... Gemini: https://gemini-4-argon-test.aildnc.com/",
+      "ai_source": "https://x.com/nieerai_dev/status/2111748028273209758",
+      "gameplay": {
+        "basis": "agent_verified",
+        "model": "gpt-6-luna",
+        "reasoning": "max",
+        "input": "Pressed W for 1800 ms while the game canvas was focused.",
+        "response": "The HUD advanced from 1 fish/100 points and 0 km/h to 2 fish/200 points and 59 km/h; the pelican visibly rode onto the island path."
+      },
+      "warnings": [],
+      "artwork": {
+        "kind": "generated",
+        "generator": "built-in GPT image generator",
+        "selected": "B",
+        "options_shown_inline": true,
+        "prompts": {
+          "A": "Create a horizontal cheerful 3D-game cover of an original pelican riding a bicycle along a sunny tropical island pier, with a few golden fish collectibles and a translucent speed ring ahead. Ground the scene in the observed free-roam bicycle game; no text, logos, or real brands. Polished browser-game catalog cover, clear square center crop, no captions.",
+          "B": "Create a horizontal bright island cycling scene for an original 3D game: a pelican pedaling across a coastal path, water and palms in the distance, goldfish pickups and a jellyfish-shaped boost ring. No words, platform marks, or borrowed characters. Polished browser-game catalog cover, clear square center crop, no captions."
+        },
+        "selection_reason": "Faithful subject and clear focal composition in the existing card crop.",
+        "published_path": "/games/oct20-resume-pelican-island-ride-gemini.webp",
+        "sha256": "3737added36dfc2469ab913dc6bc96901aa78dce8cfc00bbe9cbed9dd4766594"
+      },
+      "adjudication": {
+        "provider": "cursor",
+        "model": "grok-4.7-high",
+        "publish": 1,
+        "evidence_revision": 2
+      }
+    },
+    {
+      "candidate_id": "A-42",
+      "slug": "nier-automata-archipelago-hook",
+      "title": "NieR:Automata Archipelago Hook",
+      "base_game": "NieR:Automata",
+      "official_destination": "https://github.com/Naokyoo/NieR_Archipelago_Hook/releases/tag/v0.1.0-prebeta",
+      "ai_quote": "This project was made with the help of AI, mainly Claude (Anthropic) through Claude Code.",
+      "ai_source": "https://github.com/Naokyoo/NieR_Archipelago_Hook/blob/HEAD/README.md#ai-disclosure",
+      "artifact": {
+        "url": "https://github.com/Naokyoo/NieR_Archipelago_Hook/releases/download/v0.1.0-prebeta/NieR-Automata-Archipelago-0.1.0-prebeta.zip",
+        "version": "v0.1.0-prebeta",
+        "sha256": "5747428f5f62b9f3ed8d16f747ab3d6356aae4ff1f15493bf4297cd48e9dab55"
+      },
+      "security": {
+        "workflow": "Codex Security",
+        "artifact_sha256": "5747428f5f62b9f3ed8d16f747ab3d6356aae4ff1f15493bf4297cd48e9dab55",
+        "artifact_assessed": true,
+        "blocking_findings": 0,
+        "coverage": "Exact ZIP and nested DLL/bridge hashes verified. Focused native control paths match the declared in-process hook and local bridge architecture; package retains the low-severity WSS-to-WS room-password finding.",
+        "runtime_limits": "Focused native control-flow/import review, not full decompilation. No packet capture, runtime test, installation, game test or anti-cheat test. Source-to-release reproducibility and publisher authenticity beyond the recorded digest match are unverified."
+      },
+      "warnings": [
+        "This is a pre-beta release. The README recommends backing up saves; route C/D milestones, rare endings and some other paths are not reported tested.",
+        "The package installs a dinput8.dll game hook and conflicts with another mod that installs the same filename.",
+        "Low-severity static finding: after a remote WSS connection failure, the bridge can retry the same endpoint over plaintext WS and send the room password. This requires a reachable plaintext endpoint and an on-path attacker; no packet capture or runtime reproduction was performed.",
+        "Focused native control-flow/import review, not full decompilation. No packet capture, runtime test, installation, game test or anti-cheat test. Source-to-release reproducibility and publisher authenticity beyond the recorded digest match are unverified."
+      ],
+      "artwork": {
+        "kind": "generated",
+        "generator": "built-in GPT image generator",
+        "selected": "A",
+        "options_shown_inline": true,
+        "prompts": {
+          "A": "Create a horizontal cover for a NieR:Automata Archipelago connection mod: a dark sci-fi terminal with a clean network map linking an in-game progress node to a shared multiworld route, plus a small stylized machine-lifeform silhouette inspired only by the mod’s stated game context. No copied character art, NieR logos, readable text, or platform branding. Polished browser-game catalog cover, clear square center crop, no captions.",
+          "B": "Create a horizontal original illustration of a futuristic game console interface connecting several player-world nodes through a glowing Archipelago-style network, with monochrome sci-fi atmosphere and subtle red signal lines. Ground it in the mod’s multiworld bridge function; no character likenesses, words, logos, or copied assets. Polished browser-game catalog cover, clear square center crop, no captions."
+        },
+        "selection_reason": "Faithful subject and clear focal composition in the existing card crop.",
+        "published_path": "/games/mod-nier-automata-archipelago-hook.webp",
+        "sha256": "3c298c141d8755ef5a038b844f0943dfe2dc3ac99640bffcd0e4f4292567d0db"
+      },
+      "adjudication": {
+        "provider": "cursor",
+        "model": "grok-4.7-high",
+        "publish": 1,
+        "evidence_revision": 3
+      }
+    },
+    {
+      "candidate_id": "A-93",
+      "slug": "enshrouded-basecap",
+      "title": "EnshroudedBaseCap",
+      "base_game": "Enshrouded",
+      "official_destination": "https://github.com/Mycellius/EnshroudedFPSCap/releases/tag/v1.1.0",
+      "ai_quote": "This project was written with Claude Code, Anthropic's AI coding assistant. The maintainer directed and tested it.",
+      "ai_source": "https://github.com/Mycellius/EnshroudedFPSCap/blob/49787685a7595625d11755001db3e8b135ccc20d/README.md",
+      "artifact": {
+        "url": "https://github.com/Mycellius/EnshroudedFPSCap/releases/download/v1.1.0/EnshroudedBaseCap-v1.1.0.zip",
+        "version": "v1.1.0",
+        "sha256": "3499705e447ced9d317dce828acd9a515e27980ce1695429375411bb890f15ce"
+      },
+      "security": {
+        "workflow": "Codex Security",
+        "artifact_sha256": "3499705e447ced9d317dce828acd9a515e27980ce1695429375411bb890f15ce",
+        "artifact_assessed": true,
+        "blocking_findings": 0,
+        "coverage": "Exact ZIP and nested DLL hashes verified. Critical control flow hooks sl.interposer.dll!vkQueuePresentKHR using MinHook, reads/writes adjacent INI and implements the configured hotkey overlay; no unrelated network, process-launch, registry, or persistence behavior identified in the reviewed paths.",
+        "runtime_limits": "Focused native control-flow/import review, not full decompilation. No runtime, online co-op or anti-cheat test. Source-to-release reproducibility and publisher authenticity beyond the recorded digest match are unverified."
+      },
+      "warnings": [
+        "Requires the separate Enshrouded DLSS Frame Generation add-on and compatible NVIDIA hardware; the add-on loader and graphics settings must be working first.",
+        "The game’s online co-op behavior with this add-on was not tested.",
+        "The readout overlay temporarily pauses G-Sync/FreeSync while it is visible. The installer edits the frame-generation add-on configuration and creates a backup; the batch scripts were not executed.",
+        "Focused native control-flow/import review, not full decompilation. No runtime, online co-op or anti-cheat test. Source-to-release reproducibility and publisher authenticity beyond the recorded digest match are unverified."
+      ],
+      "artwork": {
+        "kind": "generated",
+        "generator": "built-in GPT image generator",
+        "selected": "A",
+        "options_shown_inline": true,
+        "prompts": {
+          "A": "Create a horizontal cover for EnshroudedBaseCap: an atmospheric fantasy game vista with a discreet translucent overlay showing a frame-rate cap value and keyboard adjustment hints, evoking smoother rendering. Do not use Enshrouded logos, fake exact settings, or readable UI text. Polished browser-game catalog cover, clear square center crop, no captions.",
+          "B": "Create an original horizontal scene of a fantasy game running on a PC monitor with a small, clean frame-pacing overlay and a few simplified F9/F11 keycap shapes. Keep focus on the cap-control feature; no readable text, brand marks, or real game characters. Polished browser-game catalog cover, clear square center crop, no captions."
+        },
+        "selection_reason": "Faithful subject and clear focal composition in the existing card crop.",
+        "published_path": "/games/mod-enshrouded-basecap.webp",
+        "sha256": "8a1e540eb6388a7793531f276ff77cb30ecafa4dc4bfd94ee99d5f3715e6c62f"
+      },
+      "adjudication": {
+        "provider": "cursor",
+        "model": "grok-4.7-high",
+        "publish": 1,
+        "evidence_revision": 3
+      }
+    },
+    {
+      "candidate_id": "A-113",
+      "slug": "easy-language-packs",
+      "title": "Easy Language Packs (G1R Deluxe)",
+      "base_game": "G1R Deluxe",
+      "official_destination": "https://github.com/kakhonn/g1r-easy-language-packs/releases/tag/v1.3.1",
+      "ai_quote": "This is a vibe-coded project, written with Claude (Anthropic's AI).",
+      "ai_source": "https://github.com/kakhonn/g1r-easy-language-packs/blob/84d891a24f2595121ccbf26909228e1dce08a4ae/README.md",
+      "artifact": {
+        "url": "https://github.com/kakhonn/g1r-easy-language-packs/releases/download/v1.3.1/easy_language_packs-1.3.1.zip",
+        "version": "v1.3.1",
+        "sha256": "43a5f83ec304053603ce8babf17aee5752b8f3fef53182faeef3eea25ef6422e"
+      },
+      "security": {
+        "workflow": "Codex Security",
+        "artifact_sha256": "43a5f83ec304053603ce8babf17aee5752b8f3fef53182faeef3eea25ef6422e",
+        "artifact_assessed": true,
+        "blocking_findings": 0,
+        "coverage": "Artifact A-113-easy_language_packs-1.3.1.zip; SHA256 43a5f83ec304053603ce8babf17aee5752b8f3fef53182faeef3eea25ef6422e; artifact_assessed=true. Checked: Actual Lua runtime main/lib pack,json,csv,live,g3text and fixed helper includes inspected; language text is data, not eval. Python authoring lpk.py manifest/split/retire/restore, fetch_engine_source extraction normalization, release staging and explicit --folder --force deletion paths examined. lpk_layout data/layout helpers have no process execution. Exact low authoring finding retained, with no new material runtime issue identified. Outcome: Low path-traversal deletion in optional split authoring workflow, previously validated in csf_940d569ff9c51b6df6b509dc. Normal packaged language use excludes _lpk and does not execute Python. Runtime limits: Do not run bundled authoring split on untrusted shared working packs; remove/rebuild their _lpk manifest or use a fixed authoring tool. --folder --force intentionally deletes chosen output directory. Warning applies to authoring, not ordinary in-game language selection. Evidence: artifacts/analysis/A113-lpk.py.",
+        "runtime_limits": "Static exact-artifact review only; no installation or gameplay/runtime compatibility test. Source-to-release reproducibility not established. No guarantee of absence of vulnerabilities. Tool path behavior is static-reviewed; no execution performed."
+      },
+      "warnings": [
+        "Back up personal packs before updating; updating the mod replaces its folder, including packs/.",
+        "Low-severity static finding in the included translator tool: a crafted _lpk/split.json manifest can supply a parent-directory path to os.remove outside the selected pack when the user runs split. This conditional file-deletion risk was not executed; do not use untrusted working packs with the split tool.",
+        "The project is based on the Gen 1 Recompilation Project; underlying Pokémon game text and related content are not part of this mod’s code license.",
+        "Static exact-artifact review only; no installation or gameplay/runtime compatibility test. Source-to-release reproducibility not established. No guarantee of absence of vulnerabilities. Tool path behavior is static-reviewed; no execution performed."
+      ],
+      "artwork": {
+        "kind": "generated",
+        "generator": "built-in GPT image generator",
+        "selected": "A",
+        "options_shown_inline": true,
+        "prompts": {
+          "A": "Create a square polished arcade mod cover, Retro pixel-art monster-adventure journal with simple speech bubbles and blank translation sheets, representing language selection in a Gen1Recomp game; no readable text. Bold close focal subject, central safe crop and clear silhouettes. No text, watermark, logos or UI labels. Faithful illustrative cover, not a claimed gameplay screenshot. Readable at small square card size.",
+          "B": "Create a square polished arcade mod cover, Retro pixel-art monster-adventure journal with simple speech bubbles and blank translation sheets, representing language selection in a Gen1Recomp game; no readable text. Distinct wider diagonal composition showing the same factual feature in its environment. No text, watermark, logos or UI labels. Faithful illustrative cover, not a claimed gameplay screenshot. Readable at small square card size."
+        },
+        "selection_reason": "Faithful subject and clear focal composition in the existing card crop.",
+        "published_path": "/games/mod-easy-language-packs.webp",
+        "sha256": "fa557042c855555076ab3d7eaa016c2bf6572bde62de3e66e6059b2a19d7c3ec"
+      },
+      "adjudication": {
+        "provider": "cursor",
+        "model": "grok-4.7-high",
+        "publish": 1,
+        "evidence_revision": 3
+      }
+    },
+    {
+      "candidate_id": "H-92",
+      "slug": "reese-the-red-dog",
+      "title": "Reese The Red Dog (ReSkate)",
+      "base_game": "ReSkate",
+      "official_destination": "https://github.com/GittaOnTheTrack/reese-reskate/releases/tag/v0.1.2",
+      "ai_quote": "Reese character, model, and textures: Jittney Spear. ReSkate conversion and packaging: collaboration with Codex.",
+      "ai_source": "https://github.com/GittaOnTheTrack/reese-reskate/blob/799e771adaea8e76b71e8b25c7bc6f7307cd654b/README.md#credits",
+      "artifact": {
+        "url": "https://github.com/GittaOnTheTrack/reese-reskate/releases/download/v0.1.2/JittneySpear-Reese_The_Red_Dog-0.1.2.zip",
+        "version": "v0.1.2",
+        "sha256": "d8f615aa74a44140698127df3e9f390742c62c7d816de7d05a6f3448d7b3ab13"
+      },
+      "security": {
+        "workflow": "Codex Security",
+        "artifact_sha256": "d8f615aa74a44140698127df3e9f390742c62c7d816de7d05a6f3448d7b3ab13",
+        "artifact_assessed": true,
+        "blocking_findings": 0,
+        "coverage": "Exact ZIP hash verified. CRC and local headers pass; member extents do not overlap; no path traversal, duplicate, symlink, encryption, expansion anomaly, or recognizable executable/script entry observed. Opaque CAS/TOC content and host parser remain unreviewed.",
+        "runtime_limits": "Opaque CAS/TOC content and its semantics were not reviewed. ReSkate’s content parser, runtime loading and parser vulnerabilities were not assessed. No installation, launch or game test was performed."
+      },
+      "warnings": [
+        "The patch targets skate. build 25414733; a later game build may require an updated package. The costume currently appears as “Reese Body Test,” and other full-body costumes using the same game item may conflict.",
+        "The included promotional scenes are mockups, not gameplay screenshots; the plaza and bedroom scenes are not locations included in this package.",
+        "The README credits character, model and textures to Jittney Spear and conversion/packaging to GittaOnTheTrack in collaboration with Codex. It describes this as an unofficial community mod and grants no open-source license.",
+        "Opaque CAS/TOC content and its semantics were not reviewed. ReSkate’s content parser, runtime loading and parser vulnerabilities were not assessed. No installation, launch or game test was performed."
+      ],
+      "artwork": {
+        "kind": "retained_creator_art",
+        "source_url": "https://raw.githubusercontent.com/GittaOnTheTrack/reese-reskate/v0.1.2/media/Reese_Skating_Plaza_Promo_1280x720.jpg",
+        "published_path": "/games/mod-reese-the-red-dog.webp",
+        "sha256": "55f5f8b85d5775e782385626b714edca6d3ddae14ee931aac7fcb710b7d32420"
+      },
+      "adjudication": {
+        "provider": "cursor",
+        "model": "grok-4.7-high",
+        "publish": 1,
+        "evidence_revision": 3
+      }
+    }
+  ]
+}
