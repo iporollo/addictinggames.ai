@@ -1,0 +1,12 @@
+{
+  "observed_at_utc": "2026-10-21T01:23:11.830964+00:00",
+  "pr": 96,
+  "merge_sha": "b00af428c056f309e252fde233b1b1074e3b130a",
+  "production_deployment_id": 7215164535,
+  "status": "success",
+  "image_path": "/games/oct20-resume-gill-beast.webp",
+  "live_sha256": "41d7b48d99ccec85c031ecae1330a829d5e5576b22cb7251597ac55b507e8592",
+  "matches_local": true,
+  "screenshot": "Retained in private run receipts",
+  "visual_observation": "Gill Beast head and complete body visible within live landscape card; layout unchanged."
+}
