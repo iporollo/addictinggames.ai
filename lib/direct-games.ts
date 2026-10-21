@@ -14,6 +14,13 @@ export type DirectGame = {
 };
 
 const source: [string, string, string, string, string, string?][] = [
+  ["velox", "VELOX", "Simulators", "Drive a stainless GT through Larkridge, transform, and take the skyway flight route.", "https://v3l0x.grok.me/", "/games/oct20-resume-velox.webp"],
+  ["yaoyao-lingxian", "遥遥领先 (Yaoyao Lingxian) pixel flight runner", "Arcade", "A pixel-art flight runner: hold to rise and release to descend while the air reserve and score change.", "https://wanghh100.github.io/yaoyaolingxian/", "/games/oct20-resume-yaoyao-lingxian.webp"],
+  ["travel-dominoes", "Travel Dominoes", "Strategy", "Play double-six dominoes against the computer or in local two-player mode; the exact guest test confirmed a legal move changed the board and hand.", "https://traveldom-3yrg8uwm.manus.game/", "/games/oct20-resume-travel-dominoes.webp"],
+  ["no-taco", "No Taco? (\"IS THAT A TACO?\")", "Arcade", "A quick reaction game: choose right for tacos and left for other food while score and mistake counters track each run.", "https://dune-clear-rapid-garden.grok.me/", "/games/oct20-resume-no-taco.webp"],
+  ["circix-rewired", "Circix: Rewired", "Puzzle", "A neon logic puzzle where players connect numbered nodes to power the circuit.", "https://kinorogames.itch.io/circix-rewired", "/games/oct20-resume-circix-rewired.webp"],
+  ["solo-crafting", "Solo Crafting", "Adventure", "Explore a block-style fantasy town as a guest hunter, with a travel quest and character stats displayed on the HUD.", "https://solo-crafting.vercel.app/", "/games/oct20-resume-solo-crafting.webp"],
+  ["bolt-pit", "Bolt Pit", "Action", "Control Bolt, a small robot in a neon arena shooter: survive waves, dodge rogue bots, collect bolts, and choose upgrades between rounds.", "https://www.crazygames.com/game/bolt-pit", "/games/oct20-resume-bolt-pit.webp"],
   // Recovered October 20 games: exact AI evidence and guest gameplay reviewed.
   ["locked-down", "Locked Down", "Puzzle", "A point-and-click escape puzzle: inspect a burning cell, choose actions, and collect items while a score tracks progress.", "https://light-civic-acre-fleet.grok.me/", "/games/oct20-resume-locked-down.webp"],
   ["tile-twins", "Tile Twins", "Puzzle", "A timed tile-matching demo where players choose active cells during a mirror challenge and watch round, score, and coin counters update.", "https://www.gudarcade.com/game/tile-twins", "/games/oct20-resume-tile-twins.webp"],

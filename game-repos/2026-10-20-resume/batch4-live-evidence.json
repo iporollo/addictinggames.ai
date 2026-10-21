@@ -1,0 +1,471 @@
+{
+  "observed_at_utc": "2026-10-21T00:25:06.999936+00:00",
+  "merge_sha": "1d9cac40bc91639d434c5eac9a6ddf4b1e6dc89e",
+  "deployment_id": 7214362808,
+  "checks": [
+    {
+      "candidate_id": "H-10",
+      "slug": "locked-down",
+      "cover_status": 200,
+      "image_hash_matches": true,
+      "destination_present": true,
+      "title_present": true
+    },
+    {
+      "candidate_id": "H-13",
+      "slug": "tile-twins",
+      "cover_status": 200,
+      "image_hash_matches": true,
+      "destination_present": true,
+      "title_present": true
+    },
+    {
+      "candidate_id": "H-14",
+      "slug": "chinchiro",
+      "cover_status": 200,
+      "image_hash_matches": true,
+      "destination_present": true,
+      "title_present": true
+    },
+    {
+      "candidate_id": "H-15",
+      "slug": "pokemon-life-one-in-151",
+      "cover_status": 200,
+      "image_hash_matches": true,
+      "destination_present": true,
+      "title_present": true
+    },
+    {
+      "candidate_id": "H-23",
+      "slug": "boiling-milk-dont-let-it-spill",
+      "cover_status": 200,
+      "image_hash_matches": true,
+      "destination_present": true,
+      "title_present": true
+    },
+    {
+      "candidate_id": "H-24",
+      "slug": "as-aventuras-de-flavio-bolsonaro-hipotetico",
+      "cover_status": 200,
+      "image_hash_matches": true,
+      "destination_present": true,
+      "title_present": true
+    },
+    {
+      "candidate_id": "H-25",
+      "slug": "color-sorter",
+      "cover_status": 200,
+      "image_hash_matches": true,
+      "destination_present": true,
+      "title_present": true
+    },
+    {
+      "candidate_id": "H-29",
+      "slug": "jelly-shift",
+      "cover_status": 200,
+      "image_hash_matches": true,
+      "destination_present": true,
+      "title_present": true
+    },
+    {
+      "candidate_id": "H-30",
+      "slug": "water-sort",
+      "cover_status": 200,
+      "image_hash_matches": true,
+      "destination_present": true,
+      "title_present": true
+    },
+    {
+      "candidate_id": "H-31",
+      "slug": "ash-queen-s-forge",
+      "cover_status": 200,
+      "image_hash_matches": true,
+      "destination_present": true,
+      "title_present": true
+    },
+    {
+      "candidate_id": "H-32",
+      "slug": "gilded-rite",
+      "cover_status": 200,
+      "image_hash_matches": true,
+      "destination_present": true,
+      "title_present": true
+    },
+    {
+      "candidate_id": "H-50",
+      "slug": "grokbutt-escape-the-server",
+      "cover_status": 200,
+      "image_hash_matches": true,
+      "destination_present": true,
+      "title_present": true
+    },
+    {
+      "candidate_id": "H-54",
+      "slug": "the-dungeon-of-doom",
+      "cover_status": 200,
+      "image_hash_matches": true,
+      "destination_present": true,
+      "title_present": true
+    },
+    {
+      "candidate_id": "H-55",
+      "slug": "glenrow",
+      "cover_status": 200,
+      "image_hash_matches": true,
+      "destination_present": true,
+      "title_present": true
+    },
+    {
+      "candidate_id": "H-56",
+      "slug": "mostly-peaceful-shopkeeper",
+      "cover_status": 200,
+      "image_hash_matches": true,
+      "destination_present": true,
+      "title_present": true
+    },
+    {
+      "candidate_id": "H-57",
+      "slug": "sakurazuki-no-liberty",
+      "cover_status": 200,
+      "image_hash_matches": true,
+      "destination_present": true,
+      "title_present": true
+    },
+    {
+      "candidate_id": "H-58",
+      "slug": "aestra-the-last-wish",
+      "cover_status": 200,
+      "image_hash_matches": true,
+      "destination_present": true,
+      "title_present": true
+    },
+    {
+      "candidate_id": "H-60",
+      "slug": "poolrooms-upside-down-dream",
+      "cover_status": 200,
+      "image_hash_matches": true,
+      "destination_present": true,
+      "title_present": true
+    },
+    {
+      "candidate_id": "H-61",
+      "slug": "open-terraria",
+      "cover_status": 200,
+      "image_hash_matches": true,
+      "destination_present": true,
+      "title_present": true
+    },
+    {
+      "candidate_id": "H-62",
+      "slug": "jev-cards",
+      "cover_status": 200,
+      "image_hash_matches": true,
+      "destination_present": true,
+      "title_present": true
+    },
+    {
+      "candidate_id": "H-63",
+      "slug": "project-megapop",
+      "cover_status": 200,
+      "image_hash_matches": true,
+      "destination_present": true,
+      "title_present": true
+    },
+    {
+      "candidate_id": "H-65",
+      "slug": "golden-axe-street-fighter",
+      "cover_status": 200,
+      "image_hash_matches": true,
+      "destination_present": true,
+      "title_present": true
+    },
+    {
+      "candidate_id": "H-67",
+      "slug": "tiny-trains",
+      "cover_status": 200,
+      "image_hash_matches": true,
+      "destination_present": true,
+      "title_present": true
+    },
+    {
+      "candidate_id": "H-68",
+      "slug": "rilemon-beta",
+      "cover_status": 200,
+      "image_hash_matches": true,
+      "destination_present": true,
+      "title_present": true
+    },
+    {
+      "candidate_id": "H-71",
+      "slug": "murder-mystery-tmc",
+      "cover_status": 200,
+      "image_hash_matches": true,
+      "destination_present": true,
+      "title_present": true
+    },
+    {
+      "candidate_id": "H-72",
+      "slug": "cini-ustasi-round2-godot",
+      "cover_status": 200,
+      "image_hash_matches": true,
+      "destination_present": true,
+      "title_present": true
+    },
+    {
+      "candidate_id": "H-88",
+      "slug": "daytrader",
+      "cover_status": 200,
+      "image_hash_matches": true,
+      "destination_present": true,
+      "title_present": true
+    },
+    {
+      "candidate_id": "H-99",
+      "slug": "groklet-terrarium",
+      "cover_status": 200,
+      "image_hash_matches": true,
+      "destination_present": true,
+      "title_present": true
+    },
+    {
+      "candidate_id": "H-100",
+      "slug": "drift-balance",
+      "cover_status": 200,
+      "image_hash_matches": true,
+      "destination_present": true,
+      "title_present": true
+    },
+    {
+      "candidate_id": "D-13",
+      "slug": "clawdopolis",
+      "cover_status": 200,
+      "image_hash_matches": true,
+      "destination_present": true,
+      "title_present": true
+    },
+    {
+      "candidate_id": "H-16-01",
+      "slug": "claude-slot-machine",
+      "cover_status": 200,
+      "image_hash_matches": true,
+      "destination_present": true,
+      "title_present": true
+    },
+    {
+      "candidate_id": "H-16-02",
+      "slug": "codex-slot-machine",
+      "cover_status": 200,
+      "image_hash_matches": true,
+      "destination_present": true,
+      "title_present": true
+    },
+    {
+      "candidate_id": "H-16-03",
+      "slug": "grok-slot-machine",
+      "cover_status": 200,
+      "image_hash_matches": true,
+      "destination_present": true,
+      "title_present": true
+    },
+    {
+      "candidate_id": "H-16-04",
+      "slug": "gemini-slot-machine",
+      "cover_status": 200,
+      "image_hash_matches": true,
+      "destination_present": true,
+      "title_present": true
+    },
+    {
+      "candidate_id": "H-85-01",
+      "slug": "hisar-fortress-defense-round-1",
+      "cover_status": 200,
+      "image_hash_matches": true,
+      "destination_present": true,
+      "title_present": true
+    },
+    {
+      "candidate_id": "H-85-02",
+      "slug": "cay-ocag-tea-house-rush-round-1",
+      "cover_status": 200,
+      "image_hash_matches": true,
+      "destination_present": true,
+      "title_present": true
+    },
+    {
+      "candidate_id": "H-85-03",
+      "slug": "cini-ustas-iznik-tile-puzzle-round-1",
+      "cover_status": 200,
+      "image_hash_matches": true,
+      "destination_present": true,
+      "title_present": true
+    },
+    {
+      "candidate_id": "H-85-04",
+      "slug": "mart-seagull-run-round-1",
+      "cover_status": 200,
+      "image_hash_matches": true,
+      "destination_present": true,
+      "title_present": true
+    },
+    {
+      "candidate_id": "H-85-05",
+      "slug": "hisar-fortress-defense-round-2-godot",
+      "cover_status": 200,
+      "image_hash_matches": true,
+      "destination_present": true,
+      "title_present": true
+    },
+    {
+      "candidate_id": "H-85-06",
+      "slug": "cay-ocag-tea-house-rush-round-2-godot",
+      "cover_status": 200,
+      "image_hash_matches": true,
+      "destination_present": true,
+      "title_present": true
+    },
+    {
+      "candidate_id": "H-85-08",
+      "slug": "mart-seagull-run-round-2-godot",
+      "cover_status": 200,
+      "image_hash_matches": true,
+      "destination_present": true,
+      "title_present": true
+    },
+    {
+      "candidate_id": "H-87-01",
+      "slug": "hold-the-cold",
+      "cover_status": 200,
+      "image_hash_matches": true,
+      "destination_present": true,
+      "title_present": true
+    },
+    {
+      "candidate_id": "H-87-02",
+      "slug": "hedge-witch",
+      "cover_status": 200,
+      "image_hash_matches": true,
+      "destination_present": true,
+      "title_present": true
+    },
+    {
+      "candidate_id": "H-87-03",
+      "slug": "harbour-crane",
+      "cover_status": 200,
+      "image_hash_matches": true,
+      "destination_present": true,
+      "title_present": true
+    },
+    {
+      "candidate_id": "H-87-04",
+      "slug": "seconds-day",
+      "cover_status": 200,
+      "image_hash_matches": true,
+      "destination_present": true,
+      "title_present": true
+    },
+    {
+      "candidate_id": "H-87-05",
+      "slug": "bucket-brigade",
+      "cover_status": 200,
+      "image_hash_matches": true,
+      "destination_present": true,
+      "title_present": true
+    },
+    {
+      "candidate_id": "H-87-06",
+      "slug": "sheepdog-trials",
+      "cover_status": 200,
+      "image_hash_matches": true,
+      "destination_present": true,
+      "title_present": true
+    },
+    {
+      "candidate_id": "H-87-07",
+      "slug": "patchwork-isles",
+      "cover_status": 200,
+      "image_hash_matches": true,
+      "destination_present": true,
+      "title_present": true
+    },
+    {
+      "candidate_id": "H-87-08",
+      "slug": "brushwork",
+      "cover_status": 200,
+      "image_hash_matches": true,
+      "destination_present": true,
+      "title_present": true
+    },
+    {
+      "candidate_id": "H-87-09",
+      "slug": "draw-distance",
+      "cover_status": 200,
+      "image_hash_matches": true,
+      "destination_present": true,
+      "title_present": true
+    },
+    {
+      "candidate_id": "H-87-10",
+      "slug": "the-ninth-floor-night-porter",
+      "cover_status": 200,
+      "image_hash_matches": true,
+      "destination_present": true,
+      "title_present": true
+    },
+    {
+      "candidate_id": "H-59-01",
+      "slug": "pelican-island-ride-deepseek",
+      "cover_status": 200,
+      "image_hash_matches": true,
+      "destination_present": true,
+      "title_present": true
+    },
+    {
+      "candidate_id": "H-59-02",
+      "slug": "pelican-island-ride-gemini",
+      "cover_status": 200,
+      "image_hash_matches": true,
+      "destination_present": true,
+      "title_present": true
+    },
+    {
+      "candidate_id": "A-42",
+      "slug": "nier-automata-archipelago-hook",
+      "cover_status": 200,
+      "image_hash_matches": true,
+      "detail_status": 200,
+      "destination_present": true,
+      "warnings_present": true
+    },
+    {
+      "candidate_id": "A-93",
+      "slug": "enshrouded-basecap",
+      "cover_status": 200,
+      "image_hash_matches": true,
+      "detail_status": 200,
+      "destination_present": true,
+      "warnings_present": true
+    },
+    {
+      "candidate_id": "A-113",
+      "slug": "easy-language-packs",
+      "cover_status": 200,
+      "image_hash_matches": true,
+      "detail_status": 200,
+      "destination_present": true,
+      "warnings_present": true
+    },
+    {
+      "candidate_id": "H-92",
+      "slug": "reese-the-red-dog",
+      "cover_status": 200,
+      "image_hash_matches": true,
+      "detail_status": 200,
+      "destination_present": true,
+      "warnings_present": true
+    }
+  ],
+  "pr_url": "https://github.com/iporollo/addictinggames.ai/pull/91",
+  "deployment_sha": "1d9cac40bc91639d434c5eac9a6ddf4b1e6dc89e",
+  "ci": "Node22 lint, 44 tests, build and typecheck passed locally after merge; GitHub validate passed.",
+  "visual": "Production home featured picks and game cards inspected; selected square crops inspected before release. Reese mod detail rendered cover and warnings checked; all four mod detail warning strings independently checked in live HTML."
+}

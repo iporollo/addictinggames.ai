@@ -7,6 +7,13 @@ export type MultiplayerMode = 'Online multiplayer' | 'Local 2-player' | 'Local m
 
 // Evidence and unresolved cases live in docs/category-audit/2026-10-11/.
 export const reviewedCategories: Record<string, CategoryList> = {
+  "velox": ["Simulators"],
+  "yaoyao-lingxian": ["Arcade"],
+  "travel-dominoes": ["Strategy", "Puzzle"],
+  "no-taco": ["Arcade", "Casual"],
+  "circix-rewired": ["Puzzle"],
+  "solo-crafting": ["Adventure", "Action"],
+  "bolt-pit": ["Action", "Shooter", "Arcade"],
   "locked-down": ["Puzzle", "Adventure"],
   "tile-twins": ["Puzzle", "Arcade"],
   "chinchiro": ["Strategy", "Casual"],
