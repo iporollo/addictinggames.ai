@@ -190,6 +190,36 @@
       "tag": null,
       "license": null,
       "status": "Third-party source discussion exposes this as the Pepsiman repository. GitHub README lookup returned 404; existence, exact creator linkage, commit and license remain unverified. Not AI-creation proof."
+    },
+    {
+      "repository_url": "https://github.com/CLSAMG22/BBSC",
+      "candidate_ids": [
+        "H-04"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/CLSAMG22/BBSC/releases/tag/v0.0.1_items",
+          "observed_at_utc": "2026-10-20T20:43:31.155449Z"
+        }
+      ],
+      "commit_sha": null,
+      "tag": "v0.0.1_items",
+      "license": null,
+      "status": "Official GitHub release assets retrieved in mods-3 report. Repository commit SHA unresolved. Tag commit SHA unresolved; no tag commit was inferred. License metadata unresolved.",
+      "release_assets": [
+        {
+          "name": "BBSC-0.0.1-BBport-fork.zip",
+          "url": "https://github.com/CLSAMG22/BBSC/releases/download/v0.0.1_items/BBSC-0.0.1-BBport-fork.zip",
+          "sha256": "4631a1ac5a3419b8fce44fcb9e1d13c9440c6958bf4710b43380456c09b1102a",
+          "observed_at_utc": "2026-10-20T20:43:31.155449+00:00"
+        },
+        {
+          "name": "BBSC-0.0.1-Play.zip",
+          "url": "https://github.com/CLSAMG22/BBSC/releases/download/v0.0.1_items/BBSC-0.0.1-Play.zip",
+          "sha256": "a2409e3ae012eed8227cc0db399bd873941bb9e67d3933bf32db07fbec2336d2",
+          "observed_at_utc": "2026-10-20T20:43:31.155449+00:00"
+        }
+      ]
     }
   ],
   "proposal_only": true,
