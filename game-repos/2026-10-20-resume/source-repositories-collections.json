@@ -1,0 +1,39 @@
+{
+  "schema_version": 2,
+  "records": [
+    {
+      "repository_url": "https://github.com/origami-ltd/wasm-generals",
+      "candidate_ids": [
+        "D-02-27"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://generals.wasm.ltd/",
+          "observed_at_utc": "2026-10-20T22:26:50Z"
+        }
+      ],
+      "commit_sha": null,
+      "tag": null,
+      "license": null,
+      "status": "Official source repository linked by the project page. Existing recovery receipts do not record a commit, tag, or license."
+    },
+    {
+      "repository_url": "https://git.mattkc.com/isledecomp/isle.pizza",
+      "candidate_ids": [
+        "D-02-32"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://isle.pizza/",
+          "observed_at_utc": "2026-10-20T22:26:50Z"
+        }
+      ],
+      "commit_sha": "e36a158c69694306bbf78c392638cb1a9fbf07c9",
+      "tag": null,
+      "license": null,
+      "status": "Official README observed at the pinned commit URL. The existing recovery receipt does not record a tag or license."
+    }
+  ],
+  "proposal_only": true,
+  "source": "D-02 existing child-source recovery receipts"
+}

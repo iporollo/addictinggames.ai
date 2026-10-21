@@ -1,0 +1,27 @@
+{
+  "observed_at_utc": "2026-10-21T01:05:37.245836+00:00",
+  "merge_sha": "e00c66e79818eb18b5e3175e5bdac6e6329d98b7",
+  "deployment_id": 7214959610,
+  "checks": [
+    {
+      "candidate_id": "H-12",
+      "slug": "gill-beast",
+      "cover_status": 200,
+      "image_hash_matches": true,
+      "destination_present": true,
+      "title_present": true
+    },
+    {
+      "candidate_id": "H-05",
+      "slug": "kirin",
+      "cover_status": 200,
+      "image_hash_matches": true,
+      "detail_status": 200,
+      "destination_present": true,
+      "warnings_present": true
+    }
+  ],
+  "pr_url": "https://github.com/iporollo/addictinggames.ai/pull/95",
+  "ci": "Node22 lint,44tests,build,typecheck passed; GitHub validate passed.",
+  "visual": "Kirin detail cover and warnings rendered; Gill Beast live card verified. Follow-up improves retained creature framing inside existing card geometry."
+}
