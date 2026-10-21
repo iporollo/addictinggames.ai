@@ -1,0 +1,207 @@
+{
+  "schema_version": 2,
+  "records": [
+    {
+      "repository_url": "https://github.com/origami-ltd/wasm-generals",
+      "candidate_ids": [
+        "D-02-27"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://generals.wasm.ltd/",
+          "observed_at_utc": "2026-10-20T22:26:50Z"
+        }
+      ],
+      "commit_sha": null,
+      "tag": null,
+      "license": null,
+      "status": "Official source repository linked by the project page. Existing recovery receipts do not record a commit, tag, or license."
+    },
+    {
+      "repository_url": "https://git.mattkc.com/isledecomp/isle.pizza",
+      "candidate_ids": [
+        "D-02-32"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://isle.pizza/",
+          "observed_at_utc": "2026-10-20T22:26:50Z"
+        }
+      ],
+      "commit_sha": "e36a158c69694306bbf78c392638cb1a9fbf07c9",
+      "tag": null,
+      "license": null,
+      "status": "Official README observed at the pinned commit URL. The existing recovery receipt does not record a tag or license."
+    },
+    {
+      "repository_url": "https://github.com/snuri00/ps2-web-recomp",
+      "candidate_ids": [
+        "E-02"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://nfsunderground2.site/",
+          "observed_at_utc": "2026-10-21T00:35:19Z"
+        }
+      ],
+      "commit_sha": "6526f4803d98e10de50bea3af104a4d26e9df033",
+      "license": "MIT",
+      "status": "Generic PS2 WebAssembly recompilation engine, not game-specific NFSU2 source. Original E-02 identity remains unlinked; this is related recovery evidence, not attribution."
+    },
+    {
+      "repository_url": "https://github.com/th0mk/nfsu2-web",
+      "candidate_ids": [
+        "E-02"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/th0mk/nfsu2-web",
+          "observed_at_utc": "2026-10-21T00:35:19Z"
+        }
+      ],
+      "commit_sha": "d77eeaf91ee2c3f7b7bb9e422aeb0839d5f83860",
+      "license": "MIT",
+      "status": "Distinct NFSU2 browser port mapped to nfsu2.xyz by first-party repository metadata. Original E-02 identity remains unlinked; this is related recovery evidence, not attribution."
+    },
+    {
+      "repository_url": "https://github.com/shadany7824/playgta5",
+      "candidate_ids": [
+        "D-02-05"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/shadany7824/playgta5",
+          "observed_at_utc": "2026-10-21T01:09:16Z"
+        }
+      ],
+      "status": "Public snapshot repository; README says it was scraped from playgta5.com and is not the original development repository; license unresolved.",
+      "commit_sha": null,
+      "tag": null,
+      "license": null
+    },
+    {
+      "repository_url": "https://github.com/SebasKitten/Grand-V",
+      "candidate_ids": [
+        "D-02-05"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/shadany7824/playgta5",
+          "observed_at_utc": "2026-10-21T01:09:16Z"
+        }
+      ],
+      "status": "Exposed by the snapshot README as a later V2 \u201cGrand-V\u201d repository; separate version/project lineage, not verified as the D-02-05 V1 source. Preserve without borrowing evidence.",
+      "commit_sha": null,
+      "tag": null,
+      "license": null
+    },
+    {
+      "repository_url": "https://github.com/lklacar/csjs",
+      "candidate_ids": [
+        "D-02-18"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://csjs.live/",
+          "observed_at_utc": "2026-10-21T01:09:16Z"
+        }
+      ],
+      "status": "Official page links this as GitHub source; API readme lookup returned 404, so repository metadata/license/commit remain unresolved.",
+      "commit_sha": null,
+      "tag": null,
+      "license": null
+    },
+    {
+      "repository_url": "https://github.com/chiikabu/the-browsing-of-isaac",
+      "candidate_ids": [
+        "D-02-19"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/chiikabu/the-browsing-of-isaac",
+          "observed_at_utc": "2026-10-21T01:09:16Z"
+        }
+      ],
+      "status": "Author-linked game project; README states GPL-3.0-or-later for project work only.",
+      "commit_sha": null,
+      "tag": null,
+      "license": "GPL-3.0-or-later (README claim)"
+    },
+    {
+      "repository_url": "https://github.com/TeamREPENTOGON/REPENTOGON",
+      "candidate_ids": [
+        "D-02-19"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/chiikabu/the-browsing-of-isaac",
+          "observed_at_utc": "2026-10-21T01:09:16Z"
+        }
+      ],
+      "status": "README identifies REPENTOGON as an included submodule/function-signature source; dependency, not candidate authoring evidence.",
+      "commit_sha": null,
+      "tag": null,
+      "license": "GPL-2.0 (README claim)"
+    },
+    {
+      "repository_url": "https://github.com/kem0x/psxrecomp",
+      "candidate_ids": [
+        "D-02-34"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/kem0x",
+          "observed_at_utc": "2026-10-21T01:09:16Z"
+        }
+      ],
+      "status": "Repository appears in the creator lead account\u2019s public repository listing; PlayStation static recompiler description, but no exact relation to the Pepsiman port was established.",
+      "commit_sha": null,
+      "tag": null,
+      "license": null
+    },
+    {
+      "repository_url": "https://github.com/RetroPortingToolKit/psxrecomp",
+      "candidate_ids": [
+        "D-02-34"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/RetroPortingToolKit/psxrecomp",
+          "observed_at_utc": "2026-10-21T01:17:04.524490Z"
+        }
+      ],
+      "status": "Related recompiler repository independently verified during recovery. Creator or exact Pepsiman linkage is unconfirmed; earlier raw source reference did not expose this repository.",
+      "commit_sha": null,
+      "tag": null,
+      "license": null
+    }
+  ],
+  "proposal_only": true,
+  "source": "D-02 existing child-source recovery receipts",
+  "related_repository_mentions": [
+    {
+      "repository_url": "https://github.com/snuri00/psp-web-recomp",
+      "source": "Sibling link in PS2 Web Recomp README.",
+      "relation": "Related PSP tooling; no evidence it is E-02 source.",
+      "status": "not independently assessed"
+    },
+    {
+      "repository_url": "https://github.com/N64Recomp/N64Recomp",
+      "source": "Method/lineage reference in th0mk README.",
+      "relation": "Not identified as E-02 source.",
+      "status": "not independently assessed"
+    },
+    {
+      "repository_url": "https://github.com/hedge-dev/XenonRecomp",
+      "source": "Method/lineage reference in th0mk README.",
+      "relation": "Not identified as E-02 source.",
+      "status": "not independently assessed"
+    },
+    {
+      "repository_url": "https://github.com/WebAssembly/wasi-sdk",
+      "source": "Build-tool link in th0mk README.",
+      "relation": "Build dependency, not E-02 source.",
+      "status": "not independently assessed"
+    }
+  ]
+}

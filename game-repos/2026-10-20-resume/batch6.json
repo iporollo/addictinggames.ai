@@ -24,7 +24,7 @@
         "kind": "retained_gameplay_capture",
         "source_url": "https://gill-beast.pages.dev/",
         "published_path": "/games/oct20-resume-gill-beast.webp",
-        "sha256": "dda5684a9c9999005bca0c990f9e63919b693d957631ff7c66e8083dec58faa7"
+        "sha256": "41d7b48d99ccec85c031ecae1330a829d5e5576b22cb7251597ac55b507e8592"
       },
       "adjudication": {
         "model": "grok-4.7-high",
