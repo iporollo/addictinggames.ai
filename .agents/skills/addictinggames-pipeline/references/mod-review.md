@@ -1,6 +1,6 @@
 # Mod release and artifact review
 
-Read for mod discovery, artifact review or mod publication within [addictinggames-pipeline](../SKILL.md). The main skill owns scope, authorization, discovery duration, Scout lifecycle, worker scheduling, Grok adjudication, the shared ledger and completion. This reference adds mod-specific requirements; it is not a separate skill or campaign. A closed-list request does not launch Scout.
+Read for mod discovery, artifact review or mod publication within [addictinggames-pipeline](../SKILL.md). The main skill owns scope, authorization, discovery duration, Scout lifecycle, worker scheduling, the two-pass decisions, shared ledger and completion. This reference adds mod-specific requirements; it is not a separate skill or campaign. A closed-list request does not launch Scout.
 
 ## Mod scope and discovery
 
@@ -41,7 +41,7 @@ For each potential, record:
 
 For an authorized discovery campaign, Scout reports incrementally and stops at the shared discovery deadline. Ingest all discovered leads into the shared ledger; do not strand final-wave mods as overflow. Resolve missing fields actively and preserve exact source references. No hands-on mod installation/playtest is required or authorized by the pipeline. Record creator demonstrations and independent use reports separately; absence of positive user reports does not block publication. No public release means 0 only after the official release locations have actually been checked; inaccessible tools trigger recovery, not that conclusion.
 
-Use the main skill's mod-review worker assignments and available capacity. Mod workers retrieve official listings, source and artifacts without taking gameplay tabs or editing the catalog. Source-only review does not count as artifact assessment. All worker reports feed the same ledger and adjudicator; batch sizes count eligible games and mods together.
+Use the main skill's mod-review worker assignments and available capacity. Mod workers retrieve official listings, source and artifacts without taking gameplay tabs or editing the catalog. Source-only review does not count as artifact assessment. The main Codex agent can approve a mod on complete first-pass evidence. Any held or failed mod goes to Grok 4.7 High as second-pass lead; Grok issues a fresh exact-artifact Codex Security work order through Codex and reviews its raw result. All worker reports feed the same ledger; batch sizes count eligible games and mods together.
 
 ## Codex Security review
 

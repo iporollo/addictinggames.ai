@@ -135,6 +135,71 @@ test('old Grok verdict cannot survive changed evidence; missing files fail valid
   assert.match(errors(campaign(), { checkRef: () => false }), /missing evidence/);
 });
 
+test('complete first-pass approval needs no Grok call but still needs all acceptance gates', () => {
+  const c = candidate(); c.decision.route = 'first_pass'; c.decision.review = null;
+  const r = campaign([c]); r.adjudicator = null;
+  assert.deepEqual(validateCampaign(r, { releaseIds: [c.id] }), []);
+  c.gates.ai.status = 'pending';
+  assert.match(errors(r), /approval missing identity\/AI/);
+  c.gates.ai.status = 'pass'; c.attempts.push(attempt('gameplay', 'tool_failure', 'luna-2', 'failed-tab'));
+  assert.match(errors(r), /first-pass nonpassing attempt requires second-pass review/);
+});
+
+test('a first-pass failure cannot become a final denial or bypass a checkpointed hold', () => {
+  const c = deny(candidate(), 'observed_game_failure', 'gameplay', [attempt('gameplay', 'fail', 'luna-1', 'failed-game')]);
+  c.decision.route = 'first_pass'; c.decision.review = null;
+  assert.match(errors(campaign([c])), /first pass cannot deny/);
+  c.decision.publish = 1; c.decision.reason = null; c.gates.gameplay = gate({ basis: 'agent_verified', url: c.canonical_url, model: 'gpt-6-luna', reasoning: 'max', input: 'ArrowRight', response: 'Player moved right.' });
+  assert.match(errors(campaign([c])), /first-pass nonpassing attempt/);
+  c.attempts = [attempt('gameplay')];
+  c.second_pass = { hold_gate: 'gameplay', hold_reason: 'no response observed', held_at_utc: '2026-10-20T16:00:00Z', hold_refs: ref, work_order_refs: ref, fresh_attempt_ids: [] };
+  assert.match(errors(campaign([c])), /checkpointed hold requires Grok second-pass route/);
+});
+
+test('Grok second-pass game approval needs a post-hold Luna Max observation', () => {
+  const c = candidate(); c.decision.route = 'grok_second_pass';
+  c.second_pass = { hold_gate: 'gameplay', hold_reason: 'initial input inconclusive', held_at_utc: '2026-10-20T16:00:00Z', hold_refs: ref, work_order_refs: ref, fresh_attempt_ids: ['fresh-game'] };
+  assert.match(errors(campaign([c])), /fresh attempts must follow the hold checkpoint/);
+  c.attempts.push({ ...attempt('gameplay', 'pass', 'fresh-luna', 'fresh-game'), observed_at_utc: '2026-10-20T16:05:00Z', model: 'gpt-6-luna', reasoning: 'max' });
+  assert.deepEqual(validateCampaign(campaign([c])), []);
+  c.attempts[1].model = 'gpt-6-sol';
+  assert.match(errors(campaign([c])), /fresh Luna Max gameplay evidence/);
+  c.attempts[1].model = 'gpt-6-luna'; c.decision.review.evidence_revision = 0;
+  assert.match(errors(campaign([c])), /current independent adjudication/);
+});
+
+test('Grok second-pass mod approval needs a fresh review of the current artifact hash', () => {
+  const c = candidate(); c.kind = 'mod'; c.decision.route = 'grok_second_pass';
+  c.artifact = { url: 'https://example.test/mod.zip', version: '1.0', sha256: 'b'.repeat(64) };
+  c.gates.release = gate(); c.gates.security = gate({ workflow: 'Codex Security', artifact_sha256: c.artifact.sha256, artifact_assessed: true, blocking_findings: 0, coverage: 'exact artifact assessed', runtime_limits: 'not installed' });
+  c.second_pass = { hold_gate: 'security', hold_reason: 'first review lacked artifact coverage', held_at_utc: '2026-10-20T16:00:00Z', hold_refs: ref, work_order_refs: ref, fresh_attempt_ids: ['fresh-security'] };
+  c.attempts.push({ ...attempt('security', 'pass', 'fresh-reviewer', 'fresh-security'), observed_at_utc: '2026-10-20T16:05:00Z', workflow: 'Codex Security', artifact_sha256: c.artifact.sha256 });
+  assert.deepEqual(validateCampaign(campaign([c])), []);
+  c.attempts[1].artifact_sha256 = 'c'.repeat(64);
+  assert.match(errors(campaign([c])), /fresh matching Codex Security evidence/);
+});
+
+test('Grok can deny an independently confirmed duplicate without a wasted gameplay retest', () => {
+  const c = deny(candidate(), 'duplicate', 'dedup'); c.gates.dedup.match = 'published-slug';
+  c.decision.route = 'grok_second_pass';
+  c.second_pass = { hold_gate: 'dedup', hold_reason: 'candidate may match published game', held_at_utc: '2026-10-20T16:00:00Z', hold_refs: ref, work_order_refs: ref, fresh_attempt_ids: [] };
+  assert.deepEqual(validateCampaign(campaign([c])), []);
+  c.second_pass.work_order_refs = [];
+  assert.match(errors(campaign([c])), /Grok work orders/);
+});
+
+test('held tool failure stays pending without Grok availability and blocks completion', () => {
+  const c = pending(candidate());
+  c.attempts.push(attempt('gameplay', 'tool_failure', 'luna-1', 'tool-outage'));
+  c.second_pass = { hold_gate: 'gameplay', hold_reason: 'browser control failed', held_at_utc: '2026-10-20T16:00:00Z', hold_refs: ref, work_order_refs: [], fresh_attempt_ids: [] };
+  const r = campaign([c]); r.adjudicator = null; r.status = 'interrupted'; r.interruption = { reason: 'browser unavailable', next_action: 'retry after queue drains' };
+  assert.deepEqual(validateCampaign(r), []);
+  assert.match(errors(r, { complete: true }), /pending candidate prevents completion/);
+  c.decision = { publish: 0, route: 'grok_second_pass', reason: 'observed_game_failure', evidence_refs: ref, review: null };
+  c.assignment = null; c.gates.gameplay = { status: 'fail', evidence_refs: ref };
+  assert.match(errors(r), /current independent adjudication|required completed resolution attempts missing/);
+});
+
 test('source receipts cover denied and duplicate candidates as well as approved ones', () => {
   const c = deny(candidate(), 'duplicate', 'dedup'); c.gates.dedup.match = 'published-slug';
   c.source_repositories.push({ url: 'https://gitlab.com/creator/game', discovery_source_url: 'https://example.test/post', observed_at_utc: '2026-10-20T16:00:00Z', status: 'exposed' });
