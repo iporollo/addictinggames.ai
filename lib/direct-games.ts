@@ -14,6 +14,8 @@ export type DirectGame = {
 };
 
 const source: [string, string, string, string, string, string?][] = [
+  // October 22 AI Game Scout batch 8: creator AI evidence and responsive guest play verified.
+  ["regression-chapter-1", "Regression · Chapter 1", "Adventure", "Investigate a village, collect clues, and file a report before dawn.", "https://playregression.com/", "/games/oct22-regression.webp"],
   // October 22 AI Game Scout batch 7: creator AI evidence and responsive guest play verified.
   ["hypernova", "Hypernova", "Arcade", "Pilot a comet ship through enemy swarms, gather gold, and choose upgrades as you survive.", "https://0xdiid.github.io/hypernova/", "/games/oct22-hypernova.webp"],
   // October 22 AI Game Scout batch 6: creator AI evidence and responsive guest play verified.
