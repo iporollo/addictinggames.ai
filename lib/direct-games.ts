@@ -14,6 +14,10 @@ export type DirectGame = {
 };
 
 const source: [string, string, string, string, string, string?][] = [
+  // October 22 AI Game Scout batch 4: creator evidence and responsive guest play verified.
+  ["arg-gov-tycoon", "Arg Gov Tycoon", "Simulators", "Collect funds and build civic sites across an isometric city grid.", "https://agg.eibertek.com.ar/", "/games/oct22-arg-gov-tycoon.webp"],
+  ["operacion-vostok", "Operación Vostok", "Shooter", "Move, aim, and fight through a retro low-poly tactical arena.", "https://operacion-vostok.vercel.app/", "/games/oct22-operacion-vostok.webp"],
+  ["minero-estelar", "Minero Estelar", "Casual", "Tap an asteroid to mine stardust and improve your cosmic mining setup.", "https://minero-estelar.netlify.app/", "/games/oct22-minero-estelar.webp"],
   // October 22 AI Game Scout batch 3: creator evidence and responsive guest play verified.
   ["vlobby-bolley", "Vlobby Bolley", "Sports", "Move a blob across the court in a one-player volleyball match.", "https://wavedash.com/games/vlobby-bolley", "/games/oct22-vlobby-bolley.webp"],
   ["senjin", "戦陣 SENJIN", "Strategy", "Place units and take turns in a rock-paper-scissors territory battle.", "https://senjin-game.pages.dev/", "/games/oct22-senjin.webp"],
