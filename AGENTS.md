@@ -21,7 +21,7 @@ Do not retroactively remove existing games unless the owner requests an audit or
 
 ## How an agent can help
 
-- Discover AI-created browser games through the existing Grok Bot conversation named AI Game Scout.
+- Discover AI-created browser games and mods across public X and creator/official sources through the existing Grok Bot conversation named AI Game Scout. Owner AI-Games bookmarks are an optional extra lead source.
 - Verify authorship, playtest candidates, prepare faithful thumbnails, and publish eligible New Games batches.
 - Research or update specific games, artwork, categories, human multiplayer modes, and site behavior within the request.
 - Diagnose availability and review evidence without treating discovery, successful builds, or screenshots as gameplay proof.
