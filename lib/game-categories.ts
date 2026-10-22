@@ -1044,6 +1044,7 @@ export const reviewedCategories: Record<string, CategoryList> = {
 };
 
 export const multiplayerModes: Record<string, MultiplayerMode> = {
+  "rumble-reef": "Online multiplayer",
   "xion": "Online multiplayer",
   "battle-drones": "Online multiplayer",
   "murder-mystery-tmc": "Online multiplayer",

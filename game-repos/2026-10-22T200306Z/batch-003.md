@@ -1,0 +1,17 @@
+# October 22 campaign — third game batch
+
+These nine games open their creators' exact play pages. Fresh unauthenticated Luna Max sessions observed meaningful input and a visible response. The restricted AddictingGames player was not tested, so these are direct external links. Covers retain source artwork or exact-game screenshots; no new artwork was generated.
+
+| ID and game | Destination | Exact-game AI creation evidence | Guest response | Retained cover |
+| --- | --- | --- | --- | --- |
+| AG-030 Vlobby Bolley | [Wavedash](https://wavedash.com/games/vlobby-bolley) | [Creator post](https://x.com/abhinaynatraj/status/2113073352730714197) calls the linked games "vibe coded" and says AI helped make them | D then A moved the player blob right then left | `oct22-vlobby-bolley.webp` |
+| AG-031 戦陣 SENJIN | [Creator site](https://senjin-game.pages.dev/) | [Creator post](https://x.com/084kaihatu/status/2113253427845460346) says AI helped make 戦陣 | Heavy Unit placement and confirmation advanced to Turn 02 | `oct22-senjin.webp` |
+| AG-033 Detour Dice Club | [itch.io](https://kazuyoshi1118.itch.io/detour-dice-club) | [Creator post](https://x.com/takiyoshi_games/status/2113118277753053597) discloses AI-generated images used in the game | Enter rolled a six, showing a blue-space event and route | `oct22-detour-dice-club.webp` |
+| AG-034 みちくさクレーンキャッチ | [Creator site](https://ai-michikusa.com/games/michikusa-crane-catch/) | [Creator post](https://x.com/zasuko_michiksa/status/2113163580124356628) says Claude Code helped build it and AI art became 3D prizes | Holding Up moved the claw carriage to its travel limit | `oct22-michikusa-crane-catch.webp` |
+| AG-035 Street Fighters · SSF2T 3D | [Creator site](https://street-fighter.tutti.sh/) | [Creator post](https://x.com/TanZeng1021/status/2113233826688512262) says AI made the 3D fighting game | P triggered a super move; opponent recoiled and meter emptied | `oct22-street-fighters-ssf2t-3d.webp` |
+| AG-036 Robot vs Aliens: Survival | [Play page](https://www.robotvsaliens.com/jogar) | [Creator post](https://x.com/thiago__mmota/status/2113048360915444143) says it was made with Claude | Key 1 fired a beam, dealt damage, and began cooldown | `oct22-robot-vs-aliens-survival.webp` |
+| AG-037 El Eternauta Online — Plaza de Mayo | [Creator demo](https://santisiri.github.io/eternauta-online/) | [Creator post](https://x.com/santisiri/status/2112374427140653286) describes making this demo with vibe coding | Held W changed debug position and advanced view | `oct22-el-eternauta-online.webp` |
+| AG-039 Rumble Reef | [Creator site](https://rumblereef.vercel.app/) | [Creator post](https://x.com/GogineniG43246/status/2112687884671320562) says it was built with Claude Opus | Space in a guest Showdown room extended the player aim wedge | `oct22-rumble-reef.webp` |
+| AG-043 Riftwatch | [Creator game](https://defend-the-lord.grok.me/) | [Creator post](https://x.com/Zenier15/status/2112752261537337838) calls the linked game a Grok-building test | Placed Spark tower and sent Wave 1; gold changed and creeps advanced | `oct22-riftwatch.webp` |
+
+Street Fighters uses recognizable franchise characters and El Eternauta references a known story; these are link curation warnings, not claims of redistribution rights. Rumble Reef documents human online rooms. No candidate in this batch was source-imported or iframe-certified. The campaign ledger retains gameplay and source receipts.
