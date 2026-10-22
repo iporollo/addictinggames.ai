@@ -14,6 +14,14 @@ export type DirectGame = {
 };
 
 const source: [string, string, string, string, string, string?][] = [
+  ["mall-revival", "Mall Revival", "Simulators", "Open a shopping mall, welcome customers, and grow your stores through each day.", "https://starlogaming.itch.io/mall-revival", "/games/oct22-mall-revival.webp"],
+  ["london-rush", "London Rush", "Racing", "Drive through London's West End and take on story missions behind the wheel.", "https://londonrush.online/", "/games/oct22-london-rush.webp"],
+  ["ivan-vs-schiff-hodl-hero", "Ivan vs Schiff: HODL Hero", "Platformer", "Jump across market-chart platforms and collect coins in a side-scrolling adventure.", "https://ivan-vs-schiff.netlify.app/", "/games/oct22-ivan-vs-schiff.webp"],
+  ["on-the-turn-golf", "On The Turn Golf Game", "Sports", "Time your swing, play each lie, and build a pixel golfer's career.", "https://game.shopontheturn.com/game", "/games/oct22-on-the-turn-golf.webp"],
+  ["xion", "XION", "Action", "Pilot a ship through a multiplayer space arena of asteroids, pickups, and rival players.", "https://playxion.com/", "/games/oct22-xion.webp"],
+  ["pinch-hitter", "Pinch Hitter", "Sports", "Face a fast cricket delivery, time your shot, and chase the target in a quick match.", "https://wavedash.com/games/pinch-hitter", "/games/oct22-pinch-hitter.webp"],
+  ["battle-drones", "Battle Drones", "Strategy", "Command squads of drones across a real-time battlefield against AI or another player.", "https://simonw.github.io/battledrones/", "/games/oct22-battle-drones.webp"],
+  ["bank-and-boat", "Bank and Boat", "Simulators", "Choose a fishing spot, aim your cast, and explore a quiet canal from the bank.", "https://bank-and-boat.grok.me/", "/games/oct22-bank-and-boat.webp"],
   ["oddbrew", "Oddbrew", "Puzzle", "Sort enchanted potions for unusual customers in a midnight apothecary.", "https://app.usecrayon.ai/play/8128b416-a6ab-4073-a59b-56461a58fd1e", "/games/oct22-oddbrew.webp"],
   ["towline", "TOWLINE", "Action", "Ride a hoverboard behind a truck, switch lanes, and collect coins across colorful districts.", "https://app.usecrayon.ai/play/6f37d763-d3f5-4a33-92d1-7731e8ac2a56", "/games/oct22-towline.webp"],
   ["dungeons-holdfast", "Towns: Holdfast", "Simulators", "Explore an isometric settlement and select citizens to follow their lives.", "https://dungeons.grok.me/holdfast", "/games/oct20-resume-dungeons-holdfast.webp"],

@@ -1044,6 +1044,8 @@ export const reviewedCategories: Record<string, CategoryList> = {
 };
 
 export const multiplayerModes: Record<string, MultiplayerMode> = {
+  "xion": "Online multiplayer",
+  "battle-drones": "Online multiplayer",
   "murder-mystery-tmc": "Online multiplayer",
   'alibi-two-player': 'Local 2-player',
   "tt-kitchen": "Local 2-player",

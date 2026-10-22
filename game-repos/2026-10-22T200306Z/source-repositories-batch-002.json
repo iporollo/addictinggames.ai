@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "records": [
+    {
+      "repository_url": "https://github.com/simonw/battledrones",
+      "candidate_ids": [
+        "AG-040"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://x.com/simonw/status/2112630778068881543",
+          "observed_at_utc": "2026-10-22T20:37:00Z"
+        },
+        {
+          "url": "https://simonwillison.net/2026/Oct/20/battledrones/",
+          "observed_at_utc": "2026-10-22T20:37:00Z"
+        }
+      ],
+      "commit_sha": "39d6f587f98a82f5c0426e8bd476cef49fd19ef0",
+      "tag": null,
+      "license": "Apache-2.0",
+      "artifact": null
+    }
+  ]
+}
