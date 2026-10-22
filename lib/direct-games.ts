@@ -14,6 +14,16 @@ export type DirectGame = {
 };
 
 const source: [string, string, string, string, string, string?][] = [
+  // October 22 AI Game Scout batch 3: creator evidence and responsive guest play verified.
+  ["vlobby-bolley", "Vlobby Bolley", "Sports", "Move a blob across the court in a one-player volleyball match.", "https://wavedash.com/games/vlobby-bolley", "/games/oct22-vlobby-bolley.webp"],
+  ["senjin", "戦陣 SENJIN", "Strategy", "Place units and take turns in a rock-paper-scissors territory battle.", "https://senjin-game.pages.dev/", "/games/oct22-senjin.webp"],
+  ["detour-dice-club", "Detour Dice Club", "Strategy", "Roll a die and choose a route through a school-day board game.", "https://kazuyoshi1118.itch.io/detour-dice-club", "/games/oct22-detour-dice-club.webp"],
+  ["michikusa-crane-catch", "みちくさクレーンキャッチ", "Arcade", "Guide a claw across a colorful prize machine and try to catch a character.", "https://ai-michikusa.com/games/michikusa-crane-catch/", "/games/oct22-michikusa-crane-catch.webp"],
+  ["street-fighters-ssf2t-3d", "Street Fighters · SSF2T 3D", "Action", "Choose a fighter and use movement, attacks, and a charged super move in a 3D match.", "https://street-fighter.tutti.sh/", "/games/oct22-street-fighters-ssf2t-3d.webp"],
+  ["robot-vs-aliens-survival", "Robot vs Aliens: Survival", "Action", "Defend against alien waves with a robot's timed weapons and abilities.", "https://www.robotvsaliens.com/jogar", "/games/oct22-robot-vs-aliens-survival.webp"],
+  ["el-eternauta-online", "El Eternauta Online — Plaza de Mayo", "Adventure", "Explore a snowy Plaza de Mayo in a short 3D browser demo.", "https://santisiri.github.io/eternauta-online/", "/games/oct22-el-eternauta-online.webp"],
+  ["rumble-reef", "Rumble Reef", "Action", "Join a guest showdown room and aim through a browser multiplayer arena.", "https://rumblereef.vercel.app/", "/games/oct22-rumble-reef.webp"],
+  ["riftwatch", "Riftwatch", "Tower Defense", "Place Spark towers and defend your lane against advancing waves.", "https://defend-the-lord.grok.me/", "/games/oct22-riftwatch.webp"],
   ["mall-revival", "Mall Revival", "Simulators", "Open a shopping mall, welcome customers, and grow your stores through each day.", "https://starlogaming.itch.io/mall-revival", "/games/oct22-mall-revival.webp"],
   ["london-rush", "London Rush", "Racing", "Drive through London's West End and take on story missions behind the wheel.", "https://londonrush.online/", "/games/oct22-london-rush.webp"],
   ["ivan-vs-schiff-hodl-hero", "Ivan vs Schiff: HODL Hero", "Platformer", "Jump across market-chart platforms and collect coins in a side-scrolling adventure.", "https://ivan-vs-schiff.netlify.app/", "/games/oct22-ivan-vs-schiff.webp"],
