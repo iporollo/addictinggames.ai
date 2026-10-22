@@ -14,6 +14,9 @@ export type DirectGame = {
 };
 
 const source: [string, string, string, string, string, string?][] = [
+  // October 22 AI Game Scout batch 6: creator AI evidence and responsive guest play verified.
+  ["mars-colony-defense", "Mars Colony Defense", "Arcade", "Arm dome defenses and tap the sky to protect two Martian cities from falling meteors.", "https://mars-colony-defense.grok.me/", "/games/oct22-mars-colony-defense.webp"],
+  ["swimming-block-breaker", "水泳男子 ブロック崩し", "Arcade", "Launch a ball, guide the paddle, and clear blocks to reveal the image beneath.", "https://bejewelled-cat-c1ec27.netlify.app/", "/games/oct22-swimming-block-breaker.webp"],
   // October 22 AI Game Scout batch 5: creator evidence and responsive guest play verified.
   ["ten-yen-coin-flick", "10-Yen Coin Flick", "Arcade", "Flick a 10-yen coin through a nostalgic Japanese candy-shop arcade board.", "https://ymori.com/aigame/10en/10enHajiki.html", "/games/oct22-10yen-coin-flick.webp"],
   ["closing-time-hk", "收舖 Closing Time", "Adventure", "Explore a Hong Kong shop at closing time as a mysterious phone rings.", "https://howardhwt.github.io/closing-time/", "/games/oct22-closing-time-hk.webp"],
