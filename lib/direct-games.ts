@@ -14,6 +14,9 @@ export type DirectGame = {
 };
 
 const source: [string, string, string, string, string, string?][] = [
+  // October 22 AI Game Scout batch 10: creator AI evidence and responsive guest play verified.
+  ["ore-king", "オレキング The Ore King", "Platformer", "Move the king across ore-filled platforms before the timer runs out.", "https://ogadev.itch.io/the-ore-king", "/games/oct22-ore-king.webp"],
+  ["a-cacada-de-joao-santo", "A caçada de João Santo", "Adventure", "Explore a night street and speak with Padre Sebastião in this Portuguese adventure.", "https://ro2496.itch.io/a-caada-de-joo-santo2", "/games/oct22-joao-santo.webp"],
   // October 22 AI Game Scout batch 9: creator AI evidence and responsive guest play verified.
   ["penguin-iceberg-jump", "ペンギンひょうざんジャンプ", "Arcade", "Set a jump angle and launch a penguin across the ice.", "https://sazanka0421.itch.io/penguin-jump", "/games/oct22-penguin-iceberg-jump.webp"],
   // October 22 AI Game Scout batch 8: creator AI evidence and responsive guest play verified.
