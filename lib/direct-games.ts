@@ -14,6 +14,9 @@ export type DirectGame = {
 };
 
 const source: [string, string, string, string, string, string?][] = [
+  // October 22 AI Game Scout batch 11: creator AI evidence and responsive guest play verified.
+  ["owo-count", "Owo Count", "Casual", "Keep real naira notes and build a score in a timed round.", "https://owo-count.naijabukana.com/", "/games/oct22-owo-count.webp"],
+  ["panache", "Panache", "Strategy", "Command a Belle Époque army across a real-time battlefield.", "https://menufactory43.github.io/panache/", "/games/oct22-panache.webp"],
   // October 22 AI Game Scout batch 10: creator AI evidence and responsive guest play verified.
   ["ore-king", "オレキング The Ore King", "Platformer", "Move the king across ore-filled platforms before the timer runs out.", "https://ogadev.itch.io/the-ore-king", "/games/oct22-ore-king.webp"],
   ["a-cacada-de-joao-santo", "A caçada de João Santo", "Adventure", "Explore a night street and speak with Padre Sebastião in this Portuguese adventure.", "https://ro2496.itch.io/a-caada-de-joo-santo2", "/games/oct22-joao-santo.webp"],
