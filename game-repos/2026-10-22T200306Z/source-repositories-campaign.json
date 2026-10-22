@@ -1,0 +1,1061 @@
+{
+  "schema_version": 2,
+  "records": [
+    {
+      "repository_url": "https://github.com/bluqen/promptcraft",
+      "candidate_ids": [
+        "AG-014"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/bluqen/promptcraft/releases/tag/v1.0.0",
+          "observed_at_utc": "2026-10-22T20:29:00Z"
+        }
+      ],
+      "commit_sha": "05b65e73be95efdd362eda25e6c0865067b28e7f",
+      "tag": "v1.0.0",
+      "license": "CC0-1.0",
+      "artifact": null
+    },
+    {
+      "repository_url": "https://github.com/gylala999/sacked-map-editor-and-mod",
+      "candidate_ids": [
+        "AG-023"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/gylala999/sacked-map-editor-and-mod/releases/tag/v0.1.0",
+          "observed_at_utc": "2026-10-22T20:11:41Z"
+        }
+      ],
+      "commit_sha": "ed43617198fe09541b5e667be43b943cfa088615",
+      "tag": "v0.1.0",
+      "license": "MISSING: GitHub API none",
+      "artifact": null
+    },
+    {
+      "repository_url": "https://github.com/OctoMiku01/Voxy-LOD-Gen",
+      "candidate_ids": [
+        "AG-024"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/OctoMiku01/Voxy-LOD-Gen/releases/tag/v0.4.8-26.2",
+          "observed_at_utc": "2026-10-22T20:11:41Z"
+        }
+      ],
+      "commit_sha": "d76be97c8d96bc7303cc55ad8e1b0879953b7e23",
+      "tag": "v0.4.8-26.2",
+      "license": "MIT",
+      "artifact": null
+    },
+    {
+      "repository_url": "https://github.com/DooDesch-Mods/ScheduleOne-Chassis",
+      "candidate_ids": [
+        "AG-025"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/DooDesch-Mods/ScheduleOne-Chassis/releases/tag/v1.1.0",
+          "observed_at_utc": "2026-10-22T20:11:41Z"
+        }
+      ],
+      "commit_sha": "d5ba055feb607d31bc55ce10a79e553e725b56ab",
+      "tag": "v1.1.0",
+      "license": "MIT",
+      "artifact": null
+    },
+    {
+      "repository_url": "https://github.com/drago139/CastleStorySteamBridge",
+      "candidate_ids": [
+        "AG-026"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/drago139/CastleStorySteamBridge/releases/tag/v0.3.60",
+          "observed_at_utc": "2026-10-22T20:11:41Z"
+        }
+      ],
+      "commit_sha": "fad645dbbb17726bd94435a4e97318ef1418487a",
+      "tag": "v0.3.60",
+      "license": "NOASSERTION (GitHub API)",
+      "artifact": null
+    },
+    {
+      "repository_url": "https://github.com/Geckomacabre/RewindTogether",
+      "candidate_ids": [
+        "AG-027"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/Geckomacabre/RewindTogether/releases/tag/v1.9.2",
+          "observed_at_utc": "2026-10-22T20:11:41Z"
+        }
+      ],
+      "commit_sha": "6cc58dcfc397a2cd4bb83c0982b78a140c431143",
+      "tag": "v1.9.2",
+      "license": "NOASSERTION (GitHub API)",
+      "artifact": null
+    },
+    {
+      "repository_url": "https://github.com/Awperati/tlou2-viewmodel",
+      "candidate_ids": [
+        "AG-028"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/Awperati/tlou2-viewmodel/releases/tag/v1.0.0",
+          "observed_at_utc": "2026-10-22T20:11:41Z"
+        }
+      ],
+      "commit_sha": "e895a75afc8cdab396005e316cf36a1e756583f4",
+      "tag": "v1.0.0",
+      "license": "MIT",
+      "artifact": null
+    },
+    {
+      "repository_url": "https://github.com/simonw/battledrones",
+      "candidate_ids": [
+        "AG-040"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://x.com/simonw/status/2112630778068881543",
+          "observed_at_utc": "2026-10-22T20:37:00Z"
+        }
+      ],
+      "commit_sha": "39d6f587f98a82f5c0426e8bd476cef49fd19ef0",
+      "tag": null,
+      "license": "Apache-2.0",
+      "artifact": null
+    },
+    {
+      "repository_url": "https://github.com/tottori139/auto-ominous-bottle",
+      "candidate_ids": [
+        "AG-050"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/tottori139/auto-ominous-bottle/releases/tag/v1.10.0",
+          "observed_at_utc": "2026-10-22T20:17:53Z"
+        }
+      ],
+      "commit_sha": "414bfe77b2a22482062ee2b72168b46069089998",
+      "tag": "v1.10.0",
+      "license": null,
+      "artifact": null
+    },
+    {
+      "repository_url": "https://github.com/Knito58/billboard",
+      "candidate_ids": [
+        "AG-051"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/Knito58/billboard/releases/tag/v1.1.0",
+          "observed_at_utc": "2026-10-22T20:17:53Z"
+        }
+      ],
+      "commit_sha": "63d5a21d1e94c27aab0070245fe4596b5e83fed3",
+      "tag": "v1.1.0",
+      "license": null,
+      "artifact": null
+    },
+    {
+      "repository_url": "https://github.com/andoraspalace/m9-bayonet",
+      "candidate_ids": [
+        "AG-052"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/andoraspalace/m9-bayonet/releases/tag/v1.0.1-mc26.3",
+          "observed_at_utc": "2026-10-22T20:17:53Z"
+        }
+      ],
+      "commit_sha": "4f6ed59f0dc7c866472e9c3837d16526e5216949",
+      "tag": "v1.0.1-mc26.3",
+      "license": null,
+      "artifact": null
+    },
+    {
+      "repository_url": "https://github.com/Yirb-due-ux/Skyrim-Vertical-Translation",
+      "candidate_ids": [
+        "AG-057"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/Yirb-due-ux/Skyrim-Vertical-Translation#readme (README.md line 82)",
+          "observed_at_utc": "2026-10-22T20:22:18Z"
+        }
+      ],
+      "commit_sha": "61b75a2527aa31c92958c2a7047b3c1d2a70b09e",
+      "tag": null,
+      "license": null,
+      "artifact": null
+    },
+    {
+      "repository_url": "https://github.com/xx20031129-a11y/GlobalKegChest",
+      "candidate_ids": [
+        "AG-058"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/xx20031129-a11y/GlobalKegChest#readme (README.md line 96 (zh line 78: '开发使用了 AI 辅助；功能与兼容性以本文列出的验证范围为准。'))",
+          "observed_at_utc": "2026-10-22T20:22:18Z"
+        }
+      ],
+      "commit_sha": "2f5c8612ec1743605cc29ed28d231ed59d72e3d3",
+      "tag": null,
+      "license": null,
+      "artifact": null
+    },
+    {
+      "repository_url": "https://github.com/tigin-backwards/oni-brutal",
+      "candidate_ids": [
+        "AG-059"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/tigin-backwards/oni-brutal#readme (README.md lines 3-4)",
+          "observed_at_utc": "2026-10-22T20:23:03Z"
+        }
+      ],
+      "commit_sha": "db4b57932b14cc332d3d181942354994a20d22b8",
+      "tag": null,
+      "license": null,
+      "artifact": null
+    },
+    {
+      "repository_url": "https://github.com/thewhitejesus/EterniaCoop",
+      "candidate_ids": [
+        "AG-065"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/thewhitejesus/EterniaCoop#readme (README.md line 183)",
+          "observed_at_utc": "2026-10-22T20:27:47Z"
+        }
+      ],
+      "commit_sha": "5f87ef3c92089a9fa22bd3fcc7cc015423dba40b",
+      "tag": null,
+      "license": null,
+      "artifact": null
+    },
+    {
+      "repository_url": "https://github.com/Water130/tales-of-eternia-waters-edition",
+      "candidate_ids": [
+        "AG-070"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/Water130/tales-of-eternia-waters-edition/blob/99dc89baa5956edc5ee5b691dfabf548b756d0fe/README.md#L74",
+          "observed_at_utc": "2026-10-22T20:34:37Z"
+        }
+      ],
+      "commit_sha": "99dc89baa5956edc5ee5b691dfabf548b756d0fe",
+      "tag": null,
+      "license": null,
+      "artifact": null
+    },
+    {
+      "repository_url": "https://github.com/neojou/myants",
+      "candidate_ids": [
+        "AG-071"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://x.com/NeoJou/status/2113306828616650982",
+          "observed_at_utc": "2026-10-22T20:41:10Z"
+        }
+      ],
+      "commit_sha": null,
+      "tag": null,
+      "license": null,
+      "artifact": null
+    },
+    {
+      "repository_url": "https://github.com/xandermodsstuff-dot/ultrakill-minecraft",
+      "candidate_ids": [
+        "AG-078"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/xandermodsstuff-dot/ultrakill-minecraft/blob/15f2d1be272b15efb84448a231e64ae4d450bdda/README.md#L267",
+          "observed_at_utc": "2026-10-22T20:44:28Z"
+        }
+      ],
+      "commit_sha": "15f2d1be272b15efb84448a231e64ae4d450bdda",
+      "tag": null,
+      "license": null,
+      "artifact": null
+    },
+    {
+      "repository_url": "https://github.com/GaelQuinta/minecraft-metal-shaders",
+      "candidate_ids": [
+        "AG-079"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/GaelQuinta/minecraft-metal-shaders/blob/a5b5a98ef6b1ea47b0e713b8bd3ae687f8d473e7/README.md#L201",
+          "observed_at_utc": "2026-10-22T20:44:28Z"
+        }
+      ],
+      "commit_sha": "a5b5a98ef6b1ea47b0e713b8bd3ae687f8d473e7",
+      "tag": null,
+      "license": null,
+      "artifact": null
+    },
+    {
+      "repository_url": "https://github.com/drakethos/DrakesRenameIt",
+      "candidate_ids": [
+        "AG-091"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/drakethos/DrakesRenameIt/blob/cc34b379764a20c8817163c2121fc7d3c7077aa6/README.md#L267",
+          "observed_at_utc": "2026-10-22T20:51:56Z"
+        }
+      ],
+      "commit_sha": "cc34b379764a20c8817163c2121fc7d3c7077aa6",
+      "tag": null,
+      "license": null,
+      "artifact": null
+    },
+    {
+      "repository_url": "https://github.com/fr3ddy-fryd3/sbw-npc",
+      "candidate_ids": [
+        "AG-097"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/fr3ddy-fryd3/sbw-npc/blob/3256b36edafd6813296457e7a0a6339cac54ee70/README.md#L55-L57",
+          "observed_at_utc": "2026-10-22T20:59:04Z"
+        }
+      ],
+      "commit_sha": "3256b36edafd6813296457e7a0a6339cac54ee70",
+      "tag": null,
+      "license": null,
+      "artifact": null
+    },
+    {
+      "repository_url": "https://github.com/R0B0W01F-SRW/skyrim-arise",
+      "candidate_ids": [
+        "AG-098"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/R0B0W01F-SRW/skyrim-arise/blob/641d4a13596a2b20e930791dbfdddfa3046c6589/README.md#L102",
+          "observed_at_utc": "2026-10-22T21:01:49Z"
+        }
+      ],
+      "commit_sha": "641d4a13596a2b20e930791dbfdddfa3046c6589",
+      "tag": null,
+      "license": null,
+      "artifact": null
+    },
+    {
+      "repository_url": "https://github.com/aaronsb/die-kollektion",
+      "candidate_ids": [
+        "AG-099"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/aaronsb/die-kollektion/blob/65239fe9fa3a0a27002116de9a6bf7101b897720/README.md#L49",
+          "observed_at_utc": "2026-10-22T21:01:49Z"
+        }
+      ],
+      "commit_sha": "65239fe9fa3a0a27002116de9a6bf7101b897720",
+      "tag": null,
+      "license": null,
+      "artifact": null
+    },
+    {
+      "repository_url": "https://github.com/Dobutsu/repo-quest-vr",
+      "candidate_ids": [
+        "AG-100"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/Dobutsu/repo-quest-vr/blob/0d8357426b4c275313e8f24bfdd63320e0dd021e/README.md#L120-L121",
+          "observed_at_utc": "2026-10-22T21:01:49Z"
+        }
+      ],
+      "commit_sha": "0d8357426b4c275313e8f24bfdd63320e0dd021e",
+      "tag": null,
+      "license": null,
+      "artifact": null
+    },
+    {
+      "repository_url": "https://github.com/AinsteinDev/MundaneMatters",
+      "candidate_ids": [
+        "AG-101"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/AinsteinDev/MundaneMatters/blob/73d5c55035414de46848a23d422a706c57d07aba/README.md#L244",
+          "observed_at_utc": "2026-10-22T21:01:49Z"
+        }
+      ],
+      "commit_sha": "73d5c55035414de46848a23d422a706c57d07aba",
+      "tag": null,
+      "license": null,
+      "artifact": null
+    },
+    {
+      "repository_url": "https://github.com/leviritchie/Golden-Era",
+      "candidate_ids": [
+        "AG-102"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/leviritchie/Golden-Era/blob/6b1763d70d5ab7b60dcbbb1f98109cba533a176f/README.md#L108",
+          "observed_at_utc": "2026-10-22T21:01:49Z"
+        }
+      ],
+      "commit_sha": "6b1763d70d5ab7b60dcbbb1f98109cba533a176f",
+      "tag": null,
+      "license": null,
+      "artifact": null
+    },
+    {
+      "repository_url": "https://github.com/DooDesch-Mods/ScheduleOne-Polyfill",
+      "candidate_ids": [
+        "AG-123"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/DooDesch-Mods/ScheduleOne-Polyfill/blob/af19f77740aa6853bf67ab145f8fd7c3425e6536/README.md#L137",
+          "observed_at_utc": "2026-10-22T21:07:34Z"
+        }
+      ],
+      "commit_sha": "af19f77740aa6853bf67ab145f8fd7c3425e6536",
+      "tag": null,
+      "license": null,
+      "artifact": null
+    },
+    {
+      "repository_url": "https://github.com/Gesvd/Gesvd-s-RimLingo-a-runtime-translator-for-RimWorld",
+      "candidate_ids": [
+        "AG-124"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/Gesvd/Gesvd-s-RimLingo-a-runtime-translator-for-RimWorld/blob/e3dc8cfed529f19fa9e41ef75fef6c3922bddc06/README.md#L5",
+          "observed_at_utc": "2026-10-22T21:07:34Z"
+        }
+      ],
+      "commit_sha": "e3dc8cfed529f19fa9e41ef75fef6c3922bddc06",
+      "tag": null,
+      "license": null,
+      "artifact": null
+    },
+    {
+      "repository_url": "https://github.com/Skyl3lazer/Psyche",
+      "candidate_ids": [
+        "AG-125"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/Skyl3lazer/Psyche/blob/18fe056501217adf71c12f164fe0b0c38f3e59d4/README.md#L67",
+          "observed_at_utc": "2026-10-22T21:07:34Z"
+        }
+      ],
+      "commit_sha": "18fe056501217adf71c12f164fe0b0c38f3e59d4",
+      "tag": null,
+      "license": null,
+      "artifact": null
+    },
+    {
+      "repository_url": "https://github.com/phoenix9-lab/vs-rudiments",
+      "candidate_ids": [
+        "AG-127"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/phoenix9-lab/vs-rudiments/blob/cbda302cd9be58e1176e0671004ef2a7d2d8a85a/README.md#L3",
+          "observed_at_utc": "2026-10-22T21:13:40Z"
+        }
+      ],
+      "commit_sha": "cbda302cd9be58e1176e0671004ef2a7d2d8a85a",
+      "tag": null,
+      "license": null,
+      "artifact": null
+    },
+    {
+      "repository_url": "https://github.com/KruemelGames/ParkingLotTool",
+      "candidate_ids": [
+        "AG-134"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/KruemelGames/ParkingLotTool/blob/918b7f9fc13efda8adffcc3a3d66336780d4c861/README.md#L124",
+          "observed_at_utc": "2026-10-22T21:21:24Z"
+        }
+      ],
+      "commit_sha": "918b7f9fc13efda8adffcc3a3d66336780d4c861",
+      "tag": null,
+      "license": null,
+      "artifact": null
+    },
+    {
+      "repository_url": "https://github.com/KillerPixelCrew/VulkanStory",
+      "candidate_ids": [
+        "AG-135"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/KillerPixelCrew/VulkanStory/blob/94e9a5b1e7431a305b91cc6edaecdf889a493968/README.md#L167",
+          "observed_at_utc": "2026-10-22T21:21:24Z"
+        }
+      ],
+      "commit_sha": "94e9a5b1e7431a305b91cc6edaecdf889a493968",
+      "tag": null,
+      "license": null,
+      "artifact": null
+    },
+    {
+      "repository_url": "https://github.com/thegandalf196/new-horizons",
+      "candidate_ids": [
+        "AG-136"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/thegandalf196/new-horizons/blob/0b0e10c486508758731982f7446877d047e4f763/README.md#L93",
+          "observed_at_utc": "2026-10-22T21:21:24Z"
+        }
+      ],
+      "commit_sha": "0b0e10c486508758731982f7446877d047e4f763",
+      "tag": null,
+      "license": null,
+      "artifact": null
+    },
+    {
+      "repository_url": "https://github.com/VOTV-MP/Multivoid",
+      "candidate_ids": [
+        "AG-162"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/VOTV-MP/Multivoid/blob/ec2841e71a8670c7cdc109a1a5be624a939911f9/README.md#L128",
+          "observed_at_utc": "2026-10-22T21:29:32Z"
+        }
+      ],
+      "commit_sha": "ec2841e71a8670c7cdc109a1a5be624a939911f9",
+      "tag": null,
+      "license": null,
+      "artifact": null
+    },
+    {
+      "repository_url": "https://github.com/plaxerx/MoarChallengesPlease",
+      "candidate_ids": [
+        "AG-171"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/plaxerx/MoarChallengesPlease/blob/456fed79ad80677ec678cfe64006d54a18890e0a/README.md#L63",
+          "observed_at_utc": "2026-10-22T21:37:35Z"
+        }
+      ],
+      "commit_sha": "456fed79ad80677ec678cfe64006d54a18890e0a",
+      "tag": null,
+      "license": null,
+      "artifact": null
+    },
+    {
+      "repository_url": "https://github.com/plaxerx/pinochle",
+      "candidate_ids": [
+        "AG-172"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/plaxerx/pinochle/blob/5a76091ac01b1d90abaee1fabd7ed7878b223c7e/README.md#L49",
+          "observed_at_utc": "2026-10-22T21:37:35Z"
+        }
+      ],
+      "commit_sha": "5a76091ac01b1d90abaee1fabd7ed7878b223c7e",
+      "tag": null,
+      "license": null,
+      "artifact": null
+    },
+    {
+      "repository_url": "https://github.com/hung-eggie-do-covergo/stardew-thor-dual-screen",
+      "candidate_ids": [
+        "AG-173"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/hung-eggie-do-covergo/stardew-thor-dual-screen/blob/15f05b63d3ca852f3729e20de67fc7446bfac112/README.md#L29",
+          "observed_at_utc": "2026-10-22T21:37:35Z"
+        }
+      ],
+      "commit_sha": "15f05b63d3ca852f3729e20de67fc7446bfac112",
+      "tag": null,
+      "license": null,
+      "artifact": null
+    },
+    {
+      "repository_url": "https://github.com/SSS-today/DeadfireStutterFix",
+      "candidate_ids": [
+        "AG-191"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/SSS-today/DeadfireStutterFix/blob/39ae3bddf430e2b0ae79383deaa113c29b7bf589/README.md#L5",
+          "observed_at_utc": "2026-10-22T21:59:00Z"
+        }
+      ],
+      "commit_sha": "39ae3bddf430e2b0ae79383deaa113c29b7bf589",
+      "tag": null,
+      "license": null,
+      "artifact": null
+    },
+    {
+      "repository_url": "https://github.com/Komilon/ironbark-coop",
+      "candidate_ids": [
+        "AG-192"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/Komilon/ironbark-coop/blob/890eb4642a1145ca1de01fbaea11a5be0f252496/README.md#L127",
+          "observed_at_utc": "2026-10-22T21:59:00Z"
+        }
+      ],
+      "commit_sha": "890eb4642a1145ca1de01fbaea11a5be0f252496",
+      "tag": null,
+      "license": null,
+      "artifact": null
+    },
+    {
+      "repository_url": "https://github.com/Shocklinks/autonauts-coop",
+      "candidate_ids": [
+        "AG-193"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/Shocklinks/autonauts-coop/blob/5bca64e32de98297eb81aff565311ea635791f22/README.md#L191",
+          "observed_at_utc": "2026-10-22T21:59:00Z"
+        }
+      ],
+      "commit_sha": "5bca64e32de98297eb81aff565311ea635791f22",
+      "tag": null,
+      "license": null,
+      "artifact": null
+    },
+    {
+      "repository_url": "https://github.com/Parricidium/MWCoop",
+      "candidate_ids": [
+        "AG-230"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/Parricidium/MWCoop/blob/30bf1d9d262907801a5ff7e1abd02d8bb6a8aac6/README.md#L351",
+          "observed_at_utc": "2026-10-22T22:09:34Z"
+        }
+      ],
+      "commit_sha": "30bf1d9d262907801a5ff7e1abd02d8bb6a8aac6",
+      "tag": null,
+      "license": null,
+      "artifact": null
+    },
+    {
+      "repository_url": "https://github.com/ScarredVeins/TLDCo-Op",
+      "candidate_ids": [
+        "AG-231"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/ScarredVeins/TLDCo-Op/blob/3d54e5a027ecca3199a86c3d6e9c3f81ace50236/README.md#L328",
+          "observed_at_utc": "2026-10-22T22:09:34Z"
+        }
+      ],
+      "commit_sha": "3d54e5a027ecca3199a86c3d6e9c3f81ace50236",
+      "tag": null,
+      "license": null,
+      "artifact": null
+    },
+    {
+      "repository_url": "https://github.com/Darmantu/GorelabFix",
+      "candidate_ids": [
+        "AG-232"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/Darmantu/GorelabFix/blob/7133239170b275aa7e12542c09be4ed12b890af7/README.md#L92",
+          "observed_at_utc": "2026-10-22T22:09:34Z"
+        }
+      ],
+      "commit_sha": "7133239170b275aa7e12542c09be4ed12b890af7",
+      "tag": null,
+      "license": null,
+      "artifact": null
+    },
+    {
+      "repository_url": "https://github.com/president-lion/sally_face_access",
+      "candidate_ids": [
+        "AG-233"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/president-lion/sally_face_access/blob/1feb537d6eeddc000b0b2db8227d166be09094c9/README.md#L68",
+          "observed_at_utc": "2026-10-22T22:09:34Z"
+        }
+      ],
+      "commit_sha": "1feb537d6eeddc000b0b2db8227d166be09094c9",
+      "tag": null,
+      "license": null,
+      "artifact": null
+    },
+    {
+      "repository_url": "https://github.com/undecuple/insaniquarium-remastered",
+      "candidate_ids": [
+        "AG-234"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/undecuple/insaniquarium-remastered/blob/8c9cd9cedf07d1c8fb16501ba63e7ab499f14578/README.md#L171",
+          "observed_at_utc": "2026-10-22T22:09:34Z"
+        }
+      ],
+      "commit_sha": "8c9cd9cedf07d1c8fb16501ba63e7ab499f14578",
+      "tag": null,
+      "license": null,
+      "artifact": null
+    },
+    {
+      "repository_url": "https://github.com/Jayconius/chaos-dx-sm64",
+      "candidate_ids": [
+        "AG-235"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/Jayconius/chaos-dx-sm64/blob/3e5d6210f6573d0b03f4eb982ac9aba46f233aeb/README.md#L171",
+          "observed_at_utc": "2026-10-22T22:09:34Z"
+        }
+      ],
+      "commit_sha": "3e5d6210f6573d0b03f4eb982ac9aba46f233aeb",
+      "tag": null,
+      "license": null,
+      "artifact": null
+    },
+    {
+      "repository_url": "https://github.com/Minnteee/Dice-Rush-Extended",
+      "candidate_ids": [
+        "AG-243"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/Minnteee/Dice-Rush-Extended/blob/3b053f40088e6ede60d0f8f7307ad564c04fed04/README.md#L186",
+          "observed_at_utc": "2026-10-22T22:20:00Z"
+        }
+      ],
+      "commit_sha": "3b053f40088e6ede60d0f8f7307ad564c04fed04",
+      "tag": null,
+      "license": null,
+      "artifact": null
+    },
+    {
+      "repository_url": "https://github.com/stykko/Working-Vehicles",
+      "candidate_ids": [
+        "AG-244"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/stykko/Working-Vehicles/blob/554231887b65125864775e3f59f6f7973f52cba6/README.md#L43",
+          "observed_at_utc": "2026-10-22T22:20:00Z"
+        }
+      ],
+      "commit_sha": "554231887b65125864775e3f59f6f7973f52cba6",
+      "tag": null,
+      "license": null,
+      "artifact": null
+    },
+    {
+      "repository_url": "https://github.com/dbfoxtw/probably-stolen-mods",
+      "candidate_ids": [
+        "AG-245"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/dbfoxtw/probably-stolen-mods/blob/ac8b73f31f584eb6b7fdd70ce0648f0ff1e33825/README.md#L59",
+          "observed_at_utc": "2026-10-22T22:20:00Z"
+        }
+      ],
+      "commit_sha": "ac8b73f31f584eb6b7fdd70ce0648f0ff1e33825",
+      "tag": null,
+      "license": null,
+      "artifact": null
+    },
+    {
+      "repository_url": "https://github.com/BazaarPlusPlus/BazaarPlusPlus",
+      "candidate_ids": [
+        "AG-251"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/BazaarPlusPlus/BazaarPlusPlus/blob/bd88473e29eca6b514a5834d0b82ed88c5e119f2/README.md#L28",
+          "observed_at_utc": "2026-10-22T22:34:17Z"
+        }
+      ],
+      "commit_sha": "bd88473e29eca6b514a5834d0b82ed88c5e119f2",
+      "tag": null,
+      "license": null,
+      "artifact": null
+    },
+    {
+      "repository_url": "https://github.com/SchaustOmat/LEGO-Batman-2-x-Minecraft",
+      "candidate_ids": [
+        "AG-252"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/SchaustOmat/LEGO-Batman-2-x-Minecraft/blob/a094cc72b8b1fa3280922aadb34648efded4d601/README.md#L128",
+          "observed_at_utc": "2026-10-22T22:40:20Z"
+        }
+      ],
+      "commit_sha": "a094cc72b8b1fa3280922aadb34648efded4d601",
+      "tag": null,
+      "license": null,
+      "artifact": null
+    },
+    {
+      "repository_url": "https://github.com/BroZYTnikkkk/pacific-drive-coop",
+      "candidate_ids": [
+        "AG-257"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/BroZYTnikkkk/pacific-drive-coop/blob/bb5fe6281128cee7612aa8d35912261ccb0987c4/README.md#L144",
+          "observed_at_utc": "2026-10-22T22:56:18Z"
+        }
+      ],
+      "commit_sha": "bb5fe6281128cee7612aa8d35912261ccb0987c4",
+      "tag": null,
+      "license": null,
+      "artifact": null
+    },
+    {
+      "repository_url": "https://github.com/nurullahakin/vibed-pong",
+      "candidate_ids": [
+        "AG-258"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/nurullahakin/vibed-pong/blob/HEAD/README.md#L3",
+          "observed_at_utc": "2026-10-22T22:56:18Z"
+        }
+      ],
+      "commit_sha": null,
+      "tag": null,
+      "license": null,
+      "artifact": null
+    },
+    {
+      "repository_url": "https://github.com/Reetika-k/equation-catcher",
+      "candidate_ids": [
+        "AG-259"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/Reetika-k/equation-catcher/blob/HEAD/README.md#L78",
+          "observed_at_utc": "2026-10-22T22:56:18Z"
+        }
+      ],
+      "commit_sha": null,
+      "tag": null,
+      "license": null,
+      "artifact": null
+    },
+    {
+      "repository_url": "https://github.com/akilex02/cj-in-minecraft",
+      "candidate_ids": [
+        "AG-260"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/akilex02/cj-in-minecraft/blob/ea7d8e2f32ffb629247bc274b2b73ebd7805d315/README.md#L48",
+          "observed_at_utc": "2026-10-22T22:56:18Z"
+        }
+      ],
+      "commit_sha": "ea7d8e2f32ffb629247bc274b2b73ebd7805d315",
+      "tag": null,
+      "license": null,
+      "artifact": null
+    },
+    {
+      "repository_url": "https://github.com/JRDevo/ETS2-ATS-DLAA-DLSS-Injection-Mod",
+      "candidate_ids": [
+        "AG-261"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/JRDevo/ETS2-ATS-DLAA-DLSS-Injection-Mod/blob/2da62a208d89270a2109c006ec69bed501c01564/README.md#L1085",
+          "observed_at_utc": "2026-10-22T22:56:18Z"
+        }
+      ],
+      "commit_sha": "2da62a208d89270a2109c006ec69bed501c01564",
+      "tag": null,
+      "license": null,
+      "artifact": null
+    },
+    {
+      "repository_url": "https://github.com/CowboyBingus/BetterStratagemBounce",
+      "candidate_ids": [
+        "AG-262"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/CowboyBingus/BetterStratagemBounce/blob/b67b4dce2326609cc38aea1daa6fa9339d4bdcb6/README.md#L36",
+          "observed_at_utc": "2026-10-22T22:56:18Z"
+        }
+      ],
+      "commit_sha": "b67b4dce2326609cc38aea1daa6fa9339d4bdcb6",
+      "tag": null,
+      "license": null,
+      "artifact": null
+    },
+    {
+      "repository_url": "https://github.com/CodeNameMeteor/mecmp",
+      "candidate_ids": [
+        "AG-263"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/CodeNameMeteor/mecmp/blob/b69c324740c1635b9bdae1987c30803fb0e7b027/README.md#L157",
+          "observed_at_utc": "2026-10-22T22:56:18Z"
+        }
+      ],
+      "commit_sha": "b69c324740c1635b9bdae1987c30803fb0e7b027",
+      "tag": null,
+      "license": null,
+      "artifact": null
+    },
+    {
+      "repository_url": "https://github.com/Utimaa/ResidentCraft4",
+      "candidate_ids": [
+        "AG-264"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/Utimaa/ResidentCraft4/blob/b512ccc1c3b7ddb50cd4b7d3bf16a3e43e4a7c11/README.md#L5",
+          "observed_at_utc": "2026-10-22T22:56:18Z"
+        }
+      ],
+      "commit_sha": "b512ccc1c3b7ddb50cd4b7d3bf16a3e43e4a7c11",
+      "tag": null,
+      "license": null,
+      "artifact": null
+    },
+    {
+      "repository_url": "https://github.com/NahuelGenchi/kirbys-dead-land",
+      "candidate_ids": [
+        "AG-265"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/NahuelGenchi/kirbys-dead-land/blob/4c6b8942d9d2502ab9a323086822113ab540fe2e/README.md#L467",
+          "observed_at_utc": "2026-10-22T22:56:18Z"
+        }
+      ],
+      "commit_sha": "4c6b8942d9d2502ab9a323086822113ab540fe2e",
+      "tag": null,
+      "license": null,
+      "artifact": null
+    },
+    {
+      "repository_url": "https://github.com/stanleymov/DOOM-RING",
+      "candidate_ids": [
+        "AG-266"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/stanleymov/DOOM-RING/blob/a8751f269d763dbadef4ea7ee7c2ca7e4a019f05/README.md#L260",
+          "observed_at_utc": "2026-10-22T22:56:18Z"
+        }
+      ],
+      "commit_sha": "a8751f269d763dbadef4ea7ee7c2ca7e4a019f05",
+      "tag": null,
+      "license": null,
+      "artifact": null
+    },
+    {
+      "repository_url": "https://github.com/momotori01/ENSHROUDED-VR-MOD",
+      "candidate_ids": [
+        "AG-267"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/momotori01/ENSHROUDED-VR-MOD/blob/912061ed54c57f414c7617b4b115d1edc6ab7431/README.md#L151",
+          "observed_at_utc": "2026-10-22T22:56:18Z"
+        }
+      ],
+      "commit_sha": "912061ed54c57f414c7617b4b115d1edc6ab7431",
+      "tag": null,
+      "license": null,
+      "artifact": null
+    },
+    {
+      "repository_url": "https://github.com/LeoShaddz/GTA-SA-Bike-Turbo-Mod",
+      "candidate_ids": [
+        "AG-268"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/LeoShaddz/GTA-SA-Bike-Turbo-Mod/blob/HEAD/README.md#L8",
+          "observed_at_utc": "2026-10-22T22:56:18Z"
+        }
+      ],
+      "commit_sha": null,
+      "tag": null,
+      "license": null,
+      "artifact": null
+    },
+    {
+      "repository_url": "https://github.com/SandboxWorldOnline/Open-Terraria",
+      "candidate_ids": [
+        "AG-269"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/SandboxWorldOnline/Open-Terraria/blob/HEAD/README.md#L8",
+          "observed_at_utc": "2026-10-22T22:56:18Z"
+        }
+      ],
+      "commit_sha": null,
+      "tag": null,
+      "license": null,
+      "artifact": null
+    },
+    {
+      "repository_url": "https://github.com/victor-ai-mods/fo4-nearest-quest-tracker",
+      "candidate_ids": [
+        "AG-270"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/victor-ai-mods/fo4-nearest-quest-tracker/blob/HEAD/README.md#L173",
+          "observed_at_utc": "2026-10-22T22:56:18Z"
+        }
+      ],
+      "commit_sha": null,
+      "tag": null,
+      "license": null,
+      "artifact": null
+    },
+    {
+      "repository_url": "https://github.com/vbardales/Rimworld-Architect-Studio",
+      "candidate_ids": [
+        "AG-271"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/vbardales/Rimworld-Architect-Studio/blob/v1.1.0/README.md#L92",
+          "observed_at_utc": "2026-10-22T22:56:18Z"
+        }
+      ],
+      "commit_sha": null,
+      "tag": null,
+      "license": null,
+      "artifact": null
+    }
+  ]
+}
