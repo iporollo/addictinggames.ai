@@ -14,6 +14,8 @@ export type DirectGame = {
 };
 
 const source: [string, string, string, string, string, string?][] = [
+  ["oddbrew", "Oddbrew", "Puzzle", "Sort enchanted potions for unusual customers in a midnight apothecary.", "https://app.usecrayon.ai/play/8128b416-a6ab-4073-a59b-56461a58fd1e", "/games/oct22-oddbrew.webp"],
+  ["towline", "TOWLINE", "Action", "Ride a hoverboard behind a truck, switch lanes, and collect coins across colorful districts.", "https://app.usecrayon.ai/play/6f37d763-d3f5-4a33-92d1-7731e8ac2a56", "/games/oct22-towline.webp"],
   ["dungeons-holdfast", "Towns: Holdfast", "Simulators", "Explore an isometric settlement and select citizens to follow their lives.", "https://dungeons.grok.me/holdfast", "/games/oct20-resume-dungeons-holdfast.webp"],
   ["dungeons-outvector", "Outvector", "Arcade", "Pilot a small spacecraft through a dark starfield with directional thrust controls.", "https://dungeons.grok.me/vector", "/games/oct20-resume-dungeons-outvector.webp"],
   ["dungeons-empyrean", "Empyrean", "Adventure", "Guide a character through a rugged fantasy landscape with click-to-move controls.", "https://dungeons.grok.me/empyrean", "/games/oct20-resume-dungeons-empyrean.webp"],
@@ -628,6 +630,8 @@ const source: [string, string, string, string, string, string?][] = [
 ];
 
 const reviewNotes: Record<string, string> = {
+  'oddbrew': 'A short guest test selected a potion bottle and confirmed the workbench responded; it did not complete an order.',
+  'towline': 'A short guest test changed the rider from the center to the left lane; it did not complete a run.',
   'birdieswing-island-run': 'The short guest test muted with the in-player control, started Island Run, reached the tee, and advanced the swing prompt into its target/impact timing cues; a shot landing or completed hole was not confirmed. Sharing a daily challenge is not treated as live multiplayer.',
   '3d-jelly-shooter-arcade': 'The short guest test verified responsive shooting in the creator-hosted 3D arcade but did not complete a run.',
   'monster-forest-survival': 'The short guest test muted with the in-player control, entered Wave 1, and verified movement in the rendered forest arena. The run reached GAME OVER after 27 seconds with 13 kills; autonomous attacks and timer progress are not attributed solely to the movement input.',
