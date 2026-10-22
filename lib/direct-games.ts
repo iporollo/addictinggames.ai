@@ -14,6 +14,8 @@ export type DirectGame = {
 };
 
 const source: [string, string, string, string, string, string?][] = [
+  // October 22 AI Game Scout batch 7: creator AI evidence and responsive guest play verified.
+  ["hypernova", "Hypernova", "Arcade", "Pilot a comet ship through enemy swarms, gather gold, and choose upgrades as you survive.", "https://0xdiid.github.io/hypernova/", "/games/oct22-hypernova.webp"],
   // October 22 AI Game Scout batch 6: creator AI evidence and responsive guest play verified.
   ["mars-colony-defense", "Mars Colony Defense", "Arcade", "Arm dome defenses and tap the sky to protect two Martian cities from falling meteors.", "https://mars-colony-defense.grok.me/", "/games/oct22-mars-colony-defense.webp"],
   ["swimming-block-breaker", "水泳男子 ブロック崩し", "Arcade", "Launch a ball, guide the paddle, and clear blocks to reveal the image beneath.", "https://bejewelled-cat-c1ec27.netlify.app/", "/games/oct22-swimming-block-breaker.webp"],
