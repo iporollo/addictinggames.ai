@@ -1,0 +1,8 @@
+# Batch 006: two direct browser games
+
+AI Game Scout run `2026-10-22T200306Z`. Both entries passed exact identity, game-specific AI creation, current-catalog/owner-decision deduplication, and responsive guest play. They open the creator destination directly; restricted-player iframe gameplay was not verified. Each selected cover is a 960×540 WebP from two generated, game-grounded choices shown during the run. Alternative artwork and full private play receipts remain in the local run ledger.
+
+- **AG-044 Mars Colony Defense** — https://mars-colony-defense.grok.me/. The creator's [X post](https://x.com/scardinafineart/status/2112718389940809881) names this exact game and says it was built with Grok. A GPT-6 Luna Max guest test muted the game, armed Dome Defense, tapped the sky, and observed the crosshair, used-defense state, and the next wave. Cover B was selected: a graphic Martian defense turret, two domed cities, and falling meteors. Missile Command inspiration is a linking warning, not a denial.
+- **AG-049 水泳男子 ブロック崩し** — https://bejewelled-cat-c1ec27.netlify.app/. The creator's [X post](https://x.com/TUKIUTA33/status/2112876458494628170) links the game and says ChatGPT wrote its code. A GPT-6 Luna Max guest test started the game and launched the ball; block count fell from 88 to 85 and cleared percentage rose from 0 to 3. Cover B was selected: a graphic pool-tile block breaker with ball, paddle, and cleared blocks. The Netlify subdomain is creator-linked in the source post.
+
+No Tesla Roadster slot is involved. The Hot Right Now daily shelf was already refreshed in this UTC day's earlier authorized release, so this batch leaves it unchanged.
