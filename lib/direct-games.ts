@@ -14,6 +14,9 @@ export type DirectGame = {
 };
 
 const source: [string, string, string, string, string, string?][] = [
+  // October 22 AI Game Scout batch 12: creator AI evidence and responsive guest play verified.
+  ["yanyue", "檐跃 Yanyue", "Platformer", "Jump across moonlit rooftops and clear obstacles in a fast parkour run.", "https://grove-solar-scarlet-prism.grok.me/", "/games/oct22-yanyue.webp"],
+  ["catching-halleys-comet", "Catching Halley's Comet", "Shooter", "Pilot a probe toward Halley's Comet through a scrolling space mission.", "https://catchinghalleyscomet07282061.grok.me/", "/games/oct22-halley-comet.webp"],
   // October 22 AI Game Scout batch 11: creator AI evidence and responsive guest play verified.
   ["owo-count", "Owo Count", "Casual", "Keep real naira notes and build a score in a timed round.", "https://owo-count.naijabukana.com/", "/games/oct22-owo-count.webp"],
   ["panache", "Panache", "Strategy", "Command a Belle Époque army across a real-time battlefield.", "https://menufactory43.github.io/panache/", "/games/oct22-panache.webp"],
