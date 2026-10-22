@@ -14,6 +14,10 @@ export type DirectGame = {
 };
 
 const source: [string, string, string, string, string, string?][] = [
+  // October 22 AI Game Scout batch 5: creator evidence and responsive guest play verified.
+  ["ten-yen-coin-flick", "10-Yen Coin Flick", "Arcade", "Flick a 10-yen coin through a nostalgic Japanese candy-shop arcade board.", "https://ymori.com/aigame/10en/10enHajiki.html", "/games/oct22-10yen-coin-flick.webp"],
+  ["closing-time-hk", "收舖 Closing Time", "Adventure", "Explore a Hong Kong shop at closing time as a mysterious phone rings.", "https://howardhwt.github.io/closing-time/", "/games/oct22-closing-time-hk.webp"],
+  ["karen-warfare", "Karen Warfare", "Shooter", "Enter a playful first-person team battle in a suburban shopping mall.", "https://karenwarfare.fun/", "/games/oct22-karen-warfare.webp"],
   // October 22 AI Game Scout batch 4: creator evidence and responsive guest play verified.
   ["arg-gov-tycoon", "Arg Gov Tycoon", "Simulators", "Collect funds and build civic sites across an isometric city grid.", "https://agg.eibertek.com.ar/", "/games/oct22-arg-gov-tycoon.webp"],
   ["operacion-vostok", "Operación Vostok", "Shooter", "Move, aim, and fight through a retro low-poly tactical arena.", "https://operacion-vostok.vercel.app/", "/games/oct22-operacion-vostok.webp"],
