@@ -80,8 +80,11 @@ export function validateCampaign(run, { complete = false, releaseIds = [], check
   }
   const discoveryClosed = discovery.mode === 'closed_list' || utc(discovery.stopped_at_utc);
   if (run.status === 'interrupted') require(text(run.interruption?.reason) && text(run.interruption?.next_action), 'interruption requires fault and recovery action');
-  require(run.adjudicator?.family === 'Grok 4.7 High' && run.adjudicator?.provider === 'cursor' && text(run.adjudicator?.model_id), 'Grok 4.7 High through Cursor required');
-  evidence(run.adjudicator?.preflight_refs, 'adjudicator model preflight');
+  const needsGrok = run.candidates.some(c => c.decision?.route === 'grok_second_pass' || (c.decision?.publish != null && c.decision?.route == null));
+  if (needsGrok || run.adjudicator != null) {
+    require(run.adjudicator?.family === 'Grok 4.7 High' && run.adjudicator?.provider === 'cursor' && text(run.adjudicator?.model_id), 'Grok 4.7 High through Cursor required for second pass');
+    evidence(run.adjudicator?.preflight_refs, 'adjudicator model preflight');
+  }
   const ids = run.candidates.map(c => c.id);
   require(ids.every(text) && new Set(ids).size === ids.length, 'candidate IDs must be stable and unique');
   require(Array.isArray(run.ordered_candidate_ids) && run.ordered_candidate_ids.length === ids.length && new Set(run.ordered_candidate_ids).size === ids.length && ids.every(id => run.ordered_candidate_ids.includes(id)), 'ordered queue must cover every candidate exactly once');
@@ -127,14 +130,35 @@ export function validateCampaign(run, { complete = false, releaseIds = [], check
     }
     const d = c.decision ?? {};
     require([null, 0, 1].includes(d.publish), `${label}: decision must be pending/null or binary`);
+    require([null, undefined, 'first_pass', 'grok_second_pass'].includes(d.route), `${label}: invalid decision route`);
+    const second = c.second_pass;
+    if (second != null) {
+      require(text(second.hold_gate) && text(second.hold_reason) && utc(second.held_at_utc), `${label}: second-pass factual hold and UTC checkpoint required`);
+      evidence(second.hold_refs, `${label} first-pass hold`);
+      require(Array.isArray(second.fresh_attempt_ids), `${label}: second-pass fresh attempt IDs required`);
+      const freshIds = second.fresh_attempt_ids ?? [];
+      require(new Set(freshIds).size === freshIds.length && freshIds.every(id => c.attempts?.some(a => a.id === id && Date.parse(a.observed_at_utc) > Date.parse(second.held_at_utc))), `${label}: fresh attempts must follow the hold checkpoint`);
+    }
     const p = c.publication ?? {};
     require(['not_started', 'releasing', 'failed', 'live_verified'].includes(p.status), `${label}: invalid publication status`);
     if (d.publish === null) {
+      require(d.route == null && d.review == null, `${label}: pending decision cannot have a final route or review`);
       require(text(c.assignment?.owner) && text(c.assignment?.next_action), `${label}: pending candidate needs owner and next action`);
       require(!final, `${label}: pending candidate prevents completion`);
     } else if ([0, 1].includes(d.publish)) {
-      require(d.review?.model_id === run.adjudicator?.model_id && d.review?.evidence_revision === c.evidence_revision, `${label}: current independent adjudication required`);
-      evidence(d.review?.evidence_refs, `${label} adjudication`);
+      if (second != null) require(d.route === 'grok_second_pass', `${label}: checkpointed hold requires Grok second-pass route`);
+      if (d.route === 'first_pass') {
+        require(d.publish === 1, `${label}: first pass cannot deny; route holds to Grok`);
+        require(second == null && d.review == null, `${label}: first-pass approval cannot bypass a hold or carry Grok review`);
+        require(c.attempts?.every(a => a.result === 'pass'), `${label}: first-pass nonpassing attempt requires second-pass review`);
+      } else {
+        require(d.review?.model_id === run.adjudicator?.model_id && d.review?.evidence_revision === c.evidence_revision, `${label}: current independent adjudication required`);
+        evidence(d.review?.evidence_refs, `${label} adjudication`);
+        if (d.route === 'grok_second_pass') {
+          require(second != null, `${label}: Grok second pass needs checkpointed first-pass hold`);
+          evidence(second?.work_order_refs, `${label} Grok work orders`);
+        }
+      }
       evidence(d.evidence_refs, `${label} decision`);
       require(!c.assignment || c.assignment.next_action == null, `${label}: final decision has unfinished evidence work`);
     }
@@ -156,12 +180,14 @@ export function validateCampaign(run, { complete = false, releaseIds = [], check
           require(g.basis === 'owner_confirmed', `${label}: invalid gameplay basis`);
           evidence(g.owner_statement_refs, `${label} owner confirmation`);
         }
+        if (d.route === 'grok_second_pass') require((second?.fresh_attempt_ids ?? []).some(id => c.attempts?.some(a => a.id === id && a.gate === 'gameplay' && a.result === 'pass' && a.model === 'gpt-6-luna' && a.reasoning === 'max')), `${label}: second-pass approval needs fresh Luna Max gameplay evidence`);
       }
       if (c.kind === 'mod') {
         const a = c.artifact ?? {}; const s = gates.security ?? {};
         require(pass('release') && pass('security'), `${label}: released artifact and security acceptance required`);
         require(text(a.url) && text(a.version) && /^[a-f0-9]{64}$/.test(a.sha256 ?? ''), `${label}: exact artifact identity/SHA-256 required`);
         require(s.workflow === 'Codex Security' && s.artifact_sha256 === a.sha256 && s.artifact_assessed === true && s.blocking_findings === 0 && text(s.coverage) && text(s.runtime_limits), `${label}: adequate matching artifact review required`);
+        if (d.route === 'grok_second_pass') require((second?.fresh_attempt_ids ?? []).some(id => c.attempts?.some(x => x.id === id && x.gate === 'security' && x.result === 'pass' && x.workflow === 'Codex Security' && x.artifact_sha256 === a.sha256)), `${label}: second-pass approval needs fresh matching Codex Security evidence`);
       }
       if (c.tesla_roadster) require(tesla.finalized === true && discoveryClosed, `${label}: Tesla selection requires closed discovery and resolved ranking`);
     }

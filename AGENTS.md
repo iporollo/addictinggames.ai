@@ -21,7 +21,7 @@ Do not retroactively remove existing games unless the owner requests an audit or
 
 ## How an agent can help
 
-- Discover AI-created browser games through the existing Grok Bot conversation named AI Game Scout.
+- Discover AI-created browser games and mods across public X and creator/official sources through the existing Grok Bot conversation named AI Game Scout. Owner AI-Games bookmarks are an optional extra lead source.
 - Verify authorship, playtest candidates, prepare faithful thumbnails, and publish eligible New Games batches.
 - Research or update specific games, artwork, categories, human multiplayer modes, and site behavior within the request.
 - Diagnose availability and review evidence without treating discovery, successful builds, or screenshots as gameplay proof.
@@ -32,7 +32,7 @@ Use [addictinggames-pipeline](.agents/skills/addictinggames-pipeline/SKILL.md) f
 The skill combines discovery, testing, A/B artwork, and release instructions; it is specific to this repository.
 Use the owner-specified discovery duration; ask if absent. No inferred candidate/publication quota.
 Discovery closes at its deadline; verification and approved batch publication continue until the queue is resolved.
-Use five GPT-6 Luna Max gameplay workers, Codex Security for exact mod artifacts, and independent Grok 4.7 High adjudication through Cursor CLI.
+The main Codex agent leads the first pass: AI Game Scout supplies game-specific AI creation evidence, five GPT-6 Luna Max workers test games, and Codex Security reviews exact mod artifacts. Complete first-pass approvals need no Grok review. Grok 4.7 High leads an independent second pass for every held or failed candidate, directs fresh Luna tests or Codex Security work through Codex, and decides from new evidence.
 Tool/browser failures require recovery or a resumable campaign interruption, never a candidate denial.
 Final decisions are 1/0 after evidence resolution; completion also requires every approved entry to be live verified.
 The shared [campaign contract](.agents/skills/addictinggames-pipeline/references/campaign-contract.md) and validator enforce evidence, queue, receipt and completion checks.
