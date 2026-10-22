@@ -14,6 +14,8 @@ export type DirectGame = {
 };
 
 const source: [string, string, string, string, string, string?][] = [
+  // October 22 AI Game Scout batch 9: creator AI evidence and responsive guest play verified.
+  ["penguin-iceberg-jump", "ペンギンひょうざんジャンプ", "Arcade", "Set a jump angle and launch a penguin across the ice.", "https://sazanka0421.itch.io/penguin-jump", "/games/oct22-penguin-iceberg-jump.webp"],
   // October 22 AI Game Scout batch 8: creator AI evidence and responsive guest play verified.
   ["regression-chapter-1", "Regression · Chapter 1", "Adventure", "Investigate a village, collect clues, and file a report before dawn.", "https://playregression.com/", "/games/oct22-regression.webp"],
   // October 22 AI Game Scout batch 7: creator AI evidence and responsive guest play verified.
