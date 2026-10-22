@@ -14,6 +14,8 @@ export type DirectGame = {
 };
 
 const source: [string, string, string, string, string, string?][] = [
+  // October 22 AI Game Scout batch 13: creator AI evidence and responsive guest play verified.
+  ["kyoto-street-card-battle", "京都通り名 融合カードバトル", "Strategy", "Play and fuse Kyoto street-name cards against a computer opponent.", "https://kyoto-card-battle.netlify.app/", "/games/oct22-kyoto-card-battle.webp"],
   // October 22 AI Game Scout batch 12: creator AI evidence and responsive guest play verified.
   ["yanyue", "檐跃 Yanyue", "Platformer", "Jump across moonlit rooftops and clear obstacles in a fast parkour run.", "https://grove-solar-scarlet-prism.grok.me/", "/games/oct22-yanyue.webp"],
   ["catching-halleys-comet", "Catching Halley's Comet", "Shooter", "Pilot a probe toward Halley's Comet through a scrolling space mission.", "https://catchinghalleyscomet07282061.grok.me/", "/games/oct22-halley-comet.webp"],
