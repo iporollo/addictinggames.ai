@@ -7,6 +7,9 @@ export type MultiplayerMode = 'Online multiplayer' | 'Local 2-player' | 'Local m
 
 // Evidence and unresolved cases live in docs/category-audit/2026-10-11/.
 export const reviewedCategories: Record<string, CategoryList> = {
+  "power-online-sagas": ["Action"],
+  "roadster-flight-lab": ["Racing", "Simulators"],
+  "chimera-omega": ["Action", "Shooter"],
   "the-last-hexagon": ["Arcade"],
   "over-the-toll": ["Racing"],
   "torch-chain": ["Puzzle"],

@@ -14,6 +14,10 @@ export type DirectGame = {
 };
 
 const source: [string, string, string, string, string, string?][] = [
+  // Final AI Game Scout release: verified guest play on the original sites.
+  ["power-online-sagas", "Power Online / Sagas", "Action", "Play a guest fighting match in Dream Land", "https://sagas.cybertwip.com/", "/games/oct23-final-ag-017.webp"],
+  ["roadster-flight-lab", "Roadster Flight Lab", "Racing", "Lift a Roadster into an airborne driving challenge", "https://rokengames.com/roadster-flight", "/games/oct23-final-ag-221.webp"],
+  ["chimera-omega", "CHIMERA v3 — Omega", "Action", "Jump and shoot through a dark side-scrolling arena", "https://he-is-risen.itch.io/this-is-a-game", "/games/oct23-final-ag-255.webp"],
   // October 23 AI Game Scout batch 26: verified guest controls and exact AI evidence.
   ["the-last-hexagon", "The Last Hexagon", "Arcade", "Nudge a spinning hexagon through a live physics challenge", "https://last-hexagon.vercel.app/", "/games/oct23-b26-ag-157.webp"],
   ["over-the-toll", "收费站上空 · OVER THE TOLL", "Racing", "Throttle a flying car through a toll-road challenge", "https://flying-toll-roadster.greatmario.chatgpt.site", "/games/oct23-b26-ag-178.webp"],
@@ -809,6 +813,9 @@ const source: [string, string, string, string, string, string?][] = [
 ];
 
 const reviewNotes: Record<string, string> = {
+  'power-online-sagas': 'The guest match uses familiar fighting-game characters; creator collaboration and likeness claims are unverified.',
+  'roadster-flight-lab': 'Tesla Roadster themed; this link is the creator’s own game destination.',
+  'chimera-omega': 'The creator page says v4, while the embedded game identifies itself as v3. A guest test confirmed jumping and shooting, but enemy spawning was broken and movement keys were inconclusive.',
   'the-last-hexagon': 'Short physics demo. A guest test changed the active act and live telemetry; two red scientific measurement receipts are part of the game design. The short test did not complete every act.',
   'over-the-toll': 'The test reached a playable flying-car level and W throttle raised the HUD speed from 83 to 137 km/h. Steering was inconclusive in the short test. Tesla-like roadster imagery is a theme warning, not an official affiliation.',
   'torch-chain': 'The short guest test matched one memorized torch stone; score rose from 0 to 10. The complete five-round run was not tested.',
