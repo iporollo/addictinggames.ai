@@ -14,6 +14,23 @@ export type DirectGame = {
 };
 
 const source: [string, string, string, string, string, string?][] = [
+  // October 23 AI Game Scout batch 25: verified guest play and exact AI evidence.
+  ["unmei-no-dice", "運命のダイス", "Adventure", "Explore a Japanese fantasy map and follow its paths.", "https://fanciful-longma-8b4aa6.netlify.app/", "/games/oct23-b25-ag-283.webp"],
+  ["p-type", "P-TYPE", "Shooter", "Pilot a flying pig through a side-scrolling shooting game.", "https://claude.ai/artifact/BgFqLG4RVPsfKpq7TC1GeG", "/games/oct23-b25-ag-072.webp"],
+  ["recover-the-phone", "Recover the Phone", "Action", "Time a crossing to recover a confiscated phone.", "https://claude.ai/artifact/4jEb6JUvESDBNm3yjSx8jm", "/games/oct23-b25-ag-092.webp"],
+  ["retro-del-sol", "Retro del Sol", "Simulators", "Explore a low-poly world and take on courier deliveries.", "https://wavedash.com/games/retro-del-sol?embed_source=retrodelsol.com", "/games/oct23-b25-ag-131.webp"],
+  ["neon-defender", "Neon Defender", "Shooter", "Move a ship and fire through a neon arcade playfield.", "https://arcade.mikestools.io/games.html?game=neon", "/games/oct23-b25-ag-163.webp"],
+  ["firestarter-let-it-burn", "FIRESTARTER - LET IT BURN", "Adventure", "Explore Tinder Falls in a first-person game.", "https://todd-dillerson.itch.io/firestarter-let-it-burn", "/games/oct23-b25-ag-188.webp"],
+  ["aero-frog-skybound", "Aero Frog Skybound", "Adventure", "Move through a floating world as an airborne frog.", "https://devandreakira.itch.io/aero-frog-skybound", "/games/oct23-b25-ag-197.webp"],
+  ["the-pages-he-left", "The Pages He Left", "Adventure", "Follow a pigeon through a narrated chase.", "https://mustafamoe.itch.io/the-pages-he-left", "/games/oct23-b25-ag-208.webp"],
+  ["oklockers-tower-defense", "OkLockers Tower Defense", "Tower Defense", "Place character towers and defend against advancing waves.", "https://claude.ai/artifact/7ncM5PrLULAvx6KFxG17MQ", "/games/oct23-b25-ag-219.webp"],
+  ["shin-en-no-joou", "深淵の女王", "Strategy", "Choose diplomatic offers in a Japanese fantasy strategy game.", "https://eloquent-manatee-b39064.netlify.app/", "/games/oct23-b25-ag-284.webp"],
+  ["majuubukuro-no-kettou", "魔獣袋の決闘", "Adventure", "Explore a Japanese fantasy map and talk with its inhabitants.", "https://ephemeral-wisp-1c41be.netlify.app/", "/games/oct23-b25-ag-286.webp"],
+  ["maze-maker-mondaru", "メイズ・メーカー", "Puzzle", "Dig a connected maze path and unlock a timed race.", "https://gorgeous-salamander-fbcf68.netlify.app/", "/games/oct23-b25-ag-287.webp"],
+  ["pastel-breakers", "パステル・ブレイカーズ", "Arcade", "Tap to fire a ball in a pastel paddle game.", "https://lighthearted-brigadeiros-4963b7.netlify.app/", "/games/oct23-b25-ag-288.webp"],
+  ["summon-legion", "召喚軍団戦記 サモンレギオン", "Strategy", "Play unit cards and summon troops onto a battle field.", "https://bucolic-sfogliatella-11b9e2.netlify.app/", "/games/oct23-b25-ag-289.webp"],
+  ["slime-battle-mondaru", "スライムバトル", "Adventure", "Explore tiles and gather food in a Japanese slime adventure.", "https://sage-eclair-720c24.netlify.app/", "/games/oct23-b25-ag-290.webp"],
+  ["ginga-doumei-senki", "銀河同盟戦記", "Strategy", "Upgrade a homeworld and manage minerals and energy.", "https://remarkable-cascaron-78dfa3.netlify.app/", "/games/oct23-b25-ag-292.webp"],
   // October 23 AI Game Scout batch 24: exact AI evidence and responsive guest play verified.
   ["teleoperator", "Teleoperator", "Racing", "Drive a guest car through a city in free-drive mode.", "https://teleoperator.mindblown.ai", "/games/oct23-b24-ag-018.webp"],
   ["nebula-run-pinball", "Nebula Run Pinball", "Arcade", "Launch a ball and work the flippers on a space-themed pinball table.", "https://claude.ai/artifact/8QiiuP2e2ep6i8pKEF2EVq", "/games/oct23-b24-ag-041.webp"],
@@ -785,6 +802,22 @@ const source: [string, string, string, string, string, string?][] = [
 ];
 
 const reviewNotes: Record<string, string> = {
+  "unmei-no-dice": "Japanese-language game. The short guest test tapped a traversable grass destination; the player moved and the map scrolled relative to the house and path. An extended run was not completed.",
+  "p-type": "Short guest test: M mute control invoked, then held Right 700ms; Pig visibly moved left to center-right while enemy formation/projectiles advanced. An extended run was not completed.",
+  "recover-the-phone": "Short guest test: Started mission, then pressed C during green safe interval; WATCH THE PATROL changed to cross phase with green NOW crossing transition. An extended run was not completed. Desktop only per creator; GTA-style inspiration.",
+  "retro-del-sol": "Short guest test: ArrowUp ~1.5 seconds then E ~1.6 seconds; Courier/scene moved, parcel collected, HUD changed to active delivery countdown and early bonus. An extended run was not completed. Direct player is used; multiplayer was not tested.",
+  "neon-defender": "Short guest test: Click PLAY, Enter, Space to fire and ArrowLeft to move; Neon Defender playfield rendered, WEAPON RELOADING appeared and ship shifted left. An extended run was not completed.",
+  "firestarter-let-it-burn": "Short guest test: Held W for about 1.5 seconds in Tinder Falls first-person scene; Street landmarks receded and new buildings/blue vehicle entered view while HUD remained live. An extended run was not completed.",
+  "aero-frog-skybound": "Short guest test: Click canvas, hold W 2 seconds; HUD position z changed 90.0 to 69.8 and scene shifted. An extended run was not completed.",
+  "the-pages-he-left": "Short guest test: R once with no movement keys after baseline 98 km/h and pigeon 237 m ahead; Within about one second scene returned to plaza start, pigeon 5 m ahead, no collision dialogue. An extended run was not completed.",
+  "oklockers-tower-defense": "Short guest test: Select and place Herman Clovershoots, then start Wave 1; Locker Bucks $150 to $50; tower appeared; Wave 1/50 began with enemies and money rising $57 to $71. An extended run was not completed.",
+  "shin-en-no-joou": "Short guest test: Choose diplomacy offers through three turns; Negotiation outcome changed defenders health and numbers by 20%, provisions available.. An extended run was not completed. Japanese-language game.",
+  "majuubukuro-no-kettou": "Short guest test: Tap destination then adjacent NPC; Map tracked movement and NPC Harold dialogue opened.. An extended run was not completed. Japanese-language game.",
+  "maze-maker-mondaru": "Short guest test: Click 27 adjacent maze tiles from S to G, then finish digging; Counter 0 to 27, path connected, timed race controls unlocked.. An extended run was not completed. Japanese-language game.",
+  "pastel-breakers": "Short guest test: Tap ball/paddle to fire; Set score 0-0 to 0-1 and set result displayed.. An extended run was not completed. Japanese-language game.",
+  "summon-legion": "Short guest test: Click Elf Archer card and place it on player field; Three archer units spawned; mana 6 to 5.. An extended run was not completed. Japanese-language game.",
+  "slime-battle-mondaru": "Short guest test: Tap exploration map tile; Mushroom item revealed; food inventory rose to 2, rare count 1.. An extended run was not completed. Japanese-language game.",
+  "ginga-doumei-senki": "Short guest test: Click homeworld and buy mine upgrade; Mine Lv1 to Lv2; minerals 90 to 47 and energy 70 to 53.. An extended run was not completed. Japanese-language game.",
   "teleoperator": "Guest Waymo driving was tested; human multiplayer and other vehicle modes were not tested.",
   "nebula-run-pinball": "Inspired by Microsoft Space Cadet pinball. The short guest test launched a ball, used both flippers and increased the score.",
   "road-brash": "A Road Rash-inspired fan game. The short guest test accelerated in Trash Mode; a full race was not completed.",
