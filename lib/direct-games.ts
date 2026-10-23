@@ -14,6 +14,14 @@ export type DirectGame = {
 };
 
 const source: [string, string, string, string, string, string?][] = [
+  // October 23 AI Game Scout batch 24: exact AI evidence and responsive guest play verified.
+  ["teleoperator", "Teleoperator", "Racing", "Drive a guest car through a city in free-drive mode.", "https://teleoperator.mindblown.ai", "/games/oct23-b24-ag-018.webp"],
+  ["nebula-run-pinball", "Nebula Run Pinball", "Arcade", "Launch a ball and work the flippers on a space-themed pinball table.", "https://claude.ai/artifact/8QiiuP2e2ep6i8pKEF2EVq", "/games/oct23-b24-ag-041.webp"],
+  ["road-brash", "Road Brash", "Racing", "Ride a motorcycle through a busy city in an arcade driving game.", "https://piyush.blog/road-brash", "/games/oct23-ag075-road-brash.webp"],
+  ["overpower", "OVERPOWER", "Arcade", "Guide Mog through a maze and gather points.", "https://playgama.ai/play/5spj5xug6b3xzj", "/games/oct23-b24-ag-083.webp"],
+  ["pale-hours", "Pale Hours", "Survival", "Join a nighttime survival match and keep moving through the grounds.", "https://palehours.ranisaro.com/", "/games/oct23-b24-ag-088.webp"],
+  ["pumpkin-munch", "Pumpkin Munch", "Arcade", "Move a pumpkin through a Halloween arcade board and gather points.", "https://mrbutcho.rf.gd/", "/games/oct23-ag143-pumpkin-munch.webp"],
+  ["spell-cascade", "Spell Cascade", "Survival", "Move through a spell-filled survival arena.", "https://yurukusa.itch.io/spell-cascade", "/games/oct23-b24-ag-196.webp"],
   // October 23 AI Game Scout batch 23: exact AI evidence and responsive guest play verified.
   ["turbo-highway-95", "Turbo Highway ’95", "Racing", "Drive an arcade car through a highway race.", "https://aki-nfs.netlify.app/", "/games/oct23-b23-ag-156.webp"],
   ["wickdeep", "Wickdeep", "Simulators", "Gather light and buy oil in a cave-themed resource game.", "https://ennygames.itch.io/wickdeep", "/games/oct23-b23-ag-167.webp"],
@@ -777,6 +785,13 @@ const source: [string, string, string, string, string, string?][] = [
 ];
 
 const reviewNotes: Record<string, string> = {
+  "teleoperator": "Guest Waymo driving was tested; human multiplayer and other vehicle modes were not tested.",
+  "nebula-run-pinball": "Inspired by Microsoft Space Cadet pinball. The short guest test launched a ball, used both flippers and increased the score.",
+  "road-brash": "A Road Rash-inspired fan game. The short guest test accelerated in Trash Mode; a full race was not completed.",
+  "overpower": "The short guest test moved through Stage 1 and increased the score; later stages were not tested.",
+  "pale-hours": "Desktop browser game inspired by Dead by Daylight. A coordinated two-guest match and movement were verified; a full match was not completed.",
+  "pumpkin-munch": "The creator originally called this directly linked game Pumpkin Man; the current game title is Pumpkin Munch.",
+  "spell-cascade": "The short guest test verified movement in the public Godot web build; a full survival run was not completed.",
   'rekishi-no-hana-mahjong': 'Japanese-language mahjong with characters based on historical women. The short guest test discarded one tile and observed opponent turns; it did not complete a round.',
   'alma-sword-of-liberty': 'Religious-themed historical fantasy inspired by the Book of Mormon. The short guest test walked through the opening training yard only.',
   'stop-this-bounty': 'Inspired by a real crypto bounty. The short guest test clicked an in-page lever and observed a blocked result; it did not connect a wallet or transact.',

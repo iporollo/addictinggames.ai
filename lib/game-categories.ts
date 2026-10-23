@@ -7,6 +7,13 @@ export type MultiplayerMode = 'Online multiplayer' | 'Local 2-player' | 'Local m
 
 // Evidence and unresolved cases live in docs/category-audit/2026-10-11/.
 export const reviewedCategories: Record<string, CategoryList> = {
+  "teleoperator": ["Racing"],
+  "nebula-run-pinball": ["Arcade"],
+  "road-brash": ["Racing"],
+  "overpower": ["Arcade"],
+  "pale-hours": ["Survival", "Multiplayer"],
+  "pumpkin-munch": ["Arcade"],
+  "spell-cascade": ["Survival", "Action"],
   "dungeons-holdfast": ["Simulators", "Strategy"],
   "dungeons-outvector": ["Arcade", "Action"],
   "dungeons-empyrean": ["Adventure"],
@@ -1044,6 +1051,7 @@ export const reviewedCategories: Record<string, CategoryList> = {
 };
 
 export const multiplayerModes: Record<string, MultiplayerMode> = {
+  "pale-hours": "Online multiplayer",
   "rumble-reef": "Online multiplayer",
   "xion": "Online multiplayer",
   "battle-drones": "Online multiplayer",
