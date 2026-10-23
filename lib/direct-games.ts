@@ -14,6 +14,24 @@ export type DirectGame = {
 };
 
 const source: [string, string, string, string, string, string?][] = [
+  // October 23 AI Game Scout batch 20: approved guest-play games.
+  ['domino-district', 'Domino District', 'Puzzle', 'Launch a marble and topple a chain of dominoes across each board.', 'https://app.usecrayon.ai/play/1630bad0-642b-44ae-84c4-1ec7a6574247', '/games/oct23-domino-district.webp'],
+  ['data-mine', 'Data Mine', 'Simulators', 'Drive through a mine and collect resources to fill the cargo hold.', 'https://app.usecrayon.ai/play/b54f2d4e-6048-4f9f-a8f6-1e9082adde35', '/games/oct23-data-mine.webp'],
+  ['crown-survivors', 'Crown Survivors', 'Survival', 'Move through enemy waves, collect gems, and choose upgrades as you survive.', 'https://crown-survivors.vercel.app/', '/games/oct23-crown-survivors.webp'],
+  ['penalty-nations', 'Penalty Nations', 'Sports', 'Take penalty kicks for national teams and follow the score through each round.', 'https://gamepix.com/play/penalty-nations', '/games/oct23-penalty-nations.webp'],
+  ['lendore-iv', 'Lendore IV (painted & tactics)', 'Strategy', 'Lead a party through painted tactical encounters in a fantasy setting.', 'https://bdaseawolf2.itch.io/lendore-iv-painted-tactics', '/games/oct23-lendore-iv.webp'],
+  ['lastover', 'LastOver', 'Sports', 'Set a field, choose a delivery, and bowl a T20 innings.', 'https://wavedash.com/games/lastover', '/games/oct23-lastover.webp'],
+  ['urna-royale', 'Urna Royale', 'Strategy', 'Play political cards, spend campaign funds, and enter turn-based combat.', 'https://urnaroyale.com/', '/games/oct23-urna-royale.webp'],
+  ['himawari-sand', '日向葵ちゃんの砂浴びゲーム', 'Puzzle', 'Dig and reshape a small sand board while managing stamina.', 'https://lifehackerschannel.site/himawari-suna/', '/games/oct23-himawari-sand.webp'],
+  ['chrono-cards', 'ChronoCards', 'Strategy', 'Place historical event cards against clues and challenge a bot.', 'https://chronos.chrono-cards.workers.dev', '/games/oct23-chrono-cards.webp'],
+  ['bounce-argon', 'BOUNCE: Argon Edition', 'Platformer', 'Guide a bouncing ball through 3D stages with directional movement and jumps.', 'https://bounce.hanlak.com', '/games/oct23-bounce-argon.webp'],
+  ['dot-gassen', 'ドット合戦', 'Strategy', 'Command sample armies in a dot-art battle and speed up the fight.', 'https://dot-gassen.karasu009.workers.dev/', '/games/oct23-dot-gassen.webp'],
+  ['mortal-kompute', 'Mortal Kompute — Arcade Edition', 'Action', 'Choose a fighter and attack through arcade bouts.', 'https://mortalkompute.xyz', '/games/oct23-mortal-kompute.webp'],
+  ['chalk-runner', 'Chalk Runner', 'Platformer', 'Draw chalk platforms to guide a runner across obstacle levels.', 'https://claude.ai/artifact/A8o6kLHiYQ2DdU69aFBVxH', '/games/oct23-chalk-runner.webp'],
+  ['brag', 'Brag (quiz party game)', 'Casual', 'Answer music quiz questions in a party-style quiz game.', 'https://brag-play.onrender.com/', '/games/oct23-brag.webp'],
+  ['trailer-park-warfare', 'Trailer Park Warfare: Neck Beard Edition', 'Shooter', 'Move through a first-person arena in the Trailer Park Warfare map.', 'https://trailerpark.fun/', '/games/oct23-trailer-park-warfare.webp'],
+  ['nouka-yatra', 'Nouka Yatra · নৌকা যাত্রা', 'Casual', 'Serve Bengali sweets from a boat-side stall and build your rupee score.', 'https://csagnik09.github.io/Nouka-Yatra', '/games/oct23-nouka-yatra.webp'],
+  ['pooh-honey', 'くまのプーさん 蜜売伝説', 'Survival', 'Move through a honey-themed, Vampire Survivors-like action run.', 'https://pooh.kojikagames.com/', '/games/oct23-pooh-honey.webp'],
   // October 22 AI Game Scout batch 17: creator AI evidence and responsive guest play verified.
   ["bokushu", "墨守 (Bokushu)", "Adventure", "Choose how to prepare and defend a small city during a ten-day siege.", "https://claude.ai/artifact/KaX2AvkP4VUsvW373pt3r5", "/games/oct22-bokushu.webp"],
   ["mansion-jewel-mystery", "嘘つきは誰だ ― 洋館の宝石事件", "Adventure", "Question four suspects and inspect clues to find the liar in a mansion jewel case.", "https://heartfelt-sunburst-3c2a50.netlify.app/", "/games/oct22-mansion-mystery.webp"],
@@ -686,6 +704,15 @@ const source: [string, string, string, string, string, string?][] = [
 ];
 
 const reviewNotes: Record<string, string> = {
+  'lendore-iv': 'The setting may reference the Lendore Isles in Greyhawk, but that connection is unverified.',
+  'urna-royale': 'The creator’s AI-use statement covers music only. The political theme may depict real politicians; likenesses were not verified.',
+  'himawari-sand': 'Japanese-language game.',
+  'chrono-cards': 'The credits list copyrighted music after the game; licensing was not independently verified.',
+  'bounce-argon': 'A fan tribute to Nokia Bounce; no affiliation is indicated.',
+  'mortal-kompute': 'A parody of Mortal Kombat featuring caricatures of real technology figures.',
+  'brag': 'The guest quiz advanced through a question; account requirements for hosted party or invite features were not tested.',
+  'trailer-park-warfare': 'A separate map and edition by the creator of Karen Warfare.',
+  'pooh-honey': 'Uses the Winnie-the-Pooh character in a Vampire Survivors-like game; brand affiliation is not indicated.',
   'oddbrew': 'A short guest test selected a potion bottle and confirmed the workbench responded; it did not complete an order.',
   'towline': 'A short guest test changed the rider from the center to the left lane; it did not complete a run.',
   'birdieswing-island-run': 'The short guest test muted with the in-player control, started Island Run, reached the tee, and advanced the swing prompt into its target/impact timing cues; a shot landing or completed hole was not confirmed. Sharing a daily challenge is not treated as live multiplayer.',
