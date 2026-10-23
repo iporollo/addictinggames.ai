@@ -492,3 +492,5 @@ h2, h3 { color: var(--heading); }
   .mods-all-rows .mod-row-actions { position: absolute; top: 0; right: 0; }
   .mods-all-rows .mod-view-link { display: none; }
 }
+
+.mod-thumbnail-contain { object-fit: contain; }

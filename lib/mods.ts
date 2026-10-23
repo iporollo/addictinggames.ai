@@ -1,4 +1,5 @@
 import data from './mods-data.json';
+import { modAddedDate } from './added-dates';
 
 export type Mod = {
   id: string; name: string; game: string; creator: string; profile: string; post: string;
@@ -16,7 +17,11 @@ const postId = (mod: Mod) => BigInt(mod.post.match(/status\/(\d+)/)?.[1] || '0')
 const releasedAt = (mod: Mod) => mod.released_at
   ? BigInt(Date.parse(mod.released_at))
   : ((postId(mod) >> BigInt(22)) + BigInt(1288834974657));
-export const newMods = [...mods].sort((a, b) => releasedAt(a) > releasedAt(b) ? -1 : releasedAt(a) < releasedAt(b) ? 1 : 0);
+const listedAt = (mod: Mod) => {
+  const added = modAddedDate(mod.id);
+  return added ? BigInt(Date.parse(added)) : releasedAt(mod);
+};
+export const newMods = [...mods].sort((a, b) => listedAt(a) > listedAt(b) ? -1 : listedAt(a) < listedAt(b) ? 1 : 0);
 export const allMods = [...mods].sort((a, b) => a.name.localeCompare(b.name));
 export function filterMods(items: Mod[], query: string, game: string) {
   const text = query.trim().toLowerCase();

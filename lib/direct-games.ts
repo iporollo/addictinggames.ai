@@ -14,6 +14,11 @@ export type DirectGame = {
 };
 
 const source: [string, string, string, string, string, string?][] = [
+  // October 23 AI Game Scout batch 22: exact AI evidence and responsive guest play verified.
+  ["python-trail", "Python Trail", "Educational", "Answer short Python questions to advance through coding checkpoints.", "https://pytrail-ds5qcytr.manus.game/", "/games/oct23-b22-ag-060.webp"],
+  ["myants", "myants", "Simulators", "Watch an ant colony grow and adjust the simulation speed.", "https://neojou.github.io/myants/", "/games/oct23-b22-ag-071.webp"],
+  ["bacto-flip", "Bacto Flip", "Strategy", "Clone pieces across the board and take turns against an opponent.", "https://playgama.ai/play/52m4ae66khtwpz", "/games/oct23-b22-ag-073.webp"],
+  ["wick-hallucinated", "WICK", "Platformer", "Jump between ledges while keeping a candle burning.", "https://hallucinatedgames.itch.io/wick", "/games/oct23-b22-ag-182.webp"],
   // October 23 AI Game Scout batch 21: exact AI evidence and responsive guest play verified.
   ["monster-hotel", "Monster Hotel", "Simulators", "Match visiting monsters to rooms they like during a hotel shift.", "https://app.usecrayon.ai/play/06573666-3f8f-4a04-a519-1ee507eaa15b", "/games/oct23-b21-ag-005.webp"],
   ["cream-puff-bluff", "Cream Puff Bluff", "Casual", "Choose whether to eat or offer a cream puff in a short bluffing game.", "https://kazuyoshi1118.itch.io/cream-puff-bluff", "/games/oct23-b21-ag-032.webp"],

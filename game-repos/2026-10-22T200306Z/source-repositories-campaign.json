@@ -1056,6 +1056,115 @@
       "tag": null,
       "license": null,
       "artifact": null
+    },
+    {
+      "repository_url": "https://github.com/assassinsgreed/JoJoker",
+      "candidate_ids": [
+        "AG-118"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/assassinsgreed/JoJoker/blob/5c4bffc53c7ca072f5272a46b1a02e8dd9150f67/README.md",
+          "observed_at_utc": "2026-10-23T04:44:29Z"
+        }
+      ],
+      "commit_sha": "5c4bffc53c7ca072f5272a46b1a02e8dd9150f67",
+      "tag": null,
+      "license": "MIT",
+      "artifact": null
+    },
+    {
+      "repository_url": "https://github.com/takapo-cs2mods/Hamidashi",
+      "candidate_ids": [
+        "AG-141"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/takapo-cs2mods/Hamidashi/blob/d2dbe148dac72174b5d804b283740dda9cafbd0e/README.md",
+          "observed_at_utc": "2026-10-23T04:44:29Z"
+        }
+      ],
+      "commit_sha": "d2dbe148dac72174b5d804b283740dda9cafbd0e",
+      "tag": null,
+      "license": "GPL-3.0",
+      "artifact": null
+    },
+    {
+      "repository_url": "https://github.com/YouthSNC/car-freedom",
+      "candidate_ids": [
+        "AG-145"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://api.paradox-interactive.com/mods?modId=163257&os=Windows",
+          "observed_at_utc": "2026-10-23T04:44:29Z"
+        }
+      ],
+      "commit_sha": "eb7da854fc59a471267557a2c7f991b3e573d9a6",
+      "tag": null,
+      "license": null,
+      "artifact": null
+    },
+    {
+      "repository_url": "https://github.com/willmakesrandomshit/CS2-Mod-Suite",
+      "candidate_ids": [
+        "AG-272",
+        "AG-273",
+        "AG-274",
+        "AG-275",
+        "AG-276",
+        "AG-277",
+        "AG-278",
+        "AG-279",
+        "AG-280",
+        "AG-281",
+        "AG-282"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/willmakesrandomshit/CS2-Mod-Suite/blob/a6b0ff3c23e4c01b98c0f9c79fc7018043b60440/README.md",
+          "observed_at_utc": "2026-10-23T04:42:19.423413Z"
+        }
+      ],
+      "commit_sha": "a6b0ff3c23e4c01b98c0f9c79fc7018043b60440",
+      "tag": null,
+      "license": null,
+      "artifact": null
+    },
+    {
+      "repository_url": "https://github.com/corycowgill/Wick",
+      "candidate_ids": [
+        "AG-182"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://hallucinatedgames.itch.io/wick",
+          "observed_at_utc": "2026-10-23T04:56:36Z"
+        }
+      ],
+      "commit_sha": null,
+      "tag": null,
+      "license": null,
+      "artifact": null
+    },
+    {
+      "repository_url": "https://github.com/BigSmoke69/Slender-Mode---The-Long-Dark",
+      "candidate_ids": [
+        "AG-237"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/BigSmoke69/Slender-Mode---The-Long-Dark/blob/73b85fe3d64fb314b1c7a6105cb14983f3a9ab15/README.md#L125",
+          "observed_at_utc": "2026-10-23T05:06:18Z"
+        }
+      ],
+      "commit_sha": "73b85fe3d64fb314b1c7a6105cb14983f3a9ab15",
+      "tag": null,
+      "license": null,
+      "artifact": {
+        "url": "https://api.github.com/repos/BigSmoke69/Slender-Mode---The-Long-Dark/zipball/73b85fe3d64fb314b1c7a6105cb14983f3a9ab15",
+        "sha256": "de2fe464cfeea7a8cea68c341f1b52d77365a4c44c876be95e973d6669abe199"
+      }
     }
   ]
 }
