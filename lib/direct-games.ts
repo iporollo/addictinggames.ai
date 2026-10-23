@@ -14,6 +14,17 @@ export type DirectGame = {
 };
 
 const source: [string, string, string, string, string, string?][] = [
+  // October 23 AI Game Scout batch 23: exact AI evidence and responsive guest play verified.
+  ["turbo-highway-95", "Turbo Highway ’95", "Racing", "Drive an arcade car through a highway race.", "https://aki-nfs.netlify.app/", "/games/oct23-b23-ag-156.webp"],
+  ["wickdeep", "Wickdeep", "Simulators", "Gather light and buy oil in a cave-themed resource game.", "https://ennygames.itch.io/wickdeep", "/games/oct23-b23-ag-167.webp"],
+  ["keep-scrolling-keep-the-flame", "Keep Scrolling, Keep The Flame", "Casual", "Keep a small flame alive by choosing social-feed cards.", "https://dm9494.itch.io/keep-scrolling", "/games/oct23-b23-ag-179.webp"],
+  ["kara-and-the-primal-torch", "Kara and the Primal Torch", "Adventure", "Guide Kara through a torchlit story.", "https://egobiian.itch.io/kara-and-the-primal-torch", "/games/oct23-b23-ag-180.webp"],
+  ["stockiller-part-time", "Stockiller: Part-Time", "Strategy", "Manage a store shift and respond to the board’s changing state.", "https://lifthillstudio.itch.io/stockiller-part-time", "/games/oct23-b23-ag-183.webp"],
+  ["pyrenees-chess", "Pyrenees Chess", "Strategy", "Play a chess variant against the badgers.", "https://mdawg74.itch.io/pyrenees-chess", "/games/oct23-b23-ag-184.webp"],
+  ["tropes", "Tropes", "Platformer", "Move through short platform levels built around familiar game tropes.", "https://mdawg74.itch.io/tropes", "/games/oct23-b23-ag-185.webp"],
+  ["lantern-home-pigeon-pals", "Lantern Home: a Pigeon Pals night", "Casual", "Aim a lamp to guide pigeons across a nighttime rooftop.", "https://pigeonpalsgame.itch.io/lantern-home", "/games/oct23-b23-ag-186.webp"],
+  ["torch-passers-of-splorr", "Torch Passers of SPLORR!!", "Adventure", "Make choices to carry a torch through eight generations.", "https://thegrumpygamedev.itch.io/torch-passers-of-splorr", "/games/oct23-b23-ag-187.webp"],
+  ["liberty-rampage", "Liberty Rampage", "Action", "Throw a torch and navigate the streets of Liberty Island Docks.", "https://vendatta77.itch.io/liberty-rampage", "/games/oct23-b23-ag-189.webp"],
   // October 23 AI Game Scout batch 22: exact AI evidence and responsive guest play verified.
   ["python-trail", "Python Trail", "Educational", "Answer short Python questions to advance through coding checkpoints.", "https://pytrail-ds5qcytr.manus.game/", "/games/oct23-b22-ag-060.webp"],
   ["myants", "myants", "Simulators", "Watch an ant colony grow and adjust the simulation speed.", "https://neojou.github.io/myants/", "/games/oct23-b22-ag-071.webp"],
