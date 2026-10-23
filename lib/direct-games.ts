@@ -14,6 +14,8 @@ export type DirectGame = {
 };
 
 const source: [string, string, string, string, string, string?][] = [
+  // October 22 AI Game Scout batch 14: creator AI evidence and responsive guest play verified.
+  ["path-to-mars", "Path to Mars — Spin Your Future", "Casual", "Spin through thousands of possible space missions and chart a route to Mars.", "https://path-to-mars-nick-2422.vercel.app/", "/games/oct22-path-to-mars.webp"],
   // October 22 AI Game Scout batch 13: creator AI evidence and responsive guest play verified.
   ["kyoto-street-card-battle", "京都通り名 融合カードバトル", "Strategy", "Play and fuse Kyoto street-name cards against a computer opponent.", "https://kyoto-card-battle.netlify.app/", "/games/oct22-kyoto-card-battle.webp"],
   // October 22 AI Game Scout batch 12: creator AI evidence and responsive guest play verified.
