@@ -14,6 +14,8 @@ export type DirectGame = {
 };
 
 const source: [string, string, string, string, string, string?][] = [
+  // October 22 AI Game Scout batch 15: creator AI evidence and responsive guest play verified.
+  ["vector-shooting-range", "VECTOR — 射撃訓練場", "Shooter", "Move through a minimalist first-person training range and line up targets.", "https://glowing-dango-131af5.netlify.app/", "/games/oct22-vector-range.webp"],
   // October 22 AI Game Scout batch 14: creator AI evidence and responsive guest play verified.
   ["path-to-mars", "Path to Mars — Spin Your Future", "Casual", "Spin through thousands of possible space missions and chart a route to Mars.", "https://path-to-mars-nick-2422.vercel.app/", "/games/oct22-path-to-mars.webp"],
   // October 22 AI Game Scout batch 13: creator AI evidence and responsive guest play verified.
