@@ -14,6 +14,25 @@ export type DirectGame = {
 };
 
 const source: [string, string, string, string, string, string?][] = [
+  // October 23 AI Game Scout batch 20: exact AI evidence and responsive guest play verified.
+  ["titi-abc", "Titi ABC", "Educational", "Choose a letter and match its picture-word answer to earn stars.", "https://words.mustafaakin.dev/", "/games/oct23-b20-ag-089.webp"],
+  ["order-the-cardgame", "ORDER: THE CARDGAME", "Strategy", "Place units in lanes and execute turns to damage the enemy base.", "https://mintotsukino.itch.io/ordercard", "/games/oct23-b20-ag-094.webp"],
+  ["triyomi", "トリヨミ (Triyomi)", "Strategy", "Choose cards and resolve rounds in a Japanese-language duel.", "https://triyomi.naitsuku.jp/", "/games/oct23-b20-ag-095.webp"],
+  ["find-bob-dotworld", "Find Bob · Catch the Dot", "Arcade", "Move and fire through a DotWorld hunt arena as a guest.", "https://dotworld.lol/FINDBOB", "/games/oct23-b20-ag-114.webp"],
+  ["momiji-lake", "Momiji Lake", "Educational", "Steer a boat across a lake and collect Japanese words.", "https://dazzling-frangipane-d3bf3b.netlify.app/", "/games/oct23-b20-ag-121.webp"],
+  ["ai-card-game-shutofu", "AI-made card game", "Strategy", "Place units in a card battle against the computer.", "https://firestore-database-1ff86.web.app", "/games/oct23-b20-ag-128.webp"],
+  ["nsa-isong", "Nsa Isong", "Strategy", "Sow seeds around an eight-hole AYO board.", "https://nsaisong.theslessorsinitiative.com/", "/games/oct23-b20-ag-133.webp"],
+  ["the-keeping", "THE KEEPING", "Adventure", "Explore a haunted night road from a first-person view.", "https://the-keeping.vercel.app", "/games/oct23-b20-ag-155.webp"],
+  ["jump-jump-grok", "Jump Jump (跳一跳)", "Arcade", "Time a jump between platforms and build a score.", "https://calm-saffron-jiugab.pages.grok.bot/", "/games/oct23-b20-ag-158.webp"],
+  ["tomorrow-returns-desk", "Tomorrow Returns Desk", "Adventure", "Choose how to respond during a short narrative desk shift.", "https://rina-on-screen.itch.io/tomorrow-returns-desk", "/games/oct23-b20-ag-201.webp"],
+  ["torch-the-sky", "Torch the Sky", "Arcade", "Navigate a shadowed maze and light dead lamps to keep a torch glowing.", "https://ssang2.itch.io/touch-the-sky", "/games/oct23-b20-ag-202.webp"],
+  ["chargo", "Chargo", "Arcade", "Hold to charge, release to dash, and dodge the red zone in a timed round.", "https://bakkogg.itch.io/chargo", "/games/oct23-b20-ag-203.webp"],
+  ["rain-prayer", "Rain Prayer", "Adventure", "Move through a rain-soaked pixel game with keyboard controls.", "https://vendatta77.itch.io/rain-prayer", "/games/oct23-b20-ag-209.webp"],
+  ["tintdrop", "Tintdrop", "Puzzle", "Choose colors to fill a daily grid puzzle in limited moves.", "https://ringburst.itch.io/tintdrop", "/games/oct23-b20-ag-212.webp"],
+  ["sweatypanzer", "SweatyPanzer", "Action", "Drive a small tank through a WebGPU arena.", "https://huggos.itch.io/sweatypanzer", "/games/oct23-b20-ag-215.webp"],
+  ["ads-ie6", "Ads IE6", "Puzzle", "Close ads for points in a timed retro-browser challenge.", "https://sigmapages.itch.io/ads-ie6", "/games/oct23-b20-ag-216.webp"],
+  ["evolution-game-evomerge", "Evolution Game — Micro → Animal → Human", "Puzzle", "Merge organisms to progress from micro life toward animals and humans.", "https://altanonat.github.io/evomerge/", "/games/oct23-b20-ag-217.webp"],
+  ["skel-worlds-bed-wars", "Bed Wars web — Skel Worlds", "Action", "Explore a bed-war arena in offline first-person training.", "https://skelgames.com/skel-worlds/bedwars", "/games/oct23-b20-ag-218.webp"],
   // October 23 AI Game Scout batch 19: exact AI evidence and responsive guest play verified.
   ['rekishi-no-hana-mahjong', '歴史の華　麻雀〜女たちの天下争奪戦〜', 'Strategy', 'Play a Japanese mahjong round with historical women and discard tiles to advance the table.', 'https://rekishi-no-hana-mahjong.pages.dev/', '/games/oct23-rekishi-mahjong.webp'],
   ['isik-tuneli', 'Işık Tüneli', 'Arcade', 'Steer a ship through a glowing tunnel in a fast arcade run.', 'https://furkiozknn.github.io/isik-tuneli', '/games/oct23-isik-tuneli.webp'],
