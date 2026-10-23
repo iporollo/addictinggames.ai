@@ -14,6 +14,9 @@ export type DirectGame = {
 };
 
 const source: [string, string, string, string, string, string?][] = [
+  // October 22 AI Game Scout batch 16: exact AI evidence and responsive guest play verified.
+  ["vibed-pong", "Vibed Pong", "Arcade", "Return a square ball with a paddle in a stark black-and-white arcade court.", "https://nurullahakin.github.io/vibed-pong/", "/games/oct22-vibed-pong.webp"],
+  ["equation-catcher", "Equation Catcher", "Puzzle", "Move a basket to catch the number that solves each falling equation.", "https://reetika-k.github.io/equation-catcher/", "/games/oct22-equation-catcher.webp"],
   // October 22 AI Game Scout batch 15: creator AI evidence and responsive guest play verified.
   ["vector-shooting-range", "VECTOR — 射撃訓練場", "Shooter", "Move through a minimalist first-person training range and line up targets.", "https://glowing-dango-131af5.netlify.app/", "/games/oct22-vector-range.webp"],
   // October 22 AI Game Scout batch 14: creator AI evidence and responsive guest play verified.
