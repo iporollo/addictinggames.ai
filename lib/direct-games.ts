@@ -14,6 +14,9 @@ export type DirectGame = {
 };
 
 const source: [string, string, string, string, string, string?][] = [
+  // October 22 AI Game Scout batch 17: creator AI evidence and responsive guest play verified.
+  ["bokushu", "墨守 (Bokushu)", "Adventure", "Choose how to prepare and defend a small city during a ten-day siege.", "https://claude.ai/artifact/KaX2AvkP4VUsvW373pt3r5", "/games/oct22-bokushu.webp"],
+  ["mansion-jewel-mystery", "嘘つきは誰だ ― 洋館の宝石事件", "Adventure", "Question four suspects and inspect clues to find the liar in a mansion jewel case.", "https://heartfelt-sunburst-3c2a50.netlify.app/", "/games/oct22-mansion-mystery.webp"],
   // October 22 AI Game Scout batch 16: exact AI evidence and responsive guest play verified.
   ["vibed-pong", "Vibed Pong", "Arcade", "Return a square ball with a paddle in a stark black-and-white arcade court.", "https://nurullahakin.github.io/vibed-pong/", "/games/oct22-vibed-pong.webp"],
   ["equation-catcher", "Equation Catcher", "Puzzle", "Move a basket to catch the number that solves each falling equation.", "https://reetika-k.github.io/equation-catcher/", "/games/oct22-equation-catcher.webp"],
