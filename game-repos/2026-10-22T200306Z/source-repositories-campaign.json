@@ -1165,6 +1165,26 @@
         "url": "https://api.github.com/repos/BigSmoke69/Slender-Mode---The-Long-Dark/zipball/73b85fe3d64fb314b1c7a6105cb14983f3a9ab15",
         "sha256": "de2fe464cfeea7a8cea68c341f1b52d77365a4c44c876be95e973d6669abe199"
       }
+    },
+    {
+      "repository_url": "https://github.com/egnutv/LostObjects",
+      "candidate_ids": [
+        "AG-115"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/egnutv/LostObjects/blob/85f68c63214427f9344b7a9ea9f3e75cc6e39548/README.md#L9",
+          "observed_at_utc": "2026-10-23T08:24:29Z"
+        }
+      ],
+      "commit_sha": "85f68c63214427f9344b7a9ea9f3e75cc6e39548",
+      "tag": "0.12.2",
+      "license": null,
+      "license_reason": "No license verified in the exact creator repository at review",
+      "artifact": {
+        "url": "https://raw.githubusercontent.com/egnutv/LostObjects/85f68c63214427f9344b7a9ea9f3e75cc6e39548/releases/LostObjects-0.12.2.zip",
+        "sha256": "e57da212f92e333112c639b51789157cd982e81f49eec5d65525839e29428b07"
+      }
     }
   ]
 }

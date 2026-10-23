@@ -7,6 +7,22 @@ export type MultiplayerMode = 'Online multiplayer' | 'Local 2-player' | 'Local m
 
 // Evidence and unresolved cases live in docs/category-audit/2026-10-11/.
 export const reviewedCategories: Record<string, CategoryList> = {
+  "unmei-no-dice": ["Adventure"],
+  "p-type": ["Shooter"],
+  "recover-the-phone": ["Action"],
+  "retro-del-sol": ["Simulators"],
+  "neon-defender": ["Shooter"],
+  "firestarter-let-it-burn": ["Adventure"],
+  "aero-frog-skybound": ["Adventure"],
+  "the-pages-he-left": ["Adventure"],
+  "oklockers-tower-defense": ["Tower Defense"],
+  "shin-en-no-joou": ["Strategy"],
+  "majuubukuro-no-kettou": ["Adventure"],
+  "maze-maker-mondaru": ["Puzzle"],
+  "pastel-breakers": ["Arcade"],
+  "summon-legion": ["Strategy"],
+  "slime-battle-mondaru": ["Adventure"],
+  "ginga-doumei-senki": ["Strategy"],
   "teleoperator": ["Racing"],
   "nebula-run-pinball": ["Arcade"],
   "road-brash": ["Racing"],
