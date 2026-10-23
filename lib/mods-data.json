@@ -1,5 +1,35 @@
 [
   {
+    "id": "moar-challenges-please",
+    "name": "MoarChallengesPlease (30 challenges)",
+    "game": "Balatro",
+    "creator": "plaxerx",
+    "profile": "https://github.com/plaxerx",
+    "post": "https://github.com/plaxerx/MoarChallengesPlease/releases/tag/v0.1.0",
+    "ai_quote": "Made by plaxerx, with development assistance from Claude.",
+    "ai_note": "The released README credits Claude for assistance developing this exact Balatro challenge mod.",
+    "ai_source": "https://github.com/plaxerx/MoarChallengesPlease/blob/456fed79ad80677ec678cfe64006d54a18890e0a/README.md#L63",
+    "listing": "https://github.com/plaxerx/MoarChallengesPlease/releases/tag/v0.1.0",
+    "repo": "https://github.com/plaxerx/MoarChallengesPlease/tree/456fed79ad80677ec678cfe64006d54a18890e0a",
+    "summary": "Adds 30 challenge runs with new rule combinations and twists for Balatro.",
+    "changes": "Adds challenge definitions and hooks game and card functions to change rules during selected challenge runs.",
+    "cost": "Price not confirmed",
+    "price_note": "The public GitHub release is downloadable, but the reviewed README has no price statement.",
+    "platform": "Balatro · Steamodded · PC",
+    "version": "v0.1.0 · Steamodded ≥1.0.0~BETA-0400 · Lovely required; Talisman optional",
+    "install": "Install the official released MoarChallengesPlease folder into the Balatro Mods directory using the README instructions. Requires compatible Steamodded and Lovely. The manifest conflicts with MoarVanillaPlease. No installation or runtime test was performed.",
+    "working_evidence": "No independent successful-use report or in-game test was verified.",
+    "security": "Codex Security Standard reviewed the exact 23,891-byte v0.1.0 ZIP (SHA-256 0b77abac2382cc387f2a8d5435ad520bea770c3ed2666802ad75c0465b8eb21a), including all 15 tracked files and packaged executable Lua. Complete static coverage, zero reportable findings. Released executable Lua was byte-identical to the pinned tag; no runtime or dependency assessment was performed.",
+    "warnings": [
+      "The mod wraps core Balatro functions while loaded. Challenge modifiers can destroy cards or jokers, remove Eternal Chicot at Ante 8, auto-buy from shops, and change economy rules; these effects apply in the named challenge modes.",
+      "The mod requires Steamodded and Lovely, may conflict with MoarVanillaPlease, and was not installed or tested for compatibility. Talisman is optional.",
+      "Executable Lua matched the pinned tag, but manifest, README and LICENSE differed in wording or line endings and were reviewed separately. Static review did not assess Balatro, Steamodded, Lovely or other mods, and is not a malware-free certification."
+    ],
+    "released_at": "2026-08-25T19:58:48Z",
+    "image": "/mods/oct23-moar-challenges-please.webp",
+    "image_alt": "Illustrated playing cards and challenge tokens arranged around a deck"
+  },
+  {
     "id": "promptcraft",
     "name": "PromptCraft",
     "game": "Minecraft",

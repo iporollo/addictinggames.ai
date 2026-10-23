@@ -14,6 +14,26 @@ export type DirectGame = {
 };
 
 const source: [string, string, string, string, string, string?][] = [
+  // October 23 AI Game Scout batch 19: exact AI evidence and responsive guest play verified.
+  ['rekishi-no-hana-mahjong', '歴史の華　麻雀〜女たちの天下争奪戦〜', 'Strategy', 'Play a Japanese mahjong round with historical women and discard tiles to advance the table.', 'https://rekishi-no-hana-mahjong.pages.dev/', '/games/oct23-rekishi-mahjong.webp'],
+  ['isik-tuneli', 'Işık Tüneli', 'Arcade', 'Steer a ship through a glowing tunnel in a fast arcade run.', 'https://furkiozknn.github.io/isik-tuneli', '/games/oct23-isik-tuneli.webp'],
+  ['alma-sword-of-liberty', 'Alma: Sword of Liberty', 'Adventure', 'Explore a training yard and begin a historical fantasy journey.', 'https://alma-sword-of-liberty.grok.me', '/games/oct23-alma-sword.webp'],
+  ['find-the-x', 'FIND THE X', 'Puzzle', 'Spot and close the real X among tricky ad and article layouts against a timer.', 'https://findthex.clyr.games', '/games/oct23-find-the-x.webp'],
+  ['stop-this-bounty', 'Try to stop this bounty', 'Puzzle', 'Pull the right levers in a browser puzzle inspired by a crypto bounty.', 'https://omac049.github.io/poidh-proofs/proofs/1485/', '/games/oct23-stop-bounty.webp'],
+  ['french-game-store-defense', 'French Game Store Defense', 'Shooter', 'Defend a game store from a first-person view through timed rounds.', 'https://french-game-store-defense.pages.dev/', '/games/oct23-french-store-defense.webp'],
+  ['gangslop', 'Gangslop', 'Action', 'Brawl against bots in a lively side-view fighting arena.', 'https://gangslop.com', '/games/oct23-gangslop.webp'],
+  ['emberwalk', 'Emberwalk', 'Adventure', 'Guide a torchbearer through dark caves and reveal the way ahead.', 'https://smokeyai.itch.io/emberwalk', '/games/oct23-emberwalk.webp'],
+  ['wickline', 'Wickline', 'Puzzle', 'Light an oil path with limited matches to solve each stage.', 'https://smokeyai.itch.io/wickline', '/games/oct23-wickline.webp'],
+  ['the-last-observation', 'The Last Observation', 'Adventure', 'Explore an eerie first-person chamber and watch for unsettling changes.', 'https://rustyroboz.itch.io/the-last-observation', '/games/oct23-last-observation.webp'],
+  ['afterlight-apocalypse', 'AFTERLIGHT: The Beginning of Apocalypse', 'Adventure', 'Move through an apocalyptic story and interact with the scene around you.', 'https://anika-tasnim.itch.io/afterlight-the-beginning-of-apocalypse', '/games/oct23-afterlight.webp'],
+  ['ai-worms', "AI WORMS : They're Everywhere", 'Arcade', 'Click through a cartoon kitchen to catch worms and build a score.', 'https://seymour8glass.itch.io/ai-worms', '/games/oct23-ai-worms.webp'],
+  ['last-torch', 'Last Torch', 'Platformer', 'Climb and keep the torch lit as its fuel drains.', 'https://mchatai.itch.io/last-torch', '/games/oct23-last-torch.webp'],
+  ['sludge-corp-origins', 'Sludge Corp: Origins', 'Casual', 'Collect biomass and buy upgrades in a strange corporate idle game.', 'https://vibeaxis.itch.io/sludge-corp-origins', '/games/oct23-sludge-corp.webp'],
+  ['emberwake', 'EMBERWAKE', 'Action', 'Move through a glowing action run and survive the hazards ahead.', 'https://retroromrunner.itch.io/emberwake', '/games/oct23-emberwake.webp'],
+  ['pass-the-torch', 'Pass the Torch', 'Puzzle', 'Commit lit lines of code to pass the torch through a timing challenge.', 'https://vibeoverflow.itch.io/pass-the-torch', '/games/oct23-pass-the-torch.webp'],
+  ['wolfpack', 'wolfpack', 'Arcade', 'Guide a wolf pack through a hunt by steering the leader.', 'https://vendatta77.itch.io/wolfpack', '/games/oct23-wolfpack.webp'],
+  ['turfrush', 'Turfrush', 'Arcade', 'Steer through a territory match and draw a trail to claim the field.', 'https://ringburst.itch.io/turfrush', '/games/oct23-turfrush.webp'],
+  ['neon-hop', 'Neon Hop', 'Arcade', 'Hop through a bright obstacle course with simple one-click controls.', 'https://pixelhearth.itch.io/neon-hop', '/games/oct23-neon-hop.webp'],
   // October 23 AI Game Scout batch 20: approved guest-play games.
   ['domino-district', 'Domino District', 'Puzzle', 'Launch a marble and topple a chain of dominoes across each board.', 'https://app.usecrayon.ai/play/1630bad0-642b-44ae-84c4-1ec7a6574247', '/games/oct23-domino-district.webp'],
   ['data-mine', 'Data Mine', 'Simulators', 'Drive through a mine and collect resources to fill the cargo hold.', 'https://app.usecrayon.ai/play/b54f2d4e-6048-4f9f-a8f6-1e9082adde35', '/games/oct23-data-mine.webp'],
@@ -704,6 +724,13 @@ const source: [string, string, string, string, string, string?][] = [
 ];
 
 const reviewNotes: Record<string, string> = {
+  'rekishi-no-hana-mahjong': 'Japanese-language mahjong with characters based on historical women. The short guest test discarded one tile and observed opponent turns; it did not complete a round.',
+  'alma-sword-of-liberty': 'Religious-themed historical fantasy inspired by the Book of Mormon. The short guest test walked through the opening training yard only.',
+  'stop-this-bounty': 'Inspired by a real crypto bounty. The short guest test clicked an in-page lever and observed a blocked result; it did not connect a wallet or transact.',
+  'french-game-store-defense': 'First-person combat and looting theme based on a real news story. The short guest test moved during round 1; no full round was completed.',
+  'gangslop': 'The creator recommends a desktop Bluetooth controller. The short guest test used keyboard input against bots; multiplayer and co-op were not verified.',
+  'the-last-observation': 'Horror atmosphere and optional runtime AI service. The short guest test rotated the first-person camera in an active chamber; later content was not tested.',
+  'ai-worms': 'Portrait-first layout. The short guest test scored in the kitchen; it did not complete a run.',
   'lendore-iv': 'The setting may reference the Lendore Isles in Greyhawk, but that connection is unverified.',
   'urna-royale': 'The creator’s AI-use statement covers music only. The political theme may depict real politicians; likenesses were not verified.',
   'himawari-sand': 'Japanese-language game.',
