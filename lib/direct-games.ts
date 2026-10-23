@@ -14,6 +14,24 @@ export type DirectGame = {
 };
 
 const source: [string, string, string, string, string, string?][] = [
+  // October 23 AI Game Scout batch 21: exact AI evidence and responsive guest play verified.
+  ["monster-hotel", "Monster Hotel", "Simulators", "Match visiting monsters to rooms they like during a hotel shift.", "https://app.usecrayon.ai/play/06573666-3f8f-4a04-a519-1ee507eaa15b", "/games/oct23-b21-ag-005.webp"],
+  ["cream-puff-bluff", "Cream Puff Bluff", "Casual", "Choose whether to eat or offer a cream puff in a short bluffing game.", "https://kazuyoshi1118.itch.io/cream-puff-bluff", "/games/oct23-b21-ag-032.webp"],
+  ["vybenomad", "VybeNomad", "Simulators", "Choose activities and events while managing a nomad life simulation.", "https://vaigames.com/vybenomad/", "/games/oct23-b21-ag-159.webp"],
+  ["entrelaco", "Entrelaço", "Puzzle", "Swap Portuguese words to solve a daily word-connection board.", "https://entrelaco.cc/", "/games/oct23-b21-ag-161.webp"],
+  ["compound-quest", "Compound Quest", "Simulators", "Buy savings upgrades and watch compound interest grow.", "https://compoundvibes.com/play/compound-quest/", "/games/oct23-b21-ag-166.webp"],
+  ["one-in-1-4-billion", "14亿分之1", "Simulators", "Start a generated life in China and make choices as years pass.", "https://lunhui.14yi.workers.dev/", "/games/oct23-b21-ag-168.webp"],
+  ["penguin-smack", "Penguin Smack", "Arcade", "Time a swing to launch a penguin across a snowy scene.", "https://kvickan.itch.io/penguin-smack", "/games/oct23-b21-ag-169.webp"],
+  ["the-last-light-hallucinated", "The Last Light", "Adventure", "Walk from a golden refuge into a dark passage in a first-person game.", "https://hallucinatedgames.itch.io/the-last-light", "/games/oct23-b21-ag-181.webp"],
+  ["knock-it-off", "Knock It Off", "Arcade", "Knock objects from a tabletop in a physics challenge.", "https://cats-vs-everything.vercel.app/", "/games/oct23-b21-ag-223.webp"],
+  ["catie-jump-to-heaven", "Catie Jump to Heaven", "Platformer", "Guide Catie upward through a cat-themed jumping game.", "https://catie-jump-to-heaven.com/", "/games/oct23-b21-ag-225.webp"],
+  ["alphabet-slide", "Alphabet Slide · 5×5 Puzzle", "Puzzle", "Slide letter tiles on a 5×5 board to restore the alphabet.", "https://www.webshite.xyz/slider-puzzle", "/games/oct23-b21-ag-226.webp"],
+  ["ai-data-center-management", "AI Data Center Management", "Simulators", "Sign fictional tenants and manage a small data-center campus.", "https://www.orizon.co/lab/ai-data-center-management", "/games/oct23-b21-ag-228.webp"],
+  ["torchbearer-nktmedia", "Torchbearer", "Adventure", "Carry a torch through a dark forest and gather embers.", "https://nktmedia.itch.io/torchbearer", "/games/oct23-b21-ag-238.webp"],
+  ["ringburst", "Ringburst", "Arcade", "Steer a comet through rings and circle targets with its tail.", "https://ringburst.itch.io/ringburst", "/games/oct23-b21-ag-239.webp"],
+  ["doubutsu-baseball", "どうぶつベースボール", "Sports", "Bat against animal opponents in a Japanese baseball game.", "https://saboten-apps.github.io/baseball/", "/games/oct23-b21-ag-247.webp"],
+  ["poketower", "PokéTower", "Tower Defense", "Place creature towers and defend a route against advancing waves.", "https://poketower-weld.vercel.app/", "/games/oct23-b21-ag-253.webp"],
+  ["explosive-ordnance", "Explosive Ordnance", "Action", "Move and fire through a beach landing against incoming enemies.", "https://felmeric.itch.io/explosive-ordnance", "/games/oct23-b21-ag-254.webp"],
   // October 23 AI Game Scout batch 20: exact AI evidence and responsive guest play verified.
   ["titi-abc", "Titi ABC", "Educational", "Choose a letter and match its picture-word answer to earn stars.", "https://words.mustafaakin.dev/", "/games/oct23-b20-ag-089.webp"],
   ["order-the-cardgame", "ORDER: THE CARDGAME", "Strategy", "Place units in lanes and execute turns to damage the enemy base.", "https://mintotsukino.itch.io/ordercard", "/games/oct23-b20-ag-094.webp"],
