@@ -1185,6 +1185,74 @@
         "url": "https://raw.githubusercontent.com/egnutv/LostObjects/85f68c63214427f9344b7a9ea9f3e75cc6e39548/releases/LostObjects-0.12.2.zip",
         "sha256": "e57da212f92e333112c639b51789157cd982e81f49eec5d65525839e29428b07"
       }
+    },
+    {
+      "repository_url": "https://github.com/rgeraskin/valheim-winter-sled",
+      "candidate_ids": [
+        "AG-103"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/rgeraskin/valheim-winter-sled#readme",
+          "observed_at_utc": "2026-10-23T01:59:00Z"
+        }
+      ],
+      "commit_sha": "9f211e037b49588bbd4c337d35066033f9dd75cd",
+      "tag": null,
+      "license": null,
+      "artifact": null
+    },
+    {
+      "repository_url": "https://github.com/555maggot666/grouprecipes-with-popups",
+      "candidate_ids": [
+        "AG-104"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/555maggot666/grouprecipes-with-popups#readme",
+          "observed_at_utc": "2026-10-23T01:59:00Z"
+        }
+      ],
+      "commit_sha": "0d58987fca3876bd661a1d7bcd8b71b411524155",
+      "tag": null,
+      "license": null,
+      "artifact": null
+    },
+    {
+      "repository_url": "https://github.com/Circuitrinos/v_rising_vr_mod",
+      "candidate_ids": [
+        "AG-105"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/Circuitrinos/v_rising_vr_mod#readme",
+          "observed_at_utc": "2026-10-23T01:59:00Z"
+        }
+      ],
+      "commit_sha": null,
+      "tag": null,
+      "license": null,
+      "artifact": null
+    },
+    {
+      "repository_url": "https://github.com/itssimple/realearth",
+      "candidate_ids": [
+        "AG-112"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/itssimple/realearth/blob/HEAD/README.md#L388",
+          "observed_at_utc": "2026-10-23T12:31:38.840Z"
+        }
+      ],
+      "commit_sha": null,
+      "tag": null,
+      "license": null,
+      "license_reason": "Not verified in current source receipt",
+      "artifact": {
+        "url": "https://mediafilez.forgecdn.net/files/9049/358/realearth-0.1.0.jar",
+        "sha256": "91674c4c6be04659851e7c3c1a27cccbbfaeceb2914fa12eaee56a3c520320eb"
+      }
     }
   ]
 }

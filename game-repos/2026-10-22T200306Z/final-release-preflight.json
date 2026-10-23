@@ -1,0 +1,99 @@
+{
+  "observed_at_utc": "2026-10-23T16:59:46.524Z",
+  "run_id": "2026-10-22T200306Z",
+  "source_main_sha": "621a3e064b25bda4f03493ae9068ec339066284b",
+  "production_deployment_id": 7277701840,
+  "production_deployment_sha": "621a3e064b25bda4f03493ae9068ec339066284b",
+  "production_deployment_status": "success",
+  "live_listing_http": {
+    "/games": 200,
+    "/mods": 200
+  },
+  "live_unpublished_name_absence": "Checked /games and /mods server HTML at preflight; nine new names absent. Main source catalog exact canonical URLs absent in lib/direct-games.ts, lib/catalog.ts, lib/mods-data.json, lib/games.ts.",
+  "tesla": {
+    "existing_catalog_ids": [
+      "plaid-circuit",
+      "tesla-ramp",
+      "roadster-stunt-arena",
+      "roadster-rush"
+    ],
+    "count_before": 4,
+    "selected_new_id": "AG-221",
+    "count_after": 5,
+    "non_tesla_classification_note": "OVER THE TOLL is an unspecified electric sports car; prior exact source audit in game-discovery-bot/runs/2026-10-22T200306Z/runroot/game-sources-122-178/AG-178.md"
+  },
+  "entries": [
+    {
+      "candidate_id": "AG-017",
+      "kind": "game",
+      "canonical_url": "https://sagas.cybertwip.com/",
+      "current_main_exact_url_hits": [],
+      "cover": "public/games/oct23-final-ag-017.webp",
+      "cover_sha256": "e862363afd38251e004aa49626b79e14a32683a4e162b43d6075662b92e20584"
+    },
+    {
+      "candidate_id": "AG-025",
+      "kind": "mod",
+      "canonical_url": "https://github.com/DooDesch-Mods/ScheduleOne-Chassis/releases/tag/v1.1.0",
+      "current_main_exact_url_hits": [],
+      "cover": "public/mods/oct23-final-ag-025.webp",
+      "cover_sha256": "cfd1dad1c1f9edf9ae4880e4e3a10e83cfc4f8ecbe24a619a339158a49a40ebd"
+    },
+    {
+      "candidate_id": "AG-026",
+      "kind": "mod",
+      "canonical_url": "https://github.com/drago139/CastleStorySteamBridge/releases/tag/v0.3.60",
+      "current_main_exact_url_hits": [],
+      "cover": "public/mods/oct23-final-ag-026.webp",
+      "cover_sha256": "56e5b563de0c698168f92d6031eaeeef6bad8bb06f2d257488621e7fc7ac8cb1"
+    },
+    {
+      "candidate_id": "AG-027",
+      "kind": "mod",
+      "canonical_url": "https://github.com/Geckomacabre/RewindTogether/releases/tag/v1.9.2",
+      "current_main_exact_url_hits": [],
+      "cover": "public/mods/oct23-final-ag-027.webp",
+      "cover_sha256": "17efe510a8216cb8451b57d4e1f80047a449c9e7146ea5a1f3f1c56d9067b429"
+    },
+    {
+      "candidate_id": "AG-028",
+      "kind": "mod",
+      "canonical_url": "https://github.com/Awperati/tlou2-viewmodel/releases/tag/v1.0.0",
+      "current_main_exact_url_hits": [],
+      "cover": "public/mods/oct23-final-ag-028.webp",
+      "cover_sha256": "e245b18db6641e64e51a97f7f7d8a01e94a93d0c1d9551d5b6cab249ad55b4e7"
+    },
+    {
+      "candidate_id": "AG-112",
+      "kind": "mod",
+      "canonical_url": "https://github.com/itssimple/realearth",
+      "current_main_exact_url_hits": [],
+      "cover": "public/mods/oct23-final-ag-112.webp",
+      "cover_sha256": "f3c58a52b0f3f6a474318c8bff3d1f89ad511ba74b6bf7e86e3471f304c83be7"
+    },
+    {
+      "candidate_id": "AG-135",
+      "kind": "mod",
+      "canonical_url": "https://github.com/KillerPixelCrew/VulkanStory",
+      "current_main_exact_url_hits": [],
+      "cover": "public/mods/oct23-final-ag-135.webp",
+      "cover_sha256": "d3008b4c542d11fe70cd16fe9171171fd1e0fa7683eb54911a3e0697e0251a19"
+    },
+    {
+      "candidate_id": "AG-221",
+      "kind": "game",
+      "canonical_url": "https://rokengames.com/roadster-flight",
+      "current_main_exact_url_hits": [],
+      "cover": "public/games/oct23-final-ag-221.webp",
+      "cover_sha256": "6d8929486a5fe9621cc148e60ad9f8daa4e4944bbd1ad0599cd51118fab3dcfc"
+    },
+    {
+      "candidate_id": "AG-255",
+      "kind": "game",
+      "canonical_url": "https://he-is-risen.itch.io/this-is-a-game",
+      "current_main_exact_url_hits": [],
+      "cover": "public/games/oct23-final-ag-255.webp",
+      "cover_sha256": "0b2468a9246397fd320ba719b8b5184f07b779486da36ad62dbccc939d829347"
+    }
+  ]
+}
