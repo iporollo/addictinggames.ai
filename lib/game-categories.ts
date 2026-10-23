@@ -7,6 +7,12 @@ export type MultiplayerMode = 'Online multiplayer' | 'Local 2-player' | 'Local m
 
 // Evidence and unresolved cases live in docs/category-audit/2026-10-11/.
 export const reviewedCategories: Record<string, CategoryList> = {
+  "the-last-hexagon": ["Arcade"],
+  "over-the-toll": ["Racing"],
+  "torch-chain": ["Puzzle"],
+  "dylan-mondaru": ["Action"],
+  "texas-holdem-eelken": ["Strategy"],
+  "7key-position-trainer": ["Rhythm", "Educational"],
   "unmei-no-dice": ["Adventure"],
   "p-type": ["Shooter"],
   "recover-the-phone": ["Action"],

@@ -14,6 +14,13 @@ export type DirectGame = {
 };
 
 const source: [string, string, string, string, string, string?][] = [
+  // October 23 AI Game Scout batch 26: verified guest controls and exact AI evidence.
+  ["the-last-hexagon", "The Last Hexagon", "Arcade", "Nudge a spinning hexagon through a live physics challenge", "https://last-hexagon.vercel.app/", "/games/oct23-b26-ag-157.webp"],
+  ["over-the-toll", "收费站上空 · OVER THE TOLL", "Racing", "Throttle a flying car through a toll-road challenge", "https://flying-toll-roadster.greatmario.chatgpt.site", "/games/oct23-b26-ag-178.webp"],
+  ["torch-chain", "Torch Chain", "Puzzle", "Memorize lit torch stones and match them for points", "https://www.worrrrld.com/play/torch-chain", "/games/oct23-b26-ag-190.webp"],
+  ["dylan-mondaru", "ディラン", "Action", "Explore a Japanese city and hunt rivals", "https://jazzy-buttercream-957b02.netlify.app/", "/games/oct23-b26-ag-285.webp"],
+  ["texas-holdem-eelken", "Texas Hold’em", "Strategy", "Play a six-player poker tournament", "https://games.eelken.net/poker/", "/games/oct23-b26-ag-293.webp"],
+  ["7key-position-trainer", "7Key Position Trainer", "Rhythm", "Hit the lit keyboard lane to build a combo", "https://games.eelken.net/keyprac/", "/games/oct23-b26-ag-294.webp"],
   // October 23 AI Game Scout batch 25: verified guest play and exact AI evidence.
   ["unmei-no-dice", "運命のダイス", "Adventure", "Explore a Japanese fantasy map and follow its paths.", "https://fanciful-longma-8b4aa6.netlify.app/", "/games/oct23-b25-ag-283.webp"],
   ["p-type", "P-TYPE", "Shooter", "Pilot a flying pig through a side-scrolling shooting game.", "https://claude.ai/artifact/BgFqLG4RVPsfKpq7TC1GeG", "/games/oct23-b25-ag-072.webp"],
@@ -802,6 +809,12 @@ const source: [string, string, string, string, string, string?][] = [
 ];
 
 const reviewNotes: Record<string, string> = {
+  'the-last-hexagon': 'Short physics demo. A guest test changed the active act and live telemetry; two red scientific measurement receipts are part of the game design. The short test did not complete every act.',
+  'over-the-toll': 'The test reached a playable flying-car level and W throttle raised the HUD speed from 83 to 137 km/h. Steering was inconclusive in the short test. Tesla-like roadster imagery is a theme warning, not an official affiliation.',
+  'torch-chain': 'The short guest test matched one memorized torch stone; score rose from 0 to 10. The complete five-round run was not tested.',
+  'dylan-mondaru': 'The Japanese guest session selected Easy mode, used the auto-hunting control and observed one kill plus a $6 cash gain. The game contains cartoon urban violence.',
+  'texas-holdem-eelken': 'Guest tournament test called two bets, folded, and reached the next hand. Online human multiplayer was not established.',
+  '7key-position-trainer': 'Pressing the lit D lane produced PERFECT, combo 1, score 1020 and a reaction reading. Keyboard controls required.',
   "unmei-no-dice": "Japanese-language game. The short guest test tapped a traversable grass destination; the player moved and the map scrolled relative to the house and path. An extended run was not completed.",
   "p-type": "Short guest test: M mute control invoked, then held Right 700ms; Pig visibly moved left to center-right while enemy formation/projectiles advanced. An extended run was not completed.",
   "recover-the-phone": "Short guest test: Started mission, then pressed C during green safe interval; WATCH THE PATROL changed to cross phase with green NOW crossing transition. An extended run was not completed. Desktop only per creator; GTA-style inspiration.",
