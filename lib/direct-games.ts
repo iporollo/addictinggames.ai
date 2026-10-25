@@ -18,6 +18,8 @@ const source: [string, string, string, string, string, string?][] = [
   ["power-online-sagas", "Power Online / Sagas", "Action", "Play a guest fighting match in Dream Land", "https://sagas.cybertwip.com/", "/games/oct23-final-ag-017.webp"],
   ["roadster-flight-lab", "Roadster Flight Lab", "Racing", "Lift a Roadster into an airborne driving challenge", "https://rokengames.com/roadster-flight", "/games/oct23-final-ag-221.webp"],
   ["chimera-omega", "CHIMERA v3 — Omega", "Action", "Jump and shoot through a dark side-scrolling arena", "https://he-is-risen.itch.io/this-is-a-game", "/games/oct23-final-ag-255.webp"],
+  // October 24 Scout campaign, recovered final game after creator destination update.
+  ["mizutamari-no-eiyuu", "水たまりの英雄", "Adventure", "Raise a slime and explore a village RPG.", "https://majestic-chaja-4daf89.netlify.app/", "/games/oct24-g-101.webp"],
   // October 24 Scout campaign, approved batch 7: responsive guest play on creator site.
   ["fragrush", "FragRush", "Action", "Fight bots in a destructible voxel arena.", "https://erenciracioglu-dotcom.github.io/FragRush/", "/games/oct24-g-056.webp"],
   // October 24 Scout campaign, approved batch 6: responsive guest play on creator sites.
