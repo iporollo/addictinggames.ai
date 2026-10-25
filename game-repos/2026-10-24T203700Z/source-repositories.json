@@ -1348,7 +1348,17 @@
     {
       "repository_url": "https://github.com/ealdent/the-grove",
       "candidate_ids": [
-        "G-099"
+        "G-099",
+        "G-108",
+        "G-109",
+        "G-110",
+        "G-111",
+        "G-112",
+        "G-113",
+        "G-114",
+        "G-115",
+        "G-116",
+        "G-117"
       ],
       "discovery_sources": [
         {
@@ -1356,7 +1366,7 @@
           "observed_at_utc": "2026-10-24T22:12:56Z"
         }
       ],
-      "commit_sha": null,
+      "commit_sha": "caa8e5ed5bfdeef0cf819b2bd7952606048b03b8",
       "tag": null,
       "license": null,
       "status": "Reported source repository; metadata subject to verification"
@@ -1364,7 +1374,11 @@
     {
       "repository_url": "https://github.com/core-calmdust/aicoding",
       "candidate_ids": [
-        "G-100"
+        "G-100",
+        "G-118",
+        "G-119",
+        "G-120",
+        "G-121"
       ],
       "discovery_sources": [
         {
@@ -1372,7 +1386,7 @@
           "observed_at_utc": "2026-10-24T22:12:56Z"
         }
       ],
-      "commit_sha": null,
+      "commit_sha": "6a5619caa0b344b0a981b84d3684f508012b831d",
       "tag": null,
       "license": null,
       "status": "Reported source repository; metadata subject to verification"
