@@ -1,5 +1,35 @@
 [
   {
+    "id": "huhutalk",
+    "name": "HuhuTalk",
+    "game": "Minecraft",
+    "creator": "LUOCHUN_semianimus",
+    "platform": "Minecraft 1.21.1 (NeoForge; Touhou Little Maid addon)",
+    "summary": "Adds AI conversations and image understanding to Touhou Little Maid.",
+    "changes": "Adds configurable AI chat and an optional vision feature that sends a selected screenshot and prompt to the configured provider.",
+    "install": "Use the reviewed HuhuTalk 1.1.0 release with Touhou Little Maid 1.5.1 or newer on Minecraft 1.21.1 NeoForge; check compatibility and back up saves.",
+    "profile": "https://modrinth.com/mod/huhutalk",
+    "post": "https://modrinth.com/mod/huhutalk",
+    "listing": "https://modrinth.com/mod/huhutalk/version/1.1.0",
+    "cost": "Price not confirmed",
+    "price_note": "The reviewed file is publicly downloadable; pricing for any referenced Pro feature or AI provider was not confirmed. The base game or provider may have costs.",
+    "version": "1.1.0",
+    "ai_quote": "This mod was developed with AI assistance. I am not formally trained in programming.",
+    "ai_note": "Creator states AI assistance on this exact Modrinth project; no model or file-level contribution is specified.",
+    "ai_source": "https://modrinth.com/mod/huhutalk",
+    "working_evidence": "Official exact release passed static artifact security review; Minecraft installation and gameplay were not tested.",
+    "security": "Codex Security static scans of exact HuhuTalk 1.1.0 JAR SHA-256 591880eebc7bdfa8dc1f0accb37c24037baac84fc50a02a7b9ff4ecc9b996e49. Initial sealed scan found zero validated issues; focused sealed follow-up verified the external provider-edit permission rule in official Touhou Little Maid releases. No runtime test.",
+    "warnings": [
+      "The declared Touhou Little Maid minimum 1.5.0 lacks the called GameModeUtil class; use 1.5.1+ for the reviewed vision-site edit path. Runtime compatibility was not tested.",
+      "The optional vision feature sends a selected screenshot and prompt to the configured AI provider with the configured key.",
+      "Static security review does not establish installation, runtime behavior, or future dependency compatibility.",
+      "Touhou fan-work and noncommercial asset notices may affect use beyond linking."
+    ],
+    "image": "/mods/oct24-m-072.webp",
+    "image_alt": "HuhuTalk official creator icon",
+    "repo": "https://github.com/LUOCHUNsemianimus/huhutalk"
+  },
+  {
     "id": "essentialsc",
     "name": "EssentialsC",
     "game": "Minecraft",
