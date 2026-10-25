@@ -1,0 +1,1429 @@
+{
+  "schema_version": 2,
+  "records": [
+    {
+      "repository_url": "https://github.com/isamush/tetris",
+      "candidate_ids": [
+        "G-009"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://x.com/isamush/status/2113976803081732333",
+          "observed_at_utc": "2026-10-24T20:46:45Z"
+        }
+      ],
+      "commit_sha": null,
+      "tag": null,
+      "license": null,
+      "status": "Reported source repository; metadata subject to verification"
+    },
+    {
+      "repository_url": "https://github.com/WarlyFarly-Github/WF-s-Image-Overlays",
+      "candidate_ids": [
+        "M-002"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/WarlyFarly-Github/WF-s-Image-Overlays/blob/main/README.md?plain=1#L3",
+          "observed_at_utc": "2026-10-24T20:46:45Z"
+        }
+      ],
+      "commit_sha": "2fc78c58ef8718b727e4d72ad3b81330f21e0e36",
+      "tag": "1.0.0",
+      "license": null,
+      "status": "Reported source repository; metadata subject to verification"
+    },
+    {
+      "repository_url": "https://github.com/buhhrad/MW2xRoR2",
+      "candidate_ids": [
+        "M-030"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/buhhrad/MW2xRoR2/blob/v0.4.5/README.md#L219-L222",
+          "observed_at_utc": "2026-10-24T21:39:54.760393Z"
+        }
+      ],
+      "commit_sha": "41ee91ce9b16dccf4906b6983ef900ddd17b1517",
+      "tag": "v0.4.5",
+      "license": null,
+      "status": "Reported source repository; metadata subject to verification"
+    },
+    {
+      "repository_url": "https://github.com/WreckzOG/StageFog",
+      "candidate_ids": [
+        "M-031"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://thunderstore.io/package/wreckzog/Stage_fog/",
+          "observed_at_utc": "2026-10-24T21:39:54.760393Z"
+        }
+      ],
+      "commit_sha": "800b47dc89b54873541dbf1d9e759360e9c96fdd",
+      "tag": "v0.13.0",
+      "license": null,
+      "status": "Reported source repository; metadata subject to verification"
+    },
+    {
+      "repository_url": "https://github.com/WreckzOG/EventHorizon",
+      "candidate_ids": [
+        "M-032"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/WreckzOG/EventHorizon/blob/v1.0.1/README.md#L45",
+          "observed_at_utc": "2026-10-24T21:39:54.760393Z"
+        }
+      ],
+      "commit_sha": "0d3f60c6b3d06af3669d69e2f0f5f003e4b0f2d1",
+      "tag": "v1.0.1",
+      "license": null,
+      "status": "Reported source repository; metadata subject to verification"
+    },
+    {
+      "repository_url": "https://github.com/WreckzOG/HuntressDomainExpansion",
+      "candidate_ids": [
+        "M-033"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/WreckzOG/HuntressDomainExpansion/blob/v1.0.1/README.md#L52",
+          "observed_at_utc": "2026-10-24T21:39:54.760393Z"
+        }
+      ],
+      "commit_sha": "fe8225158065e3e028b7092073b270fd6c36c953",
+      "tag": "v1.0.1",
+      "license": null,
+      "status": "Reported source repository; metadata subject to verification"
+    },
+    {
+      "repository_url": "https://github.com/Pandaismyname1/ultraterraforged",
+      "candidate_ids": [
+        "M-044"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/Pandaismyname1/ultraterraforged/blob/1.0.3+26.3/README.md#L21",
+          "observed_at_utc": "2026-10-24T21:39:54.760393Z"
+        }
+      ],
+      "commit_sha": "a1e7c91b6f7be0f0345f9b1f6c1040d7e2b690f6",
+      "tag": "1.0.3+26.3",
+      "license": null,
+      "status": "Reported source repository; metadata subject to verification"
+    },
+    {
+      "repository_url": "https://github.com/2Shay96/geck-mcp-nv",
+      "candidate_ids": [
+        "M-046"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/2Shay96/geck-mcp-nv/blob/v0.3.0/README.md#L74",
+          "observed_at_utc": "2026-10-24T21:39:54.760393Z"
+        }
+      ],
+      "commit_sha": "dfcb20adf57b279008f21a9e0356b901669315e8",
+      "tag": "v0.3.0",
+      "license": null,
+      "status": "Reported source repository; metadata subject to verification"
+    },
+    {
+      "repository_url": "https://github.com/snackbar92hypernova/quen-mcp",
+      "candidate_ids": [
+        "M-048"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://www.nexusmods.com/witcher3/mods/14630",
+          "observed_at_utc": "2026-10-24T21:39:54.760393Z"
+        }
+      ],
+      "commit_sha": "575c68e0a2570dc1784ed9a1ebd3882c6561ccd2",
+      "tag": "v0.1.20",
+      "license": null,
+      "status": "Reported source repository; metadata subject to verification"
+    },
+    {
+      "repository_url": "https://github.com/shadowpendant69/mo2-codex-bridge",
+      "candidate_ids": [
+        "M-050"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/shadowpendant69/mo2-codex-bridge/blob/v0.1.0-preview/README.md#L3",
+          "observed_at_utc": "2026-10-24T21:39:54.760393Z"
+        }
+      ],
+      "commit_sha": "54f490224a1ceec53fc54e2a640ee8e8ec6cc202",
+      "tag": "v0.1.0-preview",
+      "license": null,
+      "status": "Reported source repository; metadata subject to verification"
+    },
+    {
+      "repository_url": "https://github.com/kovixvagyok/temu-luckyblocks",
+      "candidate_ids": [
+        "M-005"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://modrinth.com/mod/temu-lucky-blocks",
+          "observed_at_utc": "2026-10-24T20:55:00Z"
+        }
+      ],
+      "commit_sha": null,
+      "tag": null,
+      "license": null,
+      "status": "Reported source repository; metadata subject to verification"
+    },
+    {
+      "repository_url": "https://github.com/HiroLeWeeb/EMI-Recipe-Pin-1.20",
+      "candidate_ids": [
+        "M-006"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://modrinth.com/mod/forgemi-recipe-pin",
+          "observed_at_utc": "2026-10-24T20:55:00Z"
+        }
+      ],
+      "commit_sha": null,
+      "tag": null,
+      "license": null,
+      "status": "Reported source repository; metadata subject to verification"
+    },
+    {
+      "repository_url": "https://github.com/saodi891/Limen",
+      "candidate_ids": [
+        "M-008"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://modrinth.com/mod/limen",
+          "observed_at_utc": "2026-10-24T20:55:00Z"
+        }
+      ],
+      "commit_sha": null,
+      "tag": null,
+      "license": null,
+      "status": "Reported source repository; metadata subject to verification"
+    },
+    {
+      "repository_url": "https://github.com/belic1445/mapartcanceler",
+      "candidate_ids": [
+        "M-009"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://modrinth.com/mod/g-rated-maps",
+          "observed_at_utc": "2026-10-24T20:55:00Z"
+        }
+      ],
+      "commit_sha": null,
+      "tag": null,
+      "license": null,
+      "status": "Reported source repository; metadata subject to verification"
+    },
+    {
+      "repository_url": "https://github.com/19158774064/fetoemc",
+      "candidate_ids": [
+        "M-010"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://modrinth.com/mod/fetoemc",
+          "observed_at_utc": "2026-10-24T20:55:00Z"
+        }
+      ],
+      "commit_sha": null,
+      "tag": null,
+      "license": null,
+      "status": "Reported source repository; metadata subject to verification"
+    },
+    {
+      "repository_url": "https://github.com/jojogamerCt/dragon-block-tenkaichi",
+      "candidate_ids": [
+        "M-012"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://www.curseforge.com/minecraft/mc-mods/dragon-block-tenkaichi",
+          "observed_at_utc": "2026-10-24T20:58:00Z"
+        }
+      ],
+      "commit_sha": null,
+      "tag": null,
+      "license": null,
+      "status": "Reported source repository; metadata subject to verification"
+    },
+    {
+      "repository_url": "https://github.com/robinneefs/rps-rivals",
+      "candidate_ids": [
+        "G-025"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/robinneefs/rps-rivals/blob/HEAD/README.md",
+          "observed_at_utc": "2026-10-24T21:05:00Z"
+        }
+      ],
+      "commit_sha": null,
+      "tag": null,
+      "license": null,
+      "status": "Reported source repository; metadata subject to verification"
+    },
+    {
+      "repository_url": "https://github.com/mastoor1441",
+      "candidate_ids": [
+        "M-028"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://thunderstore.io/c/ultrakill/p/mastoor144_one_man_team/Preludesuffering/",
+          "observed_at_utc": "2026-10-24T21:08:00Z"
+        }
+      ],
+      "commit_sha": null,
+      "tag": null,
+      "license": null,
+      "status": "Reported source repository; metadata subject to verification"
+    },
+    {
+      "repository_url": "https://github.com/dgreenheck/tidewater",
+      "candidate_ids": [
+        "G-037"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/dgreenheck/tidewater",
+          "observed_at_utc": "2026-10-24T21:15:00Z"
+        }
+      ],
+      "commit_sha": null,
+      "tag": null,
+      "license": null,
+      "status": "Reported source repository; metadata subject to verification"
+    },
+    {
+      "repository_url": "https://github.com/mrserluiz/AeternumSeasons-CustomETHER/tree/codex/ethercraft-custom-v0.2.0/ethercraft-custom",
+      "candidate_ids": [
+        "M-061"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://modrinth.com/mod/aeternumcustomportal",
+          "observed_at_utc": "2026-10-24T21:34:12Z"
+        }
+      ],
+      "commit_sha": null,
+      "tag": null,
+      "license": null,
+      "status": "Reported source repository; metadata subject to verification"
+    },
+    {
+      "repository_url": "https://github.com/moos2333/Tinkers-Schema",
+      "candidate_ids": [
+        "M-064"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://modrinth.com/mod/tinkers-schema",
+          "observed_at_utc": "2026-10-24T21:34:12Z"
+        }
+      ],
+      "commit_sha": null,
+      "tag": null,
+      "license": null,
+      "status": "Reported source repository; metadata subject to verification"
+    },
+    {
+      "repository_url": "https://github.com/moos2333/Tinkers-Gadgets",
+      "candidate_ids": [
+        "M-065"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://modrinth.com/mod/tinkers-gadgets",
+          "observed_at_utc": "2026-10-24T21:34:12Z"
+        }
+      ],
+      "commit_sha": null,
+      "tag": null,
+      "license": null,
+      "status": "Reported source repository; metadata subject to verification"
+    },
+    {
+      "repository_url": "https://github.com/VanishingTacos/InventoryWizard",
+      "candidate_ids": [
+        "M-069"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://modrinth.com/mod/inventorywizard",
+          "observed_at_utc": "2026-10-24T21:34:12Z"
+        }
+      ],
+      "commit_sha": null,
+      "tag": null,
+      "license": null,
+      "status": "Reported source repository; metadata subject to verification"
+    },
+    {
+      "repository_url": "https://github.com/KILLKULA/fatedice.git",
+      "candidate_ids": [
+        "M-071"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://modrinth.com/mod/fate-dice-roll-of-destiny",
+          "observed_at_utc": "2026-10-24T21:34:12Z"
+        }
+      ],
+      "commit_sha": null,
+      "tag": null,
+      "license": null,
+      "status": "Reported source repository; metadata subject to verification"
+    },
+    {
+      "repository_url": "https://github.com/LUOCHUNsemianimus/huhutalk",
+      "candidate_ids": [
+        "M-072"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://modrinth.com/mod/huhutalk",
+          "observed_at_utc": "2026-10-24T21:39:20Z"
+        }
+      ],
+      "commit_sha": null,
+      "tag": null,
+      "license": null,
+      "status": "Reported source repository; metadata subject to verification"
+    },
+    {
+      "repository_url": "https://github.com/HVB007og/KeybindsGalore_HVB007",
+      "candidate_ids": [
+        "M-077"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://modrinth.com/mod/keybindsgalore-plus-hvb007",
+          "observed_at_utc": "2026-10-24T21:39:21Z"
+        }
+      ],
+      "commit_sha": null,
+      "tag": null,
+      "license": null,
+      "status": "Reported source repository; metadata subject to verification"
+    },
+    {
+      "repository_url": "https://github.com/596wjr/FangSu_MTR_Addon",
+      "candidate_ids": [
+        "M-079"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://modrinth.com/mod/fangsu-mtr-addon",
+          "observed_at_utc": "2026-10-24T21:39:22Z"
+        }
+      ],
+      "commit_sha": null,
+      "tag": null,
+      "license": null,
+      "status": "Reported source repository; metadata subject to verification"
+    },
+    {
+      "repository_url": "https://github.com/icemyheart365-prog/PvP-Fix",
+      "candidate_ids": [
+        "M-082"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://modrinth.com/mod/pvp-fix",
+          "observed_at_utc": "2026-10-24T21:39:23Z"
+        }
+      ],
+      "commit_sha": null,
+      "tag": null,
+      "license": null,
+      "status": "Reported source repository; metadata subject to verification"
+    },
+    {
+      "repository_url": "https://github.com/chunkful/inventoryrestore",
+      "candidate_ids": [
+        "M-084"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://modrinth.com/mod/chunkful-inventoryrestore",
+          "observed_at_utc": "2026-10-24T21:39:24Z"
+        }
+      ],
+      "commit_sha": null,
+      "tag": null,
+      "license": null,
+      "status": "Reported source repository; metadata subject to verification"
+    },
+    {
+      "repository_url": "https://github.com/minehostil/RewardHologram",
+      "candidate_ids": [
+        "M-085"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://modrinth.com/mod/reward-hologram",
+          "observed_at_utc": "2026-10-24T21:39:24Z"
+        }
+      ],
+      "commit_sha": null,
+      "tag": null,
+      "license": null,
+      "status": "Reported source repository; metadata subject to verification"
+    },
+    {
+      "repository_url": "https://github.com/DominoKorean/Sundial-Lite-Vivid",
+      "candidate_ids": [
+        "M-089"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://modrinth.com/shader/sundial-lite-vivid",
+          "observed_at_utc": "2026-10-24T21:39:26Z"
+        }
+      ],
+      "commit_sha": null,
+      "tag": null,
+      "license": null,
+      "status": "Reported source repository; metadata subject to verification"
+    },
+    {
+      "repository_url": "https://github.com/fopwoc/source-water",
+      "candidate_ids": [
+        "M-090"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://modrinth.com/shader/source-water",
+          "observed_at_utc": "2026-10-24T21:39:26Z"
+        }
+      ],
+      "commit_sha": null,
+      "tag": null,
+      "license": null,
+      "status": "Reported source repository; metadata subject to verification"
+    },
+    {
+      "repository_url": "https://github.com/Luna5ama/Alpha-Piscium",
+      "candidate_ids": [
+        "M-092"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://modrinth.com/shader/alpha-piscium",
+          "observed_at_utc": "2026-10-24T21:39:27Z"
+        }
+      ],
+      "commit_sha": null,
+      "tag": null,
+      "license": null,
+      "status": "Reported source repository; metadata subject to verification"
+    },
+    {
+      "repository_url": "https://github.com/Real-Mikoto/extra-enchantry",
+      "candidate_ids": [
+        "M-094"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://modrinth.com/mod/extra-enchantry",
+          "observed_at_utc": "2026-10-24T21:39:28Z"
+        }
+      ],
+      "commit_sha": null,
+      "tag": null,
+      "license": null,
+      "status": "Reported source repository; metadata subject to verification"
+    },
+    {
+      "repository_url": "https://github.com/0xEAF/FarlandsOrigin",
+      "candidate_ids": [
+        "M-095"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://modrinth.com/mod/farlandsorigin",
+          "observed_at_utc": "2026-10-24T21:39:48Z"
+        }
+      ],
+      "commit_sha": null,
+      "tag": null,
+      "license": null,
+      "status": "Reported source repository; metadata subject to verification"
+    },
+    {
+      "repository_url": "https://github.com/ZeroArsen/rGoldenHeads",
+      "candidate_ids": [
+        "M-096"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://modrinth.com/mod/rgoldenheads",
+          "observed_at_utc": "2026-10-24T21:39:48Z"
+        }
+      ],
+      "commit_sha": null,
+      "tag": null,
+      "license": null,
+      "status": "Reported source repository; metadata subject to verification"
+    },
+    {
+      "repository_url": "https://github.com/Kharlemagne/ZomBeat",
+      "candidate_ids": [
+        "G-055"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/Kharlemagne/ZomBeat/blob/20419e9b98e03767b1354db09c3ca2ae29610204/README.md#L17",
+          "observed_at_utc": "2026-10-24T21:44:50Z"
+        }
+      ],
+      "commit_sha": null,
+      "tag": null,
+      "license": null,
+      "status": "Reported source repository; metadata subject to verification"
+    },
+    {
+      "repository_url": "https://github.com/Pandaismyname1/SEMI",
+      "candidate_ids": [
+        "M-097"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://www.curseforge.com/minecraft/mc-mods/semi-seasonal-emi",
+          "observed_at_utc": "2026-10-24T21:47:05Z"
+        }
+      ],
+      "commit_sha": null,
+      "tag": null,
+      "license": null,
+      "status": "Reported source repository; metadata subject to verification"
+    },
+    {
+      "repository_url": "https://github.com/erenciracioglu-dotcom/FragRush",
+      "candidate_ids": [
+        "G-056"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/erenciracioglu-dotcom/FragRush/blob/8a21618429312ba6ce904f2964e97f479b46db99/README.md#L159",
+          "observed_at_utc": "2026-10-24T21:49:47Z"
+        }
+      ],
+      "commit_sha": null,
+      "tag": null,
+      "license": null,
+      "status": "Reported source repository; metadata subject to verification"
+    },
+    {
+      "repository_url": "https://github.com/thurbohnek/Stable",
+      "candidate_ids": [
+        "G-057"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/thurbohnek/Stable/blob/4d0bd3a5e42efc3cc91435676154c786705f4473/README.md#L24",
+          "observed_at_utc": "2026-10-24T21:49:47Z"
+        }
+      ],
+      "commit_sha": null,
+      "tag": null,
+      "license": null,
+      "status": "Reported source repository; metadata subject to verification"
+    },
+    {
+      "repository_url": "https://github.com/xShawnRCL/game-night",
+      "candidate_ids": [
+        "G-059"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/xShawnRCL/game-night/blob/39be6eef2096c4ae76a4028d55a2bb9e9bda87d4/README.md#L261",
+          "observed_at_utc": "2026-10-24T21:49:48Z"
+        }
+      ],
+      "commit_sha": null,
+      "tag": null,
+      "license": null,
+      "status": "Reported source repository; metadata subject to verification"
+    },
+    {
+      "repository_url": "https://github.com/Suoip/dungeon-crawler",
+      "candidate_ids": [
+        "G-060"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/Suoip/dungeon-crawler/blob/39a0b9c811cd98e83010c325f551cb6cd121df60/README.md#L136",
+          "observed_at_utc": "2026-10-24T21:49:48Z"
+        }
+      ],
+      "commit_sha": null,
+      "tag": null,
+      "license": null,
+      "status": "Reported source repository; metadata subject to verification"
+    },
+    {
+      "repository_url": "https://github.com/carltonbonks/YourEarthKeepsTurning-CityBuilder",
+      "candidate_ids": [
+        "G-061"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/carltonbonks/YourEarthKeepsTurning-CityBuilder/blob/01b39b5234726f65a679da91d315b9ccddb64ecd/README.md#L3",
+          "observed_at_utc": "2026-10-24T21:49:49Z"
+        }
+      ],
+      "commit_sha": null,
+      "tag": null,
+      "license": null,
+      "status": "Reported source repository; metadata subject to verification"
+    },
+    {
+      "repository_url": "https://github.com/HatamotoSol/SHIPCAT-GAME",
+      "candidate_ids": [
+        "G-062"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/HatamotoSol/SHIPCAT-GAME/blob/5da9b15b439d2aae808713298632bb75fb55a1a0/README.md#L107",
+          "observed_at_utc": "2026-10-24T21:49:49Z"
+        }
+      ],
+      "commit_sha": null,
+      "tag": null,
+      "license": null,
+      "status": "Reported source repository; metadata subject to verification"
+    },
+    {
+      "repository_url": "https://github.com/an9ou/paw-haven",
+      "candidate_ids": [
+        "G-063"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/an9ou/paw-haven/blob/c83591ccf3e1594c6c758c7e9f5ec8c998111fba/README.md#L132",
+          "observed_at_utc": "2026-10-24T21:49:50Z"
+        }
+      ],
+      "commit_sha": null,
+      "tag": null,
+      "license": null,
+      "status": "Reported source repository; metadata subject to verification"
+    },
+    {
+      "repository_url": "https://github.com/kfc283-sudo/one-hong-kong-life",
+      "candidate_ids": [
+        "G-064"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/kfc283-sudo/one-hong-kong-life/blob/7ca34dd5f82ff2c66c21ec151f58a4e7c73a6723/README.md#L118",
+          "observed_at_utc": "2026-10-24T21:49:50Z"
+        }
+      ],
+      "commit_sha": null,
+      "tag": null,
+      "license": null,
+      "status": "Reported source repository; metadata subject to verification"
+    },
+    {
+      "repository_url": "https://github.com/cTux/ae2-crafting-time",
+      "candidate_ids": [
+        "M-102"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/cTux/ae2-crafting-time/blob/release-1.3.1/README.md#L139",
+          "observed_at_utc": "2026-10-24T21:50:37Z"
+        }
+      ],
+      "commit_sha": null,
+      "tag": null,
+      "license": null,
+      "status": "Reported source repository; metadata subject to verification"
+    },
+    {
+      "repository_url": "https://github.com/2567922141/warehouse-keeper",
+      "candidate_ids": [
+        "M-103"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/2567922141/warehouse-keeper/blob/v1.2.1/README.md#L5",
+          "observed_at_utc": "2026-10-24T21:50:37Z"
+        }
+      ],
+      "commit_sha": null,
+      "tag": null,
+      "license": null,
+      "status": "Reported source repository; metadata subject to verification"
+    },
+    {
+      "repository_url": "https://github.com/pppopipupu/FX-EASY",
+      "candidate_ids": [
+        "M-104"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/pppopipupu/FX-EASY/blob/1.0/README.md#L9",
+          "observed_at_utc": "2026-10-24T21:50:38Z"
+        }
+      ],
+      "commit_sha": null,
+      "tag": null,
+      "license": null,
+      "status": "Reported source repository; metadata subject to verification"
+    },
+    {
+      "repository_url": "https://github.com/TefMeister/ashes-2063-weapons",
+      "candidate_ids": [
+        "M-105"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/TefMeister/ashes-2063-weapons/blob/v0.1.1/README.md#L95",
+          "observed_at_utc": "2026-10-24T21:50:38Z"
+        }
+      ],
+      "commit_sha": null,
+      "tag": null,
+      "license": null,
+      "status": "Reported source repository; metadata subject to verification"
+    },
+    {
+      "repository_url": "https://github.com/Evga314/Far-Plane-Two-Continuation",
+      "candidate_ids": [
+        "M-106"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/Evga314/Far-Plane-Two-Continuation/blob/1.2.110/README.md#L1",
+          "observed_at_utc": "2026-10-24T21:50:38Z"
+        }
+      ],
+      "commit_sha": null,
+      "tag": null,
+      "license": null,
+      "status": "Reported source repository; metadata subject to verification"
+    },
+    {
+      "repository_url": "https://github.com/tanuu5/coin-lagoon",
+      "candidate_ids": [
+        "G-072"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/tanuu5/coin-lagoon/blob/169082c550b6bc4f516800195592ff06d2ee9964/README.md#L6",
+          "observed_at_utc": "2026-10-24T21:59:12Z"
+        }
+      ],
+      "commit_sha": null,
+      "tag": null,
+      "license": null,
+      "status": "Reported source repository; metadata subject to verification"
+    },
+    {
+      "repository_url": "https://github.com/hckmstrrahul/rpg-diorama",
+      "candidate_ids": [
+        "G-073"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/hckmstrrahul/rpg-diorama/blob/5abb512fca7b60b9f08533768bd5b47eabb628cd/README.md#L50",
+          "observed_at_utc": "2026-10-24T21:59:12Z"
+        }
+      ],
+      "commit_sha": null,
+      "tag": null,
+      "license": null,
+      "status": "Reported source repository; metadata subject to verification"
+    },
+    {
+      "repository_url": "https://github.com/costardiv1/quebrabloco",
+      "candidate_ids": [
+        "G-074"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/costardiv1/quebrabloco/blob/c638900d6359d5b4a8a035f25949158268208606/README.md#L11",
+          "observed_at_utc": "2026-10-24T21:59:12Z"
+        }
+      ],
+      "commit_sha": null,
+      "tag": null,
+      "license": null,
+      "status": "Reported source repository; metadata subject to verification"
+    },
+    {
+      "repository_url": "https://github.com/Reetika-k/neural-heist",
+      "candidate_ids": [
+        "G-075"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/Reetika-k/neural-heist/blob/23363ac0a5193fc5a3fe21eff2e7d661c5c06519/README.md#L4",
+          "observed_at_utc": "2026-10-24T21:59:13Z"
+        }
+      ],
+      "commit_sha": null,
+      "tag": null,
+      "license": null,
+      "status": "Reported source repository; metadata subject to verification"
+    },
+    {
+      "repository_url": "https://github.com/RichardLaBrecque/hex_ship",
+      "candidate_ids": [
+        "G-076"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/RichardLaBrecque/hex_ship/blob/103090f487aa616b0c53851ee97d1c5e9c7a6b28/README.md#L8",
+          "observed_at_utc": "2026-10-24T21:59:13Z"
+        }
+      ],
+      "commit_sha": null,
+      "tag": null,
+      "license": null,
+      "status": "Reported source repository; metadata subject to verification"
+    },
+    {
+      "repository_url": "https://github.com/AqukinnMaster-svg/shuttle-rush",
+      "candidate_ids": [
+        "G-077"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/AqukinnMaster-svg/shuttle-rush/blob/adede22ad404d50dd7e1b1dd2bf6d4cc2ee1ceda/README.md#L5",
+          "observed_at_utc": "2026-10-24T21:59:14Z"
+        }
+      ],
+      "commit_sha": null,
+      "tag": null,
+      "license": null,
+      "status": "Reported source repository; metadata subject to verification"
+    },
+    {
+      "repository_url": "https://github.com/gabrielamidon8-sys/RiversOfRust",
+      "candidate_ids": [
+        "G-078"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/gabrielamidon8-sys/RiversOfRust/blob/4432b70f46bfb6c4544644aa3716531e98f3c08d/README.md#L81",
+          "observed_at_utc": "2026-10-24T21:59:14Z"
+        }
+      ],
+      "commit_sha": null,
+      "tag": null,
+      "license": null,
+      "status": "Reported source repository; metadata subject to verification"
+    },
+    {
+      "repository_url": "https://github.com/adong/sky-guard-tt",
+      "candidate_ids": [
+        "G-079"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/adong/sky-guard-tt/blob/a23434193d33b8d7c267387602d3b6ba6e277ec1/README.md#L12",
+          "observed_at_utc": "2026-10-24T21:59:14Z"
+        }
+      ],
+      "commit_sha": null,
+      "tag": null,
+      "license": null,
+      "status": "Reported source repository; metadata subject to verification"
+    },
+    {
+      "repository_url": "https://github.com/adong/paper-route-tt",
+      "candidate_ids": [
+        "G-080"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/adong/paper-route-tt/blob/54fa1ad2b64f3a66bbb231eda93dc7182d6ae0b6/README.md#L10",
+          "observed_at_utc": "2026-10-24T21:59:15Z"
+        }
+      ],
+      "commit_sha": null,
+      "tag": null,
+      "license": null,
+      "status": "Reported source repository; metadata subject to verification"
+    },
+    {
+      "repository_url": "https://github.com/adong/fence-builder-tt",
+      "candidate_ids": [
+        "G-081"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/adong/fence-builder-tt/blob/d8b692c0ee8775242df3a125137ce1e40c9c4995/README.md#L12",
+          "observed_at_utc": "2026-10-24T21:59:15Z"
+        }
+      ],
+      "commit_sha": null,
+      "tag": null,
+      "license": null,
+      "status": "Reported source repository; metadata subject to verification"
+    },
+    {
+      "repository_url": "https://github.com/adong/bubble-shooter-tt",
+      "candidate_ids": [
+        "G-082"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/adong/bubble-shooter-tt/blob/6b61189e48c72708ac71bb8b8f824069f5af337c/README.md#L12",
+          "observed_at_utc": "2026-10-24T21:59:16Z"
+        }
+      ],
+      "commit_sha": null,
+      "tag": null,
+      "license": null,
+      "status": "Reported source repository; metadata subject to verification"
+    },
+    {
+      "repository_url": "https://github.com/adong/treasure-runner-tt",
+      "candidate_ids": [
+        "G-083"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/adong/treasure-runner-tt/blob/fac8ca520e3c3d764c9ab5106c2615d69eaeddc3/README.md#L10",
+          "observed_at_utc": "2026-10-24T21:59:16Z"
+        }
+      ],
+      "commit_sha": null,
+      "tag": null,
+      "license": null,
+      "status": "Reported source repository; metadata subject to verification"
+    },
+    {
+      "repository_url": "https://github.com/adong/burger-stack-tt",
+      "candidate_ids": [
+        "G-084"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/adong/burger-stack-tt/blob/9f461d2ed7e40f389ecc2ed58b9069407062e416/README.md#L10",
+          "observed_at_utc": "2026-10-24T21:59:17Z"
+        }
+      ],
+      "commit_sha": null,
+      "tag": null,
+      "license": null,
+      "status": "Reported source repository; metadata subject to verification"
+    },
+    {
+      "repository_url": "https://github.com/adong/cube-hop-tt",
+      "candidate_ids": [
+        "G-085"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/adong/cube-hop-tt/blob/d165abc19763c53cb8df85220e8d0782836814e1/README.md#L12",
+          "observed_at_utc": "2026-10-24T21:59:17Z"
+        }
+      ],
+      "commit_sha": null,
+      "tag": null,
+      "license": null,
+      "status": "Reported source repository; metadata subject to verification"
+    },
+    {
+      "repository_url": "https://github.com/adong/digger-tt",
+      "candidate_ids": [
+        "G-086"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/adong/digger-tt/blob/168e54272997395d921932c76df033c301eec62d/README.md#L10",
+          "observed_at_utc": "2026-10-24T21:59:17Z"
+        }
+      ],
+      "commit_sha": null,
+      "tag": null,
+      "license": null,
+      "status": "Reported source repository; metadata subject to verification"
+    },
+    {
+      "repository_url": "https://github.com/adong/barrel-climb-tt",
+      "candidate_ids": [
+        "G-087"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/adong/barrel-climb-tt/blob/f72a21cd5c5fe04a746fd88b51495fa02a0e3063/README.md#L12",
+          "observed_at_utc": "2026-10-24T21:59:18Z"
+        }
+      ],
+      "commit_sha": null,
+      "tag": null,
+      "license": null,
+      "status": "Reported source repository; metadata subject to verification"
+    },
+    {
+      "repository_url": "https://github.com/adong/star-defenders-tt",
+      "candidate_ids": [
+        "G-090"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/adong/star-defenders-tt/blob/f4b1fd99911013eb4a3347f949363dcd1d030969/README.md#L12",
+          "observed_at_utc": "2026-10-24T21:59:19Z"
+        }
+      ],
+      "commit_sha": null,
+      "tag": null,
+      "license": null,
+      "status": "Reported source repository; metadata subject to verification"
+    },
+    {
+      "repository_url": "https://github.com/liuqingqing031122/case-files",
+      "candidate_ids": [
+        "G-069"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/liuqingqing031122/case-files/blob/1d3b0f5d243f13ad6be4becdf4927980589e95cd/README.md#L140",
+          "observed_at_utc": "2026-10-24T21:59:43Z"
+        }
+      ],
+      "commit_sha": null,
+      "tag": null,
+      "license": null,
+      "status": "Reported source repository; metadata subject to verification"
+    },
+    {
+      "repository_url": "https://github.com/bdemann/colcannon-fodder",
+      "candidate_ids": [
+        "G-093"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/bdemann/colcannon-fodder/blob/6c1551b160d42093902fba9605623722d3d654e0/README.md#L164",
+          "observed_at_utc": "2026-10-24T22:00:17Z"
+        }
+      ],
+      "commit_sha": null,
+      "tag": null,
+      "license": null,
+      "status": "Reported source repository; metadata subject to verification"
+    },
+    {
+      "repository_url": "https://github.com/cucuking/axiom-tinker-filter",
+      "candidate_ids": [
+        "M-107"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/cucuking/axiom-tinker-filter/blob/v1.0.0/README.md#L10",
+          "observed_at_utc": "2026-10-24T22:00:57Z"
+        }
+      ],
+      "commit_sha": null,
+      "tag": null,
+      "license": null,
+      "status": "Reported source repository; metadata subject to verification"
+    },
+    {
+      "repository_url": "https://github.com/Kojodeonair/minecraft-music-player",
+      "candidate_ids": [
+        "M-108"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/Kojodeonair/minecraft-music-player/blob/v1.0.0/README.md#L5",
+          "observed_at_utc": "2026-10-24T22:00:57Z"
+        }
+      ],
+      "commit_sha": null,
+      "tag": null,
+      "license": null,
+      "status": "Reported source repository; metadata subject to verification"
+    },
+    {
+      "repository_url": "https://github.com/Fisupala/XaeroUnfair",
+      "candidate_ids": [
+        "M-109"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/Fisupala/XaeroUnfair/blob/v1.0.0%2B26.3/README.md#L42",
+          "observed_at_utc": "2026-10-24T22:00:57Z"
+        }
+      ],
+      "commit_sha": null,
+      "tag": null,
+      "license": null,
+      "status": "Reported source repository; metadata subject to verification"
+    },
+    {
+      "repository_url": "https://github.com/Shanque123/optical-mirrors-1.0-minecraft-mod-for-1.21.11-",
+      "candidate_ids": [
+        "M-110"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/Shanque123/optical-mirrors-1.0-minecraft-mod-for-1.21.11-/blob/Minecraft/README.md#L10",
+          "observed_at_utc": "2026-10-24T22:00:58Z"
+        }
+      ],
+      "commit_sha": null,
+      "tag": null,
+      "license": null,
+      "status": "Reported source repository; metadata subject to verification"
+    },
+    {
+      "repository_url": "https://github.com/wuliaoppx/Net-Music-Plus",
+      "candidate_ids": [
+        "M-111"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/wuliaoppx/Net-Music-Plus/blob/build-2026-10-23/README.md#L9",
+          "observed_at_utc": "2026-10-24T22:00:58Z"
+        }
+      ],
+      "commit_sha": null,
+      "tag": null,
+      "license": null,
+      "status": "Reported source repository; metadata subject to verification"
+    },
+    {
+      "repository_url": "https://github.com/Zagrthos/TF3-DRPC",
+      "candidate_ids": [
+        "M-112"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/Zagrthos/TF3-DRPC/blob/v0.1.0/README.md#L217",
+          "observed_at_utc": "2026-10-24T22:00:58Z"
+        }
+      ],
+      "commit_sha": null,
+      "tag": null,
+      "license": null,
+      "status": "Reported source repository; metadata subject to verification"
+    },
+    {
+      "repository_url": "https://github.com/kaitosan135/SilverFallsFreezeFix",
+      "candidate_ids": [
+        "M-113"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/kaitosan135/SilverFallsFreezeFix/blob/Release/README.md#L1",
+          "observed_at_utc": "2026-10-24T22:00:59Z"
+        }
+      ],
+      "commit_sha": null,
+      "tag": null,
+      "license": null,
+      "status": "Reported source repository; metadata subject to verification"
+    },
+    {
+      "repository_url": "https://github.com/Minihercules317/particle-filter",
+      "candidate_ids": [
+        "M-114"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/Minihercules317/particle-filter/blob/v1.1.0/README.md#L21",
+          "observed_at_utc": "2026-10-24T22:07:18Z"
+        }
+      ],
+      "commit_sha": null,
+      "tag": null,
+      "license": null,
+      "status": "Reported source repository; metadata subject to verification"
+    },
+    {
+      "repository_url": "https://github.com/hammerill/gtaiv-fpv",
+      "candidate_ids": [
+        "M-115"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/hammerill/gtaiv-fpv/blob/build-6/README.md#L187",
+          "observed_at_utc": "2026-10-24T22:07:18Z"
+        }
+      ],
+      "commit_sha": null,
+      "tag": null,
+      "license": null,
+      "status": "Reported source repository; metadata subject to verification"
+    },
+    {
+      "repository_url": "https://github.com/s00d/villager-life",
+      "candidate_ids": [
+        "M-116"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/s00d/villager-life/blob/1.0.0/README.md#L120",
+          "observed_at_utc": "2026-10-24T22:07:19Z"
+        }
+      ],
+      "commit_sha": null,
+      "tag": null,
+      "license": null,
+      "status": "Reported source repository; metadata subject to verification"
+    },
+    {
+      "repository_url": "https://github.com/GrabowMar/Boscali-Summer",
+      "candidate_ids": [
+        "M-117"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/GrabowMar/Boscali-Summer/blob/v0.2.8-alpha/README.md#L479",
+          "observed_at_utc": "2026-10-24T22:07:19Z"
+        }
+      ],
+      "commit_sha": null,
+      "tag": null,
+      "license": null,
+      "status": "Reported source repository; metadata subject to verification"
+    },
+    {
+      "repository_url": "https://github.com/cehinds/AshenSpire",
+      "candidate_ids": [
+        "G-095"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/cehinds/AshenSpire/blob/712b19ae5d447060ad6291af43d2745aedcc8a9d/README.md#L16",
+          "observed_at_utc": "2026-10-24T22:12:54Z"
+        }
+      ],
+      "commit_sha": null,
+      "tag": null,
+      "license": null,
+      "status": "Reported source repository; metadata subject to verification"
+    },
+    {
+      "repository_url": "https://github.com/tuitamogamer-gpt/dota-kids",
+      "candidate_ids": [
+        "G-096"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/tuitamogamer-gpt/dota-kids/blob/7a0e4657f0fabbfa079ed36c8f3db7549e8f78db/README.md#L298",
+          "observed_at_utc": "2026-10-24T22:12:54Z"
+        }
+      ],
+      "commit_sha": null,
+      "tag": null,
+      "license": null,
+      "status": "Reported source repository; metadata subject to verification"
+    },
+    {
+      "repository_url": "https://github.com/aprofrudd/physquest",
+      "candidate_ids": [
+        "G-098"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/aprofrudd/physquest/blob/739b34190b739bd1e2b3bf10114cad898f19ffaf/README.md#L89",
+          "observed_at_utc": "2026-10-24T22:12:55Z"
+        }
+      ],
+      "commit_sha": null,
+      "tag": null,
+      "license": null,
+      "status": "Reported source repository; metadata subject to verification"
+    },
+    {
+      "repository_url": "https://github.com/ealdent/the-grove",
+      "candidate_ids": [
+        "G-099"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/ealdent/the-grove/blob/caa8e5ed5bfdeef0cf819b2bd7952606048b03b8/README.md#L3",
+          "observed_at_utc": "2026-10-24T22:12:56Z"
+        }
+      ],
+      "commit_sha": null,
+      "tag": null,
+      "license": null,
+      "status": "Reported source repository; metadata subject to verification"
+    },
+    {
+      "repository_url": "https://github.com/core-calmdust/aicoding",
+      "candidate_ids": [
+        "G-100"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://github.com/core-calmdust/aicoding/blob/6a5619caa0b344b0a981b84d3684f508012b831d/README.md#L3",
+          "observed_at_utc": "2026-10-24T22:12:56Z"
+        }
+      ],
+      "commit_sha": null,
+      "tag": null,
+      "license": null,
+      "status": "Reported source repository; metadata subject to verification"
+    },
+    {
+      "repository_url": "https://github.com/modclaim/quickcast-pvp",
+      "candidate_ids": [
+        "M-066"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://modrinth.com/mod/quickcast-pvp",
+          "observed_at_utc": "2026-10-24T21:34:12Z"
+        }
+      ],
+      "commit_sha": null,
+      "tag": null,
+      "license": null,
+      "status": "Reported source repository; metadata subject to verification"
+    },
+    {
+      "repository_url": "https://github.com/pmarinroig/sharedworld",
+      "candidate_ids": [
+        "M-067"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://modrinth.com/mod/sharedworld",
+          "observed_at_utc": "2026-10-24T21:34:12Z"
+        }
+      ],
+      "commit_sha": null,
+      "tag": null,
+      "license": null,
+      "status": "Reported source repository; metadata subject to verification"
+    },
+    {
+      "repository_url": "https://github.com/GodlyCow203/EssentialsC",
+      "candidate_ids": [
+        "M-068"
+      ],
+      "discovery_sources": [
+        {
+          "url": "https://modrinth.com/mod/essentialsc",
+          "observed_at_utc": "2026-10-24T21:34:12Z"
+        }
+      ],
+      "commit_sha": null,
+      "tag": null,
+      "license": null,
+      "status": "Reported source repository; metadata subject to verification"
+    }
+  ]
+}
